@@ -1,0 +1,22 @@
+// Help Center
+
+@import "font-awesome/font-awesome";
+@import 'core/variables';
+@import 'base/variables';
+@import 'base/utilities';
+@import 'element/typography';
+
+
+.usajobs-help-center {
+
+}
+
+.usajobs-help-center-search {
+  padding: $size-default;
+  background-color: $color-primary-darkest;
+
+  &__title {
+    margin-top: 0;
+    color: $color-white;
+  }
+}

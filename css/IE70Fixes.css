@@ -1,0 +1,97 @@
+/* 7.0 - only fixes */
+/* content area */
+/* workaround for various ie float bugs */
+
+/* This bit is needed to make links clickable... WTF */
+div#column-content .mw-body {
+	margin-left: 12.2em;
+	margin-top: 3em;
+	height: 1%;
+}
+
+.rtl div#column-content .mw-body {
+	margin-right: 12.2em;
+	margin-left: 0;
+}
+
+.rtl div#column-one {
+	/* For some reason it tries to inherit the padding-top into every div,
+	 * and I can't figure out how to get it back off.
+	 * Margin works correctly for this use, though.
+	 */
+	padding-top: 0;
+	margin-top: 160px;
+}
+
+/* These elements also have padding-left: 20px; in main.css, but in RTL mode this is flipped.
+ * That's good in normal browsers, but in IE7 it needs to not be flipped for some daft reason.
+ * Also clear the right margin (originally margin-left: 1em)
+ */
+li#pt-userpage, li#pt-anonuserpage, li#pt-login {
+	padding-left: 20px;
+	margin-right: 0;
+}
+
+.rtl a.feedlink {
+	background-position: right;
+	padding-right: 0;
+	padding-left: 16px;
+}
+
+/* the tabs */
+
+#p-cactions {
+	z-index: 3;
+}
+
+#p-cactions li {
+	padding-bottom: 0 !important;
+	border: none;
+	background-color: transparent;
+	cursor: default;
+	float: none !important;
+}
+
+#p-cactions li a {
+	display: inline-block !important;
+	vertical-align: top;
+	padding-bottom: 0;
+	border: solid #aaa;
+	border-width: 1px 1px 0;
+}
+
+#p-cactions li.selected a {
+	border-color: #fabd23;
+	padding-bottom: 0.17em;
+}
+
+#p-cactions li a:hover {
+	padding-bottom: 0.17em;
+}
+
+#p-navigation a {
+	display: inline-block;
+	width: 100%;
+}
+
+#portal-personaltools {
+	padding-bottom: 0.1em;
+}
+
+textarea {
+	width: 96%;
+}
+
+/*
+#catlinks,
+div.tright,
+div.tleft {
+	position: relative;
+}
+*/
+
+div#footer li {
+	/* Work around bug with inline <li> tags with right margins and nowrap */
+	margin-right: 0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIklFNzBGaXhlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsc0JBQXNCO0FBQ3RCLGtCQUFrQjtBQUNsQiwwQ0FBMEM7O0FBRTFDLHVEQUF1RDtBQUN2RDtDQUNDLG9CQUFvQjtDQUNwQixnQkFBZ0I7Q0FDaEIsV0FBVztDQUNYOztBQUVEO0NBQ0MscUJBQXFCO0NBQ3JCLGVBQWU7Q0FDZjs7QUFFRDtDQUNDOzs7SUFHRztDQUNILGVBQWU7Q0FDZixrQkFBa0I7Q0FDbEI7O0FBRUQ7OztHQUdHO0FBQ0g7Q0FDQyxtQkFBbUI7Q0FDbkIsZ0JBQWdCO0NBQ2hCOztBQUVEO0NBQ0MsMkJBQTJCO0NBQzNCLGlCQUFpQjtDQUNqQixtQkFBbUI7Q0FDbkI7O0FBRUQsY0FBYzs7QUFFZDtDQUNDLFdBQVc7Q0FDWDs7QUFFRDtDQUNDLDZCQUE2QjtDQUM3QixhQUFhO0NBQ2IsOEJBQThCO0NBQzlCLGdCQUFnQjtDQUNoQix1QkFBdUI7Q0FDdkI7O0FBRUQ7Q0FDQyxpQ0FBaUM7Q0FDakMsb0JBQW9CO0NBQ3BCLGtCQUFrQjtDQUNsQixtQkFBbUI7Q0FDbkIsd0JBQXdCO0NBQ3hCOztBQUVEO0NBQ0Msc0JBQXNCO0NBQ3RCLHVCQUF1QjtDQUN2Qjs7QUFFRDtDQUNDLHVCQUF1QjtDQUN2Qjs7QUFFRDtDQUNDLHNCQUFzQjtDQUN0QixZQUFZO0NBQ1o7O0FBRUQ7Q0FDQyxzQkFBc0I7Q0FDdEI7O0FBRUQ7Q0FDQyxXQUFXO0NBQ1g7O0FBRUQ7Ozs7OztFQU1FOztBQUVGO0NBQ0MseUVBQXlFO0NBQ3pFLGdCQUFnQjtDQUNoQiIsImZpbGUiOiJJRTcwRml4ZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogNy4wIC0gb25seSBmaXhlcyAqL1xuLyogY29udGVudCBhcmVhICovXG4vKiB3b3JrYXJvdW5kIGZvciB2YXJpb3VzIGllIGZsb2F0IGJ1Z3MgKi9cblxuLyogVGhpcyBiaXQgaXMgbmVlZGVkIHRvIG1ha2UgbGlua3MgY2xpY2thYmxlLi4uIFdURiAqL1xuZGl2I2NvbHVtbi1jb250ZW50IC5tdy1ib2R5IHtcblx0bWFyZ2luLWxlZnQ6IDEyLjJlbTtcblx0bWFyZ2luLXRvcDogM2VtO1xuXHRoZWlnaHQ6IDElO1xufVxuXG4ucnRsIGRpdiNjb2x1bW4tY29udGVudCAubXctYm9keSB7XG5cdG1hcmdpbi1yaWdodDogMTIuMmVtO1xuXHRtYXJnaW4tbGVmdDogMDtcbn1cblxuLnJ0bCBkaXYjY29sdW1uLW9uZSB7XG5cdC8qIEZvciBzb21lIHJlYXNvbiBpdCB0cmllcyB0byBpbmhlcml0IHRoZSBwYWRkaW5nLXRvcCBpbnRvIGV2ZXJ5IGRpdixcblx0ICogYW5kIEkgY2FuJ3QgZmlndXJlIG91dCBob3cgdG8gZ2V0IGl0IGJhY2sgb2ZmLlxuXHQgKiBNYXJnaW4gd29ya3MgY29ycmVjdGx5IGZvciB0aGlzIHVzZSwgdGhvdWdoLlxuXHQgKi9cblx0cGFkZGluZy10b3A6IDA7XG5cdG1hcmdpbi10b3A6IDE2MHB4O1xufVxuXG4vKiBUaGVzZSBlbGVtZW50cyBhbHNvIGhhdmUgcGFkZGluZy1sZWZ0OiAyMHB4OyBpbiBtYWluLmNzcywgYnV0IGluIFJUTCBtb2RlIHRoaXMgaXMgZmxpcHBlZC5cbiAqIFRoYXQncyBnb29kIGluIG5vcm1hbCBicm93c2VycywgYnV0IGluIElFNyBpdCBuZWVkcyB0byBub3QgYmUgZmxpcHBlZCBmb3Igc29tZSBkYWZ0IHJlYXNvbi5cbiAqIEFsc28gY2xlYXIgdGhlIHJpZ2h0IG1hcmdpbiAob3JpZ2luYWxseSBtYXJnaW4tbGVmdDogMWVtKVxuICovXG5saSNwdC11c2VycGFnZSwgbGkjcHQtYW5vbnVzZXJwYWdlLCBsaSNwdC1sb2dpbiB7XG5cdHBhZGRpbmctbGVmdDogMjBweDtcblx0bWFyZ2luLXJpZ2h0OiAwO1xufVxuXG4ucnRsIGEuZmVlZGxpbmsge1xuXHRiYWNrZ3JvdW5kLXBvc2l0aW9uOiByaWdodDtcblx0cGFkZGluZy1yaWdodDogMDtcblx0cGFkZGluZy1sZWZ0OiAxNnB4O1xufVxuXG4vKiB0aGUgdGFicyAqL1xuXG4jcC1jYWN0aW9ucyB7XG5cdHotaW5kZXg6IDM7XG59XG5cbiNwLWNhY3Rpb25zIGxpIHtcblx0cGFkZGluZy1ib3R0b206IDAgIWltcG9ydGFudDtcblx0Ym9yZGVyOiBub25lO1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcblx0Y3Vyc29yOiBkZWZhdWx0O1xuXHRmbG9hdDogbm9uZSAhaW1wb3J0YW50O1xufVxuXG4jcC1jYWN0aW9ucyBsaSBhIHtcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrICFpbXBvcnRhbnQ7XG5cdHZlcnRpY2FsLWFsaWduOiB0b3A7XG5cdHBhZGRpbmctYm90dG9tOiAwO1xuXHRib3JkZXI6IHNvbGlkICNhYWE7XG5cdGJvcmRlci13aWR0aDogMXB4IDFweCAwO1xufVxuXG4jcC1jYWN0aW9ucyBsaS5zZWxlY3RlZCBhIHtcblx0Ym9yZGVyLWNvbG9yOiAjZmFiZDIzO1xuXHRwYWRkaW5nLWJvdHRvbTogMC4xN2VtO1xufVxuXG4jcC1jYWN0aW9ucyBsaSBhOmhvdmVyIHtcblx0cGFkZGluZy1ib3R0b206IDAuMTdlbTtcbn1cblxuI3AtbmF2aWdhdGlvbiBhIHtcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xuXHR3aWR0aDogMTAwJTtcbn1cblxuI3BvcnRhbC1wZXJzb25hbHRvb2xzIHtcblx0cGFkZGluZy1ib3R0b206IDAuMWVtO1xufVxuXG50ZXh0YXJlYSB7XG5cdHdpZHRoOiA5NiU7XG59XG5cbi8qXG4jY2F0bGlua3MsXG5kaXYudHJpZ2h0LFxuZGl2LnRsZWZ0IHtcblx0cG9zaXRpb246IHJlbGF0aXZlO1xufVxuKi9cblxuZGl2I2Zvb3RlciBsaSB7XG5cdC8qIFdvcmsgYXJvdW5kIGJ1ZyB3aXRoIGlubGluZSA8bGk+IHRhZ3Mgd2l0aCByaWdodCBtYXJnaW5zIGFuZCBub3dyYXAgKi9cblx0bWFyZ2luLXJpZ2h0OiAwO1xufVxuIl19 */
