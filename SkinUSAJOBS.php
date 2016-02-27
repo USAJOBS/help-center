@@ -30,15 +30,16 @@
  */
 class SkinUSAJOBS extends SkinTemplate {
 	/** Using USAJOBS. */
-	public $skinname = 'usajobs';
-	public $stylename = 'USAJOBS';
-	public $template = 'USAJOBSTemplate';
+	public $skinname = 'usajobs', $stylename = 'USAJOBS',
+				 $template = 'USAJOBSTemplate', $useHeadElement = true;
 
 	/**
-	 * @param OutputPage $out
+	 * Add CSS via ResourceLoader
+	 *
+	 * @param $out OutputPage
 	 */
-	function setupSkinUserCss( OutputPage $out ) {
-		parent::setupSkinUserCss( $out );
+	public function initPage( OutputPage $out ) {
+		$out->addMeta( 'viewport', 'width=device-width, initial-scale=1.0' );
 
 		$out->addModuleStyles( array(
 			'mediawiki.skinning.interface',
@@ -46,8 +47,17 @@ class SkinUSAJOBS extends SkinTemplate {
 			'skins.usajobs.styles'
 		) );
 
-		// TODO: Migrate all of these
-		$out->addStyle( $this->stylename . 'css/IE60Fixes.css', 'screen', 'IE 6' );
-		$out->addStyle( $this->stylename . 'css/IE70Fixes.css', 'screen', 'IE 7' );
+		$out->addModules( array(
+			'skins.usajobs.scripts'
+		) );
+
 	}
+
+	/**
+	 * @param $out OutputPage
+	 */
+	function setupSkinUserCss( OutputPage $out ) {
+		parent::setupSkinUserCss( $out );
+	}
+
 }

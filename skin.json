@@ -40,8 +40,8 @@
 		"skins.usajobs.scripts": {
 			"position": "bottom",
 			"scripts": [
-				"js/usajobs-design-system-base.js",
-				"js/usajobs-design-system-components.js"
+				"library/js/usajobs-design-system-base.js",
+				"library/js/usajobs-design-system-components.js"
 			]
 		}
 	},
