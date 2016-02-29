@@ -1,0 +1,44 @@
+# Markdown config
+markdown: redcarpet
+highlighter: pygments
+name: USAJOBS American Discovery Trail
+subtitle: A project to make it easier and faster to find and apply to federal jobs.
+exclude:
+- Gemfile
+- Gemfile.lock
+- Gruntfile.js
+- package.json
+- README.md
+- LICENSE.md
+- CONTRIBUTING.md
+- ".sass-cache"
+- ".ruby-version"
+- npm-debug.log
+- node_modules
+- library
+keep_files: ['css', 'js']
+
+# Setting a unique port number
+port: 4001
+
+baseurl: '/help-center'
+destination: ./_site
+
+permalink: pretty
+
+author:
+  name: USAJOBS
+  url: https://usajobs.github.io/
+
+repository:
+  name: Help Center
+  url: https://github.com/USAJOBS/help-center/
+
+# google_analytics_ua: UA-48605964-33
+
+how-to-cats: [Account, Application, Search, Misc]
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/

@@ -11,28 +11,37 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    // shell commands for use in Grunt tasks
+    shell: {
+      jekyllBuild: {
+        command: 'bundle exec jekyll build'
+      },
+      jekyllServe: {
+        command: "bundle exec jekyll serve --baseurl ''"
+      }
+    },
     sass: {
       dist: {
         options: {
           sourceMap: true,
           relativeAssets: false,
           outputStyle: 'expanded',
-          sassDir: 'scss',
+          sassDir: '_scss',
           cssDir: 'css',
           includePaths: [
             'library/library/assets/_scss/',
             'library/_scss/',
-            'scss/'
+            '_scss/'
           ],
         },
         files: [
           {
-            src: 'scss/help-center.scss',
+            src: '_scss/help-center.scss',
             dest: 'css/usajobs-help-center.css'
           },
           {
             expand: true,
-            cwd: 'scss/layouts/',
+            cwd: '_scss/layouts/',
             src: '*.scss',
             dest: 'css/layouts/',
             ext: '.css'
@@ -61,21 +70,32 @@ module.exports = function(grunt) {
     cssmin: {
       minify: {
         src: [
-          'css/usajobs-design-system-base.css',
-          'css/usajobs-design-system-components.css',
-          'css/layouts/*.css'
+          'library/css/usajobs-design-system-base.css',
+          'library/css/usajobs-design-system-components.css'
         ],
         dest: 'css/usajobs-design-system.min.css'
+      }
+    },
+    concat: {
+      all: {
+        src: [
+          'library/js/usajobs-design-system-base.js',
+          'library/js/usajobs-design-system-components.js',
+          'js/components/*.js'
+        ],
+        dest: 'js/usajobs-help-center.js'
       }
     },
     jshint: {
       jshintrc: true,
       all: [
         'Gruntfile.js',
-        'js/**/*.js',
+        'js/components/*.js',
         '!js/vendor/*.js',
-        '!js/usajobs-design-system-base.js',
-        '!js/usajobs-design-system-components.js'
+        '!js/usajobs-help-center.js'
+      ],
+      components: [
+        'js/components/*.js'
       ],
       gruntfile: 'Gruntfile.js'
     },
@@ -93,7 +113,7 @@ module.exports = function(grunt) {
       },
       sass: {
         files: [
-          'scss/**/*.scss'
+          '_scss/**/*.scss'
         ],
         tasks: ['sass'],
         options: {
@@ -108,27 +128,29 @@ module.exports = function(grunt) {
           '!js/usajobs-design-system-components.js',
           '!js/usajobs-design-system-documentation.js'
         ],
-        tasks: ['jshint:all', 'concat'],
+        tasks: ['jshint:all', 'concat:all'],
+        options: {
+          debounceDelay: 250,
+          livereload: true
+        }
+      },
+      components: {
+        files: [
+          'js/components/*.js'
+        ],
+        tasks: ['jshint:components', 'concat:all'],
         options: {
           debounceDelay: 250,
           livereload: true
         }
       }
     },
-    banana: {
-      all: 'i18n/'
-    },
-    jsonlint: {
-      all: [
-        '**/*.json',
-        '!node_modules/**'
-      ]
-    },
     // run tasks in parallel
     concurrent: {
       serve: [
         'sass',
-        'watch'
+        'watch',
+        'shell:jekyllServe'
       ],
       options: {
         logConcurrentOutput: true
@@ -136,7 +158,8 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('default', ['css', 'watch']);
-  grunt.registerTask('build', ['jsonlint', 'css']);
+  grunt.registerTask('serve', ['concurrent:serve']);
+  grunt.registerTask('build', ['shell:jekyllBuild', 'css', 'js']);
   grunt.registerTask('css', ['sass', 'autoprefixer', 'cssmin']);
+  grunt.registerTask('js', ['jshint:all', 'concat']);
 };
