@@ -1,5 +1,4 @@
 # Markdown config
-markdown: redcarpet
 highlighter: pygments
 name: USAJOBS American Discovery Trail
 subtitle: A project to make it easier and faster to find and apply to federal jobs.
