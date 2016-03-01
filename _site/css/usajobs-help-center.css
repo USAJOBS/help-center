@@ -4555,29 +4555,18 @@ h6 {
   margin-bottom: 1.5rem;
 }
 
-@media screen and (min-width: 48em) {
-  .usajobs-help-center-search-banner__title {
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  .usajobs-help-center-search-banner .usa-search {
-    float: right;
-    width: 88%;
-  }
-}
-
-@media screen and (min-width: 62em) {
-  .usajobs-help-center-search-banner .usa-search {
-    width: 80%;
-  }
+.usajobs-help-center-search-banner .usa-search {
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 3rem;
 }
 
 .usajobs-help-center__home-link {
   display: block;
   padding: 1.5rem;
   text-align: center;
+  color: #112e51;
 }
 
 .usajobs-help-center__home-link:hover {
@@ -4585,7 +4574,7 @@ h6 {
 }
 
 .usajobs-help-center__home-link:visited {
-  color: #0071bc;
+  color: #112e51;
 }
 
 .usajobs-help-center__home-link .fa {
@@ -4601,6 +4590,44 @@ h6 {
   margin-top: 1.5rem;
   font-size: 24px;
   font-size: 2.4rem;
+  color: #5b616b;
+}
+
+.usajobs-help-center-landing,
+.usajobs-help-center-singleton {
+  margin-bottom: 7.5rem;
+}
+
+.usajobs-help-center-landing__link-list,
+.usajobs-help-center-singleton__link-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 3rem;
+}
+
+.usajobs-help-center-landing__link-list li,
+.usajobs-help-center-singleton__link-list li {
+  display: list-item;
+  margin: 0;
+}
+
+.usajobs-help-center-landing__link-list li:before,
+.usajobs-help-center-singleton__link-list li:before {
+  display: none;
+}
+
+.usajobs-help-center-landing__link-list li:after,
+.usajobs-help-center-singleton__link-list li:after {
+  display: none;
+}
+
+.usajobs-help-center-landing__link-list a,
+.usajobs-help-center-singleton__link-list a {
+  display: block;
+  padding: 1rem 0;
+  font-size: 19px;
 }
 
 /*# sourceMappingURL=usajobs-help-center.css.map */

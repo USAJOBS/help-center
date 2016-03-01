@@ -14,13 +14,14 @@
     display: block;
     padding: $size-default;
     text-align: center;
+    color: $color-primary-darkest;
 
     &:hover {
       text-decoration: none;
     }
 
     &:visited {
-      color: $color-primary;
+      color: $color-primary-darkest;
     }
 
     .fa {
@@ -32,8 +33,21 @@
 
 .usajobs-help-center__lead {
   @include h3();
+  color: $color-gray;
 }
 
 .usajobs-help-center-landing,
 .usajobs-help-center-singleton {
+  margin-bottom: $size-XXL;
+
+  &__link-list {
+    @include unstyledList();
+    margin-bottom: $size-M;
+
+    a {
+      display: block;
+      padding: $size-S 0;
+      font-size: $h4-font-size;
+    }
+  }
 }

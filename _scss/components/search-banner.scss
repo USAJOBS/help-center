@@ -28,18 +28,18 @@
     margin-bottom: $size-default;
 
     @include media($ML) {
-      text-align: center;
     }
   }
 
   .usa-search {
-    // TODO: Fix this nonsense so that it centers properly.
-    @include media($ML) {
-      float: right;
-      width: 88%;
-    }
-    @include media($L) {
-      width: 80%;
+    max-width: $site-max-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 $size-M;
+
+    input[type=search] {
+      @include media($ML) {
+      }
     }
   }
 }
