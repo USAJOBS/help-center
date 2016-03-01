@@ -1,5 +1,5 @@
 # Markdown config
-highlighter: pygments
+highlighter: rouge
 name: USAJOBS American Discovery Trail
 subtitle: A project to make it easier and faster to find and apply to federal jobs.
 exclude:
