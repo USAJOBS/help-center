@@ -1,5 +1,5 @@
 ---
-permalink: how-to/search/basic/
+permalink: /how-to/search/basic/
 layout: article
 title: Basic Search
 category: Search

@@ -20,3 +20,9 @@
     color: $color-white;
   }
 }
+
+.usajobs-help-center-landing {
+  &__lead {
+    @include h3();
+  }
+}

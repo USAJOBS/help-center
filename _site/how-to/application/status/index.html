@@ -37,39 +37,39 @@
     <a class="skipnav" href="#main-content">Skip main navigation</a>
     <section class="usajobs-shell">
       <section class="usajobs-canvas">
-        <header class="usajobs-site-header" role="banner">
+        <header class="usajobs-site-header" role="banner" aria-label="header">
   <div class="usa-disclaimer">
-    <span class="usajobs-disclaimer-official">
+    <div class="usa-grid usajobs-disclaimer-official">
       <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/img/us_flag_small.png">
       An official website of the United States Government
-    </span>
+    </div>
   </div>
-  <nav class="usajobs-nav--v2" role="navigation" data-object="nav">
-    <div class="usajobs-nav--v2__body">
-      <div class="usajobs-nav--v2__header-container">
-        <div class="usajobs-nav--v2__header">
-          <div class="usajobs-nav--v2__brand-container">
-            <a class="usajobs-nav--v2__brand" href="/">
+  <nav class="usajobs-nav" role="navigation" aria-label="main navigation" data-object="nav">
+    <div class="usajobs-nav__body">
+      <div class="usajobs-nav__header-container">
+        <div class="usajobs-nav__header">
+          <div class="usajobs-nav__brand-container">
+            <a class="usajobs-nav__brand" href="/">
               <img src="/img/USAJOBS_logo.png" alt="USAJOBS Logo" class="logo">
             </a>
           </div>
-          <div class="usajobs-nav--v2__menu" id="usajobs-menu">
+          <div class="usajobs-nav__menu" id="usajobs-menu">
             <ul>
-              <li class="usajobs-nav--v2__menu-container usajobs-nav--v2__account">
-                <a class="usajobs-nav--v2__section-link" href="/Applicant/MyAccount/Home" title="Account">
+              <li class="usajobs-nav__menu-container usajobs-nav__account" data-state="is-closed">
+                <a class="usajobs-nav__section-link menu-toggle" href="https://www.usajobs.gov/Applicant/MyAccount/Home/" title="Account">
                   <span class="fa fa-user"></span>
-                  <span class="usajobs-nav--v2__account_name">Sign In</span>
-                  <span class="usajobs-nav--v2__first_name">Sign In</span>
+                  <span class="usajobs-nav__account_name">Sign In</span>
+                  <span class="usajobs-nav__first_name">Sign In</span>
                 </a>
               </li>
-              <li class="usajobs-nav--v2__menu-container usajobs-nav--v2__help">
-                <a class="usajobs-nav--v2__section-link" href="http://help.sqa.usajobs.gov/index.php/Main_Page" title="Help">
+              <li class="usajobs-nav__menu-container usajobs-nav__help">
+                <a class="usajobs-nav__section-link" href="" title="Help">
                   <span class="fa fa-question-circle"></span>
                   Help
                 </a>
               </li>
-              <li class="usajobs-nav--v2__menu-container usajobs-nav--v2__menu-search" data-state="is-closed" data-target="#usajobs-search-form">
-                <a data-behavior="nav.menu.search-toggle" aria-haspopup="true" class="usajobs-nav--v2__section-link" href="/" title="Job Search">
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed" data-target="#usajobs-search-form-v2-alt">
+                <a data-behavior="nav.menu.search-toggle" aria-haspopup="true" class="usajobs-nav__section-link" href="/" title="Job Search">
                   <span class="fa fa-search"></span>
                   Search
                 </a>
@@ -77,25 +77,25 @@
             </ul>
           </div>
         </div>
-        <div id="usajobs-search-form" class="usajobs-nav--v2__search" aria-expanded="false" role="menu">
-          <form action="/Search" method="get" novalidate="novalidate">
+        <div id="usajobs-search-form-v2-alt" class="usajobs-nav__search" aria-expanded="false" role="menu">
+          <form action="/Search" method="get" novalidate="novalidate" role="search">
             <fieldset>
-              <div class="usajobs-nav--v2__search-keywords-container">
-                <label for="search-keyword">
-                  <i class="usajobs-nav--v2__search-keywords-icon fa fa-search"></i>
+              <div class="usajobs-nav__search-keywords-container">
+                <label for="search-keyword-v2-alt">
+                  <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
                   Keywords
                 </label>
-                <input id="search-keyword" name="search-keyword" class="usajobs-nav--v2__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="false">
+                <input id="search-keyword-v2-alt" name="search-keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="false">
               </div>
-              <div class="usajobs-nav--v2__search-location-container">
-                <label for="search-location">
-                  <i class="usajobs-nav--v2__search-location-icon fa fa-map-marker"></i>
+              <div class="usajobs-nav__search-location-container">
+                <label for="search-location-v2-alt">
+                  <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
                   Location
                 </label>
-                <input id="search-location" name="search-location" type="text" class="usajobs-nav--v2__search-location-input" placeholder="City, State, ZIP, or Country">
+                <input id="search-location-v2-alt" name="search-location" type="text" class="usajobs-nav__search-location-input" placeholder="City, State, ZIP, or Country">
               </div>
-              <div class="usajobs-nav--v2__search-button-container">
-                <button class="usa-button-big usa-button-primary-alt usajobs-nav--v2__search-button">
+              <div class="usajobs-nav__search-button-container">
+                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
                   Search
                 </button>
               </div>
@@ -156,9 +156,15 @@
               
             
               
+            
+              
+            
+              
               <li>
                 <a href="/how-to/application/status/">Application Status</a>
               </li>
+              
+            
               
             
             </ul>
@@ -210,37 +216,41 @@
           <ul class="usa-unstyled-list usa-footer-primary-content">
             <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".help-menu">Help</li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="https://help.usajobs.gov/">Help Center</a>
+              <a href="">Help Center</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="https://help.usajobs.gov/index.php/About_Us">About USAJOBS</a>
+              <a href="/about/">About USAJOBS</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
               <a href="https://my.usajobs.gov/support#Miscellaneous-Other">Contact Us</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="https://help.usajobs.gov/index.php/FAQs">FAQs</a>
+              <a href="/faq/">FAQs</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="https://help.usajobs.gov/index.php/Getting_Started">Get Started</a>
+              <a href="/get-started/">Get Started</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="https://help.usajobs.gov/index.php/How_To">How to&hellip;</a>
+              <a href="/how-to/">How to&hellip;</a>
             </li>
           </ul>
           <ul class="usa-unstyled-list usa-footer-primary-content">
-            <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".gov-menu">Working for the Government</li>
+            <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".gov-menu">Working in Government</li>
             <li class="usajobs-footer--v1__menu-item gov-menu is-hidden">
-              <a href="https://help.usajobs.gov/index.php/Working_for_the_government">Overview</a>
+              <a href="/working-in-government/">Overview</a>
             </li>
             <li class="usajobs-footer--v1__menu-item gov-menu is-hidden">
-              <a href="https://help.usajobs.gov/index.php/Pay_and_Benefits">Benefits</a>
+              <a href="/working-in-government/benefits/">Benefits</a>
             </li>
             <li class="usajobs-footer--v1__menu-item gov-menu is-hidden">
-              <a href="https://help.usajobs.gov/index.php/Pay_and_Benefits">Salary</a>
+              <a href="/working-in-government/pay_and_leave /">
+                Pay &amp; Leave
+              </a>
             </li>
             <li class="usajobs-footer--v1__menu-item gov-menu is-hidden">
-              <a href="#unique-hiring-paths">Unique Hiring Paths</a>
+              <a href="/working-in-government/unique-hiring-paths/">
+                Unique Hiring Paths
+              </a>
             </li>
           </ul>
         </div>
