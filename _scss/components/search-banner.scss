@@ -1,0 +1,46 @@
+// Search Banner
+
+@import 'lib/bourbon/bourbon';
+@import 'lib/neat/neat';
+@import "font-awesome/font-awesome";
+@import 'core/variables';
+@import 'base/variables';
+@import 'base/utilities';
+@import 'base/breakpoints';
+@import 'element/typography';
+
+.usajobs-help-center-search-banner {
+  padding: $size-default;
+  background: $color-primary-darkest;
+  background-image: url("../img/helpcenter_star.png");
+  background-image: url("../img/helpcenter_star.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+
+  @include media($ML) {
+    margin-left: auto;
+    margin-right: auto;
+    padding: $size-XL $size-M ($size-XXL + rem(44px)); // 44px = height of search bar
+  }
+
+  &__title {
+    color: $color-white;
+    margin-bottom: $size-default;
+
+    @include media($ML) {
+      text-align: center;
+    }
+  }
+
+  .usa-search {
+    // TODO: Fix this nonsense so that it centers properly.
+    @include media($ML) {
+      float: right;
+      width: 88%;
+    }
+    @include media($L) {
+      width: 80%;
+    }
+  }
+}
+

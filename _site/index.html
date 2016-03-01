@@ -60,13 +60,13 @@
                 </a>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__help">
-                <a class="usajobs-nav__section-link" href="" title="Help">
+                <a class="usajobs-nav__section-link" href="/" title="Help">
                   <span class="fa fa-question-circle"></span>
                   Help
                 </a>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed" data-target="#usajobs-search-form-v2-alt">
-                <a data-behavior="nav.menu.search-toggle" aria-haspopup="true" class="usajobs-nav__section-link" href="/" title="Job Search">
+                <a data-behavior="nav.menu.search-toggle" aria-haspopup="true" class="usajobs-nav__section-link" href="#search" title="Job Search">
                   <span class="fa fa-search"></span>
                   Search
                 </a>
@@ -75,7 +75,7 @@
           </div>
         </div>
         <div id="usajobs-search-form-v2-alt" class="usajobs-nav__search" aria-expanded="false" role="menu">
-          <form action="/Search" method="get" novalidate="novalidate" role="search">
+          <form action="/Search/" method="get" novalidate="novalidate" role="search">
             <fieldset>
               <div class="usajobs-nav__search-keywords-container">
                 <label for="search-keyword-v2-alt">
@@ -106,29 +106,57 @@
 
     <section class="usajobs-shell">
       <section class="usajobs-canvas">
+        <div class="usajobs-help-center-search-banner usajobs-grid-full">
+  <h1 class="usajobs-help-center-search-banner__title">Help Center</h1>
+  <form class="usa-search usa-search-big">
+    <div role="search">
+      <label class="usa-sr-only" for="search-help">Search</label>
+      <input id="search-help" type="search" name="search" placeholder="Search the Help Center">
+      <button type="submit">
+        <span class="usa-search-submit-text">Search</span>
+      </button>
+    </div>
+  </form>
+</div>
+
+
         <div class="usajobs-help-home usajobs-content-gutter">
           <main class="usajobs-content-well-full" id="main-content" role="main">
-            <h1>Help Center</h1>
-<h2 class="usa-font-lead">
+            <h2 class="usajobs-help-center__lead">
   Welcome to the help center for USAJOBS.
 </h2>
 <div class="usajobs-grid-full">
   <div class="usajobs-width-one-third">
-    <h2><a href="/faq/">Frequently Asked Questions</a></h2>
+    <h2>
+      <a class="usajobs-help-center__home-link" href="/faq/">
+        <div class="fa fa-question"></div>
+        FAQs
+      </a>
+    </h2>
     <p>
       Frequently asked questions on a broad range of topics related to the Federal hiring process.
     </p>
   </div>
   <div class="usajobs-width-one-third">
-    <h2><a href="/how-to/">How to&hellip;</a></h2>
+    <h2>
+      <a class="usajobs-help-center__home-link" href="/how-to/">
+        <div class="fa fa-book"></div>
+        How to&hellip;
+      </a>
+    </h2>
     <p>
       How to do any task that you need to complete on USAJOBS.
     </p>
   </div>
   <div class="usajobs-width-one-third">
-    <h2><a href="/working-in-government/">Working in Government</a></h2>
+    <h2>
+      <a class="usajobs-help-center__home-link" href="/working-in-government/">
+        <div class="fa fa-university"></div>
+        Working in Government
+      </a>
+    </h2>
     <p>
-      What is it like to work for the United States Government?
+      What is it like to work within the United States Government?
     </p>
   </div>
 </div>

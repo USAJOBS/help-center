@@ -6,24 +6,34 @@
 @import 'base/utilities';
 @import 'element/typography';
 
+// components
+@import 'components/search-banner';
 
 .usajobs-help-center {
+  &__home-link {
+    display: block;
+    padding: $size-default;
+    text-align: center;
 
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: $color-primary;
+    }
+
+    .fa {
+      display: block;
+      font-size: $h1-font-size;
+    }
+  }
 }
 
-.usajobs-help-center-search {
-  padding: $size-default;
-  background-color: $color-primary-darkest;
-
-  &__title {
-    margin-top: 0;
-    color: $color-white;
-  }
+.usajobs-help-center__lead {
+  @include h3();
 }
 
 .usajobs-help-center-landing,
 .usajobs-help-center-singleton {
-  &__lead {
-    @include h3();
-  }
 }
