@@ -21,7 +21,8 @@
   }
 }
 
-.usajobs-help-center-landing {
+.usajobs-help-center-landing,
+.usajobs-help-center-singleton {
   &__lead {
     @include h3();
   }

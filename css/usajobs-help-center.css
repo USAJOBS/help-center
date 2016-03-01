@@ -2272,7 +2272,8 @@ h6 {
   color: #ffffff;
 }
 
-.usajobs-help-center-landing__lead {
+.usajobs-help-center-landing__lead,
+.usajobs-help-center-singleton__lead {
   font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
   font-weight: 700;
   line-height: 1.3;

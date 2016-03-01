@@ -80,6 +80,7 @@ module.exports = function(grunt) {
       all: {
         src: [
           'library/js/usajobs-design-system-base.js',
+          'js/vendor/*.js',
           'library/js/usajobs-design-system-components.js',
           'js/components/*.js'
         ],
