@@ -31,6 +31,13 @@
   }
 }
 
+// Home page
+.usajobs-help-center-home {
+  @include media($XL) {
+    padding-right: 0;
+  }
+}
+
 .usajobs-help-center__lead {
   @include h3();
   color: $color-gray;
@@ -50,4 +57,32 @@
       font-size: $h4-font-size;
     }
   }
+}
+
+// Individual articles (markdown pages)
+.usajobs-help-center-article {
+  &__additional-container {
+    @include span-columns(12, 12);
+    margin: $size-M 0;
+  }
+
+  &__additional-help {
+    padding: $size-default;
+    text-align: center;
+    background-color: $color-primary-alt-lightest;
+
+    p {
+      @include h4();
+      color: $color-primary-darkest;
+
+      a {
+        font-weight: normal;
+      }
+
+      a:visited {
+        color: $color-primary;
+      }
+    }
+  }
+
 }

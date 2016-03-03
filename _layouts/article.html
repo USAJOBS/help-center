@@ -6,18 +6,13 @@
   </head>
   <body>
     <a class="skipnav" href="#main-content">Skip main navigation</a>
+    {% include components/nav-help.html %}
     <section class="usajobs-shell">
       <section class="usajobs-canvas">
-        {% include components/nav-help.html %}
-
-        <div class="usajobs-help-article usajobs-content-gutter">
+        <div class="usajobs-help-center-article usajobs-content-gutter">
           <main class="usajobs-content-well" id="main-content" role="main">
             <h1>{{ page.title }}</h1>
             {{ content }}
-
-            <div class="usajobs-help-additional">
-              Still need help? <a href="https://www.usajobs.gov/Support/">Submit a ticket</a> to the USAJOBS Support Desk.
-            </div>
           </main>
           <aside class="usajobs-rightrail">
             <h3>In this section</h3>
@@ -32,6 +27,11 @@
             </ul>
           </aside>
       </section>
+      <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
+        <div class="usajobs-help-center-article__additional-help">
+          <p>Still need help? <a href="https://www.usajobs.gov/Support/">Submit a ticket</a> to the USAJOBS Support Desk.</p>
+        </div>
+      </div>
     </section>
     {% include components/footer.html %}
     {% include scripts.html %}

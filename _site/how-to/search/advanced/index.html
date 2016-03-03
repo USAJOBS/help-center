@@ -35,9 +35,7 @@
   </head>
   <body>
     <a class="skipnav" href="#main-content">Skip main navigation</a>
-    <section class="usajobs-shell">
-      <section class="usajobs-canvas">
-        <header class="usajobs-site-header" role="banner" aria-label="header">
+    <header class="usajobs-site-header" role="banner" aria-label="header">
   <div class="usa-disclaimer">
     <div class="usa-grid usajobs-disclaimer-official">
       <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/img/us_flag_small.png">
@@ -63,7 +61,7 @@
                 </a>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__help">
-                <a class="usajobs-nav__section-link" href="/" title="Help">
+                <a class="usajobs-nav__section-link is-active" href="/" title="Help">
                   <span class="fa fa-question-circle"></span>
                   Help
                 </a>
@@ -107,8 +105,9 @@
   </nav>
 </header>
 
-
-        <div class="usajobs-help-article usajobs-content-gutter">
+    <section class="usajobs-shell">
+      <section class="usajobs-canvas">
+        <div class="usajobs-help-center-article usajobs-content-gutter">
           <main class="usajobs-content-well" id="main-content" role="main">
             <h1>Advanced Search</h1>
             <h2 id="about-advanced-search">About Advanced Search</h2>
@@ -141,10 +140,6 @@
 
 <p>To ensure that you get the most relevant results, we will automatically return results using synonym equivalents of your keywords. For example, if you entered Program Manager we will automatically look for jobs containing Program Coordinator and Program Director.</p>
 
-
-            <div class="usajobs-help-additional">
-              Still need help? <a href="https://www.usajobs.gov/Support/">Submit a ticket</a> to the USAJOBS Support Desk.
-            </div>
           </main>
           <aside class="usajobs-rightrail">
             <h3>In this section</h3>
@@ -180,9 +175,20 @@
             
               
             
+              
+            
+              
+            
+              
+            
             </ul>
           </aside>
       </section>
+      <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
+        <div class="usajobs-help-center-article__additional-help">
+          <p>Still need help? <a href="https://www.usajobs.gov/Support/">Submit a ticket</a> to the USAJOBS Support Desk.</p>
+        </div>
+      </div>
     </section>
     <footer class="usa-footer usa-footer-big usajobs-footer--v1" role="contentinfo" aria-label="footer" data-object="footer">
 <div class="usa-grid usa-footer-return-to-top">
@@ -217,9 +223,6 @@
           </li>
           <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
             <a href="/Applicant/Profile/PersonalInformation">Username &amp; Password</a>
-          </li>
-          <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-            <a href="/Account/LogOff">Sign Out</a>
           </li>
         </ul>
       </div>
