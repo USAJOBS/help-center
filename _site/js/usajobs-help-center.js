@@ -2327,7 +2327,12 @@ $help.on('change', '[data-behavior]', function (event) {
 });
 
 $help.on('help.open', function(event, opts) {
+  var $send_button = $('#btn-send');
+
   event.preventDefault();
 
   opts.target.attr('aria-hidden', 'false');
+
+  // Enabled the send button
+  $send_button.removeAttr('disabled');
 });
