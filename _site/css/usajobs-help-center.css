@@ -4566,26 +4566,39 @@ h6 {
   display: block;
   padding: 1.5rem;
   text-align: center;
-  color: #112e51;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 24px;
+  font-size: 2.4rem;
+  color: #0071bc;
+  border: 0.3rem solid #0071bc;
+  border-radius: 0.6rem;
 }
 
 .usajobs-help-center__home-link:hover {
   text-decoration: none;
+  background-color: #e1f3f8;
 }
 
 .usajobs-help-center__home-link:visited {
-  color: #112e51;
+  color: #0071bc;
 }
 
 .usajobs-help-center__home-link .fa {
-  display: block;
-  font-size: 44px;
+  font-size: 34px;
 }
 
 @media screen and (min-width: 75em) {
   .usajobs-help-center-home {
     padding-right: 0;
   }
+}
+
+.usajobs-help-center-home a:visited {
+  color: #0071bc;
 }
 
 .usajobs-help-center__lead {

@@ -14,19 +14,22 @@
     display: block;
     padding: $size-default;
     text-align: center;
-    color: $color-primary-darkest;
+    @include h3();
+    color: $color-primary;
+    border: rem(3px) solid $color-primary;
+    border-radius: rem(6px);
 
     &:hover {
       text-decoration: none;
+      background-color: $color-primary-alt-lightest;
     }
 
     &:visited {
-      color: $color-primary-darkest;
+      color: $color-primary;
     }
 
     .fa {
-      display: block;
-      font-size: $h1-font-size;
+      font-size: $h2-font-size;
     }
   }
 }
@@ -35,6 +38,10 @@
 .usajobs-help-center-home {
   @include media($XL) {
     padding-right: 0;
+  }
+
+  a:visited {
+    color: $color-primary;
   }
 }
 
