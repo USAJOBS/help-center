@@ -1,7 +1,7 @@
 ---
 permalink: /working-in-government/pay-and-leave/
 layout: article
-title: Pay &amp; Leave
+title: Pay & Leave
 category: Working-in-Government
 tags: [pay, salary, leave, vacation]
 ---

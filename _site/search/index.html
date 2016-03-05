@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<html lang="en">
   <head>
     <!-- Basic Page Needs
 ================================================== -->
@@ -16,8 +15,8 @@
 <!-- Title and meta description
 ================================================== -->
 
-  <title>USAJOBS American Discovery Trail | FAQs</title>
-  <meta property="og:title" content="USAJOBS American Discovery Trail | FAQs" />
+  <title>USAJOBS American Discovery Trail | Search Help</title>
+  <meta property="og:title" content="USAJOBS American Discovery Trail | Search Help" />
 
 
 
@@ -25,7 +24,7 @@
   <meta property="og:description" content="" />
 
 
-  <link rel="canonical" href="/faq/" />
+  <link rel="canonical" href="/search/" />
 
 <!-- CSS
 ================================================== -->
@@ -35,9 +34,7 @@
   </head>
   <body>
     <a class="skipnav" href="#main-content">Skip main navigation</a>
-    <section class="usajobs-shell">
-      <section class="usajobs-canvas">
-        <header class="usajobs-site-header" role="banner" aria-label="header">
+    <header class="usajobs-site-header" role="banner" aria-label="header">
   <div class="usa-disclaimer">
     <div class="usa-grid usajobs-disclaimer-official">
       <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/img/us_flag_small.png">
@@ -107,53 +104,36 @@
   </nav>
 </header>
 
-        <div class="usajobs-help-center-landing usajobs-content-gutter">
-  <main class="usajobs-content-well--full" id="main-content" role="main">
-    <h1>FAQs</h1>
-    <h2 class="usajobs-help-center__lead">
-      Frequently asked questions on a broad range of topics related to the Federal hiring process.
-    </h2>
-
-    <div class="usajobs-grid-full">
-      <div class="usajobs-width-one-half">
-        <h3>Application</h3>
-        <ul class="usajobs-help-center-landing__link-list">
-          <li>
-            <a href="/faq/application/eligibility/">
-              Which jobs am I eligible to apply for?
-            </a>
-          </li>
-          <li>
-            <a href="/faq/application/process/">
-              How does the application process work?
-            </a>
-          </li>
-          <li>
-            <a href="/faq/application/not-considered/">
-              Why was I not considered for a position?
-            </a>
-          </li>
-          <li>
-            <a href="/faq/application/veterans-preference/">
-              How does my Veterans' Preference work when applying for federal jobs?
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="usajobs-width-one-half">
-        <h3>Pay &amp; Leave</h3>
-        <ul class="usajobs-help-center-landing__link-list">
-          <li>
-            <a href="/faq/pay/setting/">
-              How is pay set for employees new to the Federal Government?
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </main>
+    <div class="usajobs-help-center-search-banner">
+  <div role="search" id="search">
+    <form class="usa-search usa-search-big" action="/search" method="get">
+      <h1 class="usajobs-help-center-search-banner__title">Help Center</h1>
+      <label class="usa-sr-only" for="search-query">Search</label>
+      <input type="search" id="search-query" name="q" placeholder="Search for help" autocomplete="off" >
+      <button type="submit">
+        <span class="usa-search-submit-text">Search</span>
+      </button>
+    </form>
+  </div>
 </div>
 
+    <section class="usajobs-shell">
+      <section class="usajobs-canvas">
+        <div class="usajobs-help-center-search usajobs-content-gutter">
+          <main class="usajobs-content-well-full" id="main-content" role="main">
+            <h2 class="usajobs-help-center__lead">
+  Search for help with using USAJOBS, understanding the federal hiring process, and more.
+</h2>
+<div class="usajobs-grid-full">
+  <section id="search-results" style="display: none;">
+    <h2>Search results</h2>
+    <div class="entries">
+    </div>
+  </section>
+</div>
+
+          </main>
+        </div>
       </section>
     </section>
     <footer class="usa-footer usa-footer-big usajobs-footer--v1" role="contentinfo" aria-label="footer" data-object="footer">
