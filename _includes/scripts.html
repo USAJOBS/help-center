@@ -3,18 +3,19 @@
     <script src="{{ site.baseurl }}/js/vendor/respond.min.js"></script>
     <script src="{{ site.baseurl }}/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <!-- TODO: Pull out the nav/autocomplete from components -->
-  <script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="{{ site.baseurl }}/js/search.min.js"></script>
   <script src="{{ site.baseurl }}/js/usajobs-help-center.js"></script>
 
 {% raw %}
 <script id="search-results-template" type="text/mustache">
   {{#entries}}
     <article>
-      <h3>
-        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
-        <a href="{{url}}">{{title}}</a>
-      </h3>
+      <h4>
+        <a class="usajobs-help-center-search__result" href="{{url}}">{{title}}</a>
+        {{#date}}
+          <small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>
+        {{/date}}
+      </h4>
     </article>
   {{/entries}}
 </script>

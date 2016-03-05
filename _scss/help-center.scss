@@ -91,5 +91,12 @@
       }
     }
   }
+}
 
+.usajobs-help-center-search {
+  &__result {
+    &:visited {
+      color: $color-primary;
+    }
+  }
 }
