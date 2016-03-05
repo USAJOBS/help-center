@@ -50,26 +50,37 @@
         <div class="usajobs-nav__header">
           <div class="usajobs-nav__brand-container">
             <a class="usajobs-nav__brand" href="https://www.usajobs.gov/">
-              <img src="/img/USAJOBS_logo.png" alt="USAJOBS Logo" class="logo">
+              <span class="logo"></span>
             </a>
           </div>
           <div class="usajobs-nav__menu" id="usajobs-menu">
             <ul>
               <li class="usajobs-nav__menu-container usajobs-nav__account" data-state="is-closed">
-                <a class="usajobs-nav__section-link menu-toggle" href="https://www.usajobs.gov/Applicant/MyAccount/Home/" title="Account">
+                <a class="usajobs-nav__section-link menu-toggle" data-behavior="nav.menu.toggle" aria-haspopup="true" href="#account" title="Account">
                   <span class="fa fa-user"></span>
                   <span class="usajobs-nav__account_name">Sign In</span>
                   <span class="usajobs-nav__first_name">Sign In</span>
                 </a>
+                <ul class="usajobs-nav__secondary-menu" aria-expanded="false" aria-label="submenu">
+                  <li><a href="/Applicant/MyAccount/Home">Home</a></li>
+                  <li><a href="/Applicant/Application/ListApplications">Application Status</a></li>
+                  <li><a href="/Applicant/MyAccount/Documents">Documents</a></li>
+                  <li><a href="/Applicant/MyAccount/Inbox">Inbox</a></li>
+                  <li><a href="/Applicant/Profile/PersonalInformation">Profile</a></li>
+                  <li><a href="/Applicant/Resume/ListResumes">Resumes</a></li>
+                  <li><a href="/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a></li>
+                  <li><a href="/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a></li>
+                  <li><a href="/Applicant/Account/LogOff">Sign Out</a></li>
+                </ul>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__help">
-                <a class="usajobs-nav__section-link is-active" href="/" title="Help">
+                <a class="usajobs-nav__section-link is-active" href="" title="Help">
                   <span class="fa fa-question-circle"></span>
                   Help
                 </a>
               </li>
-              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed" data-target="#usajobs-search-form-v2-alt">
-                <a data-behavior="nav.menu.search-toggle" aria-haspopup="true" class="usajobs-nav__section-link" href="#search" title="Job Search">
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed">
+                <a data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v1-active" class="usajobs-nav__section-link" href="/" title="Job Search">
                   <span class="fa fa-search"></span>
                   Search
                 </a>
@@ -77,22 +88,24 @@
             </ul>
           </div>
         </div>
-        <div id="usajobs-search-form-v2-alt" class="usajobs-nav__search" aria-expanded="false" role="menu">
-          <form action="/Search/" method="get" novalidate="novalidate" role="search">
+        <div id="usajobs-search-form-v1-active" class="usajobs-nav__search" aria-expanded="false" role="menu">
+          <form action="/Search" method="get" novalidate="novalidate" role="search">
             <fieldset>
               <div class="usajobs-nav__search-keywords-container">
-                <label for="search-keyword-v2-alt">
+                <label for="search-keyword">
                   <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
                   Keywords
                 </label>
-                <input id="search-keyword-v2-alt" name="search-keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="false">
+                <input id="search-keyword" name="search-keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="false">
               </div>
               <div class="usajobs-nav__search-location-container">
-                <label for="search-location-v2-alt">
+                <label for="search-location">
                   <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
                   Location
                 </label>
-                <input id="search-location-v2-alt" name="search-location" type="text" class="usajobs-nav__search-location-input" placeholder="City, State, ZIP, or Country">
+                <input id="search-location" name="search-location" type="text" class="usajobs-nav__search-location-input" placeholder="City, State, ZIP, or Country">
+                <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+                <input type="hidden" id="AutoCompleteSelected" name="AutoCompleteSelected">
               </div>
               <div class="usajobs-nav__search-button-container">
                 <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">

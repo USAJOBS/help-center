@@ -1504,6 +1504,29 @@ $(document).ready(function () {
   USAJOBS.Base.init();
 });
 
+// Alerts
+var $alert = $('[data-object="alert"]');
+
+$alert.on('click', '[data-behavior]', function (event) {
+  var $el = $(this),
+    $object = $el.closest('[data-object="alert"]'),
+    state = $object.attr('data-state'),
+    behavior = $el.attr('data-behavior');
+
+  event.preventDefault();
+  $el.blur(); // Removes focus
+
+  // Each behavior attached to the element should be triggered
+  $.each(behavior.split(' '), function (idx, action) {
+    $el.trigger(action, { el: $el, object: $object, state: state });
+  });
+});
+
+$alert.on('alert.close', function(event, opts) {
+  opts.object.attr('data-state', 'is-closed');
+  opts.object.attr('aria-hidden', 'true');
+});
+
 // Document - Object for uploading, viewing, and editing documents
 
 var $doc = $('[data-object="document"]'),
@@ -1802,9 +1825,9 @@ var $nav = $('[data-object="nav"]');
 $nav.on('click', '[data-behavior]', function (event) {
   var $el = $(this),
     $object = $el.closest('[data-object="nav"]'),
-    state = $object.attr('data-state'),
     behavior = $el.attr('data-behavior'),
-    $target = $object.find($object.attr('data-target'));
+    $target = $object.find('#' + $el.attr('aria-controls')),
+    state = $target.attr('aria-expanded');
 
   event.preventDefault();
   $el.blur(); // Removes focus
@@ -1873,16 +1896,14 @@ $nav.on('nav.menu.slide-close', function(event, opts) {
 });
 
 $nav.on('nav.menu.search-toggle', function(event, opts) {
-  var $parent = opts.el.parent(),
-    parent_state = $parent.attr('data-state'),
-    $menu = $nav.find($parent.attr('data-target'));
+  var $parent = opts.el.parent();
 
   event.preventDefault();
 
-  if (parent_state === 'is-closed') {
-    $nav.trigger('nav.menu.slide-open', { parent: $parent, menu: $menu });
-  } else if (parent_state === 'is-open') {
-    $nav.trigger('nav.menu.slide-close', { parent: $parent, menu: $menu });
+  if (opts.state === 'false') {
+    $nav.trigger('nav.menu.slide-open', { parent: $parent, menu: opts.target });
+  } else if (opts.state === 'true') {
+    $nav.trigger('nav.menu.slide-close', { parent: $parent, menu: opts.target });
   }
 });
 
@@ -1903,9 +1924,22 @@ usajSrc = function (request, response) {
   });
 };
 
+// Portions of this code came from http://jsfiddle.net/fozylet/kTAMm/
 $('#search-location').autocomplete({
   source: usajSrc,
   minLength: 3,
+  open: function (e, ui) {
+    var acData = $(this).data('ui-autocomplete');
+    acData
+      .menu
+      .element
+      .find('li')
+      .each(function () {
+        var me = $(this);
+        var keywords = acData.term.split(' ').join('|');
+        me.html(me.text().replace(new RegExp("(" + keywords + ")", "gi"), '<strong>$1</strong>'));
+      });
+  },
   select: function (event, ui) {
     var selectedObj = ui.item;
 
@@ -1917,11 +1951,6 @@ $('#search-location').autocomplete({
     //wipe out values on new searches or when user selects one but changes their mind!
     $('#AutoCompleteSelected').val('false');
   }
-});
-
-$( '#search-keyword' ).autocomplete({
-  minLength: 3,
-  source: [ 'Nurse', 'Nurse Anesthetists', 'Nurse Anesthetists AND intubation']
 });
 
 // Notification
