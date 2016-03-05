@@ -10,7 +10,7 @@
 @import 'element/typography';
 
 .usajobs-help-center-search-banner {
-  padding: $size-default;
+  padding: $size-default $size-default $size-M;
   background: $color-primary-darkest;
   background-image: url("../img/helpcenter_star.png");
   background-image: url("../img/helpcenter_star.svg");
@@ -35,7 +35,6 @@
     max-width: $site-max-width;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 $size-M;
 
     input[type=search] {
       @include media($ML) {

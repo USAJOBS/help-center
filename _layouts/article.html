@@ -20,7 +20,9 @@
             {% for node in site.pages %}
               {% if node.category == page.category %}
               <li>
-                <a href="{{ node.url }}">{{ node.title }}</a>
+                <a href="{{ site.baseurl }}{{ node.url }}">
+                  {{ node.title }}
+                </a>
               </li>
               {% endif %}
             {% endfor %}

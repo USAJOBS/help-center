@@ -161,7 +161,8 @@
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -2450,7 +2451,8 @@ html {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -4570,7 +4572,7 @@ h6 {
 }
 
 .usajobs-help-center-search-banner {
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 3rem;
   background: #112e51;
   background-image: url("../img/helpcenter_star.png");
   background-image: url("../img/helpcenter_star.svg");
@@ -4595,7 +4597,6 @@ h6 {
   max-width: 120rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 3rem;
 }
 
 .usajobs-help-center__home-link {
@@ -4725,5 +4726,4 @@ h6 {
 .usajobs-help-center-search__result:visited {
   color: #0071bc;
 }
-
 /*# sourceMappingURL=usajobs-help-center.css.map */
