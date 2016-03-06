@@ -1,7 +1,7 @@
 # Markdown config
 highlighter: rouge
-name: USAJOBS American Discovery Trail
-subtitle: A project to make it easier and faster to find and apply to federal jobs.
+name: USAJOBS Help Center
+subtitle: A project to improve the help content of USAJOBS.
 exclude:
 - Gemfile
 - Gemfile.lock
@@ -36,6 +36,7 @@ repository:
 # google_analytics_ua: UA-48605964-33
 
 gems: ['jekyll-lunr-js-search']
+
 lunr_search:
   min_length: 3
   excludes: [rss.xml]
