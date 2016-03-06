@@ -29,8 +29,8 @@
 
 <!-- CSS
 ================================================== -->
-  <link rel="stylesheet" href="/help-center/css/usajobs-design-system.min.css">
-  <link rel="stylesheet" href="/help-center/css/usajobs-help-center.css">
+  <link rel="stylesheet" href="/css/usajobs-design-system.min.css">
+  <link rel="stylesheet" href="/css/usajobs-help-center.css">
 
   </head>
   <body>
@@ -38,7 +38,7 @@
     <header class="usajobs-site-header" role="banner" aria-label="header">
   <div class="usa-disclaimer">
     <div class="usa-grid usajobs-disclaimer-official">
-      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/help-center/img/us_flag_small.png">
+      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/img/us_flag_small.png">
       An official website of the United States Government
     </div>
   </div>
@@ -72,7 +72,7 @@
                 </ul>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__help">
-                <a class="usajobs-nav__section-link is-active" href="/help-center/" title="Help">
+                <a class="usajobs-nav__section-link is-active" href="/" title="Help">
                   <span class="fa fa-question-circle"></span>
                   Help
                 </a>
@@ -146,7 +146,7 @@
             
               
               <li>
-                <a href="/help-center/how-to/search/advanced/">
+                <a href="/how-to/search/advanced/">
                   Advanced Search
                 </a>
               </li>
@@ -154,7 +154,7 @@
             
               
               <li>
-                <a href="/help-center/how-to/search/basic/">
+                <a href="/how-to/search/basic/">
                   Basic Search
                 </a>
               </li>
@@ -203,7 +203,7 @@
       </section>
       <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
         <div class="usajobs-help-center-article__additional-help">
-          <p>Still need help? <a href="/help-center/contact/">Submit a ticket</a> to the USAJOBS Support Desk.</p>
+          <p>Still need help? <a href="/contact/">Submit a ticket</a> to the USAJOBS Support Desk.</p>
         </div>
       </div>
     </section>
@@ -321,12 +321,12 @@
 </footer>
 
       <!--[if lt IE 9]>
-    <script src="/help-center/js/vendor/selectivirz-min.js"></script>
-    <script src="/help-center/js/vendor/respond.min.js"></script>
-    <script src="/help-center/js/vendor/rem.min.js"></script>
+    <script src="/js/vendor/selectivirz-min.js"></script>
+    <script src="/js/vendor/respond.min.js"></script>
+    <script src="/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="/help-center/js/search.min.js"></script>
-  <script src="/help-center/js/usajobs-help-center.js"></script>
+  <script src="/js/search.min.js"></script>
+  <script src="/js/usajobs-help-center.js"></script>
 
 
 <script id="search-results-template" type="text/mustache">
@@ -346,7 +346,7 @@
 <script type="text/javascript">
   $(function() {
     $('#search-query').lunrSearch({
-      indexUrl: '/help-center/js/index.json',   // Url for the .json file containing search index data
+      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
       results : '#search-results',  // selector for containing search results element
       entries : '.entries',         // selector for search entries containing element (contained within results above)
       template: '#search-results-template'  // selector for Mustache.js template

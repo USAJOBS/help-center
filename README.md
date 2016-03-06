@@ -1,2 +1,3 @@
 # help-center
-Help Center mediawiki skin
+
+Help Center is an update to the USAJOBS help content.
