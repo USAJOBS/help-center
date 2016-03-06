@@ -21,7 +21,7 @@ keep_files: ['css', 'js']
 port: 4001
 
 baseurl: '/help-center'
-destination: ./_site
+destination: ./_dist
 
 permalink: pretty
 
