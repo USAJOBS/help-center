@@ -11,7 +11,9 @@
   {{#entries}}
     <article>
       <h4>
-        <a class="usajobs-help-center-search__result" href="{{url}}">{{title}}</a>
+        <a class="usajobs-help-center-search__result" href="{{ site.baseurl }}{{url}}">
+          {{title}}
+        </a>
         {{#date}}
           <small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>
         {{/date}}
