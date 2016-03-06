@@ -1,0 +1,102 @@
+// Help Center
+
+@import "font-awesome/font-awesome";
+@import 'core/variables';
+@import 'base/variables';
+@import 'base/utilities';
+@import 'element/typography';
+
+// components
+@import 'components/search-banner';
+
+.usajobs-help-center {
+  &__home-link {
+    display: block;
+    padding: $size-default;
+    text-align: center;
+    @include h3();
+    color: $color-primary;
+    border: rem(3px) solid $color-primary;
+    border-radius: rem(6px);
+
+    &:hover {
+      text-decoration: none;
+      background-color: $color-primary-alt-lightest;
+    }
+
+    &:visited {
+      color: $color-primary;
+    }
+
+    .fa {
+      font-size: $h2-font-size;
+    }
+  }
+}
+
+// Home page
+.usajobs-help-center-home {
+  @include media($XL) {
+    padding-right: 0;
+  }
+
+  a:visited {
+    color: $color-primary;
+  }
+}
+
+.usajobs-help-center__lead {
+  @include h3();
+  color: $color-gray;
+}
+
+.usajobs-help-center-landing,
+.usajobs-help-center-singleton {
+  margin-bottom: $size-XXL;
+
+  &__link-list {
+    @include unstyledList();
+    margin-bottom: $size-M;
+
+    a {
+      display: block;
+      padding: $size-S 0;
+      font-size: $h4-font-size;
+    }
+  }
+}
+
+// Individual articles (markdown pages)
+.usajobs-help-center-article {
+  &__additional-container {
+    @include span-columns(12, 12);
+    margin: $size-M 0;
+  }
+
+  &__additional-help {
+    padding: $size-default;
+    text-align: center;
+    background-color: $color-primary-alt-lightest;
+
+    p {
+      @include h4();
+      color: $color-primary-darkest;
+
+      a {
+        font-weight: normal;
+      }
+
+      a:visited {
+        color: $color-primary;
+      }
+    }
+  }
+}
+
+.usajobs-help-center-search {
+  &__result {
+    &:visited {
+      color: $color-primary;
+    }
+  }
+}

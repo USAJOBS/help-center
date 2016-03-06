@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    {% include prod-head.html %}
+  </head>
+  <body>
+    <a class="skipnav" href="#main-content">Skip main navigation</a>
+    {% include components/nav-help.html %}
+    <section class="usajobs-shell">
+      <section class="usajobs-canvas">
+        <div class="usajobs-help-center-article usajobs-content-gutter">
+          <main class="usajobs-content-well" id="main-content" role="main">
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+          </main>
+          <aside class="usajobs-rightrail">
+            <h3>In this section</h3>
+            <ul class="usa-unstyled-list">
+            {% for node in site.pages %}
+              {% if node.category == page.category %}
+              <li>
+                <a href="{{ site.baseurl }}{{ node.url }}">
+                  {{ node.title }}
+                </a>
+              </li>
+              {% endif %}
+            {% endfor %}
+            </ul>
+          </aside>
+      </section>
+      <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
+        <div class="usajobs-help-center-article__additional-help">
+          <p>Still need help? <a href="{{site.baseurl}}/contact/">Submit a ticket</a> to the USAJOBS Support Desk.</p>
+        </div>
+      </div>
+    </section>
+    {% include components/footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

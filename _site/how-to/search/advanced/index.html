@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Specific Metas
+================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Title and meta description
+================================================== -->
+
+  <title>USAJOBS Help Center | Advanced Search</title>
+  <meta property="og:title" content="USAJOBS Help Center | Advanced Search" />
+
+
+
+  <meta name="description" content="">
+  <meta property="og:description" content="" />
+
+
+  <link rel="canonical" href="/how-to/search/advanced/" />
+
+<!-- CSS
+================================================== -->
+  <link rel="stylesheet" href="/css/usajobs-design-system.min.css">
+  <link rel="stylesheet" href="/css/usajobs-help-center.css">
+
+  </head>
+  <body>
+    <a class="skipnav" href="#main-content">Skip main navigation</a>
+    <header class="usajobs-site-header" role="banner" aria-label="header">
+  <div class="usa-disclaimer">
+    <div class="usa-grid usajobs-disclaimer-official">
+      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/img/us_flag_small.png">
+      An official website of the United States Government
+    </div>
+  </div>
+  <nav class="usajobs-nav" role="navigation" aria-label="main navigation" data-object="nav">
+    <div class="usajobs-nav__body">
+      <div class="usajobs-nav__header-container">
+        <div class="usajobs-nav__header">
+          <div class="usajobs-nav__brand-container">
+            <a class="usajobs-nav__brand" href="https://www.usajobs.gov/">
+              <span class="logo"></span>
+            </a>
+          </div>
+          <div class="usajobs-nav__menu" id="usajobs-menu">
+            <ul>
+              <li class="usajobs-nav__menu-container usajobs-nav__account" data-state="is-closed">
+                <a class="usajobs-nav__section-link menu-toggle" data-behavior="nav.menu.toggle" aria-haspopup="true" href="#account" title="Account">
+                  <span class="fa fa-user"></span>
+                  <span class="usajobs-nav__account_name">Sign In</span>
+                  <span class="usajobs-nav__first_name">Sign In</span>
+                </a>
+                <ul class="usajobs-nav__secondary-menu" aria-expanded="false" aria-label="submenu">
+                  <li><a href="/Applicant/MyAccount/Home">Home</a></li>
+                  <li><a href="/Applicant/Application/ListApplications">Application Status</a></li>
+                  <li><a href="/Applicant/MyAccount/Documents">Documents</a></li>
+                  <li><a href="/Applicant/MyAccount/Inbox">Inbox</a></li>
+                  <li><a href="/Applicant/Profile/PersonalInformation">Profile</a></li>
+                  <li><a href="/Applicant/Resume/ListResumes">Resumes</a></li>
+                  <li><a href="/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a></li>
+                  <li><a href="/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a></li>
+                  <li><a href="/Applicant/Account/LogOff">Sign Out</a></li>
+                </ul>
+              </li>
+              <li class="usajobs-nav__menu-container usajobs-nav__help">
+                <a class="usajobs-nav__section-link is-active" href="/" title="Help">
+                  <span class="fa fa-question-circle"></span>
+                  Help
+                </a>
+              </li>
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed">
+                <a data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v1-active" class="usajobs-nav__section-link" href="/" title="Job Search">
+                  <span class="fa fa-search"></span>
+                  Search
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="usajobs-search-form-v1-active" class="usajobs-nav__search" aria-expanded="false" role="menu">
+          <form action="/Search" method="get" novalidate="novalidate" role="search">
+            <fieldset>
+              <div class="usajobs-nav__search-keywords-container">
+                <label for="search-keyword">
+                  <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
+                  Keywords
+                </label>
+                <input id="search-keyword" name="search-keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="false">
+              </div>
+              <div class="usajobs-nav__search-location-container">
+                <label for="search-location">
+                  <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
+                  Location
+                </label>
+                <input id="search-location" name="search-location" type="text" class="usajobs-nav__search-location-input" placeholder="City, State, ZIP, or Country">
+                <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+                <input type="hidden" id="AutoCompleteSelected" name="AutoCompleteSelected">
+              </div>
+              <div class="usajobs-nav__search-button-container">
+                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+                  Search
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <section class="usajobs-shell">
+      <section class="usajobs-canvas">
+        <div class="usajobs-help-center-article usajobs-content-gutter">
+          <main class="usajobs-content-well" id="main-content" role="main">
+            <h1>Advanced Search</h1>
+            <h2 id="about-advanced-search">About Advanced Search</h2>
+
+<p>On the Advanced Search page, you are able to select search criteria from several different refining fields, such as Keywords, Salary or Pay Grade, and Location. Searches can be broadened or narrowed by using the refiners.</p>
+
+<h2 id="advanced-search-tips">Advanced Search Tips</h2>
+
+<p>Advanced Search allows you to tailor search results by all words, exact phrase, or one or more words. In addition, Advanced Search permits the exclusion of unwanted words.</p>
+
+<p><strong>All of these words</strong> - The search will produce all records that contain every word in this search field regardless of the order in which they appear in the record. For example, a search on Management and Program Analyst will yield instances of Management and Program Analyst as well as management and program analysis. We’re not using synonyms here so it would find any references of Management and Program both appearing in the JOA but not necessarily side by side.</p>
+
+<p><strong>The exact phrase</strong> - The search will return results where the exact words entered appear together in a Job Opportunity Announcement. Synonyms are not used with this option. For example, a search on Management and Program Analyst will only yield instances of Management and Program Analyst and not Program Analyst. In this field, search terms with three or fewer characters may be used.</p>
+
+<p><strong>Any of these words</strong> - The search will return results where one or more of the words appear in the Job Opportunity Announcement. For example, a search on HR Specialist will yield instances with HR, Specialist, or both.</p>
+
+<p><strong>Words similar to</strong> - The search will return results with words that are similar to some or all of these words. For example, a search on Super will yield instances of Supervisor.</p>
+
+<p><strong>But none of these words</strong> - The search results must not include any of the words entered.</p>
+
+<p>In Advanced Search, the top of the results page displays a translation of the search criteria into the relevant inclusion, exclusion, or other operators. This detailed display may help users edit their searches more quickly or apply operators to Basic Search.</p>
+
+<h2 id="keyword-search-tips">Keyword Search Tips</h2>
+
+<p>When searching by keywords, please keep the following in mind:</p>
+
+<p>The keyword function searches for all terms in one job. If you list multiple words you will only see Job Opportunity Announcements which include all of the words you selected. You will not see any Job Opportunity Announcements that only have one or two of the words you selected. To maximize the number of jobs returned during your search, try limiting your search to only one keyword.</p>
+
+<p>Use quotations to show job postings with the keywords you have listed as a whole. For example, if you search for physical fitness, you will see results for both words side-by-side and placed individually in the Job Opportunity Announcement. However, if you search for “physical fitness”, it will only show results for Job Opportunity Announcements that include the words physical fitness side-by-side.</p>
+
+<p>To ensure that you get the most relevant results, we will automatically return results using synonym equivalents of your keywords. For example, if you entered Program Manager we will automatically look for jobs containing Program Coordinator and Program Director.</p>
+
+          </main>
+          <aside class="usajobs-rightrail">
+            <h3>In this section</h3>
+            <ul class="usa-unstyled-list">
+            
+              
+              <li>
+                <a href="/how-to/search/advanced/">
+                  Advanced Search
+                </a>
+              </li>
+              
+            
+              
+              <li>
+                <a href="/how-to/search/basic/">
+                  Basic Search
+                </a>
+              </li>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+            </ul>
+          </aside>
+      </section>
+      <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
+        <div class="usajobs-help-center-article__additional-help">
+          <p>Still need help? <a href="/contact/">Submit a ticket</a> to the USAJOBS Support Desk.</p>
+        </div>
+      </div>
+    </section>
+    <footer class="usa-footer usa-footer-big usajobs-footer--v1" role="contentinfo" aria-label="footer" data-object="footer">
+  <div class="usa-grid usa-footer-return-to-top">
+    <a href="#footer">Return to top</a>
+  </div>
+  <div class="usa-footer-primary-section">
+    <div class="usa-grid-full">
+      <nav class="usa-footer-nav usa-width-one-whole">
+        <div class="usajobs-footer--v1__content-container">
+          <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v1__account">
+            <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".account-menu">Account</li>
+            <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
+              <a href="/Applicant/MyAccount/Home/">Home</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
+              <a href="/Applicant/Profile/">Profile</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
+              <a href="/Applicant/Application/ListApplications">Application Status</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
+              <a href="/Applicant/Document/ListDocuments">Documents</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
+              <a href="/Applicant/Document/ListResumes">Resumes</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
+              <a href="/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
+              <a href="/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
+              <a href="/Applicant/Profile/PersonalInformation">Username &amp; Password</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
+              <a href="/Account/LogOff">Sign Out</a>
+            </li>
+          </ul>
+        </div>
+        <div class="usajobs-footer--v1__content-container">
+          <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v1__help">
+            <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".help-menu">Help</li>
+            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
+              <a href="http://usajobs.github.io/help-center/">Help Center</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
+              <a href="http://usajobs.github.io/help-center/about/">About USAJOBS</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
+              <a href="http://usajobs.github.io/help-center/contact/">Contact Us</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
+              <a href="http://usajobs.github.io/help-center/faq/">FAQs</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
+              <a href="http://usajobs.github.io/help-center/get-started/">Get Started</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
+              <a href="http://usajobs.github.io/help-center/how-to/">How to&hellip;</a>
+            </li>
+            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
+              <a href="http://usajobs.github.io/help-center/working-in-government/">
+                Working in Government
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="usa-footer-secondary_section usa-footer-big-secondary-section">
+    <div class="usa-grid">
+      <div class="usa-footer-logo usa-width-one-half">
+        <span class="logo"></span>
+        <p class="usajobs-footer--v1__note">
+          USAJOBS is a <a href="https://www.opm.gov">United States Office of Personnel Management</a> website.
+        </p>
+      </div>
+      <div class="usa-footer-contact-links usa-width-one-half">
+        <div class="usa-social-links">
+          <a href="https://plus.google.com/+usajobs" class="usajobs-social-link">
+            <span class="fa fa-google-plus" aria-label="Google Plus"></span>
+          </a>
+          <a href="https://www.facebook.com/USAJOBS" class="usajobs-social-link">
+            <span class="fa fa-facebook" aria-label="Facebook"></span>
+          </a>
+          <a href="https://www.linkedin.com/company/usajobs" class="usajobs-social-link">
+            <span class="fa fa-linkedin" aria-label="LinkedIn"></span>
+          </a>
+          <a href="https://twitter.com/USAJOBS" class="usajobs-social-link">
+            <span class="fa fa-twitter" aria-label="Twitter"></span>
+          </a>
+          <a href="https://www.youtube.com/user/usajobsapp" class="usajobs-social-link">
+            <span class="fa fa-youtube" aria-label="You Tube"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="usa-grid">
+      <div class="usa-footer-logo usa-width-one-whole">
+        <ul class="usa-unstyled-list usajobs-footer--v1__subsection-horizontal">
+          <li><a href="https://www.opm.gov/about-us/budget-performance/">Budget and Performance</a></li>
+          <li><a href="http://www.opm.gov/efoia/">FOIA</a></li>
+          <li><a href="https://www.opm.gov/our-inspector-general/">Inspector General</a></li>
+          <li><a href="https://www.opm.gov/information-management/no-fear-act/">No Fear Act Data</a></li>
+          <li><a href="http://usajobs.github.io/help-center/privacy/">Privacy Policy</a></li>
+          <li><a href="http://www.usa.gov/">USA.gov</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      <!--[if lt IE 9]>
+    <script src="/js/vendor/selectivirz-min.js"></script>
+    <script src="/js/vendor/respond.min.js"></script>
+    <script src="/js/vendor/rem.min.js"></script>
+  <![endif]-->
+  <script src="/js/search.min.js"></script>
+  <script src="/js/usajobs-help-center.js"></script>
+
+
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <h4>
+        <a class="usajobs-help-center-search__result" href="{{url}}">{{title}}</a>
+        {{#date}}
+          <small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>
+        {{/date}}
+      </h4>
+    </article>
+  {{/entries}}
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
+      results : '#search-results',  // selector for containing search results element
+      entries : '.entries',         // selector for search entries containing element (contained within results above)
+      template: '#search-results-template'  // selector for Mustache.js template
+    });
+  });
+</script>
+
+  </body>
+</html>
