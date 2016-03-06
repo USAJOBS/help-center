@@ -35,7 +35,7 @@ repository:
 
 # google_analytics_ua: UA-48605964-33
 
-gems: ['jekyll-lunr-js-search']
+gems: ['jekyll-lunr-js-search', 'jekyll-sitemap']
 
 lunr_search:
   min_length: 3
