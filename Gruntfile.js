@@ -18,6 +18,9 @@ module.exports = function(grunt) {
       },
       jekyllServe: {
         command: "bundle exec jekyll serve --baseurl ''"
+      },
+      jekyllBuildFlat: {
+        command: "bundle exec jekyll build --config _config-flat.yml"
       }
     },
     sass: {
@@ -164,6 +167,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('serve', ['concurrent:serve']);
   grunt.registerTask('build', ['shell:jekyllBuild', 'css', 'js']);
+  grunt.registerTask('build-flat', ['shell:jekyllBuildFlat']);
   grunt.registerTask('css', ['sass', 'autoprefixer', 'cssmin']);
   grunt.registerTask('js', ['jshint:all', 'concat']);
 };

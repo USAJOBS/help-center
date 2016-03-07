@@ -7,3 +7,4 @@
 *.sublime-*
 npm-debug.log
 node_modules
+_dist-flat
