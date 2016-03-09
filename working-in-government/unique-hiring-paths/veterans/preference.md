@@ -2,7 +2,7 @@
 permalink: /working-in-government/unique-hiring-paths/veterans/preference/
 layout: article
 title: Veterans' Preference
-category: Working-in-Government
+category: Veterans
 tags: [veterans, preference]
 ---
 
@@ -16,3 +16,4 @@ To learn more, please consult the following resources:
 
 * [Feds Hire Vets](http://www.fedshirevets.gov/)
 * [Frequently Asked Questions - Veterans (OPM)](https://www.opm.gov/FAQS/topic/veterans/index.aspx)
+* [Veterans Employment Initiative (OPM)](https://www.opm.gov/policy-data-oversight/veterans-employment-initiative/vet-guide/)
