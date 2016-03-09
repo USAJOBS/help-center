@@ -1,23 +1,12 @@
 ---
 permalink: /how-to/application/status/
 layout: article
-title: Application Status
+title: How to check on the status of an application
 category: Application
 tags: [application, status, tips]
 ---
 
-## About Application Status
-
 Application Statuses in your USAJOBS account are a direct reflection of an Agency staff personnel input and action. USAJOBS does not have any control over the content or lack of a notification or application status. If you feel you have received an incorrect notification or should have received a notification but did not, please contact the staffing point of contact on the job vacancy announcement.
-
-## How to View Hidden Applications
-
-To view applications that you have hidden:
-
-1. Log into your USAJOBS account.
-2. Go to Application Status in your USAJOBS account.
-3. Click on the View Hidden Applications link (slightly centered just above the application status list). You will be taken to a list of applications that you have hidden.
-4. To unhide, click on the Unhide link to the left of the jobs title in blue (far left column).
 
 ## Application Status Tips
 
