@@ -12,7 +12,7 @@ Using USAJOBS to perform a job search is very easy. You can search for jobs in t
 
 * Search jobs by keyword and/or location on the home page.
 * Select the Search icon in the upper-right-hand corner of any page to reveal search.
-* Use Advanced Search to select multiple search criteria.
+* Use [Advanced Search](../advanced/) to select multiple search criteria.
 
 On the results page, ...
 

@@ -6,9 +6,18 @@ category: Search
 tags: [search, keywords, tips]
 ---
 
-## About Advanced Search
+Advanced Search provides users more search refinement options. This tool also allows you to search for specific words and phrases, or words that are similar.
 
-On the Advanced Search page, you are able to select search criteria from several different refining fields, such as Keywords, Salary or Pay Grade, and Location. Searches can be broadened or narrowed by using the refiners.
+You are able to refine your search by:
+
+* Salary or Pay Grade
+* Occupational Pay Series or Job Category
+* Location
+* Department and Agency
+* Type of Work or Work Schedule
+* Additional Search Options
+
+The **Who May Apply** refiner has additional resources that will help you identify whether or not you are eligible to apply for a specific job.
 
 ## Advanced Search Tips
 
