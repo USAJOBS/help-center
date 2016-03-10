@@ -1,5 +1,5 @@
 ---
-permalink: /faq/application/resume/what-to-include/
+permalink: /faq/application/documents/resume/what-to-include/
 layout: article
 title: What should I include in my resume?
 category: Resume

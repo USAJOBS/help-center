@@ -20,6 +20,6 @@ In order to edit your resume on the USAJOBS website, the resume will need to be 
 
 ## Additional Resources
 
-* [Sample Resume](sample.pdf)
-* [What to Include](../../../../../faq/application/resume/what-to-include/)
+* [Sample Resume](../sample.pdf)
+* [What to Include](../../../../../faq/application/documents/resume/what-to-include/)
 
