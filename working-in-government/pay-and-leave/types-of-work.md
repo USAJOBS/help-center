@@ -1,8 +1,8 @@
 ---
-permalink: /working-in-government/types-of-work/
+permalink: /working-in-government/pay-and-leave/types-of-work/
 layout: article
 title: Types of Work
-category: Working-in-Government
+category: Pay and Leave
 tags: [search, keywords, tips]
 ---
 
