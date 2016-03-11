@@ -13,7 +13,7 @@ VEOA eligibility applies to the following categories of Veterans:
 * Preference eligibles
 * Service personnel separated after 3 or more years of continuous active service performed under honorable conditions.
 
-To learn more, please consult the following resources:
+## Additional Resources
 
 * [Feds Hire Vets - Special Hiring Authorities for Veterans](https://fedshirevets.gov/job/shav/index.aspx)
 * [Frequently Asked Questions - Veterans (OPM)](https://www.opm.gov/FAQS/topic/veterans/index.aspx)

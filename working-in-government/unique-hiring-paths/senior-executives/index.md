@@ -2,7 +2,7 @@
 permalink: /working-in-government/unique-hiring-paths/senior-executives/
 layout: article
 title: Senior Executives
-category: Working-in-Government
+category: Unique Hiring Paths
 tags: [ses, senior, executives]
 ---
 
@@ -16,8 +16,7 @@ Candidates can apply directly to a Federal agency for a specific SES position, o
 
 Applicants to SES positions must demonstrate they possess Executive Core Qualifications (ECQs) when applying. The ECQs define the competencies needed to build a federal corporate culture that drives for results, serves customers, and builds successful teams and coalitions within and outside the organization. The ECQs are required for entry to the SES and are used by many departments and agencies in selection, performance management, and leadership development for executive positions.
 
-
-To learn more, please consult the following resources:
+## Additional Resources
 
 * [Comprehensive information about the Senior Executive Service (OPM)](http://www.opm.gov/ses)
 * [Senior Executive Service Pay Table](http://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)

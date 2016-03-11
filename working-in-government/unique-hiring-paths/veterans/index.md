@@ -2,7 +2,7 @@
 permalink: /working-in-government/unique-hiring-paths/veterans/
 layout: article
 title: Veterans
-category: Working-in-Government
+category: Unique Hiring Paths
 tags: [veterans]
 ---
 
@@ -13,7 +13,7 @@ We recognize that Federal employment can sometimes seem complicated and overwhel
 The Office of Personnel Management in support of the President’s Veterans Employment Initiative, created a [one-stop web site resource for Federal veteran employment information](http://www.fedshirevets.gov/). The information on [fedshirevets.gov](http://www.fedshirevets.gov/) is designed to ensure veterans, transitioning service members, and their families receive accurate and consistent information regarding veteran’s employment in the Federal Government.
 
 
-To learn more, please consult the following resources:
+## Additional Resources
 
 * [Veterans' Preference](preference/)
 * [Frequently Asked Questions - Veterans (OPM)](https://www.opm.gov/FAQS/topic/veterans/index.aspx)
