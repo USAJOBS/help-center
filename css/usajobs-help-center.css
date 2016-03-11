@@ -4723,6 +4723,12 @@ h6 {
   color: #0071bc;
 }
 
+.usajobs-help-center-article blockquote {
+  padding: 0 1.5rem;
+  color: #5b616b;
+  border-left: 4px solid #aeb0b5;
+}
+
 .usajobs-help-center-search__result:visited {
   color: #0071bc;
 }

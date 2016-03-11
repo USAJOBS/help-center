@@ -6,7 +6,7 @@ category: Veterans
 tags: [veterans, preference]
 ---
 
-Veterans who served on active duty in the U.S. Armed Forces and were separated under honorable conditions may be eligible for veterans' preference. When claiming preference, veterans must provide a copy of their DD-214, Certificate of Release or Discharge from Active Duty, or other acceptable documentation.
+Veterans who served on active duty in the U.S. Armed Forces and were separated under honorable conditions may be eligible for veterans' preference. When claiming preference, veterans must provide a copy of their [DD-214, Certificate of Release or Discharge from Active Duty](/faq/application/documents/types/#dd-214), or other acceptable documentation.
 
 Applicants claiming 10 point preference will need to submit Form SF-15, Application for 10-point Veterans' Preference. If you have questions about the applicability of veterans' preference for a particular vacancy please [contact the agency posting the announcement](../../../../how-to/application/agency/contact/).
 

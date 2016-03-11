@@ -16,4 +16,7 @@ The Office of Personnel Management in support of the President’s Veterans Empl
 ## Additional Resources
 
 * [Veterans' Preference](preference/)
+* [Veterans Employment Opportunity Act of 1998 (VEOA)](veoa/)
+* [Veterans' Recruitment Appointment (VRA)](vra/)
+* [Hiring authorities for disabled Veterans](disabled/)
 * [Frequently Asked Questions - Veterans (OPM)](https://www.opm.gov/FAQS/topic/veterans/index.aspx)

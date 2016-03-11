@@ -6,13 +6,16 @@ category: Working-in-Government
 tags: []
 ---
 
-There are severla unique hiring paths for candidates who qualify for a special non-competitive hiring authority established by law or executive order. These targeted segments of the population include:
+There are several unique hiring paths for candidates who qualify for a special non-competitive hiring authority established by law or executive order. These targeted segments of the population include:
 
-* [Individuals with Disabilities](disabled/)
+* [Federal employees](federal-employees/)
+* [Former overseas employees](former-overseas-employees/)
+* [Individuals with disabilities](individuals-with-disabilities/)
 * [Military Spouses](military-spouses/)
-* [Students & Recent Graduates](students/)
+* [Peace Corps & AmeriCorps VISTA alumni](peace-corps/)
+* [Senior Executives](senior-executives/)
+* [Students & recent graduates](students/)
 * [Veterans](veterans/)
-* [Peace Corps & VISTA alumni](peace-corps/)
 
 To learn more, please consult the following resources:
 

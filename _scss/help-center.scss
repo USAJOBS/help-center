@@ -91,6 +91,12 @@
       }
     }
   }
+
+  blockquote {
+    padding: 0 $size-default;
+    color: $color-gray;
+    border-left: 4px solid $color-gray-light;
+  }
 }
 
 .usajobs-help-center-search {
