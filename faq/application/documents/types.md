@@ -1,7 +1,9 @@
 ---
 permalink: /faq/application/documents/types/
 layout: article
+section: faq
 title: What types of documents might I need to provide?
+breadcrumb: Document types
 category: Documents
 tags: [documents, upload, application]
 ---

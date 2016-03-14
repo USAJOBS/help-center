@@ -2,7 +2,9 @@
 permalink: /how-to/application/status/
 layout: article
 title: How to check on the status of an application
+breadcrumb: Application status
 category: Application
+section: how-to
 tags: [application, status, tips]
 ---
 
