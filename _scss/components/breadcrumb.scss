@@ -11,9 +11,11 @@
 
 .usajobs-help-center-breadcrumb {
   @include unstyledList();
-  padding: 0 $size-S;
+  @include contentGutter();
   width: 100%;
-  background-color: $color-gray-lightest;
+  max-width: $site-max-width;
+  margin-left: auto;
+  margin-right: auto;
 
   li.usajobs-help-center-breadcrumb__item {
     display: inline-block;

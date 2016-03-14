@@ -139,16 +139,21 @@
   </nav>
 </header>
 
-    <section class="usajobs-shell">
-      <section class="usajobs-canvas">
-        <div class="usajobs-help-center-article usajobs-content-gutter">
-            <!-- li property="itemListElement" typeof="ListItem" class="active">
-    <span property="item" typeof="WebPage">
-      <span property="name">Reinstatement</span>
-    </span>
-    <meta property="position" content="1">
-  </li -->
-<ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
+    <div class="usajobs-help-center-search-banner ">
+  <div role="search" id="search" class="usajobs-help-center-search-banner__container">
+    <form class="usa-search usa-search-big" action="/help-center/search" method="get">
+      <h1 class="usajobs-help-center-search-banner__title">Help Center</h1>
+      <label class="usa-sr-only" for="search-query">Search</label>
+      <input type="search" id="search-query" name="q" placeholder="Search for help" autocomplete="off" >
+      <button type="submit">
+        <span class="usa-search-submit-text">Search</span>
+      </button>
+    </form>
+  </div>
+</div>
+
+    <div class="usajobs-help-center-breadcrumb-container">
+  <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/">
         Home
@@ -204,10 +209,11 @@
   
     
     
-    <li class="usajobs-help-center-breadcrumb__item">
+    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       
       <a href="/help-center/working-in-government/"  class="usajobs-help-center-breadcrumb__link">
-        Working in Government
+        <span property="item" typeof="WebPage">Working in Government</span>
+        <meta property="position" content="1">
       </a>
     </li>
     
@@ -586,10 +592,11 @@
   
     
     
-    <li class="usajobs-help-center-breadcrumb__item">
+    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       
       <a href="/help-center/working-in-government/eligibility/reinstatement/" class="usajobs-help-center-breadcrumb__link is-active">
-        
+        <span property="item" typeof="WebPage"></span>
+        <meta property="position" content="1">
       </a>
     </li>
     
@@ -633,8 +640,12 @@
     
   
 
-</ul>
+  </ul>
+</div>
 
+    <section class="usajobs-shell">
+      <section class="usajobs-canvas">
+        <div class="usajobs-help-center-article usajobs-content-gutter">
           <main class="usajobs-content-well" id="main-content" role="main">
             <h1>Reinstatement</h1>
             <p>Individuals, who previously held a career or career-conditional appointment with the federal government, may be eligible for reinstatement, which allows reentry to the Federal competitive service workforce without competing with the public. Reinstatement eligibles can also apply for Federal jobs open only to status or merit promotion candidates.</p>
@@ -647,10 +658,9 @@
 
           </main>
           <aside class="usajobs-rightrail">
-            <h3>Related Articles</h3>
+            <h3 class="usajobs-help-center-article__related">Related Articles</h3>
             <ul class="usa-unstyled-list">
             
-              
             
               
             
@@ -675,11 +685,9 @@
               
             
               
-              <li>
-                <a href="/help-center/faq/application/eligibility/">
-                  Which jobs am I eligible to apply for?
-                </a>
-              </li>
+            
+              
+            
               
             
               
@@ -801,7 +809,11 @@
               
             
               
-            
+              <li>
+                <a href="/help-center/faq/application/eligibility/">
+                  Which jobs am I eligible to apply for?
+                </a>
+              </li>
               
             
               

@@ -10,17 +10,29 @@
 @import 'element/typography';
 
 .usajobs-help-center-search-banner {
-  padding: $size-default $size-default $size-M;
+  padding-top: $size-default;
+  padding-bottom: $size-M;
   background: $color-primary-darkest;
   background-image: url("../img/helpcenter_star.png");
   background-image: url("../img/helpcenter_star.svg");
   background-position: right top;
   background-repeat: no-repeat;
 
-  @include media($ML) {
-    margin-left: auto;
-    margin-right: auto;
-    padding: $size-XL $size-M ($size-XXL + rem(44px)); // 44px = height of search bar
+  &.home {
+    @include media($ML) {
+      padding-top: $size-XL;
+      padding-bottom: ($size-XXL + rem(44px)); // 44px = height of search bar
+    }
+  }
+
+  &__container {
+    max-width: $site-max-width;
+    @include contentGutter();
+
+    @include media($ML) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   &__title {

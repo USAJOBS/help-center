@@ -69,6 +69,10 @@
 
 // Individual articles (markdown pages)
 .usajobs-help-center-article {
+  &__related {
+    margin-top: rem(89px);
+  }
+
   &__additional-container {
     @include span-columns(12, 12);
     margin: $size-M 0;
@@ -98,6 +102,10 @@
     color: $color-gray;
     border-left: 4px solid $color-gray-light;
   }
+}
+
+.usajobs-help-center-breadcrumb-container {
+  background-color: $color-gray-lightest;
 }
 
 .usajobs-help-center-search {

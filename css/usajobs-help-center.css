@@ -4572,7 +4572,8 @@ h6 {
 }
 
 .usajobs-help-center-search-banner {
-  padding: 1.5rem 1.5rem 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
   background: #112e51;
   background-image: url("../img/helpcenter_star.png");
   background-image: url("../img/helpcenter_star.svg");
@@ -4581,10 +4582,28 @@ h6 {
 }
 
 @media screen and (min-width: 48em) {
-  .usajobs-help-center-search-banner {
+  .usajobs-help-center-search-banner.home {
+    padding-top: 6rem;
+    padding-bottom: 11.9rem;
+  }
+}
+
+.usajobs-help-center-search-banner__container {
+  max-width: 120rem;
+  padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-search-banner__container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-search-banner__container {
     margin-left: auto;
     margin-right: auto;
-    padding: 6rem 3rem 11.9rem;
   }
 }
 
@@ -6894,9 +6913,11 @@ h6 {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   width: 100%;
-  background-color: #f1f1f1;
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .usajobs-help-center-breadcrumb li {
@@ -6910,6 +6931,13 @@ h6 {
 
 .usajobs-help-center-breadcrumb li:after {
   display: none;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-breadcrumb {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 .usajobs-help-center-breadcrumb li.usajobs-help-center-breadcrumb__item {
@@ -7028,6 +7056,10 @@ h6 {
   font-size: 19px;
 }
 
+.usajobs-help-center-article__related {
+  margin-top: 8.9rem;
+}
+
 .usajobs-help-center-article__additional-container {
   float: left;
   display: block;
@@ -7069,6 +7101,10 @@ h6 {
   padding: 0 1.5rem;
   color: #5b616b;
   border-left: 4px solid #aeb0b5;
+}
+
+.usajobs-help-center-breadcrumb-container {
+  background-color: #f1f1f1;
 }
 
 .usajobs-help-center-search__result:visited {
