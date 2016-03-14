@@ -66,6 +66,24 @@
       font-size: $h4-font-size;
     }
   }
+
+  &__title.faq .fa {
+    @include makeCircle(88px, $color-primary-alt, none, $color-primary-alt);
+    color: $color-primary-alt;
+    text-align: center;
+  }
+
+  &__title.how-to .fa {
+    @include makeCircle(88px, $color-green, none, $color-green);
+    color: $color-green;
+    text-align: center;
+  }
+
+  &__title.working-in-government .fa {
+    @include makeCircle(88px, $color-gold, none, $color-gold);
+    color: $color-gold;
+    text-align: center;
+  }
 }
 
 // Individual articles (markdown pages)

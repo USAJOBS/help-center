@@ -52,7 +52,12 @@
       content: none;
     }
 
+    &:first-child {
+      border-top-left-radius: rem(2px);
+    }
+
     &:last-child {
+      border-top-right-radius: rem(2px);
       border-right: 0;
     }
 
