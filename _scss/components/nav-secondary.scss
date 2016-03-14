@@ -1,0 +1,131 @@
+// Nav - Secondary
+
+@import 'lib/bourbon/bourbon';
+@import 'lib/neat/neat';
+@import "font-awesome/font-awesome";
+@import 'core/variables';
+@import 'base/variables';
+@import 'base/utilities';
+@import 'base/breakpoints';
+@import 'element/typography';
+
+.usajobs-help-center-nav-secondary {
+  $icon_width: 35px;
+
+  @include linear-gradient(to right,
+    $color-primary-alt 0%,
+    $color-primary-alt 33%,
+    $color-green-light 33%,
+    $color-green-light 66%,
+    $color-gold 66%,
+    $color-gold 100%);
+
+  &__body {
+    @include outer-container();
+    max-width: $site-max-width;
+
+    a {
+      // Another override of the base styles just to be certain we don't have
+      // underlined links in the nav
+      text-decoration: none;
+    }
+  }
+
+  &__menu {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+  }
+
+  &__container {
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    margin: 0;
+    padding: 0;
+
+    &:before,
+    &:after {
+      content: none;
+    }
+  }
+
+  &__item {
+    display: block;
+    padding: $size-S $size-default;
+    font-size: $base-font-size;
+    line-height: 1;
+    color: $color-base;
+    text-align: center;
+    text-decoration: none;
+
+    @include media($SM) {
+      text-align: left;
+    }
+
+    @include media($ML) {
+      padding: $size-default $size-M;
+    }
+
+    &:visited {
+      color: $color-base;
+    }
+
+    &.is-active {
+      @include boxShadow(1, true);
+    }
+
+    &:hover {
+      @include boxShadow(1);
+    }
+
+    .fa {
+      @include makeCircle($icon_width, $color-white, $color-white, $color-white);
+      margin-bottom: $size-S;
+      font-size: $h4-font-size;
+      text-align: center;
+
+      @include media($SM) {
+        float: left;
+      }
+    }
+
+    &.faq .fa {
+      color: $color-primary-alt;
+    }
+
+    &.how-to .fa {
+      color: $color-green-light;
+    }
+
+    &.working-in-government .fa {
+      color: $color-gold;
+    }
+  }
+
+  &__text {
+    display: block;
+
+    @include media($SM) {
+      float: left;
+      @include calc('width', "100% - #{$icon_width}");
+      padding-top: $size-base;
+      padding-left: $size-S;
+    }
+
+    @include media($M) {
+      display: inline-block;
+    }
+  }
+
+  &__text-long {
+    display: none;
+
+    @include media($M) {
+      display: inline-block;
+    }
+  }
+}
