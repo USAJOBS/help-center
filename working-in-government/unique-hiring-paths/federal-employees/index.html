@@ -139,16 +139,21 @@
   </nav>
 </header>
 
-    <section class="usajobs-shell">
-      <section class="usajobs-canvas">
-        <div class="usajobs-help-center-article usajobs-content-gutter">
-            <!-- li property="itemListElement" typeof="ListItem" class="active">
-    <span property="item" typeof="WebPage">
-      <span property="name">Federal employees</span>
-    </span>
-    <meta property="position" content="1">
-  </li -->
-<ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
+    <div class="usajobs-help-center-search-banner ">
+  <div role="search" id="search" class="usajobs-help-center-search-banner__container">
+    <form class="usa-search usa-search-big" action="/help-center/search" method="get">
+      <h1 class="usajobs-help-center-search-banner__title">Help Center</h1>
+      <label class="usa-sr-only" for="search-query">Search</label>
+      <input type="search" id="search-query" name="q" placeholder="Search for help" autocomplete="off" >
+      <button type="submit">
+        <span class="usa-search-submit-text">Search</span>
+      </button>
+    </form>
+  </div>
+</div>
+
+    <div class="usajobs-help-center-breadcrumb-container">
+  <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/">
         Home
@@ -204,10 +209,11 @@
   
     
     
-    <li class="usajobs-help-center-breadcrumb__item">
+    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       
       <a href="/help-center/working-in-government/"  class="usajobs-help-center-breadcrumb__link">
-        Working in Government
+        <span property="item" typeof="WebPage">Working in Government</span>
+        <meta property="position" content="1">
       </a>
     </li>
     
@@ -375,10 +381,11 @@
   
     
     
-    <li class="usajobs-help-center-breadcrumb__item">
+    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       
       <a href="/help-center/working-in-government/unique-hiring-paths/"  class="usajobs-help-center-breadcrumb__link">
-        Unique Hiring Paths
+        <span property="item" typeof="WebPage">Unique Hiring Paths</span>
+        <meta property="position" content="1">
       </a>
     </li>
     
@@ -530,10 +537,11 @@
   
     
     
-    <li class="usajobs-help-center-breadcrumb__item">
+    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       
       <a href="/help-center/working-in-government/unique-hiring-paths/federal-employees/" class="usajobs-help-center-breadcrumb__link is-active">
-        Federal employees
+        <span property="item" typeof="WebPage">Federal employees</span>
+        <meta property="position" content="1">
       </a>
     </li>
     
@@ -641,8 +649,12 @@
     
   
 
-</ul>
+  </ul>
+</div>
 
+    <section class="usajobs-shell">
+      <section class="usajobs-canvas">
+        <div class="usajobs-help-center-article usajobs-content-gutter">
           <main class="usajobs-content-well" id="main-content" role="main">
             <h1>Federal employees</h1>
             <p>The Federal Government consists of three types of services, the Competitive Service, the Excepted Service, and the Senior Executive Service.</p>
@@ -661,40 +673,9 @@
 
           </main>
           <aside class="usajobs-rightrail">
-            <h3>Related Articles</h3>
+            <h3 class="usajobs-help-center-article__related">Related Articles</h3>
             <ul class="usa-unstyled-list">
             
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
             
               
             
@@ -718,38 +699,82 @@
             
               
               <li>
-                <a href="/help-center/working-in-government/unique-hiring-paths/peace-corps/">
-                  Peach Corps & AmeriCorps VISTA alumni
-                </a>
-              </li>
-              
-            
-              
-              <li>
-                <a href="/help-center/working-in-government/unique-hiring-paths/veterans/">
-                  Veterans
-                </a>
-              </li>
-              
-            
-              
-            
-              
-              <li>
-                <a href="/help-center/working-in-government/unique-hiring-paths/students/">
-                  Students & recent graduates
-                </a>
-              </li>
-              
-            
-              
-            
-              
-              <li>
                 <a href="/help-center/working-in-government/unique-hiring-paths/former-overseas-employees/">
                   Former overseas employees
                 </a>
               </li>
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
               
             
               
@@ -781,6 +806,14 @@
               
             
               
+              <li>
+                <a href="/help-center/working-in-government/unique-hiring-paths/peace-corps/">
+                  Peach Corps & AmeriCorps VISTA alumni
+                </a>
+              </li>
+              
+            
+              
             
               
             
@@ -799,7 +832,11 @@
               
             
               
-            
+              <li>
+                <a href="/help-center/working-in-government/unique-hiring-paths/students/">
+                  Students & recent graduates
+                </a>
+              </li>
               
             
               
@@ -809,35 +846,11 @@
               
             
               
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
+              <li>
+                <a href="/help-center/working-in-government/unique-hiring-paths/veterans/">
+                  Veterans
+                </a>
+              </li>
               
             
               
