@@ -1,0 +1,47 @@
+// Breadcrumbs
+
+@import 'lib/bourbon/bourbon';
+@import 'lib/neat/neat';
+@import "font-awesome/font-awesome";
+@import 'core/variables';
+@import 'base/variables';
+@import 'base/utilities';
+@import 'base/breakpoints';
+@import 'element/typography';
+
+.usajobs-help-center-breadcrumb {
+  @include unstyledList();
+  padding: 0 $size-S;
+  width: 100%;
+  background-color: $color-gray-lightest;
+
+  li.usajobs-help-center-breadcrumb__item {
+    display: inline-block;
+  }
+
+  &__link {
+    font-size: $small-font-size;
+
+    &:visited {
+      color: $color-primary;
+    }
+
+    &:after {
+      content: ' / ';
+      color: $color-base;
+    }
+
+    &.is-active {
+      color: $color-base;
+
+      &:visited {
+        color: $color-base;
+      }
+
+      &:after {
+        content: '';
+      }
+    }
+  }
+}
+

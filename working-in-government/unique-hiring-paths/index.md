@@ -4,6 +4,7 @@ layout: article
 title: Unique Hiring Paths
 category: Working-in-Government
 tags: []
+breadcrumb: Unique Hiring Paths
 ---
 
 There are several unique hiring paths for candidates who qualify for a special non-competitive hiring authority established by law or executive order. These targeted segments of the population include:

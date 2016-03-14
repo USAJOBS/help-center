@@ -2,6 +2,7 @@
 permalink: /how-to/search/filters/salary/
 layout: article
 title: How to filter results by salary
+breadcrumb: How to filter results by salary
 category: Filters
 tags: [search, filters, salary]
 ---
@@ -14,5 +15,5 @@ A pay grade is a rate of basic pay associated with a specific level of work or r
 
 ## Additional Resources
 
-* [How to search by salary range and pay grade](/how-to/search/advanced/salary/)
-* [Pay & Leave](/working-in-government/pay-and-leave/)
+* [How to search by salary range and pay grade](../../advanced/salary/)
+* [Pay & Leave](../../../../working-in-government/pay-and-leave/)

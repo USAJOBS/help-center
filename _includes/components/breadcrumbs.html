@@ -1,0 +1,32 @@
+  <!-- li property="itemListElement" typeof="ListItem" class="active">
+    <span property="item" typeof="WebPage">
+      <span property="name">{{ page.title }}</span>
+    </span>
+    <meta property="position" content="{{ page.parent_paths | size | plus: 1 }}">
+  </li -->
+<ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
+    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
+      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="{{ site.baserul }}/">
+        Home
+      </a>
+    </li>
+{% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
+{% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
+{% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
+{% for i in (1..forLoopMaxInt) %}
+  {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
+  {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+  {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
+  {% for breadcrumb_page in site.pages %}
+    {% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
+    {% assign j = forLoopMaxInt | plus: 0 %}
+    <li class="usajobs-help-center-breadcrumb__item">
+      {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
+      <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}" {% if i == j %}class="usajobs-help-center-breadcrumb__link is-active"{% else %} class="usajobs-help-center-breadcrumb__link"{% endif %}>
+        {{breadcrumb_page.breadcrumb}}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>

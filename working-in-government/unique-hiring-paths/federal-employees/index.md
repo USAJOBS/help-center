@@ -2,6 +2,7 @@
 permalink: /working-in-government/unique-hiring-paths/federal-employees/
 layout: article
 title: Federal employees
+breadcrumb: Federal employees
 category: Unique Hiring Paths
 tags: [federal employees, competitive, service, excepted, unique hiring paths]
 ---
