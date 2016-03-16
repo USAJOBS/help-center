@@ -1,7 +1,9 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/veterans/veoa/
 layout: article
+section: working-in-government
 title: Veterans Employment Opportunity Act of 1998 (VEOA)
+breadcrumb: VEOA
 category: Veterans
 tags: [veterans, veoa]
 ---

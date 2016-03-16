@@ -1,7 +1,9 @@
 ---
 permalink: /faq/application/eligibility/
 layout: article
+section: faq
 title: Which jobs am I eligible to apply for?
+breadcrumb: Which jobs am I eligible to apply for?
 category: Eligibility
 tags: [eligibility]
 ---
