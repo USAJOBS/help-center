@@ -8,7 +8,7 @@ category: Filters
 tags: [search, filters, profile]
 ---
 
-The **Profile - Eligibility** search filter appears once you are logged in and have completed the [Eligibilty](https://www.usajobs.gov/Applicant/Profile/HiringEligibilityData/") section of your profile. Once that section is complete filters will appear here based on your answers to those eligibility questions.
+The **Profile - Eligibility** search filter appears once you are logged in and have completed the [Eligibilty](https://www.usajobs.gov/Applicant/Profile/HiringEligibilityData/) section of your profile. Once that section is complete filters will appear here based on your answers to those eligibility questions.
 
 ### Federal employees
 
@@ -17,7 +17,7 @@ The **Profile - Eligibility** search filter appears once you are logged in and h
 If you have selected this option under question 4 in your Profile under Eligibility you will be able to filter your search results in two ways:
 
 1. **Publicly available** - Selecting this checkbox will show jobs that are open to all of the U.S. public.
-2. **Federal employees** - Selecting this checkbox will show jobs that are open only to eligible federal employees. Selecting this option may display jobs for which you <strong>may not be eligible</strong>. Please refer to our eligibility FAQ to determine [which jobs you are eligibile to apply for](/faq/application/eligibility/).
+2. **Federal employees** - Selecting this checkbox will show jobs that are open only to eligible federal employees. Selecting this option may display jobs for which you <strong>may not be eligible</strong>. Please refer to our eligibility FAQ to determine [which jobs you are eligibile to apply for](../../../../faq/application/eligibility/).
 
 NOTE: Selecting both checkboxes will show both sets of jobs.
 
@@ -43,7 +43,7 @@ NOTE: Selecting both checkboxes will show both sets of jobs.
 
 ## No profile or incomplete profile
 
-By default the jobs shown to those without a complete [Eligibilty](https://www.usajobs.gov/Applicant/Profile/HiringEligibilityData/") section of their profile are jobs that are open to all of the U.S. public.
+By default the jobs shown to those without a complete [Eligibilty](https://www.usajobs.gov/Applicant/Profile/HiringEligibilityData/) section of their profile are jobs that are open to all of the U.S. public.
 
 
 ## Additional Resources
