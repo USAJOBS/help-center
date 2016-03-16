@@ -15,5 +15,6 @@ Veterans' preference does not apply to positions in the Senior Executive Service
 To learn more, please consult the following resources:
 
 * [Feds Hire Vets](http://www.fedshirevets.gov/)
+* [Veterans' Preference Advisor](http://webapps.dol.gov/elaws/vets/vetpref/choice.htm)
 * [Frequently Asked Questions - Veterans (OPM)](https://www.opm.gov/FAQS/topic/veterans/index.aspx)
 * [Veterans Employment Initiative (OPM)](https://www.opm.gov/policy-data-oversight/veterans-employment-initiative/vet-guide/)

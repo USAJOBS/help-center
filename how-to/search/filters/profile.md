@@ -37,7 +37,7 @@ NOTE: Selecting both checkboxes will show both sets of jobs.
 If you have answered **Yes** to this question under question 3 in your Profile under Eligibility you will be able to filter your search results in two ways:
 
 1. **Publicly available** - Selecting this checkbox will show jobs that are open to all of the U.S. public.
-2. **VEOA eligibile** - Selecting this checkbox will show jobs that are open only to Veterans with [VEOA eligibility](../../../../working-in-government/unique-hiring-paths/veterans/veoa/). This provides access to jobs that are otherwise open only to eligible federal employees.
+2. **VEOA eligible** - Selecting this checkbox will show jobs that are open only to Veterans with [VEOA eligibility](../../../../working-in-government/unique-hiring-paths/veterans/veoa/). This provides access to jobs that are otherwise open only to eligible federal employees.
 
 NOTE: Selecting both checkboxes will show both sets of jobs.
 

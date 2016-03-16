@@ -1,6 +1,7 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/federal-employees/
 layout: article
+section: working-in-government
 title: Federal employees
 breadcrumb: Federal employees
 category: Unique Hiring Paths
