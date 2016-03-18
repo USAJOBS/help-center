@@ -17,7 +17,7 @@ Federal agencies typically seek candidates from one of the **three following eli
 Candiates who are new to the federal government and have no prior federal employment.
 
 * [Non-Citizens](../../../working-in-government/non-citizens/)
-* U. S. Citizens
+* [U. S. Citizens](../../../working-in-government/us-citizens/)
 
 ## 2. Unique Hiring Paths
 
@@ -31,21 +31,21 @@ These targeted segments of the population include:
 * [Veterans](../../../working-in-government/unique-hiring-paths/veterans/)
 * [Peace Corps & VISTA alumni](../../../working-in-government/unique-hiring-paths/peace-corps/)
 
-In addition, current or previous employees of the Government of the District of Columbia or the United States Postal Service may also be considered “status” candidates. Select one of the above paths for more information.
+In addition, current or previous employees of the Government of the District of Columbia or the United States Postal Service may also be considered "status" candidates. Select one of the above paths for more information.
 
 ## 3. Career Appointment
 
-Candidates who have current or previous federal employment experience, also known as "status" or "career appointment". Status applicants are current or former Federal civilian employees who hold or held non-temporary appointments in the competitive service, not the excepted service.
+Candidates who have current or previous federal employment experience, also known as "status" or "career appointment". Status applicants are current or former Federal civilian employees who hold or held non-temporary appointments in the [competitive service, not the excepted service](../../../working-in-government/service/).
 
 Status applicants may be eligible for the following under merit promotion procedures:
 
-* Transfer
-* CTAP
-* ICTAP
-* Reinstatement
-* Interchange Agreements
+* [Transfer](../../../working-in-government/unique-hiring-paths/federal-employees/transfer/)
+* [CTAP](../../../working-in-government/unique-hiring-paths/federal-employees/ctap/)
+* [ICTAP](../../../working-in-government/unique-hiring-paths/federal-employees/ictap/)
+* [Reinstatement](../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/)
+* [Interchange Agreements](../../../working-in-government/unique-hiring-paths/federal-employees/interchange-agreements/)
 
-In addition, certain veterans eligible under the Veterans Employment Opportunities Act (VEOA) may also apply and be considered under vacancy announcements limited to status applicants.
+In addition, certain veterans eligible under the [Veterans Employment Opportunities Act (VEOA)](../../../working-in-government/unique-hiring-paths/veterans/veoa/) may also apply and be considered under vacancy announcements limited to status applicants.
 
 ## Additional Resources
 
