@@ -1,8 +1,9 @@
 ---
 permalink: /how-to/search/filters/salary/
 layout: article
+section: how-to
 title: How to filter results by salary
-breadcrumb: How to filter results by salary
+breadcrumb: Salary
 category: Filters
 tags: [search, filters, salary]
 ---

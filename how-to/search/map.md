@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/search/map/
 layout: article
-title: Map Search
+section: how-to
+title: How to search by map
+breadcrumb: How to search by map
 category: Search
 tags: [search, map, tips]
 ---

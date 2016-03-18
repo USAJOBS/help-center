@@ -3,7 +3,7 @@ permalink: /how-to/search/filters/job-category/
 layout: article
 section: how-to
 title: How to filter results by job category
-breadcrumb: How to filter results by job category
+breadcrumb: Job category
 category: Filters
 tags: [search, filters, job category]
 ---

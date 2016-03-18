@@ -3,7 +3,7 @@ permalink: /how-to/search/filters/department-and-agency/
 layout: article
 section: how-to
 title: How to filter results by department and agency
-breadcrumb: How to filter results by department and agency
+breadcrumb: Department and agency
 category: Filters
 tags: [search, filters, department, agency]
 ---

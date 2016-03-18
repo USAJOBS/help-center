@@ -3,7 +3,7 @@ permalink: /how-to/search/filters/pay-grade/
 layout: article
 section: how-to
 title: How to filter results by pay grade
-breadcrumb: How to filter results by pay grade
+breadcrumb: Pay grade
 category: Filters
 tags: [search, filters, pay grade]
 ---
