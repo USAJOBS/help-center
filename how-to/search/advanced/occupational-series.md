@@ -1,13 +1,14 @@
 ---
 permalink: /how-to/search/advanced/occupational-series/
 layout: article
+section: how-to
 title: How to search by occupational series and job category
+breadcrumb: Occupational series & job category
 category: Advanced Search
 tags: [search, advanced, occupational series, pay, grade]
-
 ---
 
-Occupations in the Federal Government are designated professional (general schedule) or trade, crafts, or labor (wage grade), and are further categorized and defined by series and/or grade. Following is a list of the occupational “families” and a description of what types of positions are included in each.
+Occupations in the Federal Government are designated professional (general schedule) or trade, crafts, or labor (wage grade), and are further categorized and defined by series and/or grade. Following is a list of the occupational "families" and a description of what types of positions are included in each.
 
 ## Profesional occupations
 

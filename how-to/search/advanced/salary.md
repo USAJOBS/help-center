@@ -1,6 +1,7 @@
 ---
 permalink: /how-to/search/advanced/salary/
 layout: article
+section: how-to
 title: How to search by salary range and pay grade
 category: Advanced Search
 tags: [search, advanced, pay, salary, grade, range]

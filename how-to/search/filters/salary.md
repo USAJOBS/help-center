@@ -7,11 +7,11 @@ category: Filters
 tags: [search, filters, salary]
 ---
 
-Use this filter to show results by salary or pay grade.
+Use this filter to limit results to one or more salary range.
 
-## Pay Grade
+## Salary Range
 
-A pay grade is a rate of basic pay associated with a specific level of work or range of difficulty, responsibility, and qualification requirements. The GS pay schedule has 15 pay grades and 10 steps in each grade covering more than 400 occupations.
+The minimum and maximum amount of pay within a pay grade or pay band for that position. Agencies offer pay for a position depending on their pay setting rules and your qualifications. Each online job announcement notes the specific education and/or experience requirements that are reviewed to create a salary range for that position.
 
 ## Additional Resources
 
