@@ -1,7 +1,9 @@
 ---
 permalink: /faq/application/documents/resume/what-to-include/
 layout: article
+section: faq
 title: What should I include in my resume?
+breadcrumb: What to include
 category: Resume
 tags: [application, resume]
 ---

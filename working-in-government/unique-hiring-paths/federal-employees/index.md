@@ -21,6 +21,8 @@ As a federal employee it is important that you understand which [service](../../
 
 ## Merit promotion
 
+Merit promotion is the system under which agencies consider an employee for vacant positions on the basis of personal merit. Vacant positions are usually filled through competition with applicants (current competitive service employees) being evaluated and ranked for the position on the basis of their experience, education, competencies and performance.
+
 Once you have determined your service and appointment, if you hold a career appointment in the competitive service, also known as "status", you may be eligible for the following under merit promotion procedures:
 
 * [Transfer](../../../working-in-government/unique-hiring-paths/federal-employees/transfer/)
