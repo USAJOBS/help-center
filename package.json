@@ -27,7 +27,9 @@
     "lt-ie-9": "^0.1.0"
   },
   "scripts": {
+    "all": "npm run build && npm run prod && npm run deploy",
     "build": "grunt build",
+    "prod": "grunt build-prod",
     "deploy-cloud": "grunt build-flat; cf push",
     "css": "grunt css",
     "deploy": "git subtree push --prefix _dist origin gh-pages",

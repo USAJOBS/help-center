@@ -1,0 +1,49 @@
+# Markdown config
+highlighter: rouge
+name: USAJOBS Help Center
+subtitle: A project to improve the help content of USAJOBS.
+exclude:
+- Gemfile
+- Gemfile.lock
+- Gruntfile.js
+- package.json
+- README.md
+- LICENSE.md
+- CONTRIBUTING.md
+- ".sass-cache"
+- ".ruby-version"
+- npm-debug.log
+- node_modules
+- library
+keep_files: ['css', 'js']
+
+# Setting a unique port number
+port: 4001
+
+baseurl: 'https://www.usajobs.gov/help'
+destination: ./_dist-prod
+
+permalink: pretty
+
+author:
+  name: USAJOBS
+  url: https://usajobs.github.io/
+
+repository:
+  name: Help Center
+  url: https://github.com/USAJOBS/help-center/
+
+# google_analytics_ua: UA-48605964-33
+
+gems: ['jekyll-lunr-js-search', 'jekyll-sitemap']
+
+lunr_search:
+  min_length: 3
+  excludes: [rss.xml]
+
+how-to-cats: [Account, Application, Search, Misc]
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/

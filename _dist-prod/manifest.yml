@@ -1,0 +1,7 @@
+applications:
+- name: help-center
+  memory: 64M
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  path: _dist-flat
+  env:
+    FORCE_HTTPS: true
