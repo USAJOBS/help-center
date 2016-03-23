@@ -1,8 +1,9 @@
 ---
 permalink: /how-to/application/agency/contact/
 layout: article
+section: how-to
 title: How to contact an agency
-breadcrumb: How to contact an agency
+breadcrumb: Contact an agency
 category: Application
 tags: [application, status, contact, agency]
 ---

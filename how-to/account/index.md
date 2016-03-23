@@ -1,7 +1,9 @@
 ---
-permalink: /how-to/account/create/
+permalink: /how-to/account/
 layout: article
+section: how-to
 title: How to create an account
+breadcrumb: Create
 category: Account
 tags: [account, create]
 ---

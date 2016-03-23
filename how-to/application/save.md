@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/application/save/
 layout: article
+section: how-to
 title: How to save an application
+breadcrumb: Save an application
 category: Application
 tags: [application, save, apply ]
 ---

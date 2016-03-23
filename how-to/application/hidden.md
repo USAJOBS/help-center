@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/application/hidden/
 layout: article
+section: how-to
 title: How to view a hidden application
+breadcrumb: View a hidden application
 category: Application
 tags: [application, status, tips]
 ---

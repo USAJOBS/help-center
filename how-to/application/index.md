@@ -1,12 +1,14 @@
 ---
-permalink: /how-to/application/submit/
+permalink: /how-to/application/
 layout: article
-title: How to submit an application
+section: how-to
+title: How to create an application
+breadcrumb: Apply
 category: Application
-tags: [application, submit, apply ]
+tags: [application, create, submit, apply ]
 ---
 
-To submit an application on USAJOBS:
+To create an application on USAJOBS:
 
 1. Log into your USAJOBS My Account.
 2. Ensure all five sections of your USAJOBS Profile are updated as some of the Profile information is carried over to the agency application system when you begin the application process. Your Profile includes the following sections: Contact Information, Hiring Eligibility, Other, Demographic, and Account Information.

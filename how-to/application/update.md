@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/application/update/
 layout: article
+section: how-to
 title: How to update an application
+breadcrumb: Update an application
 category: Application
 tags: [application, update, apply ]
 ---
