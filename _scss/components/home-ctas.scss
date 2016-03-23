@@ -1,0 +1,65 @@
+// Home CTAs
+
+@import 'lib/bourbon/bourbon';
+@import 'lib/neat/neat';
+@import "font-awesome/font-awesome";
+@import 'core/variables';
+@import 'base/variables';
+@import 'base/utilities';
+@import 'base/breakpoints';
+@import 'element/typography';
+
+.usajobs-help-center-home__start-about-container {
+  margin-top: $size-XL;
+
+  @include media($M) {
+    margin-left: -$size-M;
+    margin-right: -$size-M;
+    padding: 0 $size-M;
+    background-image: linear-gradient(to right, $color-primary, $color-primary 50%, $color-gray-dark 50%, $color-gray-dark 100%);
+  }
+}
+
+.usajobs-help-center-home-get-started,
+.usajobs-help-center-home-about-usajobs {
+  @mixin invertButton($btn-color: $color-white) {
+    box-shadow: inset 0 0 0 2px $btn-color;
+    color: $btn-color;
+    background-color: inherit;
+  }
+
+  padding: $size-default $size-M;
+
+  &__text {
+    color: $color-white;
+  }
+
+  &__button.usa-button-outline {
+    @include invertButton();
+  }
+}
+
+.usajobs-help-center-home-get-started {
+  background-color: $color-primary;
+
+  @include media($M) {
+    background-color: inherit;
+  }
+
+  &__title {
+    color: $color-primary-alt-light;
+  }
+}
+
+.usajobs-help-center-home-about-usajobs {
+  background-color: $color-gray-dark;
+
+  @include media($M) {
+    background-color: inherit;
+  }
+
+  &__title {
+    color: $color-gold;
+  }
+}
+

@@ -38,8 +38,15 @@
   &__title {
     color: $color-white;
     margin-bottom: $size-default;
+  }
 
-    @include media($ML) {
+  &__link {
+    color: $color-white;
+
+    &:visited,
+    &:hover {
+      color: $color-white;
+      text-decoration: none;
     }
   }
 

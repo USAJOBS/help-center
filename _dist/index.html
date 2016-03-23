@@ -53,7 +53,7 @@
   <link rel="stylesheet" href="/help-center/css/usajobs-help-center.css">
 
   </head>
-  <body>
+  <body class="usajobs-help-center-home-body">
     <a class="skipnav" href="#main-content">Skip main navigation</a>
     <header class="usajobs-site-header" role="banner" aria-label="header">
   <div class="usa-disclaimer">
@@ -141,7 +141,9 @@
     <div class="usajobs-help-center-search-banner home">
   <div role="search" id="search" class="usajobs-help-center-search-banner__container">
     <form class="usa-search usa-search-big" action="/help-center/search" method="get">
-      <h1 class="usajobs-help-center-search-banner__title">Help Center</h1>
+      <h1 class="usajobs-help-center-search-banner__title">
+        <a href="/help-center/" class="usajobs-help-center-search-banner__link">Help Center</a>
+      </h1>
       <label class="usa-sr-only" for="search-query">Search</label>
       <input type="search" id="search-query" name="q" placeholder="Search for help" autocomplete="off" >
       <button type="submit">
@@ -155,14 +157,15 @@
       <section class="usajobs-canvas">
         <div class="usajobs-help-center-home usajobs-content-gutter">
           <main class="usajobs-content-well-full" id="main-content" role="main">
-            <h2 class="usajobs-help-center__lead">
-  Welcome to the help center for USAJOBS.
+            <h2 id="title" class="usajobs-help-center-home__page-title">
+  Welcome to the Help Center for USAJOBS.
 </h2>
+
 <div class="usajobs-grid-full">
-  <div class="usajobs-width-one-third">
-    <a class="usajobs-help-center__home-link" href="/help-center/faq/">
+  <div class="usajobs-help-center-home__section faq">
+    <a class="usajobs-help-center-home__section-title faq" href="/help-center/faq/">
       <div class="fa fa-question"></div>
-      FAQs
+      <h3>FAQs</h3>
     </a>
     <p>
       Frequently asked questions on a broad range of topics related to the Federal hiring process. This section answers questions such as:
@@ -185,10 +188,10 @@
       </li>
     </ul>
   </div>
-  <div class="usajobs-width-one-third">
-    <a class="usajobs-help-center__home-link" href="/help-center/how-to/">
+  <div class="usajobs-help-center-home__section how-to">
+    <a class="usajobs-help-center-home__section-title how-to" href="/help-center/how-to/">
       <div class="fa fa-book"></div>
-      How to&hellip;
+      <h3>How to&hellip;</h3>
     </a>
     <p>
       How to complete any task on USAJOBS, step by step. This section includes help on how to&hellip;
@@ -208,10 +211,10 @@
       </li>
     </ul>
   </div>
-  <div class="usajobs-width-one-third">
-    <a class="usajobs-help-center__home-link" href="/help-center/working-in-government/">
+  <div class="usajobs-help-center-home__section working-in-government">
+    <a class="usajobs-help-center-home__section-title working-in-government" href="/help-center/working-in-government/">
       <div class="fa fa-university"></div>
-      Working in Government
+      <h3>Working in Government</h3>
     </a>
     <p>
       What is it like to work within the United States Government? Find out more in this section which includes information on:
@@ -271,6 +274,7 @@
           </li>
         </ul>
       </li>
+    </ul>
   </div>
 </div>
 
@@ -278,9 +282,32 @@
         </div>
       </section>
     </section>
+    <div class="usajobs-help-center-home__start-about-container">
+  <div class="usajobs-grid-full">
+    <div class="usajobs-width-one-half usajobs-help-center-home-get-started">
+      <h2 class="usajobs-help-center-home-get-started__title">Get Started</h2>
+      <p class="usajobs-help-center-home-get-started__text">
+        USAJOBS posts all federal job opportunities with a position description and instructions how to apply. With USAJOBS.gov tools and resources, you can find the right federal job faster.
+      </p>
+      <button class="usa-button-big usa-button-outline usajobs-help-center-home-get-started__button">
+        Create Profile
+      </button>
+    </div>
+    <div class="usajobs-width-one-half usajobs-help-center-home-about-usajobs">
+      <h2 class="usajobs-help-center-home-about-usajobs__title">About USAJOBS</h2>
+      <p class="usajobs-help-center-home-about-usajobs__text">
+        As a free web-based job board and the Federal Government’s official source, USAJOBS has attracted over 17 million job seekers to create accounts to date.
+      </p>
+      <button class="usa-button-big usa-button-outline usajobs-help-center-home-get-started__button">
+        Learn about USAJOBS
+      </button>
+    </div>
+  </div>
+</div>
+
     <footer class="usa-footer usa-footer-big usajobs-footer--v1" role="contentinfo" aria-label="footer" data-object="footer">
   <div class="usa-grid usa-footer-return-to-top">
-    <a href="#footer">Return to top</a>
+    <a href="#title">Return to top</a>
   </div>
   <div class="usa-footer-primary-section">
     <div class="usa-grid-full">

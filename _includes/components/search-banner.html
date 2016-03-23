@@ -1,7 +1,9 @@
 <div class="usajobs-help-center-search-banner {{ include.param }}">
   <div role="search" id="search" class="usajobs-help-center-search-banner__container">
     <form class="usa-search usa-search-big" action="{{ site.baseurl }}/search" method="get">
-      <h1 class="usajobs-help-center-search-banner__title">Help Center</h1>
+      <h1 class="usajobs-help-center-search-banner__title">
+        <a href="{{ site.baseurl }}/" class="usajobs-help-center-search-banner__link">Help Center</a>
+      </h1>
       <label class="usa-sr-only" for="search-query">Search</label>
       <input type="search" id="search-query" name="q" placeholder="Search for help" autocomplete="off" >
       <button type="submit">
