@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/search/save/job/
 layout: article
+section: how-to
 title: How to save a job
+breadcrumb: Save a job
 category: Search
 tags: [search, job, job announcement]
 ---

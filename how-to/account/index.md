@@ -3,7 +3,7 @@ permalink: /how-to/account/
 layout: article
 section: how-to
 title: How to create an account
-breadcrumb: Create
+breadcrumb: Account
 category: Account
 tags: [account, create]
 ---

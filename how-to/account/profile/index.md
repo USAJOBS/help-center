@@ -3,7 +3,7 @@ permalink: /how-to/account/profile/
 layout: article
 section: how-to
 title: How to create a profile
-breadcrumb: Create
+breadcrumb: Profile
 category: Profile
 tags: [account, profile, create]
 ---

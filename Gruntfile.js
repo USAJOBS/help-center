@@ -165,6 +165,22 @@ module.exports = function(grunt) {
       options: {
         logConcurrentOutput: true
       }
+    },
+    linkChecker: {
+      // Use a large amount of concurrency to speed up check
+      options: {
+        maxConcurrency: 20,
+        noFragment: true
+      },
+      dev: {
+        site: 'localhost',
+        options: {
+          initialPort: 4001
+        }
+      },
+      postDeploy: {
+        site: 'usajobs.github.io/help-center/'
+      }
     }
   });
 

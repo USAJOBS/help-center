@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/account/documents/resume/upload/
 layout: article
+section: how-to
 title: How to upload a resume
+breadcrumb: Upload
 category: Resume
 tags: [account, documents, resume, upload]
 ---

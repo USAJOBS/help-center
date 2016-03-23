@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/account/documents/upload/
 layout: article
+section: how-to
 title: How to upload documents
+breadcrumb: Upload
 category: Documents
 tags: [account, documents, upload]
 ---

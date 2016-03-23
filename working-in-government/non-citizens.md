@@ -1,10 +1,16 @@
 ---
 permalink: /working-in-government/non-citizens/
 layout: article
+section: working-in-government
 title: Employment of Non-Citizens
+breadcrumb: Employment of Non-Citizens
 category: Working-in-Government
 tags: [non-citizens, citizenship, eligibility]
 ---
+
+Federal agencies may only employ United States citizens and nationals (residents of American Samoa and Swains Island) in the [competitive service](../service/). However, Federal agencies may request OPM approval to appoint a non-citizen, if no qualified U.S. citizens are available.
+
+An agency may hire a qualified non-citizen into the [excepted service](../service/) or [Senior Executive service](../service/) if it is permitted to do so by the annual Appropriations Act and the immigration law and the agency’s specific laws and internal policies.
 
 ## Considerations
 

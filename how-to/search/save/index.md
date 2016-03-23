@@ -3,7 +3,7 @@ permalink: /how-to/search/save/
 layout: article
 section: how-to
 title: How to save a search
-breadcrumb: How to save a search
+breadcrumb: Save a search
 category: Search
 tags: [search, save]
 ---

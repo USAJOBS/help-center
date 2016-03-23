@@ -3,7 +3,7 @@ permalink: /how-to/account/documents/resume/build/
 layout: article
 section: how-to
 title: How to build a resume
-breadcrumb: How to build a resume
+breadcrumb: Build
 category: Resume
 tags: [account, documents, resume, build]
 ---
