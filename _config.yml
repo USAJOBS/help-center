@@ -15,6 +15,7 @@ exclude:
 - npm-debug.log
 - node_modules
 - library
+- prod-*.zip
 keep_files: ['css', 'js']
 
 # Setting a unique port number

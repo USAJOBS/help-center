@@ -27,7 +27,7 @@
     "lt-ie-9": "^0.1.0"
   },
   "scripts": {
-    "all": "npm run build && npm run prod && npm run deploy",
+    "all": "npm run prod && npm run build && npm run deploy",
     "build": "grunt build",
     "build:prod": "grunt build-prod && zip -vr prod.zip _dist-prod/ -x '*.DS_Store'",
     "deploy:cloud": "grunt build-flat; cf push",
