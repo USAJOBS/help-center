@@ -9,9 +9,9 @@
 @import 'base/breakpoints';
 @import 'element/typography';
 
-.usajobs-help-center-search-banner {
+.usajobs-help-center-search-banner,
+.usajobs-help-center-search-banner--with-nav {
   padding-top: $size-default;
-  padding-bottom: $size-M;
   background: $color-primary-darkest;
   background-image: url("../img/helpcenter_star.png");
   background-image: url("../img/helpcenter_star.svg");
@@ -58,6 +58,24 @@
     input[type=search] {
       @include media($ML) {
       }
+    }
+  }
+}
+
+.usajobs-help-center-search-banner {
+  padding-bottom: $size-M;
+
+  @include media($M) {
+    padding-bottom: $size-L;
+  }
+}
+
+.usajobs-help-center-search-banner--with-nav {
+  .usa-search {
+    padding-bottom: $size-M;
+
+    @include media($M) {
+      padding-bottom: $size-L;
     }
   }
 }

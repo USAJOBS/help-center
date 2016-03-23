@@ -11,11 +11,15 @@
 
 .usajobs-help-center-nav-secondary {
   $icon_width: 42px;
-  background-color: $color-primary-darkest;
 
   &__body {
     @include outer-container();
     max-width: $site-max-width;
+
+    @include media($SM) {
+      padding-left: $size-default;
+      padding-right: $size-default;
+    }
 
     @include media($ML) {
       padding-left: $size-M;
@@ -41,54 +45,29 @@
   &__container {
     position: relative;
     display: inline-block;
-    width: 33.33333333%;
     margin: 0;
     padding: 0;
-    background-color: $color-primary-darker;
-    border-right: 1px solid $color-primary-darkest;
 
     &:before,
     &:after {
       content: none;
     }
 
-    &:first-child {
-      border-top-left-radius: rem(2px);
+    &.is-active .usajobs-help-center-nav-secondary__item {
+      font-weight: bold;
+      color: $color-white;
     }
 
-    &:last-child {
-      border-top-right-radius: rem(2px);
-      border-right: 0;
+    &.faq.is-active {
+      border-bottom: 3px solid $color-primary-alt;
     }
 
-    &.is-active {
-      @include boxShadow(1, true);
-      background-color: darken($color-primary-darker, 5%);
+    &.how-to.is-active {
+      border-bottom: 3px solid $color-green-light;
     }
 
-    &.faq {
-      .fa {
-        @include makeCircle($icon_width, $color-primary-alt, none, $color-primary-alt);
-        color: $color-primary-alt;
-      }
-    }
-
-    &.how-to {
-      .fa {
-        @include makeCircle($icon_width, $color-green-light, none, $color-green-light);
-        color: $color-green-light;
-      }
-    }
-
-    &.working-in-government {
-      .fa {
-        @include makeCircle($icon_width, $color-gold, none, $color-gold);
-        color: $color-gold;
-
-        &:before {
-          margin-right: -2px; // fix for out of alignment icon
-        }
-      }
+    &.working-in-government.is-active {
+      border-bottom: 3px solid $color-gold;
     }
   }
 
@@ -100,45 +79,25 @@
     line-height: 1;
     text-align: center;
     text-decoration: none;
-    color: $color-white;
+    text-transform: uppercase;
+    color: $color-gray-light;
 
     @include media($SM) {
-      text-align: left;
-    }
-
-    @include media($ML) {
       padding: $size-default $size-M;
     }
 
     &:visited {
-      color: $color-white;
+      color: $color-gray-light;
     }
 
     &:hover {
-      @include boxShadow(1);
-    }
-
-    .fa {
-      margin-bottom: $size-S;
-      font-size: $h4-font-size;
-      text-align: center;
-
-      @include media($SM) {
-        float: left;
-        margin-bottom: 0;
-      }
+      color: $color-gray-lightest;
+      text-decoration: underline;
     }
   }
 
   &__text {
     display: block;
-
-    @include media($SM) {
-      float: left;
-      @include calc('width', "100% - #{$icon_width}");
-      padding-top: $size-base;
-      padding-left: $size-S;
-    }
 
     @include media($M) {
       display: inline-block;
@@ -150,6 +109,11 @@
 
     @include media($M) {
       display: inline-block;
+
+      &:hover {
+        color: $color-gray-lightest;
+        text-decoration: underline;
+      }
     }
   }
 }
