@@ -34,7 +34,7 @@ repository:
   name: Help Center
   url: https://github.com/USAJOBS/help-center/
 
-# google_analytics_ua: UA-48605964-33
+google_analytics_ua: UA-33523145-1
 
 gems: ['jekyll-lunr-js-search', 'jekyll-sitemap']
 

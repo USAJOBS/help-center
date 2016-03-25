@@ -17,6 +17,38 @@
   background-color: $color-gray-lightest;
 }
 
+.usajobs-help-center-home,
+.usajobs-help-center-landing,
+.usajobs-help-center-singleton {
+
+  &__link-list {
+    @include unstyledList();
+    margin-bottom: 0;
+
+    a {
+      display: block;
+      padding: $size-S 0;
+      font-size: $h4-font-size;
+    }
+  }
+
+  &__link-list-small {
+    @include unstyledList();
+    margin-bottom: 0;
+
+    a {
+      display: block;
+      padding: $size-base 0;
+      font-size: $h5-font-size;
+    }
+  }
+}
+
+.usajobs-help-center-landing,
+.usajobs-help-center-singleton {
+  margin-bottom: $size-XXL;
+}
+
 .usajobs-help-center-home {
   padding: $size-M;
   background-color: $color-gray-lightest;
@@ -59,20 +91,20 @@
 
   &__section.faq {
     @include media($M) {
-      min-height: 531px; // hack - should be using a flexbox grid
+      min-height: 792px; // hack - should be using a flexbox grid
     }
     @include media($L) {
-      min-height: 675px;
+      min-height: 816px;
     }
   }
 
   &__section.how-to {
     @include media($M) {
       @include omega();
-      min-height: 531px; // hack - should be using a flexbox grid
+      min-height: 792px; // hack - should be using a flexbox grid
     }
     @include media($L) {
-      min-height: 675px;
+      min-height: 816px;
       @include span-columns(4, 12);
     }
   }
@@ -83,6 +115,7 @@
     }
 
     @include media($L) {
+      min-height: 816px;
       @include span-columns(4, 12);
     }
   }
@@ -111,50 +144,43 @@
   }
 
   &__section-title.faq .fa {
-    @include makeCircle(114px, $color-primary-alt, none, $color-primary-alt);
+    @include makeCircle(118px, $color-primary-alt, none, $color-primary-alt);
     box-shadow: inset 0 0 0 3px $color-primary-alt;
     text-align: center;
-    font-size: 56px;
+    font-size: rem(59px);
   }
 
   &__section-title.how-to .fa {
-    @include makeCircle(114px, $color-green, none, $color-green);
+    @include makeCircle(118px, $color-green, none, $color-green);
     box-shadow: inset 0 0 0 3px $color-green;
     text-align: center;
-    font-size: 56px;
+    font-size: rem(59px);
   }
 
   &__section-title.working-in-government .fa {
-    @include makeCircle(114px, $color-gold, none, $color-gold);
+    @include makeCircle(118px, $color-gold, none, $color-gold);
     box-shadow: inset 0 0 0 3px $color-gold;
     text-align: center;
-    font-size: 56px;
+    font-size: rem(59px);
 
     &:before {
       margin-right: -4px;
     }
   }
+
+  &__section-link {
+    display: block;
+    margin-top: $size-M;
+    padding: $size-S 0;
+  }
 }
 
 .usajobs-help-center__lead {
   @include h3();
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 1.5;
   color: $color-gray;
-}
-
-.usajobs-help-center-landing,
-.usajobs-help-center-singleton {
-  margin-bottom: $size-XXL;
-
-  &__link-list {
-    @include unstyledList();
-    margin-bottom: $size-M;
-
-    a {
-      display: block;
-      padding: $size-S 0;
-      font-size: $h4-font-size;
-    }
-  }
 }
 
 .usajobs-help-center-landing {
@@ -215,6 +241,12 @@
         color: $color-primary;
       }
     }
+  }
+
+  // Override of the US Standards on lists. It really does odd things inside of articles.
+  ul,
+  ol {
+    margin-bottom: $size-S;
   }
 
   blockquote {
