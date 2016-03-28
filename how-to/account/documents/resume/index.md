@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to create a resume
 breadcrumb: Resume
-category: Resume
+category: resume
 tags: [documents, resume, create]
 ---
 

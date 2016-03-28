@@ -3,7 +3,7 @@ permalink: /how-to/search/filters/
 layout: article
 section: how-to
 title: How to search using filters
-breadcrumb: Using filters
+breadcrumb: Filters
 category: Filters
 tags: [search, basic, filters]
 ---

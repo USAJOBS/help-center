@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to upload a resume
 breadcrumb: Upload
-category: Resume
+category: resume
 tags: [account, documents, resume, upload]
 ---
 

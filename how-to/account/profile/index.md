@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to create a profile
 breadcrumb: Profile
-category: Profile
+category: profile
 tags: [account, profile, create]
 ---
 

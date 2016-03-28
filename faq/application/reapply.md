@@ -4,7 +4,7 @@ layout: article
 section: faq
 title: How can I reapply to a job?
 breadcrumb: Reapply
-category: Application
+category: application
 tags: [application, reapply]
 ---
 

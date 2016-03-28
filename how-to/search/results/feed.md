@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/search/results/feed/
 layout: article
+section: how-to
 title: How to save a feed of search results
+breadcrumb: Feed
 category: Search
 tags: [search, results, feed, rss]
 ---

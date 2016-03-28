@@ -1,9 +1,9 @@
 ---
-permalink: /faq/application/documents/types/
+permalink: /faq/application/documents/
 layout: article
 section: faq
 title: What types of documents might I need to provide?
-breadcrumb: Document types
+breadcrumb: Documents
 category: Documents
 tags: [documents, upload, application]
 ---

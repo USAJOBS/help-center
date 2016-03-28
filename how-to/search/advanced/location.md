@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/search/advanced/location/
 layout: article
+section: how-to
 title: How to search by location
+breadcrumb: Location
 category: Advanced Search
 tags: [search, advanced, location]
 ---

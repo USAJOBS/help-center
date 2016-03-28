@@ -1,11 +1,10 @@
 ---
 permalink: /faq/search/
-layout: article
+layout: sub-section
 section: faq
 title: Questions about search
 breadcrumb: Search
+category: Search
 exclude_from_search: true
+exclude_from_category: true
 ---
-
-* [Where can I find part-time positions?](part-time/)
-* [Where can I find internships?](internships/)

@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to fax documents
 breadcrumb: Fax
-category: Documents
+category: documents
 tags: [documents, required, forms]
 ---
 

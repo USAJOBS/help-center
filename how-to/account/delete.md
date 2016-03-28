@@ -1,8 +1,10 @@
 ---
 permalink: /how-to/account/delete/
 layout: article
+section: how-to
 title: How to delete an account
-category: Account
+breadcrumb: Delete an account
+category: account
 tags: [account, delete]
 ---
 

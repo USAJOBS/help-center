@@ -3,7 +3,7 @@ permalink: /how-to/search/advanced/keyword/
 layout: article
 section: how-to
 title: How to search by keyword
-breadcrumb: How to search by keyword
+breadcrumb: Keyword
 category: Advanced Search
 tags: [search, advanced, keyword]
 ---

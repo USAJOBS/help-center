@@ -1,11 +1,10 @@
 ---
 permalink: /faq/pay/
-layout: article
+layout: sub-section
 section: faq
-title: Questions about pay
+title: Questions related to pay
 breadcrumb: Pay
+category: pay
 exclude_from_search: true
+exclude_from_category: true
 ---
-
-* [How is pay set for employees new to the Federal Government?](setting/)
-* [What is a series or grade?](series-and-grade/)

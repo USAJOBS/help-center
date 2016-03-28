@@ -4,7 +4,7 @@ layout: article
 section: faq
 title: How is pay set for employees new to the government?
 breadcrumb: Setting
-category: Pay
+category: pay
 tags: [pay]
 ---
 

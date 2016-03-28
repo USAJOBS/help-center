@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to build a resume
 breadcrumb: Build
-category: Resume
+category: resume
 tags: [account, documents, resume, build]
 ---
 

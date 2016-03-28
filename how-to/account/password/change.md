@@ -1,8 +1,10 @@
 ---
 permalink: /how-to/account/password/change/
 layout: article
+section: how-to
 title: How to change your password
-category: Account
+breadcrumb: Change your password
+category: account
 tags: [password, change]
 ---
 

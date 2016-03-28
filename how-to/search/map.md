@@ -3,8 +3,8 @@ permalink: /how-to/search/map/
 layout: article
 section: how-to
 title: How to search by map
-breadcrumb: How to search by map
-category: Search
+breadcrumb: By map
+category: search
 tags: [search, map, tips]
 ---
 

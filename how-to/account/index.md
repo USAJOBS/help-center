@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to create an account
 breadcrumb: Account
-category: Account
+category: account
 tags: [account, create]
 ---
 

@@ -1,11 +1,10 @@
 ---
 permalink: /faq/job-announcement/
-layout: article
+layout: sub-section
 section: faq
 title: Questions about job announcements
 breadcrumb: Job announcement
+category: job-announcement
 exclude_from_search: true
+exclude_from_category: true
 ---
-
-* [What time, including time zone, do jobs expire?](expiration/)
-* [What are KSAs?](KSAs/)

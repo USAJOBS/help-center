@@ -4,7 +4,7 @@ layout: article
 section: faq
 title: What is a series or grade?
 breadcrumb: Series or grade
-category: Pay
+category: pay
 tags: [pay, series, grade]
 ---
 

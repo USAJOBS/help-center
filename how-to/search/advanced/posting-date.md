@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/search/advanced/posting-date/
 layout: article
+section: how-to
 title: How to search by posting date
+breadcrumb: Posting date
 category: Advanced Search
 tags: [search, advanced, posting date, exclude]
 ---

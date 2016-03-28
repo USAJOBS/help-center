@@ -1,8 +1,10 @@
 ---
 permalink: /how-to/account/documents/resume/edit/
 layout: article
+section: how-to
 title: How to edit a resume
-category: Resume
+breadcrumb: Edit
+category: resume
 tags: [documents, resume, edit]
 ---
 

@@ -4,7 +4,7 @@ layout: article
 section: faq
 title: Why was I not considered for a position?
 breadcrumb: Not considered
-category: Application
+category: application
 tags: [qualifications]
 ---
 

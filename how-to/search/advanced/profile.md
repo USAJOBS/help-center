@@ -3,7 +3,7 @@ permalink: /how-to/search/advanced/profile/
 layout: article
 section: how-to
 title: How to search by profile (eligibility)
-breadcrumb: How to search by profile (eligibility)
+breadcrumb: Profile (eligibility)
 category: Advanced Search
 tags: [search, advanced, who may apply, profile, eligibility]
 ---

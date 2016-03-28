@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to upload documents
 breadcrumb: Upload
-category: Documents
+category: documents
 tags: [account, documents, upload]
 ---
 
