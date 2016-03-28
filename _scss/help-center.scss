@@ -1,5 +1,6 @@
 // Help Center
 
+@import 'lib/bourbon/bourbon';
 @import "font-awesome/font-awesome";
 @import 'core/variables';
 @import 'base/variables';
@@ -74,49 +75,59 @@
     }
   }
 
+  &__section-container {
+    @include align-items(stretch);
+    @include display(flex);
+    @include justify-content(flex-start);
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+  }
+
   &__section {
+    @include flex(0 0 auto);
+    width: 100%;
     margin-bottom: $size-default;
-    padding: $size-M $size-default;
+    padding: $size-M $size-default $size-base;
     background-color: $color-white;
     border: 1px solid $color-gray-lighter;
+  }
 
+  &__section.faq,
+  &__section.how-to {
     @include media($M) {
-      @include span-columns(3, 6);
-    }
-
-    @include media($L) {
-      @include span-columns(4, 12);
+      width: calc(50% - 1.5rem);
     }
   }
 
   &__section.faq {
     @include media($M) {
-      min-height: 792px; // hack - should be using a flexbox grid
-    }
-    @include media($L) {
-      min-height: 816px;
+      margin-right: $size-default;
     }
   }
 
   &__section.how-to {
-    @include media($M) {
-      @include omega();
-      min-height: 792px; // hack - should be using a flexbox grid
-    }
     @include media($L) {
-      min-height: 816px;
-      @include span-columns(4, 12);
+      margin-right: $size-default;
     }
   }
 
+  &__section.faq,
+  &__section.how-to,
   &__section.working-in-government {
+    @include media($L) {
+      width: calc(33% - 1.5rem);
+    }
+  }
+
+  &__sub-section {
     @include media($M) {
-      @include span-columns(6);
+      @include span-columns(3, 6);
     }
 
-    @include media($L) {
-      min-height: 816px;
-      @include span-columns(4, 12);
+    &.unique-hiring-paths {
+      @include media($M) {
+        @include omega();
+      }
     }
   }
 
