@@ -1,7 +1,9 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/individuals-with-disabilities/
 layout: article
+section: working-in-government
 title: Individuals with disabilities
+breadcrumb: Individuals with disabilities
 category: Unique Hiring Paths
 tags: [disabilities, disabled, veterans]
 ---
@@ -10,20 +12,19 @@ The Federal Government is actively recruiting and hiring persons with disabiliti
 
 ## Hiring Process
 
-There are two types of hiring processes. In the _non-competitive_ hiring process, agencies use a special authority (Schedule A) to hire persons with disabilities without requiring them to compete for the job. In the _competitive process_, applicants compete with each other through a structured process. [Learn more about the hiring process](https://www.opm.gov/policy-data-oversight/disability-employment/getting-a-job/#url=Hiring-Process).
+There are two types of hiring processes. In the _non-competitive_ hiring process, agencies use a special authority (Schedule A) to hire persons with disabilities without requiring them to compete for the job. In the _competitive process_, applicants compete with each other through a structured process.
 
 ### Schedule A Hiring Authority
 
-Various authorities exist that permit exceptions from the normal competitive rules. These authorities are classified into several "schedules". One of the authorities in Schedule A relates to the appointment of individuals with intellectual disabilities, severe physical disabilities, or psychiatric disabilities (5 CFR 213.3102(u)). [Learn more about the Schedule A Hiring Authority](https://www.opm.gov/policy-data-oversight/disability-employment/getting-a-job/#url=Schedule-A-Hiring-Authority)
-
+Various authorities exist that permit exceptions from the normal competitive rules. These authorities are classified into several "schedules". One of the authorities in Schedule A relates to the appointment of individuals with intellectual disabilities, severe physical disabilities, or psychiatric disabilities (5 CFR 213.3102(u)).
 
 ### Veterans Appointments
 
 There are a number of authorities available to assist veterans who are seeking, or wish to change, Federal employment including:
 
-* Veterans Recruitment Appointment (VRA)
+* [Veterans Recruitment Appointment (VRA)](../veterans/vra/)
 * 30% or More Disabled Veterans Program
-* [Veterans Employment Opportunity Act (VEOA)](/working-in-government/unique-hiring-paths/veterans/veoa/)
+* [Veterans Employment Opportunity Act (VEOA)](../veterans/veoa/)
 
 ### Selective Placement Program Coordinator (SPPC)
 
@@ -35,11 +36,14 @@ Most Federal agencies have a Selective Placement Program Coordinator (SPPC) or e
 * Working with public and private organizations involved in the placement of applicants with disabilities to provide information about their agency program and job opportunities and to facilitate the placement of applicants with disabilities in their agency.
 * Monitoring and evaluating selective placement program efforts and activities for people with disabilities to determine their effectiveness, and making changes as needed to improve program effectiveness.
 
-A [SPPC directory is available from OPM](http://www.opm.gov/policy-data-oversight/disability-employment/selective-placement-program-coordinator-directory/).
-
-
 ## Reasonable Accommodations
 
 Federal agencies are required by law to provide reasonable accommodation to qualified employees with disabilities. The Federal Government may provide you with a reasonable accommodation based on appropriate requests (unless so doing will result in undue hardship to the agencies).
 
-Reasonable accommodations can apply to the duties of the job and/or where and how job tasks are performed. [Learn more about Reasonable accommodations](https://www.opm.gov/policy-data-oversight/disability-employment/reasonable-accommodations/)
+Reasonable accommodations can apply to the duties of the job and/or where and how job tasks are performed.
+
+## Additional Resources
+
+* [Getting a Job (OPM)](https://www.opm.gov/policy-data-oversight/disability-employment/getting-a-job/).
+* [SPPC directory (OPM)](http://www.opm.gov/policy-data-oversight/disability-employment/selective-placement-program-coordinator-directory/).
+* [Reasonable accommodations (OPM)](https://www.opm.gov/policy-data-oversight/disability-employment/reasonable-accommodations/)

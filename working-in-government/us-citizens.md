@@ -4,7 +4,7 @@ layout: article
 section: working-in-government
 title: Employment of U.S. Citizens
 breadcrumb: Employment of U.S. Citizens
-category: Working-in-Government
+category: working-in-government
 tags: [U.S. citizens, citizenship, eligibility]
 ---
 

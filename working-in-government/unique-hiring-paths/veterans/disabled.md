@@ -1,7 +1,9 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/veterans/disabled/
 layout: article
+section: working-in-government
 title: Hiring authorities for disabled Veterans
+breadcrumb: Hiring authorities for disabled Veterans
 category: Veterans
 tags: [veterans, disabled, hiring authority]
 ---

@@ -1,10 +1,11 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/students/
 layout: article
+section: working-in-government
 title: Students & recent graduates
+breadcrumb: Students & recent graduates
 category: Unique Hiring Paths
 tags: [student, recent graduates]
-breadcrump: Students & recent graduates
 ---
 
 There are currently three programs that assist current students, recent graduates, and those with an advanced degree:

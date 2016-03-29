@@ -9394,7 +9394,7 @@ h6 {
 
 .usajobs-help-center-nav-secondary__item:hover {
   color: #f1f1f1;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .usajobs-help-center-nav-secondary__text {
@@ -9417,7 +9417,7 @@ h6 {
   }
   .usajobs-help-center-nav-secondary__text-long:hover {
     color: #f1f1f1;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 

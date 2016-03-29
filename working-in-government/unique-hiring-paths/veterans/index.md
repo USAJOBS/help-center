@@ -1,7 +1,9 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/veterans/
 layout: article
+section: working-in-government
 title: Veterans
+breadcrumb: Veterans
 category: Unique Hiring Paths
 tags: [veterans]
 ---

@@ -1,10 +1,10 @@
 ---
 permalink: /working-in-government/pay-and-leave/types-of-work/
 layout: article
+section: working-in-government
 title: Types of Work
 breadcrumb: Types of Work
-section: working-in-government
-category: Pay and Leave
+category: pay-and-leave
 tags: [search, keywords, tips]
 ---
 

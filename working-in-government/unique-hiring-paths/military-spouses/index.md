@@ -1,7 +1,9 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/military-spouses/
 layout: article
+section: working-in-government
 title: Military Spouses
+breadcrumb: Military Spouses
 category: Unique Hiring Paths
 tags: [veterans, military, spouse]
 ---

@@ -1,7 +1,9 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/senior-executives/
 layout: article
+section: working-in-government
 title: Senior Executives
+breadcrumb: Senior Executives
 category: Unique Hiring Paths
 tags: [ses, senior, executives]
 ---

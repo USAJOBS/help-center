@@ -1,10 +1,10 @@
 ---
-permalink: /working-in-government/unique-hiring-paths/federal-employees/types-of-appointment/
+permalink: /working-in-government/appointments/
 layout: article
 section: working-in-government
-title: Types of appointment
-breadcrumb: Types of appointment
-category: federal-employees
+title: Appointments
+breadcrumb: Appointments
+category: appointments
 tags: [appointment, career-conditional, career, merit-promotion, status, eligibility, federal employee]
 ---
 

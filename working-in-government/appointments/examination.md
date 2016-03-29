@@ -2,9 +2,9 @@
 permalink: /working-in-government/appointments/examination/
 layout: article
 section: working-in-government
-title: Types of Examining
-breadcrumb: Examining
-category: Working-in-Government
+title: Types of Examination
+breadcrumb: Examination
+category: appointments
 tags: [competitive, delegated, examination, examining, career, status, eligibility, appointments]
 ---
 

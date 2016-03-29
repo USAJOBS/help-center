@@ -1,7 +1,9 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/peace-corps/
 layout: article
+section: working-in-government
 title: Peach Corps & AmeriCorps VISTA alumni
+breadcrumb: Peach Corps & AmeriCorps VISTA alumni
 category: Unique Hiring Paths
 tags: [peace corps, volunteer, VISAT, unique hiring path]
 ---

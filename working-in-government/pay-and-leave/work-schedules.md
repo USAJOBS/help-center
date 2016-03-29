@@ -1,8 +1,10 @@
 ---
 permalink: /working-in-government/pay-and-leave/work-schedules/
 layout: article
+section: working-in-government
 title: Work schedules
-category: Pay and Leave
+breadcrumb: Work schedules
+category: pay-and-leave
 tags: [work, schedule, full time, part time]
 ---
 

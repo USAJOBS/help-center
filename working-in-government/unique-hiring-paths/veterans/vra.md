@@ -1,7 +1,9 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/veterans/vra/
 layout: article
+section: working-in-government
 title: Veterans' Recruitment Appointment (VRA)
+breadcrumb: Veterans' Recruitment Appointment (VRA)
 category: Veterans
 tags: [veterans, vra, hiring authority]
 ---

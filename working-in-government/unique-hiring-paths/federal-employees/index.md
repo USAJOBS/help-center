@@ -14,10 +14,9 @@ The Federal Government consists of three types of [services](../../service/):
 2. Excepted Service
 3. Senior Executive Service
 
-Within those services there are several [types of appointment](types-of-appointment/) including permanent and temporary appointments.
+Within those services there are several [types of appointment](../../appointments/) including permanent and temporary appointments.
 
-As a federal employee it is important that you understand which [service](../../service/) you belong to and what [type of appointment](types-of-appointment/) you have.
-
+As a federal employee it is important that you understand which [service](../../service/) you belong to and what [type of appointment](../../appointments/) you have.
 
 ## Merit promotion
 

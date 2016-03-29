@@ -4,7 +4,7 @@ layout: article
 section: working-in-government
 title: Service
 breadcrumb: Service
-category: Working-in-Government
+category: working-in-government
 tags: [competitive, non-competitive, service, career, status, eligibility]
 ---
 
@@ -34,7 +34,7 @@ Special non-competitive appointing authorities are established by law or Executi
 * [Disabled Appointing Authority](https://www.opm.gov/policy-data-oversight/disability-employment/)
 * [30% Disabled Veterans Appointing Authority](https://www.opm.gov/policy-data-oversight/hiring-authorities#)
 
-Veterans, individuals with disabilities, many current and former Federal employees, and returning Peace Corps volunteers are all examples of individuals eligible for [non-competitive appointment](../unique-hiring-paths/federal-employees/types-of-appointment/).
+Veterans, individuals with disabilities, many current and former Federal employees, and returning Peace Corps volunteers are all examples of individuals eligible for [non-competitive appointment](../appointments/).
 
 ## Additional Resources
 

@@ -1,9 +1,10 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/
 layout: article
+section: working-in-government
 title: Unique Hiring Paths
-category: Working-in-Government
-tags: []
+category: working-in-government
+tags: [federal employees, oversears, disabilities, military spouse, peace corps, americorops, ses, students, veterans]
 breadcrumb: Unique Hiring Paths
 ---
 

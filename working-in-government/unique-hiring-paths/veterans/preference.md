@@ -1,7 +1,9 @@
 ---
 permalink: /working-in-government/unique-hiring-paths/veterans/preference/
 layout: article
+section: working-in-government
 title: Veterans' Preference
+breadcrumb: Veterans' Preference
 category: Veterans
 tags: [veterans, preference]
 ---
