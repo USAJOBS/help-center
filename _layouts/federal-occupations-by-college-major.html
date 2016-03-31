@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+  <head>
+    {% include prod-head.html %}
+  </head>
+  <body>
+    <a class="skipnav" href="#main-content">Skip main navigation</a>
+    {% include components/nav-help.html %}
+    {% include components/search-banner-with-nav.html %}
+    {% include components/breadcrumbs.html %}
+    <section class="usajobs-shell">
+      <section class="usajobs-canvas">
+        <div class="usajobs-help-center-article usajobs-content-gutter">
+          <main class="usajobs-content-well" id="main-content" role="main">
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+          </main>
+          <aside class="usajobs-rightrail">
+            <h3 class="usajobs-help-center-article__related">
+              Contents
+            </h3>
+            <ul class="usa-unstyled-list">
+              <li><a href="#a---ast">A - Ast</a></li>
+              <li><a href="#atm---civ">Atm - Civ</a></li>
+              <li><a href="#com--ear">Com - Eat</a></li>
+              <li><a href="#eco--epi">Eco - Epi</a></li>
+              <li><a href="#fi--il">Fi - Il</a></li>
+              <li><a href="#ind---lan">Ind - Lan</a></li>
+              <li><a href="#le---me">Le - Me</a></li>
+              <li><a href="#nu---psychod">Nu - Psychod</a></li>
+              <li><a href="#psychol---tel">Psychol - Tel</a></li>
+              <li><a href="#tex---zoo">Tex - Zoo</a></li>
+            </ul>
+          </aside>
+      </section>
+      <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
+        <div class="usajobs-help-center-article__additional-help">
+          <p>
+            <i class="fa fa-comment-o"></i>
+            Still need help? <a href="{{site.baseurl}}/contact/">Submit a ticket</a> to the USAJOBS Support Desk.
+          </p>
+        </div>
+      </div>
+    </section>
+    {% include components/footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
