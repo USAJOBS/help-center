@@ -3,9 +3,9 @@ permalink: /working-in-government/unique-hiring-paths/
 layout: article
 section: working-in-government
 title: Unique Hiring Paths
+breadcrumb: Unique Hiring Paths
 category: working-in-government
 tags: [federal employees, oversears, disabilities, military spouse, peace corps, americorops, ses, students, veterans]
-breadcrumb: Unique Hiring Paths
 ---
 
 The federal government offers several unique hiring paths for individuals who may fall under one of the following groups of people, including:

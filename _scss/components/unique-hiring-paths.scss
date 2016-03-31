@@ -1,0 +1,76 @@
+// Unique Hiring Paths
+
+@import 'lib/bourbon/bourbon';
+@import 'lib/neat/neat';
+@import "font-awesome/font-awesome";
+@import 'core/variables';
+@import 'base/variables';
+@import 'base/utilities';
+@import 'base/breakpoints';
+@import 'element/typography';
+
+.usajobs-unique-hiring-paths-container {
+  @include outer-container();
+  max-width: $site-max-width;
+  padding: $size-M $size-default $size-base;
+  background-color: $color-white;
+}
+
+.usajobs-unique-hiring-paths {
+  &__title {
+    text-align: center;
+  }
+
+  &__list {
+    @include unstyledList();
+    width: 100%;
+
+    .usajobs-unique-hiring-paths__item {
+      display: inline-block;
+      float: left;
+      width: 50%;
+
+      @include media($ML) {
+        width: 25%;
+      }
+    }
+  }
+
+  &__link {
+    display: block;
+    width: 100%;
+    min-height: rem(190px);
+    padding: $size-M $size-default;
+    color: $color-white;
+    font-size: $h4-font-size;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $color-primary-darker;
+
+    &:visited {
+      color: $color-white;
+    }
+
+    &.federal-employees,
+    &.ses {
+      background-color: $color-primary-darkest;
+    }
+    &.veterans,
+    &.military-spouses {
+      background-color: $color-secondary;
+    }
+    &.students {
+      background-color: $color-gray-dark;
+    }
+    &.individuals-with-disabilities {
+      background-color: $color-green;
+    }
+  }
+
+  &__icon {
+    display: inline-block;
+    width: 100%;
+    font-size: $h1-font-size;
+  }
+}

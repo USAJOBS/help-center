@@ -12,6 +12,7 @@
 @import 'components/breadcrumb';
 @import 'components/nav-secondary';
 @import 'components/home-ctas';
+@import 'components/unique-hiring-paths';
 
 // Home page
 .usajobs-help-center-home-body {
@@ -183,7 +184,6 @@
 
   &__section-link {
     display: block;
-    margin-top: $size-M;
     padding: $size-S 0;
   }
 }
