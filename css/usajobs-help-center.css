@@ -2273,6 +2273,14 @@ h6 {
   text-transform: uppercase;
 }
 
+.usajobs-content-well p {
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
 .section-header {
   margin-top: 7.5rem;
   margin-bottom: 1rem;
@@ -4561,6 +4569,14 @@ h6 {
   font-size: 1.3rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.usajobs-content-well p {
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 1rem 0;
 }
 
 .section-header {
@@ -6938,6 +6954,14 @@ h6 {
   text-transform: uppercase;
 }
 
+.usajobs-content-well p {
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
 .section-header {
   margin-top: 7.5rem;
   margin-bottom: 1rem;
@@ -6958,16 +6982,16 @@ h6 {
   margin-right: auto;
 }
 
-.usajobs-help-center-breadcrumb li {
+.usajobs-help-center-breadcrumb > li {
   display: list-item;
   margin: 0;
 }
 
-.usajobs-help-center-breadcrumb li:before {
+.usajobs-help-center-breadcrumb > li:before {
   display: none;
 }
 
-.usajobs-help-center-breadcrumb li:after {
+.usajobs-help-center-breadcrumb > li:after {
   display: none;
 }
 
@@ -9287,6 +9311,14 @@ h6 {
   font-size: 1.3rem;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.usajobs-content-well p {
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 1rem 0;
 }
 
 .section-header {
@@ -11703,6 +11735,14 @@ h6 {
   text-transform: uppercase;
 }
 
+.usajobs-content-well p {
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
 .section-header {
   margin-top: 7.5rem;
   margin-bottom: 1rem;
@@ -11786,25 +11826,25 @@ h6 {
   margin-bottom: 0;
 }
 
-.usajobs-help-center-home__link-list li,
-.usajobs-help-center-landing__link-list li,
-.usajobs-help-center-sub-section__link-list li,
-.usajobs-help-center-singleton__link-list li {
+.usajobs-help-center-home__link-list > li,
+.usajobs-help-center-landing__link-list > li,
+.usajobs-help-center-sub-section__link-list > li,
+.usajobs-help-center-singleton__link-list > li {
   display: list-item;
   margin: 0;
 }
 
-.usajobs-help-center-home__link-list li:before,
-.usajobs-help-center-landing__link-list li:before,
-.usajobs-help-center-sub-section__link-list li:before,
-.usajobs-help-center-singleton__link-list li:before {
+.usajobs-help-center-home__link-list > li:before,
+.usajobs-help-center-landing__link-list > li:before,
+.usajobs-help-center-sub-section__link-list > li:before,
+.usajobs-help-center-singleton__link-list > li:before {
   display: none;
 }
 
-.usajobs-help-center-home__link-list li:after,
-.usajobs-help-center-landing__link-list li:after,
-.usajobs-help-center-sub-section__link-list li:after,
-.usajobs-help-center-singleton__link-list li:after {
+.usajobs-help-center-home__link-list > li:after,
+.usajobs-help-center-landing__link-list > li:after,
+.usajobs-help-center-sub-section__link-list > li:after,
+.usajobs-help-center-singleton__link-list > li:after {
   display: none;
 }
 
@@ -11828,25 +11868,25 @@ h6 {
   margin-bottom: 0;
 }
 
-.usajobs-help-center-home__link-list-small li,
-.usajobs-help-center-landing__link-list-small li,
-.usajobs-help-center-sub-section__link-list-small li,
-.usajobs-help-center-singleton__link-list-small li {
+.usajobs-help-center-home__link-list-small > li,
+.usajobs-help-center-landing__link-list-small > li,
+.usajobs-help-center-sub-section__link-list-small > li,
+.usajobs-help-center-singleton__link-list-small > li {
   display: list-item;
   margin: 0;
 }
 
-.usajobs-help-center-home__link-list-small li:before,
-.usajobs-help-center-landing__link-list-small li:before,
-.usajobs-help-center-sub-section__link-list-small li:before,
-.usajobs-help-center-singleton__link-list-small li:before {
+.usajobs-help-center-home__link-list-small > li:before,
+.usajobs-help-center-landing__link-list-small > li:before,
+.usajobs-help-center-sub-section__link-list-small > li:before,
+.usajobs-help-center-singleton__link-list-small > li:before {
   display: none;
 }
 
-.usajobs-help-center-home__link-list-small li:after,
-.usajobs-help-center-landing__link-list-small li:after,
-.usajobs-help-center-sub-section__link-list-small li:after,
-.usajobs-help-center-singleton__link-list-small li:after {
+.usajobs-help-center-home__link-list-small > li:after,
+.usajobs-help-center-landing__link-list-small > li:after,
+.usajobs-help-center-sub-section__link-list-small > li:after,
+.usajobs-help-center-singleton__link-list-small > li:after {
   display: none;
 }
 
