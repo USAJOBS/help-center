@@ -8,7 +8,11 @@ category: Unique Hiring Paths
 tags: [federal employees, competitive, service, excepted, unique hiring paths]
 ---
 
-The Federal Government consists of three types of [services](../../service/):
+As a federal employee it’s important to understand which [service](../../service/) you belong to, the [type of appointment](appointments/) you have and whether or not you have competitive status. Understanding these three things will determine if you qualify for a merit promotion.
+
+## Service, Appointment and Status Types
+
+The Federal Government consists of three [types of services](../../service/):
 
 1. Competitive Service
 2. Excepted Service
@@ -16,13 +20,16 @@ The Federal Government consists of three types of [services](../../service/):
 
 Within those services there are several [types of appointment](../../appointments/) including permanent and temporary appointments.
 
-As a federal employee it is important that you understand which [service](../../service/) you belong to and what [type of appointment](../../appointments/) you have.
+## Merit promotion for federal employees
 
-## Merit promotion
+If you are a current or former federal employee and hold a career appointment in the competitive service (also known as competitive status), you may be eligible for a merit promotion.
 
-Merit promotion is the system under which agencies consider an employee for vacant positions on the basis of personal merit. Vacant positions are usually filled through competition with applicants (current competitive service employees) being evaluated and ranked for the position on the basis of their experience, education, competencies and performance.
+Merit promotion is the system under which federal agencies consider a current or former federal employee for an open position on the basis of personal merit.  The merit promotion program lets a current or former federal employee apply for a job without having to complete with the general public.  Instead, these individuals compete with other competitive status employees. Applicants are evaluated and ranked for the position based on their experience, education, competencies and performance.
 
-Once you have determined your service and appointment, if you hold a career appointment in the competitive service, also known as "status", you may be eligible for the following under merit promotion procedures:
+
+### Types of merit promotion
+
+There are several types of merit promotion for federal employees, including:
 
 * [Transfer](../../../working-in-government/unique-hiring-paths/federal-employees/transfer/)
 * [CTAP](../../../working-in-government/unique-hiring-paths/federal-employees/ctap/)

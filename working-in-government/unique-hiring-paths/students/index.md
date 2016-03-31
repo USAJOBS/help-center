@@ -16,5 +16,6 @@ There are currently three programs that assist current students, recent graduate
 
 ## Additional Resources
 
+* [Federal occupations by college major](federal-occupations-by-college-major/)
 * [Pathways](https://www.usajobs.gov/StudentsAndGrads "usajobs.gov")
 * [Presidental Management Fellows (PMF) Program](https://www.pmf.gov/ "pmf.gov")

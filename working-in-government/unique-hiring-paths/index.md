@@ -8,7 +8,7 @@ tags: [federal employees, oversears, disabilities, military spouse, peace corps,
 breadcrumb: Unique Hiring Paths
 ---
 
-There are several unique hiring paths for candidates who qualify for a special non-competitive hiring authority established by law or executive order. These targeted segments of the population include:
+The federal government offers several unique hiring paths for individuals who may fall under one of the following groups of people, including:
 
 * [Federal employees](federal-employees/)
 * [Former overseas employees](former-overseas-employees/)
@@ -19,6 +19,8 @@ There are several unique hiring paths for candidates who qualify for a special n
 * [Students & recent graduates](students/)
 * [Veterans](veterans/)
 
-To learn more, please consult the following resources:
+These unique hiring paths, established by law or executive order, help the federal government to hire and obtain the best talent available.
+
+## Additional Resources
 
 * [Hiring Authorities (OPM)](http://www.opm.gov/policy-data-oversight/hiring-authorities/)
