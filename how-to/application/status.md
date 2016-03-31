@@ -65,3 +65,8 @@ Candidate has been offered position.
 * After 36 months, the application status will drop off your list and you will not be able to see or retreive it.
 * We recommend printing the announcements for which you have applied if you wish to keep a record of them beyond the 36-month period.
 * For a more streamlined view of your application status list, you have the ability to hide Applications. Click the **Hide** link to hide the application, and anytime you want to view them click on **View Hidden Applications**. To unhide applications so that they appear on your Application status page again, click the **Unhide** link.
+
+
+## Delayed status on faxed documents
+
+There may be a delay between when the documents were faxed and when they appear as received on an application. To inquire about the status of your [faxed documents](../../account/documents/fax/), [contact the hiring agency](../agency/contact/).

@@ -3,7 +3,7 @@ permalink: /how-to/application/update/
 layout: article
 section: how-to
 title: How to update an application
-breadcrumb: Update an application
+breadcrumb: Update
 category: Application
 tags: [application, update, apply ]
 ---
