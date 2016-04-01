@@ -14114,7 +14114,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   max-width: 120rem;
-  padding: 3rem 1.5rem 0.5rem;
+  margin-bottom: 6rem;
+  padding: 3rem 0;
   background-color: #ffffff;
 }
 
@@ -14124,8 +14125,19 @@ h6 {
   display: table;
 }
 
+@media screen and (min-width: 37.5em) {
+  .usajobs-unique-hiring-paths-container {
+    padding: 3rem;
+  }
+}
+
 .usajobs-unique-hiring-paths__title {
   text-align: center;
+}
+
+.usajobs-unique-hiring-paths__description {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .usajobs-unique-hiring-paths__list {
@@ -14164,7 +14176,7 @@ h6 {
 .usajobs-unique-hiring-paths__link {
   display: block;
   width: 100%;
-  min-height: 19rem;
+  min-height: 22.5rem;
   padding: 3rem 1.5rem;
   color: #ffffff;
   font-size: 19px;
@@ -14197,6 +14209,8 @@ h6 {
 .usajobs-unique-hiring-paths__icon {
   display: inline-block;
   width: 100%;
+  min-height: 8.1rem;
+  padding-bottom: 1.5rem;
   font-size: 44px;
 }
 
@@ -14301,12 +14315,13 @@ h6 {
 
 @media screen and (min-width: 48em) {
   .usajobs-help-center-home {
-    padding: 6rem 3rem;
+    padding: 6rem 3rem 1.5rem;
   }
 }
 
 @media screen and (min-width: 75em) {
   .usajobs-help-center-home {
+    padding-left: 0;
     padding-right: 0;
   }
 }
@@ -14377,25 +14392,25 @@ h6 {
 
 @media screen and (min-width: 37.5em) {
   .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.how-to {
-    width: calc(50% - 1.5rem);
+    width: 49%;
   }
 }
 
 @media screen and (min-width: 37.5em) {
   .usajobs-help-center-home__section.faq {
-    margin-right: 1.5rem;
+    margin-right: 2%;
   }
 }
 
 @media screen and (min-width: 62em) {
-  .usajobs-help-center-home__section.how-to {
-    margin-right: 1.5rem;
+  .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.how-to {
+    margin-right: 1%;
   }
 }
 
 @media screen and (min-width: 62em) {
   .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.how-to, .usajobs-help-center-home__section.working-in-government {
-    width: calc(33% - 1.5rem);
+    width: 32.666666%;
   }
 }
 

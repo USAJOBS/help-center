@@ -161,7 +161,8 @@
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -2458,7 +2459,8 @@ html {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -4840,7 +4842,8 @@ html {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -7198,7 +7201,8 @@ html {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -9619,7 +9623,8 @@ html {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -11976,7 +11981,8 @@ html {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -14108,7 +14114,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
   max-width: 120rem;
-  padding: 3rem 1.5rem 0.5rem;
+  margin-bottom: 6rem;
+  padding: 3rem 0;
   background-color: #ffffff;
 }
 
@@ -14118,8 +14125,19 @@ h6 {
   display: table;
 }
 
+@media screen and (min-width: 37.5em) {
+  .usajobs-unique-hiring-paths-container {
+    padding: 3rem;
+  }
+}
+
 .usajobs-unique-hiring-paths__title {
   text-align: center;
+}
+
+.usajobs-unique-hiring-paths__description {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .usajobs-unique-hiring-paths__list {
@@ -14158,7 +14176,7 @@ h6 {
 .usajobs-unique-hiring-paths__link {
   display: block;
   width: 100%;
-  min-height: 19rem;
+  min-height: 22.5rem;
   padding: 3rem 1.5rem;
   color: #ffffff;
   font-size: 19px;
@@ -14191,6 +14209,8 @@ h6 {
 .usajobs-unique-hiring-paths__icon {
   display: inline-block;
   width: 100%;
+  min-height: 8.1rem;
+  padding-bottom: 1.5rem;
   font-size: 44px;
 }
 
@@ -14295,12 +14315,13 @@ h6 {
 
 @media screen and (min-width: 48em) {
   .usajobs-help-center-home {
-    padding: 6rem 3rem;
+    padding: 6rem 3rem 1.5rem;
   }
 }
 
 @media screen and (min-width: 75em) {
   .usajobs-help-center-home {
+    padding-left: 0;
     padding-right: 0;
   }
 }
@@ -14321,8 +14342,6 @@ h6 {
 }
 
 .usajobs-help-center-home__section-container {
-  -webkit-box-align: stretch;
-  -moz-box-align: stretch;
   box-align: stretch;
   -webkit-align-items: stretch;
   -moz-align-items: stretch;
@@ -14337,8 +14356,6 @@ h6 {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-  -moz-box-pack: start;
   box-pack: start;
   -webkit-justify-content: flex-start;
   -moz-justify-content: flex-start;
@@ -14346,11 +14363,7 @@ h6 {
   -o-justify-content: flex-start;
   justify-content: flex-start;
   -ms-flex-pack: start;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
   box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
   box-direction: normal;
   -webkit-flex-direction: row;
   -moz-flex-direction: row;
@@ -14360,14 +14373,11 @@ h6 {
   -moz-box-lines: multiple;
   box-lines: multiple;
   -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .usajobs-help-center-home__section {
-  -webkit-box-flex: 0;
-  -moz-box-flex: 0;
   box-flex: 0;
   -webkit-flex: 0 0 auto;
   -moz-flex: 0 0 auto;
@@ -14382,25 +14392,25 @@ h6 {
 
 @media screen and (min-width: 37.5em) {
   .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.how-to {
-    width: calc(50% - 1.5rem);
+    width: 49%;
   }
 }
 
 @media screen and (min-width: 37.5em) {
   .usajobs-help-center-home__section.faq {
-    margin-right: 1.5rem;
+    margin-right: 2%;
   }
 }
 
 @media screen and (min-width: 62em) {
-  .usajobs-help-center-home__section.how-to {
-    margin-right: 1.5rem;
+  .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.how-to {
+    margin-right: 1%;
   }
 }
 
 @media screen and (min-width: 62em) {
   .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.how-to, .usajobs-help-center-home__section.working-in-government {
-    width: calc(33% - 1.5rem);
+    width: 32.666666%;
   }
 }
 
@@ -14614,5 +14624,4 @@ h6 {
 .usajobs-help-center-search__result:visited {
   color: #0071bc;
 }
-
 /*# sourceMappingURL=usajobs-help-center.css.map */

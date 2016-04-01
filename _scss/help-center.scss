@@ -58,10 +58,11 @@
   background-color: $color-gray-lightest;
 
   @include media($ML) {
-    padding: $size-XL $size-M;
+    padding: $size-XL $size-M $size-default;
   }
 
   @include media($XL) {
+    padding-left: 0;
     padding-right: 0;
   }
 
@@ -98,19 +99,20 @@
   &__section.faq,
   &__section.how-to {
     @include media($M) {
-      width: calc(50% - 1.5rem);
+      width: 49%;
     }
   }
 
   &__section.faq {
     @include media($M) {
-      margin-right: $size-default;
+      margin-right: 2%;
     }
   }
 
+  &__section.faq,
   &__section.how-to {
     @include media($L) {
-      margin-right: $size-default;
+      margin-right: 1%;
     }
   }
 
@@ -118,7 +120,7 @@
   &__section.how-to,
   &__section.working-in-government {
     @include media($L) {
-      width: calc(33% - 1.5rem);
+      width: 32.666666%;
     }
   }
 
