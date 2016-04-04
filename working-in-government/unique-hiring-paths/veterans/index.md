@@ -8,12 +8,25 @@ category: Unique Hiring Paths
 tags: [veterans]
 ---
 
-The Federal Government has a long and outstanding record of employing veterans. Veterans have technical skills in areas of critical importance, and many also already have security clearances required for some Federal positions. Federal service provides a means for veterans to continue their noble service to this country.
+The federal government has a long and outstanding record of employing veterans. Veterans have technical skills in areas of critical importance, and many already have security clearances required for some federal positions.
 
-We recognize that Federal employment can sometimes seem complicated and overwhelming, particularly when you factor in things such as veterans’ preference and special hiring authorities for veterans.
+If you are a Veteran who served on active duty in the U.S. Armed Forces and were separated under honorable conditions, you may be eligible for veterans' preference, as well as other special hiring paths for veterans.
 
-The Office of Personnel Management in support of the President’s Veterans Employment Initiative, created a [one-stop web site resource for Federal veteran employment information](http://www.fedshirevets.gov/). The information on [fedshirevets.gov](http://www.fedshirevets.gov/) is designed to ensure veterans, transitioning service members, and their families receive accurate and consistent information regarding veteran’s employment in the Federal Government.
+## Veterans preference
 
+Veterans’ preference gives eligible veterans preference in appointment over many other applicants. Veterans' preference applies to both the competitive and excepted service. However, Veterans' preference does not guarantee veterans a job and it does not apply to the Senior Executive Service or to internal agency actions such as promotions, transfers, reassignments and reinstatements.
+
+When claiming preference, veterans must provide a copy of their DD-214, Certificate of Release or Discharge from Active Duty, or other acceptable documentation. Applicants claiming 10 point preference will need to submit Form SF-15, Application for 10-point Veterans' Preference.
+
+## Dedicated Veterans Website
+
+[Fedshirevets.gov](https://fedshirevets.gov/) provides detailed information to veterans, transitioning service members and their families, including:
+
+* Veterans' preference
+* Special veteran appointing authorities
+* Other veteran related topics.
+
+Visit [fedshirevets.gov](https://fedshirevets.gov/) for information regarding veteran’s employment in the federal government.
 
 ## Additional Resources
 

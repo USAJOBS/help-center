@@ -8,11 +8,22 @@ category: Unique Hiring Paths
 tags: [peace corps, volunteer, VISAT, unique hiring path]
 ---
 
-When you leave the Peace Corps or AmeriCorps VISTA, you have a certification of non-competitive eligibility for Federal jobs. This means that a Federal agency can hire you outside of a formal competitive announcement process for a vacant position.
+If you worked for the Peace Corp or AmeriCorp VISTA, you may qualify for non-competitive eligibility. This means that a federal agency can hire you outside of the formal competitive job announcement process.
 
-Appointments must be made within 1 year after the Volunteer completes the qualifying service. The agency may extend the period for 2 more years to a total of 3 years if the individual, after the qualifying service, is in the military service; is studying at a recognized institution of higher learning; or has been involved in another activity which, in the agency's view, warrants an extension.
+## Eligibility
 
-**Please note**: Agencies can only hire an eligible volunteer for positions an individual is qualified to perform. Thus, non-competitive eligibility does not necessarily entitle an individual to a position within the federal government. Instead, the individual must meet qualification standards and additional requirements, such as a background investigation. Be sure to note your service in the Peace Corps or AmeriCorps VISTA on your resume and attach your description of service to your application.
+You’re eligible if you have at least one year of service with the Peace Corp or AmeriCorp VISTA.
+
+Your non-competitive eligibility lasts for one year after completing your Peace Corp or AmeriCorp service. Federal agencies may extend the period for up to three years if, after your completed service, you are:
+
+* In the military service.
+* Studying at a recognized institution of higher learning.
+* Involved in another activity, which in the agency’s view, warrants an extension.
+
+Your non-competitive eligibility does not entitle you to a job within the federal government. You must still apply and meet qualification standards and additional requirements, such as a background investigation.
+
+When applying for a job, include your Peace Corp or AmeriCorp VISTA certification of service documents with your application and make sure to mention your non-competitive eligibility status on your resume. Learn more about hiring options for Peace Corp and AmeriCorp Vista alumni.
+
 
 ## Additional Resources
 

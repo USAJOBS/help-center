@@ -8,15 +8,21 @@ category: Unique Hiring Paths
 tags: [veterans, military, spouse]
 ---
 
-(Executive Order 13473) allows agencies to appoint a military spouse without competition. Agencies can choose to use this authority when filling competitive service positions on a temporary (not to exceed 1 year), term (more than 1 year but not more than 4 years), or permanent basis. The authority does not entitle spouses to an appointment over any other applicant.
+If you are a military spouse, you may be eligible for competitive service jobs. Basically, you can be considered and selected for federal jobs without having prior competitive status and without competing with the public.
 
-As a military spouse you are eligible under this authority if your active duty military spouse:
+Supported by Executive Order 13473, federal agencies can use this hiring path to fill competitive service positions on either a [temporary or permanent](../../appointments/) basis.
 
-1. Receives a Permanent Change of Station (PCS) move
-2. Has a 100% disability rating OR
-3. Died while on active duty.
+## Eligibility
 
-Each of these categories has different eligibility criteria that must be met.
+You’re eligible if your active duty military spouse:
+
+* Receives a Permanent Change of Station (PCS) move.
+* Has a 100% disability rating.
+* Died while on active duty.
+
+You must meet certain criteria for each of these eligibility categories. Learn more about the specific criteria for military spouses.
+
+Your eligibility does not entitle you to a job within the federal government. You must still apply and meet qualification standards and additional requirements, such as a background investigation.
 
 ## Additional Resources
 

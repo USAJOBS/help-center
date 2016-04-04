@@ -8,17 +8,37 @@ category: Unique Hiring Paths
 tags: [ses, senior, executives]
 ---
 
-The Senior Executive Service (SES) is the corps of executives, selected for their leadership qualifications, and charged with leading the continuing transformation of government. These leaders possess well-honed executive skills and share a broad perspective of government and a public service commitment which is grounded in the Constitution. As the leaders of our Federal civilian workforce, Senior Executives strive each day to create a more citizen centered, result oriented Federal Government.
+The Senior Executive Service (SES) is a special hiring path for executive positions, including managerial, supervisory, and policy positions classified above General Schedule (GS) grade 15 or equivalent positions in the Executive Branch of the Federal Government.
 
-### Search for SES positions
+Candidates in these positions are selected for their leadership qualifications. They have exceptional managerial and people skills, can motivate their employees, know how to build partnerships and communicate with customers. They are committed to public service and share a broad perspective of government, which is grounded in the Constitution. As the leaders of our federal civilian workforce, they strive each day to create a more citizen centered, result oriented federal government.
 
-Candidates can apply directly to a Federal agency for a specific SES position, or they may apply for an SES Candidate Development Program, which can lead to eligibility for a career appointment to an SES position without further competition. For more information, click Candidate Programs.
+## Eligibility
+
+You may be eligible for a Senior Executive Service position if you meet the five Executive Core Qualifications (ECQs).
 
 ### Executive Core Qualifications
 
-Applicants to SES positions must demonstrate they possess Executive Core Qualifications (ECQs) when applying. The ECQs define the competencies needed to build a federal corporate culture that drives for results, serves customers, and builds successful teams and coalitions within and outside the organization. The ECQs are required for entry to the SES and are used by many departments and agencies in selection, performance management, and leadership development for executive positions.
+The ECQs help determine if you have the broad executive skills needed to succeed in a variety of SES positions. The ECQs are required for entry to the SES and are used by many departments and agencies in selection, performance management, and leadership development for executive positions. The five ECQs are:
+
+1.  Leading Change
+2.  Leading People
+3.  Results Driven
+4.  Business Acumen
+5.  Building Coalitions
+
+[Learn more about the executive core qualifications](https://www.opm.gov/policy-data-oversight/senior-executive-service/executive-core-qualifications/)
+
+## Applying for Senior Executive Service positions
+
+There are two ways you can apply for a senior executive service position:
+
+1.  Apply directly to a federal agency for a specific SES position
+2.  Apply for an SES Candidate Development Program (SESCDP)
+
+This program helps identify and prepare aspiring senior executive leaders and upon completion, you may be eligible for a career appointment to a senior executive service position without competing with the public.
 
 ## Additional Resources
 
 * [Comprehensive information about the Senior Executive Service (OPM)](http://www.opm.gov/ses)
+* [Guide to the Senior Executive core qualifications](https://www.opm.gov/policy-data-oversight/senior-executive-service/reference-materials/guidetosesquals_2010.pdf)
 * [Senior Executive Service Pay Table](http://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
