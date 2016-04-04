@@ -46,21 +46,9 @@
     }
   }
 
-  &__link {
-    display: block;
-    width: 100%;
-    min-height: rem(225px);
-    padding: $size-M $size-default;
-    color: $color-white;
-    font-size: $h4-font-size;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
+  &__item {
+    position: relative;
     background-color: $color-primary-darker;
-
-    &:visited {
-      color: $color-white;
-    }
 
     &.federal-employees,
     &.ses {
@@ -78,6 +66,36 @@
     }
   }
 
+  &__link {
+    display: block;
+    width: 100%;
+    min-height: rem(225px);
+    padding: $size-M $size-default;
+    color: $color-white;
+    font-size: $h4-font-size;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 1;
+    opacity: 1;
+    @include transition(opacity $duration-fast ease-in-out);
+
+    &:visited {
+      color: $color-white;
+    }
+
+    &:hover {
+      opacity: 0;
+      z-index: -1;
+
+      + .usajobs-unique-hiring-paths__details {
+        z-index: 100;
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
   &__icon {
     display: inline-block;
     width: 100%;
@@ -85,4 +103,26 @@
     padding-bottom: $size-default;
     font-size: $h1-font-size;
   }
+
+  &__details {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+    padding: $size-default $size-M;
+    text-transform: inherit;
+    color: $color-white;
+    z-index: -1;
+    @include transition(opacity $duration-fast ease-in-out);
+
+    .learn-more,
+    .learn-more:visited {
+      color: $color-primary;
+    }
+  }
+
 }
