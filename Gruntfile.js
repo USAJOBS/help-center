@@ -19,9 +19,6 @@ module.exports = function(grunt) {
       jekyllServe: {
         command: "bundle exec jekyll serve --baseurl ''"
       },
-      jekyllBuildFlat: {
-        command: "bundle exec jekyll build --config _config-flat.yml"
-      },
       jekyllBuildProd: {
         command: "bundle exec jekyll build --config _config-prod.yml"
       }
@@ -42,8 +39,12 @@ module.exports = function(grunt) {
         },
         files: [
           {
+            src: 'library/css/usajobs-design-system-base--help-center.css',
+            dest: 'css/usajobs-design-system-base--help-center.css'
+          },
+          {
             src: '_scss/help-center.scss',
-            dest: 'css/usajobs-help-center.css'
+            dest: 'css/help-center.css'
           },
           {
             expand: true,
@@ -76,10 +77,10 @@ module.exports = function(grunt) {
     cssmin: {
       minify: {
         src: [
-          'library/css/usajobs-design-system-base.css',
-          'library/css/usajobs-design-system-components.css'
+          'library/css/usajobs-design-system-base--help-center.css',
+          'css/help-center.css'
         ],
-        dest: 'css/usajobs-design-system.min.css'
+        dest: 'css/usajobs-help-center.min.css'
       }
     },
     concat: {
@@ -90,7 +91,9 @@ module.exports = function(grunt) {
           'library/js/vendor/jquery.ba-throttle-debounce.min.js',
           'library/js/vendor/jquery-ui.min.js',
           'library/js/base.js',
-          'library/js/usajobs-design-system-components.js',
+          'library/js/components/usds-components.js',
+          'library/js/components/footer.js',
+          'library/js/components/nav.js',
           'js/components/*.js'
         ],
         dest: 'js/usajobs-help-center.js'
@@ -159,6 +162,7 @@ module.exports = function(grunt) {
     concurrent: {
       serve: [
         'sass',
+        'css',
         'watch',
         'shell:jekyllServe'
       ],

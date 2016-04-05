@@ -17,7 +17,7 @@
     {% assign j = forLoopMaxInt | plus: 0 %}
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-      <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}" {% if i == j %}class="usajobs-help-center-breadcrumb__link is-active"{% else %} class="usajobs-help-center-breadcrumb__link"{% endif %}>
+      <a href="{{ base }}{{breadcrumb_page_page_url_without_index_html}}" {% if i == j %}class="usajobs-help-center-breadcrumb__link is-active"{% else %} class="usajobs-help-center-breadcrumb__link"{% endif %}>
         <span property="item" typeof="WebPage">{{breadcrumb_page.breadcrumb}}</span>
         <meta property="position" content="{{ page.parent_paths | size | plus: 1 }}">
       </a>

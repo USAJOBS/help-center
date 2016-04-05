@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+{% include base.html %}
   <head>
     {% include prod-head.html %}
   </head>
   <body>
     <a class="skipnav" href="#main-content">Skip main navigation</a>
     {% include components/nav-help.html %}
-    <section class="usajobs-shell">
-      <section class="usajobs-canvas">
-        <div class="usajobs-help-full_width usajobs-content-gutter">
-          <main class="usajobs-content-well--full_width" id="main-content" role="main">
-            {{ content }}
-          </main>
-        </div>
+    <div class="usajobs-help-center">
+      <section class="usajobs-shell">
+        <section class="usajobs-canvas">
+          <div class="usajobs-help-full_width usajobs-content-gutter">
+            <main class="usajobs-content-well--full_width" id="main-content" role="main">
+              {{ content }}
+            </main>
+          </div>
+        </section>
       </section>
-    </section>
+    </div>
     {% include components/footer.html %}
     {% include scripts.html %}
   </body>

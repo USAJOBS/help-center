@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+{% include base.html %}
   <head>
     {% include prod-head.html %}
   </head>
   <body>
     <a class="skipnav" href="#main-content">Skip main navigation</a>
     {% include components/nav-help.html %}
-    {% include components/search-banner-with-nav.html %}
-    {% include components/breadcrumbs.html %}
-    <section class="usajobs-shell">
-      <section class="usajobs-canvas">
-        {{ content }}
+    <div class="usajobs-help-center">
+      {% include components/search-banner-with-nav.html %}
+      {% include components/breadcrumbs.html %}
+      <section class="usajobs-shell">
+        <section class="usajobs-canvas">
+          {{ content }}
+        </section>
       </section>
-    </section>
+    </div>
     {% include components/footer.html %}
     {% include scripts.html %}
   </body>

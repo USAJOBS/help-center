@@ -1,24 +1,20 @@
   <!--[if lt IE 9]>
-    <script src="{{ site.baseurl }}/js/vendor/selectivirz-min.js"></script>
-    <script src="{{ site.baseurl }}/js/vendor/respond.min.js"></script>
-    <script src="{{ site.baseurl }}/js/vendor/rem.min.js"></script>
+    <script src="{{ base }}/js/vendor/selectivirz-min.js"></script>
+    <script src="{{ base }}/js/vendor/respond.min.js"></script>
+    <script src="{{ base }}/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="{{ site.baseurl }}/js/search.min.js"></script>
-  <script src="{{ site.baseurl }}/js/usajobs-help-center.js"></script>
+  <script src="{{ base }}/js/search.min.js"></script>
+  <script src="{{ base }}/js/usajobs-help-center.js"></script>
   <script id="_fed_an_ua_tag" src="https://www.opm.gov/js/GSAAnalytics-min.js" type="text/javascript" defer></script>
 
+{% include base.html %}
 {% raw %}
 <script id="search-results-template" type="text/mustache">
   {{#entries}}
     <article>
-      <h4>
-        <a class="usajobs-help-center-search__result" href="{{ site.baseurl }}{{url}}">
-          {{title}}
-        </a>
-        {{#date}}
-          <small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>
-        {{/date}}
-      </h4>
+      <a class="usajobs-help-center-search__result" href="..{{ url }}">
+        {{title}}
+      </a>
     </article>
   {{/entries}}
 </script>
@@ -27,7 +23,7 @@
 <script type="text/javascript">
   $(function() {
     $('#search-query').lunrSearch({
-      indexUrl: '{{ site.baseurl }}/js/index.json',   // Url for the .json file containing search index data
+      indexUrl: '{{ base }}/js/index.json',   // Url for the .json file containing search index data
       results : '#search-results',  // selector for containing search results element
       entries : '.entries',         // selector for search entries containing element (contained within results above)
       template: '#search-results-template'  // selector for Mustache.js template

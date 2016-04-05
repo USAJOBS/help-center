@@ -20,7 +20,7 @@ keep_files: ['css', 'js']
 # Setting a unique port number
 port: 4001
 
-baseurl: 'https://www.usajobs.gov/help'
+baseurl: ''
 destination: ./_dist-prod
 
 permalink: pretty

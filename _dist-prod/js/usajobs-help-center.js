@@ -1504,518 +1504,6 @@ $(document).ready(function () {
   USAJOBS.Base.init();
 });
 
-// Alerts
-var $alert = $('[data-object="alert"]');
-
-$alert.on('click', '[data-behavior]', function (event) {
-  var $el = $(this),
-    $object = $el.closest('[data-object="alert"]'),
-    state = $object.attr('data-state'),
-    behavior = $el.attr('data-behavior');
-
-  event.preventDefault();
-  $el.blur(); // Removes focus
-
-  // Each behavior attached to the element should be triggered
-  $.each(behavior.split(' '), function (idx, action) {
-    $el.trigger(action, { el: $el, object: $object, state: state });
-  });
-});
-
-$alert.on('alert.close', function(event, opts) {
-  opts.object.attr('data-state', 'is-closed');
-  opts.object.attr('aria-hidden', 'true');
-});
-
-// Document - Object for uploading, viewing, and editing documents
-
-var $doc = $('[data-object="document"]'),
-  $doc_multiselect = $doc.find('input[type="checkbox"]'),
-  $doc_singleselect = $doc.find('input[type="radio"]');
-
-$doc.on('click', '[data-behavior]', function () {
-  var $el = $(this),
-    $object = $el.closest('[data-object="document"]'),
-    behavior = $el.attr('data-behavior'),
-    state = $object.attr('data-state'),
-    $target = $object.find($el.attr('data-target'));
-
-  // DO NOT preventDefault here otherwise we will
-  // unintentionally disable form elements
-  $el.blur(); // Removes focus
-
-  // Each behavior attached to the element should be triggered
-  $.each(behavior.split(' '), function (idx, action) {
-    $el.trigger(action, { el: $el, object: $object, state: state, target: $target });
-  });
-});
-
-$doc.on('document.toggle', function(event, opts) {
-  event.preventDefault();
-
-  if (opts.state !== 'is-disabled') {
-    opts.target.trigger('click');
-  }
-});
-
-$doc.on('document.select', function(event, opts) {
-  event.preventDefault();
-
-  if (opts.state !== 'is-disabled') {
-    opts.target.trigger('click');
-  }
-});
-
-$doc_singleselect.on('change', function() {
-  var $input = $(this),
-    $object = $input.parent().closest('[data-object="document"]'),
-    $sibling_inputs = $(document).find('input[type="radio"][name="' + $input.attr('name') + '"]'),
-    $sibling_objects = $sibling_inputs.not('#' + $input.attr('id')).parent().closest('[data-object="document"]');
-
-  if ($input.is(':checked')) {
-    $object.attr('data-state', 'is-selected');
-    $sibling_objects.attr('data-state', 'is-selectable');
-  } else {
-    $object.attr('data-state', 'is-selectable');
-  }
-});
-
-$doc_multiselect.on('change', function() {
-  var $input = $(this),
-    $object = $input.parent().closest('[data-object="document"]');
-
-  if ($input.is(':checked')) {
-    $object.attr('data-state', 'is-selected');
-  } else {
-    $object.attr('data-state', 'is-selectable');
-  }
-});
-
-// Footer
-
-var $footer = $('[data-object="footer"]'),
-  window_width = window.innerWidth;
-
-$footer.on('click', '[data-behavior]', function () {
-  var $el = $(this),
-    $object = $el.closest('[data-object="footer"]'),
-    state = $el.attr('data-state'),
-    behavior = $el.attr('data-behavior'),
-    $target = $object.find($el.attr('data-target'));
-
-  $el.blur(); // Removes focus
-
-  // Each behavior attached to the element should be triggered
-  $.each(behavior.split(' '), function (idx, action) {
-    $object.trigger(action, { el: $el, object: $object, state: state, target: $target });
-  });
-});
-
-$footer.on('footer.toggle', function(event, opts) {
-  event.preventDefault();
-
-  if (opts.state === 'is-closed') {
-    opts.object.trigger('footer.open', opts);
-  } else if (opts.state === 'is-open') {
-    opts.object.trigger('footer.close', opts);
-  }
-});
-
-$footer.on('footer.open', function(event, opts) {
-    // Hide all siblings
-    /*
-    opts.object
-      .find('[data-behavior="footer.toggle"][data-state="is-open"]')
-      .trigger('close', { });
-    */
-
-  opts.target.removeClass('is-hidden');
-  opts.target.attr('aria-expanded', 'true');
-  opts.el.attr('aria-expanded', 'true');
-  opts.el.attr('data-state', 'is-open');
-});
-
-$footer.on('footer.close', function(event, opts) {
-  if (window_width < 600) {
-    event.preventDefault();
-
-    opts.target.addClass('is-hidden');
-    opts.target.attr('aria-expanded', 'false');
-    opts.el.attr('aria-expanded', 'false');
-    opts.el.attr('data-state', 'is-closed');
-  }
-});
-
-// Modal
-
-var $modal = $('[data-object="modal"]'),
-  $modal_trigger = $('[data-object-trigger="modal"]'),
-  $body = $('body'),
-  $backdrop = $('<div class="usajobs-modal__canvas-blackout" tabindex="-1" />');
-
-$modal_trigger.on('click', function (event) {
-  var $el = $(this),
-    $this_modal = $body.find($el.attr('data-target')),
-    state = $this_modal.attr('data-state'),
-    transition_to;
-
-  event.preventDefault();
-
-  if (state === 'is-closed') {
-    transition_to = 'modal.open';
-  } else {
-    transition_to = 'modal.close';
-  }
-
-  $this_modal.trigger(transition_to, { el: $el, object: $this_modal, state: state });
-});
-
-$modal.on('click', '[data-behavior]', function (event) {
-  var $el = $(this),
-    $object = $el.closest('[data-object="modal"]'),
-    state = $object.attr('data-state'),
-    behavior = $el.attr('data-behavior');
-
-  event.preventDefault();
-  $el.blur(); // Removes focus
-
-  // Each behavior attached to the element should be triggered
-  $.each(behavior.split(' '), function (idx, action) {
-    $el.trigger(action, { el: $el, object: $object, state: state });
-  });
-});
-
-$modal.on('modal.open', function(event, opts) {
-  var closeModal = function () {
-    opts.object.trigger('modal.close', {
-      el: opts.el,
-      object: opts.object,
-      state: opts.state
-    });
-  };
-
-  event.preventDefault();
-
-  $body.addClass('is-open-modal');
-  $backdrop
-    .appendTo($body)
-    .attr('aria-hidden', 'true');
-
-  // Store the element on the page that had focus
-  // so we can return focus to that element
-  opts.object.data('previous_focus', $(':focus'));
-
-  opts.object.attr('data-state', 'is-open');
-  opts.object.attr('aria-hidden', 'false');
-
-  $(document).on('keyup', function (e) {
-    // Close the modal when ESC is pressed
-    if (e.keyCode === 27) {
-      closeModal();
-    }
-  });
-
-});
-
-$modal.on('modal.close', function(event, opts) {
-  $body.removeClass('is-open-modal');
-  $backdrop.remove();
-
-  $(document).off('keyup');
-
-  opts.object.attr('data-state', 'is-closed');
-  opts.object.attr('aria-hidden', 'true');
-  opts.object.data('previous_focus').focus();
-});
-
-// Secondary Nav
-
-var $nav_secondary = $('[data-object="nav-secondary"]'),
-
-  // The majority of this function is used courtesty of
-  // Brad Frost's responsive design patterns:
-  // https://bradfrost.github.io/this-is-responsive/patterns.html
-  // Specifically, the Priority+ Alt pattern.
-  navSecondaryToggleMenuItems = function () {
-    var nav_width = 0,
-      $menu = $nav_secondary.find('.usajobs-nav-secondary__menu'),
-      $more_menu = $menu.find('.more'),
-      $more_container = $nav_secondary.find($nav_secondary.attr('data-target')),
-      more_width = $more_menu.outerWidth(true),
-      available_space,
-      last_item,
-      first_more_el;
-
-    $menu.find('> li:not(.more)').each(function () {
-      nav_width += $(this).outerWidth( true );
-    });
-
-    available_space = $nav_secondary.outerWidth(true) - more_width;
-
-    if (nav_width > available_space) {
-      last_item = $menu.find('> li:not(.more)').last();
-      last_item.attr('data-width', last_item.outerWidth(true));
-      last_item.prependTo($more_container);
-      navSecondaryToggleMenuItems();
-    } else {
-      first_more_el = $more_menu.find('li').first();
-
-      if (nav_width + first_more_el.data('width') < available_space) {
-        first_more_el.insertBefore($more_menu);
-      }
-    }
-
-    if ($more_menu.find('li').length > 0) {
-      $more_menu.css('display','inline-block');
-    } else {
-      $more_menu.css('display','none');
-    }
-  };
-
-// Toggle Secondary Nav items on load
-if ($nav_secondary !== undefined && $nav_secondary.length > 0) {
-  navSecondaryToggleMenuItems();
-}
-
-// Toggle Secondary Nav items on resize
-$(window).resize( $.throttle( 250, function() {
-  if ($nav_secondary !== undefined && $nav_secondary.length > 0) {
-    navSecondaryToggleMenuItems();
-  }
-}));
-
-$nav_secondary.on('click', '[data-behavior]', function (event) {
-  var $el = $(this),
-    $object = $el.closest('[data-object="nav-secondary"]'),
-    behavior = $el.attr('data-behavior'),
-    $target = $object.find($object.attr('data-target')),
-    state = $target.attr('data-state');
-
-  event.preventDefault();
-  $el.blur(); // Removes focus
-
-  // Each behavior attached to the element should be triggered
-  $.each(behavior.split(' '), function (idx, action) {
-    $el.trigger(action, { el: $el, object: $object, state: state, target: $target });
-  });
-});
-
-$nav_secondary.on('nav-secondary.toggle', function(event, opts) {
-  event.preventDefault();
-
-  if (opts.state === 'is-closed') {
-    opts.object.trigger('nav-secondary.open', opts);
-  } else if (opts.state === 'is-open') {
-    opts.object.trigger('nav-secondary.close', opts);
-  }
-});
-
-$nav_secondary.on('nav-secondary.open', function(event, opts) {
-  opts.target.attr('data-state', 'is-open');
-});
-
-$nav_secondary.on('nav-secondary.close', function(event, opts) {
-  opts.target.attr('data-state', 'is-closed');
-});
-
-// Navigation (top-level-nav)
-
-var $nav = $('[data-object="nav"]');
-
-$nav.on('click', '[data-behavior]', function (event) {
-  var $el = $(this),
-    $object = $el.closest('[data-object="nav"]'),
-    behavior = $el.attr('data-behavior'),
-    $target = $object.find('#' + $el.attr('aria-controls')),
-    state = $target.attr('aria-expanded');
-
-  event.preventDefault();
-  $el.blur(); // Removes focus
-
-  // Each behavior attached to the element should be triggered
-  $.each(behavior.split(' '), function (idx, action) {
-    $el.trigger(action, { el: $el, object: $object, state: state, target: $target });
-  });
-});
-
-$nav.on('nav.toggle', function(event, opts) {
-  event.preventDefault();
-
-  if (opts.state === 'is-closed') {
-    opts.object.trigger('nav.open', opts);
-  } else if (opts.state === 'is-open') {
-    opts.object.trigger('nav.close', opts);
-  }
-});
-
-$nav.on('nav.open', function(event, opts) {
-  opts.object.attr('data-state', 'is-open');
-  opts.target.slideToggle(300, function () {
-    opts.el.attr('aria-expanded', 'true');
-    opts.target.attr('aria-expanded', 'true');
-  });
-});
-
-$nav.on('nav.close', function(event, opts) {
-  opts.object.attr('data-state', 'is-closed');
-  opts.target.slideToggle(300, function () {
-    opts.el.attr('aria-expanded', 'false');
-    opts.target.attr('aria-expanded', 'false');
-  });
-});
-
-$nav.on('nav.menu.toggle', function(event, opts) {
-  var $parent = opts.el.parent(),
-    parent_state = $parent.attr('data-state'),
-    $menu = $parent.find('[role="menu"]'),
-    $sibling = $parent.siblings().find('[aria-expanded="true"]');
-
-  event.preventDefault();
-
-  $nav.trigger('nav.menu.slide-close', { parent: $sibling.parent(), menu: $sibling });
-
-  if (parent_state === 'is-closed') {
-    $nav.trigger('nav.menu.slide-open', { parent: $parent, menu: $menu });
-  } else if (parent_state === 'is-open') {
-    $nav.trigger('nav.menu.slide-close', { parent: $parent, menu: $menu });
-  }
-});
-
-$nav.on('nav.menu.slide-open', function(event, opts) {
-  opts.parent.attr('data-state', 'is-open');
-  opts.menu.slideDown(300, function () {
-    opts.menu.attr('aria-expanded', 'true');
-  });
-});
-
-$nav.on('nav.menu.slide-close', function(event, opts) {
-  opts.parent.attr('data-state', 'is-closed');
-  opts.menu.slideUp(300, function () {
-    opts.menu.attr('aria-expanded', 'false');
-  });
-});
-
-$nav.on('nav.menu.search-toggle', function(event, opts) {
-  var $parent = opts.el.parent();
-
-  event.preventDefault();
-
-  if (opts.state === 'false') {
-    $nav.trigger('nav.menu.slide-open', { parent: $parent, menu: opts.target });
-  } else if (opts.state === 'true') {
-    $nav.trigger('nav.menu.slide-close', { parent: $parent, menu: opts.target });
-  }
-});
-
-
-// Search autocomplete locations
-var acHostUrl = 'https://ac.usajobs.gov/acwd',
-usajSrc = function (request, response) {
-  $.ajax({
-    url: acHostUrl,
-    dataType: 'jsonp',
-    crossdomain: true,
-    cache: true,
-    jsonpCallback: 'usaj151067976',
-    data: { t: request.term },
-    success: function (data) {
-      response(data);
-    }
-  });
-};
-
-// Portions of this code came from http://jsfiddle.net/fozylet/kTAMm/
-$('#search-location').autocomplete({
-  source: usajSrc,
-  minLength: 3,
-  open: function (e, ui) {
-    var acData = $(this).data('ui-autocomplete');
-    acData
-      .menu
-      .element
-      .find('li')
-      .each(function () {
-        var me = $(this);
-        var keywords = acData.term.split(' ').join('|');
-        me.html(me.text().replace(new RegExp("(" + keywords + ")", "gi"), '<strong>$1</strong>'));
-      });
-  },
-  select: function (event, ui) {
-    var selectedObj = ui.item;
-
-    $('#search-location').val(selectedObj.label);
-    $('#AutoCompleteSelected').val('true');
-    return false;
-  },
-  search: function () {
-    //wipe out values on new searches or when user selects one but changes their mind!
-    $('#AutoCompleteSelected').val('false');
-  }
-});
-
-// Notification
-
-var $notification = $('[data-object="notification"]'),
-  $notification_trigger = $('[data-object-trigger="notification"]'),
-  $body = $('body');
-
-$notification_trigger.on('click', function (event) {
-  var $el = $(this),
-    $this_notification = $body.find($el.attr('data-target')),
-    state = $this_notification.attr('data-state'),
-    transition_to;
-
-  event.preventDefault();
-
-  if (state === 'is-closed') {
-    transition_to = 'notification.open';
-  } else {
-    transition_to = 'notification.close';
-  }
-
-  $this_notification.trigger(transition_to, { el: $el, object: $this_notification, state: state });
-});
-
-$notification.on('click', '[data-behavior]', function (event) {
-  var $el = $(this),
-    $object = $el.closest('[data-object="notification"]'),
-    state = $object.attr('data-state'),
-    behavior = $el.attr('data-behavior');
-
-  event.preventDefault();
-  $el.blur(); // Removes focus
-
-  // Each behavior attached to the element should be triggered
-  $.each(behavior.split(' '), function (idx, action) {
-    $el.trigger(action, { el: $el, object: $object, state: state });
-  });
-});
-
-$notification.on('notification.open', function(event, opts) {
-  event.preventDefault();
-
-  opts.object.attr('data-state', 'is-open');
-  opts.object.attr('aria-hidden', 'false');
-
-  opts.object.trigger('notification.delayed-close', {
-    el: opts.el,
-    object: opts.object,
-    state: opts.state
-  });
-});
-
-$notification.on('notification.close', function(event, opts) {
-  opts.object.attr('data-state', 'is-closed');
-  opts.object.attr('aria-hidden', 'true');
-});
-
-$notification.on('notification.delayed-close', function(event, opts) {
-  setTimeout(function () {
-    opts.object.attr('data-state', 'is-closed');
-    opts.object.attr('aria-hidden', 'true');
-  }, 5000);
-});
-
 
 /*! politespace - v0.1.5 - 2015-07-09
 Politely add spaces to input values to increase readability (credit card numbers, phone numbers, etc).
@@ -2373,6 +1861,196 @@ $(function() {
   toggleSSN($('.usa-show_ssn'));
   validator($('.js-validate_password'));
 
+});
+
+// Footer
+
+var $footer = $('[data-object="footer"]'),
+  window_width = window.innerWidth;
+
+$footer.on('click', '[data-behavior]', function () {
+  var $el = $(this),
+    $object = $el.closest('[data-object="footer"]'),
+    state = $el.attr('data-state'),
+    behavior = $el.attr('data-behavior'),
+    $target = $object.find($el.attr('data-target'));
+
+  $el.blur(); // Removes focus
+
+  // Each behavior attached to the element should be triggered
+  $.each(behavior.split(' '), function (idx, action) {
+    $object.trigger(action, { el: $el, object: $object, state: state, target: $target });
+  });
+});
+
+$footer.on('footer.toggle', function(event, opts) {
+  event.preventDefault();
+
+  if (opts.state === 'is-closed') {
+    opts.object.trigger('footer.open', opts);
+  } else if (opts.state === 'is-open') {
+    opts.object.trigger('footer.close', opts);
+  }
+});
+
+$footer.on('footer.open', function(event, opts) {
+    // Hide all siblings
+    /*
+    opts.object
+      .find('[data-behavior="footer.toggle"][data-state="is-open"]')
+      .trigger('close', { });
+    */
+
+  opts.target.removeClass('is-hidden');
+  opts.target.attr('aria-expanded', 'true');
+  opts.el.attr('aria-expanded', 'true');
+  opts.el.attr('data-state', 'is-open');
+});
+
+$footer.on('footer.close', function(event, opts) {
+  if (window_width < 600) {
+    event.preventDefault();
+
+    opts.target.addClass('is-hidden');
+    opts.target.attr('aria-expanded', 'false');
+    opts.el.attr('aria-expanded', 'false');
+    opts.el.attr('data-state', 'is-closed');
+  }
+});
+
+// Navigation (top-level-nav)
+
+var $nav = $('[data-object="nav"]');
+
+$nav.on('click', '[data-behavior]', function (event) {
+  var $el = $(this),
+    $object = $el.closest('[data-object="nav"]'),
+    behavior = $el.attr('data-behavior'),
+    $target = $object.find('#' + $el.attr('aria-controls')),
+    state = $target.attr('aria-expanded');
+
+  event.preventDefault();
+  $el.blur(); // Removes focus
+
+  // Each behavior attached to the element should be triggered
+  $.each(behavior.split(' '), function (idx, action) {
+    $el.trigger(action, { el: $el, object: $object, state: state, target: $target });
+  });
+});
+
+$nav.on('nav.toggle', function(event, opts) {
+  event.preventDefault();
+
+  if (opts.state === 'is-closed') {
+    opts.object.trigger('nav.open', opts);
+  } else if (opts.state === 'is-open') {
+    opts.object.trigger('nav.close', opts);
+  }
+});
+
+$nav.on('nav.open', function(event, opts) {
+  opts.object.attr('data-state', 'is-open');
+  opts.target.slideToggle(300, function () {
+    opts.el.attr('aria-expanded', 'true');
+    opts.target.attr('aria-expanded', 'true');
+  });
+});
+
+$nav.on('nav.close', function(event, opts) {
+  opts.object.attr('data-state', 'is-closed');
+  opts.target.slideToggle(300, function () {
+    opts.el.attr('aria-expanded', 'false');
+    opts.target.attr('aria-expanded', 'false');
+  });
+});
+
+$nav.on('nav.menu.toggle', function(event, opts) {
+  var $parent = opts.el.parent(),
+    parent_state = $parent.attr('data-state'),
+    $menu = $parent.find('[role="menu"]'),
+    $sibling = $parent.siblings().find('[aria-expanded="true"]');
+
+  event.preventDefault();
+
+  $nav.trigger('nav.menu.slide-close', { parent: $sibling.parent(), menu: $sibling });
+
+  if (parent_state === 'is-closed') {
+    $nav.trigger('nav.menu.slide-open', { parent: $parent, menu: $menu });
+  } else if (parent_state === 'is-open') {
+    $nav.trigger('nav.menu.slide-close', { parent: $parent, menu: $menu });
+  }
+});
+
+$nav.on('nav.menu.slide-open', function(event, opts) {
+  opts.parent.attr('data-state', 'is-open');
+  opts.menu.slideDown(300, function () {
+    opts.menu.attr('aria-expanded', 'true');
+  });
+});
+
+$nav.on('nav.menu.slide-close', function(event, opts) {
+  opts.parent.attr('data-state', 'is-closed');
+  opts.menu.slideUp(300, function () {
+    opts.menu.attr('aria-expanded', 'false');
+  });
+});
+
+$nav.on('nav.menu.search-toggle', function(event, opts) {
+  var $parent = opts.el.parent();
+
+  event.preventDefault();
+
+  if (opts.state === 'false') {
+    $nav.trigger('nav.menu.slide-open', { parent: $parent, menu: opts.target });
+  } else if (opts.state === 'true') {
+    $nav.trigger('nav.menu.slide-close', { parent: $parent, menu: opts.target });
+  }
+});
+
+
+// Search autocomplete locations
+var acHostUrl = 'https://ac.usajobs.gov/acwd',
+usajSrc = function (request, response) {
+  $.ajax({
+    url: acHostUrl,
+    dataType: 'jsonp',
+    crossdomain: true,
+    cache: true,
+    jsonpCallback: 'usaj151067976',
+    data: { t: request.term },
+    success: function (data) {
+      response(data);
+    }
+  });
+};
+
+// Portions of this code came from http://jsfiddle.net/fozylet/kTAMm/
+$('#search-location').autocomplete({
+  source: usajSrc,
+  minLength: 3,
+  open: function (e, ui) {
+    var acData = $(this).data('ui-autocomplete');
+    acData
+      .menu
+      .element
+      .find('li')
+      .each(function () {
+        var me = $(this);
+        var keywords = acData.term.split(' ').join('|');
+        me.html(me.text().replace(new RegExp("(" + keywords + ")", "gi"), '<strong>$1</strong>'));
+      });
+  },
+  select: function (event, ui) {
+    var selectedObj = ui.item;
+
+    $('#search-location').val(selectedObj.label);
+    $('#AutoCompleteSelected').val('true');
+    return false;
+  },
+  search: function () {
+    //wipe out values on new searches or when user selects one but changes their mind!
+    $('#AutoCompleteSelected').val('false');
+  }
 });
 
 var $help = $('[data-object="help.contact_us"]');

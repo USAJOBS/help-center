@@ -1,13 +1,17 @@
 // Help Center
 
 @import 'lib/bourbon/bourbon';
-@import "font-awesome/font-awesome";
 @import 'core/variables';
 @import 'base/variables';
 @import 'base/utilities';
 @import 'element/typography';
 
-// components
+// Design System components
+@import 'component/header';
+@import 'component/nav';
+@import 'component/footer';
+
+// Help Center components
 @import 'components/search-banner';
 @import 'components/breadcrumb';
 @import 'components/nav-secondary';
@@ -277,6 +281,9 @@
 
 .usajobs-help-center-search {
   &__result {
+    display: block;
+    @include h4();
+
     &:visited {
       color: $color-primary;
     }
