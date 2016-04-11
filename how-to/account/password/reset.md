@@ -17,3 +17,7 @@ To reset your USAJOBS password, follow the steps below:
 If you receive an email titled USAJOBS Account - Password Reset, it will contain a link to reset your password (this link is only active for 24 hours). Once you click the link, enter your new password and verify the password and click the Submit button. This will update your password, and you can now log into your account.
 
 If you receive an email titled USAJOBS Account Information, this email will inform you that the email address you entered does not match a registered account. At this time, you can try to reset your password using a different email address that you have access to, or you can create a new account.
+
+### Forgotten secret questions
+
+If you are trying to reset your password and have forgotten your secret questions, click on the link titled **Have USAJOBS send you a link to reset your password**. You will be sent an email to the address associated with your account, which will allow you to reset your password.
