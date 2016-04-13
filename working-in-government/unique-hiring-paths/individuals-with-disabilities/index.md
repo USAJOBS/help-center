@@ -8,42 +8,54 @@ category: Unique Hiring Paths
 tags: [disabilities, disabled, veterans]
 ---
 
-The Federal Government is actively recruiting and hiring persons with disabilities. We offer a variety of exciting jobs, competitive salaries, excellent benefits, and opportunities for career advancement.
+The Federal Government is actively recruiting and hiring persons with disabilities. If you are a person with a disability, you may be eligible to apply for jobs and get hired without competing for the job or going through the full application process. This is sometimes called a [non-competitive appointment](http://usajobs.github.io/help-center//working-in-government/appointments/).
 
-## Hiring Process
+## Eligibility
+Federal agencies can use the following hiring authorities to hire persons with disabilities:
 
-There are two types of hiring processes. In the _non-competitive_ hiring process, agencies use a special authority (Schedule A) to hire persons with disabilities without requiring them to compete for the job. In the _competitive process_, applicants compete with each other through a structured process.
+* Schedule A Hiring Authority
+* Veterans Appointments
+
 
 ### Schedule A Hiring Authority
 
-Various authorities exist that permit exceptions from the normal competitive rules. These authorities are classified into several "schedules". One of the authorities in Schedule A relates to the appointment of individuals with intellectual disabilities, severe physical disabilities, or psychiatric disabilities (5 CFR 213.3102(u)).
+Schedule A (5 CFR 213.3102(u)) allows agencies to hire individuals with intellectual, severe physical or psychiatric disabilities. There’s also an exception (5 CFR 213.3102(11)) for hiring readers, interpreters, and personal assistants for employees with severe disabilities. 
+
+### Eligibility for Schedule A
+To be eligible for Schedule A, you must provide a "proof of a disability" letter stating that you have an intellectual disability, severe physical disability or psychiatric disability. You can get this letter from your doctor, a licensed medical professional, a licensed vocational rehabilitation specialist, or any federal, state, or local agency that issues or provides disability benefits.
+
+[Learn more about eligibility for Schedule A](https://www.opm.gov/policy-data-oversight/disability-employment/getting-a-job/#url=Schedule-A-Hiring-Authority).
 
 ### Veterans Appointments
-
-There are a number of authorities available to assist veterans who are seeking, or wish to change, Federal employment including:
-
+Veterans with disabilities may be eligible for: 
 * [Veterans Recruitment Appointment (VRA)](../veterans/vra/)
-* 30% or More Disabled Veterans Program
-* [Veterans Employment Opportunity Act (VEOA)](../veterans/veoa/)
+* [30% or More Disabled Veterans Program](../veterans/disabled/)
+* [Disabled Veterans Enrolled in a VA Training Program](../veterans/disabled/)
 
-### Selective Placement Program Coordinator (SPPC)
+[Learn more about hiring options for veterans with disabilities](https://www.fedshirevets.gov/job/shav/index.aspx).
 
-Most Federal agencies have a Selective Placement Program Coordinator (SPPC) or equivalent who helps management recruit, hire, and accommodate people with disabilities. SPPC's have many roles and responsibilities, including:
+## Selective Placement Program Coordinator (SPPC)
 
-* Advising managers about candidates available for placement in jobs under special hiring authorities, as well as providing managers with information on reasonable accommodation and needs assessments for applicants and employees.
-* Helping managers determine the essential duties of the position, identify architectural barriers and possible modifications that allow people with disabilities to perform essential duties.
-* Helping people with disabilities get information about current job opportunities, types of jobs in the agency and how these jobs are filled and reasonable accommodations.
-* Working with public and private organizations involved in the placement of applicants with disabilities to provide information about their agency program and job opportunities and to facilitate the placement of applicants with disabilities in their agency.
-* Monitoring and evaluating selective placement program efforts and activities for people with disabilities to determine their effectiveness, and making changes as needed to improve program effectiveness.
+Selective Placement Program Coordinators (SPPC) help agencies recruit, hire, and accommodate people with disabilities. SPPCs also help people with disabilities learn about job opportunities and how to get started with the application process. Most federal agencies have an SPPC or equivalent role. 
 
-## Reasonable Accommodations
+If you’re a disabled person and interested in a job opportunity, contact the agency SPPC using the [Selected Placement Program Coordinator directory](https://www.opm.gov/policy-data-oversight/disability-employment/selective-placement-program-coordinator-directory/).
 
-Federal agencies are required by law to provide reasonable accommodation to qualified employees with disabilities. The Federal Government may provide you with a reasonable accommodation based on appropriate requests (unless so doing will result in undue hardship to the agencies).
+[Learn more about the Selected Placement Coordinator](https://www.opm.gov/policy-data-oversight/disability-employment/selective-placement-program-coordinator/).
 
-Reasonable accommodations can apply to the duties of the job and/or where and how job tasks are performed.
+## Accommodating Individuals with Disabilities
+
+Federal agencies have a legal obligation to offer “reasonable accommodations” to employees with disabilities (unless doing so will result in undue hardship to the agency). The accommodations make it easier for an employee, with a disability, to successfully perform the duties of the position. For example, an agency may offer:
+* Interpreters, readers, or other personal assistance
+* Modified position duties
+* Flexible work schedules or work sites
+* Accessible technology or other workplace adaptive equipment
+
+If you need reasonable accommodations, you must request the accommodations during the recruitment, application or hiring process or at any time while on the job. Requests are considered on a case-by-case basis.
+
+[Learn how to make a reasonable accommodation request](https://www.opm.gov/policy-data-oversight/disability-employment/reasonable-accommodations/).
 
 ## Additional Resources
 
-* [Getting a Job (OPM)](https://www.opm.gov/policy-data-oversight/disability-employment/getting-a-job/).
-* [SPPC directory (OPM)](http://www.opm.gov/policy-data-oversight/disability-employment/selective-placement-program-coordinator-directory/).
+* [Disability employment (OPM)](https://www.opm.gov/policy-data-oversight/disability-employment/).
+* [Selected Placement Program Coordinator directory (OPM)](http://www.opm.gov/policy-data-oversight/disability-employment/selective-placement-program-coordinator-directory/).
 * [Reasonable accommodations (OPM)](https://www.opm.gov/policy-data-oversight/disability-employment/reasonable-accommodations/)
