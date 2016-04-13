@@ -18,15 +18,15 @@ The Pathways Program offers federal internship and employment opportunities for 
 
 ### Internship Program
 
-The internship program is for current students. If you are a current student in high school, college, trade school or other qualifying educational institution, you may be eligible. This program offers paid opportunities to work in federal agencies and explore federal careers while completing your education.
+The internship program is for current students. If you’re a current student in high school, college, trade school or other qualifying educational institution, you may be eligible. This program offers paid opportunities to work in federal agencies and explore federal careers while completing your education.
 
 [Learn more about the internship program.](https://www.opm.gov/policy-data-oversight/hiring-authorities/students-recent-graduates/#url=Program-Fact-Sheets)
 
 ### Recent Graduates Program
 
-The recent graduate program is for those who have graduated, within the past two years, from a qualifying educational institution or certificate program. The recent graduate program offers career development with training and mentorship.
+The recent graduate program is for those who have graduated, within the past two years, from a qualifying educational institution or certificate program. The recent graduate program offers career development with training and mentorship. 
 
-You must apply within two years of getting your degree or certificate (except for veterans precluded from doing so due to their military service obligation, who will have up to six years to apply).
+You must apply within two years of getting your degree or certificate (veterans have up to six years to apply due to their military service obligation).
 
 [Learn more about the recent graduate program.](https://www.opm.gov/policy-data-oversight/hiring-authorities/students-recent-graduates/#url=Program-Fact-Sheets)
 
@@ -34,8 +34,8 @@ You must apply within two years of getting your degree or certificate (except fo
 
 This program is for recent graduates with an advanced degree—either a professional or graduate degree such as a master’s, Ph.D. or J.D. You may be eligible if you:
 
-* Have completed an advanced degree from a qualifying educational institution or program within the past two years
-* Are a current graduate student and will complete all of your degree requirements (including dissertations) by the PMF application deadline
+* Have completed an advanced degree from a qualifying educational institution or program within the past two years.
+* Are a current graduate student and will complete all of your degree requirements (including dissertations) by the PMF application deadline.
 
 [Learn more about the Presidential Management Fellows program.](https://www.pmf.gov/)
 
