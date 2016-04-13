@@ -8,25 +8,41 @@ category: Unique Hiring Paths
 tags: [veterans]
 ---
 
-The federal government has a long and outstanding record of employing veterans. Veterans have technical skills in areas of critical importance, and many already have security clearances required for some federal positions.
+The Federal Government has a long and outstanding record of employing veterans. Veterans have technical skills in areas of critical importance, and many already have security clearances required for some federal positions.
 
-If you are a Veteran who served on active duty in the U.S. Armed Forces and were separated under honorable conditions, you may be eligible for veterans' preference, as well as other special hiring paths for veterans.
+If you’re a Veteran who served on active duty in the U.S. Armed Forces and were separated under honorable conditions, you may be eligible for veterans' preference, as well as other veteran specific hiring options. 
 
 ## Veterans preference
 
-Veterans’ preference gives eligible veterans preference in appointment over many other applicants. Veterans' preference applies to both the competitive and excepted service. However, Veterans' preference does not guarantee veterans a job and it does not apply to the Senior Executive Service or to internal agency actions such as promotions, transfers, reassignments and reinstatements.
+With veterans’ preference, you may receive preference over non-veteran applicants in the hiring process. Veterans' preference can be used when applying to permanent and temporary positions in both the competitive and excepted service (of the executive branch). 
 
-When claiming preference, veterans must provide a copy of their DD-214, Certificate of Release or Discharge from Active Duty, or other acceptable documentation. Applicants claiming 10 point preference will need to submit Form SF-15, Application for 10-point Veterans' Preference.
+However, veterans' preference does not guarantee you a job and it doesn’t apply to the:
+* Senior Executive Service
+* Merit Promotion such as promotions, transfers, reassignments and reinstatements
+* Executive branch positions for which Senate confirmation is required
+* Positions within the legislative and judicial branches of the Federal Government, unless the position explicitly states it’s competitive service (for example a position in the Government Printing Office)
+
+### Claiming Veteran's Preference
+When claiming veterans’ preference, you must provide a copy of your DD-214, Certificate of Release or Discharge from Active Duty, or other acceptable documentation. Applicants claiming 10-point preference will need to submit Form SF-15. 
+
+[Get more information about veterans’ preference](https://www.fedshirevets.gov./job/vetpref/index.aspx).
+
+### Veteran's Recruitment Appointment and Other Hiring Options
+If you’re a veteran, you may also be eligible for one of these special hiring authorities:
+* [Veterans Recruitment Appointment (VRA)](http://usajobs.github.io/help-center//working-in-government/unique-hiring-paths/veterans/vra/)
+* [Veterans Employment Opportunity Act of 1998 (VEOA)](http://usajobs.github.io/help-center//working-in-government/unique-hiring-paths/veterans/veoa/) 
+* [30% or More Disabled Veteran](http://usajobs.github.io/help-center//working-in-government/unique-hiring-paths/veterans/disabled/)
+* [Disabled Veterans Enrolled in a VA Training Program](http://usajobs.github.io/help-center//working-in-government/unique-hiring-paths/veterans/disabled/)
+
 
 ## Dedicated Veterans Website
 
 [Fedshirevets.gov](https://fedshirevets.gov/) provides detailed information to veterans, transitioning service members and their families, including:
-
-* Veterans' preference
+* Veterans' preference eligibility
 * Special veteran appointing authorities
-* Other veteran related topics.
+* Other veteran related topics
 
-Visit [fedshirevets.gov](https://fedshirevets.gov/) for information regarding veteran’s employment in the federal government.
+Visit [fedshirevets.gov](https://fedshirevets.gov/) for information regarding veteran’s employment in the Federal Government.
 
 ## Additional Resources
 
