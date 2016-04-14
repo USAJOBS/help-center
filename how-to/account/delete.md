@@ -5,7 +5,7 @@ section: how-to
 title: How to delete an account
 breadcrumb: Delete an account
 category: account
-tags: [account, delete]
+tags: [account, delete, support-delete-account]
 ---
 
 To delete a USAJOBS account, follow the steps below:

@@ -5,7 +5,7 @@ section: how-to
 title: How to change your password
 breadcrumb: Change your password
 category: account
-tags: [password, change]
+tags: [password, change, support-password]
 ---
 
 You can change your password on the [change password](https://www.usajobs.gov/Applicant/Profile/EditPassword) page.

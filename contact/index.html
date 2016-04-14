@@ -14,14 +14,14 @@ lead: Please use the form below to contact us. We will get back to you within on
   The USAJOBS Support Desk is available Monday through Friday, 7am – 8pm EST; Saturday and Sunday, 8am – 4pm EST (excluding federal holidays). USAJOBS does not provide direct phone support. The form below will allow you to send an email to the Help Desk where you can request assistance by phone or email.
 </p>
 
-<form name="example" aria-labelled-by="usajobs-form-heading-0" class="usa-form-large usajobs-form" action="/Support/" method="post" novalidate="novalidate">
+<form name="example" aria-labelled-by="usajobs-form-heading-0" class="usa-form-large usajobs-form" action="/Support/" method="post">
   <fieldset class="usajobs-form-grid" data-object="help.contact_us">
     <div class="usajobs-form-grid__col">
       <label for="SelectedContactReason">Topic</label>
       <select data-val="true" data-val-required="Contact reason is required." id="SelectedContactReason" name="SelectedContactReason" class="valid form-control" data-behavior="help.open" aria-controls="usajobs-help-context">
         <option selected="selected" value="">Please select</option>
         <optgroup label="Account">
-          <option value="13">Login/Password</option>
+          <option value="13">Sign In/Password</option>
           <option value="11">Creating an Account</option>
           <option value="12">Deleting an Account</option>
           <option value="15">Profile</option>
@@ -53,20 +53,37 @@ lead: Please use the form below to contact us. We will get back to you within on
           Please read these Help Center articles which may answer your question.
         </p>
         <ul class="usa-unstyled-list">
-          <li>
-            <a href="{{site.baseurl}}/how-to/account/password/reset/">
-              How to reset your password
-            </a>
+          {% for page in site.pages %}
+            {% if page.tags contains 'support-sign-in' %}
+          <li class="usajobs-help-topic sign-in 13" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
           </li>
-          <li>
-            <a href="{{ site.baseurl }}/how-to/account/password/change/">
-              Change your password
-            </a>
+            {% endif %}
+            {% if page.tags contains 'support-password' %}
+          <li class="usajobs-help-topic password 13" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
           </li>
+            {% endif %}
+            {% if page.tags contains 'support-create-account' %}
+          <li class="usajobs-help-topic create-account 11" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
+          </li>
+            {% endif %}
+            {% if page.tags contains 'support-delete-account' %}
+          <li class="usajobs-help-topic delete-account 12" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
+          </li>
+            {% endif %}
+            {% if page.tags contains 'support-profile' %}
+          <li class="usajobs-help-topic profile 15" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
+          </li>
+            {% endif %}
+          {% endfor %}
         </ul>
 
         <label class="labeltext" for="Comment">Question / Comment</label>
-        <textarea class="form-control" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="- Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" id="Comment" maxlength="2000" name="Comment" rows="5"></textarea>
+        <textarea class="form-control" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" id="Comment" maxlength="2000" name="Comment" rows="5"></textarea>
         <p class="usajobs-form__help-brief">
           Please do not include your Social Security Number.
         </p>
@@ -82,34 +99,24 @@ lead: Please use the form below to contact us. We will get back to you within on
 
       <!-- FirstName -->
       <label for="FirstName">First Name</label>
-      <input class="form-control" data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="">
-      <div class="has-error">
-        <span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
-      </div>
+      <input pattern="^([a-zA-Z '-]+)$" id="FirstName" maxlength="20" name="FirstName" type="text" value="" required>
 
       <!-- LastName -->
-      <label class="required-new labeltext" for="LastName">Last Name</label>
-      <input class="form-control" data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="">
-      <div class="has-error">
-        <span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
-      </div>
+      <label for="LastName">Last Name</label>
+      <input pattern="^([a-zA-Z '-]+)$" id="LastName" maxlength="30" name="LastName" type="text" value="" required>
 
       <!-- EmailAddress -->
-      <label class="required-new labeltext" for="EmailAddress">Email Address</label>
-      <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="email" value="">
-      <div class="has-error">
-        <span class="field-validation-valid" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
-      </div>
+      <label for="EmailAddress">Email Address</label>
+      <input id="EmailAddress" maxlength="128" name="EmailAddress" type="email" value="" required>
 
       <!-- PhoneNumber -->
-      <label class="labeltext" for="PhoneNumber">Phone Number <span class="usa-additional_text">Optional</span></label>
-      <input class="form-control" data-val="true" data-val-regex="- Phone number is not valid." data-val-regex-pattern="^([0-9+\-()x ]){1,30}$" id="PhoneNumber" maxlength="30" name="PhoneNumber" type="tel" value="">
+      <label class="labeltext" for="PhoneNumber">
+        Phone Number <span class="usa-additional_text">Optional</span>
+      </label>
+      <input pattern="^([0-9+\-()x ]){1,30}$" id="PhoneNumber" maxlength="30" name="PhoneNumber" type="tel" value="">
       <p class="usajobs-form__help-brief">
         Please provide your phone number, for a help desk technician to call, if additional information is needed to assist you.
       </p>
-      <div class="has-error">
-        <span class="field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
-      </div>
     </div>
   </fieldset>
   <div class="usajobs-button_bar-container">

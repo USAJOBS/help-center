@@ -5,7 +5,7 @@ section: how-to
 title: How to create an account
 breadcrumb: Account
 category: account
-tags: [account, create]
+tags: [account, support-create-account]
 ---
 
 1.  Select the **Create an Account** link located on the USAJOBS homepage.

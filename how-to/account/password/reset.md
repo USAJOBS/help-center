@@ -5,7 +5,7 @@ section: how-to
 title: How to reset your password
 breadcrumb: Reset your password
 category: account
-tags: [password, reset, tips]
+tags: [password, reset, tips, support-password]
 ---
 
 To reset your USAJOBS password, follow the steps below:

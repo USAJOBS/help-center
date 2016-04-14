@@ -5,7 +5,7 @@ section: how-to
 title: How to create a profile
 breadcrumb: Profile
 category: profile
-tags: [account, profile, create]
+tags: [account, profile, create, support-profile]
 ---
 
 A completed profile is required to apply to jobs on USAJOBS. If you are receiving a message that states:

@@ -46,21 +46,63 @@
 
   &__item {
     position: relative;
-    background-color: $color-primary-darker;
+    border-bottom: 1px solid $color-gray-lighter;
 
+    @include media($ML) {
+      border-left: 1px solid $color-gray-lighter;
+    }
+
+    &:nth-child(2n) {
+      border-left: 1px solid $color-gray-lighter;
+    }
+
+    &.no-bottom-base {
+      border-bottom: 0;
+    }
+
+    &.no-bottom-ML {
+      @include media($ML) {
+        border-bottom: 0;
+      }
+    }
+
+    &.no-left-ML {
+      @include media($ML) {
+        border-left: 0;
+      }
+    }
+  }
+
+  &__icon {
+    @include makeCircle(68px, none, $color-primary-darker);
+    display: inline-block;
+    padding-bottom: $size-default;
+    font-size: $h2-font-size;
+  }
+
+  &__icon {
     &.federal-employees,
     &.ses {
-      background-color: $color-primary-darkest;
+      @include makeCircle(68px, none, $color-primary-darkest);
     }
+
     &.veterans,
     &.military-spouses {
-      background-color: $color-secondary;
+      @include makeCircle(68px, none, $color-secondary);
     }
+
+    &.military-spouses {
+      .fa {
+        font-size: $h3-font-size;
+      }
+    }
+
     &.students {
-      background-color: $color-gray-dark;
+      @include makeCircle(68px, none, $color-gold);
     }
+
     &.individuals-with-disabilities {
-      background-color: $color-green;
+      @include makeCircle(68px, none, $color-green);
     }
   }
 
@@ -69,58 +111,18 @@
     width: 100%;
     min-height: rem(225px);
     padding: $size-M $size-default;
-    color: $color-white;
-    font-size: $h4-font-size;
-    font-weight: bold;
-    text-transform: uppercase;
+    color: $color-primary-alt-dark;
+    font-size: $h3-font-size;
     text-align: center;
-    z-index: 1;
-    opacity: 1;
-    @include transition(opacity $duration-fast ease-in-out);
 
     &:visited {
-      color: $color-white;
-    }
-
-    &:hover {
-      opacity: 0;
-      z-index: -1;
-
-      + .usajobs-unique-hiring-paths__details {
-        z-index: 100;
-        visibility: visible;
-        opacity: 1;
-      }
+      color: $color-primary-alt-dark;
     }
   }
 
-  &__icon {
-    display: inline-block;
-    width: 100%;
-    min-height: rem(81px);
-    padding-bottom: $size-default;
-    font-size: $h1-font-size;
-  }
-
-  &__details {
+  &__text {
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    visibility: hidden;
-    opacity: 0;
-    padding: $size-default $size-M;
-    text-transform: inherit;
-    color: $color-white;
-    z-index: -1;
-    @include transition(opacity $duration-fast ease-in-out);
-
-    .learn-more,
-    .learn-more:visited {
-      color: $color-primary;
-    }
+    width: 100%;
+    padding-top: $size-S;
   }
-
 }

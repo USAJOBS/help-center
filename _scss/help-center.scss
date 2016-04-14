@@ -25,6 +25,7 @@
   &__link-list {
     @include unstyledList();
     margin-bottom: 0;
+    padding-bottom: $size-M;
 
     a {
       display: block;
@@ -86,10 +87,11 @@
   }
 
   &__section {
+    position: relative;
     @include flex(0 0 auto);
     width: 100%;
     margin-bottom: $size-default;
-    padding: $size-M $size-default $size-base;
+    padding: $size-M $size-default;
     background-color: $color-white;
     border: 1px solid $color-gray-lighter;
   }
@@ -184,7 +186,15 @@
 
   &__section-link {
     display: block;
+    position: absolute;
+    left: $size-default;
+    right: $size-default;
+    bottom: $size-base;
     padding: $size-S 0;
+  }
+
+  &__desc {
+    min-height: rem(75px);
   }
 }
 
