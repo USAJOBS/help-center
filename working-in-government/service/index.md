@@ -14,11 +14,12 @@ The Federal Government consists of three types of services, the Competitive Serv
 
 Competitive Service positions are positions subject to the civil service laws passed by Congress to ensure that applicants and employees receive fair and equal treatment in the hiring process.
 
-In the competitive service, individuals must go through a competitive hiring process (i.e., competitive examining) before being appointed which is open to all applicants. This process may consist of a written test, an evaluation of the individual's education and experience, and/or an evaluation of other attributes necessary for successful performance in the position to be filled.
+In the competitive service, individuals must go through a competitive hiring process (i.e., competitive examining) before being appointed which is open to all applicants. This process may consist of a written test, an evaluation of the individual’s education and experience, and/or an evaluation of other attributes necessary for successful performance in the position to be filled.
+
 
 ## Excepted Service
 
-Excepted Service Positions are any federal or civil service positions which are not in the competitive service or the Senior Executive service. Excepted service agencies set their own qualification requirements and are not subject to the appointment, pay, and classification rules in title 5, United States Code. However, they are subject to [veterans' preference](../unique-hiring-paths/veterans/preference/).
+Excepted Service positions are any federal or civil service positions which are not in the competitive service or the Senior Executive service. Excepted service agencies set their own qualification requirements and are not subject to the appointment, pay, and classification rules in title 5, United States Code. However, they are subject to [veterans' preference](../unique-hiring-paths/veterans/preference/).
 
 There are a number of ways to be appointed into the excepted service such as appointed under an authority defined by the U.S. Office of Personnel Management (OPM) as excepted (e.g., Veterans Recruitment Appointment) or being appointed to a position defined by OPM as excepted (e.g., Attorneys). More information can be found about excepted service in 5 U.S.C. 2103 and parts 213 and 302 of title 5 of the Code of Federal Regulations.
 
@@ -26,7 +27,7 @@ There are a number of ways to be appointed into the excepted service such as app
 
 The Senior Executive Service (SES) is the corps of executives, selected for their leadership qualifications, and charged with leading the continuing transformation of government. These leaders possess well-honed executive skills and share a broad perspective of government and a public service commitment which is grounded in the Constitution. As the leaders of our Federal civilian workforce, Senior Executives strive each day to create a more citizen centered, result oriented Federal Government.
 
-## Appointing authorities
+## Special appointing authorities
 
 Special non-competitive appointing authorities are established by law or Executive Order. Agencies may use a variety of appointing authorities to hire job applicants. Examples of appointing authorities:
 
@@ -34,7 +35,7 @@ Special non-competitive appointing authorities are established by law or Executi
 * [Disabled Appointing Authority](https://www.opm.gov/policy-data-oversight/disability-employment/)
 * [30% Disabled Veterans Appointing Authority](https://www.opm.gov/policy-data-oversight/hiring-authorities#)
 
-Veterans, individuals with disabilities, many current and former Federal employees, and returning Peace Corps volunteers are all examples of individuals eligible for [non-competitive appointment](../appointments/).
+Veterans, individuals with disabilities, many current and former federal employees, and returning Peace Corps volunteers are all examples of individuals eligible for [non-competitive appointment](../appointments/).
 
 ## Additional Resources
 
