@@ -8,7 +8,7 @@ category: Unique Hiring Paths
 tags: [disabilities, disabled, veterans]
 ---
 
-The Federal Government is actively recruiting and hiring persons with disabilities. If you are a person with a disability, you may be eligible to apply for jobs and get hired without competing for the job or going through the full application process. This is sometimes called a [non-competitive appointment](http://usajobs.github.io/help-center//working-in-government/appointments/).
+The Federal Government is actively recruiting and hiring persons with disabilities. If you are a person with a disability, you may be eligible to apply for jobs and get hired without competing for the job or going through the full application process. This is sometimes called a [non-competitive appointment](../../appointments/).
 
 ## Eligibility
 Federal agencies can use the following hiring authorities to hire persons with disabilities:
