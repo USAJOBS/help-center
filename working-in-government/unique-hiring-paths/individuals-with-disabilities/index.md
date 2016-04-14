@@ -8,7 +8,7 @@ category: Unique Hiring Paths
 tags: [disabilities, disabled, veterans]
 ---
 
-The Federal Government is actively recruiting and hiring persons with disabilities. If you are a person with a disability, you may be eligible to apply for jobs and get hired without competing for the job or going through the full application process. This is sometimes called a [non-competitive appointment](../../appointments/).
+The Federal Government is actively recruiting and hiring persons with disabilities. If you're a person with a disability, you may be eligible to apply for jobs and get hired without competing for the job or going through the full application process. This is sometimes called a [non-competitive appointment](../../appointments/).
 
 ## Eligibility
 Federal agencies can use the following hiring authorities to hire persons with disabilities:
@@ -19,7 +19,7 @@ Federal agencies can use the following hiring authorities to hire persons with d
 
 ### Schedule A Hiring Authority
 
-Schedule A (5 CFR 213.3102(u)) allows agencies to hire individuals with intellectual, severe physical or psychiatric disabilities. There’s also an exception (5 CFR 213.3102(11)) for hiring readers, interpreters, and personal assistants for employees with severe disabilities. 
+Schedule A (5 CFR 213.3102(u)) allows agencies to hire individuals with intellectual, severe physical or psychiatric disabilities. There is also an exception (5 CFR 213.3102(11)) for hiring readers, interpreters, and personal assistants for employees with severe disabilities. 
 
 ### Eligibility for Schedule A
 To be eligible for Schedule A, you must provide a "proof of a disability" letter stating that you have an intellectual disability, severe physical disability or psychiatric disability. You can get this letter from your doctor, a licensed medical professional, a licensed vocational rehabilitation specialist, or any federal, state, or local agency that issues or provides disability benefits.
