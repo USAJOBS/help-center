@@ -8,9 +8,9 @@ category: Unique Hiring Paths
 tags: [ses, senior, executives]
 ---
 
-The Senior Executive Service (SES) is a special hiring path for executive positions, including managerial, supervisory, and policy positions classified above General Schedule (GS) grade 15 or equivalent positions in the Executive Branch of the Federal Government.
+The Senior Executive Service (SES) is a special hiring option for executive positions, including managerial, supervisory, and policy positions classified above General Schedule (GS) grade 15 or equivalent positions in the Executive Branch of the Federal Government.
 
-Candidates in these positions are selected for their leadership qualifications. They have exceptional managerial and people skills, can motivate their employees, know how to build partnerships and communicate with customers. They are committed to public service and share a broad perspective of government, which is grounded in the Constitution. As the leaders of our federal civilian workforce, they strive each day to create a more citizen centered, result oriented federal government.
+Candidates in these positions are selected for their leadership qualifications. They have exceptional managerial and people skills and know how to build partnerships and communicate with customers. They are committed to public service and share a broad perspective of government, which is grounded in the Constitution. 
 
 ## Eligibility
 
@@ -35,7 +35,7 @@ There are two ways you can apply for a senior executive service position:
 1.  Apply directly to a federal agency for a specific SES position
 2.  Apply for an SES Candidate Development Program (SESCDP)
 
-This program helps identify and prepare aspiring senior executive leaders and upon completion, you may be eligible for a career appointment to a senior executive service position without competing with the public.
+This program helps identify and prepare aspiring senior executive leaders. Once you finish the program, you may be eligible for a career appointment to a senior executive service position without competing with the public.
 
 ## Additional Resources
 
