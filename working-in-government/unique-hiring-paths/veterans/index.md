@@ -29,10 +29,10 @@ When claiming veterans’ preference, you must provide a copy of your DD-214, Ce
 
 ### Veteran's Recruitment Appointment and Other Hiring Options
 If you’re a veteran, you may also be eligible for one of these special hiring authorities:
-* [Veterans Recruitment Appointment (VRA)](http://usajobs.github.io/help-center//working-in-government/unique-hiring-paths/veterans/vra/)
-* [Veterans Employment Opportunity Act of 1998 (VEOA)](http://usajobs.github.io/help-center//working-in-government/unique-hiring-paths/veterans/veoa/) 
-* [30% or More Disabled Veteran](http://usajobs.github.io/help-center//working-in-government/unique-hiring-paths/veterans/disabled/)
-* [Disabled Veterans Enrolled in a VA Training Program](http://usajobs.github.io/help-center//working-in-government/unique-hiring-paths/veterans/disabled/)
+* [Veterans Recruitment Appointment (VRA)](vra/)
+* [Veterans Employment Opportunity Act of 1998 (VEOA)](veoa/) 
+* [30% or More Disabled Veteran](disabled/)
+* [Disabled Veterans Enrolled in a VA Training Program](disabled/)
 
 
 ## Dedicated Veterans Website
