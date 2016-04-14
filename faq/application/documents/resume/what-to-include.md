@@ -5,7 +5,7 @@ section: faq
 title: What should I include in my resume?
 breadcrumb: What to include
 category: Resume
-tags: [application, resume]
+tags: [application, resume, support-resume]
 ---
 
 ## Most Effective Resumes

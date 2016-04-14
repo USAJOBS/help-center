@@ -5,7 +5,7 @@ section: how-to
 title: How to print a resume
 breadcrumb: Print
 category: resume
-tags: [account, documents, resume, print]
+tags: [account, documents, resume, print, support-resume]
 ---
 
 To print your resume:

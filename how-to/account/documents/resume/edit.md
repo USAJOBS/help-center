@@ -5,7 +5,7 @@ section: how-to
 title: How to edit a resume
 breadcrumb: Edit
 category: resume
-tags: [documents, resume, edit]
+tags: [documents, resume, edit, support-resume]
 ---
 
 ## Built resumes

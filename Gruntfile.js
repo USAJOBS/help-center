@@ -137,6 +137,7 @@ module.exports = function(grunt) {
         files: [
           'js/*.js',
           '!js/vendor/*.js',
+          '!js/usajobs-help-center.js',
           '!js/usajobs-design-system-base.js',
           '!js/usajobs-design-system-components.js',
           '!js/usajobs-design-system-documentation.js'

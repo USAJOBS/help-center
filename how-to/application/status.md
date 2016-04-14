@@ -5,7 +5,7 @@ title: How to check on the status of an application
 breadcrumb: Application status
 category: Application
 section: how-to
-tags: [application, status, tips]
+tags: [application, status, tips, support-application-status]
 ---
 
 The Application Status page documents your job application history.

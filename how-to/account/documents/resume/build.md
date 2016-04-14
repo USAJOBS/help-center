@@ -5,7 +5,7 @@ section: how-to
 title: How to build a resume
 breadcrumb: Build
 category: resume
-tags: [account, documents, resume, build]
+tags: [account, documents, resume, build, support-resume]
 ---
 
 To build a resume in USAJOBS:

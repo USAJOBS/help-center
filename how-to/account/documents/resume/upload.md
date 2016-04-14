@@ -5,7 +5,7 @@ section: how-to
 title: How to upload a resume
 breadcrumb: Upload
 category: resume
-tags: [account, documents, resume, upload]
+tags: [account, documents, resume, upload, support-resume]
 ---
 
 1. Log into your USAJOBS My Account.

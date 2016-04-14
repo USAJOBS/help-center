@@ -5,7 +5,7 @@ section: how-to
 title: How to fax documents
 breadcrumb: Fax
 category: documents
-tags: [documents, required, forms]
+tags: [documents, required, forms, support-documents]
 ---
 
 The **How to Apply** section of the job announcement will provide instructions for faxing documents, if it is an accepted method for submitting items for that job announcement.

@@ -5,7 +5,7 @@ section: faq
 title: What should I leave out of my resume?
 breadcrumb: What to leave out
 category: Resume
-tags: [application, resume]
+tags: [application, resume, support-resume]
 ---
 
 Do not include the following types of information in your profile or resume:

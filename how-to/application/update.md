@@ -5,7 +5,7 @@ section: how-to
 title: How to update an application
 breadcrumb: Update
 category: Application
-tags: [application, update, apply ]
+tags: [application, update, apply, support-application-update]
 ---
 
 1.  Log into your USAJOBS My Account.

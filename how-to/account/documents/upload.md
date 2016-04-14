@@ -5,7 +5,7 @@ section: how-to
 title: How to upload documents
 breadcrumb: Upload
 category: documents
-tags: [account, documents, upload]
+tags: [account, documents, upload, support-documents]
 ---
 
 Whether an agency accepts uploaded documents is specified in the How to Apply section in the job announcement. USAJOBS provides the ability to save up to ten additional documents along with your resumes. Such documents may include transcripts, a DD-214, SF-15, SF-50, OF-306, or other types of documents requested in job announcements.

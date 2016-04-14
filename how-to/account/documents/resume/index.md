@@ -5,7 +5,7 @@ section: how-to
 title: How to create a resume
 breadcrumb: Resume
 category: resume
-tags: [documents, resume, create]
+tags: [documents, resume, create, support-resume]
 ---
 
 Creating a resume can be done in several ways:

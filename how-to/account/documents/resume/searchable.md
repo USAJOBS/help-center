@@ -5,7 +5,7 @@ section: how-to
 title: How to make a resume searchable
 breadcrumb: Searchable
 category: resume
-tags: [account, documents, resume, mining, searchable]
+tags: [account, documents, resume, mining, searchable, support-resume]
 ---
 
 To make your resume searchable:

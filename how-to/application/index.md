@@ -5,7 +5,7 @@ section: how-to
 title: How to create an application
 breadcrumb: Apply
 category: Application
-tags: [application, create, submit, apply ]
+tags: [application, create, submit, apply, support-application-create]
 ---
 
 To create an application on USAJOBS:
