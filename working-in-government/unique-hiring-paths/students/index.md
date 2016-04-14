@@ -43,4 +43,4 @@ This program is for recent graduates with an advanced degree—either a professi
 ## Additional Resources
 
 * [Federal occupations by college major](federal-occupations-by-college-major/)
-* [Pathways](https://www.usajobs.gov/StudentsAndGrads "usajobs.gov")
+* [Pathways Program](http://www.opm.gov/HiringReform/Pathways/)
