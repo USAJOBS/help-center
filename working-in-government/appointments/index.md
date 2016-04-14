@@ -18,19 +18,21 @@ Permanent employees are generally hired under a career-conditional appointment (
 
 ### Career appointment
 
-A career appointment begins once an employee has completed 3 years of substantially continuous creditable service. The 3-year period generally begins and ends with non-temporary employment in the [competitive service](../../../service/).
+A career appointment begins once an employee has completed three years of permanent substantially continuous creditable service in the [competitive service](../../../service/).
 
 ### Non-temporary appointment
 
-You may hear or read the term "non-temporary appointment". This is an appointment that does not have a specific "not-to-exceed" date associated with it. In other words, it is not a temporary appointment.
+A non-temporary appointment does not have a specific “not-to-exceed” date associated with it. In other words, it is not a temporary appointment.
 
-### Non-competitive assignment
+### Non-competitive appointment
 
-You may hear or read the term "non-competitive" assignment or appointment. Under certain hiring authorities, which are established by law or Executive Order, a hiring manager may hire candidates directly without having to go through the full application process. Job announcements specify whether a position is competitive or non-competitive under the “Who May Apply” title.
+Under certain hiring authorities, which are established by law or Executive Order, a hiring manager may hire candidates directly without having to go through the full application process. Job announcements specify whether a position is competitive or non-competitive under the “Who May Apply” section.
 
 ## Temporary appointments
 
-Temporary appointments are defined as appointments expected to last for a specified period not to exceed 1 year (Temporary Appointment - Time limited not to exceed 1 year but could be less) or a specified period of time that is at least more than 1-year but not to exceed 4 years (Term Appointment - Time limited more than one year but not more than 4 years).
+There are many types of temporary appointments, but the two most common are temporary and term appointments. These appointments are expected to last for a stated specified period with a not-to-exceed date. 
+* Temporary Appointment: Time limited not to exceed one year but could be less.
+* Term Appointments: Time limited for at least one year but not to exceed four years. 
 
 Neither type of appointment is a permanent one, so they do **not** give the employee [competitive/permanent status](../../../service/).
 
