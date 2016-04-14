@@ -8,7 +8,7 @@ category: working-in-government
 tags: [federal employees, oversears, disabilities, military spouse, peace corps, americorops, ses, students, veterans]
 ---
 
-The federal government offers several unique hiring paths for individuals who may fall under one of the following groups of people, including:
+[Hiring authorities](https://www.opm.gov/policy-data-oversight/hiring-authorities/) are a way for the Federal Government to hire individuals who may fall under one of the following groups of people, including: 
 
 * [Federal employees](federal-employees/)
 * [Former overseas employees](former-overseas-employees/)
@@ -19,7 +19,10 @@ The federal government offers several unique hiring paths for individuals who ma
 * [Students & recent graduates](students/)
 * [Veterans](veterans/)
 
-These unique hiring paths, established by law or executive order, help the federal government to hire and obtain the best talent available.
+If you fall under one of these groups, you may be eligible to apply for certain jobs or receive preference through a hiring authority.  For example, if you’re a veteran, you may be eligible for hiring authorities specific to veterans.
+
+Hiring authorities are policies established by law or executive order, so there are exceptions to the rules.  [Get all the details for each hiring authority](https://www.opm.gov/policy-data-oversight/hiring-authorities/) at opm.gov.
+
 
 ## Additional Resources
 
