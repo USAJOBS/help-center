@@ -8,7 +8,7 @@ category: federal-employees
 tags: [ctap, merit-promotion, status, eligibility, federal employees]
 ---
 
-The Career Transition Assistance Program (CTAP) is designed to improve your chances of finding a new job in your agency through selection priority. Each agency has a specific CTAP containing more detailed information about the agency's transition policies. Your human resources office should be able to explain the specifics for your agency.
+The Career Transition Assistance Program (CTAP) is an intra-agency program designed to afford selection priority to qualified federal employees who meet the definition of a “surplus” or “displaced” employee. The program helps agency employees improve their chances of finding a new job in their agency through selection priority after receiving official notification that your position is no longer needed or that you will be separated by Reduction-in-Force (RIF). Each agency has a specific CTAP containing more detailed information about the agency’s transition policies. Your human resources office should be able to explain the specifics for your agency.
 
 ## Additional Resources
 
