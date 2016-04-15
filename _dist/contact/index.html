@@ -157,7 +157,7 @@
   The USAJOBS Support Desk is available Monday through Friday, 7am – 8pm EST; Saturday and Sunday, 8am – 4pm EST (excluding federal holidays). USAJOBS does not provide direct phone support. The form below will allow you to send an email to the Help Desk where you can request assistance by phone or email.
 </p>
 
-<form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form" action="/Help/Support/" method="post">
+<form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form" action="/Help/Support/" method="post" novalidate="novalidate">
   <fieldset class="usajobs-form-grid" data-object="help.contact_us">
     <legend id="usajobs-help-center-contact-us__legend">
       Select a support topic
@@ -2510,6 +2510,46 @@
       <p class="usajobs-form__help-brief">
         Please provide your phone number, for a help desk technician to call, if additional information is needed to assist you.
       </p>
+
+      <div id="contactOptionalData" class="usajobs-help-center-contact-us__optional-fields" aria-hidden="true">
+        <div class="required-input">
+          <!-- Username -->
+          <label for="UserName" id="UsernameLabel">Username</label>
+          <span class="field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true"></span>
+          <input data-val="true" data-val-requiredif="Username is required." data-val-requiredif-comp="isequalto" data-val-requiredif-other="SelectedContactReasonText" data-val-requiredif-value="login/password" id="UserName" maxlength="20" name="UserName" type="text" value="">
+        </div>
+        <div class="required-input">
+          <!-- Address -->
+          <label for="Address" id="AddressLabel">Address</label>
+          <span class="field-validation-valid" data-valmsg-for="Address" data-valmsg-replace="true"></span>
+          <input data-val="true" data-val-requiredif="Address is required." data-val-requiredif-comp="isequalto" data-val-requiredif-other="SelectedContactReasonText" data-val-requiredif-value="login/password" id="Address" maxlength="100" name="Address" type="text" value="">
+          <p class="usajobs-form__help-brief">
+            Full home or mailing address including city/state.
+          </p>
+        </div>
+        <div class="optional-input">
+          <!-- OtherEmailAddress -->
+          <label for="OtherEmailAddresses" id="OtherEmailAddressesLabel">
+            Other Email Addresses <span class="usa-additional_text">Optional</span>
+          </label>
+          <span class="field-validation-valid" data-valmsg-for="OtherEmailAddresses" data-valmsg-replace="true"></span>
+          <input class="form-control" id="OtherEmailAddresses" maxlength="200" name="OtherEmailAddresses" type="text" value="">
+          <p class="usajobs-form__help-brief">
+            Other email addresses you may have used in your account (separate multiple email addresses with a space)
+          </p>
+        </div>
+        <div class="optional-input">
+          <!-- OtherPhoneNumbers -->
+          <label class="labeltext" for="OtherPhoneNumbers">
+            Other Phone Numbers <span class="usa-additional_text">Optional</span>
+          </label>
+          <span class="field-validation-valid" data-valmsg-for="OtherPhoneNumbers" data-valmsg-replace="true"></span>
+          <input class="form-control" id="OtherPhoneNumbers" maxlength="100" name="OtherPhoneNumbers" type="text" value="">
+          <p class="usajobs-form__help-brief">
+            Any additional phone numbers you may have used in your account (separate multiple phone numbers with a space)
+          </p>
+        </div>
+      </div>
     </div>
   </fieldset>
   <div class="usajobs-button_bar-container">

@@ -27,6 +27,11 @@ $help.on('help.open', function(event, opts) {
   $all_topics.attr('aria-hidden', 'true');
   $target_topics.attr('aria-hidden', 'false');
 
+  // Show optional fields for login/password
+  if (opts.selected_id === '13') {
+    opts.object.find('#contactOptionalData').attr('aria-hidden', 'false');
+  }
+
   // Enabled the send button
   $send_button.removeAttr('disabled');
 });
