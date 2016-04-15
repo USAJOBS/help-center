@@ -13,7 +13,7 @@ tags: [federal employees, oversears, disabilities, military spouse, peace corps,
 * [Federal employees](federal-employees/)
 * [Former overseas employees](former-overseas-employees/)
 * [Individuals with disabilities](individuals-with-disabilities/)
-* [Military Spouses](military-spouses/)
+* [Military spouses](military-spouses/)
 * [Peace Corps & AmeriCorps VISTA alumni](peace-corps/)
 * [Senior Executives](senior-executives/)
 * [Students & recent graduates](students/)
