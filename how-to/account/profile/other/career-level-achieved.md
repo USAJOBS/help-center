@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/account/profile/other/career-level-achieved/
 layout: article
+section: how-to
 title: How to supply your highest career level achieved
+breadcrumb: Highest career level achieved
 category: Profile
 tags: [account, profile, career level]
 ---

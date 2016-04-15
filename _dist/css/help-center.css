@@ -963,4 +963,8 @@ html {
 .usajobs-help-center-search__result:visited {
   color: #0071bc;
 }
+
+.usajobs-help-center-contact-us__legend {
+  width: 100%;
+}
 /*# sourceMappingURL=help-center.css.map */

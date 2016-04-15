@@ -1,9 +1,11 @@
 ---
 permalink: /how-to/account/profile/contact/phone-number/
 layout: article
+section: how-to
 title: How to supply your phone number
+breadcrumb: Phone number
 category: Profile
-tags: [account, profile, contact]
+tags: [account, profile, contact, phone number]
 ---
 
 A valid phone number is a real working telephone number. This is normally what is meant when a website asks you to enter a valid phone number or if you are asked to give a valid phone number on a form. A valid phone number is a number that connects to a working telephone line.

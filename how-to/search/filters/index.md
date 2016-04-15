@@ -16,7 +16,7 @@ On the search results page you can filter your results using the following crite
 * [Location](location/)
 * [Pay Grade](pay-grade/)
 * [Posting date](posting-date/)
-* [Profile - Eligibility](profile/)
 * [Salary](salary)
+* [Who may apply](who-may-apply/)
 * [Work schedule](work-schedule)
 * [Work types](work-type/)

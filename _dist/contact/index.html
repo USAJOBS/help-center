@@ -34,29 +34,29 @@
 <!-- Favicons
 ================================================== -->
   <!-- 128x128 -->
-  <link rel="shortcut icon" type="image/ico" href="../img/favicons/favicon.ico" />
-  <link rel="icon" type="image/png" href="../img/favicons/favicon.png" />
+  <link rel="shortcut icon" type="image/ico" href="/img/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="/img/favicons/favicon.png" />
 
   <!-- 192x192, as recommended for Android
   http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
   -->
-  <link rel="icon" type="image/png" sizes="192x192" href="../img/favicons/favicon-192.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/favicons/favicon-192.png" />
 
   <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-  <link rel="apple-touch-icon-precomposed" href="../img/favicons/favicon-57.png">
+  <link rel="apple-touch-icon-precomposed" href="/img/favicons/favicon-57.png">
   <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/favicons/favicon-72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicons/favicon-72.png">
   <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/favicons/favicon-114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicons/favicon-114.png">
   <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/favicons/favicon-144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicons/favicon-144.png">
 
 
 <!-- CSS
 ================================================== -->
-  <link rel="stylesheet" href="../css/vendor/font-awesome.min.css">
-  <link rel="stylesheet" href="../css/usajobs-design-system-base--help-center.css">
-  <link rel="stylesheet" href="../css/help-center.css">
+  <link rel="stylesheet" href="/css/vendor/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/usajobs-design-system-base--help-center.css">
+  <link rel="stylesheet" href="/css/help-center.css">
 
   </head>
   <body>
@@ -151,15 +151,18 @@
             <main class="usajobs-content-well--full_width" id="main-content" role="main">
               <h1 id="usajobs-form-heading-0" class="usajobs-form__title">
   Contact Us
-  <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
 </h1>
 <h2 class="usajobs-help-center__lead">Please use the form below to contact us. We will get back to you within one business day. Your interest and patience are appreciated.</h2>
 <p>
   The USAJOBS Support Desk is available Monday through Friday, 7am – 8pm EST; Saturday and Sunday, 8am – 4pm EST (excluding federal holidays). USAJOBS does not provide direct phone support. The form below will allow you to send an email to the Help Desk where you can request assistance by phone or email.
 </p>
 
-<form name="example" aria-labelled-by="usajobs-form-heading-0" class="usa-form-large usajobs-form" action="/Support/" method="post">
+<form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form" action="/Help/Support/" method="post">
   <fieldset class="usajobs-form-grid" data-object="help.contact_us">
+    <legend id="usajobs-help-center-contact-us__legend">
+      Select a support topic
+      <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+    </legend>
     <div class="usajobs-form-grid__col">
       <label for="SelectedContactReason">Topic</label>
       <select data-val="true" data-val-required="Contact reason is required." id="SelectedContactReason" name="SelectedContactReason" class="valid form-control" data-behavior="help.open" aria-controls="usajobs-help-context">
@@ -208,22 +211,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -241,6 +228,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -248,7 +241,41 @@
             
             
             
-          <li class="usajobs-help-topic profile 14" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic resume 14" aria-hidden="true">
             <a href="/how-to/account/documents/resume/build/">How to build a resume</a>
           </li>
             
@@ -256,6 +283,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -267,7 +300,19 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
+            
+            
+            
+            
+            
+            
             
             
             
@@ -293,6 +338,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -302,12 +353,18 @@
             
             
             
-          <li class="usajobs-help-topic profile 19" aria-hidden="true">
+          <li class="usajobs-help-topic application-status 19" aria-hidden="true">
             <a href="/how-to/application/agency/contact/">How to contact an agency</a>
           </li>
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -319,7 +376,19 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
+            
+            
+            
+            
+            
+            
             
             
             
@@ -345,22 +414,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -378,6 +431,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -385,7 +444,41 @@
             
             
             
-          <li class="usajobs-help-topic profile 14" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic resume 14" aria-hidden="true">
             <a href="/how-to/account/documents/resume/edit/">How to edit a resume</a>
           </li>
             
@@ -393,22 +486,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -422,11 +499,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -448,6 +520,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -456,29 +534,64 @@
             
             
             
-          <li class="usajobs-help-topic profile 16" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic documents 16" aria-hidden="true">
             <a href="/how-to/account/documents/fax/">How to fax documents</a>
           </li>
             
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -492,11 +605,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -518,22 +626,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -547,11 +639,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -573,22 +660,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -602,7 +673,160 @@
             
             
             
-          <li class="usajobs-help-topic profile 14" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic resume 14" aria-hidden="true">
             <a href="/how-to/account/documents/resume/">How to create a resume</a>
           </li>
             
@@ -610,22 +834,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -639,11 +847,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -665,22 +868,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -694,11 +881,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -720,6 +902,33 @@
             
             
             
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic save-job 21" aria-hidden="true">
+            <a href="/working-in-government/unique-hiring-paths/students/">Students & recent graduates</a>
+          </li>
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
           
             
             
@@ -731,6 +940,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -742,7 +957,104 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
             
             
             
@@ -768,7 +1080,19 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
+            
+            
+            
+            
+            
+            
             
             
             
@@ -794,22 +1118,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -823,11 +1131,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -848,8 +1151,366 @@
             
             
             
-          <li class="usajobs-help-topic profile 17" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic application-create 17" aria-hidden="true">
             <a href="/how-to/application/">How to create an application</a>
+          </li>
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic search-advanced 7" aria-hidden="true">
+            <a href="/how-to/search/advanced/">How to search (Advanced)</a>
+          </li>
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic search-basic 6" aria-hidden="true">
+            <a href="/how-to/search/">How to search</a>
+          </li>
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic save-job 10" aria-hidden="true">
+            <a href="/how-to/search/save/job/">How to save a job</a>
           </li>
             
             
@@ -864,22 +1525,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -893,11 +1538,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -919,22 +1559,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -948,11 +1572,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -974,22 +1593,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1003,11 +1606,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -1029,22 +1627,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1058,11 +1640,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -1084,22 +1661,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1113,11 +1674,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -1139,22 +1695,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1168,11 +1708,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -1194,22 +1729,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1223,7 +1742,75 @@
             
             
             
-          <li class="usajobs-help-topic profile 14" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic resume 14" aria-hidden="true">
             <a href="/how-to/account/documents/resume/print/">How to print a resume</a>
           </li>
             
@@ -1231,22 +1818,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1260,11 +1831,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -1286,7 +1852,70 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
             
             
             
@@ -1312,22 +1941,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1345,6 +1958,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -1352,7 +1971,45 @@
             
             
             
-          <li class="usajobs-help-topic profile 14" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic search-save 9" aria-hidden="true">
+            <a href="/how-to/application/save/">How to save an application</a>
+          </li>
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic resume 14" aria-hidden="true">
             <a href="/how-to/account/documents/resume/searchable/">How to make a resume searchable</a>
           </li>
             
@@ -1360,22 +2017,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1389,11 +2030,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -1413,28 +2049,63 @@
             
             
             
-          <li class="usajobs-help-topic profile 19" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic application-status 19" aria-hidden="true">
             <a href="/how-to/application/status/">How to check on the status of an application</a>
           </li>
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1448,11 +2119,6 @@
             
             
             
-            
-            
-            
-            
-          
             
             
             
@@ -1474,6 +2140,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -1485,10 +2157,67 @@
             
             
             
-          <li class="usajobs-help-topic profile 18" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic application-update 18" aria-hidden="true">
             <a href="/how-to/application/update/">How to update an application</a>
           </li>
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -1497,13 +2226,19 @@
             
             
             
-          <li class="usajobs-help-topic profile 16" aria-hidden="true">
+          <li class="usajobs-help-topic documents 16" aria-hidden="true">
             <a href="/how-to/account/documents/upload/">How to upload documents</a>
           </li>
             
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -1511,7 +2246,7 @@
             
             
             
-          <li class="usajobs-help-topic profile 14" aria-hidden="true">
+          <li class="usajobs-help-topic resume 14" aria-hidden="true">
             <a href="/how-to/account/documents/resume/upload/">How to upload a resume</a>
           </li>
             
@@ -1519,22 +2254,6 @@
             
             
             
-          
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-          
-            
-            
-            
-            
             
             
             
@@ -1552,6 +2271,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -1563,6 +2288,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -1570,7 +2301,58 @@
             
             
             
-          <li class="usajobs-help-topic profile 14" aria-hidden="true">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+          <li class="usajobs-help-topic resume 14" aria-hidden="true">
             <a href="/faq/application/documents/resume/what-to-include/">What should I include in my resume?</a>
           </li>
             
@@ -1578,6 +2360,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -1585,7 +2373,7 @@
             
             
             
-          <li class="usajobs-help-topic profile 14" aria-hidden="true">
+          <li class="usajobs-help-topic resume 14" aria-hidden="true">
             <a href="/faq/application/documents/resume/what-to-leave-out/">What should I leave out of my resume?</a>
           </li>
             
@@ -1593,6 +2381,29 @@
             
             
             
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
           
             
             
@@ -1604,6 +2415,12 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
             
             
@@ -1615,7 +2432,36 @@
             
             
             
+            
+            
+            
+            
+            
+            
           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          
+            
+            
+            
+            
+            
+            
             
             
             
@@ -1810,7 +2656,7 @@
 <script id="search-results-template" type="text/mustache">
   {{#entries}}
     <article>
-      <a class="usajobs-help-center-search__result" href="..{{ url }}">
+      <a class="usajobs-help-center-search__result" href="{{ site.basurl }}{{ url }}">
         {{title}}
       </a>
     </article>
@@ -1821,7 +2667,7 @@
 <script type="text/javascript">
   $(function() {
     $('#search-query').lunrSearch({
-      indexUrl: '../js/index.json',   // Url for the .json file containing search index data
+      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
       results : '#search-results',  // selector for containing search results element
       entries : '.entries',         // selector for search entries containing element (contained within results above)
       template: '#search-results-template'  // selector for Mustache.js template

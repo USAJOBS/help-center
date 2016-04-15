@@ -7,15 +7,18 @@ lead: Please use the form below to contact us. We will get back to you within on
 
 <h1 id="usajobs-form-heading-0" class="usajobs-form__title">
   {{ page.title }}
-  <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
 </h1>
 <h2 class="usajobs-help-center__lead">{{ page.lead }}</h2>
 <p>
   The USAJOBS Support Desk is available Monday through Friday, 7am – 8pm EST; Saturday and Sunday, 8am – 4pm EST (excluding federal holidays). USAJOBS does not provide direct phone support. The form below will allow you to send an email to the Help Desk where you can request assistance by phone or email.
 </p>
 
-<form name="example" aria-labelled-by="usajobs-form-heading-0" class="usa-form-large usajobs-form" action="/Support/" method="post">
+<form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form" action="/Help/Support/" method="post">
   <fieldset class="usajobs-form-grid" data-object="help.contact_us">
+    <legend id="usajobs-help-center-contact-us__legend">
+      Select a support topic
+      <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+    </legend>
     <div class="usajobs-form-grid__col">
       <label for="SelectedContactReason">Topic</label>
       <select data-val="true" data-val-required="Contact reason is required." id="SelectedContactReason" name="SelectedContactReason" class="valid form-control" data-behavior="help.open" aria-controls="usajobs-help-context">
@@ -80,27 +83,57 @@ lead: Please use the form below to contact us. We will get back to you within on
           </li>
             {% endif %}
             {% if page.tags contains 'support-resume' %}
-          <li class="usajobs-help-topic profile 14" aria-hidden="true">
+          <li class="usajobs-help-topic resume 14" aria-hidden="true">
             <a href="{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-documents' %}
-          <li class="usajobs-help-topic profile 16" aria-hidden="true">
+          <li class="usajobs-help-topic documents 16" aria-hidden="true">
             <a href="{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-application-status' %}
-          <li class="usajobs-help-topic profile 19" aria-hidden="true">
+          <li class="usajobs-help-topic application-status 19" aria-hidden="true">
             <a href="{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-application-create' %}
-          <li class="usajobs-help-topic profile 17" aria-hidden="true">
+          <li class="usajobs-help-topic application-create 17" aria-hidden="true">
             <a href="{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-application-update' %}
-          <li class="usajobs-help-topic profile 18" aria-hidden="true">
+          <li class="usajobs-help-topic application-update 18" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
+          </li>
+            {% endif %}
+            {% if page.tags contains 'support-search-basic' %}
+          <li class="usajobs-help-topic search-basic 6" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
+          </li>
+            {% endif %}
+            {% if page.tags contains 'support-search-advanced' %}
+          <li class="usajobs-help-topic search-advanced 7" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
+          </li>
+            {% endif %}
+            {% if page.tags contains 'support-search-results ' %}
+          <li class="usajobs-help-topic search-results 8" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
+          </li>
+            {% endif %}
+            {% if page.tags contains 'support-search-save' %}
+          <li class="usajobs-help-topic search-save 9" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
+          </li>
+            {% endif %}
+            {% if page.tags contains 'support-save-job' %}
+          <li class="usajobs-help-topic save-job 10" aria-hidden="true">
+            <a href="{{page.url}}">{{page.title}}</a>
+          </li>
+            {% endif %}
+            {% if page.tags contains 'support-students' %}
+          <li class="usajobs-help-topic save-job 21" aria-hidden="true">
             <a href="{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}

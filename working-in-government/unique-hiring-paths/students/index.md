@@ -5,7 +5,7 @@ section: working-in-government
 title: Students & recent graduates
 breadcrumb: Students & recent graduates
 category: Unique Hiring Paths
-tags: [student, recent graduates]
+tags: [student, recent graduates, support-students]
 ---
 
 The Pathways Program offers federal internship and employment opportunities for current students, recent graduates and those with an advanced degree.  There are three different paths available:
@@ -24,7 +24,7 @@ The internship program is for current students. If you’re a current student in
 
 ### Recent Graduates Program
 
-The recent graduate program is for those who have graduated, within the past two years, from a qualifying educational institution or certificate program. The recent graduate program offers career development with training and mentorship. 
+The recent graduate program is for those who have graduated, within the past two years, from a qualifying educational institution or certificate program. The recent graduate program offers career development with training and mentorship.
 
 You must apply within two years of getting your degree or certificate (veterans have up to six years to apply due to their military service obligation).
 
@@ -39,6 +39,9 @@ This program is for recent graduates with an advanced degree—either a professi
 
 [Learn more about the Presidential Management Fellows program.](https://www.pmf.gov/)
 
+## Contact Information
+
+Please contact <a href="mailto:pathways@opm.gov">pathways@opm.gov</a> with any issues or questions related to the Pathways Programs for students and recent graduates.
 
 ## Additional Resources
 

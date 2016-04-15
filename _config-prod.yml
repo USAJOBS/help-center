@@ -20,7 +20,7 @@ keep_files: ['css', 'js']
 # Setting a unique port number
 port: 4001
 
-baseurl: ''
+baseurl: '/Help'
 destination: ./_dist-prod
 
 permalink: pretty
