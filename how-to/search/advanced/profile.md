@@ -6,6 +6,7 @@ title: How to search by profile (eligibility)
 breadcrumb: Profile (eligibility)
 category: Advanced Search
 tags: [search, advanced, who may apply, profile, eligibility]
+exclude_from_search: true
 ---
 
 #### No - I do not fall into one of these categories and only want to see jobs that are publicly available.
