@@ -1136,4 +1136,4 @@ You may begin your federal job search on USAJOBS by searching using the four-dig
 
 ## Additional Resources
 
-* [Federal occupations by college major Pdf](federal-occupations-by-college-major.pdf)
+* [Federal occupations by college major (pdf)](../federal-occupations-by-college-major.pdf)

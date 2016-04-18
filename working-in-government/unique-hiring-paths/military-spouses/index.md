@@ -8,7 +8,7 @@ category: Unique Hiring Paths
 tags: [veterans, military, spouse]
 ---
 
-If you’re a military spouse, you may be eligible to apply for jobs open to merit promotion candidates or be hired for a [competitive service job](/../../service/) without going through the entire application process.
+If you’re a military spouse, you may be eligible to apply for jobs open to merit promotion candidates or be hired for a [competitive service job](../../service/) without going through the entire application process.
 
 Supported by Executive Order 13473, federal agencies can use this hiring path to fill competitive service positions on either a [temporary or permanent](../../appointments/) basis.
 

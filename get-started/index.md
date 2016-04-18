@@ -88,7 +88,7 @@ Once you find a job you’re interested in, read the entire job announcement and
 * “How to Apply” section to learn about agency specific instructions, required documents and contact information.
 
 * [Find out which jobs you may be eligible for](../faq/application/eligibility/)
-* [Know the types of documents you may need to provide](../faq/application/documents/types/)
+* [Know the types of documents you may need to provide](../faq/application/documents/)
 
 ## I found a job, what’s next?
 

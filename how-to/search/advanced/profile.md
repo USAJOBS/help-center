@@ -17,7 +17,7 @@ Select this option if you are a U.S. citizen new to the federal government or if
 
 Select this option if:
 
-* You are a federal employee that holds a [career appointment](../../../../working-in-government/unique-hiring-paths/federal-employees/eligibility/)
+* You are a federal employee that holds a [career appointment](../../../../working-in-government/unique-hiring-paths/federal-employees/)
 * You are a Veteran that claims [Veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or [VEOA eligibility](../../../../working-in-government/unique-hiring-paths/veterans/veoa/)
 
 [Which jobs am I eligibile to apply for?](/faq/application/eligibility/)

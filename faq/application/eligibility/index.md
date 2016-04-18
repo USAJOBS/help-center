@@ -25,7 +25,7 @@ Candidates who fall under unique hiring paths and qualify for a special non-comp
 
 These targeted segments of the population include:
 
-* [Individuals with Disabilities](../../../working-in-government/unique-hiring-paths/disabled/)
+* [Individuals with Disabilities](../../../working-in-government/unique-hiring-paths/individuals-with-disabilities/)
 * [Military Spouses](../../../working-in-government/unique-hiring-paths/military-spouses/)
 * [Students & Recent Graduates](../../../working-in-government/unique-hiring-paths/students/)
 * [Veterans](../../../working-in-government/unique-hiring-paths/veterans/)

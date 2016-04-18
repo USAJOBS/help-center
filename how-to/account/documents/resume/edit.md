@@ -20,7 +20,7 @@ Use the following steps to edit a resume that you built using the USAJOBS Resume
 4.  Once you have made your edits, select Save.
 5.  Should you choose not to save your edits, select Cancel.
 
-**Please note**: In the **Select Resume** step of the [USAJOBS Application Process](../../../../application/submit/), you will also have the opportunity to edit your USAJOBS builder resume.
+**Please note**: In the **Select Resume** step of the [USAJOBS Application Process](../../../../application/), you will also have the opportunity to edit your USAJOBS builder resume.
 
 ### Deleting a section
 

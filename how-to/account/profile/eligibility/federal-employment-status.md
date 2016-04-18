@@ -1,7 +1,9 @@
 ---
 permalink: /how-to/account/profile/eligibility/federal-employment-status/
 layout: article
+section: how-to
 title: How to determine federal employment status
+breadcrumb: Federal employment status
 category: Profile
 tags: [account, profile, eligibility]
 ---

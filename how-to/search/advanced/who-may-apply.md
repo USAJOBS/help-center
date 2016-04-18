@@ -10,9 +10,9 @@ tags: [search, advanced, who may apply]
 
 #### Yes – I fall into one of these categories and want to see all jobs open to applicants with the above eligibilities, such as federal employees.
 
-Select this option if you hold a career appointment or have [Veterans' preference](working-in-government/unique-hiring-paths/veterans/preference/).
+Select this option if you hold a [career appointment](../../../../working-in-government/appointments/) or have [Veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/).
 
-[Which jobs am I eligibile to apply for?](/faq/application/eligibility/)
+[Which jobs am I eligibile to apply for?](../../../../faq/application/eligibility/)
 
 #### No – I do not fall into one of these categories and only want to see jobs open to the general public
 
@@ -21,5 +21,5 @@ Select this option if you are a U.S. Citizen new to the federal government or if
 
 ## Additional Resources
 
-* [Service](/working-in-government/service/)
-* [How to determine federal employment status](/how-to/account/profile/eligibility/federal-employment-status/)
+* [Service](../../../../working-in-government/service/)
+* [How to determine federal employment status](../../../../how-to/account/profile/eligibility/federal-employment-status/)

@@ -7,11 +7,11 @@ category: Filters
 tags: [search, filters, who may apply]
 ---
 
-The "Who May Apply" search filter defaults to the "U.S. Citizen" option which shows jobs open to all of the U.S. public.
+The "Who May Apply" search filter will allow you to filter search results in two ways:
 
-The "Federal employees" option show those jobs AND jobs that are only open to eligible federal employees. Selecting the "Federal employees" will display jobs for which you <strong>may not be eligible</strong>.
+1. **U.S. Citizen** - Selecting this option shows jobs open to all of the U.S. public. This is the default option.
 
-[Which jobs am I eligibile to apply for?](../../../faq/application/eligibility/)
+2. **Federal employees**  - Selecting this option shows jobs open to all of the U.S. public AND jobs that are only open to eligible federal employees. Selecting this option may display jobs for which you <strong>may not be eligible</strong>. Please refer to our eligibility FAQ to determine [which jobs you are eligibile to apply for](../../../../faq/application/eligibility/).
 
 ## Additional Resources
 

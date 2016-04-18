@@ -18,7 +18,7 @@ Permanent employees are generally hired under a career-conditional appointment (
 
 ### Career appointment
 
-A career appointment begins once an employee has completed three years of permanent substantially continuous creditable service in the [competitive service](../../../service/).
+A career appointment begins once an employee has completed three years of permanent substantially continuous creditable service in the [competitive service](../service#competitive-service).
 
 ### Non-temporary appointment
 
@@ -30,11 +30,11 @@ Under certain hiring authorities, which are established by law or Executive Orde
 
 ## Temporary appointments
 
-There are many types of temporary appointments, but the two most common are temporary and term appointments. These appointments are expected to last for a stated specified period with a not-to-exceed date. 
+There are many types of temporary appointments, but the two most common are temporary and term appointments. These appointments are expected to last for a stated specified period with a not-to-exceed date.
 * Temporary Appointment: Time limited not to exceed one year but could be less.
-* Term Appointments: Time limited for at least one year but not to exceed four years. 
+* Term Appointments: Time limited for at least one year but not to exceed four years.
 
-Neither type of appointment is a permanent one, so they do **not** give the employee [competitive/permanent status](../../../service/).
+Neither type of appointment is a permanent one, so they do **not** give the employee [competitive/permanent status](../service/).
 
 ## Additional Resources
 

@@ -12,5 +12,4 @@ Use this filter to limit results to one or more [work schedules](../../../../wor
 
 ## Additional Resources
 
-* [How to search by work schedule](../../advanced/work-schedule/)
 * [Pay & Leave](../../../../working-in-government/pay-and-leave/)
