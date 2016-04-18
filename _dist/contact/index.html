@@ -34,8 +34,8 @@
 <!-- Favicons
 ================================================== -->
   <!-- 128x128 -->
-  <link rel="shortcut icon" type="image/ico" href="/help-center/img/favicons/favicon.ico" />
-  <link rel="icon" type="image/png" href="/help-center/img/favicons/favicon.png" />
+  <link rel="shortcut icon" type="image/ico" href="/img/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="/img/favicons/favicon.png" />
 
   <!-- 192x192, as recommended for Android
   http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
@@ -54,9 +54,9 @@
 
 <!-- CSS
 ================================================== -->
-  <link rel="stylesheet" href="/help-center/css/vendor/font-awesome.min.css">
-  <link rel="stylesheet" href="/help-center/css/usajobs-design-system-base--help-center.css">
-  <link rel="stylesheet" href="/help-center/css/help-center.css">
+  <link rel="stylesheet" href="/css/vendor/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/usajobs-design-system-base--help-center.css">
+  <link rel="stylesheet" href="/css/help-center.css">
 
   </head>
   <body>
@@ -64,7 +64,7 @@
     <header class="usajobs-site-header" role="banner" aria-label="header">
   <div class="usa-disclaimer">
     <div class="usa-grid usajobs-disclaimer-official">
-      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/help-center/img/us_flag_small.png">
+      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/img/us_flag_small.png">
       An official website of the United States Government
     </div>
   </div>
@@ -86,19 +86,19 @@
                   <span class="usajobs-nav__first_name">Sign In</span>
                 </a>
                 <ul class="usajobs-nav__secondary-menu" aria-expanded="false" aria-label="submenu">
-                  <li><a href="/help-center/Applicant/MyAccount/Home">Home</a></li>
-                  <li><a href="/help-center/Applicant/Application/ListApplications">Application Status</a></li>
-                  <li><a href="/help-center/Applicant/MyAccount/Documents">Documents</a></li>
-                  <li><a href="/help-center/Applicant/MyAccount/Inbox">Inbox</a></li>
-                  <li><a href="/help-center/Applicant/Profile/PersonalInformation">Profile</a></li>
-                  <li><a href="/help-center/Applicant/Resume/ListResumes">Resumes</a></li>
-                  <li><a href="/help-center/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a></li>
-                  <li><a href="/help-center/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a></li>
-                  <li><a href="/help-center/Applicant/Account/LogOff">Sign Out</a></li>
+                  <li><a href="/Applicant/MyAccount/Home">Home</a></li>
+                  <li><a href="/Applicant/Application/ListApplications">Application Status</a></li>
+                  <li><a href="/Applicant/MyAccount/Documents">Documents</a></li>
+                  <li><a href="/Applicant/MyAccount/Inbox">Inbox</a></li>
+                  <li><a href="/Applicant/Profile/PersonalInformation">Profile</a></li>
+                  <li><a href="/Applicant/Resume/ListResumes">Resumes</a></li>
+                  <li><a href="/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a></li>
+                  <li><a href="/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a></li>
+                  <li><a href="/Applicant/Account/LogOff">Sign Out</a></li>
                 </ul>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__help">
-                <a class="usajobs-nav__section-link is-active" href="/help-center/" title="Help">
+                <a class="usajobs-nav__section-link is-active" href="/" title="Help">
                   <span class="fa fa-question-circle"></span>
                   Help
                 </a>
@@ -159,7 +159,7 @@
 
 <form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form" action="/Help/Support/" method="post" novalidate="novalidate">
   <fieldset class="usajobs-form-grid" data-object="help.contact_us">
-    <legend id="usajobs-help-center-contact-us__legend">
+    <legend class="usajobs-help-center-contact-us__legend">
       Select a support topic
       <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
     </legend>
@@ -1367,6 +1367,10 @@
             
             
             
+          <li class="usajobs-help-topic search-results 8" aria-hidden="true">
+            <a href="/how-to/search/results/">How to understand job search results</a>
+          </li>
+            
             
             
             
@@ -2491,37 +2495,49 @@
       <input data-val="true" data-val-required="The ViewID field is required." id="ViewID" name="ViewID" type="hidden" value="3046296f-e40e-495e-bfb6-12d22bd1a32e">
 
       <!-- FirstName -->
-      <label for="FirstName">First Name</label>
-      <input pattern="^([a-zA-Z '-]+)$" id="FirstName" maxlength="20" name="FirstName" type="text" value="" required>
+      <div class="required-input">
+        <label for="FirstName">First Name</label>
+        <span class="field-validation-valid usa-input-error-message" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+        <input data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="" required aria-required="true">
+      </div>
 
       <!-- LastName -->
-      <label for="LastName">Last Name</label>
-      <input pattern="^([a-zA-Z '-]+)$" id="LastName" maxlength="30" name="LastName" type="text" value="" required>
+      <div class="required-input">
+        <label for="LastName">Last Name</label>
+        <span class="field-validation-valid usa-input-error-message" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+        <input data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="" required aria-required="true">
+      </div>
 
       <!-- EmailAddress -->
-      <label for="EmailAddress">Email Address</label>
-      <input id="EmailAddress" maxlength="128" name="EmailAddress" type="email" value="" required>
+      <div class="required-input">
+        <label for="EmailAddress">Email Address</label>
+        <span class="field-validation-valid usa-input-error-message" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+        <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" required aria-required="true">
+      </div>
 
       <!-- PhoneNumber -->
-      <label class="labeltext" for="PhoneNumber">
-        Phone Number <span class="usa-additional_text">Optional</span>
-      </label>
-      <input pattern="^([0-9+\-()x ]){1,30}$" id="PhoneNumber" maxlength="30" name="PhoneNumber" type="tel" value="">
-      <p class="usajobs-form__help-brief">
-        Please provide your phone number, for a help desk technician to call, if additional information is needed to assist you.
-      </p>
+      <div class="optional-input">
+        <label class="labeltext" for="PhoneNumber">
+          Phone Number <span class="usa-additional_text">Optional</span>
+        </label>
+        <span class="field-validation-valid usa-input-error-message" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+        <input class="form-control" data-val="true" data-val-regex="- Phone number is not valid." data-val-regex-pattern="^([0-9+\-()x ]){1,30}$" id="PhoneNumber" maxlength="30" name="PhoneNumber" type="text" value="" required aria-required="true">
+        <p class="usajobs-form__help-brief">
+          Please provide your phone number, for a help desk technician to call, if additional information is needed to assist you.
+        </p>
+      </div>
 
       <div id="contactOptionalData" class="usajobs-help-center-contact-us__optional-fields" aria-hidden="true">
         <div class="required-input">
           <!-- Username -->
           <label for="UserName" id="UsernameLabel">Username</label>
-          <span class="field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true"></span>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="Username" data-valmsg-replace="true"></span>
           <input data-val="true" data-val-requiredif="Username is required." data-val-requiredif-comp="isequalto" data-val-requiredif-other="SelectedContactReasonText" data-val-requiredif-value="login/password" id="UserName" maxlength="20" name="UserName" type="text" value="">
         </div>
         <div class="required-input">
           <!-- Address -->
           <label for="Address" id="AddressLabel">Address</label>
-          <span class="field-validation-valid" data-valmsg-for="Address" data-valmsg-replace="true"></span>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="Address" data-valmsg-replace="true"></span>
           <input data-val="true" data-val-requiredif="Address is required." data-val-requiredif-comp="isequalto" data-val-requiredif-other="SelectedContactReasonText" data-val-requiredif-value="login/password" id="Address" maxlength="100" name="Address" type="text" value="">
           <p class="usajobs-form__help-brief">
             Full home or mailing address including city/state.
@@ -2532,7 +2548,7 @@
           <label for="OtherEmailAddresses" id="OtherEmailAddressesLabel">
             Other Email Addresses <span class="usa-additional_text">Optional</span>
           </label>
-          <span class="field-validation-valid" data-valmsg-for="OtherEmailAddresses" data-valmsg-replace="true"></span>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="OtherEmailAddresses" data-valmsg-replace="true"></span>
           <input class="form-control" id="OtherEmailAddresses" maxlength="200" name="OtherEmailAddresses" type="text" value="">
           <p class="usajobs-form__help-brief">
             Other email addresses you may have used in your account (separate multiple email addresses with a space)
@@ -2543,7 +2559,7 @@
           <label class="labeltext" for="OtherPhoneNumbers">
             Other Phone Numbers <span class="usa-additional_text">Optional</span>
           </label>
-          <span class="field-validation-valid" data-valmsg-for="OtherPhoneNumbers" data-valmsg-replace="true"></span>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="OtherPhoneNumbers" data-valmsg-replace="true"></span>
           <input class="form-control" id="OtherPhoneNumbers" maxlength="100" name="OtherPhoneNumbers" type="text" value="">
           <p class="usajobs-form__help-brief">
             Any additional phone numbers you may have used in your account (separate multiple phone numbers with a space)
@@ -2577,31 +2593,31 @@
           <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v1__account">
             <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".account-menu">Account</li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/help-center/Applicant/MyAccount/Home/">Home</a>
+              <a href="/Applicant/MyAccount/Home/">Home</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/help-center/Applicant/Profile/">Profile</a>
+              <a href="/Applicant/Profile/">Profile</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/help-center/Applicant/Application/ListApplications">Application Status</a>
+              <a href="/Applicant/Application/ListApplications">Application Status</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/help-center/Applicant/Document/ListDocuments">Documents</a>
+              <a href="/Applicant/Document/ListDocuments">Documents</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/help-center/Applicant/Document/ListResumes">Resumes</a>
+              <a href="/Applicant/Document/ListResumes">Resumes</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/help-center/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a>
+              <a href="/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/help-center/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a>
+              <a href="/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/help-center/Applicant/Profile/PersonalInformation">Username &amp; Password</a>
+              <a href="/Applicant/Profile/PersonalInformation">Username &amp; Password</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/help-center/Account/LogOff">Sign Out</a>
+              <a href="/Account/LogOff">Sign Out</a>
             </li>
           </ul>
         </div>
@@ -2609,25 +2625,25 @@
           <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v1__help">
             <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".help-menu">Help</li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/help-center/">Help Center</a>
+              <a href="/">Help Center</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/help-center/about/">About USAJOBS</a>
+              <a href="/about/">About USAJOBS</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/help-center/contact/">Contact Us</a>
+              <a href="/contact/">Contact Us</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/help-center/faq/">FAQs</a>
+              <a href="/faq/">FAQs</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/help-center/get-started/">Get Started</a>
+              <a href="/get-started/">Get Started</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/help-center/how-to/">How to&hellip;</a>
+              <a href="/how-to/">How to&hellip;</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/help-center/working-in-government/">
+              <a href="/working-in-government/">
                 Working in Government
               </a>
             </li>
@@ -2671,7 +2687,7 @@
           <li><a href="http://www.opm.gov/efoia/">FOIA</a></li>
           <li><a href="https://www.opm.gov/our-inspector-general/">Inspector General</a></li>
           <li><a href="https://www.opm.gov/information-management/no-fear-act/">No Fear Act Data</a></li>
-          <li><a href="/help-center/privacy/">Privacy Policy</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
           <li><a href="http://www.usa.gov/">USA.gov</a></li>
         </ul>
       </div>
@@ -2684,36 +2700,8 @@
     <script src="../js/vendor/respond.min.js"></script>
     <script src="../js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="../js/search.min.js"></script>
   <script src="../js/usajobs-help-center.js"></script>
   <script id="_fed_an_ua_tag" src="https://www.opm.gov/js/GSAAnalytics-min.js" type="text/javascript" defer></script>
-
-
-
-
-
-
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
-    <article>
-      <a class="usajobs-help-center-search__result" href="{{ site.basurl }}{{ url }}">
-        {{title}}
-      </a>
-    </article>
-  {{/entries}}
-</script>
-
-
-<script type="text/javascript">
-  $(function() {
-    $('#search-query').lunrSearch({
-      indexUrl: '/help-center/js/index.json',   // Url for the .json file containing search index data
-      results : '#search-results',  // selector for containing search results element
-      entries : '.entries',         // selector for search entries containing element (contained within results above)
-      template: '#search-results-template'  // selector for Mustache.js template
-    });
-  });
-</script>
 
   </body>
 </html>
