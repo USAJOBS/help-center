@@ -185,7 +185,7 @@
       <div class="usajobs-help-center-breadcrumb-container">
   <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/">
+      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/Help/">
         Home
       </a>
     </li>
@@ -751,7 +751,7 @@
 
 <h3 id="career-appointment">Career appointment</h3>
 
-<p>A career appointment begins once an employee has completed three years of permanent substantially continuous creditable service in the <a href="../../../service/">competitive service</a>.</p>
+<p>A career appointment begins once an employee has completed three years of permanent substantially continuous creditable service in the <a href="../service#competitive-service">competitive service</a>.</p>
 
 <h3 id="non-temporary-appointment">Non-temporary appointment</h3>
 
@@ -763,11 +763,11 @@
 
 <h2 id="temporary-appointments">Temporary appointments</h2>
 
-<p>There are many types of temporary appointments, but the two most common are temporary and term appointments. These appointments are expected to last for a stated specified period with a not-to-exceed date. 
+<p>There are many types of temporary appointments, but the two most common are temporary and term appointments. These appointments are expected to last for a stated specified period with a not-to-exceed date.
 * Temporary Appointment: Time limited not to exceed one year but could be less.
 * Term Appointments: Time limited for at least one year but not to exceed four years.</p>
 
-<p>Neither type of appointment is a permanent one, so they do <strong>not</strong> give the employee <a href="../../../service/">competitive/permanent status</a>.</p>
+<p>Neither type of appointment is a permanent one, so they do <strong>not</strong> give the employee <a href="../service/">competitive/permanent status</a>.</p>
 
 <h2 id="additional-resources">Additional Resources</h2>
 
@@ -1058,7 +1058,7 @@
           <div class="usajobs-help-center-article__additional-help">
             <p>
               <i class="fa fa-comment-o"></i>
-              Still need help? <a href="../../contact/">Submit a ticket</a> to the USAJOBS Support Desk.
+              Still need help? <a href="/Help/contact/">Submit a ticket</a> to the USAJOBS Support Desk.
             </p>
           </div>
         </div>
@@ -1178,12 +1178,12 @@
 </footer>
 
       <!--[if lt IE 9]>
-    <script src="../../js/vendor/selectivirz-min.js"></script>
-    <script src="../../js/vendor/respond.min.js"></script>
-    <script src="../../js/vendor/rem.min.js"></script>
+    <script src="/Help/js/vendor/selectivizr-min.js"></script>
+    <script src="/Help/js/vendor/respond.min.js"></script>
+    <script src="/Help/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="../../js/search.min.js"></script>
-  <script src="../../js/usajobs-help-center.js"></script>
+  <script src="/Help/js/search.min.js"></script>
+  <script src="/Help/js/usajobs-help-center.js"></script>
   <script id="_fed_an_ua_tag" src="https://www.opm.gov/js/GSAAnalytics-min.js" type="text/javascript" defer></script>
 
 
@@ -1198,6 +1198,14 @@
         {{title}}
       </a>
     </article>
+  {{/entries}}
+  {{^entries}}
+  <p>Sorry, no help articles where found.</p>
+  <h4>Search Suggestions</h4>
+  <ul>
+    <li>Check your spelling.</li>
+    <li>Try using different, or more general, keywords.</li>
+  </ul>
   {{/entries}}
 </script>
 

@@ -241,7 +241,7 @@
     <p>“How to Apply” section to learn about agency specific instructions, required documents and contact information.</p>
   </li>
   <li><a href="../faq/application/eligibility/">Find out which jobs you may be eligible for</a></li>
-  <li><a href="../faq/application/documents/types/">Know the types of documents you may need to provide</a></li>
+  <li><a href="../faq/application/documents/">Know the types of documents you may need to provide</a></li>
 </ul>
 
 <h2 id="i-found-a-job-whats-next">I found a job, what’s next?</h2>
@@ -383,12 +383,12 @@
 </footer>
 
       <!--[if lt IE 9]>
-    <script src="../js/vendor/selectivirz-min.js"></script>
-    <script src="../js/vendor/respond.min.js"></script>
-    <script src="../js/vendor/rem.min.js"></script>
+    <script src="/Help/js/vendor/selectivizr-min.js"></script>
+    <script src="/Help/js/vendor/respond.min.js"></script>
+    <script src="/Help/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="../js/search.min.js"></script>
-  <script src="../js/usajobs-help-center.js"></script>
+  <script src="/Help/js/search.min.js"></script>
+  <script src="/Help/js/usajobs-help-center.js"></script>
   <script id="_fed_an_ua_tag" src="https://www.opm.gov/js/GSAAnalytics-min.js" type="text/javascript" defer></script>
 
 
@@ -403,6 +403,14 @@
         {{title}}
       </a>
     </article>
+  {{/entries}}
+  {{^entries}}
+  <p>Sorry, no help articles where found.</p>
+  <h4>Search Suggestions</h4>
+  <ul>
+    <li>Check your spelling.</li>
+    <li>Try using different, or more general, keywords.</li>
+  </ul>
   {{/entries}}
 </script>
 

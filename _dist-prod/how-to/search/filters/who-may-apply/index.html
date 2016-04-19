@@ -185,7 +185,7 @@
       <div class="usajobs-help-center-breadcrumb-container">
   <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/">
+      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/Help/">
         Home
       </a>
     </li>
@@ -1281,11 +1281,16 @@
           <div class="usajobs-help-center-article usajobs-content-gutter">
             <main class="usajobs-content-well" id="main-content" role="main">
               <h1>How to filter results by who may apply</h1>
-              <p>The “Who May Apply” search filter defaults to the “U.S. Citizen” option which shows jobs open to all of the U.S. public.</p>
+              <p>The “Who May Apply” search filter will allow you to filter search results in two ways:</p>
 
-<p>The “Federal employees” option show those jobs AND jobs that are only open to eligible federal employees. Selecting the “Federal employees” will display jobs for which you <strong>may not be eligible</strong>.</p>
-
-<p><a href="../../../faq/application/eligibility/">Which jobs am I eligibile to apply for?</a></p>
+<ol>
+  <li>
+    <p><strong>U.S. Citizen</strong> - Selecting this option shows jobs open to all of the U.S. public. This is the default option.</p>
+  </li>
+  <li>
+    <p><strong>Federal employees</strong>  - Selecting this option shows jobs open to all of the U.S. public AND jobs that are only open to eligible federal employees. Selecting this option may display jobs for which you <strong>may not be eligible</strong>. Please refer to our eligibility FAQ to determine <a href="../../../../faq/application/eligibility/">which jobs you are eligibile to apply for</a>.</p>
+  </li>
+</ol>
 
 <h2 id="additional-resources">Additional Resources</h2>
 
@@ -1636,7 +1641,7 @@
           <div class="usajobs-help-center-article__additional-help">
             <p>
               <i class="fa fa-comment-o"></i>
-              Still need help? <a href="../../../../contact/">Submit a ticket</a> to the USAJOBS Support Desk.
+              Still need help? <a href="/Help/contact/">Submit a ticket</a> to the USAJOBS Support Desk.
             </p>
           </div>
         </div>
@@ -1756,12 +1761,12 @@
 </footer>
 
       <!--[if lt IE 9]>
-    <script src="../../../../js/vendor/selectivirz-min.js"></script>
-    <script src="../../../../js/vendor/respond.min.js"></script>
-    <script src="../../../../js/vendor/rem.min.js"></script>
+    <script src="/Help/js/vendor/selectivizr-min.js"></script>
+    <script src="/Help/js/vendor/respond.min.js"></script>
+    <script src="/Help/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="../../../../js/search.min.js"></script>
-  <script src="../../../../js/usajobs-help-center.js"></script>
+  <script src="/Help/js/search.min.js"></script>
+  <script src="/Help/js/usajobs-help-center.js"></script>
   <script id="_fed_an_ua_tag" src="https://www.opm.gov/js/GSAAnalytics-min.js" type="text/javascript" defer></script>
 
 
@@ -1776,6 +1781,14 @@
         {{title}}
       </a>
     </article>
+  {{/entries}}
+  {{^entries}}
+  <p>Sorry, no help articles where found.</p>
+  <h4>Search Suggestions</h4>
+  <ul>
+    <li>Check your spelling.</li>
+    <li>Try using different, or more general, keywords.</li>
+  </ul>
   {{/entries}}
 </script>
 

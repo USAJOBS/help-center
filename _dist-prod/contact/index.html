@@ -159,7 +159,7 @@
 
 <form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form" action="/Help/Support/" method="post" novalidate="novalidate">
   <fieldset class="usajobs-form-grid" data-object="help.contact_us">
-    <legend id="usajobs-help-center-contact-us__legend">
+    <legend class="usajobs-help-center-contact-us__legend">
       Select a support topic
       <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
     </legend>
@@ -1367,6 +1367,10 @@
             
             
             
+          <li class="usajobs-help-topic search-results 8" aria-hidden="true">
+            <a href="/how-to/search/results/">How to understand job search results</a>
+          </li>
+            
             
             
             
@@ -2491,37 +2495,49 @@
       <input data-val="true" data-val-required="The ViewID field is required." id="ViewID" name="ViewID" type="hidden" value="3046296f-e40e-495e-bfb6-12d22bd1a32e">
 
       <!-- FirstName -->
-      <label for="FirstName">First Name</label>
-      <input pattern="^([a-zA-Z '-]+)$" id="FirstName" maxlength="20" name="FirstName" type="text" value="" required>
+      <div class="required-input">
+        <label for="FirstName">First Name</label>
+        <span class="field-validation-valid usa-input-error-message" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+        <input data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="" required aria-required="true">
+      </div>
 
       <!-- LastName -->
-      <label for="LastName">Last Name</label>
-      <input pattern="^([a-zA-Z '-]+)$" id="LastName" maxlength="30" name="LastName" type="text" value="" required>
+      <div class="required-input">
+        <label for="LastName">Last Name</label>
+        <span class="field-validation-valid usa-input-error-message" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+        <input data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="" required aria-required="true">
+      </div>
 
       <!-- EmailAddress -->
-      <label for="EmailAddress">Email Address</label>
-      <input id="EmailAddress" maxlength="128" name="EmailAddress" type="email" value="" required>
+      <div class="required-input">
+        <label for="EmailAddress">Email Address</label>
+        <span class="field-validation-valid usa-input-error-message" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+        <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" required aria-required="true">
+      </div>
 
       <!-- PhoneNumber -->
-      <label class="labeltext" for="PhoneNumber">
-        Phone Number <span class="usa-additional_text">Optional</span>
-      </label>
-      <input pattern="^([0-9+\-()x ]){1,30}$" id="PhoneNumber" maxlength="30" name="PhoneNumber" type="tel" value="">
-      <p class="usajobs-form__help-brief">
-        Please provide your phone number, for a help desk technician to call, if additional information is needed to assist you.
-      </p>
+      <div class="optional-input">
+        <label class="labeltext" for="PhoneNumber">
+          Phone Number <span class="usa-additional_text">Optional</span>
+        </label>
+        <span class="field-validation-valid usa-input-error-message" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+        <input class="form-control" data-val="true" data-val-regex="- Phone number is not valid." data-val-regex-pattern="^([0-9+\-()x ]){1,30}$" id="PhoneNumber" maxlength="30" name="PhoneNumber" type="text" value="" required aria-required="true">
+        <p class="usajobs-form__help-brief">
+          Please provide your phone number, for a help desk technician to call, if additional information is needed to assist you.
+        </p>
+      </div>
 
       <div id="contactOptionalData" class="usajobs-help-center-contact-us__optional-fields" aria-hidden="true">
         <div class="required-input">
           <!-- Username -->
           <label for="UserName" id="UsernameLabel">Username</label>
-          <span class="field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true"></span>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="Username" data-valmsg-replace="true"></span>
           <input data-val="true" data-val-requiredif="Username is required." data-val-requiredif-comp="isequalto" data-val-requiredif-other="SelectedContactReasonText" data-val-requiredif-value="login/password" id="UserName" maxlength="20" name="UserName" type="text" value="">
         </div>
         <div class="required-input">
           <!-- Address -->
           <label for="Address" id="AddressLabel">Address</label>
-          <span class="field-validation-valid" data-valmsg-for="Address" data-valmsg-replace="true"></span>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="Address" data-valmsg-replace="true"></span>
           <input data-val="true" data-val-requiredif="Address is required." data-val-requiredif-comp="isequalto" data-val-requiredif-other="SelectedContactReasonText" data-val-requiredif-value="login/password" id="Address" maxlength="100" name="Address" type="text" value="">
           <p class="usajobs-form__help-brief">
             Full home or mailing address including city/state.
@@ -2532,7 +2548,7 @@
           <label for="OtherEmailAddresses" id="OtherEmailAddressesLabel">
             Other Email Addresses <span class="usa-additional_text">Optional</span>
           </label>
-          <span class="field-validation-valid" data-valmsg-for="OtherEmailAddresses" data-valmsg-replace="true"></span>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="OtherEmailAddresses" data-valmsg-replace="true"></span>
           <input class="form-control" id="OtherEmailAddresses" maxlength="200" name="OtherEmailAddresses" type="text" value="">
           <p class="usajobs-form__help-brief">
             Other email addresses you may have used in your account (separate multiple email addresses with a space)
@@ -2543,7 +2559,7 @@
           <label class="labeltext" for="OtherPhoneNumbers">
             Other Phone Numbers <span class="usa-additional_text">Optional</span>
           </label>
-          <span class="field-validation-valid" data-valmsg-for="OtherPhoneNumbers" data-valmsg-replace="true"></span>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="OtherPhoneNumbers" data-valmsg-replace="true"></span>
           <input class="form-control" id="OtherPhoneNumbers" maxlength="100" name="OtherPhoneNumbers" type="text" value="">
           <p class="usajobs-form__help-brief">
             Any additional phone numbers you may have used in your account (separate multiple phone numbers with a space)
@@ -2684,36 +2700,8 @@
     <script src="../js/vendor/respond.min.js"></script>
     <script src="../js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="../js/search.min.js"></script>
   <script src="../js/usajobs-help-center.js"></script>
   <script id="_fed_an_ua_tag" src="https://www.opm.gov/js/GSAAnalytics-min.js" type="text/javascript" defer></script>
-
-
-
-
-
-
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
-    <article>
-      <a class="usajobs-help-center-search__result" href="{{ site.basurl }}{{ url }}">
-        {{title}}
-      </a>
-    </article>
-  {{/entries}}
-</script>
-
-
-<script type="text/javascript">
-  $(function() {
-    $('#search-query').lunrSearch({
-      indexUrl: '/Help/js/index.json',   // Url for the .json file containing search index data
-      results : '#search-results',  // selector for containing search results element
-      entries : '.entries',         // selector for search entries containing element (contained within results above)
-      template: '#search-results-template'  // selector for Mustache.js template
-    });
-  });
-</script>
 
   </body>
 </html>

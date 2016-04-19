@@ -185,7 +185,7 @@
       <div class="usajobs-help-center-breadcrumb-container">
   <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/">
+      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/Help/">
         Home
       </a>
     </li>
@@ -609,11 +609,11 @@
                   Posting date
                 </a>
               </li>
-              <li>
+              <!-- li>
                 <a href="/Help/how-to/search/advanced/profile/">
                   Profile - Eligibility
                 </a>
-              </li>
+              </li -->
               <li>
                 <a href="/Help/how-to/search/advanced/salary/">
                   Salary range &amp; pay grade
@@ -622,6 +622,11 @@
               <li>
                 <a href="/Help/how-to/search/advanced/types-of-work/">
                   Types of work
+                </a>
+              </li>
+              <li>
+                <a href="/Help/how-to/search/advanced/who-may-apply/">
+                  Who may apply
                 </a>
               </li>
             </ul>
@@ -647,9 +652,9 @@
               <li>
                 <a href="/Help/how-to/search/filters/posting-date/">Posting Date</a>
               </li>
-              <li>
+              <!-- li>
                 <a href="/Help/how-to/search/filters/profile/">Profile - Eligibility</a>
-              </li>
+              </li -->
               <li>
                 <a href="/Help/how-to/search/filters/salary/">Salary</a>
               </li>
@@ -658,6 +663,9 @@
               </li>
               <li>
                 <a href="/Help/how-to/search/filters/work-type/">Work Type</a>
+              </li>
+              <li>
+                <a href="/Help/how-to/search/filters/who-may-apply/">Who may apply</a>
               </li>
             </ul>
           </li>
@@ -784,12 +792,12 @@
 </footer>
 
       <!--[if lt IE 9]>
-    <script src="../js/vendor/selectivirz-min.js"></script>
-    <script src="../js/vendor/respond.min.js"></script>
-    <script src="../js/vendor/rem.min.js"></script>
+    <script src="/Help/js/vendor/selectivizr-min.js"></script>
+    <script src="/Help/js/vendor/respond.min.js"></script>
+    <script src="/Help/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="../js/search.min.js"></script>
-  <script src="../js/usajobs-help-center.js"></script>
+  <script src="/Help/js/search.min.js"></script>
+  <script src="/Help/js/usajobs-help-center.js"></script>
   <script id="_fed_an_ua_tag" src="https://www.opm.gov/js/GSAAnalytics-min.js" type="text/javascript" defer></script>
 
 
@@ -804,6 +812,14 @@
         {{title}}
       </a>
     </article>
+  {{/entries}}
+  {{^entries}}
+  <p>Sorry, no help articles where found.</p>
+  <h4>Search Suggestions</h4>
+  <ul>
+    <li>Check your spelling.</li>
+    <li>Try using different, or more general, keywords.</li>
+  </ul>
   {{/entries}}
 </script>
 

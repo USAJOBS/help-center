@@ -185,7 +185,7 @@
       <div class="usajobs-help-center-breadcrumb-container">
   <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/">
+      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/Help/">
         Home
       </a>
     </li>
@@ -1014,6 +1014,7 @@
               <p>The Federal Government is actively recruiting and hiring persons with disabilities. If you’re a person with a disability, you may be eligible to apply for jobs and get hired without competing for the job or going through the full application process. This is sometimes called a <a href="../../appointments/">non-competitive appointment</a>.</p>
 
 <h2 id="eligibility">Eligibility</h2>
+
 <p>Federal agencies can use the following hiring authorities to hire persons with disabilities:</p>
 
 <ul>
@@ -1026,15 +1027,20 @@
 <p>Schedule A (5 CFR 213.3102(u)) allows agencies to hire individuals with intellectual, severe physical or psychiatric disabilities. There is also an exception (5 CFR 213.3102(11)) for hiring readers, interpreters, and personal assistants for employees with severe disabilities.</p>
 
 <h3 id="eligibility-for-schedule-a">Eligibility for Schedule A</h3>
+
 <p>To be eligible for Schedule A, you must provide a “proof of a disability” letter stating that you have an intellectual disability, severe physical disability or psychiatric disability. You can get this letter from your doctor, a licensed medical professional, a licensed vocational rehabilitation specialist, or any federal, state, or local agency that issues or provides disability benefits.</p>
 
 <p><a href="https://www.opm.gov/policy-data-oversight/disability-employment/getting-a-job/#url=Schedule-A-Hiring-Authority">Learn more about eligibility for Schedule A</a>.</p>
 
 <h3 id="veterans-appointments">Veterans Appointments</h3>
-<p>Veterans with disabilities may be eligible for: 
-* <a href="../veterans/vra/">Veterans Recruitment Appointment (VRA)</a>
-* <a href="../veterans/disabled/">30% or More Disabled Veterans Program</a>
-* <a href="../veterans/disabled/">Disabled Veterans Enrolled in a VA Training Program</a></p>
+
+<p>Veterans with disabilities may be eligible for:</p>
+
+<ul>
+  <li><a href="../veterans/vra/">Veterans Recruitment Appointment (VRA)</a></li>
+  <li><a href="../veterans/disabled/">30% or More Disabled Veterans Program</a></li>
+  <li><a href="../veterans/disabled/">Disabled Veterans Enrolled in a VA Training Program</a></li>
+</ul>
 
 <p><a href="https://www.fedshirevets.gov/job/shav/index.aspx">Learn more about hiring options for veterans with disabilities</a>.</p>
 
@@ -1048,11 +1054,14 @@
 
 <h2 id="accommodating-individuals-with-disabilities">Accommodating Individuals with Disabilities</h2>
 
-<p>Federal agencies have a legal obligation to offer “reasonable accommodations” to employees with disabilities (unless doing so will result in undue hardship to the agency). The accommodations make it easier for an employee, with a disability, to successfully perform the duties of the position. For example, an agency may offer:
-* Interpreters, readers, or other personal assistance
-* Modified position duties
-* Flexible work schedules or work sites
-* Accessible technology or other workplace adaptive equipment</p>
+<p>Federal agencies have a legal obligation to offer “reasonable accommodations” to employees with disabilities (unless doing so will result in undue hardship to the agency). The accommodations make it easier for an employee, with a disability, to successfully perform the duties of the position. For example, an agency may offer:</p>
+
+<ul>
+  <li>Interpreters, readers, or other personal assistance</li>
+  <li>Modified position duties</li>
+  <li>Flexible work schedules or work sites</li>
+  <li>Accessible technology or other workplace adaptive equipment</li>
+</ul>
 
 <p>If you need reasonable accommodations, you must request the accommodations during the recruitment, application or hiring process or at any time while on the job. Requests are considered on a case-by-case basis.</p>
 
@@ -1390,7 +1399,7 @@
           <div class="usajobs-help-center-article__additional-help">
             <p>
               <i class="fa fa-comment-o"></i>
-              Still need help? <a href="../../../contact/">Submit a ticket</a> to the USAJOBS Support Desk.
+              Still need help? <a href="/Help/contact/">Submit a ticket</a> to the USAJOBS Support Desk.
             </p>
           </div>
         </div>
@@ -1510,12 +1519,12 @@
 </footer>
 
       <!--[if lt IE 9]>
-    <script src="../../../js/vendor/selectivirz-min.js"></script>
-    <script src="../../../js/vendor/respond.min.js"></script>
-    <script src="../../../js/vendor/rem.min.js"></script>
+    <script src="/Help/js/vendor/selectivizr-min.js"></script>
+    <script src="/Help/js/vendor/respond.min.js"></script>
+    <script src="/Help/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="../../../js/search.min.js"></script>
-  <script src="../../../js/usajobs-help-center.js"></script>
+  <script src="/Help/js/search.min.js"></script>
+  <script src="/Help/js/usajobs-help-center.js"></script>
   <script id="_fed_an_ua_tag" src="https://www.opm.gov/js/GSAAnalytics-min.js" type="text/javascript" defer></script>
 
 
@@ -1530,6 +1539,14 @@
         {{title}}
       </a>
     </article>
+  {{/entries}}
+  {{^entries}}
+  <p>Sorry, no help articles where found.</p>
+  <h4>Search Suggestions</h4>
+  <ul>
+    <li>Check your spelling.</li>
+    <li>Try using different, or more general, keywords.</li>
+  </ul>
   {{/entries}}
 </script>
 
