@@ -164,8 +164,8 @@
           <div class="usajobs-help-center-search usajobs-content-gutter">
             <main class="usajobs-content-well-full" id="main-content" role="main">
               <div class="usajobs-grid-full">
+  <h2>Search results</h2>
   <section id="search-results" style="display: none;">
-    <h2>Search results</h2>
     <div class="entries">
     </div>
   </section>
@@ -310,6 +310,14 @@
         {{title}}
       </a>
     </article>
+  {{/entries}}
+  {{^entries}}
+  <p>Sorry, no help articles where found.</p>
+  <h4>Search Suggestions</h4>
+  <ul>
+    <li>Check your spelling.</li>
+    <li>Try using different, or more general, keywords.</li>
+  </ul>
   {{/entries}}
 </script>
 
