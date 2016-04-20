@@ -8,7 +8,21 @@ category: Search
 tags: [search, save]
 ---
 
-Saved searches help you look for Job announcements in your area of interest. The saved searches will automatically search for jobs based on your selected criteria, and then email you when there are new jobs entered into the database that meet your specifications (they will not email you jobs that were previously posted).
+When you save a search, USAJOBS will automatically look for jobs that match the keywords and other criteria in your search. We will email you, daily, weekly or monthly, when there are new jobs that match what you’re looking for.  We won’t email you previously posted jobs—only new ones.
 
-You may create and save up to 10 Saved searches. The USAJOBS saved search creation, editing, deletion, and viewing functions are located within your [USAJOBS account](https://www.usajobs.gov/Applicant/SavedSearches/ListSavedSearches/) and below the [search filters](../filters/) on the search results page.
+You can create and save up to 10 different saved searches. For example, you can save a search looking for all Program Analyst jobs in Washington D.C. and another search for all Program Analysts jobs at the Department of Energy.
+
+You can edit or delete your saved search at any time. The saved search will expire one year after you create it. 
+
+To save a search:
+
+1.	Log into your USAJOBS account. If you don’t have an account, you need to create one.
+2.	Start a job search by entering a keyword or location and select “Search”. You can also choose the Advanced Search option to narrow your results.
+3.	Select “Save current Search” on the search results page located on the left side of the page under the [search filters](../filters/).
+4.	Confirm how you want to search for keywords (similar to, exact match etc.).
+5.	Enter additional search criteria if you want—the more information you add, the more specific your results will be.
+6.	Name your search—this will help you manage your saved searches.
+7.	Choose how often you want to receive an email notification with all jobs that match your search.
+8.	Select “Save current Search” or “Save and View Results”.
+
 
