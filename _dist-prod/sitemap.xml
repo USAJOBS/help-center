@@ -100,10 +100,10 @@
 <loc>/search/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>/about/</loc>
 </url>
 <url>
-<loc>/get-started/</loc>
+<loc>/</loc>
 </url>
 <url>
 <loc>/how-to/account/documents/resume/</loc>
@@ -208,7 +208,7 @@
 <loc>/faq/application/</loc>
 </url>
 <url>
-<loc>/about/</loc>
+<loc>/get-started/</loc>
 </url>
 <url>
 <loc>/working-in-government/unique-hiring-paths/federal-employees/interchange-agreements/</loc>
