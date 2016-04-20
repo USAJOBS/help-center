@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<html lang="en">
+{% include base.html %}
   <head>
     {% include prod-head.html %}
   </head>
@@ -8,13 +8,12 @@
     <a class="skipnav" href="#main-content">Skip main navigation</a>
     {% include components/nav-help.html %}
     <div class="usajobs-help-center">
-      {% include components/search-banner-with-nav.html %}
-      {% include components/breadcrumbs.html %}
-      <section class="usajobs-shell">
-        <section class="usajobs-canvas">
+      {% include components/title-banner.html param="about" %}
+      <div class="usajobs-help-center-about">
+        <main class="usajobs-content-well-full" id="main-content" role="main">
           {{ content }}
-        </section>
-      </section>
+        </main>
+      </div>
     </div>
     {% include components/footer.html %}
     {% include scripts.html %}

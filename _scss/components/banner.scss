@@ -1,4 +1,4 @@
-// Search Banner
+// Banner
 
 @import 'lib/bourbon/bourbon';
 @import 'lib/neat/neat';
@@ -8,7 +8,8 @@
 @import 'base/breakpoints';
 
 .usajobs-help-center-search-banner,
-.usajobs-help-center-search-banner--with-nav {
+.usajobs-help-center-search-banner--with-nav,
+.usajobs-help-center-title-banner {
   padding-top: $size-default;
   background: $color-primary-darkest;
   background-image: url("../img/helpcenter_star.png");
@@ -75,6 +76,14 @@
     @include media($M) {
       padding-bottom: $size-L;
     }
+  }
+}
+
+.usajobs-help-center-title-banner {
+  padding: $size-L 0;
+
+  @include media($M) {
+    padding: $size-XXL 0;
   }
 }
 
