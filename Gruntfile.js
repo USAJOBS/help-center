@@ -183,7 +183,7 @@ module.exports = function(grunt) {
         }
       },
       postDeploy: {
-        site: 'usajobs.github.io/help-center/'
+        site: 'usajobs.github.io/Help/'
       }
     }
   });
