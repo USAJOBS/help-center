@@ -22,12 +22,15 @@ title: About USAJOBS
   <div class="usajobs-help-center-about-new__body">
     <h2>What's new at USAJOBS</h2>
     <div class="usajobs-help-center-about-new__col">
+      <div id="youtube-player"></div>
+    </div>
+    <div class="usajobs-help-center-about-new__col">
       <p>
-        USAJOBS has released a revised application process designed to communicate the steps applicants are expected to complete, and clearly guide them through creating an application package that is transferred to the desired agency for final submission.  New capabilities include the ability to view your resumes and documents, a tracker displaying your progress, and the ability to save an application for later.
+        USAJOBS has released a revised application process designed to communicate the steps applicants are expected to complete, and clearly guide them through creating an application package that is transferred to the desired agency for final submission. New capabilities include the ability to view your resumes and documents, a tracker displaying your progress, and the ability to save an application for later.
       </p>
       <h4>Learn more about how we are changing USAJOBS</h4>
       <a href="http://usajobs.github.io/design-system/" class="usa-button usa-button-big usa-button-secondary">
-        USAJOBS Design Story
+        USAJOBS Design System
       </a>
     </div>
   </div>
@@ -133,3 +136,25 @@ title: About USAJOBS
     </div>
   </div>
 </div>
+
+<script>
+  var tag = document.createElement('script'),
+    firstScriptTag,
+    player;
+
+  tag.src = "https://www.youtube.com/iframe_api";
+  firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('youtube-player', {
+              height: '245',
+              width: '290',
+              videoId: 'qG3ev8_vr4M'
+    });
+  }
+
+  function stopVideo() {
+    player.stopVideo();
+  }
+</script>

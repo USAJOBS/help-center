@@ -368,8 +368,6 @@
   &__col {
     @include media($ML) {
       @include span-columns(3,6);
-      @include shift(3);
-      @include omega();
     }
   }
 }
