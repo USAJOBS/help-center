@@ -10,14 +10,14 @@ With a USAJOBS account you can:
 * Create a personal profile
 * Create or upload up to five distinct resumes
 * Search for jobs by agency, occupation, location and more
-* Automate and save job searches
+* Save job searches and receive automatic notifications
 * Save jobs of interest
 * Learn about the Federal hiring process and special hiring programs
 
 ## Where do I start?
 
 <h2 class="usajobs-help-center__lead">
-  It’s important you create an account and a profile. Your account and profile information are used to help complete the job application, as well as improve job search results.
+  It’s important you create an account and a profile. Your account and profile are used to help complete the job application, as well as improve job search results.
 </h2>
 
 ### Create a USAJOBS account
@@ -40,7 +40,7 @@ If you upload a resume, it must meet the following requirements:
 
 #### Create a resume using Resume Builder
 
-The resume builder creates a resume for you by asking you to enter information such as previous work experiences and skills.
+The resume builder helps you create a resume for you by asking you to enter information such as previous work experiences and skills.
 
 _Important tip_: If you save five resumes and want to add a new one, you’ll have to delete one of the existing five.
 
@@ -50,14 +50,7 @@ _Important tip_: If you save five resumes and want to add a new one, you’ll ha
 
 When applying for a federal job, it’s important to clearly describe how your skills and work experiences align to the selection criteria defined by the job announcement. You should tailor your resume to the job announcement to which you are applying.
 
-Follow these tips to help write an effective resume:
-
-* Study job announcements to determine keywords—review the required skills or qualifications sections and look for "buzzwords" to use.
-* Use keywords that match the skills, abilities and other qualifications required for the job.
-* Be concise—make sure your most important skills and qualifications are at the top of the resume.
-* Use numbers to quantify your accomplishments—show how you saved money or time.
-
-[Get more resume writing tips for federal jobs](../faq/application/documents/resume/what-to-include/).
+[Get resume writing tips for federal jobs](../faq/application/documents/resume/what-to-include/).
 
 ### Search for jobs
 
@@ -72,13 +65,11 @@ The USAJOBS help center offers step-by-step tutorials on how to use all of the s
 * [Learn how to search for jobs](../how-to/search/)
 * [Understand the different job categories](../how-to/search/advanced/occupational-series/)
 
-#### You can automate and save searches
+#### You can save searches and receive notifications
 
 You can set up automated job searches based on your search criteria. USAJOBS will email you (daily, weekly or monthly) when there are new jobs entered into the database that meet your needs.
 
-_Important tip_: You can create several saved searches based on different criteria. For example, you can save a search called “Program Analyst” for jobs related to Program Analyst and a different search called “Management Analyst” for jobs related to Management Analyst.  There is no limit to the number of saved searches you can create.
-
-[Learn how to automate and save searches](../how-to/search/save/).
+[Learn how to save searches and receive notifications](../how-to/search/save/).
 
 ### Review the job announcement
 
@@ -90,7 +81,7 @@ Once you find a job you’re interested in, read the entire job announcement and
 * [Find out which jobs you may be eligible for](../faq/application/eligibility/)
 * [Know the types of documents you may need to provide](../faq/application/documents/)
 
-## I found a job, what’s next?
+## I found a job I am interested in, what’s next?
 
 ### Prepare your application
 
