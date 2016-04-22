@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to select an email notification preference
 breadcrumb: Email notification preference
-category: Notifications
+category: notifications
 tags: [account, notifications, email, preferences]
 ---
 
