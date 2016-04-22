@@ -111,6 +111,11 @@ html {
   }
 }
 
+.usajobs-help-center-title-banner.about {
+  background-image: url("../img/opm_seal.png");
+  background-position: right -50%;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -1083,8 +1088,6 @@ html {
     display: block;
     margin-right: 4.8291579146%;
     width: 47.5854210427%;
-    margin-left: 52.4145789573%;
-    margin-right: 0;
   }
   .usajobs-help-center-about-new__col:last-child {
     margin-right: 0;
