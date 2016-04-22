@@ -12,7 +12,7 @@
     margin-left: -$size-M;
     margin-right: -$size-M;
     padding: 0 $size-M;
-    background-image: linear-gradient(to right, $color-primary, $color-primary 50%, $color-gray-dark 50%, $color-gray-dark 100%);
+    background-image: linear-gradient(to right, $color-cool-blue, $color-cool-blue 50%, $color-gray-dark 50%, $color-gray-dark 100%);
   }
 }
 
@@ -26,7 +26,7 @@
 }
 
 .usajobs-help-center-home-get-started {
-  background-color: $color-primary;
+  background-color: $color-cool-blue;
 
   @include media($M) {
     background-color: inherit;

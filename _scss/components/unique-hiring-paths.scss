@@ -11,15 +11,23 @@
   @include outer-container();
   max-width: $site-max-width;
   margin-bottom: $size-XL;
-  padding: $size-M 0;
-  background-color: $color-white;
-
-  @include media($M) {
-    padding: $size-M;
-  }
 }
 
 .usajobs-unique-hiring-paths {
+  &__body {
+    @include clearfix();
+    background-color: $color-white;
+    padding: $size-M 0;
+
+    @include media($M) {
+      padding: $size-M;
+    }
+    @include media($M) {
+      margin-left: $size-M;
+      margin-right: $size-M;
+    }
+  }
+
   &__title {
     text-align: center;
   }

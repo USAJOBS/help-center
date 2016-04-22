@@ -6,7 +6,6 @@ title: How to supply work experience
 breadcrumb: Work Experience
 category: resume
 tags: [account, documents, resume, build]
-redirect_from: /how-to/documents/resume/build/experience/
 ---
 
 In this section you'll enter your relevant work experiences. If your resume is confidential, any work experience with an end date of 'present' will not be visible to Federal recruiters performing resume searches. To complete this section, enter information and click 'add work experience.

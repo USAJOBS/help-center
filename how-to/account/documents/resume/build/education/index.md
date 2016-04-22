@@ -6,7 +6,6 @@ title: How to supply education
 breadcrumb: Education
 category: resume
 tags: [account, documents, resume, build, education]
-redirect_from: /how-to/documents/resume/build/education/
 ---
 
 To receive consideration for some Federal positions you must provide information regarding your successful completion of a degree in a particular field from an accredited academic institution. In many cases, it is also important for you to provide information about specific coursework.
