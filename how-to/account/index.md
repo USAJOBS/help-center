@@ -35,12 +35,3 @@ To help with these precautions, please follow these tips:
 * Choose security questions and answers that only you know the answer to, and that cannot be easily guessed by someone else.
 * Periodic password resets may enhance the security of your account. If you suspect that someone knows your USAJOBS username and password, you can change your password using the self-service password reset function by clicking ForgotPassword
 
-When changing your password, your new USAJOBS account password must:
-
-* Be at least eight characters (20 maximum)
-* Contain at least one number (0-9)
-* Contain at least one uppercase letter (A-Z)
-* Contain at least one lowercase letter (a-z)
-* Contain at least one special character ! @ # $ % ^ & * ( )
-
-In addition, if someone can access your email, they may be able to gain access to your USAJOBS account. Make sure that the password to your email is different from your USAJOBS account.
