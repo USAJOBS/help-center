@@ -2,7 +2,8 @@
 permalink: /working-in-government/service/
 layout: article
 section: working-in-government
-title: Service
+title: 
+Entering Federal Service
 breadcrumb: Service
 category: working-in-government
 tags: [competitive, non-competitive, service, career, status, eligibility]
@@ -27,7 +28,7 @@ There are a number of ways to be appointed into the excepted service such as app
 
 The Senior Executive Service (SES) is the corps of executives, selected for their leadership qualifications, and charged with leading the continuing transformation of government. These leaders possess well-honed executive skills and share a broad perspective of government and a public service commitment which is grounded in the Constitution. As the leaders of our Federal civilian workforce, Senior Executives strive each day to create a more citizen centered, result oriented Federal Government.
 
-## Special appointing authorities
+## Special Appointing Authorities
 
 Special non-competitive appointing authorities are established by law or Executive Order. Agencies may use a variety of appointing authorities to hire job applicants. Examples of appointing authorities:
 
