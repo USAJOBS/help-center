@@ -28,9 +28,12 @@ A non-temporary appointment does not have a specific “not-to-exceed” date as
 
 Under certain hiring authorities, which are established by law or Executive Order, a hiring manager may hire candidates directly without having to go through the full application process. Job announcements specify whether a position is competitive or non-competitive under the “Who May Apply” section.
 
+Veterans, persons with disabilities, many current and former Federal employees, and returning Peace Corps volunteers are examples of individuals eligible for non-competitive appointment.
+
 ## Temporary appointments
 
 There are many types of temporary appointments, but the two most common are temporary and term appointments. These appointments are expected to last for a stated specified period with a not-to-exceed date.
+
 * Temporary Appointment: Time limited not to exceed one year but could be less.
 * Term Appointments: Time limited for at least one year but not to exceed four years.
 

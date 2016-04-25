@@ -86,11 +86,7 @@ module.exports = function(grunt) {
     concat: {
       all: {
         src: [
-          'library/js/vendor/modernizr.js',
-          'js/vendor/search.min.js',
-          'library/js/vendor/jquery.ba-throttle-debounce.min.js',
-          'library/js/vendor/jquery-ui.min.js',
-          'library/js/base.js',
+          'library/js/usajobs-design-system-base.js',
           'library/js/components/usds-components.js',
           'library/js/components/footer.js',
           'library/js/components/nav.js',
