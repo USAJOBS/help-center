@@ -17,3 +17,14 @@ You can change your password on the [change password](https://www.usajobs.gov/Ap
 3. Select the "Edit User Name or Password" button.
 4. Select the "Change Password" link next to the Password field.
 5. Enter your current password followed by the new password you would like and then re-enter that new password.
+
+## Password Criteria
+
+When changing your password, your new USAJOBS account password must:
+
+* Be at least eight characters (20 maximum)
+* Contain at least one number (0-9)
+* Contain at least one uppercase letter (A-Z)
+* Contain at least one lowercase letter (a-z)
+* Contain at least one special character ! @ # $ % ^ & * ( )
+* In addition, if someone can access your email, they may be able to gain access to your USAJOBS account. Make sure that the password to your email is different from your USAJOBS account.
