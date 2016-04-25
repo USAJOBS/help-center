@@ -8,13 +8,16 @@ category: Filters
 tags: [search, filters, location]
 ---
 
-Use this filter to limit results to one location. To add a location refiner to the search results:
+You can use the location filter to limit your search results to one location. You can only select one location filter in the basic search. To select multiple locations, use [advanced search](../../advanced/location/).
 
-1. Select the link **Add Location to Search**
-2. Enter one of city, state, zip code or country in the text box or use the location wizard to find a specific location.
-3. Click the "Add Location" button to add the specified location to the search results you are currently searching on section.
+To filter by location:
 
-Please note: Only one location filter can be selected. To select multiple locations, use [advanced search](../../advanced/location/).
+1. Click **Location** located under the **Refine your results by** section, on the left side of the search results page.
+2. Click **Add Location to Search**.
+2. Enter a city, state, zip code or country in the location text box or choose a location from the State/Territory/Region and Locale list.
+3. Click **Update Search** to add the location to your search results.
+
+Remember, if you want to add more than one location, use [advanced search](../../advanced/location/).
 
 ## Additional Resources
 
