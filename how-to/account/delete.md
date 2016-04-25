@@ -12,9 +12,9 @@ To delete a USAJOBS account, follow the steps below:
 
 1. Sign into your USAJOBS account and go to your [Profile](https://www.usajobs.gov/Applicant/Profile/PersonalInformation)
 2. Click on the Account Information tab.
-3. Scroll down near the bottom of the page and click on the Delete My Account link.
-4. Read the message and click on the Confirm Deletion button in the pop-up box.
-5. Read the message and click the OK button.
+3. Scroll down near the bottom of the page and click on the **Delete My Account** link.
+4. Read the message and click on the **Confirm Deletion** button in the pop-up box.
+5. Read the message and click the **OK** button.
 5. You will receive an email stating when your account will be deleted.
 
 #### Important
