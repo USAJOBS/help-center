@@ -2,8 +2,7 @@
 permalink: /working-in-government/service/
 layout: article
 section: working-in-government
-title: 
-Entering Federal Service
+title: Entering Federal Service
 breadcrumb: Service
 category: working-in-government
 tags: [competitive, non-competitive, service, career, status, eligibility]
