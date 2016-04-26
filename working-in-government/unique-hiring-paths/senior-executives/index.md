@@ -39,6 +39,7 @@ This program helps identify and prepare aspiring senior executive leaders. Once 
 
 ## Additional Resources
 
+* [Senior Executive Service Job Search](https://www.usajobs.gov/SeniorExecutives/)
 * [Comprehensive information about the Senior Executive Service (OPM)](http://www.opm.gov/ses)
 * [Guide to the Senior Executive core qualifications](https://www.opm.gov/policy-data-oversight/senior-executive-service/reference-materials/guidetosesquals_2010.pdf)
 * [Senior Executive Service Pay Table](http://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
