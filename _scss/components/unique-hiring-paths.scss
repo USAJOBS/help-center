@@ -7,24 +7,32 @@
 @import 'base/utilities';
 @import 'base/breakpoints';
 
+$icon-width: rem(68px);
+$icon-padding: $size-default;
+$body-padding: $size-M;
+
 .usajobs-unique-hiring-paths-container {
   @include outer-container();
   max-width: $site-max-width;
-  margin-bottom: $size-XL;
+  background-color: $color-gray-lightest;
+
+  @include media($M) {
+    padding-left: $size-M;
+    padding-right: $size-M;
+  }
+
 }
 
 .usajobs-unique-hiring-paths {
-  &__body {
-    @include clearfix();
-    background-color: $color-white;
-    padding: $size-M 0;
+  @include contentGutter();
 
-    @include media($M) {
-      padding: $size-M;
-    }
-    @include media($M) {
-      margin-left: $size-M;
-      margin-right: $size-M;
+  &__outer-body {
+    @include clearfix();
+    padding: $size-M;
+    background-color: $color-white;
+
+    @include media($ML) {
+      margin-bottom: $size-XL;
     }
   }
 
@@ -43,42 +51,30 @@
 
     .usajobs-unique-hiring-paths__item {
       display: inline-block;
-      float: left;
-      width: 50%;
+      width: 100%;
 
       @include media($ML) {
-        width: 25%;
+        @include span-columns(3,6);
+      }
+
+      &:nth-child(2n) {
+        @include media($ML) {
+          @include omega();
+        }
       }
     }
   }
 
-  &__item {
+  &__list > &__item {
     position: relative;
-    border-bottom: 1px solid $color-gray-lighter;
+    border: 1px solid $color-gray-lighter;
+    border-radius: rem(3px);
+    margin-bottom: $size-default;
+  }
 
-    @include media($ML) {
-      border-left: 1px solid $color-gray-lighter;
-    }
-
-    &:nth-child(2n) {
-      border-left: 1px solid $color-gray-lighter;
-    }
-
-    &.no-bottom-base {
-      border-bottom: 0;
-    }
-
-    &.no-bottom-ML {
-      @include media($ML) {
-        border-bottom: 0;
-      }
-    }
-
-    &.no-left-ML {
-      @include media($ML) {
-        border-left: 0;
-      }
-    }
+  &__im {
+    display: block;
+    font-size: $h4-font-size;
   }
 
   &__icon {
@@ -86,6 +82,7 @@
     display: inline-block;
     padding-bottom: $size-default;
     font-size: $h2-font-size;
+    text-align: center;
   }
 
   &__icon {
@@ -115,22 +112,79 @@
   }
 
   &__link {
-    display: block;
     width: 100%;
-    min-height: rem(225px);
-    padding: $size-M $size-default;
-    color: $color-primary-alt-dark;
-    font-size: $h3-font-size;
-    text-align: center;
+    padding: $size-default $size-S;
+    color: $color-primary;
+
+    @include media($ML) {
+      min-height: rem(215px);
+    }
+    @include media($L) {
+      min-height: rem(170px);
+    }
 
     &:visited {
-      color: $color-primary-alt-dark;
+      color: $color-primary;
     }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__link:hover &__item-title {
+    text-decoration: underline;
+  }
+
+  &__body {
+    padding: 0 $size-default;
+  }
+
+  &__item-title {
+    margin-top: 0;
   }
 
   &__text {
     display: block;
     width: 100%;
-    padding-top: $size-S;
+    margin: 0;
+    color: $color-base;
+  }
+}
+
+
+.no-flexbox .usajobs-unique-hiring-paths {
+  &__link {
+    @include clearfix();
+    display: table;
+  }
+
+  &__figure,
+  &__body {
+    display: table-cell;
+  }
+
+  &__body {
+    @include calc(width, "100% - " ($icon-width + $icon-padding + $body-padding));
+
+    .lt-ie9 & {
+      width: 75%;
+    }
+  }
+}
+
+.flexbox .usajobs-unique-hiring-paths {
+  &__link {
+    @include display(flex);
+    @include align-items(center);
+  }
+
+  &__figure {
+    @include flex-shrink(0);
+  }
+
+  &__body {
+    @include flex(1);
+    min-width: 0;
   }
 }

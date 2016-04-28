@@ -4,21 +4,23 @@
   <head>
     {% include prod-head.html %}
   </head>
-  <body class="usajobs-help-center-home-body">
+  <body>
     <a class="skipnav" href="#main-content">Skip main navigation</a>
     {% include components/nav-help.html %}
     <div class="usajobs-help-center">
-      {% include components/search-banner.html param="home" %}
-      <section class="usajobs-shell">
-        <section class="usajobs-canvas">
-          <div class="usajobs-help-center-home usajobs-content-gutter">
-            <main class="usajobs-content-well-full" id="main-content" role="main">
-              {{ content }}
-            </main>
-          </div>
-          {% include components/unique-hiring-paths.html %}
+      <div class="usajobs-help-center__home-container">
+        {% include components/search-banner.html param="home" %}
+        <section class="usajobs-shell">
+          <section class="usajobs-canvas">
+            <div class="usajobs-help-center-home usajobs-content-gutter">
+              <main class="usajobs-content-well-full" id="main-content" role="main">
+                {{ content }}
+              </main>
+            </div>
+            {% include components/unique-hiring-paths.html %}
+          </section>
         </section>
-      </section>
+      </div>
       {% include components/home-ctas.html %}
     </div>
     {% include components/footer.html %}

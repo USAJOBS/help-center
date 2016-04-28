@@ -13,12 +13,8 @@
 @import 'components/unique-hiring-paths';
 
 // Home page
-.usajobs-help-center-home-body {
+.usajobs-help-center__home-container {
   background-color: $color-gray-lightest;
-
-  .usajobs-shell {
-    background-color: $color-gray-lightest;
-  }
 }
 
 .usajobs-help-center-home,
@@ -241,6 +237,11 @@
 // Individual articles (markdown pages)
 
 .usajobs-help-center-article {
+  // Fix for lack of design system lists in prod
+  .usajobs-content-well ul {
+    @include bulletList();
+  }
+
   &__related {
     margin-top: rem(89px);
   }
