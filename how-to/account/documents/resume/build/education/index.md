@@ -8,25 +8,18 @@ category: resume
 tags: [account, documents, resume, build, education]
 ---
 
-To receive consideration for some Federal positions you must provide information regarding your successful completion of a degree in a particular field from an accredited academic institution. In many cases, it is also important for you to provide information about specific coursework.
+Some Federal positions have education requirements, such as a specific degree or coursework. You can find these requirements in the Qualifications section of the job announcement.
 
-For example, if you are applying for a position with education requirements such as Engineer, Physicist, Accountant, Auditor or Contract/Procurement job, or if you wish to substitute education for experience to qualify for a job, you must include the required degree and coursework information in your resume. The vacancy announcement will specify these requirements.
+If you’re applying to a job with education requirements, you must include the required education and coursework information in your resume. Your degree must be from an accredited academic institution. When education is used to qualify for a position, a Federal agency will ask you to provide a transcript when you apply to a job or upon tentative selection. If you have no degree, but have completed post-secondary courses, you should still provide that information.
 
-When education is used to qualify for a position, Federal agencies will normally ask you to provide a transcript, either when you apply or upon tentative selection. By fully completing all of the blocks in this section, you help ensure that you receive appropriate credit for your academic credentials. If you have no degree, but have completed post-secondary courses, you should still provide that information.
+## Academic Level and School Information
 
+You must provide documentation or proof that your degree(s) is from a school accredited by an accrediting institution recognized by the Secretary, U.S. Department of Education, or that your education meets the other provisions outlined in the OPM Operating Manual.
 
-## School Information
+Education completed outside of the U.S. must be equivalent to accredited U.S. education programs.
 
-It will be your responsibility to provide documentation or proof that your degree(s) is from a school accredited by an accrediting institution recognized by the Secretary, U.S. Department of Education, or that your education meets the other provisions outlined in the OPM Operating Manual.
-
-For information on Educational and Training Provisions or Requirements, refer to the OPM Operating Manual.
-
-For questions relating to foreign education, please refer to the Foreign Education section of the OPM Operating Manual.
-
-
-## Degree/Level Attained
-
-See below for academic level definition:
+[Learn more about education and training requirements](https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-policies/#url=e4).  
+## Academic Level and Degree Definitions 
 
 ### High School or Equivalent
 
@@ -34,7 +27,7 @@ Earned a high school diploma or GED (General Equivalency Diploma).
 
 ### Technical or Occupational Certificate
 
-Received training in a special skill to be pursued in a trade (i.e., mechanical, electrical, carpentry, etc.) or Completed an organized program of study given by a recognized body or authority in a given subject area (i.e., MCSE, Java, CFA, Series 7, etc.)
+Received training in a special skill to be pursued in a trade (i.e., mechanical, electrical, carpentry, etc.) or completed an organized program of study given by a recognized body or authority in a given subject area (i.e., MCSE, Java, CFA, Series 7, etc.)
 
 ### Associate Degree
 
@@ -60,6 +53,6 @@ Earned degree (i.e., PhD), title or rank of doctor from an accredited institutio
 
 Earned a professional degree (i.e., law, medical, dental, etc.) at an accredited institution.
 
-Please be aware that it will be your responsibility to provide documentation or proof that your degree(s) meet the requirements outlined above.
+### What if I’m currently completing my degree?
 
-Please Note: If you are currently completing your degree, select the degree and enter in the expected degree completion date.
+If you’re currently completing your degree, select the degree and enter in the expected degree completion date.
