@@ -25,7 +25,7 @@ To build a resume in USAJOBS:
 * Please note that your USAJOBS resume is on a secure site. After a period of inactivity, your session will time out for your protection. You may wish to **Save** periodically so that you do not lose any work.
 * In order to edit your personal information in your USAJOBS resume-builder resume, choose **Resumes** from the **My Account** menu at the top of the page, then select the "Edit" link located below the resume. This will bring you to the first page of your resume.
 
-### Tips for Formatting Resumes in USAJOBS Resume Builder
+## Tips for Formatting Resumes in USAJOBS Resume Builder
 
 You have the option of copying and pasting text from Word documents into the resume builder to more easily fill in the required information. However, some formatting in these documents may not work in the USAJOBS resume builder. To correct any formatting errors inside your resume, you must first save the original file in a .txt format.
 
@@ -35,7 +35,7 @@ You have the option of copying and pasting text from Word documents into the res
 4. Open the new file and ensure the text appears in an acceptable format
 5. Copy and paste your resume text into the resume builder
 
-### Tips for Submitting Resumes to Agencies
+## Tips for Submitting Resumes to Agencies
 
 Some agencies accept uploaded resumes and resumes created using the USAJOBS resume builder, while some may only accept one or the other. Even though you may have both types of resumes associated with your account, the agency determines which ones to accept when you are applying online. The **Apply** button displayed on the job announcement page activates the process for a job seeker to complete an application.
 
