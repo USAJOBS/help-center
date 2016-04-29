@@ -18,7 +18,7 @@ To build a resume in USAJOBS:
 6. Education Tab: Select **Add Education** button, enter the required information and select the **Save Education** button once completed. To add additional education repeat this step or select the **Next** button to continue to Reference tab.
 7. References tab: Select **Add Reference** button, enter the required information and select the **Save Reference** button once completed. To add an additional reference repeat this step or select the **Next** button to continue to other tab. Note: You may add up to five references on your resume.
 8. Other Tab: The Other tab will allows you to enter additional information on your resume such as job related training, language skills, organizations/affiliations, professional publications, and other information. Select the corresponding button next to the title to add your information, select the **Add/Save** button for each section once completed. Select the **Next** button to continue to Preview and Finish tab.
-9. Preview and Finish Tab: The final page will preview your resume and allow you to print a copy if you wish. If you are satisfied with the resume select **Finish** at the bottom. To edit your information Click the **Previous** button or select on the tab section name at the top.
+9. Preview and Finish Tab: The final page will preview your resume and allow you to print a copy if you wish. If you are satisfied with the resume select **Finish** at the bottom. To edit your information select the **Previous** button or the tab section name at the top.
 
 ### Important Details
 
