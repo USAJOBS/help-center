@@ -8,9 +8,9 @@ section: how-to
 tags: [application, status, tips, support-application-status]
 ---
 
-The Application Status page documents your job application history.
+Navigate to the Application Status page of your account to review updates on your applications.
 
-**Please note**: Application statuses in your USAJOBS account are a direct reflection of an Agency staff personnel input and action. USAJOBS does not have any control over the content or lack of a notification or application status. If you feel you have received an incorrect notification or should have received a notification but did not, please [contact the staffing point of contact on the job announcement](/how-to/application/agency/contact/).
+**Please note**: Application statuses in your USAJOBS account are a direct reflection of an Agency staff personnel input and action. USAJOBS does not have any control over the content or lack of a notification or status of your application. If you feel you have received an incorrect notification or should have received a notification but did not, please [contact the staffing point of contact on the job announcement](/how-to/application/agency/contact/).
 
 ## Application Statuses
 
@@ -60,11 +60,11 @@ Candidate has been offered position.
 
 ## Application Status Tips
 
-* Once you click on the **Apply** button in the job annoucement, the job is automatically added to your application status list whether the application is completed or not.
+* Once you select the **Apply** button in the job annoucement, the job is automatically added to your application status list whether the application is completed or not.
 * An application status remains on your list for 36 months and cannot be deleted prior to the 36-month period.
 * After 36 months, the application status will drop off your list and you will not be able to see or retreive it.
 * We recommend printing the announcements for which you have applied if you wish to keep a record of them beyond the 36-month period.
-* For a more streamlined view of your application status list, you have the ability to hide Applications. Click the **Hide** link to hide the application, and anytime you want to view them click on **View Hidden Applications**. To unhide applications so that they appear on your Application status page again, click the **Unhide** link.
+* For a more streamlined view of your application status list, you have the ability to hide Applications. Select the 'Hide' link to hide the application, and anytime you want to view them select on 'View Hidden Applications'. To unhide applications so that they appear on your Application status page again, select the 'Unhide' link.
 
 
 ## Delayed status on faxed documents
