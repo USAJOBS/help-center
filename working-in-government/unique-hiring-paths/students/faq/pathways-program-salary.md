@@ -8,4 +8,4 @@ category: Unique Hiring Paths
 tags: [student, recent graduates, support-students]
 ---
 
-The job opportunity announcement lists the salary information for every job. The hiring agency makes all compensation decisions.
+The job opportunity announcement lists the salary information. The hiring agency makes all compensation decisions.
