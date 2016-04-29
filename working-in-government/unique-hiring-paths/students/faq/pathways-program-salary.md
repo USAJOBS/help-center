@@ -4,8 +4,8 @@ layout: article
 section: working-in-government
 title: Are Pathways Programs jobs paid?
 breadcrumb: Pathways program salary
-category: Unique Hiring Paths
-tags: [student, recent graduates, support-students]
+category: Pathways
+tags: [student, recent graduates, pathways]
 ---
 
 The job opportunity announcement lists the salary information. The hiring agency makes all compensation decisions.

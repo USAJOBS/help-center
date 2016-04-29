@@ -24,11 +24,13 @@
               {% assign sorted_pages = site.pages | sort:"title" %}
               {% for node in sorted_pages %}
                 {% if node.category == page.category %}
+                  {% if node.exclude_from_category != true %}
                 <li>
                   <a href="{{ base }}{{ node.url }}">
                     {{ node.title }}
                   </a>
                 </li>
+                  {% endif %}
                 {% endif %}
               {% endfor %}
               </ul>

@@ -4,8 +4,8 @@ layout: article
 section: working-in-government
 title: What employee benefits may be available to Pathways participants?
 breadcrumb: Pathways program benefits
-category: Unique Hiring Paths
-tags: [student, recent graduates, support-students]
+category: Pathways
+tags: [student, recent graduates, pathways]
 ---
 
 Recent graduates and Presidential Management Fellows are generally eligible for:

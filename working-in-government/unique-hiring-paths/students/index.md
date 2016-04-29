@@ -46,4 +46,5 @@ Please contact <a href="mailto:pathways@opm.gov">pathways@opm.gov</a> with any i
 ## Additional Resources
 
 * [Federal occupations by college major](federal-occupations-by-college-major/)
+* [Pathways FAQs](faq/)
 * [Pathways Program](https://www.usajobs.gov/StudentsAndGrads/)

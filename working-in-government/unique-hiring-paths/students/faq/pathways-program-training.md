@@ -4,8 +4,8 @@ layout: article
 section: working-in-government
 title: What types of training are available to Pathways participants?
 breadcrumb: Pathways programs training
-category: Unique Hiring Paths
-tags: [student, recent graduates, support-students]
+category: Pathways
+tags: [student, recent graduates, pathways]
 ---
 
 Interns, recent graduates and Presidential Management Fellows (PMFs) receive on-the-job training.

@@ -49,6 +49,7 @@
 .usajobs-help-center-landing,
 .usajobs-help-center-sub-section,
 .usajobs-help-center-singleton {
+  @include clearfix();
   margin-bottom: $size-XXL;
 }
 

@@ -751,6 +751,14 @@ html {
   margin-bottom: 7.5rem;
 }
 
+.usajobs-help-center-landing::after,
+.usajobs-help-center-sub-section::after,
+.usajobs-help-center-singleton::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 .usajobs-help-center-home {
   padding: 3rem;
   background-color: #f1f1f1;
