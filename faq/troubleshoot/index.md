@@ -17,7 +17,6 @@ We support the current and prior major releases of:
 * [Chrome](https://www.google.com/chrome/)
 * [Firefox](http://www.mozilla.org/firefox/)
 * [Safari](http://www.apple.com/safari/)
-* [Microsoft Edge](http://www.browserfordoing.com/)
 * [Internet Explorer 11](http://ie.microsoft.com/)
 
 All of the designs meet the [WCAG 2.0 AA accessibility guidelines](http://www.w3.org/TR/WCAG20/) and are compliant with [Section 508 of the Rehabilitation Act](http://www.section508.gov/).
@@ -37,7 +36,3 @@ New browsers are more likely to be:
 * Faster at loading pages.
 * Less likely to crash.
 * Able to automatically update to the latest version or notify you that an update is available.
-
-### What can I do if I am stuck on Internet Explorer 6, 7, 8 or 9?
-
-If you cannot upgrade your browser to the latest version you may be able to install [Google Chrome Frame](https://tools.google.com/dlpage/chromeframe?prefersystemlevel=true), which is a free plug-in, for older versions of Internet Explorer. Even though Google no longer supports Chrome Frame, it is more recent and will provide a more stable experience than those older versions of Internet Explorer.
