@@ -14,7 +14,7 @@ A completed profile is required to apply to jobs on USAJOBS. If you are receivin
 
 You will need to agree to continue to your [Profile](https://www.usajobs.gov/Applicant/Profile/PersonalInformation/) in USAJOBS and complete all the required fields within the 5 sections of your Profile.
 
-### 5 sections of your Profile
+#### 5 Sections of Profile
 1. Contact Information
 2. Hiring Eligibility
 3. Demographics
