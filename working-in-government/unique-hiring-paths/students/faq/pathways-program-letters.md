@@ -1,5 +1,5 @@
 ---
-permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-letters
+permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-letters/
 layout: article
 section: working-in-government
 title: Are letters of recommendation required to obtain a Pathways Programs job?

@@ -1,5 +1,5 @@
 ---
-permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-veteran
+permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-veteran/
 layout: article
 section: working-in-government
 title: Does veterans’ preference apply to the Pathways Programs jobs?

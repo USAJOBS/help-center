@@ -1,5 +1,5 @@
 ---
-permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-salary
+permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-salary/
 layout: article
 section: working-in-government
 title: Are Pathways Programs jobs paid?

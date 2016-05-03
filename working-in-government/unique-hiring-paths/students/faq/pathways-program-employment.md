@@ -1,5 +1,5 @@
 ---
-permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-employment
+permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-employment/
 layout: article
 section: working-in-government
 title: Do Pathways Programs jobs lead to permanent employment?

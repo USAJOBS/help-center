@@ -1,5 +1,5 @@
 ---
-permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-training
+permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-training/
 layout: article
 section: working-in-government
 title: What types of training are available to Pathways participants?

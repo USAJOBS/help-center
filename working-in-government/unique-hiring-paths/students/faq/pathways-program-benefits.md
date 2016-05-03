@@ -1,5 +1,5 @@
 ---
-permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-benefits
+permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-benefits/
 layout: article
 section: working-in-government
 title: What employee benefits may be available to Pathways participants?

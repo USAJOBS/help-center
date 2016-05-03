@@ -1,5 +1,5 @@
 ---
-permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-relatives
+permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-relatives/
 layout: article
 section: working-in-government
 title: If my relative is employed at an agency, may I still apply for a Pathways Programs job there?

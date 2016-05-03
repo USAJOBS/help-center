@@ -1,5 +1,5 @@
 ---
-permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-jobs
+permalink: /working-in-government/unique-hiring-paths/students/faq/pathways-program-jobs/
 layout: article
 section: working-in-government
 title: Where can I find Pathways Programs Jobs?
