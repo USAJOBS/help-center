@@ -10,7 +10,7 @@ tags: [search, advanced, occupational series, pay, grade]
 
 Occupations in the Federal Government are designated professional (general schedule) or trade, crafts, or labor (wage grade), and are further categorized and defined by series and/or grade. Following is a list of the occupational "families" and a description of what types of positions are included in each.
 
-## Profesional occupations
+## Professional occupations
 
 The following job families are classified as Professional Occupations. These are positions whose primary duty requires knowledge or experience of an administrative, clerical, scientific, artistic, or technical nature and is not related to trade, craft, or manual labor work.
 
@@ -56,11 +56,11 @@ Positions whose duties are to advise on, administer, supervise, or perform work 
 
 ### 1000 – Information and Arts
 
-Positions that involve professional, artistic, technical, or clerical work in: (1) the communication of information and ideas through verbal, visual, or pictorial means; (2) the collection, custody, presentation, display, and interpretation of art works, cultural objects, and other artifacts; or (3) a branch of fine or applied arts such as industrial design, interior design, or musical composition. Positions in this group require writing, editing, and language ability; artistic skill and ability; knowledge of foreign languages; the ability to evaluate and interpret informational and cultural materials; or the practical application of technical or esthetic principles combined with manual skill and dexterity; or related clerical skills.
+Positions that involve professional, artistic, technical, or clerical work in: (1) the communication of information and ideas through verbal, visual, or pictorial means; (2) the collection, custody, presentation, display, and interpretation of art works, cultural objects, and other artifacts; or (3) a branch of fine or applied arts such as industrial design, interior design, or musical composition. Positions in this group require writing, editing, and language ability; artistic skill and ability; knowledge of foreign languages; the ability to evaluate and interpret informational and cultural materials; or the practical application of technical or aesthetic principles combined with manual skill and dexterity; or related clerical skills.
 
 ### 1100 – Business and Industry
 
-Positions whose duties are to advise on, administer, supervise, or perform work pertaining to and requiring a knowledge of business and trade practices, characteristics and use of equipment, products, or property, or industrial production methods and processes, including the conduct of investigations and studies; the collection, analysis, and dissemination of information; the establishment and maintenance of contacts with industry and commerce; the provision of advisory services; the examination and appraisement of merchandise or property; and the administration of regulatory provisions and controls.
+Positions whose duties are to advise on, administer, supervise, or perform work pertaining to and requiring a knowledge of business and trade practices, characteristics and use of equipment, products, or property, or industrial production methods and processes, including the conduct of investigations and studies; the collection, analysis, and dissemination of information; the establishment and maintenance of contacts with industry and commerce; the provision of advisory services; the examination and appraisal of merchandise or property; and the administration of regulatory provisions and controls.
 
 ### 1200 – Copyright, Patent, and Trademark
 
@@ -133,7 +133,7 @@ Occupations that involve fabricating, assembling, calibrating, testing, installi
 
 ### 3400 – Machine Tool Work
 
-Occupations that involve setting up and operating machine tools and using hand tools to make or repair (shape, fit, finish, assemble) metal parts, tools, gauges, models, patterns, mechanisms, and machines; and machining explosives and synthetic materials.
+Occupations that involve setting up and operating machine tools and using hand tools to make or repair (shape, fit, finish, assemble) metal parts, tools, gages, models, patterns, mechanisms, and machines; and machining explosives and synthetic materials.
 
 ### 3500 – General Services and Support Work
 
@@ -163,13 +163,13 @@ Occupations involved in making precision optical elements, crystal blanks or waf
 
 Occupations that involve hand or spray painting and decorating interiors and exteriors of buildings, structures, aircraft, vessels, mobile equipment, fixtures, furnishings, machinery, and other surfaces; finishing hardwoods, furniture, and cabinetry; painting signs; covering interiors of rooms with strips of wallpaper or fabric, etc.
 
-### 4200 – Plumbing and Pipefitting
+### 4200 – Plumbing and Pipe-fitting
 
 Occupations that involve the installation, maintenance, and repair of water, air, steam, gas, sewer, and other pipelines and systems, and related fixtures, apparatus, and accessories.
 
 ### 4300 – Pliable Materials Work
 
-Occupations involved in shaping, forming, and repairing items and parts from non-metallic moldable materials such as plastic, rubber, clay, wax, plaster, glass, sand, or other similar materials.
+Occupations involved in shaping, forming, and repairing items and parts from non-metallic mold-able materials such as plastic, rubber, clay, wax, plaster, glass, sand, or other similar materials.
 
 ### 4400 – Printing Family
 

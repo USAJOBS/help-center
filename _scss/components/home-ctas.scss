@@ -9,9 +9,6 @@
 
 .usajobs-help-center-home__start-about-container {
   @include media($M) {
-    margin-left: -$size-M;
-    margin-right: -$size-M;
-    padding: 0 $size-M;
     background-image: linear-gradient(to right, $color-cool-blue, $color-cool-blue 50%, $color-gray-dark 50%, $color-gray-dark 100%);
   }
 }
