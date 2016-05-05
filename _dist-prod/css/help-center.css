@@ -327,9 +327,6 @@ html {
 
 @media screen and (min-width: 37.5em) {
   .usajobs-help-center-home__start-about-container {
-    margin-left: -3rem;
-    margin-right: -3rem;
-    padding: 0 3rem;
     background-image: linear-gradient(to right, #205493, #205493 50%, #323a45 50%, #323a45 100%);
   }
 }
