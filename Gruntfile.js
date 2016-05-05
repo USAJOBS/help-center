@@ -181,6 +181,23 @@ module.exports = function(grunt) {
       postDeploy: {
         site: 'usajobs.github.io/Help/'
       }
+    },
+    spell: {
+      files: [
+        'how-to/*',
+        'how-to/*/*',
+        'how-to/*/*/*',
+        'how-to/*/*/*/*',
+        'how-to/*/*/*/*/*',
+        'how-to/*/*/*/*/*/*',
+        'how-to/*',
+        'how-to/*/*',
+        'how-to/*/*/*',
+        'how-to/*/*/*/*',
+        'how-to/*/*/*/*/*',
+        'how-to/*/*/*/*/*/*'
+
+      ]
     }
   });
 
