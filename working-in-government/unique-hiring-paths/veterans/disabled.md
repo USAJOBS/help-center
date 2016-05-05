@@ -14,8 +14,8 @@ tags: [veterans, disabled, hiring authority]
 
 You are eligible if you:
 
-* retired from active military service with a service-connected disability rating of 30% or more; OR
-* you have a rating by the Department of Veterans Affairs showing a compensable service-connected disability of 30% or more.
+* Retired from active military service with a service-connected disability rating of 30% or more; OR
+* You have a rating by the Department of Veterans Affairs showing a compensable service-connected disability of 30% or more.
 
 ## Disabled Veterans Enrolled in a VA Training Program
 
@@ -23,8 +23,7 @@ Disabled veterans eligible for training under the VA vocational rehabilitation p
 
 ## Schedule A Appointing Authority
 
-Though not specifically for veterans, the [Schedule A authority for people with disabilities](/working-in-government/unique-hiring-paths/individuals-with-disabilities/) is an excepted authority that agencies can use to appoint eligible veterans who have a severe physical, psychological, or intellectual disability.
-
+Though not specifically for veterans, the [Schedule A authority for people with disabilities](../../individuals-with-disabilities/) is an excepted authority that agencies can use to appoint eligible veterans who have a severe physical, psychological, or intellectual disability.
 
 ## Additional Resources
 

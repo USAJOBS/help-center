@@ -15,5 +15,5 @@ The "Who May Apply" search filter will allow you to filter search results in two
 
 ## Additional Resources
 
-* [Office of Personnel Management: Hiring Authorities](http://www.opm.gov/hr_practitioners/lawsregulations/appointingauthorities/index.asp#InterchangeAgreementsWithOtherMeritSystems)
+* [Office of Personnel Management: Hiring Authorities](https://www.opm.gov/policy-data-oversight/hiring-information/hiring-authorities/)
 * [Veterans Employment Opportunities Act (VEOA)](https://www.fedshirevets.gov/job/shav/index.aspx/)

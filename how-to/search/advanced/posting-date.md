@@ -8,7 +8,7 @@ category: Advanced Search
 tags: [search, advanced, posting date, exclude]
 ---
 
-There are two options in [advanced search](/how-to/search/advanced/) under [Posting Date](https://www.usajobs.gov/Search/AdvancedSearch/#idAdditionalOptions) that allow for searching by the date that a job announcement was posted.
+There are two options in [advanced search](../) under [Posting Date](https://www.usajobs.gov/Search/AdvancedSearch/#idAdditionalOptions) that allow for searching by the date that a job announcement was posted.
 
 #### Exclude posting for jobs open longer than 30 days?
 

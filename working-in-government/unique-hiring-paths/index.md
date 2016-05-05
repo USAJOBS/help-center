@@ -8,7 +8,7 @@ category: working-in-government
 tags: [federal employees, oversears, disabilities, military spouse, peace corps, americorops, ses, students, veterans]
 ---
 
-[Hiring authorities](https://www.opm.gov/policy-data-oversight/hiring-authorities/) are a way for the Federal Government to hire individuals who may fall under one of the following groups of people, including: 
+[Hiring authorities](https://www.opm.gov/policy-data-oversight/hiring-information/hiring-authorities/) are a way for the Federal Government to hire individuals who may fall under one of the following groups of people, including:
 
 * [Federal employees](federal-employees/)
 * [Former overseas employees](former-overseas-employees/)
@@ -21,9 +21,9 @@ tags: [federal employees, oversears, disabilities, military spouse, peace corps,
 
 If you fall under one of these groups, you may be eligible to apply for certain jobs or receive preference through a hiring authority.  For example, if you’re a veteran, you may be eligible for hiring authorities specific to veterans.
 
-Hiring authorities are policies established by law or executive order, so there are exceptions to the rules.  [Get all the details for each hiring authority](https://www.opm.gov/policy-data-oversight/hiring-authorities/) at opm.gov.
+Hiring authorities are policies established by law or executive order, so there are exceptions to the rules.  [Get all the details for each hiring authority](https://www.opm.gov/policy-data-oversight/hiring-information/hiring-authorities/) at [opm.gov](https://www.opm.gov/).
 
 
 ## Additional Resources
 
-* [Hiring Authorities (OPM)](http://www.opm.gov/policy-data-oversight/hiring-authorities/)
+* [Hiring Authorities (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/hiring-authorities/)

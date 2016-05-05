@@ -7,6 +7,7 @@ breadcrumb: Profile (eligibility)
 category: Advanced Search
 tags: [search, advanced, who may apply, profile, eligibility]
 exclude_from_search: true
+exclude_from_category: true
 ---
 
 #### No - I do not fall into one of these categories and only want to see jobs that are publicly available.
@@ -20,9 +21,9 @@ Select this option if:
 * You are a federal employee that holds a [career appointment](../../../../working-in-government/unique-hiring-paths/federal-employees/)
 * You are a Veteran that claims [Veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or [VEOA eligibility](../../../../working-in-government/unique-hiring-paths/veterans/veoa/)
 
-[Which jobs am I eligibile to apply for?](/faq/application/eligibility/)
+[Which jobs am I eligibile to apply for?](../../../../faq/application/eligibility/)
 
 ## Additional Resources
 
 * [Service](/working-in-government/service/)
-* [How to determine federal employment status](/how-to/account/profile/eligibility/federal-employment-status/)
+* [How to determine federal employment status](../../../account/profile/eligibility/federal-employment-status/)

@@ -41,5 +41,5 @@ Neither type of appointment is a permanent one, so they do **not** give the empl
 
 ## Additional Resources
 
-* [Hiring Authorities - Competitive Hiring (OPM)](https://www.opm.gov/policy-data-oversight/hiring-authorities/competitive-hiring/)
-* [Types of Appointments (OPM)](https://www.opm.gov/policy-data-oversight/hiring-authorities/competitive-hiring/#url=Types-of-Appointments)
+* [Hiring Authorities - Competitive Hiring (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/)
+* [Types of Appointments (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Types-of-Appointments)

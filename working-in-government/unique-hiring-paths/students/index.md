@@ -10,9 +10,9 @@ tags: [student, recent graduates, support-students]
 
 The Pathways Program offers federal internship and employment opportunities for current students, recent graduates and those with an advanced degree.  There are three different paths available:
 
-1. [Internship Program](https://www.opm.gov/policy-data-oversight/hiring-authorities/students-recent-graduates/#intern)
-2. [Recent Graduates Program](https://www.opm.gov/policy-data-oversight/hiring-authorities/students-recent-graduates/#graduates)
-3. [Presidential Management Fellows (PMF) Program](https://www.opm.gov/policy-data-oversight/hiring-authorities/students-recent-graduates/#pmf)
+1. [Internship Program](https://www.opm.gov/policy-data-oversight/hiring-information/students-recent-graduates/#url=intern)
+2. [Recent Graduates Program](https://www.opm.gov/policy-data-oversight/hiring-information/students-recent-graduates/#url=graduates)
+3. [Presidential Management Fellows (PMF) Program](https://www.opm.gov/policy-data-oversight/hiring-information/students-recent-graduates/#url=pmf)
 
 ## Eligibility
 
@@ -20,7 +20,7 @@ The Pathways Program offers federal internship and employment opportunities for 
 
 The internship program is for current students. If you’re a current student in high school, college, trade school or other qualifying educational institution, you may be eligible. This program offers paid opportunities to work in federal agencies and explore federal careers while completing your education.
 
-[Learn more about the internship program.](https://www.opm.gov/policy-data-oversight/hiring-authorities/students-recent-graduates/#url=Program-Fact-Sheets)
+[Learn more about the internship program.](https://www.opm.gov/policy-data-oversight/hiring-information/students-recent-graduates/#url=intern)
 
 ### Recent Graduates Program
 
@@ -28,7 +28,7 @@ The recent graduate program is for those who have graduated, within the past two
 
 You must apply within two years of getting your degree or certificate (veterans have up to six years to apply due to their military service obligation).
 
-[Learn more about the recent graduate program.](https://www.opm.gov/policy-data-oversight/hiring-authorities/students-recent-graduates/#url=Program-Fact-Sheets)
+[Learn more about the recent graduate program.](https://www.opm.gov/policy-data-oversight/hiring-information/students-recent-graduates/#url=graduates)
 
 #### Presidential Management Fellows (PMF) Program
 

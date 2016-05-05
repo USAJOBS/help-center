@@ -14,4 +14,4 @@ An employee may transfer to a position at the same, higher, or lower grade level
 
 ## Additional Resources
 
-* [Details & Transfers (OPM)](https://www.opm.gov/policy-data-oversight/hiring-authorities/details-transfers/)
+* [Details & Transfers (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/details-transfers/)

@@ -7,6 +7,7 @@ breadcrumb: Profile (eligibility)
 category: Filters
 tags: [search, filters, profile]
 exclude_from_search: true
+exclude_from_category: true
 ---
 
 The **Profile - Eligibility** search filter appears once you are logged in and have completed the [Eligibilty](https://www.usajobs.gov/Applicant/Profile/HiringEligibilityData/) section of your profile. Once that section is complete filters will appear here based on your answers to those eligibility questions.
