@@ -25,5 +25,5 @@ Select this option if:
 
 ## Additional Resources
 
-* [Service](/working-in-government/service/)
+* [Service](../../../../working-in-government/service/)
 * [How to determine federal employment status](../../../account/profile/eligibility/federal-employment-status/)

@@ -544,13 +544,13 @@
   &__help-sections .how-to.fa {
     @include makeCircle(48px, $color-green, none, $color-green);
     box-shadow: inset 0 0 0 3px $color-green;
-    margin-left: $size-XXL;
+    margin-left: $size-XL;
   }
 
   &__help-sections .working-in-government.fa {
     @include makeCircle(48px, $color-gold, none, $color-gold);
     box-shadow: inset 0 0 0 3px $color-gold;
-    margin-left: $size-XXL;
+    margin-left: $size-XL;
 
     &:before {
       margin-right: -3px;

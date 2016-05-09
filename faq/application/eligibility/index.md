@@ -49,5 +49,5 @@ In addition, certain veterans eligible under the [Veterans Employment Opportunit
 
 ## Additional Resources
 
-* [Office of Personnel Management: Hiring Authorities](http://www.opm.gov/hr_practitioners/lawsregulations/appointingauthorities/index.asp#InterchangeAgreementsWithOtherMeritSystems)
+* [Hiring Authorities (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/hiring-authorities/)
 * [Veterans Employment Opportunities Act (VEOA)](https://www.fedshirevets.gov/job/shav/index.aspx/)
