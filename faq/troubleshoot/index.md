@@ -17,7 +17,7 @@ We support the current and prior major releases of:
 * [Chrome](https://www.google.com/chrome/)
 * [Firefox](http://www.mozilla.org/firefox/)
 * [Safari](http://www.apple.com/safari/)
-* [Internet Explorer 11](http://ie.microsoft.com/)
+* [Internet Explorer](http://ie.microsoft.com/)
 
 All of the designs meet the [WCAG 2.0 AA accessibility guidelines](http://www.w3.org/TR/WCAG20/) and are compliant with [Section 508 of the Rehabilitation Act](http://www.section508.gov/).
 
