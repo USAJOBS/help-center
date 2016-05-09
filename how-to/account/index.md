@@ -23,7 +23,7 @@ tags: [account, support-create-account]
 
 ## Accounts, passwords, and security
 
-As the USAJOBS account holder, you are responsible for maintaining the confidentiality of your account, notably your password, and for any and all activity that occurs under your account as a result of failing to keep this information secure and confidential. You agree to notify USAJOBS USAJOBS Support immediately of any unauthorized use of your account or password, or any other breach of security. You may not use anyone else’s USAJOBS account at any time.
+As the USAJOBS account holder, you are responsible for maintaining the confidentiality of your account, notably your password, and for any and all activity that occurs under your account as a result of failing to keep this information secure and confidential. You agree to notify USAJOBS Support immediately of any unauthorized use of your account or password, or any other breach of security. You may not use anyone else’s USAJOBS account at any time.
 
 To help with these precautions, please follow these tips:
 
