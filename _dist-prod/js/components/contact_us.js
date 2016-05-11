@@ -32,6 +32,9 @@ $help.on('help.open', function(event, opts) {
     opts.object.find('#contactOptionalData').attr('aria-hidden', 'false');
   }
 
-  // Enabled the send button
-  $send_button.removeAttr('disabled');
+  if (opts.selected_id !== '0') {
+    $send_button.removeAttr('disabled');
+  } else {
+    $send_button.attr('disabled', 'disabled');
+  }
 });

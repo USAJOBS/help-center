@@ -1107,10 +1107,6 @@ html {
   color: #0071bc;
 }
 
-.usajobs-help-center-contact-us__legend {
-  width: 100%;
-}
-
 .usajobs-video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -1554,5 +1550,77 @@ html {
 
 .usajobs-help-center-about-learn-more__help-sections .working-in-government.fa:before {
   margin-right: -3px;
+}
+
+.usajobs-help-center-contact-us {
+  max-width: 108.8em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.usajobs-help-center-contact-us::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.usajobs-help-center-contact-us__legend {
+  width: 100%;
+}
+
+.usajobs-help-center-contact-us__help-legend {
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 37.5em) {
+  .usajobs-help-center-contact-us__help-legend {
+    display: block;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-contact-us__help-legend {
+    display: inline-block;
+    float: right;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-contact-us__col {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 48.821174201%;
+  }
+  .usajobs-help-center-contact-us__col:last-child {
+    margin-right: 0;
+  }
+}
+
+.usajobs-help-center-contact-us__col:last-child {
+  margin-right: 0;
+}
+
+.usajobs-form__help-brief {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  max-width: 46rem;
+}
+
+.usajobs-button_bar--slim {
+  margin: 3rem 0 6rem;
+  background-color: inherit;
+  border-top: 1px solid #d6d7d9;
+}
+
+.usajobs-button_bar--slim .usajobs-button_bar__body {
+  padding: 0;
+  text-align: right;
+}
+
+.usajobs-button_bar--slim .usajobs-button_bar__save {
+  display: inline-block;
+  float: none;
 }
 /*# sourceMappingURL=help-center.css.map */
