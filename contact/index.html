@@ -28,29 +28,29 @@ exclude_from_category: true
       <select data-val="true" data-val-required="Contact reason is required." id="SelectedContactReason" name="SelectedContactReason" class="valid form-control" data-behavior="help.open" aria-controls="usajobs-help-context">
         <option selected="selected" value="0">Please select</option>
         <optgroup label="Account">
-          <option value="13">Sign In/Password</option>
-          <option value="11">Creating an Account</option>
-          <option value="12">Deleting an Account</option>
-          <option value="15">Profile</option>
-          <option value="14">Resumes</option>
-          <option value="16">Documents</option>
+          <option value="sign-in-password">Sign In/Password</option>
+          <option value="creating-an-account">Creating an Account</option>
+          <option value="deleting-an-account">Deleting an Account</option>
+          <option value="profile">Profile</option>
+          <option value="resumes">Resumes</option>
+          <option value="documents">Documents</option>
         </optgroup>
         <optgroup label="Application Process">
-          <option value="19">Application Status</option>
-          <option value="17">Submitting an Application</option>
-          <option value="18">Updating My Application</option>
+          <option value="application-status">Application Status</option>
+          <option value="submitting-an-application">Submitting an Application</option>
+          <option value="updating-my-application">Updating My Application</option>
         </optgroup>
         <optgroup label="Search">
-          <option value="6">Basic Search</option>
-          <option value="7">Advanced Search</option>
-          <option value="8">Search Results</option>
-          <option value="9">Saved Search</option>
-          <option value="10">Saved Jobs</option>
+          <option value="basic-search">Basic Search</option>
+          <option value="advanced-search">Advanced Search</option>
+          <option value="search-results">Search Results</option>
+          <option value="saved-search">Saved Search</option>
+          <option value="saved-jobs">Saved Jobs</option>
         </optgroup>
         <optgroup label="Miscellaneous">
-          <option value="21">Pathways Programs</option>
-          <option value="4" class="noContent">Suggestions to Improve USAJOBS</option>
-          <option value="5" class="noContent">Other</option>
+          <option value="pathways-programs">Pathways Programs</option>
+          <option value="suggestions-to-improve-usajobs" class="noContent">Suggestions to Improve USAJOBS</option>
+          <option value="other" class="noContent">Other</option>
         </optgroup>
       </select>
 
@@ -62,86 +62,89 @@ exclude_from_category: true
         <ul class="usa-unstyled-list">
           {% for page in site.pages %}
             {% if page.tags contains 'support-sign-in' %}
-          <li class="usajobs-help-topic sign-in 13" aria-hidden="true">
+          <li class="usajobs-help-topic sign-in-password" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-password' %}
-          <li class="usajobs-help-topic password 13" aria-hidden="true">
+          <li class="usajobs-help-topic sign-in-password" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-create-account' %}
-          <li class="usajobs-help-topic create-account 11" aria-hidden="true">
+          <li class="usajobs-help-topic creating-an-account" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-delete-account' %}
-          <li class="usajobs-help-topic delete-account 12" aria-hidden="true">
+          <li class="usajobs-help-topic deleting-an-account" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-profile' %}
-          <li class="usajobs-help-topic profile 15" aria-hidden="true">
+          <li class="usajobs-help-topic profile" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-resume' %}
-          <li class="usajobs-help-topic resume 14" aria-hidden="true">
+          <li class="usajobs-help-topic resumes" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-documents' %}
-          <li class="usajobs-help-topic documents 16" aria-hidden="true">
+          <li class="usajobs-help-topic documents" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-application-status' %}
-          <li class="usajobs-help-topic application-status 19" aria-hidden="true">
+          <li class="usajobs-help-topic application-status" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-application-create' %}
-          <li class="usajobs-help-topic application-create 17" aria-hidden="true">
+          <li class="usajobs-help-topic application-create submitting-an-application" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-application-update' %}
-          <li class="usajobs-help-topic application-update 18" aria-hidden="true">
+          <li class="usajobs-help-topic application-update updating-my-application" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-search-basic' %}
-          <li class="usajobs-help-topic search-basic 6" aria-hidden="true">
+          <li class="usajobs-help-topic search-basic basic-search" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-search-advanced' %}
-          <li class="usajobs-help-topic search-advanced 7" aria-hidden="true">
+          <li class="usajobs-help-topic search-advanced advanced-search" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-search-results' %}
-          <li class="usajobs-help-topic search-results 8" aria-hidden="true">
+          <li class="usajobs-help-topic search-results" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-search-save' %}
-          <li class="usajobs-help-topic search-save 9" aria-hidden="true">
+          <li class="usajobs-help-topic search-save saved-search" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-save-job' %}
-          <li class="usajobs-help-topic save-job 10" aria-hidden="true">
+          <li class="usajobs-help-topic save-job saved-jobs" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
             {% if page.tags contains 'support-students' %}
-          <li class="usajobs-help-topic save-job 21" aria-hidden="true">
+          <li class="usajobs-help-topic pathways-programs" aria-hidden="true">
             <a href="{{site.baseurl}}{{page.url}}">{{page.title}}</a>
           </li>
             {% endif %}
           {% endfor %}
+          <li class="usajobs-help-topic suggestions-to-improve-usajobs other" aria-hidden="true">
+            <a href="{{site.baseurl}}/about/">About USAJOBS</a>
+          </li>
         </ul>
 
         <label class="labeltext" for="Comment">Question / Comment</label>
