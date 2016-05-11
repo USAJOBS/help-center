@@ -16,15 +16,17 @@ exclude_from_category: true
 </p>
 
 <form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form" action="/Help/Support/" method="post" novalidate="novalidate">
-  <fieldset class="usajobs-form-grid" data-object="help.contact_us">
+  <fieldset class="usajobs-help-center-contact-us" data-object="help.contact_us">
     <legend class="usajobs-help-center-contact-us__legend">
       Select a support topic
-      <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+      <span class="usajobs-form__legend usajobs-help-center-contact-us__help-legend">
+        All fields are required unless otherwise noted
+      </span>
     </legend>
-    <div class="usajobs-form-grid__col">
+    <div class="usajobs-help-center-contact-us__col">
       <label for="SelectedContactReason">Topic</label>
       <select data-val="true" data-val-required="Contact reason is required." id="SelectedContactReason" name="SelectedContactReason" class="valid form-control" data-behavior="help.open" aria-controls="usajobs-help-context">
-        <option selected="selected" value="">Please select</option>
+        <option selected="selected" value="0">Please select</option>
         <optgroup label="Account">
           <option value="13">Sign In/Password</option>
           <option value="11">Creating an Account</option>
@@ -153,8 +155,7 @@ exclude_from_category: true
         </div>
       </div>
     </div>
-
-    <div class="usajobs-form-grid__col">
+    <div class="usajobs-help-center-contact-us__col">
       <input data-val="true" data-val-required="The ViewID field is required." id="ViewID" name="ViewID" type="hidden" value="3046296f-e40e-495e-bfb6-12d22bd1a32e">
 
       <!-- FirstName -->
@@ -180,11 +181,11 @@ exclude_from_category: true
 
       <!-- PhoneNumber -->
       <div class="optional-input">
-        <label class="labeltext" for="PhoneNumber">
+        <label for="PhoneNumber">
           Phone Number <span class="usa-additional_text">Optional</span>
         </label>
         <span class="field-validation-valid usa-input-error-message" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
-        <input class="form-control" data-val="true" data-val-regex="- Phone number is not valid." data-val-regex-pattern="^([0-9+\-()x ]){1,30}$" id="PhoneNumber" maxlength="30" name="PhoneNumber" type="text" value="" required aria-required="true">
+        <input class="form-control" data-val="true" data-val-length="A phone number must be 25 characters or less." data-val-length-max="25" data-val-regex="A phone number may contain only numbers and any of the following characters (.),(+),(\),(/),(-), space, and left and right parentheses." data-val-regex-pattern="^[0-9.\-+\\/() ]+$" id="PhoneNumber" maxlength="25" name="PhoneNumber" type="text" value="">
         <p class="usajobs-form__help-brief">
           Please provide your phone number, for a help desk technician to call, if additional information is needed to assist you.
         </p>

@@ -5,14 +5,14 @@ section: how-to
 title: How to save a search
 breadcrumb: Save
 category: Search
-tags: [search, save]
+tags: [search, save, support-search-save]
 ---
 
-You can save a search to help you look for jobs in your area of interest. When you save a search, USAJOBS will automatically look for jobs that match the keywords and other criteria in your search. We will email you, daily, weekly or monthly, when there are new jobs that match what you’re looking for.  
+You can save a search to help you look for jobs in your area of interest. When you save a search, USAJOBS will automatically look for jobs that match the keywords and other criteria in your search. We will email you, daily, weekly or monthly, when there are new jobs that match what you’re looking for.
 
 You can create and save up to 10 saved searches. For example, you can save a search looking for all Program Analyst jobs in Washington D.C. and another search for all Program Analysts jobs at the Department of Energy.
 
-The saved search will expire one year after you create it. 
+The saved search will expire one year after you create it.
 
 ### To save a search:
 
