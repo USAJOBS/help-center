@@ -11,7 +11,7 @@ If you have a USAJOBS account, you can save up to 10 job announcements. Click th
 
 ## Manage your saved jobs in your account
 
-When you log into your USAJOBS account and profile, you’ll see the tab **Saved Jobs**.  The Saved Jobs displays each job announcement you save on USAJOBS. Here’s what you can do:
+When you log into your USAJOBS account, you’ll see **Saved Jobs**.  The Saved Jobs displays each job announcement you save on USAJOBS. Here’s what you can do:
 
 ### Sort your saved jobs
 By default, the most recent saved jobs are listed at the top, but you can sort by:
@@ -25,7 +25,7 @@ By default, the most recent saved jobs are listed at the top, but you can sort b
 You can receive an email any time a saved job is scheduled to close in three calendar days. To receive email notifications, click on the **Notifications** icon and select the checkbox. 
 
 ### View job announcement information
-Click the **+** to announcementsee more details about the saved job. Each saved job shows a summary including:
+Click the **+** to see more details about the saved job. Each saved job shows a summary including:
 
 * Position title
 * Hiring agency
