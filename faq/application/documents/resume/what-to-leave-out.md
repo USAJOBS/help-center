@@ -9,11 +9,9 @@ tags: [application, resume, support-resume]
 ---
 
 Do not include the following types of information in your profile or resume:
-
-* Classified information, as defined in Executive Order 13526 (dated December 29, 2009)
+* Classified or government sensitive information
 * Social Security Number (SSN)
-* Other forms of personal sensitive information you do not wish to be made visible to recruiters.
+* Photos of yourself
+* Personal information, such as age, gender, religious affiliation, etc.
+* Encrypted and digitally signed documents
 
-## Government Sensitive Information
-
-No government sensitive information should be stored in your resume or profile.
