@@ -21,11 +21,12 @@ Each job application listing gives a quick summary of the position, the status o
 
 ### Sort your applications
 Your applications are listed from newest to oldest by default, but you can sort by:
-•	Last updated
-•	Agency
-•	Job title
-•	Closing date
-•	Status
+
+* Last updated
+* Agency
+* Job title
+* Closing date
+* Status
 
 ### Receive email notifications
 You can receive emails to let you know if the status of your job application changes, or if a job, that you applied to, is closed. To get email notifications, click on the Notifications icon and select which email(s) you want to receive.
@@ -39,9 +40,10 @@ Click the + to see more details about the job application. Each application has 
 * Job location(s)
 * Closing date
 * Last updated date
-*	[Work schedule](../../work-schedules/
-*	[Series and grade](../../series-and-grade/
+*	[Work schedule](../../work-schedules/)
+*	[Series and grade](../../series-and-grade/)
 *	[Salary range](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
+
 [Learn more about the job announcement](../../job-announcement/).
 
 ### View the status of your application
