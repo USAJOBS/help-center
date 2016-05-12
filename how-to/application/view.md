@@ -60,4 +60,4 @@ You may need to [update an application](../update/) if it was rejected as incomp
 
 ### Archive
 
-You can archive a job application to save it for your personal records and get it out of your active list. Learn more about archiving an application.
+You can archive a job application to save it for your personal records and get it out of your active list. [Learn how to archive an application](../archive).
