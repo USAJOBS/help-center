@@ -35,13 +35,14 @@ You can receive emails to let you know if the status of your job application cha
 ### View job announcement information
 
 Click the + to see more details about the job application. Each application has a summary including:
+
 * Position title
 * Hiring agency
 * Job location(s)
 * Closing date
 * Last updated date
-*	[Work schedule](../../work-schedules/)
-*	[Series and grade](../../series-and-grade/)
+*	[Work schedule](../../../working-in-government/pay-and-leave/work-schedules/)
+*	[Series and grade](../../../faq/pay/series-and-grade/)
 *	[Salary range](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
 
 [Learn more about the job announcement](../../job-announcement/).
