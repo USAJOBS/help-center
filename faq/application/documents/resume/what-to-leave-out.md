@@ -9,9 +9,9 @@ tags: [application, resume, support-resume]
 ---
 
 Do not include the following types of information in your profile or resume:
+
 * Classified or government sensitive information
 * Social Security Number (SSN)
 * Photos of yourself
 * Personal information, such as age, gender, religious affiliation, etc.
 * Encrypted and digitally signed documents
-
