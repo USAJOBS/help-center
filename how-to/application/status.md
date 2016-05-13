@@ -22,48 +22,61 @@ Each status tells you where your application is within the application process�
 ### Advancing
 The job application has been received by the hiring agency and is being considered for employment. 
 
-#### Received
+**Received**
+
 The hiring agency has received the job application and all required documents.
 
-#### Reviewed
+**Reviewed**
+
 The hiring agency has reviewed the job application, but has not yet determined if it’s qualified.
 
 #### Referred
 Your application is among the best qualified and is referred to the next step in the selection process.
 
-#### Selected
+**Selected**
+
 The hiring agency has offered you a position.
 
-#### Hired
+**Hired**
+
 You have accepted the position.
 
 ### Paused
 The job application has not been completed and requires further action. 
 
-#### In Progress
+**In Progress**
+
 The application has been started, but not completed or submitted yet. You should complete the application and submit.
 
-#### Incomplete
+**Incomplete**
+
 The application is not complete. The application may not have submitted correctly (likely a technical issue) or you may not have submitted the required documents, such as the DD-214.
 
 ### Stopped
 The job application did not make it past the 'Reviewed' status and is no longer being considered for employment. Applications with this status will automatically archive three months after the last status update.
 
-#### Canceled
+**Canceled**
+
 The job announcement has been withdrawn without anyone being hired. A job announcement can be canceled any time after the job is posted. 
-#### Not Referred
+
+**Not Referred**
+
 Your application is not among the best qualified and has not been referred to the next step in the selection processes.
 
-#### Not Selected
+**Not Selected**
+
 You have not been selected for the position.
 
-#### Not Hired
+**Not Hired**
+
 You were not offered the position or you declined the offer.
 
 ### Unknown 
 We can’t determine the status of the job application. 
 
-Unavailable - There are a few reasons why an unavailable status may appear:
+**Unavailable**
+
+There are a few reasons why an unavailable status may appear:
 
 * We did not receive confirmation from the hiring agency that your resume was received, or that your application was complete. 
 * You may not have completed the application process.
