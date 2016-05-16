@@ -1,11 +1,6 @@
 // Home CTAs
 
-@import 'lib/bourbon/bourbon';
-@import 'lib/neat/neat';
-@import 'core/variables';
-@import 'base/variables';
-@import 'base/utilities';
-@import 'base/breakpoints';
+@import 'base-shared';
 
 .usajobs-help-center-home__start-about-container {
   @include media($M) {

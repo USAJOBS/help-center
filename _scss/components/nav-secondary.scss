@@ -1,11 +1,6 @@
 // Nav - Secondary
 
-@import 'lib/bourbon/bourbon';
-@import 'lib/neat/neat';
-@import 'core/variables';
-@import 'base/variables';
-@import 'base/utilities';
-@import 'base/breakpoints';
+@import 'base-shared';
 
 .usajobs-help-center-nav-secondary {
   $icon_width: 42px;

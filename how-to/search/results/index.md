@@ -32,7 +32,7 @@ All relevant jobs and their descriptions will display in the center of the searc
 
 * **Position Info**: The [work schedule](../../../working-in-government/pay-and-leave/work-schedules/) of the position for example, full-time, part-time, temporary, or term.
 
-* **Who May Apply**: A short description of who is [eligibile to apply for this position](../../../faq/application/eligibility).
+* **Who May Apply**: A short description of who is [eligible to apply for this position](../../../faq/application/eligibility).
 
 ## Page numbers
 If there are more than 25 jobs in your search results, they will be displayed on multiple pages. You can move from page to page using the numbers displayed above your search results.

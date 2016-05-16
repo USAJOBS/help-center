@@ -23,4 +23,4 @@ Select this option if you are a U.S. Citizen new to the federal government or if
 
 * [Service](../../../../working-in-government/service/)
 * [How to determine federal employment status](../../../../how-to/account/profile/eligibility/federal-employment-status/)
-* [Which jobs am I eligibile to apply for?](../../../../faq/application/eligibility/)
+* [Which jobs am I eligible to apply for?](../../../../faq/application/eligibility/)

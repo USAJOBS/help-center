@@ -32,14 +32,17 @@ module.exports = function(grunt) {
           sassDir: '_scss',
           cssDir: 'css',
           includePaths: [
-            'library/library/assets/_scss/',
-            'library/_scss/',
+            'node_modules/bourbon/app/assets/stylesheets/',
+            'node_modules/bourbon-neat/app/assets/stylesheets/',
+            'node_modules/uswds/src/stylesheets/',
+            'node_modules/uswds/src/stylesheets/lib/',
+            'node_modules/usajobs-design-system/_scss/',
             '_scss/'
           ],
         },
         files: [
           {
-            src: 'library/css/usajobs-design-system-base--help-center.css',
+            src: 'node_modules/usajobs-design-system/css/usajobs-design-system-base--help-center.css',
             dest: 'css/usajobs-design-system-base--help-center.css'
           },
           {
@@ -77,7 +80,6 @@ module.exports = function(grunt) {
     cssmin: {
       minify: {
         src: [
-          'library/css/usajobs-design-system-base--help-center.css',
           'css/help-center.css'
         ],
         dest: 'css/usajobs-help-center.min.css'
@@ -86,10 +88,10 @@ module.exports = function(grunt) {
     concat: {
       all: {
         src: [
-          'library/js/usajobs-design-system-base.js',
-          'library/js/components/usds-components.js',
-          'library/js/components/footer.js',
-          'library/js/components/nav.js',
+          'node_modules/usajobs-design-system/js/usajobs-design-system-base.js',
+          'node_modules/usajobs-design-system/js/components/usds-components.js',
+          'node_modules/usajobs-design-system/js/components/footer.js',
+          'node_modules/usajobs-design-system/js/components/nav.js',
           'js/components/*.js'
         ],
         dest: 'js/usajobs-help-center.js'
@@ -182,22 +184,18 @@ module.exports = function(grunt) {
         site: 'usajobs.github.io/Help/'
       }
     },
-    spell: {
-      files: [
-        'how-to/*',
-        'how-to/*/*',
-        'how-to/*/*/*',
-        'how-to/*/*/*/*',
-        'how-to/*/*/*/*/*',
-        'how-to/*/*/*/*/*/*',
-        'how-to/*',
-        'how-to/*/*',
-        'how-to/*/*/*',
-        'how-to/*/*/*/*',
-        'how-to/*/*/*/*/*',
-        'how-to/*/*/*/*/*/*'
-
-      ]
+    mdspell: {
+      options: {
+        ignoreAcronyms: true,
+        ignoreNumbers: true
+      },
+      files: {
+        src: [
+        'faq/**/*.md',
+        'how-to/**/*.md',
+        'working-in-government/**/*.md'
+        ]
+      }
     }
   });
 

@@ -1,11 +1,6 @@
 // Unique Hiring Paths
 
-@import 'lib/bourbon/bourbon';
-@import 'lib/neat/neat';
-@import 'core/variables';
-@import 'base/variables';
-@import 'base/utilities';
-@import 'base/breakpoints';
+@import 'base-shared';
 
 $icon-width: rem(68px);
 $icon-padding: $size-default;

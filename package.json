@@ -15,10 +15,10 @@
     "grunt-contrib-uglify": "^0.6.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-link-checker": "^0.1.0",
+    "grunt-mdspell": "^0.4.0",
     "grunt-notify": "^0.3.1",
     "grunt-sass": "^1.0.0",
     "grunt-shell": "^1.1.2",
-    "grunt-spell": "^1.0.0",
     "jshint-stylish": "^0.4.0",
     "load-grunt-tasks": "~1.0.0",
     "node-sass": "^3.3.3",
@@ -26,7 +26,7 @@
     "time-grunt": "^0.4.0"
   },
   "dependencies": {
-    "lt-ie-9": "^0.1.0"
+    "usajobs-design-system": "^1.0.10"
   },
   "scripts": {
     "all": "npm run prod && npm run build && npm run deploy",
@@ -39,6 +39,6 @@
     "open:repo": "opener http://github.com/USAJOBS/help-center",
     "start": "grunt serve",
     "test": "grunt linkChecker | grep -v %7B%7B%20",
-    "postinstall": "bundle install && grunt serve"
+    "postinstall": "grunt css && grunt js"
   }
 }

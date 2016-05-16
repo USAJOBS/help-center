@@ -21,7 +21,7 @@ Select this option if:
 * You are a federal employee that holds a [career appointment](../../../../working-in-government/unique-hiring-paths/federal-employees/)
 * You are a Veteran that claims [Veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or [VEOA eligibility](../../../../working-in-government/unique-hiring-paths/veterans/veoa/)
 
-[Which jobs am I eligibile to apply for?](../../../../faq/application/eligibility/)
+[Which jobs am I eligible to apply for?](../../../../faq/application/eligibility/)
 
 ## Additional Resources
 

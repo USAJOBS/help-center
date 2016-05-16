@@ -1,9 +1,6 @@
 // Help Center
 
-@import 'lib/bourbon/bourbon';
-@import 'core/variables';
-@import 'base/variables';
-@import 'base/utilities';
+@import 'base-shared';
 
 // Help Center components
 @import 'components/banner';
