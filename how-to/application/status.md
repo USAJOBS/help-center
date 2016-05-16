@@ -84,7 +84,7 @@ There are a few reasons why an unavailable status may appear:
 * The hiring agency’s system did not return your status to USAJOBS.
 
 ## Are there status delays for faxed documents?
-Yes. If you [fax a resume or any other documents](../../account/documents/fax/), there may be a delay between when the documents are faxed and when they appear as received on an application. If you have questions about the status of your faxed documents, [contact the hiring agency](/how-to/application/agency/contact/).
+Yes. If you [fax a resume or any other documents](../account/documents/fax/), there may be a delay between when the documents are faxed and when they appear as received on an application. If you have questions about the status of your faxed documents, [contact the hiring agency](/agency/contact/).
 
 ## How long can you keep your applications?
 We will permanently remove all applications (active and archived) 36 months after the application date, regardless of the application status. We recommend printing the announcements for which you have applied if you wish to keep a record of them beyond the 36-month period.
@@ -101,4 +101,4 @@ You can filter your active and archived job applications by status—this is the
 * A brief description of each status appears if you place your cursor on top the status (For example, place your cursor on top of Received to reveal the description).
 
 ## Have questions about your status?
-The hiring agency sends the status to USAJOBS. USAJOBS does not have any control over the status or lack of a status. If you think you’ve received an incorrect status or have questions about your status, please [contact the staffing point of contact on the job announcement](/how-to/application/agency/contact/).
+The hiring agency sends the status to USAJOBS. USAJOBS does not have any control over the status or lack of a status. If you think you’ve received an incorrect status or have questions about your status, please [contact the staffing point of contact on the job announcement](/agency/contact/).
