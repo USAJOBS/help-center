@@ -36,7 +36,7 @@ Click the **+** to see more details about the saved job. Each saved job shows a 
 * Series and grade
 * Salary range
 
-[Learn more about the job announcement](../job-announcement).
+[Learn more about the job announcement](../).
 
 ### Apply, view more or delete saved jobs
 Within the saved jobs details you can also apply, delete or view more similar jobs.
