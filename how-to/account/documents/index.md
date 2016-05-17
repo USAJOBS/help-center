@@ -12,7 +12,7 @@ If you have a USAJOBS account, you can upload and manage your resume, required f
 
 1. Log into your USAJOBS account.
 2. Click the **Documents** link located in the left-hand navigation.
-3. Click **Resumes** or **Other Documents**
+3. Select **Resumes** or **Other Documents** located at the top of the page.
 
 ## Manage your resumes
 
@@ -20,7 +20,7 @@ You can upload and store up to five resumes in your account. Here is what you ca
 
 ### Edit your resume
 
-You can edit your resume using our Resume Builder or by uploading a new resume from your computer.[Learn how to edit your resume](resume/edit/).
+You can edit a resume directly, if you created it with the Resume Builder tool. To make changes to an uploaded resume, you need to re-upload the edited document.[Learn how to edit your resume](resume/edit/).
 
 ### Delete a resume
 
@@ -42,7 +42,7 @@ You can [upload a resume](resume/upload/) or [use our Resume Builder to build on
 * PDF
 * Word (.doc or .docx)
 
-If you upload a resume, we recommend using Word, because you can make it searchable.
+If you upload a resume, we recommend writing your resume using Word because you can make it searchable to recruiters in our resume bank.
 
 Learn [what to include](../../../faq/application/documents/resume/what-to-include/) and [what not to include](../../../faq/application/documents/resume/what-to-leave-out/) in a resume.
 
