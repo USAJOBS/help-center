@@ -43,10 +43,10 @@
 <loc>/how-to/account/delete/</loc>
 </url>
 <url>
-<loc>/how-to/search/filters/department-and-agency/</loc>
+<loc>/how-to/search/advanced/department-and-agency/</loc>
 </url>
 <url>
-<loc>/how-to/search/advanced/department-and-agency/</loc>
+<loc>/how-to/search/filters/department-and-agency/</loc>
 </url>
 <url>
 <loc>/working-in-government/unique-hiring-paths/veterans/disabled/</loc>
@@ -89,6 +89,9 @@
 </url>
 <url>
 <loc>/faq/myths/have-to-know-someone/</loc>
+</url>
+<url>
+<loc>/faq/myths/i-must-move/</loc>
 </url>
 <url>
 <loc>/working-in-government/unique-hiring-paths/federal-employees/ictap/</loc>
