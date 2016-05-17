@@ -147,17 +147,20 @@ exclude_from_category: true
           </li>
         </ul>
 
-        <label class="labeltext" for="Comment">Question / Comment</label>
-        <textarea class="form-control" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" id="Comment" maxlength="2000" name="Comment" rows="5"></textarea>
-        <p class="usajobs-form__help-brief">
-          Please do not include your Social Security Number.
-        </p>
-        <p class="usajobs-form__help-brief" id="CommentCount">(2000 characters remaining)</p>
-        <div class="has-error">
-          <span class="field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
+        <div class="required-input">
+          <label class="labeltext" for="Comment">Question / Comment</label>
+          <textarea class="form-control" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" id="Comment" maxlength="2000" name="Comment" rows="5" required aria-required="true"></textarea>
+          <p class="usajobs-form__help-brief">
+            Please do not include your Social Security Number.
+          </p>
+          <p class="usajobs-form__help-brief" id="CommentCount">(2000 characters remaining)</p>
+          <div class="has-error">
+            <span class="field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
+          </div>
         </div>
       </div>
     </div>
+
     <div class="usajobs-help-center-contact-us__col">
       <input data-val="true" data-val-required="The ViewID field is required." id="ViewID" name="ViewID" type="hidden" value="3046296f-e40e-495e-bfb6-12d22bd1a32e">
 
