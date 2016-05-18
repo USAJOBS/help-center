@@ -20,7 +20,10 @@ You can upload and store up to five resumes in your account. Here is what you ca
 
 ### Edit your resume
 
-You can edit a resume directly, if you created it with the Resume Builder tool. To make changes to an uploaded resume, you need to re-upload the edited document.[Learn how to edit your resume](resume/edit/).
+There are two ways you can edit your resume(s).
+
+1. If you created your resume with the Resume Builder tool, you can edit it directly in the tool. 
+2. If you uploaded your resume from your computer, you must re-upload the edited document.[Learn how to edit your resume](resume/edit/).
 
 ### Delete a resume
 
