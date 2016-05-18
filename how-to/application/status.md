@@ -14,7 +14,7 @@ tags: [application, status, tips, support-application-status]
 2.	Click on Applications—it will default to your active applications.
 3.	Review your list of applications.
 
-The application status is highlighted next to each job application. Click the **+** to see more application details. You can also filter your applications by status.
+The application status is highlighted next to each job application. Click the **+** to see more application details. You can also [filter your applications by status](#How to filter by status).
 
 ## What does each status mean?
 Each status tells you where your application is within the application process—whether it’s been received, reviewed, selected, not-selected and more. 
@@ -24,11 +24,11 @@ The job application has been received by the hiring agency and is being consider
 
 **Received**
 
-The hiring agency has received the job application and all required documents.
+The hiring agency has received your job application.
 
 **Reviewed**
 
-The hiring agency has reviewed the job application, but has not yet determined if it’s qualified.
+The hiring agency has reviewed your job application, but has not yet determined if you're qualified.
 
 #### Referred
 Your application is among the best qualified and is referred to the next step in the selection process.
@@ -46,14 +46,14 @@ The job application has not been completed and requires further action.
 
 **In Progress**
 
-The application has been started, but not completed or submitted yet. You should complete the application and submit.
+The application has been started, but not completed or submitted yet. If the job is still open, you should complete the application and submit.
 
 **Incomplete**
 
-The application is not complete. The application may not have submitted correctly (likely a technical issue) or you may not have submitted the required documents, such as the DD-214.
+The application is not complete. . You may not have completed submitting your application in the application system or you may not have submitted the required documents, such as the DD-214. If the job is still open, you can update the application and submit.
 
 ### Stopped
-The job application did not make it past the 'Reviewed' status and is no longer being considered for employment. Applications with this status will automatically archive three months after the last status update.
+Your application is no longer being considered for the job or the agency canceled the job. Applications with this status will automatically archive three months after the last status update.
 
 **Canceled**
 
@@ -87,7 +87,7 @@ There are a few reasons why an unavailable status may appear:
 Yes. If you [fax a resume or any other documents](../account/documents/fax/), there may be a delay between when the documents are faxed and when they appear as received on an application. If you have questions about the status of your faxed documents, [contact the hiring agency](/agency/contact/).
 
 ## How long can you keep your applications?
-We will permanently remove all applications (active and archived) 36 months after the application date, regardless of the application status. We recommend printing the announcements for which you have applied if you wish to keep a record of them beyond the 36-month period.
+We will permanently remove all applications (active and archived) 36 months after the closing date, regardless of the application status. We recommend printing the announcements for which you have applied if you wish to keep a record of them beyond the 36-month period.
 
 ## How to filter applications  
 You can filter your active and archived job applications by status—this is the status the hiring agency reports to USAJOBS. 
@@ -95,9 +95,9 @@ You can filter your active and archived job applications by status—this is the
 1.	Choose either your active or archived application list.
 2.	Click **Filter by Application Status**.
 3.	Select at least one of the status checkboxes. You can select more than one status at a time.
-4.	Review your applications – the applications will automatically filter based on your selection.
+4.	Review your applications list – the applications will automatically filter based on your selection.
 
-* The number next to each status tells you how many applications have that status.
+* The number next to each status tells you how many of your applications have that status.
 * A brief description of each status appears if you place your cursor on top the status (For example, place your cursor on top of Received to reveal the description).
 
 ## Have questions about your status?
