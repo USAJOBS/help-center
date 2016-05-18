@@ -548,7 +548,6 @@
 }
 
 // Contact Us
-
 .usajobs-help-center-contact-us {
   @include outer-container();
 
@@ -577,6 +576,10 @@
     &:last-child {
       @include omega();
     }
+  }
+
+  &__comment-count {
+    margin-bottom: 0;
   }
 }
 

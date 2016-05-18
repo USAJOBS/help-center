@@ -1676,6 +1676,10 @@ html {
   margin-right: 0;
 }
 
+.usajobs-help-center-contact-us__comment-count {
+  margin-bottom: 0;
+}
+
 .usajobs-form__help-brief {
   margin-top: 0.5rem;
   font-size: 1.4rem;

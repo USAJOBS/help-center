@@ -149,14 +149,12 @@ exclude_from_category: true
 
         <div class="required-input">
           <label class="labeltext" for="Comment">Question / Comment</label>
+          <span class="usa-input-error-message field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
           <textarea class="form-control" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" id="Comment" maxlength="2000" name="Comment" rows="5" required aria-required="true"></textarea>
           <p class="usajobs-form__help-brief">
             Please do not include your Social Security Number.
           </p>
-          <p class="usajobs-form__help-brief" id="CommentCount">(2000 characters remaining)</p>
-          <div class="has-error">
-            <span class="field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
-          </div>
+          <p class="usajobs-form__help-brief usajobs-help-center-contact-us__comment-count" id="CommentCount">(2000 characters remaining)</p>
         </div>
       </div>
     </div>
@@ -210,7 +208,7 @@ exclude_from_category: true
           <span class="field-validation-valid usa-input-error-message" data-valmsg-for="Address" data-valmsg-replace="true"></span>
           <input data-val="true" data-val-requiredif="Address is required." data-val-requiredif-comp="isequalto" data-val-requiredif-other="SelectedContactReasonText" data-val-requiredif-value="login/password" id="Address" maxlength="100" name="Address" type="text" value="">
           <p class="usajobs-form__help-brief">
-            Full home or mailing address including city/state.
+            Full home or mailing address including city and state.
           </p>
         </div>
         <div class="optional-input">
