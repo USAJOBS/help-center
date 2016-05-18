@@ -1966,18 +1966,21 @@ $help.on('help.open', function(event, opts) {
 
   event.preventDefault();
 
-  opts.target.attr('aria-hidden', 'false');
-  $all_topics.attr('aria-hidden', 'true');
-  $target_topics.attr('aria-hidden', 'false');
-
-  // Show optional fields for login/password
-  if (opts.selected_id === '13') {
-    opts.object.find('#contactOptionalData').attr('aria-hidden', 'false');
-  }
-
   if (opts.selected_id !== '0') {
     $send_button.removeAttr('disabled');
+    opts.target.attr('aria-hidden', 'false');
+    $all_topics.attr('aria-hidden', 'true');
+    $target_topics.attr('aria-hidden', 'false');
   } else {
     $send_button.attr('disabled', 'disabled');
+    opts.target.attr('aria-hidden', 'true');
+    $all_topics.attr('aria-hidden', 'true');
+  }
+
+  // Show optional fields for login/password
+  if (opts.selected_id === 'sign-in-password') {
+    opts.object.find('#contactOptionalData').attr('aria-hidden', 'false');
+  } else {
+    opts.object.find('#contactOptionalData').attr('aria-hidden', 'true');
   }
 });
