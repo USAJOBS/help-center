@@ -34,7 +34,7 @@ Click the **+** next to a saved search to see more details. From here you can:
 Click **View Search Results** to run the saved search and see your results.
 
 ### Renew a search
-Saved searches expire after one year and will automatically move into your archived list. Click** Renew Search for 1 Year** to renew your search for an additional year..
+Saved searches expire after one year and will automatically move into your archived list. Click **Renew Search for 1 Year** to renew your search for an additional year..
 
 ### Edit your saved search
 Click **Edit** to change your search criteria, such as keywords, location or even update your email preference. You’ll have the option to save the updated search.
