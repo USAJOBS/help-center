@@ -1,5 +1,5 @@
 ---
-permalink: /faq/myths/have-to-know-someone/
+permalink: /faq/myths/tailor-federal-resume/
 layout: article
 section: faq
 title: You need to tailor your federal resume to each position
