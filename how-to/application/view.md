@@ -49,7 +49,7 @@ Click the + to see more details about the job application. Each application has 
 
 ### View the status of your application
 
-Each application is labeled with a status to indicate its progress through the federal application process.  These statuses will tell you if your application is in progress, received, cancelled, incomplete or unavailable.  [Understand the different application statuses](../status/).
+Each application is labeled with a status to indicate its progress through the federal application process.  These statuses will tell you if your application is in progress, received, canceled, incomplete or unavailable.  [Understand the different application statuses](../status/).
 
 ### Update or complete your application
 
