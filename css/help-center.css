@@ -1630,12 +1630,19 @@ html {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 1.5rem;
 }
 
 .usajobs-help-center-contact-us::after {
   clear: both;
   content: "";
   display: table;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-contact-us {
+    padding: 0;
+  }
 }
 
 .usajobs-help-center-contact-us__legend {
@@ -1666,6 +1673,7 @@ html {
     display: block;
     margin-right: 2.3576515979%;
     width: 48.821174201%;
+    padding-right: 1.5rem;
   }
   .usajobs-help-center-contact-us__col:last-child {
     margin-right: 0;
@@ -1674,6 +1682,7 @@ html {
 
 .usajobs-help-center-contact-us__col:last-child {
   margin-right: 0;
+  padding-right: 0;
 }
 
 .usajobs-help-center-contact-us__comment-count {

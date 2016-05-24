@@ -551,6 +551,14 @@
 .usajobs-help-center-contact-us {
   @include outer-container();
 
+  // Hack for uswds not allowing enough space at mobile for
+  // form field borders on errors
+  padding: 0 $size-default;
+
+  @include media($ML) {
+    padding: 0;
+  }
+
   &__legend {
     width: 100%;
   }
@@ -571,10 +579,12 @@
   &__col {
     @include media($L) {
       @include span-columns(6);
+      padding-right: $size-default;
     }
 
     &:last-child {
       @include omega();
+      padding-right: 0;
     }
   }
 
