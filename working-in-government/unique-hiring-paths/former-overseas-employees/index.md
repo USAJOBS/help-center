@@ -15,10 +15,12 @@ A family member may be a spouse, same-sex domestic partner or an unmarried child
 ## Eligibility
 
 Your eligibility lasts for three years following the date of your return to the United States from the overseas area and depends upon the federal civilian employee or uniformed service member:
+
 * Completing 52 weeks of service.
 * Receiving a successful or equivalent performance rating during their time on the job.
 
 With this eligibility, you can:
+
 * Apply for competitive service positions and agencies can hire you directly without having to compete with the public.
 * Apply to jobs that are open to merit promotion if the job application states "open to former overseas employees".
 
