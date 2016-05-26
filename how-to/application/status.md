@@ -14,7 +14,7 @@ tags: [application, status, tips, support-application-status]
 2.	Click on Applications—it will default to your active applications.
 3.	Review your list of applications.
 
-The application status is highlighted next to each job application. Click the **+** to see more application details. You can also [filter your applications by status](#How to filter by status).
+The application status is highlighted next to each job application. Click the **+** to see more application details. You can also [filter your applications by status](#How to filter applications).
 
 ## What does each status mean?
 Each status tells you where your application is within the application process—whether it’s been received, reviewed, selected, not-selected and more. 
@@ -84,7 +84,7 @@ There are a few reasons why an unavailable status may appear:
 * The hiring agency’s system did not return your status to USAJOBS.
 
 ## Are there status delays for faxed documents?
-Yes. If you [fax a resume or any other documents](../account/documents/fax/), there may be a delay between when the documents are faxed and when they appear as received on an application. If you have questions about the status of your faxed documents, [contact the hiring agency](../agency/contact/).
+Yes. If you [fax a resume or any other documents](../../account/documents/fax/), there may be a delay between when the documents are faxed and when they appear as received on an application. If you have questions about the status of your faxed documents, [contact the hiring agency](../agency/contact/).
 
 ## How long can you keep your applications?
 We will permanently remove all applications (active and archived) 36 months after the closing date, regardless of the application status. We recommend printing the announcements for which you have applied if you wish to keep a record of them beyond the 36-month period.
