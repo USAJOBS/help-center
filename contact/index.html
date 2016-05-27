@@ -60,6 +60,7 @@ exclude_from_category: true
           Please read these Help Center articles which may answer your question.
         </p>
         <ul class="usa-unstyled-list">
+          {% strip %}
           {% for page in site.pages %}
             {% if page.tags contains 'support-sign-in' %}
           <li class="usajobs-help-topic sign-in-password" aria-hidden="true">
@@ -142,6 +143,7 @@ exclude_from_category: true
           </li>
             {% endif %}
           {% endfor %}
+          {% endstrip %}
           <li class="usajobs-help-topic suggestions-to-improve-usajobs other" aria-hidden="true">
             <a href="{{site.baseurl}}/about/">About USAJOBS</a>
           </li>
