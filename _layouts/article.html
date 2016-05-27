@@ -21,6 +21,7 @@
             <aside class="usajobs-rightrail">
               <h3 class="usajobs-help-center-article__related">Related Articles</h3>
               <ul class="usa-unstyled-list">
+              {% strip %}
               {% assign sorted_pages = site.pages | sort:"title" %}
               {% for node in sorted_pages %}
                 {% if node.category == page.category %}
@@ -33,6 +34,7 @@
                   {% endif %}
                 {% endif %}
               {% endfor %}
+              {% endstrip %}
               </ul>
             </aside>
           </div>
