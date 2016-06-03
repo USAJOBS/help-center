@@ -7,13 +7,18 @@ breadcrumb: Upload
 category: resume
 tags: [account, documents, resume, upload, support-resume]
 ---
+You can upload or build up to 5 resumes.
 
-1. Log into your USAJOBS My Account.
-2. Select Resumes section of your account.
-3. Select **Upload New Resume**.
-4. Enter a unique name for this resume (100 characters max)
-5. Select **Choose File**.
-6. Browse the documents stored on your computer, select the resume you would like to upload, then select **Open**.
-7. Select **Upload**. USAJOBS allows users to upload up to 5 resumes.
+1. Sign into your USAJOBS account.
+2. Click Documents—it will default to display resumes. 
+3. Click **Upload or build resume**. 
+4. Choose **Upload  resume**.
+5. Browse the documents stored on your computer, select the resume you would like to upload, and select **Open**.
+6. Name your resume-the default name will match the file title from your computer. You have the option to edit the name of the resume.
+7. Click **Complete Upload**.
 
-**Please note**: In the Select Resume step of the USAJOBS application process, you will have the opportunity to upload a resume. Not all agencies accept uploaded documents/resumes. If the agency does not accept uploaded documents/resumes, then you will not see this option when you click to apply for the position.
+You can also build a resume using our Resume Builder tool.
+
+## Do all agencies accept uploaded resumes or documents?
+No, not all agencies accept uploaded resumes or documents from USAJOBS.  If the agency does not accept uploaded resumes or documents, you will skip this step during the USAJOBS application process.  You may be asked to upload a resume when you enter the agency application system.
+
