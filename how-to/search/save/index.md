@@ -13,9 +13,9 @@ You can save a search to help you look for jobs in your area of interest. When y
 * You can create and save up to 10 saved searches—saved searches will expire one year after you create it.
 * You can [manage your saved searches in your account](#Manage saved searches in your account).
 
-### To save a search:
+### To save a search
 
-1.	Log into your USAJOBS account. If you don’t have an account, you need to create one. Only signed in users can save their search.
+1.	Sign into your USAJOBS account. If you don’t have an account, you need to create one. Only signed in users can save their search.
 2.	Start a job search by entering a keyword or location and click **Search**. You can also choose the **Advanced Search** option to narrow your results.
 3.	Click **Save This Search** on the search results page located on the left side of the page under the [search filters](../filters/).
 4.	Confirm how you want to search for keywords (similar to, exact match etc.).
