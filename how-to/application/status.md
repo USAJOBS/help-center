@@ -10,9 +10,9 @@ tags: [application, status, tips, support-application-status]
 
 
 
-1.	Log in to your USAJOBS account.
-2.	Click on Applications—it will default to your active applications.
-3.	Review your list of applications.
+1.	Sign into  your USAJOBS account.
+2.	Click **Applications**—it will default to your active applications.
+3.	Review your list of applications. Your applications are listed by the date they were last updated.
 
 The application status is highlighted next to each job application. Click the **+** to see more application details. You can also [filter your applications by status](#How to filter applications).
 
@@ -50,7 +50,7 @@ The application has been started, but not completed or submitted yet. If the job
 
 **Incomplete**
 
-The application is not complete. . You may not have completed submitting your application in the application system or you may not have submitted the required documents, such as the DD-214. If the job is still open, you can update the application and submit.
+The application is not complete. You may not have completed submitting your application in the application system or you may not have submitted the required documents, such as the DD-214. If the job is still open, you can update the application and submit.
 
 ### Stopped
 Your application is no longer being considered for the job or the agency canceled the job. Applications with this status will automatically archive three months after the last status update.
@@ -92,7 +92,7 @@ We will permanently remove all applications (active and archived) 36 months afte
 ## How to filter applications  
 You can filter your active and archived job applications by status—this is the status the hiring agency reports to USAJOBS. 
 
-1.	Choose either your active or archived application list.
+1.	Choose either your **Active** or **Archived** application list.
 2.	Click **Filter by Application Status**.
 3.	Select at least one of the status checkboxes. You can select more than one status at a time.
 4.	Review your applications list – the applications will automatically filter based on your selection.
