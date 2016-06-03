@@ -41,7 +41,7 @@ It’s very important you read the **How to Apply** instructions located in the 
 ### How You Will Be Evaluated
 This section describes how the agency will evaluate your application. At the bottom of this section is a link to preview the assessment questions—read these questions before you apply to the job.
 
-## Read the Required Documents section
+## Required Documents
 
 It’s very important you read the **Required Documents** section, located in the drop down on the right side of the job announcement. This section lists all the documents you may need to include with your application to prove you’re eligible and qualified. Make sure you submit the required documentation; you may be disqualified if you’re missing information. 
 
