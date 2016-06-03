@@ -8,6 +8,12 @@ category: Search
 tags: [application, save, apply]
 ---
 
-Your application will automatically save as you continue through the USAJOBS application process.  Once you select the **Save & Continue** button your entries are saved for that step in the process. You can access saved applications on your Application Status page in your account. Saved applications are labeled with an “In Progress” status.
+We automatically save your applications during the USAJOBS application process. Every time you click **Save & Continue**, your application is saved for that step in the process. 
 
-**Please note**:  Once you progress into the agency application system, your progress may not be automatically saved.
+However, once you enter the specific agency application system, your application may not be automatically saved—make sure you periodically save your work. 
+
+You can view your  saved applications in your USAJOBS account.
+1.	Sign into your USAJOBS account.
+2.	Go to your **Applications**. 
+3.	Select **Active** or **Archived** to view your active and archived applications.
+
