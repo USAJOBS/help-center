@@ -13,6 +13,7 @@ We automatically save your applications during the USAJOBS application process. 
 However, once you enter the specific agency application system, your application may not be automatically saved—make sure you periodically save your work. 
 
 You can view your  saved applications in your USAJOBS account.
+
 1.	Sign into your USAJOBS account.
 2.	Go to your **Applications**. 
 3.	Select **Active** or **Archived** to view your active and archived applications.
