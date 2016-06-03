@@ -10,7 +10,7 @@ tags: [job announcement, support-job-announcement]
 
 Agencies post job announcements on USAJOBS to advertise their current job openings.  While these announcements can be lengthy, they include valuable information about the job responsibilities and requirements.  We’ve highlighted some of the critical details you need to know, but it’s important you read the entire job announcement before applying.
 
-## Read the top of the job announcement
+## Who May Apply, Closing Date and Locations
 
 The details at the top of the announcement can tell you whether you’re eligible to apply, if the job is in a location you like and how long you have to apply. Key fields to review:
 
