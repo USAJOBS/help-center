@@ -25,5 +25,5 @@ The USAJOBS application process will guide you through five steps:
   
 6. During the final step, you will be asked  to certify that your application is true, complete, and made in good faith. If you answer YES, check the box and select **Continue to Agency Site**. Select **Previous** if you would like to go back to review or edit your information.
 
-Once you select Continue to Agency Site, you will be sent to the agency application system where additional steps may be required.
+Once you select **Continue to Agency Site**, you will be sent to the agency application system where additional steps may be required.
 
