@@ -19,7 +19,7 @@ To save a job:
 ### What if I do't see a saved job in my account?
 
 There are a few reasons why you may not see a saved job in your account:
-* The agency may have closed the job announcement-an agency may choose to close a job before it's [posted closing date].
+* The agency may have closed the job announcement-an agency may choose to close a job before it's [posted closing date](../../job announcement/how to understand the job announcement/)
 * The agency may have canceled the job announcement.
 * You may have applied to the job. When you apply to a saved job it moves into your Active Applications.
 
