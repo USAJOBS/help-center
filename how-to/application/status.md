@@ -11,10 +11,10 @@ tags: [application, status, tips, support-application-status]
 
 
 1.	Sign into  your USAJOBS account.
-2.	Click **Applications**—it will default to your active applications.
+2.	Click **Applications**— active applications will be displayed.
 3.	Review your list of applications. Your applications are listed by the date they were last updated.
 
-The application status is highlighted next to each job application. Click the **+** to see more application details. You can also [filter your applications by status](#How to filter applications).
+The application status is highlighted next to each job application. Click the **+** to see more application details. You can also [filter your applications by status](../../application/status/).
 
 ## What does each status mean?
 Each status tells you where your application is within the application process—whether it’s been received, reviewed, selected, not-selected and more. 
@@ -98,7 +98,7 @@ You can filter your active and archived job applications by status—this is the
 4.	Review your applications list – the applications will automatically filter based on your selection.
 
 * The number next to each status tells you how many of your applications have that status.
-* A brief description of each status appears if you place your cursor on top the status (For example, place your cursor on top of Received to reveal the description).
+* A brief description of each status appears if you place your cursor on top of the status (For example, place your cursor on top of Received to reveal the description).
 
 ## Have questions about your status?
 The hiring agency sends the status to USAJOBS. USAJOBS does not have any control over the status or lack of a status. If you think you’ve received an incorrect status or have questions about your status, please [contact the staffing point of contact on the job announcement](../agency/contact/).
