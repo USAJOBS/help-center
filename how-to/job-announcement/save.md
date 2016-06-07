@@ -44,7 +44,7 @@ Click the **+** to see more details about the saved job. Each saved job shows a 
 * Series and grade
 * Salary range
 
-Learn more about the job announcement.
+[Learn more about the job announcement](index/).
 
 ### Apply, view more or delete saved jobs
 Within the saved jobs details you can also apply, delete or view more similar jobs.
@@ -52,9 +52,9 @@ Within the saved jobs details you can also apply, delete or view more similar jo
 ### What if I don't see a saved job in my account?
 There are a few reasons why you may not see a saved job in your account:
 
-* The agency may have closed the job announcement-an agency may choose to close a job before its [posted closing date](../../job announcement/how to understand the job announcement/).
+* The agency may have closed the job announcement-an agency may choose to close a job before its [posted closing date](index/).
 * The agency may have canceled the job announcement.
-* You may have applied to the job. When you apply to a saved job it moves into your Active Applications.
+* You may have applied to the job. When you apply to a saved job it moves into your **Active** applications.
 
 
 
