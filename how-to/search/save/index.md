@@ -16,8 +16,8 @@ You can save a search to help you look for jobs in your area of interest. When y
 ### To save a search
 
 1.	Sign into your USAJOBS account. If you don’t have an account, you need to create one. Only signed in users can save their search.
-2.	Start a job search by entering a keyword or location and click **Search**. You can also choose the **Advanced Search** option to narrow your results.
-3.	Click **Save This Search** on the search results page located on the left side of the page under the [search filters](../filters/).
+2.	Start a job search by entering a keyword or location in the search box and click **Search**. You can also choose the **Advanced Search** option to narrow your results.
+3.	Click **Save current Search** on the search results page located on the left side of the page under the [search filters](../filters/).
 4.	Confirm how you want to search for keywords (similar to, exact match etc.).
 5.	Enter additional search criteria if you want—the more information you add, the more specific your results will be.
 6.	Name your search—this will help you manage your saved searches.
@@ -26,7 +26,7 @@ You can save a search to help you look for jobs in your area of interest. When y
 
 ## Manage saved searches in your account
 
-You can manage your saved searches in the Saved Searches section of your account.  You can have both active and archived saved searches. 
+You can manage your saved searches in the **Saved Searches** section of your account.  You can have both active and archived saved searches. 
 
 Click the **+** next to a saved search to see more details. From here you can:
 
@@ -45,9 +45,9 @@ Click **Duplicate** to create an exact copy of a saved search. When you duplicat
 You may want to duplicate if you’re looking for similar jobs in two locations. Rather than creating a new saved search for each location, you can duplicate one search and change the location. For example, you may want to search for all Program Analyst jobs in Washington, D.C. and another search for all Program analyst jobs in Florida.
 
 ### Delete your saved search
-Click the filled-in **star icon**, with the label “Saved”, to delete a search. The star will no longer be filled and the label will change to “Save”. You must refresh the page, or go to a new page, to completely remove the search from your saved list. You can delete saved searches from both your active and archived list.
+Click the filled-in **star icon**, with the label “Saved”, to delete a search. The star will no longer be filled and the label will change to “Save” to indicate it’s no longer saved. You must refresh the page or go to a new page to completely remove the search from your saved list. You can delete saved searches from both your active and archived list.
 
-If you delete the saved search, it will be removed from your account and you will no longer receive email notifications with those search results.
+If you delete a saved search, it will be removed from your account and you will no longer receive email notifications with those search results.
 
 ### Archive your saved search
 Click **Archive** to move the saved search to your archived list. You may want to archive a saved search if you’re no longer interested in the search, but you don’t want to delete it. 
