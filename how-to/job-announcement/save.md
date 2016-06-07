@@ -9,7 +9,6 @@ tags: [job announcement, support-job-announcement]
 ---
 You can save up to 10 job announcements in your USAJOBS account.
 
-If you have a USAJOBS account, you can save up to 10 job announcements. 
 To save a job:
 
 1.	Sign into your USAJOBS account.
