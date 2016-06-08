@@ -13,7 +13,7 @@ You can change your password on the [change password](https://www.usajobs.gov/Ap
 ## Step by Step
 
 1. Sign into your account by clicking the **Sign In** icon at the top right of any page.
-2. Click Username & Password at the bottom of the column on the left. 
+2. Click **Username & Password** at the bottom of the column on the left. 
 3. Enter your current password followed by your new password.
 4. Verify your new password.
 5. Click the **Save button** at the bottom of the page.
