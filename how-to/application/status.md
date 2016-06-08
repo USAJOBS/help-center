@@ -14,7 +14,7 @@ tags: [application, status, tips, support-application-status]
 2.	Click **Applications**— active applications will be displayed.
 3.	Review your list of applications. Your applications are listed by the date they were last updated.
 
-The application status is highlighted next to each job application. Click the **+** to see more application details. You can also [filter your applications by status](../../application/status/).
+The application status is highlighted next to each job application. Click the **+** to see more application details. You can also [filter your applications by status](#how-to-filter-applications).
 
 ## What does each status mean?
 Each status tells you where your application is within the application process—whether it’s been received, reviewed, selected, not-selected and more. 
