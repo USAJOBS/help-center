@@ -20,11 +20,11 @@ When you sign into your account, we'll use your profile information to improve y
 
 ## 3. Review Job Announcement
 
-Once you find a job you’re interested in, review the announcement to determine if you’re eligible and meet the qualifications. We recommend reading the entire job announcement before beginning your application. If you have questions specific about the job, contact the agency representative listed at the bottom of the announcement.
+Once you find a job you’re interested in, review the announcement to determine if you’re eligible and meet the qualifications. We recommend reading the entire job announcement before beginning your application. If you have specific questions about the job, contact the agency representative listed at the bottom of the announcement.
 
 ## 4. Prepare your Application in USAJOBS
 
-Read the “How to Apply” section of the job announcement before starting your application. When you’re ready to apply, we’ll walk you through a five-step process to prepare your application, including attaching a resume and required documents. During the USAJOBS application process, you can add new resumes or documents and review them for accuracy. We'll automatically save your progress as you prepare your application in USAJOBS.
+Read the **How to Apply** section of the job announcement before starting your application. When you’re ready to apply, we’ll walk you through a five-step process to prepare your application, including attaching a resume and required documents. During the USAJOBS application process, you can add new resumes or documents and review them for accuracy. We'll automatically save your progress as you prepare your application in USAJOBS.
 
 ## 5. Submit Application to Agency
 
@@ -35,7 +35,7 @@ Once your application is ready, you’ll be transferred from USAJOBS to the agen
 * Eligibility questions
 * Occupational questionnaire
 
-After you submit your application, return to your USAJOBS account to confirm the agency received your application. Agencies will confirm receipt of your application by updating your status to "Received." Status updates are available on your profile dashboard. You may also receive an email confirmation of your submission from the agency application system.
+After you submit your application, return to your USAJOBS account to confirm the agency received your application. Agencies will confirm receipt of your application by updating your status to "Received." Status updates are available in the **Applications** section of your account. You may also receive an email confirmation of your submission from the agency application system.
 
 ## 6. Agency Reviews Application
 
