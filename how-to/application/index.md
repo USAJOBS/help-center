@@ -15,7 +15,6 @@ To create an application on USAJOBS:
 3. Find the job announcement for which you would like to apply. You can use Basic, Advanced, Map, or your **Saved Searches** to find job announcements.
 4. Thoroughly review the job announcement, including the **How to Apply** and **Required Documents** sections. 
 5. Selecty **Apply Online**. The USAJOBS application process will guide you through five steps: 
-The USAJOBS application process will guide you through five steps:
 
   1. Select Resume 
   2. Select Documents
