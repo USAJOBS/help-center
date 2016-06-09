@@ -21,7 +21,7 @@ Some job announcements require certain documents or forms, such as transcripts, 
 7.	Select the **Document Type** from the options below the document name.  
 8.	Click the **Complete Upload** button.
 	
-The uploaded document will appear in your account in the Other Documents section. The documents will appear in the order you upload them.
+The uploaded document will appear in your account in the **Other Documents** section. The documents will appear in the order you upload them.
 
 ## Do all agencies accept uploaded documents?
 Not all agencies accept uploaded documents from USAJOBS.  If the agency does not accept uploaded documents, you will skip this step during the USAJOBS application process.  You may be asked to upload a document when you enter the agency application system.
