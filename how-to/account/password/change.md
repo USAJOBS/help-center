@@ -8,9 +8,6 @@ category: account
 tags: [password, change, support-password]
 ---
 
-You can change your password on the [change password](https://www.usajobs.gov/Applicant/Profile/EditPassword) page.
-
-## Step by Step
 
 1. Sign into your account by clicking the **Sign In** icon at the top right of any page.
 2. Click **Username & Password** at the bottom of the column on the left. 
