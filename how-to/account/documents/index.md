@@ -10,7 +10,7 @@ tags: [documents, support-documents]
 
 If you have a USAJOBS account, you can upload and manage your resume, required forms, and other documents.
 
-1. Log into your USAJOBS account.
+1. Sign into your USAJOBS account.
 2. Click the **Documents** link located in the left-hand navigation.
 3. Select **Resumes** or **Other Documents** located at the top of the page.
 
@@ -62,3 +62,8 @@ All documents must be less than 3MB in size and in one of the following document
 * RTF
 * PDF
 * Word (.doc or .docx)
+
+If you make changes to a document, the updated version of the file will need to be uploaded to your account.  However, some forms can’t be edited, except for the file name or document type.
+
+
+
