@@ -14,7 +14,7 @@ Some federal jobs are open to the general public—meaning any U.S. citizen can 
 
 Select this option if:
 
-* You are a U.S. Citizen and have never worked for the federal government.
+* You are a [U.S. citizen](../../../../working-in-government/us-citizens/) and have never worked for the federal government.
 * Do not fall into one of the eligibility criteria listed below.
 
 #### Yes – I fall into one of these categories and want to see all jobs open to applicants with the above eligibilities, such as federal employees.
