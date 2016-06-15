@@ -7,13 +7,13 @@ category: Filters
 tags: [search, filters, who may apply]
 ---
 
-Some federal jobs are open to the general public &mdash; meaning any U.S. citizen can apply. But, some federal jobs are only open to eligible federal employees. You can filter your job search results to only show jobs that you may be eligible for.
+Some federal jobs are open to the general public &mdash; meaning any U.S. citizen can apply. But, some federal jobs are only open to eligible federal employees. You can refine your job search results to only show jobs that you may be eligible for.
 
 ### U.S. Citizen
 
 Select this option if you are a U.S. Citizen and have never worked for the federal government.
 
-You will only see jobs open to the public. You will not see jobs that are **only open** to eligible federal employees.
+You will only see jobs open to the public. 
 
 Most federal jobs require you to be a [U.S. citizen](../../../../working-in-government/us-citizens/), but there are some exceptions for [non-U.S. citizens](../../../../working-in-government/non-citizens/).
 
@@ -32,7 +32,7 @@ Select this option if you are:
 
 * Eligible for [veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or separated from the armed forces under honorable conditions after three years ,or more, of continuous military service.
 
-If you select this option, you’ll see jobs open to the general public AND jobs that are only open to eligible federal employees (you may also see jobs that you are not eligible for). Learn more about [which jobs you are eligible to apply for](../../../../faq/application/eligibility/).
+If you select this option, you’ll see jobs open to the general public AND jobs that are only open to eligible federal employees (you may see jobs that you are not eligible for). Learn more about [which jobs you are eligible to apply for](../../../../faq/application/eligibility/).
 
 ## Additional Resources
 
