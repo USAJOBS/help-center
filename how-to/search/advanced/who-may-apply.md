@@ -21,20 +21,18 @@ Select this option if:
 
 Select this option if you are:
 
-A current or former federal civilian employee:
+#### A current or former federal civilian employee
 
-* Who holds or held a [non-temporary appointment](../../../../working-in-government/appointments/) .
-* In the competitive service in the Executive branch or in a position not in the Executive branch specifically included in the competitive service by statute.
-* In an excepted service position covered by an interchange agreement.
-* Eligible for reinstatement.
+* Who holds or held a [non-temporary appointment](../../../../working-in-government/appointments/).
+* In the [competitive service](../../../../working-in-government/service/) in the Executive branch or in a position not in the Executive branch specifically included in the competitive service by statute.
+* In an [excepted service](../../../../working-in-government/service/) position covered by an [interchange agreement](../../../../working-in-government/unique-hiring-paths/federal-employees/interchange-agreements/).
+* Eligible for [reinstatement](../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
 
-A Veteran 
+#### A Veteran
 
-* Eligible for [veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or separated from the armed forces under honorable conditions after three years ,or more,  of continuous military service.
+* Eligible for [veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or separated from the armed forces under honorable conditions after three years ,or more, of continuous military service.
 
 If you select this option you will see jobs open to the general public AND jobs open to eligible federal employees. You may see jobs you aren’t eligible for.
-
-
 
 ## Additional Resources
 
