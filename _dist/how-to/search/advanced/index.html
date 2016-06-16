@@ -34,8 +34,8 @@
 <!-- Favicons
 ================================================== -->
   <!-- 128x128 -->
-  <link rel="shortcut icon" type="image/ico" href="/Help/img/favicons/favicon.ico" />
-  <link rel="icon" type="image/png" href="/Help/img/favicons/favicon.png" />
+  <link rel="shortcut icon" type="image/ico" href="/img/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="/img/favicons/favicon.png" />
 
   <!-- 192x192, as recommended for Android
   http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
@@ -54,9 +54,9 @@
 
 <!-- CSS
 ================================================== -->
-  <link rel="stylesheet" href="/Help/css/vendor/font-awesome.min.css">
-  <link rel="stylesheet" href="/Help/css/usajobs-design-system-base--help-center.css">
-  <link rel="stylesheet" href="/Help/css/help-center.css">
+  <link rel="stylesheet" href="/css/vendor/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/usajobs-design-system-base--help-center.css">
+  <link rel="stylesheet" href="/css/help-center.css">
 
   </head>
   <body>
@@ -64,7 +64,7 @@
     <header class="usajobs-site-header" role="banner" aria-label="header">
   <div class="usa-disclaimer">
     <div class="usa-grid usajobs-disclaimer-official">
-      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/Help/img/us_flag_small.png">
+      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/img/us_flag_small.png">
       An official website of the United States Government
     </div>
   </div>
@@ -86,19 +86,19 @@
                   <span class="usajobs-nav__first_name">Sign In</span>
                 </a>
                 <ul class="usajobs-nav__secondary-menu" aria-expanded="false" aria-label="submenu">
-                  <li><a href="/Help/Applicant/MyAccount/Home">Home</a></li>
-                  <li><a href="/Help/Applicant/Application/ListApplications">Application Status</a></li>
-                  <li><a href="/Help/Applicant/MyAccount/Documents">Documents</a></li>
-                  <li><a href="/Help/Applicant/MyAccount/Inbox">Inbox</a></li>
-                  <li><a href="/Help/Applicant/Profile/PersonalInformation">Profile</a></li>
-                  <li><a href="/Help/Applicant/Resume/ListResumes">Resumes</a></li>
-                  <li><a href="/Help/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a></li>
-                  <li><a href="/Help/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a></li>
-                  <li><a href="/Help/Applicant/Account/LogOff">Sign Out</a></li>
+                  <li><a href="/Applicant/MyAccount/Home">Home</a></li>
+                  <li><a href="/Applicant/Application/ListApplications">Application Status</a></li>
+                  <li><a href="/Applicant/MyAccount/Documents">Documents</a></li>
+                  <li><a href="/Applicant/MyAccount/Inbox">Inbox</a></li>
+                  <li><a href="/Applicant/Profile/PersonalInformation">Profile</a></li>
+                  <li><a href="/Applicant/Resume/ListResumes">Resumes</a></li>
+                  <li><a href="/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a></li>
+                  <li><a href="/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a></li>
+                  <li><a href="/Applicant/Account/LogOff">Sign Out</a></li>
                 </ul>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__help">
-                <a class="usajobs-nav__section-link is-active" href="/Help/" title="Help">
+                <a class="usajobs-nav__section-link is-active" href="/" title="Help">
                   <span class="fa fa-question-circle"></span>
                   Help
                 </a>
@@ -147,9 +147,9 @@
     <div class="usajobs-help-center">
       <div class="usajobs-help-center-search-banner--with-nav ">
   <div role="search" id="search" class="usajobs-help-center-search-banner__container">
-    <form class="usa-search usa-search-big" action="/Help/search" method="get">
+    <form class="usa-search usa-search-big" action="/search" method="get">
       <h1 class="usajobs-help-center-search-banner__title">
-        <a href="/Help/" class="usajobs-help-center-search-banner__link">Help Center</a>
+        <a href="/" class="usajobs-help-center-search-banner__link">Help Center</a>
       </h1>
       <label class="usa-sr-only" for="search-query">Search</label>
       <input type="search" id="search-query" name="q" placeholder="Search for help" autocomplete="off" >
@@ -162,17 +162,17 @@
   <div class="usajobs-help-center-nav-secondary__body">
     <ul class="usajobs-help-center-nav-secondary__menu">
       <li class="usajobs-help-center-nav-secondary__container faq ">
-        <a class="usajobs-help-center-nav-secondary__item" href="/Help/faq/">
+        <a class="usajobs-help-center-nav-secondary__item" href="/faq/">
           FAQs
         </a>
       </li>
       <li class="usajobs-help-center-nav-secondary__container how-to is-active">
-        <a class="usajobs-help-center-nav-secondary__item" href="/Help/how-to/">
+        <a class="usajobs-help-center-nav-secondary__item" href="/how-to/">
           How to&hellip;
         </a>
       </li>
       <li class="usajobs-help-center-nav-secondary__container working-in-government ">
-        <a class="usajobs-help-center-nav-secondary__item" href="/Help/working-in-government/">
+        <a class="usajobs-help-center-nav-secondary__item" href="/working-in-government/">
           <span class="usajobs-help-center-nav-secondary__text-long">Working in</span> Government
         </a>
       </li>
@@ -185,25 +185,25 @@
       <div class="usajobs-help-center-breadcrumb-container">
   <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/Help/">
+      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/">
         Home
       </a>
     </li>
 
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/"  class="usajobs-help-center-breadcrumb__link">
+      <a href="/how-to/"  class="usajobs-help-center-breadcrumb__link">
         <span property="item" typeof="WebPage">How to</span>
         <meta property="position" content="1">
       </a>
     </li>
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/search/"  class="usajobs-help-center-breadcrumb__link">
+      <a href="/how-to/search/"  class="usajobs-help-center-breadcrumb__link">
         <span property="item" typeof="WebPage">Search</span>
         <meta property="position" content="1">
       </a>
     </li>
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/search/advanced/" class="usajobs-help-center-breadcrumb__link is-active">
+      <a href="/how-to/search/advanced/" class="usajobs-help-center-breadcrumb__link is-active">
         <span property="item" typeof="WebPage">Advanced</span>
         <meta property="position" content="1">
       </a>
@@ -238,47 +238,47 @@
               <ul class="usa-unstyled-list">
               
                 <li>
-                  <a href="/Help/how-to/search/advanced/">
+                  <a href="/how-to/search/advanced/">
                     How to search (Advanced)
                   </a>
                 </li>
                 <li>
-                  <a href="/Help/how-to/search/advanced/department-and-agency/">
+                  <a href="/how-to/search/advanced/department-and-agency/">
                     How to search by department and agency
                   </a>
                 </li>
                 <li>
-                  <a href="/Help/how-to/search/advanced/keyword/">
+                  <a href="/how-to/search/advanced/keyword/">
                     How to search by keyword
                   </a>
                 </li>
                 <li>
-                  <a href="/Help/how-to/search/advanced/location/">
+                  <a href="/how-to/search/advanced/location/">
                     How to search by location
                   </a>
                 </li>
                 <li>
-                  <a href="/Help/how-to/search/advanced/occupational-series/">
+                  <a href="/how-to/search/advanced/occupational-series/">
                     How to search by occupational series and job category
                   </a>
                 </li>
                 <li>
-                  <a href="/Help/how-to/search/advanced/posting-date/">
+                  <a href="/how-to/search/advanced/posting-date/">
                     How to search by posting date
                   </a>
                 </li>
                 <li>
-                  <a href="/Help/how-to/search/advanced/salary/">
+                  <a href="/how-to/search/advanced/salary/">
                     How to search by salary range and pay grade
                   </a>
                 </li>
                 <li>
-                  <a href="/Help/how-to/search/advanced/types-of-work/">
+                  <a href="/how-to/search/advanced/types-of-work/">
                     How to search by types of work
                   </a>
                 </li>
                 <li>
-                  <a href="/Help/how-to/search/advanced/who-may-apply/">
+                  <a href="/how-to/search/advanced/who-may-apply/">
                     How to search by who may apply
                   </a>
                 </li>
@@ -308,31 +308,31 @@
           <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v1__account">
             <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".account-menu">Account</li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/Help/Applicant/MyAccount/Home/">Home</a>
+              <a href="/Applicant/MyAccount/Home/">Home</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/Help/Applicant/Profile/">Profile</a>
+              <a href="/Applicant/Profile/">Profile</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/Help/Applicant/Application/ListApplications">Application Status</a>
+              <a href="/Applicant/Application/ListApplications">Application Status</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/Help/Applicant/Document/ListDocuments">Documents</a>
+              <a href="/Applicant/Document/ListDocuments">Documents</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/Help/Applicant/Document/ListResumes">Resumes</a>
+              <a href="/Applicant/Document/ListResumes">Resumes</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/Help/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a>
+              <a href="/Applicant/SavedJobs/ListSavedJobs">Saved Jobs</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/Help/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a>
+              <a href="/Applicant/SavedSearches/ListSavedSearches">Saved Searches</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/Help/Applicant/Profile/PersonalInformation">Username &amp; Password</a>
+              <a href="/Applicant/Profile/PersonalInformation">Username &amp; Password</a>
             </li>
             <li class="usajobs-footer--v1__menu-item account-menu is-hidden">
-              <a href="/Help/Account/LogOff">Sign Out</a>
+              <a href="/Account/LogOff">Sign Out</a>
             </li>
           </ul>
         </div>
@@ -340,25 +340,25 @@
           <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v1__help">
             <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".help-menu">Help</li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/">Help Center</a>
+              <a href="/">Help Center</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/about/">About USAJOBS</a>
+              <a href="/about/">About USAJOBS</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/contact/">Contact Us</a>
+              <a href="/contact/">Contact Us</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/faq/">FAQs</a>
+              <a href="/faq/">FAQs</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/get-started/">Get Started</a>
+              <a href="/get-started/">Get Started</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/how-to/">How to&hellip;</a>
+              <a href="/how-to/">How to&hellip;</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/working-in-government/">
+              <a href="/working-in-government/">
                 Working in Government
               </a>
             </li>
@@ -402,7 +402,7 @@
           <li><a href="http://www.opm.gov/efoia/">FOIA</a></li>
           <li><a href="https://www.opm.gov/our-inspector-general/">Inspector General</a></li>
           <li><a href="https://www.opm.gov/information-management/no-fear-act/">No Fear Act Data</a></li>
-          <li><a href="/Help/privacy/">Privacy Policy</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
           <li><a href="http://www.usa.gov/">USA.gov</a></li>
         </ul>
       </div>
@@ -411,12 +411,12 @@
 </footer>
 
       <!--[if lt IE 9]>
-    <script src="/Help/js/vendor/selectivizr-min.js"></script>
-    <script src="/Help/js/vendor/respond.min.js"></script>
-    <script src="/Help/js/vendor/rem.min.js"></script>
+    <script src="/js/vendor/selectivizr-min.js"></script>
+    <script src="/js/vendor/respond.min.js"></script>
+    <script src="/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="/Help/js/usajobs-help-center.js"></script>
-  <script src="/Help/js/search.min.js"></script>
+  <script src="/js/usajobs-help-center.js"></script>
+  <script src="/js/search.min.js"></script>
 
 
 
@@ -445,7 +445,7 @@
 <script type="text/javascript">
   $(function() {
     $('#search-query').lunrSearch({
-      indexUrl: '/Help/js/index.json',   // Url for the .json file containing search index data
+      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
       results : '#search-results',  // selector for containing search results element
       entries : '.entries',         // selector for search entries containing element (contained within results above)
       template: '#search-results-template'  // selector for Mustache.js template

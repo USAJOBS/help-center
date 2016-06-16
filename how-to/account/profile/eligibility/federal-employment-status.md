@@ -16,3 +16,7 @@ Individuals, who previously held a career or career-conditional appointment with
 * I am currently a federal civilian employee.
 * I am a former federal civilian employee with reinstatement eligibility.
 * I am a former federal civilian employee but do not have reinstatement eligibility.
+
+## Additional Resources
+
+* [Working in Government - Federal Employees](../../../../working-in-government/unique-hiring-paths/federal-employees/)
