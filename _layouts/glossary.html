@@ -8,58 +8,60 @@
   <body>
     <a class="skipnav" href="#main-content">Skip main navigation</a>
     {% include components/nav-help.html %}
-    {% include components/search-banner-with-nav.html %}
-    {% include components/breadcrumbs.html %}
-    <section class="usajobs-shell">
-      <section class="usajobs-canvas">
-        <div class="usajobs-help-center-article usajobs-content-gutter">
-          <main class="usajobs-content-well" id="main-content" role="main">
-            <h1>{{ page.title }}</h1>
-            {{ content }}
-          </main>
-          <aside class="usajobs-rightrail">
-            <h3 class="usajobs-help-center-article__related">
-              Contents
-            </h3>
-            <ul class="usa-unstyled-list">
-              <li><a href="#A">A</a></li>
-              <li><a href="#B">B</a></li>
-              <li><a href="#C">C</a></li>
-              <li><a href="#D">D</a></li>
-              <li><a href="#E">E</a></li>
-              <li><a href="#F">F</a></li>
-              <li><a href="#G">G</a></li>
-              <li><a href="#H">H</a></li>
-              <li><a href="#I">I</a></li>
-              <li><a href="#J">J</a></li>
-              <li><a href="#K">K</a></li>
-              <li><a href="#L">L</a></li>
-              <li><a href="#M">M</a></li>
-              <li><a href="#N">N</a></li>
-              <li><a href="#O">O</a></li>
-              <li><a href="#P">P</a></li>
-              <li><a href="#Q">Q</a></li>
-              <li><a href="#R">R</a></li>
-              <li><a href="#S">S</a></li>
-              <li><a href="#T">T</a></li>
-              <li><a href="#U">U</a></li>
-              <li><a href="#V">V</a></li>
-              <li><a href="#W">W</a></li>
-              <li><a href="#X">X</a></li>
-              <li><a href="#Y">Y</a></li>
-              <li><a href="#Z">Z</a></li>
-            </ul>
-          </aside>
-      </section>
-      <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
-        <div class="usajobs-help-center-article__additional-help">
-          <p>
-            <i class="fa fa-comment-o"></i>
-            Still need help? <a href="{{ site.baseurl }}/contact/">Submit a ticket</a> to the USAJOBS Support Desk.
-          </p>
+      <div class="usajobs-help-center">
+      {% include components/search-banner-with-nav.html %}
+      {% include components/breadcrumbs.html %}
+      <section class="usajobs-shell">
+        <section class="usajobs-canvas">
+          <div class="usajobs-help-center-glossary usajobs-content-gutter">
+            <main class="usajobs-content-well" id="main-content" role="main">
+              <h1>{{ page.title }}</h1>
+              {{ content }}
+            </main>
+            <aside class="usajobs-rightrail">
+              <h3 class="usajobs-help-center-article__related">
+                Contents
+              </h3>
+              <ul class="usajobs-help-center-index-nav__list">
+                <li><a href="#A" class="usajobs-help-center-index-nav__link">A</a></li>
+                <li><a href="#B" class="usajobs-help-center-index-nav__link">B</a></li>
+                <li><a href="#C" class="usajobs-help-center-index-nav__link">C</a></li>
+                <li><a href="#D" class="usajobs-help-center-index-nav__link">D</a></li>
+                <li><a href="#E" class="usajobs-help-center-index-nav__link">E</a></li>
+                <li><a href="#F" class="usajobs-help-center-index-nav__link">F</a></li>
+                <li><a href="#G" class="usajobs-help-center-index-nav__link">G</a></li>
+                <li class="usajobs-help-center-index-nav__item is-inactive" class="usajobs-help-center-index-nav__link">H</a></li>
+                <li><a href="#I" class="usajobs-help-center-index-nav__link">I</a></li>
+                <li class="usajobs-help-center-index-nav__item is-inactive" class="usajobs-help-center-index-nav__link">J</a></li>
+                <li class="usajobs-help-center-index-nav__item is-inactive" class="usajobs-help-center-index-nav__link">K</a></li>
+                <li><a href="#L" class="usajobs-help-center-index-nav__link">L</a></li>
+                <li><a href="#M" class="usajobs-help-center-index-nav__link">M</a></li>
+                <li><a href="#N" class="usajobs-help-center-index-nav__link">N</a></li>
+                <li><a href="#O" class="usajobs-help-center-index-nav__link">O</a></li>
+                <li><a href="#P" class="usajobs-help-center-index-nav__link">P</a></li>
+                <li><a href="#Q" class="usajobs-help-center-index-nav__link">Q</a></li>
+                <li><a href="#R" class="usajobs-help-center-index-nav__link">R</a></li>
+                <li><a href="#S" class="usajobs-help-center-index-nav__link">S</a></li>
+                <li><a href="#T" class="usajobs-help-center-index-nav__link">T</a></li>
+                <li><a href="#U" class="usajobs-help-center-index-nav__link">U</a></li>
+                <li><a href="#V" class="usajobs-help-center-index-nav__link">V</a></li>
+                <li><a href="#W" class="usajobs-help-center-index-nav__link">W</a></li>
+                <li class="usajobs-help-center-index-nav__item is-inactive">X</a></li>
+                <li class="usajobs-help-center-index-nav__item is-inactive">Y</a></li>
+                <li class="usajobs-help-center-index-nav__item is-inactive">Z</a></li>
+              </ul>
+            </aside>
+        </section>
+        <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
+          <div class="usajobs-help-center-article__additional-help">
+            <p>
+              <i class="fa fa-comment-o"></i>
+              Still need help? <a href="{{ site.baseurl }}/contact/">Submit a ticket</a> to the USAJOBS Support Desk.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     {% include components/footer.html %}
     {% include scripts.html %}
   </body>

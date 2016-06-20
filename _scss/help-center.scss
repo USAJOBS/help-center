@@ -615,3 +615,36 @@
     float: none;
   }
 }
+
+// Glossary
+.usajobs-help-center-glossary {
+  dl {
+    margin: 0 0 $size-M;
+  }
+
+  dt {
+    font-weight: bold;
+    text-transform: titlecase;
+  }
+
+  dd {
+    margin: $size-base 0;
+  }
+}
+
+.usajobs-help-center-index-nav {
+  &__list {
+    @include unstyledList();
+  }
+
+  &__link {
+    display: block;
+    padding: $size-S $size-default;
+  }
+
+  &__item.is-inactive {
+    display: block;
+    padding: $size-S $size-default;
+    color: $color-gray;
+  }
+}

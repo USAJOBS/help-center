@@ -8,7 +8,7 @@ category: glossary
 tags: [glossary, terms, definitions]
 ---
 
-<h2> <span class="mw-headline" id="A"><b>A</b></span></h2>
+<h2 id="A">A</h2>
 <dl><dt>ACTIVE DUTY OR ACTIVE MILITARY DUTY</dt><dd>(Creditable Service for Leave Accrual and Reduction in Force Purposes Only)
 </dd><dd>Means full-time duty with military pay and allowances in the Armed Forces. Active duty does include "annual" active duty for training, but excludes weekend Reserve meetings.
 </dd></dl>
@@ -36,40 +36,76 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>AVAILABILITY PAY</dt><dd>A special form of premium pay fixed at 25 percent of basic pay (including locality pay) that applies to criminal investigators who are required to work, or be available to work, substantial amounts of unscheduled overtime duty based on the needs of the employing agency. Criminal investigators receiving availability pay are exempt from the minimum wage and overtime pay provisions of the Fair Labor Standards Act and may not receive administratively uncontrollable overtime pay.
 </dd></dl>
-<h2> <span class="mw-headline" id="B"><b>B</b></span></h2>
-<dl><dt>BREAK IN SERVICE</dt><dd>The time when an employee is no longer on the payroll of an agency. (In computing creditable service for benefits, e.g., leave accrual and reduction in force retention, a separation of 1, 2, or 3 calendar days is not considered to be a break in service; a separation of 4 or more calendar days is considered to be a break in service and the days of separation are subtracted from the employee's total creditable service.)
-</dd></dl>
-<h2> <span class="mw-headline" id="C"><b>C</b></span></h2>
-<dl><dt>CAREER APPOINTMENT</dt><dd>Competitive service permanent appointment given to an employee who has completed 3 substantially continuous, creditable years of Federal service. In special cases (such as Administrative Law Judges), career appointment may be given to a person at the time he or she is hired from a civil service register.(See "SUBSTANTIALLY CONTINUOUS SERVICE" and "CREDITABLE SERVICE.")
-</dd></dl>
-<dl><dt>CERTIFICATE of Eligibles (also called Referral List)</dt><dd>A list of the highest-ranked eligibles in score and veterans’ preference order,  submitted to a hiring manager or appointing officer for employment consideration.
-</dd></dl>
-<dl><dt>CHANGE TO LOWER GRADE (also called "Demotion" and "Reduction in Grade")</dt><dd>Personnel action that moves an employee, while serving continuously in the same agency, to (1) a position at a lower grade when both the old and new positions are under the General Schedule or under the same type graded wage schedule, or (2) to a position with a lower rate of basic pay when both the old and the new positions are under the same type ungraded wage schedule or in a different pay-method category.
-</dd></dl>
-<dl><dt>CIVILIAN POSITION</dt><dd>A civilian office or position (including a temporary, part-time or intermittent position), appointive or elective, in the legislative, executive, or judicial branch of the Federal Government (including each corporation owned or controlled by the Federal Government and including non-appropriated fund instrumentalities under the jurisdiction of the Armed Forces) or in the Government of the District of Columbia.
-</dd></dl>
-<dl><dt>CIVILIAN RETIREE</dt><dd>A person who has retired from Federal Government civilian employment under any Federal Government-administered retirement system. The social security system (FICA) is not a retirement system for purposes of this definition.
-</dd></dl>
-<dl><dt>CIVIL SERVICE RETIREE</dt><dd>A person retired under the Civil Service Retirement System (CSRS).
-</dd></dl>
-<dl><dt>CLASSIFY</dt><dd>To evaluate the duties and responsibilities of a position and assign a title, occupation series and grade.
-</dd></dl>
-<dl><dt>COMPETITIVE POSITION</dt><dd>A position in the competitive service.
-</dd></dl>
-<dl><dt>COMPETITIVE SERVICE</dt><dd>All civilian positions in the Federal Government that are not specifically excepted from the civil service laws by or pursuant to statute, by the President, or by the Office of Personnel Management (OPM) under Rule VI (5 Code of Federal Regulations Part 6), and that are not in the Senior Executive Service.
-</dd></dl>
-<dl><dt>COMPETITIVE STATUS</dt><dd>Competitive status is a person's basic eligibility for assignment (e.g., by transfer, promotion, reassignment, demotion, or reinstatement) to a position in the competitive service without having to compete with members of the general public in an open competitive examination. When a vacancy announcement indicates that status candidates are eligible to apply, career employees and career-conditional employees who have served at least 90 days after competitive appointment may apply. Once acquired, status belongs to the individual, not to a position.
-</dd></dl>
-<dl><dt>CONTINUANCE</dt><dd>The personnel action used to document that an employee has received a waiver from mandatory retirement or the extension of the not-to-exceed date of a previous waiver.
-</dd></dl>
-<dl><dt>CREDITABLE MILITARY SERVICE</dt><dd>The total number of years and months of military service that is creditable for annual leave accrual purposes.
-</dd></dl>
-<dl><dt>CREDITABLE SERVICE</dt><dd>Federal Government employment (civilian or uniformed service) that meets requirements for a particular type of appointment or benefit, such as leave accrual or reduction in force retention.
-</dd></dl>
-<h2> <span class="mw-headline" id="D"><b>D</b></span></h2>
-<dl><dt>DELEGATED EXAMINING (DE)</dt><dd>A hiring authority OPM grants to agencies to fill competitive service positions with applicants without prior Federal service, Federal employees without competitive service status, or those with status. DE appointments are subject to civil service laws and regulations to ensure fair and open competition.
-</dd></dl>
-<dl><dt>DEMOTION</dt><dd>See CHANGE TO LOWER GRADE</dd></dl>
+
+<h2 id="B">B</h2>
+<dl>
+  <dt>BREAK IN SERVICE</dt>
+  <dd>The time when an employee is no longer on the payroll of an agency. (In computing creditable service for benefits, e.g., leave accrual and reduction in force retention, a separation of 1, 2, or 3 calendar days is not considered to be a break in service; a separation of 4 or more calendar days is considered to be a break in service and the days of separation are subtracted from the employee's total creditable service.)</dd>
+</dl>
+
+<h2 id="C">C</h2>
+<dl>
+  <dt>CAREER APPOINTMENT</dt>
+  <dd>Competitive service permanent appointment given to an employee who has completed 3 substantially continuous, creditable years of Federal service. In special cases (such as Administrative Law Judges), career appointment may be given to a person at the time he or she is hired from a civil service register.(See "SUBSTANTIALLY CONTINUOUS SERVICE" and "CREDITABLE SERVICE.")</dd>
+</dl>
+<dl>
+  <dt>CERTIFICATE of Eligibles (also called Referral List)</dt>
+  <dd>A list of the highest-ranked eligibles in score and veterans’ preference order,  submitted to a hiring manager or appointing officer for employment consideration.</dd>
+</dl>
+<dl>
+  <dt>CHANGE TO LOWER GRADE (also called "Demotion" and "Reduction in Grade")</dt>
+  <dd>Personnel action that moves an employee, while serving continuously in the same agency, to (1) a position at a lower grade when both the old and new positions are under the General Schedule or under the same type graded wage schedule, or (2) to a position with a lower rate of basic pay when both the old and the new positions are under the same type ungraded wage schedule or in a different pay-method category.</dd>
+</dl>
+<dl>
+  <dt>CIVILIAN POSITION</dt>
+  <dd>A civilian office or position (including a temporary, part-time or intermittent position), appointive or elective, in the legislative, executive, or judicial branch of the Federal Government (including each corporation owned or controlled by the Federal Government and including non-appropriated fund instrumentalities under the jurisdiction of the Armed Forces) or in the Government of the District of Columbia.</dd>
+</dl>
+<dl>
+  <dt>CIVILIAN RETIREE</dt>
+  <dd>A person who has retired from Federal Government civilian employment under any Federal Government-administered retirement system. The social security system (FICA) is not a retirement system for purposes of this definition.</dd>
+</dl>
+<dl>
+  <dt>CIVIL SERVICE RETIREE</dt>
+  <dd>A person retired under the Civil Service Retirement System (CSRS).</dd>
+</dl>
+<dl>
+  <dt>CLASSIFY</dt>
+  <dd>To evaluate the duties and responsibilities of a position and assign a title, occupation series and grade.</dd>
+</dl>
+<dl>
+  <dt>COMPETITIVE POSITION</dt>
+  <dd>A position in the competitive service.</dd>
+</dl>
+<dl>
+  <dt>COMPETITIVE SERVICE</dt>
+  <dd>All civilian positions in the Federal Government that are not specifically excepted from the civil service laws by or pursuant to statute, by the President, or by the Office of Personnel Management (OPM) under Rule VI (5 Code of Federal Regulations Part 6), and that are not in the Senior Executive Service.</dd>
+</dl>
+<dl>
+  <dt>COMPETITIVE STATUS</dt>
+  <dd>Competitive status is a person's basic eligibility for assignment (e.g., by transfer, promotion, reassignment, demotion, or reinstatement) to a position in the competitive service without having to compete with members of the general public in an open competitive examination. When a vacancy announcement indicates that status candidates are eligible to apply, career employees and career-conditional employees who have served at least 90 days after competitive appointment may apply. Once acquired, status belongs to the individual, not to a position.</dd>
+</dl>
+<dl>
+  <dt>CONTINUANCE</dt>
+  <dd>The personnel action used to document that an employee has received a waiver from mandatory retirement or the extension of the not-to-exceed date of a previous waiver.</dd>
+</dl>
+<dl>
+  <dt>CREDITABLE MILITARY SERVICE</dt>
+  <dd>The total number of years and months of military service that is creditable for annual leave accrual purposes.</dd>
+</dl>
+<dl>
+  <dt>CREDITABLE SERVICE</dt>
+  <dd>Federal Government employment (civilian or uniformed service) that meets requirements for a particular type of appointment or benefit, such as leave accrual or reduction in force retention.</dd>
+</dl>
+
+<h2 id="D">D</h2>
+<dl>
+  <dt>DELEGATED EXAMINING (DE)</dt>
+  <dd>A hiring authority OPM grants to agencies to fill competitive service positions with applicants without prior Federal service, Federal employees without competitive service status, or those with status. DE appointments are subject to civil service laws and regulations to ensure fair and open competition.</dd>
+</dl>
+<dl>
+  <dt>DEMOTION</dt>
+  <dd>See CHANGE TO LOWER GRADE</dd>
+</dl>
 <dl><dt>DENIAL OF WITHIN-GRADE INCREASE</dt><dd>The decision to withhold (not grant) a within-grade increase to a General Schedule employee because of a determination that the employee's performance is not at an acceptable level of competence.
 </dd></dl>
 <dl><dt>DETAIL</dt><dd>A temporary assignment of an employee to a different position for a specified period, with the employee returning to his or her regular duties at the end of the detail.
@@ -84,7 +120,8 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>DUTY STATION</dt><dd>The city/town, county, and State in which the employee works. For most employees, this will be the location of the employee's work site.
 </dd></dl>
-<h2> <span class="mw-headline" id="E"><b>E</b></span></h2>
+
+<h2 id="E">E</h2>
 <dl><dt>EFFECTIVE DATE</dt><dd>The date on which a personnel action takes place and on which the employee's official assignment begins.
 </dd></dl>
 <dl><dt>EOD (ENTRY ON DUTY)</dt><dd>The process by which a person completes the necessary paperwork and is sworn in as an employee.
@@ -101,7 +138,8 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>EXTENSION</dt><dd>The continuation of a time-limited appointment (one with a Not to Exceed (NTE) date) up to the maximum time allowed by the authority under which it was affected.
 </dd></dl>
-<h2> <span class="mw-headline" id="F"><b>F</b></span></h2>
+
+<h2 id="F">F</h2>
 <dl><dt>FEDERAL GOVERNMENT SERVICE</dt><dd>The total of all periods of military and civilian Federal service considered for retirement, reduction in force, and leave purposes.
 </dd></dl>
 <dl><dt>FEDERAL MERIT SYSTEM</dt><dd>A complete system of personnel selection and management based on an integrated set of personnel policies, procedures and practices designed to accomplish three basic objectives: (1) to recruit a competent work force; (2) to insure a stable work force; and (3) to provide equal opportunity for employment.
@@ -116,7 +154,8 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>FURLOUGH</dt><dd>The placement of an employee in a temporary non-pay status and non-duty status (or absence from duty) because of lack of work or funds, or for other non-disciplinary reasons.
 </dd></dl>
-<h2> <span class="mw-headline" id="G"><b>G</b></span></h2>
+
+<h2 id="G">G</h2>
 <dl><dt>GENERAL DISCHARGE</dt><dd>A discharge granted from the Armed Forces under honorable conditions.
 </dd></dl>
 <dl><dt>GENERAL EXPERIENCE</dt><dd>A type of work experience that is not necessarily directly related to the position but demonstrates the ability to acquire the particular competencies/knowledge, skills, and abilities to perform the work of the position.
@@ -131,7 +170,8 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>GRADE RETENTION ENTITLEMENT</dt><dd>The right of an employee to retain for 2 years, for pay and benefits purposes, the grade of the position from which he or she was reduced.
 </dd></dl>
-<h2> <span class="mw-headline" id="I"><b>I</b></span></h2>
+
+<h2 id="I">I</h2>
 <dl><dt>INDEFINITE APPOINTMENT</dt><dd>An appointment given to a non-permanent employee who is hired for an unlimited period of time.
 </dd></dl>
 <dl><dt>INJURY COMPENSATION</dt><dd>The compensation and medical care provided to civilian Federal employees for disability due to personal injuries sustained while in performance of duty and due to diseases relating to this employment.
@@ -140,7 +180,8 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>INVOLUNTARY SEPARATION</dt><dd>A separation against the will of and without the consent of the employee, other than separation for cause on charges of misconduct or delinquency. Examples include separation based on reduction in force, abolishment of position, expiration of term of office, lack of funds, and unacceptable performance (unless due to the employee's misconduct).
 </dd></dl>
-<h2> <span class="mw-headline" id="L"><b>L</b></span></h2>
+
+<h2 id="L">L</h2>
 <dl><dt>LEAD AGENCY</dt><dd>Under the Federal Wage System, an agency designated by the OPM to plan and conduct wage surveys, analyze the survey data and determine and issue required wage schedules for a wage area.
 </dd></dl>
 <dl><dt>LEGAL AUTHORITY</dt><dd>The legal authority is the law, Executive Order, regulation, agency directive, or the instruction under which the personnel action is taken.
@@ -157,7 +198,8 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>LOCALITY PAY</dt><dd>Location-based pay, in addition to an employee’s rate of basic pay, as defined by the 32 locality pay areas, which can be found . Employees outside the continental United States in non-foreign areas (i.e., Alaska, Hawaii, Puerto Rico, Guam and the U.S. Virgin Islands) do not receive locality pay, but rather receive cost-of-living allowances.
 </dd></dl>
-<h2> <span class="mw-headline" id="M"><b>M</b></span></h2>
+
+<h2 id="M">M</h2>
 <dl><dt>MASS TRANSFER</dt><dd>The movement of an employee with his or her position to a different agency when (1) a transfer of function or an organization change takes place and (2) there is no change in the employee's position, grade, or pay. (Note: for purposes of this definition, a change in the amount of any locality payment to which the employee is entitled is not a change in pay.)
 </dd></dl>
 <dl><dt>MERIT PROMOTION PROGRAM (MERIT STAFFING PROGRAM)</dt><dd>The system under which agencies consider an employee for vacant positions on the basis of personal merit. Vacant positions are usually filled through competition with applicants (current competitive service employees) being evaluated and ranked for the position on the basis of their experience, education, competencies and performance.
@@ -168,18 +210,20 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>MSPB</dt><dd>Merit Systems Protection Board.
 </dd></dl>
-<h2> <span class="mw-headline" id="N"><b>N</b></span></h2>
+
+<h2 id="N">N</h2>
 <dl><dt>NONAPPROPRIATED FUNDS INSTRUMENTALITY (NAFI)</dt><dd>Employees of the following organizations are not paid from funds appropriated by the Congress and, for most purposes, are not considered to be Federal employees. The Army and Air Force Exchange Service, Army and Air Force Motion Picture Service, Navy Ship's Stores Ashore, Navy exchanges, Marine Corps exchanges, Coast Guard exchanges, and other instrumentalities of the United States under the jurisdiction of the Armed Forces conducted for the comfort, pleasure, contentment, and mental and physical improvement of personnel of the Armed Forces.
 </dd></dl>
 <dl><dt>NONCOMPETITIVE ACTION</dt><dd>A promotion, demotion, reassignment, transfer, reinstatement, or an appointment based on prior service.
 </dd></dl>
-<h2> <span class="mw-headline" id="O"><b>O</b></span></h2>
+
+<h2 id="O">O</h2>
 <dl><dt>OCCUPATIONAL CODE</dt><dd>See definition of SERIES.
 </dd></dl>
 <dl><dt>OFFICIAL PERSONNEL FOLDER (OPF), Standard Form 66</dt><dd>A file containing records and documents related to civilian employment under title 5, U.S. Code.
 </dd></dl>
 
-<h2> <span class="mw-headline" id="P"><b>P</b></span></h2>
+<h2 id="P">P</h2>
 <dl>
   <dt>PATHWAYS</dt>
   <dd>See STUDENT PATHWAYS PROGRAM</dd>
@@ -219,12 +263,14 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>PROVISIONAL APPOINTMENT</dt><dd>A temporary appointment to a continuing position when the agency intends later to convert the employee to a non-temporary appointment and has current authority for such conversion at the time of the temporary appointment.
 </dd></dl>
-<h2> <span class="mw-headline" id="Q"><b>Q</b></span></h2>
+
+<h2 id="Q">Q</h2>
 <dl><dt>QUALITY (STEP) INCREASE (QSI OR QI)</dt><dd>An accelerated increase in employee's rate of basic pay through an additional within-grade increase granted under  5 U.S.C. 5336, or 5 CFR part 531 subpart E for sustained high quality performance.
 </dd></dl>
 <dl><dt>QUALIFICATION STANDARDS</dt><dd>A description of the minimum requirements necessary to perform the work of a particular occupation. These minimum requirements may include specific job-related work experience, education, medical or physical standards, training, security, and/or licensure. They are not designed to rank candidates, identify the best qualified for a particular position, or substitute for an analysis of an applicant's knowledge, skills, and abilities/competencies.
 </dd></dl>
-<h2> <span class="mw-headline" id="R"><b>R</b></span></h2>
+
+<h2 id="R">R</h2>
 <dl><dt>RATE OF BASIC PAY</dt><dd>The rate of pay fixed by law or administrative action for the position held by an employee before any deductions (such as taxes) and exclusive of additional pay of any kind (such as overtime pay).
 </dd></dl>
 <dl><dt>REALIGNMENT</dt><dd>The movement of an employee and his or her position when (1) a transfer of function or an organization change occurs, and (2) the employee has REEMPLOYMENT RIGHTS, the entitlement of a stay in the same agency, and (3) there is no change in the employee's position, grade or pay. (Note: For purposes of this definition, a change in the amount of any locality payment to which the employee is entitled is not a change in pay.)
@@ -268,7 +314,8 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>RETURN TO DUTY</dt><dd>Placement of an employee back in pay and duty status after absence for Furlough, Suspension, or Leave Without Pay.
 </dd></dl>
-<h2> <span class="mw-headline" id="S"><b>S</b></span></h2>
+
+<h2 id="S">S</h2>
 <dl><dt>SABBATICAL</dt><dd>An absence from duty, without charge to pay or leave, that an agency may grant to a Senior Executive Service (SES) career appointee to engage in study or uncompensated work experience.
 </dd></dl>
 <dl><dt>SEASONAL EMPLOYEE</dt><dd>An employee who works on an annual recurring basis for periods of less than 12 months (2,087 hours) each year.
@@ -326,7 +373,8 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>SUSPENSION</dt><dd>Placement of an employee in a temporary non-pay and non-duty status (or absence from duty) for disciplinary reasons or other reasons pending an inquiry.
 </dd></dl>
-<h2> <span class="mw-headline" id="T"><b>T</b></span></h2>
+
+<h2 id="T">T</h2>
 <dl><dt>TEMPORARY APPOINTMENT</dt><dd>An appointment lasting one year or less, with a specific expiration date.  Typically used to fill a short-term position due to reorganization, abolishment, or the completion of a specific project or peak workload; or to fill positions that involve intermittent (irregular) or seasonal (recurring annually) work schedules.
 </dd></dl>
 <dl><dt>TENURE</dt><dd>The period of time an employee may reasonably expect to serve under his or her current appointment. Tenure is governed by the type of appointment under which an employee is currently serving, without regard to whether the employee has competitive status or whether the employee's appointment is to a competitive service position or an excepted service position.
@@ -345,12 +393,14 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>TRANSFER OF FUNCTION</dt><dd>The movement of the work of one or more employees from one competitive area to another.
 </dd></dl>
-<h2> <span class="mw-headline" id="U"><b>U</b></span></h2>
+
+<h2 id="U">U</h2>
 <dl><dt>UNEMPLOYMENT COMPENSATION</dt><dd>Unemployment insurance for Federal employees.
 </dd></dl>
 <dl><dt>UNIFORMED SERVICES</dt><dd>The Armed Forces (Army, Navy, Air Force, Marine Corps, and Coast Guard) plus the commissioned officer corps of the Public Health Service and National Oceanic and Atmospheric Administration.
 </dd></dl>
-<h2> <span class="mw-headline" id="V"><b>V</b></span></h2>
+
+<h2 id="V">V</h2>
 <dl><dt>VETERAN</dt><dd>Means a person who was separated with an honorable discharge or under honorable conditions from active duty in the Armed Forces performed during one of the periods described in 5 U.S.C. 2108.
 </dd></dl>
 <dl><dt>VETERANS' PREFERENCE</dt><dd>(See PREFERENCE) is an employee's category of entitlement to preference in the Federal service based on active military service that terminated honorably.
@@ -359,7 +409,8 @@ tags: [glossary, terms, definitions]
 </dd></dl>
 <dl><dt>VETERANS’ RECRUITMENT APPOINTMENT (VRA)</dt><dd>An excepted authority that allows agencies to appoint eligible veterans without competition if the veteran has received a campaign badge for service during a war or in a campaign or expedition; or is a disabled veteran; or has received an Armed Forces Service Medal for participation in a military operation; or is a recently separated veteran (within the last 3 years) and separated under honorable conditions. Appointments under this authority may be made at any grade level up to and including a GS-11 or equivalent. This is an excepted service appointment, which can be converted to competitive service after 2 years.
 </dd></dl>
-<h2> <span class="mw-headline" id="W"><b>W</b></span></h2>
+
+<h2 id="W">W</h2>
 <dl><dt>WAGE EMPLOYEES (often called Wage Grade)</dt><dd>(also called prevailing rate employees) These employees are in trades, crafts, or labor occupations is fixed and adjusted from time-to-time in accordance with prevailing rates.
 </dd></dl>
 <dl><dt>WITHIN-GRADE INCREASE (WGI)</dt><dd>Is an increase in employee's rate of basic pay by advancement from one step of his or her grade to the next after meeting requirements for length of service and performance.
