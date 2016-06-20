@@ -1710,4 +1710,48 @@ html {
   display: inline-block;
   float: none;
 }
+
+.usajobs-help-center-glossary dl {
+  margin: 0 0 3rem;
+}
+
+.usajobs-help-center-glossary dt {
+  font-weight: bold;
+  text-transform: titlecase;
+}
+
+.usajobs-help-center-glossary dd {
+  margin: 0.5rem 0;
+}
+
+.usajobs-help-center-index-nav__list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.usajobs-help-center-index-nav__list > li {
+  display: list-item;
+  margin: 0;
+}
+
+.usajobs-help-center-index-nav__list > li:before {
+  display: none;
+}
+
+.usajobs-help-center-index-nav__list > li:after {
+  display: none;
+}
+
+.usajobs-help-center-index-nav__link {
+  display: block;
+  padding: 1rem 1.5rem;
+}
+
+.usajobs-help-center-index-nav__item.is-inactive {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: #5b616b;
+}
 /*# sourceMappingURL=help-center.css.map */
