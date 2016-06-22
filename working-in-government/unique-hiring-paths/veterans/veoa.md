@@ -13,6 +13,7 @@ VEOA is a special hiring authority, which gives eligible Veterans access to posi
 ## Eligibility
 
 VEOA eligibility applies to the following categories of Veterans:
+
 * Preference eligibles
 * Service personnel separated after three or more years of continuous active service performed under honorable conditions.
 
