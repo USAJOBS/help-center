@@ -15,7 +15,7 @@ To edit a resume that you built using the USAJOBS Resume Builder tool:
 1.  Sign into your USAJOBS account.
 2.  Go to  **Documents** - your resumes appear in your documents.
 3.  Click the **Edit** link for the USAJOBS builder resume you would like to change.
-4.  Make your edits and click **Save**. 
+4.  Make your edits and click **Save**.
 5.  Click **Cancel** if you do not want to save your changes.
 
 In the **Select Resume** step of the [USAJOBS Application Process](../../../../application/), you will also have the opportunity to edit your USAJOBS builder resume.
@@ -30,6 +30,6 @@ To edit an uploaded resume, you must [upload](../upload/) the updated file to yo
 
 ## Additional Resources
 
-* [Sample Resume](../sample.pdf)
+* [Writing Your Federal Resume (PDF)](../writing-your-federal-resume.pdf)
 * [What to Include](../../../../../faq/application/documents/resume/what-to-include/)
 

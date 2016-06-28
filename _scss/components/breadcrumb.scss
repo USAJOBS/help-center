@@ -17,6 +17,10 @@
   &__link {
     font-size: $small-font-size;
 
+    &:hover {
+      text-decoration: none;
+    }
+
     &:visited {
       color: $color-primary;
     }
