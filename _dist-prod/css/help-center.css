@@ -205,6 +205,10 @@ html {
   font-size: 1.4rem;
 }
 
+.usajobs-help-center-breadcrumb__link:hover {
+  text-decoration: none;
+}
+
 .usajobs-help-center-breadcrumb__link:visited {
   color: #0071bc;
 }
