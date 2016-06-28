@@ -16,6 +16,5 @@ Creating a resume can be done in several ways:
 
 ## Additional Resources
 
-* [Sample Resume (PDF)](sample-resume.pdf)
-* [Sample Resume (MS Word)](sample-resume.docx)
-
+* [Writing Your Federal Resume (PDF)](writing-your-federal-resume.pdf)
+* [Writing Your Federal Resume (MS Word)](writing-your-federal-resume.docx)
