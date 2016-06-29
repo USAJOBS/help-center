@@ -1,7 +1,7 @@
 ---
-permalink: /faq/myths/
+permalink: /working-in-government/myths/
 layout: sub-section
-section: faq
+section: working-in-government
 title: Federal hiring myths
 breadcrumb: Myths
 category: myths

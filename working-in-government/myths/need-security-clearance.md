@@ -1,7 +1,7 @@
 ---
-permalink: /faq/myths/need-security-clearance/
+permalink: /working-in-government/myths/need-security-clearance/
 layout: article
-section: faq
+section: working-in-government
 title: You need security clearance to qualify for a federal job
 breadcrumb: Need security clearance
 category: myths

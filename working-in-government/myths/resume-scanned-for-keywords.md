@@ -1,7 +1,7 @@
 ---
-permalink: /faq/myths/resume-scanned-for-keywords/
+permalink: /working-in-government/myths/resume-scanned-for-keywords/
 layout: article
-section: faq
+section: working-in-government
 title: Resumes are scanned for keywords by an automated system
 breadcrumb: Resume keywords
 category: myths

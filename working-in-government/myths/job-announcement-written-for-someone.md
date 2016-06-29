@@ -1,8 +1,8 @@
 ---
-permalink: /faq/myths/job-announcement-written-for-someone/
+permalink: /working-in-government/myths/job-announcement-written-for-someone/
 layout: article
-section: faq
-title: The job announcement looks like it has been written with someone in mind.
+section: working-in-government
+title: The job announcement looks like it has been written with someone in mind
 breadcrumb:  Targeted job announcement
 category: myths
 tags: [hiring, myths, government]

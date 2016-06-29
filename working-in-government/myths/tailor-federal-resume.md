@@ -1,7 +1,7 @@
 ---
-permalink: /faq/myths/tailor-federal-resume/
+permalink: /working-in-government/myths/tailor-federal-resume/
 layout: article
-section: faq
+section: working-in-government
 title: You need to tailor your federal resume to each position
 breadcrumb: Tailor federal resume
 category: myths

@@ -1,7 +1,7 @@
 ---
-permalink: /faq/myths/resumes-should-not-exceed-two-pages/
+permalink: /working-in-government/myths/resumes-should-not-exceed-two-pages/
 layout: article
-section: faq
+section: working-in-government
 title: A federal resume should not exceed two pages
 breadcrumb: Resumes should not exceed two pages
 category: myths

@@ -1,7 +1,7 @@
 ---
-permalink: /faq/myths/have-to-know-someone/
+permalink: /working-in-government/myths/have-to-know-someone/
 layout: article
-section: faq
+section: working-in-government
 title: You have to known someone to get a federal job
 breadcrumb: Know someone
 category: myths
