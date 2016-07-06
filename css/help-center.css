@@ -576,7 +576,7 @@ html {
   line-height: 68px;
   border-radius: 50%;
   color: #ffffff;
-  background-color: #205493;
+  background-color: #e31c3d;
   box-shadow: inset 0 0 0 2px none;
   display: inline-block;
   padding-bottom: 1.5rem;
@@ -595,6 +595,15 @@ html {
   box-shadow: inset 0 0 0 2px none;
 }
 
+.usajobs-unique-hiring-paths__icon.federal-employees .fa::before,
+.usajobs-unique-hiring-paths__icon.individuals-with-disabilities .fa::before {
+  margin-right: -0.4rem;
+}
+
+.usajobs-unique-hiring-paths__icon.federal-employees .fa::before {
+  margin-top: -0.3rem;
+}
+
 .usajobs-unique-hiring-paths__icon.veterans, .usajobs-unique-hiring-paths__icon.military-spouses {
   display: inline-block;
   width: 68px;
@@ -602,7 +611,7 @@ html {
   line-height: 68px;
   border-radius: 50%;
   color: #ffffff;
-  background-color: #e31c3d;
+  background-color: #2e8540;
   box-shadow: inset 0 0 0 2px none;
 }
 
@@ -628,7 +637,7 @@ html {
   line-height: 68px;
   border-radius: 50%;
   color: #ffffff;
-  background-color: #2e8540;
+  background-color: #205493;
   box-shadow: inset 0 0 0 2px none;
 }
 

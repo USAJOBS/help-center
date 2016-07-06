@@ -73,7 +73,7 @@ $body-padding: $size-M;
   }
 
   &__icon {
-    @include makeCircle(68px, none, $color-primary-darker);
+    @include makeCircle(68px, none, $color-secondary);
     display: inline-block;
     padding-bottom: $size-default;
     font-size: $h2-font-size;
@@ -86,9 +86,18 @@ $body-padding: $size-M;
       @include makeCircle(68px, none, $color-primary-darkest);
     }
 
+    &.federal-employees .fa::before,
+    &.individuals-with-disabilities .fa::before {
+      margin-right: rem(-4px);
+    }
+
+    &.federal-employees .fa::before {
+      margin-top: rem(-3px);
+    }
+
     &.veterans,
     &.military-spouses {
-      @include makeCircle(68px, none, $color-secondary);
+      @include makeCircle(68px, none, $color-green);
     }
 
     &.military-spouses {
@@ -102,7 +111,7 @@ $body-padding: $size-M;
     }
 
     &.individuals-with-disabilities {
-      @include makeCircle(68px, none, $color-green);
+      @include makeCircle(68px, none, $color-primary-darker);
     }
   }
 
