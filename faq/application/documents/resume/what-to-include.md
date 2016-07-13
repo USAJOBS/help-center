@@ -67,10 +67,12 @@ When explaining your accomplishments:
 
 These statements show in concrete terms what you accomplished.
 
-## Customize your resume
+## More resume writing tips
+
+### Customize your resume
 You should tailor your resume to the job announcement rather than sending out the same resume for every job. Customizing your resume helps you match your competencies, knowledge, skilss, abilities and experience to the requirements for each job.  Emphasize your strengths and include everything you've done that relates to the job you're seeking. Leave out experience that isn't relevant.
 
-## Organize your resume to make it easy to understand
+### Organize your resume to make it easy to understand
 You need to organize your resume to help agencies evaluate your experience. If you don't provide the information required for the hiring agency to determine your qualifications, you might not be considered for the job.
 
 * Use reverse chronological order to list your experience--start with your most recent experience first and work your way back.
@@ -79,14 +81,14 @@ You need to organize your resume to help agencies evaluate your experience. If y
 * Use either bullet or paragraph format to describe your experiences and accomplishments.
 * Use plain language-- avoid using acronyms and terns that are not easily understood.
 
-## Be concise
+### Be concise
 Hiring agencies often receive dozens or even hundreds of resumes for certain positions.  Hiring managers quickly skim through submissions and eliminate candidates who clearly are not qualified. Look at your resume and ask:
 
 * Can a hiring manager see my main credentials within 10 to 15 seconds?
 * Does critical information jump off the page?
 * Do I effectively sell myself on the top quarter of the first page?
 
-## Review your resume before you apply
+### Review your resume before you apply
 Check your resume for spelling and grammatical errors and have someone else, with a good eye for detail, review your resume.
 
 ## Important facts about the federal hiring process
