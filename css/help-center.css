@@ -291,7 +291,13 @@ html {
 }
 
 .usajobs-uhp-banner--students .usajobs-uhp-banner__body {
+  color: #212121;
   background-color: #fdb81e;
+}
+
+.usajobs-uhp-banner--students .usajobs-uhp-banner__title,
+.usajobs-uhp-banner--students .usajobs-uhp-banner__text {
+  color: #212121;
 }
 
 .usajobs-uhp-banner--students .usajobs-uhp-banner__title-container .fa {
@@ -300,7 +306,7 @@ html {
   height: 8.2rem;
   line-height: 16.4rem;
   border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
+  color: #212121;
   background-color: #fdb81e;
   display: block;
 }

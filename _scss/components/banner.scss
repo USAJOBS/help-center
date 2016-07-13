@@ -192,11 +192,17 @@
 
 .usajobs-uhp-banner--students {
   .usajobs-uhp-banner__body {
+    color: $color-base;
     background-color: $color-gold;
   }
 
+  .usajobs-uhp-banner__title,
+  .usajobs-uhp-banner__text {
+    color: $color-base;
+  }
+
   .usajobs-uhp-banner__title-container .fa {
-    @include makeSemiCircle(rem(164px), $color-gold);
+    @include makeSemiCircle(rem(164px), $color-gold, $color-base);
     display: block;
   }
 }
