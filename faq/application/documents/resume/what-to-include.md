@@ -2,74 +2,113 @@
 permalink: /faq/application/documents/resume/what-to-include/
 layout: article
 section: faq
-title: What should I include in my resume?
+title: What should I include in my federal resume?
 breadcrumb: What to include
 category: Resume
 tags: [application, resume, support-resume]
 ---
+Whether you're a current federal employee or new to the Federal Government, your resume is the primary way for you to communicate your education, skills and experience.
 
-## Most Effective Resumes
+## Before you get started
 
-The most effective resumes when applying for federal jobs are those that clearly articulate how an applicant’s skills and experiences align to the selection criteria defined by the job opportunity announcement. Applicants should always tailor their resume to the job opportunity to which they are applying. Consider these additional tips in ensuring you’ve created and are using the most effective resume.
+Read the entire job announcement.  Focus on the following sections to understand whether or not you qualify for the position.  This critical information is found under:
+
+* **Duties** and **Qualifications**
+* **How to Apply** (including a preview of the assessment questionnaire)
+* **How You Will be Evaluated**
+
+Make sure you have the required experience and/or education before you apply.  Hiring agencies use the job announcement to describe the job and the required qualifications, including:
+
+* Level and amount of experience
+* Education
+* Training
+
+## What to include in your resume
+
+Federal jobs often require that you have experience in a a particular type of work for a certain period of time. You must show how your skills and experiences **meet the qualifications and requirements listed in the job announcement** to be considered for the job.
 
 
-## Pay Attention to Keywords
+### Include dates, hours, level of experience and examples for each work experience
 
-Whether you're writing your first resume or updating an existing one, stop and think about which keywords you need to add based on the Knowledge, Skills, and Abilities required for the position. You could be the most qualified person for the position, but you could be lost in a sea of applicants without the right keywords.
+For each work experience you list, make sure you include:
 
+* Start and end dates (including the month and year).
+* The number of hours you worked per week.
+* The level and amount of experience--for instance, whether you served as a project manager or a team member helps to illustrate your level of experience.
+* Examples of relevant experiences and accomplishments that prove you can perform the tasks at the level rquired for the job as stated in the job announcement
 
-## A Single Keyword Communicates Multiple Skills and Qualifications
+#### Example
+**Program Analyst GS-343-11**
+January 2009 - Present
+40 Hours/Week
+$63,000/Year
 
-When a recruiter reads the keyword "analyst," he or she might assume you have experience in collecting data, evaluating effectiveness, and researching and developing new processes. Just one keyword can have tremendous power and deliver a huge message.
+* Experience/Accomplishment
+* Experience/Accomplishment
 
+### Include volunteer work and roles in community organizations
+Don't limit yourself to only including paid work experience. Include relevant volunteer work or community organizations roles that demonstrate your ability to do the job.
 
-## Study Job Opportunity Announcements
+### Use numbers to highlight your accomplishments
+Use numbers, percentages or dollars to highlight your accomplishments--you can find this information in things like your performance reviews, previous job descriptions, awards and letters of recommendation.
 
-This is the best way to determine important keywords. Review several job opportunity announcements, similar to your ideal position – even those in other geographic areas. You’re looking to find skills, experience, education and other credentials important in that occupation. Focus on the "requirements," "skills" or "qualifications" sections of job ads, and look for “buzzwords” and desirable credentials for your ideal job.
+When explaining your accomplishments:
 
+* Include examples of how you saved money, earned money, or managed money.
+* Include examples of how you saved or managed time.
 
-## Be Concise
+#### Example
 
-Recruiters often receive dozens or even hundreds of applications for certain positions. The first step involves quickly skimming through submissions and eliminating candidates who clearly are not qualified. Look at your resume and ask:
+* "Improved efficiency of document processing by 25% over the previous year".
+* "Wrote 25 news releases in a three-week period under daily deadlines".
+* "Managed a student organization budget of more than $7,000".
+* "Wrote prospect letter that has brought in more than $25,000 in donations to date".
+
+These statements show in concrete terms what you accomplished.
+
+## Customize your resume
+You should tailor your resume to the job announcement rather than sending out the same resume for every job. Customizing your resume helps you match your competencies, knowledge, skilss, abilities and experience to the requirements for each job.  Emphasize your strengths and include everything you've done that relates to the job you're seeking. Leave out experience that isn't relevant.
+
+## Organize your resume to make it easy to understand
+You need to organize your resume to help agencies evaluate your experience. If you don't provide the information required for the hiring agency to determine your qualifications, you might not be considered for the job.
+
+* Use reverse chronological order to list your experience--start with your most recent experience first and work your way back.
+* Provide greater detail for experience that is relevant to the job for which you are applying.
+* Show all experiencea and accomplishments under the job in which you earned it.  This helps agencies determine the amount of experience you have with that particular skill.
+* Use either bullet or paragraph format to describe your experiences and accomplishments.
+* Use plain language-- avoid using acronyms and terns that are not easily understood.
+
+## Be concise
+Hiring agencies often receive dozens or even hundreds of resumes for certain positions.  Hiring managers quickly skim through submissions and eliminate candidates who clearly are not qualified. Look at your resume and ask:
 
 * Can a hiring manager see my main credentials within 10 to 15 seconds?
 * Does critical information jump off the page?
 * Do I effectively sell myself on the top quarter of the first page?
 
-## The Sales Pitch
+## Review your resume before you apply
+Check your resume for spelling and grammatical errors and have someone else, with a good eye for detail, review your resume.
 
-It is crucial that your resume effectively sells your credentials. Key selling points need to be prominently displayed at the top of the first page of the resume and directly address each question asked in the KSA section. For example, if an advanced degree is an important qualification, it shouldn't be buried at the end of a four-page resume. If a KSA question asks about your writing ability, immediately detail that applicable experience.
+## Important facts about the federal hiring process
+
+* The Federal Government does have a standard job application. Your resume is your application.
+* Hiring agencies use the job announcement to describe the job and list the required qualifications and responsibilities.
+* After applying, the hiring agency uses the inforamtion in your resume to verify if you have the required qualifications stated in the job announcement.
+* Once the hiring agency has determined who is qualifed, they may use other assessments such as interviews or testing to determine the best qualified applications.
+
+[Learn more about the federal hiring process](../../application/process/).
+
+## Additional resources
+
+* [Watch our resume writing video](https://www.youtube.com/watch?v=8YX7o1PBoFk)
+* [Find more job seek resources](https://hru.gov/Studio_Recruitment/Job_Seekers_Resource_Center.aspx)
+* [How to build a resume](../how-to/account/documents/resume/build)
+* [How to create a resume](../how-to/account/documents/resume/create)
 
 
-## Use an Editor's Eye
-
-A resume doesn’t have to contain every detail of your work experience. So be judicious. If your college days are far behind you, does it really matter that you pledged a fraternity or delivered pizza? The editing step will be difficult if you are holding on to your past for emotional reasons.
 
 
-## Use Numbers to Highlight Your Accomplishments
-
-If you were a recruiter looking at a resume, which of the following entries would impress you more?
-
-* Wrote news releases.
-* Wrote 25 news releases in a three-week period under daily deadlines.
-
-Clearly the second statement carries more weight, because it uses numbers to quantify the writer's accomplishment. It provides context that helps the reader understand the degree of difficulty involved in the task. Numbers are powerful resume tools that will help your accomplishments draw the attention they deserve from prospective employers. With just a little thought, you can find effective ways to quantify your successes on your resume.
 
 
-## Think Money
 
-All organizations are concerned about money. So think about and articulate ways you've saved money, earned money, or managed money in your internships, part-time jobs and extracurricular activities. A few possibilities may include:
 
-* Identified, researched and recommended a new Internet Service Provider, cutting the company's online costs by 15 percent.
-* Wrote prospect letter that has brought in more than $25,000 in donations to date.
-* Managed a student organization budget of more than $7,000.
 
-## Think Time
-
-"Time is money." Organizations are constantly looking for ways to save time, perform work more efficiently, and meet internal and external deadlines. So, whatever you can do on your resume to show that you can save time, make time or manage time will grab the recruiter’s immediate attention.
-
-Here are some time-oriented examples:
-
-* Assisted with twice-monthly payroll activities, ensuring employees were paid as expected and on time.
-* Attended high school basketball games, interviewed players and coaches afterward, and composed 750-word articles by an 11 p.m. deadline.
-* Suggested procedures that decreased average order-processing time from 10 minutes to five minutes.
