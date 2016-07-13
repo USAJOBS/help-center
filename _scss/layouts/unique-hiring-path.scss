@@ -2,9 +2,6 @@
 
 @import 'base-shared';
 
-.usajobs-help-center-unique-hiring-path {
-}
-
 .usajobs-uhp-section {
   @include clearfix();
   margin-bottom: $size-L;
@@ -39,7 +36,7 @@
   }
 }
 
-.usajobs-uhp-section-additional-resources {
+.usajobs-uhp-section-outside-resources {
   @include unstyledList();
 }
 

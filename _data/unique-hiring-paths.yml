@@ -1,0 +1,47 @@
+disability:
+  title: "Individual with a disability"
+  text: "If you're an individual with a disability, you can apply and compete for any job for which you are eligible and meet the qualifications, but you also may be eligible for a special hiring authority."
+  image-alt: "Male writing with mechanical pencil on paper document."
+  icon: wheelchair
+
+federal-employees:
+  title: Current/Former Federal Employees
+  text: "If you area  current of former federal employee you may qualify to apply for a position under merit promotion consideration."
+  image-alt: "A women typing on a laptop."
+  icon: bank
+
+former-overseas-employees:
+  title: Former Overseas Employees
+  text: "If you're a family member of a federal employee, or uniformed service member, who has completed 52 weeks of service in a federal position overseas, you may be eligible to apply for jobs open to merit promotion candidates or be hired for a competitive service job."
+  image-alt: "Fighter jets"
+  icon: plane
+
+military-spouses:
+  title: Military Spouses
+  text: "If you're a military spouse, you may be eligible to apply for jobs open to merit promotion candidates or be hired for a competitive service job without going through the entire application process."
+  image-alt: "Military service member hugging his spouse."
+  icon: shield
+
+peace-corps:
+  title: Peace Corps or AmeriCorps VISTA alumni
+  text: ""
+  image-alt: ""
+  icon: flag
+
+ses:
+  title: Senior Executives
+  text: "You may be eligible for a Senior Executive Service position if you meet the five Executive Core Qualifications (ECQs)."
+  image-alt: "A pen resting on an open notebook."
+  icon: briefcase
+
+students:
+  title: Students & Recent Graduates
+  text: "If you’re a current student or recent graduate, you may be eligible for federal internships and job opportunities through the Pathways program."
+  image-alt: "Students at a picnic table reading."
+  icon: graduation-cap
+
+veterans:
+  title: Veterans
+  text: "If you’re a Veteran who served on active duty in the U.S. Armed Forces and were separated under honorable conditions, you may be eligible for veterans’ preference, as well as other veteran specific hiring options."
+  image-alt: "Soldier saluting the American flag."
+  icon: shield

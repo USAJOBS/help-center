@@ -1,7 +1,7 @@
 <div class="usajobs-uhp-section-nav">
   <h2 class="usajobs-uhp-section__title">Unique Hiring Paths</h2>
   <ul class="usajobs-uhp-section-nav__list">
-    <li class="usajobs-uhp-section-nav__item">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'federal-employees' %}is-active{% endif %}">
       <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/federal-employees/">
         <div class="usajobs-uhp-section-nav__figure">
           <div class="usajobs-uhp-section-nav__icon federal-employees">
@@ -15,7 +15,7 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'veterans' %}is-active{% endif %}">
       <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/veterans/">
         <div class="usajobs-uhp-section-nav__figure">
           <div class="usajobs-uhp-section-nav__icon veterans">
@@ -29,7 +29,7 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'students' %}is-active{% endif %}">
       <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/students/">
         <div class="usajobs-uhp-section-nav__figure">
           <div class="usajobs-uhp-section-nav__icon students">
@@ -43,7 +43,7 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'ses' %}is-active{% endif %}">
       <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/senior-executives/">
         <div class="usajobs-uhp-section-nav__figure">
           <div class="usajobs-uhp-section-nav__icon ses">
@@ -57,7 +57,7 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'former-overseas-employees' %}is-active{% endif %}">
       <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/former-overseas-employees/">
         <div class="usajobs-uhp-section-nav__figure">
           <div class="usajobs-uhp-section-nav__icon former-overseas-employees">
@@ -71,7 +71,7 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'individuals-with-disabilities' %}is-active{% endif %}">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'disability' %}is-active{% endif %}">
       <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/individuals-with-disabilities/">
         <div class="usajobs-uhp-section-nav__figure">
           <div class="usajobs-uhp-section-nav__icon individuals-with-disabilities">
@@ -85,7 +85,7 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'military-spouses' %}is-active{% endif %}">
       <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/military-spouses/">
         <div class="usajobs-uhp-section-nav__figure">
           <span class="usajobs-uhp-section-nav__icon military-spouses">
@@ -99,7 +99,7 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'peace-corps' %}is-active{% endif %}">
       <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/peace-corps/">
         <div class="usajobs-uhp-section-nav__figure">
           <div class="usajobs-uhp-section-nav__icon peace-corps">

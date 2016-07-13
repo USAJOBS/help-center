@@ -87,8 +87,6 @@
 }
 
 .usajobs-uhp-banner {
-  background-color: $color-primary-darkest;
-
   &__container {
     max-width: $site-max-width;
 
@@ -102,6 +100,7 @@
     position: relative;
     @include clearfix();
     @include contentGutter();
+    margin-top: rem(-10px);
     padding-top: $size-L;
     padding-bottom: $size-L;
   }
@@ -122,7 +121,7 @@
       margin-top: rem(-100px);
       margin-left: auto;
       margin-right: auto;
-      font-size: 82px;
+      font-size: rem(82px);
       text-align: center;
     }
   }
@@ -153,11 +152,12 @@
   &__text {
     color: $color-white;
   }
-
 }
 
 .usajobs-uhp-banner--disability {
-  background-color: $color-primary-darker;
+  .usajobs-uhp-banner__body {
+    background-color: $color-primary-darker;
+  }
 
   .usajobs-uhp-banner__title-container .fa {
     @include makeCircle(rem(164px), none, $color-primary-darker);
@@ -165,10 +165,37 @@
   }
 }
 
-.usajobs-uhp-banner--veterans {
-  background-color: $color-green;
+.usajobs-uhp-banner--ses,
+.usajobs-uhp-banner--federal-employees {
+  .usajobs-uhp-banner__body {
+    background-color: $color-primary-darkest;
+  }
+
+  .usajobs-uhp-banner__title-container .fa {
+    @include makeCircle(rem(164px), none, $color-primary-darkest);
+    display: block;
+  }
 }
 
 .usajobs-uhp-banner--students {
-  background-color: $color-gold;
+  .usajobs-uhp-banner__body {
+    background-color: $color-gold;
+  }
+
+  .usajobs-uhp-banner__title-container .fa {
+    @include makeCircle(rem(164px), none, $color-gold);
+    display: block;
+  }
+}
+
+.usajobs-uhp-banner--veterans,
+.usajobs-uhp-banner--military-spouses {
+  .usajobs-uhp-banner__body {
+    background-color: $color-green;
+  }
+
+  .usajobs-uhp-banner__title-container .fa {
+    @include makeCircle(rem(164px), none, $color-green);
+    display: block;
+  }
 }

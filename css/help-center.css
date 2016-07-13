@@ -146,10 +146,6 @@ html {
   background-image: none;
 }
 
-.usajobs-uhp-banner {
-  background-color: #112e51;
-}
-
 .usajobs-uhp-banner__container {
   max-width: 120rem;
 }
@@ -164,6 +160,7 @@ html {
 .usajobs-uhp-banner__body {
   position: relative;
   padding: 0 1.5rem;
+  margin-top: -1rem;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
 }
@@ -209,7 +206,7 @@ html {
   margin-top: -10rem;
   margin-left: auto;
   margin-right: auto;
-  font-size: 82px;
+  font-size: 8.2rem;
   text-align: center;
 }
 
@@ -260,7 +257,7 @@ html {
   color: #ffffff;
 }
 
-.usajobs-uhp-banner--disability {
+.usajobs-uhp-banner--disability .usajobs-uhp-banner__body {
   background-color: #205493;
 }
 
@@ -276,12 +273,56 @@ html {
   display: block;
 }
 
-.usajobs-uhp-banner--veterans {
+.usajobs-uhp-banner--ses .usajobs-uhp-banner__body,
+.usajobs-uhp-banner--federal-employees .usajobs-uhp-banner__body {
+  background-color: #112e51;
+}
+
+.usajobs-uhp-banner--ses .usajobs-uhp-banner__title-container .fa,
+.usajobs-uhp-banner--federal-employees .usajobs-uhp-banner__title-container .fa {
+  display: inline-block;
+  width: 16.4rem;
+  height: 16.4rem;
+  line-height: 16.4rem;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #112e51;
+  box-shadow: inset 0 0 0 2px none;
+  display: block;
+}
+
+.usajobs-uhp-banner--students .usajobs-uhp-banner__body {
+  background-color: #fdb81e;
+}
+
+.usajobs-uhp-banner--students .usajobs-uhp-banner__title-container .fa {
+  display: inline-block;
+  width: 16.4rem;
+  height: 16.4rem;
+  line-height: 16.4rem;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #fdb81e;
+  box-shadow: inset 0 0 0 2px none;
+  display: block;
+}
+
+.usajobs-uhp-banner--veterans .usajobs-uhp-banner__body,
+.usajobs-uhp-banner--military-spouses .usajobs-uhp-banner__body {
   background-color: #2e8540;
 }
 
-.usajobs-uhp-banner--students {
-  background-color: #fdb81e;
+.usajobs-uhp-banner--veterans .usajobs-uhp-banner__title-container .fa,
+.usajobs-uhp-banner--military-spouses .usajobs-uhp-banner__title-container .fa {
+  display: inline-block;
+  width: 16.4rem;
+  height: 16.4rem;
+  line-height: 16.4rem;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #2e8540;
+  box-shadow: inset 0 0 0 2px none;
+  display: block;
 }
 
 html {
@@ -2160,23 +2201,23 @@ html {
   }
 }
 
-.usajobs-uhp-section-additional-resources {
+.usajobs-uhp-section-outside-resources {
   display: block;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.usajobs-uhp-section-additional-resources > li {
+.usajobs-uhp-section-outside-resources > li {
   display: list-item;
   margin: 0;
 }
 
-.usajobs-uhp-section-additional-resources > li:before {
+.usajobs-uhp-section-outside-resources > li:before {
   display: none;
 }
 
-.usajobs-uhp-section-additional-resources > li:after {
+.usajobs-uhp-section-outside-resources > li:after {
   display: none;
 }
 
