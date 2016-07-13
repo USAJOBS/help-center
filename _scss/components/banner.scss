@@ -85,3 +85,90 @@
 .usajobs-help-center-title-banner.about {
   background-image: none;
 }
+
+.usajobs-uhp-banner {
+  background-color: $color-primary-darkest;
+
+  &__container {
+    max-width: $site-max-width;
+
+    @include media($ML) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__body {
+    position: relative;
+    @include clearfix();
+    @include contentGutter();
+    padding-top: $size-L;
+    padding-bottom: $size-L;
+  }
+
+  &__title-container,
+  &__text-container {
+    @include media($ML) {
+      @include span-columns(3,6);
+    }
+  }
+
+  &__title-container {
+    @include media($L) {
+      @include span-columns(4,12);
+    }
+
+    .fa {
+      margin-top: rem(-100px);
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 82px;
+      text-align: center;
+    }
+  }
+
+  &__text-container {
+    @include media($L) {
+      @include span-columns(8,12);
+    }
+  }
+
+  &__title {
+    margin-top: 0;
+    text-align: center;
+
+    @include media($ML) {
+      @include h2();
+    }
+  }
+
+  &__text {
+    @include h3();
+    font-family: $font-serif;
+    font-weight: normal;
+    line-height: $lead-line-height;
+  }
+
+  &__title,
+  &__text {
+    color: $color-white;
+  }
+
+}
+
+.usajobs-uhp-banner--disability {
+  background-color: $color-primary-darker;
+
+  .usajobs-uhp-banner__title-container .fa {
+    @include makeCircle(rem(164px), none, $color-primary-darker);
+    display: block;
+  }
+}
+
+.usajobs-uhp-banner--veterans {
+  background-color: $color-green;
+}
+
+.usajobs-uhp-banner--students {
+  background-color: $color-gold;
+}

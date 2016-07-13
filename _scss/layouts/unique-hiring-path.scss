@@ -1,0 +1,45 @@
+// Unique Hiring Path -- Page Layout
+
+@import 'base-shared';
+
+.usajobs-help-center-unique-hiring-path {
+}
+
+.usajobs-uhp-section {
+  @include clearfix();
+  margin-bottom: $size-L;
+
+  &__title {
+    @include media($ML) {
+      @include h3();
+    }
+  }
+
+  &__col-left,
+  &__col-right {
+    @include media($ML) {
+      @include span-columns(3,6);
+    }
+  }
+
+  &__col-left {
+    @include media($L) {
+      @include span-columns(4,12);
+    }
+  }
+
+  &__col-right {
+    @include media($ML) {
+      @include omega();
+    }
+
+    @include media($L) {
+      @include span-columns(8,12);
+    }
+  }
+}
+
+.usajobs-uhp-section-additional-resources {
+  @include unstyledList();
+}
+

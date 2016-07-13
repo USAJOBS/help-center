@@ -48,13 +48,6 @@ module.exports = function(grunt) {
           {
             src: '_scss/help-center.scss',
             dest: 'css/help-center.css'
-          },
-          {
-            expand: true,
-            cwd: '_scss/layouts/',
-            src: '*.scss',
-            dest: 'css/layouts/',
-            ext: '.css'
           }
         ]
       }

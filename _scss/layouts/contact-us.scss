@@ -1,0 +1,73 @@
+// Contact Us
+
+@import 'base-shared';
+
+.usajobs-help-center-contact-us {
+  @include outer-container();
+
+  // Hack for uswds not allowing enough space at mobile for
+  // form field borders on errors
+  padding: 0 $size-default;
+
+  @include media($ML) {
+    padding: 0;
+  }
+
+  &__legend {
+    width: 100%;
+  }
+
+  &__help-legend {
+    padding-right: $size-S;
+
+    @include media($M) {
+      display: block;
+      float: none;
+    }
+    @include media($L) {
+      display: inline-block;
+      float: right;
+    }
+  }
+
+  &__col {
+    @include media($L) {
+      @include span-columns(6);
+      padding-right: $size-default;
+    }
+
+    &:last-child {
+      @include omega();
+      padding-right: 0;
+    }
+  }
+
+  &__comment-count {
+    margin-bottom: 0;
+  }
+}
+
+// Duplicating from the design system for the contact us page
+.usajobs-form__help-brief {
+  margin-top: $size-base;
+  font-size: $small-font-size;
+  max-width: $input-max-width;
+}
+
+.usajobs-button_bar--slim {
+  margin: $size-M 0 $size-XL;
+  background-color: inherit;
+  border-top: 1px solid $color-gray-lighter;
+
+  .usajobs-button_bar__body {
+    padding: 0;
+    text-align: right;
+  }
+
+  .usajobs-button_bar__save {
+    display: inline-block;
+    float: none;
+  }
+}
+
+

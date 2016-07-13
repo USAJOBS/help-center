@@ -1,0 +1,144 @@
+// Unique Hiring Paths - Section Navigation
+
+@import 'base-shared';
+
+$icon-width: rem(24px);
+$icon-padding: $size-default;
+$body-padding: $size-M;
+
+.usajobs-uhp-section-nav {
+  &__list {
+    @include unstyledList();
+    width: 100%;
+
+    .usajobs-uhp-section-nav__item {
+      display: inline-block;
+      width: 100%;
+
+      @include media($ML) {
+        @include span-columns(3,6);
+      }
+
+      &:nth-child(2n) {
+        @include media($ML) {
+          @include omega();
+        }
+      }
+    }
+  }
+
+  &__list > &__item {
+    position: relative;
+  }
+
+  &__icon {
+    display: inline-block;
+  }
+
+  &__icon {
+    width: rem(30px);
+    color: $color-secondary;
+
+    &.federal-employees,
+    &.ses {
+      color: $color-primary-darkest;
+    }
+
+    &.federal-employees .fa::before,
+    &.individuals-with-disabilities .fa::before {
+      margin-right: rem(-4px);
+    }
+
+    &.federal-employees .fa::before {
+      margin-top: rem(-3px);
+    }
+
+    &.veterans,
+    &.military-spouses {
+      color: $color-green;
+    }
+
+    &.students {
+      color: $color-gold;
+    }
+
+    &.individuals-with-disabilities {
+      color: $color-primary-darker;
+    }
+  }
+
+  &__link {
+    width: 100%;
+    padding: $size-S 0;
+    color: $color-primary;
+
+    &:visited {
+      color: $color-primary;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__link:hover &__item-title {
+    text-decoration: underline;
+  }
+
+  &__body {
+    padding: 0 $size-default;
+  }
+
+  &__item-title {
+    @include default-text();
+    margin: 0;
+  }
+
+  &__list > &__item.is-active &__item-title {
+    font-weight: bold;
+  }
+
+  &__text {
+    display: block;
+    width: 100%;
+    margin: 0;
+    color: $color-base;
+  }
+}
+
+
+.no-flexbox .usajobs-uhp-section-nav {
+  &__link {
+    @include clearfix();
+    display: table;
+  }
+
+  &__figure,
+  &__body {
+    display: table-cell;
+  }
+
+  &__body {
+    @include calc(width, "100% - " ($icon-width + $icon-padding + $body-padding));
+
+    .lt-ie9 & {
+      width: 75%;
+    }
+  }
+}
+
+.flexbox .usajobs-uhp-section-nav {
+  &__link {
+    @include display(flex);
+    @include align-items(center);
+  }
+
+  &__figure {
+    @include flex-shrink(0);
+  }
+
+  &__body {
+    @include flex(1);
+    min-width: 0;
+  }
+}

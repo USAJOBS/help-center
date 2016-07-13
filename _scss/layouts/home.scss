@@ -1,0 +1,147 @@
+// Home
+
+@import 'base-shared';
+
+.usajobs-help-center__home-container {
+  background-color: $color-gray-lightest;
+}
+
+.usajobs-help-center-home {
+  padding: $size-M;
+  background-color: $color-gray-lightest;
+
+  @include media($ML) {
+    padding: $size-XL $size-M $size-default;
+  }
+
+  a:visited {
+    color: $color-primary;
+  }
+
+  &__page-title {
+    margin-top: 0;
+    margin-bottom: $size-M;
+
+    @include media($ML) {
+      margin-bottom: $size-XL;
+    }
+  }
+
+  &__section-container {
+    @include align-items(stretch);
+    @include display(flex);
+    @include justify-content(flex-start);
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+  }
+
+  &__section {
+    position: relative;
+    @include flex(0 0 auto);
+    width: 100%;
+    margin-bottom: $size-default;
+    padding: $size-M $size-default;
+    background-color: $color-white;
+  }
+
+  &__section.faq,
+  &__section.how-to {
+    @include media($M) {
+      width: 49%;
+    }
+  }
+
+  &__section.faq {
+    @include media($M) {
+      margin-right: 2%;
+    }
+  }
+
+  &__section.faq,
+  &__section.how-to {
+    @include media($L) {
+      margin-right: 1%;
+    }
+  }
+
+  &__section.faq,
+  &__section.how-to,
+  &__section.working-in-government {
+    @include media($L) {
+      width: 32.666666%;
+    }
+  }
+
+  &__sub-section {
+    @include media($M) {
+      @include span-columns(3, 6);
+    }
+
+    &.unique-hiring-paths {
+      @include media($M) {
+        @include omega();
+      }
+    }
+  }
+
+  &__section-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    &:visited,
+    &:hover {
+      text-decoration: none;
+    }
+
+    h3 {
+      color: $color-primary-darkest;
+    }
+
+    &:visited,
+    &:hover {
+      h3 {
+        color: $color-primary-darkest;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__section-title.faq .fa {
+    @include makeCircle(118px, $color-primary-alt, none, $color-primary-alt);
+    box-shadow: inset 0 0 0 3px $color-primary-alt;
+    text-align: center;
+    font-size: rem(59px);
+  }
+
+  &__section-title.how-to .fa {
+    @include makeCircle(118px, $color-green, none, $color-green);
+    box-shadow: inset 0 0 0 3px $color-green;
+    text-align: center;
+    font-size: rem(59px);
+  }
+
+  &__section-title.working-in-government .fa {
+    @include makeCircle(118px, $color-gold, none, $color-gold);
+    box-shadow: inset 0 0 0 3px $color-gold;
+    text-align: center;
+    font-size: rem(59px);
+
+    &:before {
+      margin-right: -4px;
+    }
+  }
+
+  &__section-link {
+    display: block;
+    position: absolute;
+    left: $size-default;
+    right: $size-default;
+    bottom: $size-base;
+    padding: $size-S 0;
+  }
+
+  &__desc {
+    min-height: rem(75px);
+  }
+}

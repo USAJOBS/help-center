@@ -8,12 +8,67 @@
 @import 'components/nav-secondary';
 @import 'components/home-ctas';
 @import 'components/unique-hiring-paths';
+@import 'components/uhp-section-nav';
 
-// Home page
-.usajobs-help-center__home-container {
-  background-color: $color-gray-lightest;
+// Global
+.usajobs-help-center {
+  &__lead {
+    @include h3();
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 1.5;
+    color: $color-gray;
+  }
+
+  &__external-button {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: $input-max-width;
+    padding: $size-default $size-L $size-default $size-S;
+    line-height: $heading-line-height;
+    text-align: left;
+
+    .fa {
+      position: absolute;
+      right: rem(10px);
+    }
+  }
+
+  &__external-link .fa {
+    padding-left: $size-base;
+  }
 }
 
+.usajobs-video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  @include boxShadow(1, true);
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $color-gray-light;
+  }
+}
+
+
+// Help Center layouts
+@import 'layouts/about';
+@import 'layouts/article';
+@import 'layouts/contact-us';
+@import 'layouts/home';
+@import 'layouts/landing';
+@import 'layouts/unique-hiring-path';
+
+
+// Shared layout styles
 .usajobs-help-center-home,
 .usajobs-help-center-landing,
 .usajobs-help-center-sub-section,
@@ -50,244 +105,7 @@
   margin-bottom: $size-XXL;
 }
 
-.usajobs-help-center-home {
-  padding: $size-M;
-  background-color: $color-gray-lightest;
-
-  @include media($ML) {
-    padding: $size-XL $size-M $size-default;
-  }
-
-  a:visited {
-    color: $color-primary;
-  }
-
-  &__page-title {
-    margin-top: 0;
-    margin-bottom: $size-M;
-
-    @include media($ML) {
-      margin-bottom: $size-XL;
-    }
-  }
-
-  &__section-container {
-    @include align-items(stretch);
-    @include display(flex);
-    @include justify-content(flex-start);
-    @include flex-direction(row);
-    @include flex-wrap(wrap);
-  }
-
-  &__section {
-    position: relative;
-    @include flex(0 0 auto);
-    width: 100%;
-    margin-bottom: $size-default;
-    padding: $size-M $size-default;
-    background-color: $color-white;
-  }
-
-  &__section.faq,
-  &__section.how-to {
-    @include media($M) {
-      width: 49%;
-    }
-  }
-
-  &__section.faq {
-    @include media($M) {
-      margin-right: 2%;
-    }
-  }
-
-  &__section.faq,
-  &__section.how-to {
-    @include media($L) {
-      margin-right: 1%;
-    }
-  }
-
-  &__section.faq,
-  &__section.how-to,
-  &__section.working-in-government {
-    @include media($L) {
-      width: 32.666666%;
-    }
-  }
-
-  &__sub-section {
-    @include media($M) {
-      @include span-columns(3, 6);
-    }
-
-    &.unique-hiring-paths {
-      @include media($M) {
-        @include omega();
-      }
-    }
-  }
-
-  &__section-title {
-    display: block;
-    width: 100%;
-    text-align: center;
-
-    &:visited,
-    &:hover {
-      text-decoration: none;
-    }
-
-    h3 {
-      color: $color-primary-darkest;
-    }
-
-    &:visited,
-    &:hover {
-      h3 {
-        color: $color-primary-darkest;
-        text-decoration: none;
-      }
-    }
-  }
-
-  &__section-title.faq .fa {
-    @include makeCircle(118px, $color-primary-alt, none, $color-primary-alt);
-    box-shadow: inset 0 0 0 3px $color-primary-alt;
-    text-align: center;
-    font-size: rem(59px);
-  }
-
-  &__section-title.how-to .fa {
-    @include makeCircle(118px, $color-green, none, $color-green);
-    box-shadow: inset 0 0 0 3px $color-green;
-    text-align: center;
-    font-size: rem(59px);
-  }
-
-  &__section-title.working-in-government .fa {
-    @include makeCircle(118px, $color-gold, none, $color-gold);
-    box-shadow: inset 0 0 0 3px $color-gold;
-    text-align: center;
-    font-size: rem(59px);
-
-    &:before {
-      margin-right: -4px;
-    }
-  }
-
-  &__section-link {
-    display: block;
-    position: absolute;
-    left: $size-default;
-    right: $size-default;
-    bottom: $size-base;
-    padding: $size-S 0;
-  }
-
-  &__desc {
-    min-height: rem(75px);
-  }
-}
-
-.usajobs-help-center__lead {
-  @include h3();
-  font-weight: 300;
-  font-size: 2.2rem;
-  line-height: 1.5;
-  color: $color-gray;
-}
-
-
-// Landing
-
-.usajobs-help-center-landing {
-  .usajobs-help-center__lead {
-    margin-bottom: $size-XL;
-  }
-
-  &__title .fa {
-    margin-right: $size-default;
-    text-align: center;
-  }
-
-  &__title.faq .fa {
-    @include makeCircle(88px, $color-primary-alt, none, $color-primary-alt);
-    box-shadow: inset 0 0 0 3px $color-primary-alt;
-  }
-
-  &__title.how-to .fa {
-    @include makeCircle(88px, $color-green, none, $color-green);
-    box-shadow: inset 0 0 0 3px $color-green;
-  }
-
-  &__title.working-in-government .fa {
-    @include makeCircle(88px, $color-gold, none, $color-gold);
-    box-shadow: inset 0 0 0 3px $color-gold;
-
-    &:before {
-      margin-right: -4px;
-    }
-  }
-}
-
-
-// Individual articles (markdown pages)
-
-.usajobs-help-center-article {
-  // Fix for lack of design system lists in prod
-  .usajobs-content-well ul {
-    @include bulletList();
-  }
-
-  &__related {
-    margin-top: rem(89px);
-  }
-
-  &__additional-container {
-    @include span-columns(12, 12);
-    margin: $size-M 0;
-  }
-
-  &__additional-help {
-    padding: $size-default;
-    text-align: center;
-    background-color: $color-primary-alt-lightest;
-
-    p {
-      @include h4();
-      color: $color-primary-darkest;
-
-      a {
-        font-weight: normal;
-      }
-
-      a:visited {
-        color: $color-primary;
-      }
-    }
-  }
-
-  // Override of the US Standards on lists. It really does odd things inside of articles.
-  ul,
-  ol {
-    margin-bottom: $size-S;
-  }
-
-  blockquote {
-    padding: 0 $size-default;
-    color: $color-gray;
-    border-left: 4px solid $color-gray-light;
-  }
-}
-
-.usajobs-help-center-breadcrumb-container {
-  background-color: $color-gray-lightest;
-}
-
-
 // Search
-
 .usajobs-help-center-search {
   &__result {
     display: block;
@@ -296,323 +114,6 @@
     &:visited {
       color: $color-primary;
     }
-  }
-}
-
-// About
-@mixin fullBleed($bgcolor: $color-white) {
-  @include clearfix();
-  background-color: $bgcolor;
-
-  &__body {
-    @include clearfix();
-    max-width: $site-max-width;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 $size-default;
-
-    @include media($ML) {
-      padding-left: $size-M;
-      padding-right: $size-M;
-    }
-  }
-}
-
-.usajobs-video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  @include boxShadow(1, true);
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 1px solid $color-gray-light;
-  }
-}
-
-.usajobs-help-center-about-what {
-  @include fullBleed();
-
-  &__body {
-    padding-top: $size-L;
-    padding-bottom: $size-L;
-
-    @include media($L) {
-      background-image: url("../img/opm_seal.png");
-      background-position: right;
-      background-repeat: no-repeat;
-    }
-
-    p {
-      max-width: $text-max-width;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  &__lead {
-    margin-top: 0;
-    font-size: $h3-font-size;
-    font-weight: bold;
-    color: $color-primary-darkest;
-  }
-}
-
-.usajobs-help-center-about-new {
-  @include fullBleed($color-gray-lightest);
-
-  &__body {
-    padding-top: $size-L;
-    padding-bottom: $size-L;
-
-    h2 {
-      margin-top: 0;
-    }
-  }
-
-  &__col {
-    @include media($ML) {
-      @include span-columns(3,6);
-    }
-  }
-}
-
-.usajobs-help-center-about-stats {
-  @include fullBleed($color-primary-alt-darkest);
-
-  &__body {
-    padding-top: $size-XL;
-    padding-bottom: $size-M;
-    color: $color-white;
-  }
-
-  &__number {
-    font-size: rem(56px);
-    font-weight: bold;
-    padding-top: $size-default;
-  }
-
-  &__quantifier {
-    font-size: $h3-font-size;
-    font-weight: normal;
-  }
-
-  &__header {
-    font-size: $h3-font-size;
-  }
-
-  &__col {
-    margin-bottom: $size-M;
-    padding-top: $size-base;
-    border-top: 2px solid $color-white;
-
-    @include media($M) {
-      @include span-columns(3,6);
-      margin-bottom: $size-L;
-
-      &:nth-child(2n) {
-        @include omega();
-      }
-    }
-
-    @include media($L) {
-      @include span-columns(3,12);
-      @include omega-reset(2n);
-      margin-bottom: 0;
-
-      &:last-child {
-        @include omega();
-      }
-    }
-  }
-}
-
-.usajobs-help-center-about-get-started {
-  @include fullBleed($color-green);
-
-  &__body {
-    padding-top: $size-XL;
-    padding-bottom: $size-XL;
-    text-align: center;
-  }
-
-  &__cta {
-    margin-top: 0;
-    color: $color-white;
-    font-weight: normal;
-  }
-
-  &__cta-sub {
-    display: block;
-  }
-}
-
-.usajobs-help-center-about-learn-more {
-  @include fullBleed($color-white);
-
-  &__body {
-    padding-top: $size-XL;
-    padding-bottom: $size-XL;
-
-    h2 {
-      margin-top: 0;
-      margin-bottom: $size-M;
-    }
-  }
-
-  &__help-center,
-  &__social {
-    @include media($ML) {
-      @include span-columns(3,6);
-    }
-  }
-
-  &__social {
-    @include media($ML) {
-      @include omega();
-    }
-  }
-
-  &__social-links {
-    width: 100%;
-    text-align: center;
-  }
-
-  &__social-link {
-    display: inline-block;
-    padding: 0 $size-base $size-S;
-    margin-right: $size-M;
-
-    @include media($ML) {
-      margin-right: 0;
-    }
-
-    .fa {
-      font-size: $h3-font-size;
-      text-align: center;
-    }
-
-    .fa-google-plus,
-    .fa-youtube {
-      @include makeCircle(48px, none, $color-secondary);
-    }
-    .fa-facebook {
-      @include makeCircle(48px, none, $color-primary);
-    }
-    .fa-linkedin {
-      @include makeCircle(48px, none, $color-primary-darkest);
-    }
-    .fa-twitter {
-      @include makeCircle(48px, none, $color-primary-alt);
-    }
-  }
-
-  &__help-sections {
-    width: 100%;
-    text-align: center;
-
-    .fa {
-      text-align: center;
-      font-size: $h3-font-size;
-    }
-  }
-
-  &__help-sections .faq.fa {
-    @include makeCircle(48px, $color-primary-alt, none, $color-primary-alt);
-    box-shadow: inset 0 0 0 3px $color-primary-alt;
-  }
-
-  &__help-sections .how-to.fa {
-    @include makeCircle(48px, $color-green, none, $color-green);
-    box-shadow: inset 0 0 0 3px $color-green;
-    margin-left: $size-XL;
-  }
-
-  &__help-sections .working-in-government.fa {
-    @include makeCircle(48px, $color-gold, none, $color-gold);
-    box-shadow: inset 0 0 0 3px $color-gold;
-    margin-left: $size-XL;
-
-    &:before {
-      margin-right: -3px;
-    }
-  }
-}
-
-// Contact Us
-.usajobs-help-center-contact-us {
-  @include outer-container();
-
-  // Hack for uswds not allowing enough space at mobile for
-  // form field borders on errors
-  padding: 0 $size-default;
-
-  @include media($ML) {
-    padding: 0;
-  }
-
-  &__legend {
-    width: 100%;
-  }
-
-  &__help-legend {
-    padding-right: $size-S;
-
-    @include media($M) {
-      display: block;
-      float: none;
-    }
-    @include media($L) {
-      display: inline-block;
-      float: right;
-    }
-  }
-
-  &__col {
-    @include media($L) {
-      @include span-columns(6);
-      padding-right: $size-default;
-    }
-
-    &:last-child {
-      @include omega();
-      padding-right: 0;
-    }
-  }
-
-  &__comment-count {
-    margin-bottom: 0;
-  }
-}
-
-// Duplicating from the design system for the contact us page
-.usajobs-form__help-brief {
-  margin-top: $size-base;
-  font-size: $small-font-size;
-  max-width: $input-max-width;
-}
-
-.usajobs-button_bar--slim {
-  margin: $size-M 0 $size-XL;
-  background-color: inherit;
-  border-top: 1px solid $color-gray-lighter;
-
-  .usajobs-button_bar__body {
-    padding: 0;
-    text-align: right;
-  }
-
-  .usajobs-button_bar__save {
-    display: inline-block;
-    float: none;
   }
 }
 

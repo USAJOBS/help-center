@@ -36,11 +36,11 @@ repository:
 
 google_analytics_ua: UA-33523145-1
 
-gems: ['jekyll-lunr-js-search', 'jekyll-sitemap', 'jekyll-redirect-from']
+# gems: ['jekyll-lunr-js-search', 'jekyll-sitemap', 'jekyll-redirect-from']
 
-lunr_search:
-  min_length: 3
-  excludes: [rss.xml]
+# lunr_search:
+#  min_length: 3
+#  excludes: [rss.xml]
 
 how-to-cats: [Account, Application, Search, Misc]
 

@@ -1,0 +1,50 @@
+// Article
+
+@import 'base-shared';
+
+.usajobs-help-center-article {
+  // Fix for lack of design system lists in prod
+  .usajobs-content-well ul {
+    @include bulletList();
+  }
+
+  &__related {
+    margin-top: rem(89px);
+  }
+
+  &__additional-container {
+    @include span-columns(12, 12);
+    margin: $size-M 0;
+  }
+
+  &__additional-help {
+    padding: $size-default;
+    text-align: center;
+    background-color: $color-primary-alt-lightest;
+
+    p {
+      @include h4();
+      color: $color-primary-darkest;
+
+      a {
+        font-weight: normal;
+      }
+
+      a:visited {
+        color: $color-primary;
+      }
+    }
+  }
+
+  // Override of the US Standards on lists. It really does odd things inside of articles.
+  ul,
+  ol {
+    margin-bottom: $size-S;
+  }
+
+  blockquote {
+    padding: 0 $size-default;
+    color: $color-gray;
+    border-left: 4px solid $color-gray-light;
+  }
+}

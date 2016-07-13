@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+{% include base.html %}
+  <head>
+    {% include prod-head.html %}
+  </head>
+  <body>
+    <a class="skipnav" href="#main-content">Skip main navigation</a>
+    {% include components/nav-help.html %}
+    <div class="usajobs-help-center">
+      {% include components/unique-hiring-paths/banner-disability.html %}
+      {% include components/breadcrumbs.html variation="uhp" %}
+      <section class="usajobs-shell">
+        <section class="usajobs-canvas">
+          <div class="usajobs-help-center-unique-hiring-path usajobs-content-gutter">
+            <main class="usajobs-content" id="main-content" role="main">
+              {{ content }}
+            </main>
+            <aside class="usajobs-hiring-paths-nav">
+              {% include components/unique-hiring-paths/section-nav.html page=page.short-name %}
+            </aside>
+          </div>
+        </section>
+      </section>
+    </div>
+    {% include components/footer.html %}
+    {% include scripts.html %}
+    <script src="{{ site.baseurl }}/js/vendor/picturefill.min.js" async></script>
+  </body>
+</html>

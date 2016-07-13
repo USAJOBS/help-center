@@ -3,14 +3,18 @@
 @import 'base-shared';
 
 .usajobs-help-center-breadcrumb {
-  @include unstyledList();
-  @include contentGutter();
-  width: 100%;
-  max-width: $site-max-width;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: $color-gray-lightest;
 
-  li.usajobs-help-center-breadcrumb__item {
+  &__list {
+    @include unstyledList();
+    @include contentGutter();
+    width: 100%;
+    max-width: $site-max-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__list &__item {
     display: inline-block;
   }
 
@@ -40,6 +44,22 @@
       &:after {
         content: '';
       }
+    }
+  }
+}
+
+.usajobs-help-center-breadcrumb--uhp {
+  margin: $size-default 0;
+  background-color: $color-white;
+
+  @include media($ML) {
+    margin: 0;
+  }
+
+  .usajobs-help-center-breadcrumb__list {
+    @include media($ML) {
+      padding-top: $size-M;
+      padding-bottom: $size-M;
     }
   }
 }

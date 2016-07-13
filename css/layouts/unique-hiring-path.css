@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+.usajobs-assistive-text {
+  position: absolute !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+}
+
+.usajobs-uhp-section {
+  margin-bottom: 4.5rem;
+}
+
+.usajobs-uhp-section::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-uhp-section__title {
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 24px;
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-uhp-section__col-left, .usajobs-uhp-section__col-right {
+    float: left;
+    display: block;
+    margin-right: 4.8291579146%;
+    width: 47.5854210427%;
+  }
+  .usajobs-uhp-section__col-left:last-child, .usajobs-uhp-section__col-right:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-section__col-left {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 31.7615656014%;
+  }
+  .usajobs-uhp-section__col-left:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-uhp-section__col-right {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-section__col-right {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 65.8807828007%;
+  }
+  .usajobs-uhp-section__col-right:last-child {
+    margin-right: 0;
+  }
+}
+
+.usajobs-uhp-section-additional-resources {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.usajobs-uhp-section-additional-resources > li {
+  display: list-item;
+  margin: 0;
+}
+
+.usajobs-uhp-section-additional-resources > li:before {
+  display: none;
+}
+
+.usajobs-uhp-section-additional-resources > li:after {
+  display: none;
+}
+/*# sourceMappingURL=unique-hiring-path.css.map */

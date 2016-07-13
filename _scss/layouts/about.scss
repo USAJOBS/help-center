@@ -1,0 +1,233 @@
+// About
+
+@import 'base-shared';
+
+@mixin fullBleed($bgcolor: $color-white) {
+  @include clearfix();
+  background-color: $bgcolor;
+
+  &__body {
+    @include clearfix();
+    max-width: $site-max-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 $size-default;
+
+    @include media($ML) {
+      padding-left: $size-M;
+      padding-right: $size-M;
+    }
+  }
+}
+
+.usajobs-help-center-about-what {
+  @include fullBleed();
+
+  &__body {
+    padding-top: $size-L;
+    padding-bottom: $size-L;
+
+    @include media($L) {
+      background-image: url("../img/opm_seal.png");
+      background-position: right;
+      background-repeat: no-repeat;
+    }
+
+    p {
+      max-width: $text-max-width;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__lead {
+    margin-top: 0;
+    font-size: $h3-font-size;
+    font-weight: bold;
+    color: $color-primary-darkest;
+  }
+}
+
+.usajobs-help-center-about-new {
+  @include fullBleed($color-gray-lightest);
+
+  &__body {
+    padding-top: $size-L;
+    padding-bottom: $size-L;
+
+    h2 {
+      margin-top: 0;
+    }
+  }
+
+  &__col {
+    @include media($ML) {
+      @include span-columns(3,6);
+    }
+  }
+}
+
+.usajobs-help-center-about-stats {
+  @include fullBleed($color-primary-alt-darkest);
+
+  &__body {
+    padding-top: $size-XL;
+    padding-bottom: $size-M;
+    color: $color-white;
+  }
+
+  &__number {
+    font-size: rem(56px);
+    font-weight: bold;
+    padding-top: $size-default;
+  }
+
+  &__quantifier {
+    font-size: $h3-font-size;
+    font-weight: normal;
+  }
+
+  &__header {
+    font-size: $h3-font-size;
+  }
+
+  &__col {
+    margin-bottom: $size-M;
+    padding-top: $size-base;
+    border-top: 2px solid $color-white;
+
+    @include media($M) {
+      @include span-columns(3,6);
+      margin-bottom: $size-L;
+
+      &:nth-child(2n) {
+        @include omega();
+      }
+    }
+
+    @include media($L) {
+      @include span-columns(3,12);
+      @include omega-reset(2n);
+      margin-bottom: 0;
+
+      &:last-child {
+        @include omega();
+      }
+    }
+  }
+}
+
+.usajobs-help-center-about-get-started {
+  @include fullBleed($color-green);
+
+  &__body {
+    padding-top: $size-XL;
+    padding-bottom: $size-XL;
+    text-align: center;
+  }
+
+  &__cta {
+    margin-top: 0;
+    color: $color-white;
+    font-weight: normal;
+  }
+
+  &__cta-sub {
+    display: block;
+  }
+}
+
+.usajobs-help-center-about-learn-more {
+  @include fullBleed($color-white);
+
+  &__body {
+    padding-top: $size-XL;
+    padding-bottom: $size-XL;
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: $size-M;
+    }
+  }
+
+  &__help-center,
+  &__social {
+    @include media($ML) {
+      @include span-columns(3,6);
+    }
+  }
+
+  &__social {
+    @include media($ML) {
+      @include omega();
+    }
+  }
+
+  &__social-links {
+    width: 100%;
+    text-align: center;
+  }
+
+  &__social-link {
+    display: inline-block;
+    padding: 0 $size-base $size-S;
+    margin-right: $size-M;
+
+    @include media($ML) {
+      margin-right: 0;
+    }
+
+    .fa {
+      font-size: $h3-font-size;
+      text-align: center;
+    }
+
+    .fa-google-plus,
+    .fa-youtube {
+      @include makeCircle(48px, none, $color-secondary);
+    }
+    .fa-facebook {
+      @include makeCircle(48px, none, $color-primary);
+    }
+    .fa-linkedin {
+      @include makeCircle(48px, none, $color-primary-darkest);
+    }
+    .fa-twitter {
+      @include makeCircle(48px, none, $color-primary-alt);
+    }
+  }
+
+  &__help-sections {
+    width: 100%;
+    text-align: center;
+
+    .fa {
+      text-align: center;
+      font-size: $h3-font-size;
+    }
+  }
+
+  &__help-sections .faq.fa {
+    @include makeCircle(48px, $color-primary-alt, none, $color-primary-alt);
+    box-shadow: inset 0 0 0 3px $color-primary-alt;
+  }
+
+  &__help-sections .how-to.fa {
+    @include makeCircle(48px, $color-green, none, $color-green);
+    box-shadow: inset 0 0 0 3px $color-green;
+    margin-left: $size-XL;
+  }
+
+  &__help-sections .working-in-government.fa {
+    @include makeCircle(48px, $color-gold, none, $color-gold);
+    box-shadow: inset 0 0 0 3px $color-gold;
+    margin-left: $size-XL;
+
+    &:before {
+      margin-right: -3px;
+    }
+  }
+}
+

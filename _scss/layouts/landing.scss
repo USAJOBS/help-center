@@ -1,0 +1,37 @@
+// Landing (FAQs, How-to, Working in Government)
+
+@import 'base-shared';
+
+
+// Note: Some styles are shared with landing and can be found in help-center.scss
+
+.usajobs-help-center-landing {
+  .usajobs-help-center__lead {
+    margin-bottom: $size-XL;
+  }
+
+  &__title .fa {
+    margin-right: $size-default;
+    text-align: center;
+  }
+
+  &__title.faq .fa {
+    @include makeCircle(88px, $color-primary-alt, none, $color-primary-alt);
+    box-shadow: inset 0 0 0 3px $color-primary-alt;
+  }
+
+  &__title.how-to .fa {
+    @include makeCircle(88px, $color-green, none, $color-green);
+    box-shadow: inset 0 0 0 3px $color-green;
+  }
+
+  &__title.working-in-government .fa {
+    @include makeCircle(88px, $color-gold, none, $color-gold);
+    box-shadow: inset 0 0 0 3px $color-gold;
+
+    &:before {
+      margin-right: -4px;
+    }
+  }
+}
+
