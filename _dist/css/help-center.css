@@ -223,7 +223,7 @@ html {
 }
 
 .usajobs-uhp-banner__title {
-  margin-top: 0;
+  margin-top: 4.5rem;
   text-align: center;
 }
 
@@ -237,6 +237,7 @@ html {
     font-size: 34px;
     font-size: 3.4rem;
     color: #112e51;
+    margin-top: 6rem;
   }
 }
 
@@ -264,12 +265,13 @@ html {
 .usajobs-uhp-banner--disability .usajobs-uhp-banner__title-container .fa {
   display: inline-block;
   width: 16.4rem;
-  height: 16.4rem;
+  height: 8.2rem;
   line-height: 16.4rem;
-  border-radius: 50%;
+  -moz-border-radius: 16.4rem 16.4rem 0 0;
+  -webkit-border-radius: 16.4rem 16.4rem 0 0;
+  border-radius: 16.4rem 16.4rem 0 0;
   color: #ffffff;
   background-color: #205493;
-  box-shadow: inset 0 0 0 2px none;
   display: block;
 }
 
@@ -282,12 +284,13 @@ html {
 .usajobs-uhp-banner--federal-employees .usajobs-uhp-banner__title-container .fa {
   display: inline-block;
   width: 16.4rem;
-  height: 16.4rem;
+  height: 8.2rem;
   line-height: 16.4rem;
-  border-radius: 50%;
+  -moz-border-radius: 16.4rem 16.4rem 0 0;
+  -webkit-border-radius: 16.4rem 16.4rem 0 0;
+  border-radius: 16.4rem 16.4rem 0 0;
   color: #ffffff;
   background-color: #112e51;
-  box-shadow: inset 0 0 0 2px none;
   display: block;
 }
 
@@ -298,12 +301,13 @@ html {
 .usajobs-uhp-banner--students .usajobs-uhp-banner__title-container .fa {
   display: inline-block;
   width: 16.4rem;
-  height: 16.4rem;
+  height: 8.2rem;
   line-height: 16.4rem;
-  border-radius: 50%;
+  -moz-border-radius: 16.4rem 16.4rem 0 0;
+  -webkit-border-radius: 16.4rem 16.4rem 0 0;
+  border-radius: 16.4rem 16.4rem 0 0;
   color: #ffffff;
   background-color: #fdb81e;
-  box-shadow: inset 0 0 0 2px none;
   display: block;
 }
 
@@ -316,12 +320,13 @@ html {
 .usajobs-uhp-banner--military-spouses .usajobs-uhp-banner__title-container .fa {
   display: inline-block;
   width: 16.4rem;
-  height: 16.4rem;
+  height: 8.2rem;
   line-height: 16.4rem;
-  border-radius: 50%;
+  -moz-border-radius: 16.4rem 16.4rem 0 0;
+  -webkit-border-radius: 16.4rem 16.4rem 0 0;
+  border-radius: 16.4rem 16.4rem 0 0;
   color: #ffffff;
   background-color: #2e8540;
-  box-shadow: inset 0 0 0 2px none;
   display: block;
 }
 

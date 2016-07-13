@@ -133,11 +133,12 @@
   }
 
   &__title {
-    margin-top: 0;
+    margin-top: $size-L;
     text-align: center;
 
     @include media($ML) {
       @include h2();
+      margin-top: $size-XL;
     }
   }
 
@@ -154,13 +155,25 @@
   }
 }
 
+@mixin makeSemiCircle($size, $bg-color: inherit, $color: $color-white) {
+  display: inline-block;
+  width: $size;
+  height: $size /2;
+  line-height: $size;
+  -moz-border-radius: $size $size 0 0;
+  -webkit-border-radius: $size $size 0 0;
+  border-radius: $size $size 0 0;
+  color: $color;
+  background-color: $bg-color;
+}
+
 .usajobs-uhp-banner--disability {
   .usajobs-uhp-banner__body {
     background-color: $color-primary-darker;
   }
 
   .usajobs-uhp-banner__title-container .fa {
-    @include makeCircle(rem(164px), none, $color-primary-darker);
+    @include makeSemiCircle(rem(164px), $color-primary-darker);
     display: block;
   }
 }
@@ -172,7 +185,7 @@
   }
 
   .usajobs-uhp-banner__title-container .fa {
-    @include makeCircle(rem(164px), none, $color-primary-darkest);
+    @include makeSemiCircle(rem(164px), $color-primary-darkest);
     display: block;
   }
 }
@@ -183,7 +196,7 @@
   }
 
   .usajobs-uhp-banner__title-container .fa {
-    @include makeCircle(rem(164px), none, $color-gold);
+    @include makeSemiCircle(rem(164px), $color-gold);
     display: block;
   }
 }
@@ -195,7 +208,7 @@
   }
 
   .usajobs-uhp-banner__title-container .fa {
-    @include makeCircle(rem(164px), none, $color-green);
+    @include makeSemiCircle(rem(164px), $color-green);
     display: block;
   }
 }
