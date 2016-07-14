@@ -30,6 +30,6 @@ To edit an uploaded resume, you must [upload](../upload/) the updated file to yo
 
 ## Additional Resources
 
-* [Writing Your Federal Resume (PDF)](../writing-your-federal-resume.pdf)
-* [What to Include](../../../../../faq/application/documents/resume/what-to-include/)
+* [Writing your federal resume (PDF)](../writing-your-federal-resume.pdf)
+* [What should I include in my federal resume?](../../../../../faq/application/documents/resume/what-to-include/)
 
