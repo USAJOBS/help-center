@@ -2,7 +2,7 @@
 permalink: /working-in-government/myths/have-to-know-someone/
 layout: article
 section: working-in-government
-title: You have to known someone to get a federal job
+title: You have to know someone to get a federal job
 breadcrumb: Know someone
 category: myths
 tags: [hiring, myths, government]
