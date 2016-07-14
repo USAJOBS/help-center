@@ -218,3 +218,40 @@
     display: block;
   }
 }
+
+// Search banners used in UHP pages: Students and SES
+.usajobs-uhp-search-banner {
+  @include clearfix();
+  @include contentGutter();
+  margin-left: -#{$size-default};
+  margin-right: -#{$size-default};
+  margin-bottom: $size-L;
+  padding-top: $size-default;
+  padding-bottom: $size-default;
+  background: $color-primary-darker;
+
+  @include media($ML) {
+    margin-left: -#{$size-M};
+    margin-right: -#{$size-M};
+  }
+
+  &__title,
+  label {
+    color: $color-white;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  .usajobs-nav__search-button {
+    padding-left: $size-S;
+    padding-right: $size-S;
+  }
+}
+
+.usajobs-uhp-search-banner--students {
+  &__button-container {
+    text-align: center;
+  }
+}

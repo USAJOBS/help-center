@@ -1,0 +1,33 @@
+<div class="usajobs-uhp-search-banner">
+  <div role="search" id="search" class="usajobs-uhp-search-banner__container">
+    <form class="usa-search usa-search-big" action="https://www.usajobs.gov/Search/GetSESResults/" id="sessearch" method="get" novalidate="novalidate" role="search">
+      <h3 class="usajobs-uhp-search-banner__title">
+        Begin your search
+      <span class="fa fa-search usajobs-uhp-search-banner__search-icon"></span>
+      </h3>
+      <fieldset>
+        <div class="usajobs-nav__search-keywords-container">
+          <label for="search-keyword">
+            <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
+            Keywords
+          </label>
+          <input id="search-keyword" name="search-keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="false">
+        </div>
+        <div class="usajobs-nav__search-location-container">
+          <label for="search-location">
+            <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
+            Location
+          </label>
+          <input id="search-location" name="search-location" type="text" class="usajobs-nav__search-location-input" placeholder="City, State, ZIP, or Country">
+          <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+          <input type="hidden" id="AutoCompleteSelected" name="AutoCompleteSelected">
+        </div>
+        <div class="usajobs-nav__search-button-container">
+          <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+            Search SES Jobs
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

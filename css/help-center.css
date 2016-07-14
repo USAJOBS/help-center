@@ -328,6 +328,54 @@ html {
   display: block;
 }
 
+.usajobs-uhp-search-banner {
+  padding: 0 1.5rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  margin-bottom: 4.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background: #205493;
+}
+
+.usajobs-uhp-search-banner::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-uhp-search-banner {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-uhp-search-banner {
+    margin-left: -3rem;
+    margin-right: -3rem;
+  }
+}
+
+.usajobs-uhp-search-banner__title,
+.usajobs-uhp-search-banner label {
+  color: #ffffff;
+}
+
+.usajobs-uhp-search-banner__title {
+  text-align: center;
+}
+
+.usajobs-uhp-search-banner .usajobs-nav__search-button {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.usajobs-uhp-search-banner--students__button-container {
+  text-align: center;
+}
+
 html {
   box-sizing: border-box;
 }
