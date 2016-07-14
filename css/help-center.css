@@ -328,6 +328,23 @@ html {
   display: block;
 }
 
+.usajobs-uhp-banner--peace-corps .usajobs-uhp-banner__body,
+.usajobs-uhp-banner--former-overseas-employees .usajobs-uhp-banner__body {
+  background-color: #e31c3d;
+}
+
+.usajobs-uhp-banner--peace-corps .usajobs-uhp-banner__title-container .fa,
+.usajobs-uhp-banner--former-overseas-employees .usajobs-uhp-banner__title-container .fa {
+  display: inline-block;
+  width: 16.4rem;
+  height: 8.2rem;
+  line-height: 16.4rem;
+  border-radius: 16.4rem 16.4rem 0 0;
+  color: #ffffff;
+  background-color: #e31c3d;
+  display: block;
+}
+
 .usajobs-uhp-search-banner {
   padding: 0 1.5rem;
   margin-left: -1.5rem;
@@ -2270,6 +2287,11 @@ html {
 
 .usajobs-uhp-section-outside-resources > li:after {
   display: none;
+}
+
+.usajobs-uhp-resource-cta__body {
+  padding: 1.5rem;
+  background-color: #e1f3f8;
 }
 
 .usajobs-help-center-home__link-list,

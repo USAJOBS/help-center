@@ -40,3 +40,9 @@
   @include unstyledList();
 }
 
+.usajobs-uhp-resource-cta {
+  &__body {
+    padding: $size-default;
+    background-color: $color-primary-alt-lightest;
+  }
+}

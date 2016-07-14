@@ -219,6 +219,18 @@
   }
 }
 
+.usajobs-uhp-banner--peace-corps,
+.usajobs-uhp-banner--former-overseas-employees {
+  .usajobs-uhp-banner__body {
+    background-color: $color-secondary;
+  }
+
+  .usajobs-uhp-banner__title-container .fa {
+    @include makeSemiCircle(rem(164px), $color-secondary);
+    display: block;
+  }
+}
+
 // Search banners used in UHP pages: Students and SES
 .usajobs-uhp-search-banner {
   @include clearfix();
