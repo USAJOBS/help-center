@@ -267,8 +267,6 @@ html {
   width: 16.4rem;
   height: 8.2rem;
   line-height: 16.4rem;
-  -moz-border-radius: 16.4rem 16.4rem 0 0;
-  -webkit-border-radius: 16.4rem 16.4rem 0 0;
   border-radius: 16.4rem 16.4rem 0 0;
   color: #ffffff;
   background-color: #205493;
@@ -286,8 +284,6 @@ html {
   width: 16.4rem;
   height: 8.2rem;
   line-height: 16.4rem;
-  -moz-border-radius: 16.4rem 16.4rem 0 0;
-  -webkit-border-radius: 16.4rem 16.4rem 0 0;
   border-radius: 16.4rem 16.4rem 0 0;
   color: #ffffff;
   background-color: #112e51;
@@ -309,8 +305,6 @@ html {
   width: 16.4rem;
   height: 8.2rem;
   line-height: 16.4rem;
-  -moz-border-radius: 16.4rem 16.4rem 0 0;
-  -webkit-border-radius: 16.4rem 16.4rem 0 0;
   border-radius: 16.4rem 16.4rem 0 0;
   color: #212121;
   background-color: #fdb81e;
@@ -328,8 +322,6 @@ html {
   width: 16.4rem;
   height: 8.2rem;
   line-height: 16.4rem;
-  -moz-border-radius: 16.4rem 16.4rem 0 0;
-  -webkit-border-radius: 16.4rem 16.4rem 0 0;
   border-radius: 16.4rem 16.4rem 0 0;
   color: #ffffff;
   background-color: #2e8540;
@@ -961,7 +953,6 @@ html {
 }
 
 .no-flexbox .usajobs-unique-hiring-paths__body {
-  width: -webkit-calc(100% -  11.3rem);
   width: calc(100% -  11.3rem);
 }
 
@@ -977,8 +968,6 @@ html {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -moz-box-align: center;
   box-align: center;
   -webkit-align-items: center;
   -moz-align-items: center;
@@ -990,14 +979,11 @@ html {
 
 .flexbox .usajobs-unique-hiring-paths__figure {
   -webkit-flex-shrink: 0;
-  -moz-flex-shrink: 0;
-  flex-shrink: 0;
+          flex-shrink: 0;
   -ms-flex-negative: 0;
 }
 
 .flexbox .usajobs-unique-hiring-paths__body {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
   box-flex: 1;
   -webkit-flex: 1;
   -moz-flex: 1;
@@ -1164,7 +1150,6 @@ html {
 }
 
 .no-flexbox .usajobs-uhp-section-nav__body {
-  width: -webkit-calc(100% -  6.9rem);
   width: calc(100% -  6.9rem);
 }
 
@@ -1180,8 +1165,6 @@ html {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -moz-box-align: center;
   box-align: center;
   -webkit-align-items: center;
   -moz-align-items: center;
@@ -1193,14 +1176,11 @@ html {
 
 .flexbox .usajobs-uhp-section-nav__figure {
   -webkit-flex-shrink: 0;
-  -moz-flex-shrink: 0;
-  flex-shrink: 0;
+          flex-shrink: 0;
   -ms-flex-negative: 0;
 }
 
 .flexbox .usajobs-uhp-section-nav__body {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
   box-flex: 1;
   -webkit-flex: 1;
   -moz-flex: 1;
@@ -1953,8 +1933,6 @@ html {
 }
 
 .usajobs-help-center-home__section-container {
-  -webkit-box-align: stretch;
-  -moz-box-align: stretch;
   box-align: stretch;
   -webkit-align-items: stretch;
   -moz-align-items: stretch;
@@ -1969,8 +1947,6 @@ html {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-  -moz-box-pack: start;
   box-pack: start;
   -webkit-justify-content: flex-start;
   -moz-justify-content: flex-start;
@@ -1978,11 +1954,7 @@ html {
   -o-justify-content: flex-start;
   justify-content: flex-start;
   -ms-flex-pack: start;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
   box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
   box-direction: normal;
   -webkit-flex-direction: row;
   -moz-flex-direction: row;
@@ -1992,15 +1964,12 @@ html {
   -moz-box-lines: multiple;
   box-lines: multiple;
   -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .usajobs-help-center-home__section {
   position: relative;
-  -webkit-box-flex: 0;
-  -moz-box-flex: 0;
   box-flex: 0;
   -webkit-flex: 0 0 auto;
   -moz-flex: 0 0 auto;
@@ -2460,5 +2429,4 @@ html {
   padding: 1rem 1.5rem;
   color: #5b616b;
 }
-
 /*# sourceMappingURL=help-center.css.map */
