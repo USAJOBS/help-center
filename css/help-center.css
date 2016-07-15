@@ -2289,13 +2289,51 @@ html {
   display: none;
 }
 
-.usajobs-uhp-resource-cta__link, .usajobs-uhp-resource-cta__link::visited, .usajobs-uhp-resource-cta__link::hover {
-  color: #212121;
+.usajobs-uhp-resource-cta {
+  margin-bottom: 4.5rem;
 }
 
 .usajobs-uhp-resource-cta__body {
+  display: block;
   padding: 1.5rem;
   background-color: #e1f3f8;
+}
+
+.usajobs-uhp-resource-cta__body::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.usajobs-uhp-resource-cta__body:visited, .usajobs-uhp-resource-cta__body:hover {
+  color: #212121;
+  text-decoration: none;
+}
+
+.usajobs-uhp-resource-cta__text {
+  color: #212121;
+}
+
+@media screen and (min-width: 37.5em) {
+  .usajobs-uhp-resource-cta__text {
+    margin: 0;
+  }
+}
+
+.usajobs-uhp-resource-cta__img {
+  width: 14.3rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 37.5em) {
+  .usajobs-uhp-resource-cta__img {
+    float: left;
+    margin-right: 1.5rem;
+  }
+}
+
+.usajobs-uhp-resource-cta__emphasis {
+  text-decoration: underline;
 }
 
 .usajobs-help-center-home__link-list,

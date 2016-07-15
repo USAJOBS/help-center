@@ -41,14 +41,40 @@
 }
 
 .usajobs-uhp-resource-cta {
-  &__link,
-  &__link::visited,
-  &__link::hover {
-    color: $color-base;
-  }
+  margin-bottom: $size-L;
 
   &__body {
+    @include clearfix();
+    display: block;
     padding: $size-default;
     background-color: $color-primary-alt-lightest;
+
+    &:visited,
+    &:hover {
+      color: $color-base;
+      text-decoration: none;
+    }
+  }
+
+  &__text {
+    color: $color-base;
+
+    @include media($M) {
+      margin: 0;
+    }
+  }
+
+  &__img {
+    width: rem(143px);
+    text-align: center;
+
+    @include media($M) {
+      float: left;
+      margin-right: $size-default;
+    }
+  }
+
+  &__emphasis {
+    text-decoration: underline;
   }
 }
