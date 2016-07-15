@@ -2289,13 +2289,13 @@ html {
   display: none;
 }
 
+.usajobs-uhp-resource-cta__link, .usajobs-uhp-resource-cta__link::visited, .usajobs-uhp-resource-cta__link::hover {
+  color: #212121;
+}
+
 .usajobs-uhp-resource-cta__body {
   padding: 1.5rem;
   background-color: #e1f3f8;
-}
-
-.usajobs-uhp-resource-cta__link, .usajobs-uhp-resource-cta__link::visited, .usajobs-uhp-resource-cta__link::hover {
-  color: #212121;
 }
 
 .usajobs-help-center-home__link-list,
