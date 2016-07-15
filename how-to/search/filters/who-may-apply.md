@@ -43,8 +43,8 @@ Select this option if you are:
 #### An individual who falls under one of the following groups:
 
 * Military spouses
-* Former overseas employee
-* Individuals with disabilities
+* Former overseas employees
+* Individuals with a disability
 * Peace Corp or AmeriCorps VISTA Alumni
 
 If you fall under one of the groups listed above, you may or may not be eligible for each job listed in your search results.  You must read the **Who May Apply** section of the job announcement to determine if you are eligible to apply.
