@@ -7,17 +7,25 @@ category: Filters
 tags: [search, filters, who may apply]
 ---
 
-Some federal jobs are open to the general public &mdash; meaning any U.S. citizen can apply. But, some federal jobs are only open to eligible federal employees. You can refine your job search results to only show jobs that you may be eligible for.
+Some federal jobs are open to the general public &mdash; meaning any U.S. citizen can apply. But, some federal jobs are only open to eligible current or former federal civilian employees or people who may be eligible under a unique hiring path.  You can filter your job search results to only show you jobs that meet your specific eligibility criteria. 
 
-### U.S. Citizen
+### U.S. citizen
 
-Select this option if you are a U.S. Citizen and have never worked for the federal government.
+If you select this option, you will only see jobs open to the public. 
 
-You will only see jobs open to the public. 
+Select this option if you’ve never worked for the federal government and you are a: 
 
-Most federal jobs require you to be a [U.S. citizen](../../../../working-in-government/us-citizens/), but there are some exceptions for [non-U.S. citizens](../../../../working-in-government/non-citizens/).
+* U.S. citizen or
+* National or individual who owes allegiance to the U.S.
+
+#### Who is a National or individual who owes allegiance to the U.S.?  
+Most federal jobs require you to be a [U.S. citizen](../../../../working-in-government/us-citizens/), but there are some exceptions for [nationals and individuals who owe allegiance to the U.S.](https://www.uscis.gov/ilink/docView/SLB/HTML/SLB/0-0-0-1/0-0-0-29/0-0-0-9696.html), including those from the American Samoa and Swain Islands. The **Who May Apply** section of each job announcement lists whether the job is open to U.S. citizens and non-U.S. citizens.
+
+[Learn more about employment of non-U.S. citizens](../../../../working-in-government/non-citizens/).
 
 ### Federal employees
+
+If you select this option, you’ll see jobs open to the general public AND jobs that are only open to the eligible groups listed below. You may see jobs you that you can’t apply for based on eligibility. For example, some agencies may post a job that is only open to current agency employees. 
 
 Select this option if you are:
 
@@ -32,7 +40,17 @@ Select this option if you are:
 
 * Eligible for [veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or separated from the armed forces under honorable conditions after three years ,or more, of continuous military service.
 
-If you select this option, you’ll see jobs open to the general public AND jobs that are only open to eligible federal employees (you may see jobs that you are not eligible for). Learn more about [which jobs you are eligible to apply for](../../../../faq/application/eligibility/).
+#### An individual who falls under one of the following groups:
+
+* Military spouses
+* Former overseas employee
+* Individuals with disabilities
+* Peace Corp or AmeriCorps VISTA Alumni
+
+If you fall under one of the groups listed above, you may or may not be eligible for each job listed in your search results.  You must read the **Who May Apply** section of the job announcement to determine if you are eligible to apply.
+
+Learn more about [which jobs you are eligible to apply for](../../../../faq/application/eligibility/).
+
 
 ## Additional Resources
 
