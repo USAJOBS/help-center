@@ -1994,7 +1994,7 @@ $help_accordion.on('click', '[data-behavior]', function (event) {
     $target = $object.find('#' + $el.attr('aria-controls')),
     state = $target.attr('aria-hidden');
 
-  $el.blur(); // Removes focus
+  // $el.blur(); // Removes focus
 
   // Each behavior attached to the element should be triggered
   $.each(behavior.split(' '), function (idx, action) {

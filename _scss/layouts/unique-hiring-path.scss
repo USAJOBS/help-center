@@ -45,4 +45,10 @@
     padding: $size-default;
     background-color: $color-primary-alt-lightest;
   }
+
+  &__link,
+  &__link::visited,
+  &__link::hover {
+    color: $color-base;
+  }
 }

@@ -5,37 +5,37 @@ disability:
   icon: wheelchair
 
 federal-employees:
-  title: Current/Former Federal employees
+  title: Current/Former Federal Employees
   text: "If you area  current of former federal employee you may qualify to apply for a position under merit promotion consideration."
   image-alt: "A women typing on a laptop."
   icon: bank
 
 former-overseas-employees:
-  title: Former overseas employees
+  title: Former Overseas Employees
   text: "If you're a family member of a federal employee, or uniformed service member, who has completed 52 weeks of service in a federal position overseas, you may be eligible to apply for jobs open to merit promotion candidates or be hired for a competitive service job."
   image-alt: "Fighter jets"
   icon: plane
 
 military-spouses:
-  title: Military spouses
+  title: Military Spouses
   text: "If you're a military spouse, you may be eligible to apply and be hired for competitive service jobs without having to go through the entire application process."
   image-alt: "Military service member hugging his spouse."
   icon: shield
 
 peace-corps:
-  title: Peace Corps/VISTA member
+  title: Peace Corps/VISTA Alumni
   text: "If you worked for the Peace Corps or AmeriCorp VISTA, you may qualify for non-competitive eligibility. This means that a federal agency can hire you outside of the formal competitive job announcement process."
   image-alt: "One individual helps another up a mountain."
   icon: flag
 
 ses:
-  title: Senior executives
+  title: Senior Executives
   text: "You may be eligible for a Senior Executive Service position if you meet the five Executive Core Qualifications (ECQs)."
   image-alt: "A pen resting on an open notebook."
   icon: briefcase
 
 students:
-  title: Students & recent graduates
+  title: Students & Recent Graduates
   text: "If you’re a current student or recent graduate, you may be eligible for federal internships and job opportunities through the Pathways program."
   image-alt: "Students at a picnic table reading."
   icon: graduation-cap

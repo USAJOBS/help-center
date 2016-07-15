@@ -2327,6 +2327,10 @@ html {
   background-color: #e1f3f8;
 }
 
+.usajobs-uhp-resource-cta__link, .usajobs-uhp-resource-cta__link::visited, .usajobs-uhp-resource-cta__link::hover {
+  color: #212121;
+}
+
 .usajobs-help-center-home__link-list,
 .usajobs-help-center-landing__link-list,
 .usajobs-help-center-sub-section__link-list,
