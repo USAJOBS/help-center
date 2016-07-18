@@ -12,7 +12,7 @@ In the Eligibility section of your profile, you must provide information about c
 
 ## Have you served in the U.S. Armed Forces or are you a family member eligible for derived preference?
 
-Select **No** if you’ve never served in the U.S. Armed Forces or you’re not a family member eligible for [derived preference](#what-is-derived-preference). If you answer no, the remaining military questions will disappear and you will not have to answer them. 
+Select **No** if you’ve never served in the U.S. Armed Forces or you’re not a family member eligible for [derived preference](#what-is-derived-preference). If you answer no, the remaining military questions will disappear and you will not have to answer them.
 
 ### What is Derived Preference?
 
@@ -28,7 +28,7 @@ You must select one of the following options:
 
 _No, I do not claim Veterans’ Preference_
 
-Select this option if you don’t want to claim Veterans’ Preference.  Even if you’re a veteran, you do not have to claim preference.  
+Select this option if you don’t want to claim Veterans’ Preference.  Even if you’re a veteran, you do not have to claim preference.
 
 _Sole Survivorship Preference_
 
@@ -52,16 +52,17 @@ Select this option if you have received the Purple Heart or have a disability of
 
 _Widow/widower or mother of a deceased veteran, or spouse or mother of a disabled veteran (XP)_
 
-Select this option if your spouse or child was a veteran and is deceased or is a disabled veteran.  [Learn more about family member preference](https://www.fedshirevets.gov/job/familypref/index.aspx). 
+Select this option if your spouse or child was a veteran and is deceased or is a disabled veteran. [Learn more about family member preference](https://www.fedshirevets.gov/job/familypref/index.aspx).
 
 [Learn more about claiming Veterans’ Preference based on a disability](https://www.fedshirevets.gov/job/vetpref/index.aspx#10point).
 
 ## Are you a veteran who was separated from the armed forces under honorable conditions after completing an initial continuous tour of duty of at least 3 years (may have been released just short of 3 years) (VEOA)?
 
-Select Yes if you’re a veteran who has served at least three continuous years and was discharged under honorable conditions. You may be eligible for a special hiring authority called Veterans Employment Opportunity Act of 1998 (VEOA).
+Select **Yes** if you’re a veteran who has served at least three continuous years and was discharged under honorable conditions. You may be eligible for a special hiring authority called Veterans Employment Opportunity Act of 1998 (VEOA).
 
 ### What is Veterans Employment Opportunity Act of 1998 (VEOA)?
-VEOA is a hiring authority used to fill permanent, competitive service jobs. Under VEOA, eligible veterans can apply to jobs that are only open to “status” employees (i.e. jobs that are not offered to candidates outside of the federal government). [Learn more about VEOA](https://fedshirevets.gov/job/shav/index.aspx). 
+
+VEOA is a hiring authority used to fill permanent, competitive service jobs. Under VEOA, eligible veterans can apply to jobs that are only open to “status” employees (i.e. jobs that are not offered to candidates outside of the federal government). [Learn more about VEOA](https://fedshirevets.gov/job/shav/index.aspx).
 
 ## Military Service Dates
 
