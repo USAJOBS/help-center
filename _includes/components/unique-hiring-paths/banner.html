@@ -7,7 +7,16 @@
     </picture>
     <div class="usajobs-uhp-banner__body">
       <div class="usajobs-uhp-banner__title-container">
-        <span class="fa fa-{{ section.icon }}"></span>
+        {% if section.icons %}
+        <div class="usajobs-uhp-banner__multiple-icons">
+          <span class="fa fa-{{ section.icons.first }}"></span> <span class="fa fa-{{ section.icons.last }}"></span>
+        </div>
+        {% endif %}
+        {% if section.icon %}
+        <div class="usajobs-uhp-banner__icon">
+          <span class="fa fa-{{ section.icon }}"></span>
+        </div>
+        {% endif %}
         <h1 class="usajobs-uhp-banner__title">
           {{ section.title }}
         </h1>

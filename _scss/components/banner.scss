@@ -2,6 +2,8 @@
 
 @import 'base-shared';
 
+$icon-size: rem(164px);
+
 .usajobs-help-center-search-banner,
 .usajobs-help-center-search-banner--with-nav,
 .usajobs-help-center-title-banner {
@@ -117,14 +119,22 @@
     @include media($L) {
       @include span-columns(4,12);
     }
+  }
 
-    .fa {
-      margin-top: rem(-100px);
-      margin-left: auto;
-      margin-right: auto;
-      font-size: rem(82px);
-      text-align: center;
-    }
+  &__multiple-icons,
+  &__icon .fa {
+    margin-top: rem(-100px);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  &__multiple-icons {
+    font-size: rem(62px);
+  }
+
+  &__icon .fa {
+    font-size: rem(82px);
   }
 
   &__text-container {
@@ -134,7 +144,7 @@
   }
 
   &__title {
-    margin-top: $size-L;
+    margin-top: $size-XL;
     text-align: center;
 
     @include media($ML) {
@@ -156,25 +166,13 @@
   }
 }
 
-@mixin makeSemiCircle($size, $bg-color: inherit, $color: $color-white) {
-  display: inline-block;
-  width: $size;
-  height: $size /2;
-  line-height: $size;
-  -moz-border-radius: $size $size 0 0;
-  -webkit-border-radius: $size $size 0 0;
-  border-radius: $size $size 0 0;
-  color: $color;
-  background-color: $bg-color;
-}
-
 .usajobs-uhp-banner--disability {
   .usajobs-uhp-banner__body {
     background-color: $color-primary-darker;
   }
 
-  .usajobs-uhp-banner__title-container .fa {
-    @include makeSemiCircle(rem(164px), $color-primary-darker);
+  .usajobs-uhp-banner__icon .fa {
+    @include makeSemiCircle($icon-size, $color-primary-darker);
     display: block;
   }
 }
@@ -185,8 +183,8 @@
     background-color: $color-primary-darkest;
   }
 
-  .usajobs-uhp-banner__title-container .fa {
-    @include makeSemiCircle(rem(164px), $color-primary-darkest);
+  .usajobs-uhp-banner__icon .fa {
+    @include makeSemiCircle($icon-size, $color-primary-darkest);
     display: block;
   }
 }
@@ -202,8 +200,8 @@
     color: $color-base;
   }
 
-  .usajobs-uhp-banner__title-container .fa {
-    @include makeSemiCircle(rem(164px), $color-gold, $color-base);
+  .usajobs-uhp-banner__icon .fa {
+    @include makeSemiCircle($icon-size, $color-gold, $color-base);
     display: block;
   }
 }
@@ -213,9 +211,18 @@
   .usajobs-uhp-banner__body {
     background-color: $color-green;
   }
+}
 
-  .usajobs-uhp-banner__title-container .fa {
-    @include makeSemiCircle(rem(164px), $color-green);
+.usajobs-uhp-banner--veterans {
+  .usajobs-uhp-banner__icon .fa {
+    @include makeSemiCircle($icon-size, $color-green);
+    display: block;
+  }
+}
+
+.usajobs-uhp-banner--military-spouses {
+  .usajobs-uhp-banner__multiple-icons {
+    @include makeSemiCircle($icon-size, $color-green);
     display: block;
   }
 }
@@ -226,8 +233,8 @@
     background-color: $color-secondary;
   }
 
-  .usajobs-uhp-banner__title-container .fa {
-    @include makeSemiCircle(rem(164px), $color-secondary);
+  .usajobs-uhp-banner__icon .fa {
+    @include makeSemiCircle($icon-size, $color-secondary);
     display: block;
   }
 }

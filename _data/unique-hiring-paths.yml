@@ -20,7 +20,9 @@ military-spouses:
   title: Military Spouses
   text: "If you're a military spouse, you may be eligible to apply and be hired for competitive service jobs without having to go through the entire application process."
   image-alt: "Military service member hugging his spouse."
-  icon: shield
+  icons:
+    - shield
+    - user
 
 peace-corps:
   title: Peace Corps/VISTA Alumni
