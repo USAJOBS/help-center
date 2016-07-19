@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to answer questions about military service
 breadcrumb: Military service
-category: eligibilitiy
+category: eligibility
 tags: [account, profile, eligibility, military service]
 ---
 

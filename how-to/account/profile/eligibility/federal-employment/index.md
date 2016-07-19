@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to answer questions about federal employment
 breadcrumb: Federal Employment
-category: eligibilitiy
+category: eligibility
 tags: [account, profile, eligibility, federal, employment]
 ---
 
@@ -14,7 +14,7 @@ In the **Eligibility** section of your profile, you must provide information abo
 
 _I am not and have never been a federal civilian employee._
 
-Select this option if you’ve never worked for the federal government.  Working for a federal contractor does not qualify as working for the federal government. 
+Select this option if you’ve never worked for the federal government.  Working for a federal contractor does not qualify as working for the federal government.
 
 _I am currently a federal civilian employee._
 
@@ -41,7 +41,7 @@ The Veterans’ Recruitment Appointment (VRA) is a hiring authority that federal
 
 Select **Yes** if you’re a current federal employee hired under a VRA.
 
-## Indicate the pay plan, series, grade level/pay band of the highest permanent graded position you ever held as a federal civilian employee. 
+## Indicate the pay plan, series, grade level/pay band of the highest permanent graded position you ever held as a federal civilian employee.
 
 You must provide information about your pay, series and grade level if you’re a current or former federal employee. This information can be found on a recent [SF-50](https://www.opm.gov/forms/pdfimage/sf50.pdf) (Notification of Personnel Action).
 
@@ -53,7 +53,7 @@ You must provide information about your pay, series and grade level if you’re 
 Select **Yes** if you’re a federal retiree receiving annuity benefits. If you’re receiving a federal annuity and then accept a new position, it may affect your annuity payments. [Learn more about federal annuity](https://www.opm.gov/retirement-services/my-annuity-and-benefits/).
 
 ## Have you accepted a buyout from a Federal agency within the past 5 years?
-Some federal agencies may offer a buyout, also called a Voluntary Separation Incentive Payment (VSIP), to employees if the agency needs to downsize or restructure. 
+Some federal agencies may offer a buyout, also called a Voluntary Separation Incentive Payment (VSIP), to employees if the agency needs to downsize or restructure.
 
 If you’ve accepted a buyout from a federal agency and then accept a new paid position with a federal agency within 5 years of the buyout, you’ll be required to pay the entire amount back to the agency that gave you the buyout (before you start the new job). [Learn more about buyouts](https://www.opm.gov/policy-data-oversight/workforce-restructuring/voluntary-separation-incentive-payments/).
 
