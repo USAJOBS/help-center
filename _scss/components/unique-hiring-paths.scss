@@ -86,8 +86,7 @@ $body-padding: $size-M;
       @include makeCircle(68px, none, $color-primary-darkest);
     }
 
-    &.federal-employees .fa::before,
-    &.individuals-with-disabilities .fa::before {
+    &.federal-employees .fa::before {
       margin-right: rem(-4px);
     }
 
@@ -119,6 +118,7 @@ $body-padding: $size-M;
     width: 100%;
     padding: $size-default $size-S;
     color: $color-primary;
+    text-decoration: none;
 
     @include media($ML) {
       min-height: rem(215px);

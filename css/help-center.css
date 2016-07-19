@@ -93,6 +93,7 @@ html {
 .usajobs-help-center-search-banner--with-nav__link,
 .usajobs-help-center-title-banner__link {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .usajobs-help-center-search-banner__link:visited, .usajobs-help-center-search-banner__link:hover,
@@ -168,7 +169,7 @@ html {
 .usajobs-uhp-banner__body::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -182,8 +183,8 @@ html {
   .usajobs-uhp-banner__title-container, .usajobs-uhp-banner__text-container {
     float: left;
     display: block;
-    margin-right: 4.8291579146%;
-    width: 47.5854210427%;
+    margin-right: 4.8291588071%;
+    width: 47.5854205965%;
   }
   .usajobs-uhp-banner__title-container:last-child, .usajobs-uhp-banner__text-container:last-child {
     margin-right: 0;
@@ -194,8 +195,8 @@ html {
   .usajobs-uhp-banner__title-container {
     float: left;
     display: block;
-    margin-right: 2.3576515979%;
-    width: 31.7615656014%;
+    margin-right: 2.3576520234%;
+    width: 31.7615653177%;
   }
   .usajobs-uhp-banner__title-container:last-child {
     margin-right: 0;
@@ -214,8 +215,8 @@ html {
   .usajobs-uhp-banner__text-container {
     float: left;
     display: block;
-    margin-right: 2.3576515979%;
-    width: 65.8807828007%;
+    margin-right: 2.3576520234%;
+    width: 65.8807826589%;
   }
   .usajobs-uhp-banner__text-container:last-child {
     margin-right: 0;
@@ -358,7 +359,7 @@ html {
 .usajobs-uhp-search-banner::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -454,6 +455,7 @@ html {
 
 .usajobs-help-center-breadcrumb__link {
   font-size: 1.4rem;
+  text-decoration: none;
 }
 
 .usajobs-help-center-breadcrumb__link:hover {
@@ -528,7 +530,7 @@ html {
 .usajobs-help-center-nav-secondary__body::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 30em) {
@@ -600,7 +602,7 @@ html {
 .usajobs-help-center-nav-secondary__item::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 30em) {
@@ -735,7 +737,7 @@ html {
 .usajobs-unique-hiring-paths-container::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -764,7 +766,7 @@ html {
 .usajobs-unique-hiring-paths__outer-body::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -812,8 +814,8 @@ html {
   .usajobs-unique-hiring-paths__list .usajobs-unique-hiring-paths__item {
     float: left;
     display: block;
-    margin-right: 4.8291579146%;
-    width: 47.5854210427%;
+    margin-right: 4.8291588071%;
+    width: 47.5854205965%;
   }
   .usajobs-unique-hiring-paths__list .usajobs-unique-hiring-paths__item:last-child {
     margin-right: 0;
@@ -864,8 +866,7 @@ html {
   box-shadow: inset 0 0 0 2px none;
 }
 
-.usajobs-unique-hiring-paths__icon.federal-employees .fa::before,
-.usajobs-unique-hiring-paths__icon.individuals-with-disabilities .fa::before {
+.usajobs-unique-hiring-paths__icon.federal-employees .fa::before {
   margin-right: -0.4rem;
 }
 
@@ -914,6 +915,7 @@ html {
   width: 100%;
   padding: 1.5rem 1rem;
   color: #0071bc;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 48em) {
@@ -962,7 +964,7 @@ html {
 .no-flexbox .usajobs-unique-hiring-paths__link::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 .no-flexbox .usajobs-unique-hiring-paths__figure, .no-flexbox .usajobs-unique-hiring-paths__body {
@@ -1058,8 +1060,8 @@ html {
   .usajobs-uhp-section-nav__list .usajobs-uhp-section-nav__item {
     float: left;
     display: block;
-    margin-right: 4.8291579146%;
-    width: 47.5854210427%;
+    margin-right: 4.8291588071%;
+    width: 47.5854205965%;
   }
   .usajobs-uhp-section-nav__list .usajobs-uhp-section-nav__item:last-child {
     margin-right: 0;
@@ -1159,7 +1161,7 @@ html {
 .no-flexbox .usajobs-uhp-section-nav__link::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 .no-flexbox .usajobs-uhp-section-nav__figure, .no-flexbox .usajobs-uhp-section-nav__body {
@@ -1283,7 +1285,7 @@ html {
 .usajobs-help-center-about-what::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 .usajobs-help-center-about-what__body {
@@ -1296,7 +1298,7 @@ html {
 .usajobs-help-center-about-what__body::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -1341,7 +1343,7 @@ html {
 .usajobs-help-center-about-new::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 .usajobs-help-center-about-new__body {
@@ -1354,7 +1356,7 @@ html {
 .usajobs-help-center-about-new__body::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -1377,8 +1379,8 @@ html {
   .usajobs-help-center-about-new__col {
     float: left;
     display: block;
-    margin-right: 4.8291579146%;
-    width: 47.5854210427%;
+    margin-right: 4.8291588071%;
+    width: 47.5854205965%;
   }
   .usajobs-help-center-about-new__col:last-child {
     margin-right: 0;
@@ -1392,7 +1394,7 @@ html {
 .usajobs-help-center-about-stats::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 .usajobs-help-center-about-stats__body {
@@ -1405,7 +1407,7 @@ html {
 .usajobs-help-center-about-stats__body::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -1446,8 +1448,8 @@ html {
   .usajobs-help-center-about-stats__col {
     float: left;
     display: block;
-    margin-right: 4.8291579146%;
-    width: 47.5854210427%;
+    margin-right: 4.8291588071%;
+    width: 47.5854205965%;
     margin-bottom: 4.5rem;
   }
   .usajobs-help-center-about-stats__col:last-child {
@@ -1462,15 +1464,15 @@ html {
   .usajobs-help-center-about-stats__col {
     float: left;
     display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%;
+    margin-right: 2.3576520234%;
+    width: 23.2317609825%;
     margin-bottom: 0;
   }
   .usajobs-help-center-about-stats__col:last-child {
     margin-right: 0;
   }
   .usajobs-help-center-about-stats__col:nth-child(2n) {
-    margin-right: 2.3576515979%;
+    margin-right: 2.3576520234%;
   }
   .usajobs-help-center-about-stats__col:nth-child(2n+1) {
     clear: none;
@@ -1487,7 +1489,7 @@ html {
 .usajobs-help-center-about-get-started::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 .usajobs-help-center-about-get-started__body {
@@ -1500,7 +1502,7 @@ html {
 .usajobs-help-center-about-get-started__body::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -1533,7 +1535,7 @@ html {
 .usajobs-help-center-about-learn-more::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 .usajobs-help-center-about-learn-more__body {
@@ -1546,7 +1548,7 @@ html {
 .usajobs-help-center-about-learn-more__body::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -1570,8 +1572,8 @@ html {
   .usajobs-help-center-about-learn-more__help-center, .usajobs-help-center-about-learn-more__social {
     float: left;
     display: block;
-    margin-right: 4.8291579146%;
-    width: 47.5854210427%;
+    margin-right: 4.8291588071%;
+    width: 47.5854205965%;
   }
   .usajobs-help-center-about-learn-more__help-center:last-child, .usajobs-help-center-about-learn-more__social:last-child {
     margin-right: 0;
@@ -1751,7 +1753,7 @@ html {
 .usajobs-help-center-article__additional-container {
   float: left;
   display: block;
-  margin-right: 2.3576515979%;
+  margin-right: 2.3576520234%;
   width: 100%;
   margin: 3rem 0;
 }
@@ -1825,7 +1827,7 @@ html {
 .usajobs-help-center-contact-us::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -1860,8 +1862,8 @@ html {
   .usajobs-help-center-contact-us__col {
     float: left;
     display: block;
-    margin-right: 2.3576515979%;
-    width: 48.821174201%;
+    margin-right: 2.3576520234%;
+    width: 48.8211739883%;
     padding-right: 1.5rem;
   }
   .usajobs-help-center-contact-us__col:last-child {
@@ -2026,8 +2028,8 @@ html {
   .usajobs-help-center-home__sub-section {
     float: left;
     display: block;
-    margin-right: 4.8291579146%;
-    width: 47.5854210427%;
+    margin-right: 4.8291588071%;
+    width: 47.5854205965%;
   }
   .usajobs-help-center-home__sub-section:last-child {
     margin-right: 0;
@@ -2044,6 +2046,7 @@ html {
   display: block;
   width: 100%;
   text-align: center;
+  text-decoration: none;
 }
 
 .usajobs-help-center-home__section-title:visited, .usajobs-help-center-home__section-title:hover {
@@ -2212,7 +2215,7 @@ html {
 .usajobs-uhp-section::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 @media screen and (min-width: 48em) {
@@ -2231,8 +2234,8 @@ html {
   .usajobs-uhp-section__col-left, .usajobs-uhp-section__col-right {
     float: left;
     display: block;
-    margin-right: 4.8291579146%;
-    width: 47.5854210427%;
+    margin-right: 4.8291588071%;
+    width: 47.5854205965%;
   }
   .usajobs-uhp-section__col-left:last-child, .usajobs-uhp-section__col-right:last-child {
     margin-right: 0;
@@ -2243,8 +2246,8 @@ html {
   .usajobs-uhp-section__col-left {
     float: left;
     display: block;
-    margin-right: 2.3576515979%;
-    width: 31.7615656014%;
+    margin-right: 2.3576520234%;
+    width: 31.7615653177%;
   }
   .usajobs-uhp-section__col-left:last-child {
     margin-right: 0;
@@ -2261,8 +2264,8 @@ html {
   .usajobs-uhp-section__col-right {
     float: left;
     display: block;
-    margin-right: 2.3576515979%;
-    width: 65.8807828007%;
+    margin-right: 2.3576520234%;
+    width: 65.8807826589%;
   }
   .usajobs-uhp-section__col-right:last-child {
     margin-right: 0;
@@ -2302,7 +2305,7 @@ html {
 .usajobs-uhp-resource-cta__body::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 .usajobs-uhp-resource-cta__body:visited, .usajobs-uhp-resource-cta__body:hover {
@@ -2432,7 +2435,7 @@ html {
 .usajobs-help-center-singleton::after {
   clear: both;
   content: "";
-  display: table;
+  display: block;
 }
 
 .usajobs-help-center-search__result {
