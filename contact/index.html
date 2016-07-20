@@ -54,12 +54,12 @@ exclude_from_category: true
         </optgroup>
       </select>
 
-      <div class="usajobs-help-context" id="usajobs-help-context" aria-hidden="true">
+      <div class="usajobs-help-center-contact-us__context" id="usajobs-help-context" aria-hidden="true">
         <h3>Recommended topics</h3>
         <p>
           Please read these Help Center articles which may answer your question.
         </p>
-        <ul class="usa-unstyled-list">
+        <ul class="usajobs-help-center-contact-us__topic-list">
           {% strip %}
           {% for page in site.pages %}
             {% if page.tags contains 'support-sign-in' %}

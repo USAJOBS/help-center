@@ -12,6 +12,18 @@
     margin-top: rem(89px);
   }
 
+  &__related-list {
+    @include unstyledList();
+
+    > li {
+      line-height: 1.8;
+    }
+
+    > li > a {
+      text-decoration: none;
+    }
+  }
+
   &__additional-container {
     @include span-columns(12, 12);
     margin: $size-M 0;

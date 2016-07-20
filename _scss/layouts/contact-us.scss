@@ -45,6 +45,23 @@
   &__comment-count {
     margin-bottom: 0;
   }
+
+  &__topic-list {
+    @include unstyledList();
+
+    > .usajobs-help-topic {
+      line-height: 2.0;
+    }
+  }
+}
+
+.js .usajobs-help-center-contact-us {
+  .usajobs-help-center-contact-us__context,
+  .usajobs-help-topic {
+    &[aria-hidden=true] {
+      display: none;
+    }
+  }
 }
 
 // Duplicating from the design system for the contact us page

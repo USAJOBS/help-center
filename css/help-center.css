@@ -1134,6 +1134,7 @@ html {
   width: 100%;
   padding: 1rem 0;
   color: #0071bc;
+  text-decoration: none;
 }
 
 .usajobs-uhp-section-nav__link:visited {
@@ -1768,6 +1769,34 @@ html {
   margin-top: 8.9rem;
 }
 
+.usajobs-help-center-article__related-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.usajobs-help-center-article__related-list > li {
+  display: list-item;
+  margin: 0;
+}
+
+.usajobs-help-center-article__related-list > li:before {
+  display: none;
+}
+
+.usajobs-help-center-article__related-list > li:after {
+  display: none;
+}
+
+.usajobs-help-center-article__related-list > li {
+  line-height: 1.8;
+}
+
+.usajobs-help-center-article__related-list > li > a {
+  text-decoration: none;
+}
+
 .usajobs-help-center-article__additional-container {
   float: left;
   display: block;
@@ -1896,6 +1925,35 @@ html {
 
 .usajobs-help-center-contact-us__comment-count {
   margin-bottom: 0;
+}
+
+.usajobs-help-center-contact-us__topic-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.usajobs-help-center-contact-us__topic-list > li {
+  display: list-item;
+  margin: 0;
+}
+
+.usajobs-help-center-contact-us__topic-list > li:before {
+  display: none;
+}
+
+.usajobs-help-center-contact-us__topic-list > li:after {
+  display: none;
+}
+
+.usajobs-help-center-contact-us__topic-list > .usajobs-help-topic {
+  line-height: 2.0;
+}
+
+.js .usajobs-help-center-contact-us .usajobs-help-center-contact-us__context[aria-hidden=true],
+.js .usajobs-help-center-contact-us .usajobs-help-topic[aria-hidden=true] {
+  display: none;
 }
 
 .usajobs-form__help-brief {
@@ -2133,6 +2191,7 @@ html {
   right: 1.5rem;
   bottom: 0.5rem;
   padding: 1rem 0;
+  text-decoration: none;
 }
 
 .usajobs-help-center-home__desc {
@@ -2318,6 +2377,7 @@ html {
   display: block;
   padding: 1.5rem;
   background-color: #e1f3f8;
+  text-decoration: none;
 }
 
 .usajobs-uhp-resource-cta__body::after {
@@ -2398,6 +2458,7 @@ html {
   display: block;
   padding: 1rem 0;
   font-size: 19px;
+  text-decoration: none;
 }
 
 .usajobs-help-center-home__link-list-small,
@@ -2440,6 +2501,7 @@ html {
   display: block;
   padding: 0.5rem 0;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .usajobs-help-center-landing,
