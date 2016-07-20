@@ -7,6 +7,7 @@ breadcrumb: What to include
 category: Resume
 tags: [application, resume, support-resume]
 ---
+
 Whether you're a current federal employee or new to the Federal Government, your resume is the primary way for you to communicate your education, skills and experience.
 
 ## Before you get started
@@ -27,7 +28,6 @@ Make sure you have the required experience and/or education before you apply.  H
 
 Federal jobs often require that you have experience in a a particular type of work for a certain period of time. You must show how your skills and experiences **meet the qualifications and requirements listed in the job announcement** to be considered for the job.
 
-
 ### Include dates, hours, level of experience and examples for each work experience
 
 For each work experience you list, make sure you include:
@@ -39,9 +39,9 @@ For each work experience you list, make sure you include:
 
 #### Example
 
-**Program Analyst GS-343-11**  
-January 2009 - Present  
-40 Hours/Week  
+**Program Analyst GS-343-11**
+January 2009 - Present
+40 Hours/Week
 $63,000/Year
 
 * Experience/Accomplishment
@@ -103,7 +103,8 @@ Check your resume for spelling and grammatical errors and have someone else, wit
 ## Additional resources
 
 * [Watch our resume writing video](https://www.youtube.com/watch?v=8YX7o1PBoFk)
-* [Find more job seek resources](https://hru.gov/Studio_Recruitment/Job_Seekers_Resource_Center.aspx)
+* [Applicant Tools and Resources (HR University)](https://hru.gov/Studio_Recruitment/Job_Seekers_Resource_Center.aspx)
+* [Create your federal resume (Go Government)](http://gogovernment.org/how_to_apply/write_your_federal_resume/create_your_resume.php)
 * [How to build a resume](../how-to/account/documents/resume/build)
 * [How to create a resume](../how-to/account/documents/resume/create)
 
