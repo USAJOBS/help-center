@@ -2,8 +2,8 @@
 permalink: /how-to/job-announcement/save/
 layout: article
 section: how-to
-title: How to save a job 
-breadcrumb: save
+title: How to save a job announcement
+breadcrumb: Save
 category: Job Announcement
 tags: [job announcement, support-job-announcement]
 ---
@@ -29,7 +29,7 @@ By default, the most recent saved jobs are listed at the top, but you can **Sort
 * Job title
 
 ### Receive email notifications
-You can receive an email any time a saved job is scheduled to close in three calendar days. To receive email notifications, click on the **Notifications** icon and select the checkbox. 
+You can receive an email any time a saved job is scheduled to close in three calendar days. To receive email notifications, click on the **Notifications** icon and select the checkbox.
 
 ### View job announcement information
 Click the **+** to see more details about the saved job. Each saved job shows a summary including:
@@ -43,7 +43,7 @@ Click the **+** to see more details about the saved job. Each saved job shows a 
 * Series and grade
 * Salary range
 
-[Learn more about the job announcement](index/).
+[Learn more about the job announcement](../).
 
 ### Apply, view more or delete saved jobs
 Within the saved jobs details you can also apply, delete or view more similar jobs.
@@ -51,7 +51,7 @@ Within the saved jobs details you can also apply, delete or view more similar jo
 ### What if I don't see a saved job in my account?
 There are a few reasons why you may not see a saved job in your account:
 
-* The agency may have closed the job announcement-an agency may choose to close a job before its [posted closing date](index/).
+* The agency may have closed the job announcement-an agency may choose to close a job before its [posted closing date](../).
 * The agency may have canceled the job announcement.
 * You may have applied to the job. When you apply to a saved job it moves into your **Active** applications.
 
