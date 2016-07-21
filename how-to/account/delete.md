@@ -16,7 +16,7 @@ To delete a USAJOBS account:
 4. Read the message and click the **Delete Account** button in the pop-up box.
 5. You will receive an email stating when your account will be deleted.
 
-## Additional Informationi
+## Additional information
 
 * You will lose all documents in your account, including application history, resumes, saved documents, saved searches, and all other documents.
 * Your account will be deleted 168 hours (7 days) after the Confirm Deletion button is clicked.
