@@ -50,7 +50,7 @@ _Non-compensable disability or Purple Heart (XP)_
 
 Select this option if you have received the Purple Heart or have a disability of less than 10 percent.
 
-_Widow/widower or mother of a deceased veteran, or spouse or parent of a disabled veteran (XP)_
+_Widow/widower or parent of a deceased veteran, or spouse or parent of a disabled veteran (XP)_
 
 Select this option if your spouse or child was a veteran and is deceased or is a disabled veteran. [Learn more about family member preference](https://www.fedshirevets.gov/job/familypref/index.aspx).
 
