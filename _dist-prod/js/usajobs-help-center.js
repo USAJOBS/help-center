@@ -1751,6 +1751,102 @@ $(function() {
   validator($('.js-validate_password'));
 });
 
+/**
+ * @class Accordion
+ *
+ * An accordion component.
+ *
+ * @param {jQuery} el A jQuery html element to turn into an accordion.
+ */
+function Accordion ($el) {
+  var self = this;
+  this.$root = $el;
+
+  // delegate click events on each <button>
+  this.$root.on('click', 'button', function (ev) {
+    var $button = $(this);
+    var expanded = $button.attr('aria-expanded') === 'true';
+    ev.preventDefault();
+    self.hideAll();
+    if (!expanded) {
+      self.show($button);
+    }
+  });
+
+  // find the first expanded button
+  var $expanded = this.$('button[aria-expanded=true]');
+  this.hideAll();
+  if ($expanded.length) {
+    this.show($expanded);
+  }
+}
+
+/**
+ * @param {String} selector
+ * @return {jQuery}
+ */
+Accordion.prototype.$ = function (selector) {
+  return this.$root.find(selector);
+};
+
+/**
+ * @param {jQuery} button
+ * @return {Accordion}
+ */
+Accordion.prototype.hide = function ($button) {
+  var selector = $button.attr('aria-controls'),
+    $content = this.$('#' + selector);
+
+  $button.attr('aria-expanded', false);
+  $content.attr('aria-hidden', true);
+  return this;
+};
+
+/**
+ * @param {jQuery} button
+ * @return {Accordion}
+ */
+Accordion.prototype.show = function ($button) {
+  var selector = $button.attr('aria-controls'),
+    $content = this.$('#' + selector);
+
+  $button.attr('aria-expanded', true);
+  $content.attr('aria-hidden', false);
+  return this;
+};
+
+/**
+ * @return {Accordion}
+ */
+Accordion.prototype.hideAll = function () {
+  var self = this;
+  this.$('button').each(function () {
+    self.hide($(this));
+  });
+  return this;
+};
+
+/**
+ * accordion
+ *
+ * Initialize a new Accordion component.
+ *
+ * @param {jQuery} $el A jQuery html element to turn into an accordion.
+ */
+ /*
+function accordion($el) {
+  return new Accordion($el);
+}
+*/
+
+$(function() {
+  $('[class^=usa-accordion]').each(function() {
+    new Accordion($(this));
+    // accordion($(this));
+  });
+});
+
+
 // Footer
 
 var $footer = $('[data-object="footer"]'),
@@ -1982,5 +2078,79 @@ $help.on('help.open', function(event, opts) {
     opts.object.find('#contactOptionalData').attr('aria-hidden', 'false');
   } else {
     opts.object.find('#contactOptionalData').attr('aria-hidden', 'true');
+  }
+});
+
+var $help_accordion = $('[data-object="help-accordion"]');
+
+$help_accordion.on('click', '[data-behavior]', function (event) {
+  var $el = $(this),
+    $object = $el.closest('[data-object="help-accordion"]'),
+    behavior = $el.attr('data-behavior'),
+    $target = $object.find('#' + $el.attr('aria-controls')),
+    state = $target.attr('aria-hidden');
+
+  // $el.blur(); // Removes focus
+
+  // Each behavior attached to the element should be triggered
+  $.each(behavior.split(' '), function (idx, action) {
+    if (action.match(/^help/)) {
+      $el.trigger(action, { el: $el, object: $object, target: $target, state: state });
+    }
+  });
+});
+
+$help_accordion.on('help-accordion.toggle', function(event, opts) {
+  event.preventDefault();
+
+  opts.target.slideDown(function () {
+    $('html, body').animate({
+      scrollTop: opts.object.offset().top
+    });
+  });
+});
+
+// Search autocomplete locations
+var acHostUrl = 'https://ac.usajobs.gov/acwd',
+usajSrc = function (request, response) {
+  $.ajax({
+    url: acHostUrl,
+    dataType: 'jsonp',
+    crossdomain: true,
+    cache: true,
+    jsonpCallback: 'usaj151067976',
+    data: { t: request.term },
+    success: function (data) {
+      response(data);
+    }
+  });
+};
+
+// Portions of this code came from http://jsfiddle.net/fozylet/kTAMm/
+$('.usajobs-ses-search #Location').autocomplete({
+  source: usajSrc,
+  minLength: 3,
+  open: function (e, ui) {
+    var acData = $(this).data('ui-autocomplete');
+    acData
+      .menu
+      .element
+      .find('li')
+      .each(function () {
+        var me = $(this);
+        var keywords = acData.term.split(' ').join('|');
+        me.html(me.text().replace(new RegExp("(" + keywords + ")", "gi"), '<strong>$1</strong>'));
+      });
+  },
+  select: function (event, ui) {
+    var selectedObj = ui.item;
+
+    $('.usajobs-ses-search #Location').val(selectedObj.label);
+    $('#ses-AutoCompleteSelected').val('true');
+    return false;
+  },
+  search: function () {
+    //wipe out values on new searches or when user selects one but changes their mind!
+    $('#ses-AutoCompleteSelected').val('false');
   }
 });
