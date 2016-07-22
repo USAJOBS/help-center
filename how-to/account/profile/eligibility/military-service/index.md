@@ -16,7 +16,7 @@ Select **No** if you’ve never served in the U.S. Armed Forces or you’re not 
 
 ### What is Derived Preference?
 
-Derived preference is when a **spouse**, **widow/widower**, or **mother** of a veteran is eligible to claim veterans' preference when your veteran is unable to use it. You're not eligible for derived preference if you have any other relationship with the veteran or if the veteran is living and is qualified for federal employment.  [Learn more about derived preference](https://fedshirevets.gov/job/familypref/index.aspx)
+Derived preference is when a **spouse**, **widow/widower**, or **parent** of a veteran is eligible to claim veterans' preference when your veteran is unable to use it. You're not eligible for derived preference if you have any other relationship with the veteran or if the veteran is living and is qualified for federal employment.  [Learn more about derived preference](https://fedshirevets.gov/job/familypref/index.aspx)
 
 ## Do you claim Veterans’ Preference?
 
@@ -50,7 +50,7 @@ _Non-compensable disability or Purple Heart (XP)_
 
 Select this option if you have received the Purple Heart or have a disability of less than 10 percent.
 
-_Widow/widower or mother of a deceased veteran, or spouse or mother of a disabled veteran (XP)_
+_Widow/widower or mother of a deceased veteran, or spouse or parent of a disabled veteran (XP)_
 
 Select this option if your spouse or child was a veteran and is deceased or is a disabled veteran. [Learn more about family member preference](https://www.fedshirevets.gov/job/familypref/index.aspx).
 
