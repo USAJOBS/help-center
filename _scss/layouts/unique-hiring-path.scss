@@ -2,6 +2,12 @@
 
 @import 'base-shared';
 
+.usajobs-help-center-unique-hiring-path.usajobs-content-gutter {
+  @include media($XL) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .usajobs-uhp-section {
   @include clearfix();
   margin-bottom: $size-L;
@@ -31,7 +37,7 @@
     }
 
     @include media($L) {
-      @include span-columns(8,12);
+      @include span-columns(6,12);
     }
   }
 }

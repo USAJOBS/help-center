@@ -519,6 +519,12 @@ html {
   }
 }
 
+@media screen and (min-width: 75em) {
+  .usajobs-help-center-breadcrumb--uhp .usajobs-help-center-breadcrumb__list {
+    padding-left: 0;
+  }
+}
+
 html {
   box-sizing: border-box;
 }
@@ -2285,6 +2291,13 @@ html {
   clip: rect(0 0 0 0) !important;
 }
 
+@media screen and (min-width: 75em) {
+  .usajobs-help-center-unique-hiring-path.usajobs-content-gutter {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .usajobs-uhp-section {
   margin-bottom: 4.5rem;
 }
@@ -2342,7 +2355,7 @@ html {
     float: left;
     display: block;
     margin-right: 2.3576520234%;
-    width: 65.8807826589%;
+    width: 48.8211739883%;
   }
   .usajobs-uhp-section__col-right:last-child {
     margin-right: 0;

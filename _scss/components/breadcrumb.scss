@@ -62,6 +62,9 @@
       padding-top: $size-M;
       padding-bottom: $size-M;
     }
+
+    @include media($XL) {
+      padding-left: 0;
+    }
   }
 }
-
