@@ -2321,13 +2321,13 @@ html {
 }
 
 @media screen and (min-width: 48em) {
-  .usajobs-uhp-section__col-left, .usajobs-uhp-section__col-right {
+  .usajobs-uhp-section__col-left {
     float: left;
     display: block;
     margin-right: 4.8291588071%;
-    width: 47.5854205965%;
+    width: 30.1138941286%;
   }
-  .usajobs-uhp-section__col-left:last-child, .usajobs-uhp-section__col-right:last-child {
+  .usajobs-uhp-section__col-left:last-child {
     margin-right: 0;
   }
 }
@@ -2338,6 +2338,7 @@ html {
     display: block;
     margin-right: 2.3576520234%;
     width: 31.7615653177%;
+    padding: 0 2.3576520234% 0 0;
   }
   .usajobs-uhp-section__col-left:last-child {
     margin-right: 0;
@@ -2346,6 +2347,14 @@ html {
 
 @media screen and (min-width: 48em) {
   .usajobs-uhp-section__col-right {
+    float: left;
+    display: block;
+    margin-right: 4.8291588071%;
+    width: 65.0569470643%;
+    margin-right: 0;
+    max-width: 60rem;
+  }
+  .usajobs-uhp-section__col-right:last-child {
     margin-right: 0;
   }
 }
@@ -2355,7 +2364,7 @@ html {
     float: left;
     display: block;
     margin-right: 2.3576520234%;
-    width: 48.8211739883%;
+    width: 57.3509783236%;
   }
   .usajobs-uhp-section__col-right:last-child {
     margin-right: 0;

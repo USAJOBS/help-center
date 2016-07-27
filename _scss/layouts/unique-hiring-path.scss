@@ -8,6 +8,7 @@
     padding-right: 0;
   }
 }
+
 .usajobs-uhp-section {
   @include clearfix();
   margin-bottom: $size-L;
@@ -18,26 +19,25 @@
     }
   }
 
-  &__col-left,
-  &__col-right {
-    @include media($ML) {
-      @include span-columns(3,6);
-    }
-  }
-
   &__col-left {
+    @include media($ML) {
+      @include span-columns(2,6);
+    }
     @include media($L) {
       @include span-columns(4,12);
+      @include pad(0 default 0 0);
     }
   }
 
   &__col-right {
     @include media($ML) {
+      @include span-columns(4,6);
       @include omega();
+      max-width: $article-max-width;
     }
 
     @include media($L) {
-      @include span-columns(6,12);
+      @include span-columns(7,12);
     }
   }
 }
