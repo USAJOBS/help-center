@@ -1773,6 +1773,10 @@ html {
   clip: rect(0 0 0 0) !important;
 }
 
+.usajobs-help-center-article__container {
+  max-width: 60rem;
+}
+
 .usajobs-help-center-article .usajobs-content-well ul {
   list-style: none;
   padding-left: 0;
