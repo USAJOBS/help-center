@@ -3,6 +3,9 @@
 @import 'base-shared';
 
 .usajobs-help-center-article {
+  &__container {
+    max-width: $article-max-width;
+  }
   // Fix for lack of design system lists in prod
   .usajobs-content-well ul {
     @include bulletList();
