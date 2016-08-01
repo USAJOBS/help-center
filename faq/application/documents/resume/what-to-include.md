@@ -26,7 +26,7 @@ Make sure you have the required experience and/or education before you apply.  H
 
 ## What to include in your resume
 
-Federal jobs often require that you have experience in a a particular type of work for a certain period of time. You must show how your skills and experiences **meet the qualifications and requirements listed in the job announcement** to be considered for the job.
+Federal jobs often require that you have experience in a particular type of work for a certain period of time. You must show how your skills and experiences **meet the qualifications and requirements listed in the job announcement** to be considered for the job.
 
 ### Include dates, hours, level of experience and examples for each work experience
 
@@ -35,11 +35,12 @@ For each work experience you list, make sure you include:
 * Start and end dates (including the month and year).
 * The number of hours you worked per week.
 * The level and amount of experience--for instance, whether you served as a project manager or a team member helps to illustrate your level of experience.
-* Examples of relevant experiences and accomplishments that prove you can perform the tasks at the level rquired for the job as stated in the job announcement
+* Examples of relevant experiences and accomplishments that prove you can perform the tasks at the level required for the job as stated in the job announcement
 
 #### Example
 
 **Program Analyst GS-343-11**
+
 January 2009 - Present
 40 Hours/Week
 $63,000/Year
@@ -70,16 +71,16 @@ These statements show in concrete terms what you accomplished.
 ## More resume writing tips
 
 ### Customize your resume
-You should tailor your resume to the job announcement rather than sending out the same resume for every job. Customizing your resume helps you match your competencies, knowledge, skilss, abilities and experience to the requirements for each job.  Emphasize your strengths and include everything you've done that relates to the job you're seeking. Leave out experience that isn't relevant.
+You should tailor your resume to the job announcement rather than sending out the same resume for every job. Customizing your resume helps you match your competencies, knowledge, skills, abilities and experience to the requirements for each job.  Emphasize your strengths and include everything you've done that relates to the job you're seeking. Leave out experience that isn't relevant.
 
 ### Organize your resume to make it easy to understand
 You need to organize your resume to help agencies evaluate your experience. If you don't provide the information required for the hiring agency to determine your qualifications, you might not be considered for the job.
 
 * Use reverse chronological order to list your experience--start with your most recent experience first and work your way back.
 * Provide greater detail for experience that is relevant to the job for which you are applying.
-* Show all experiencea and accomplishments under the job in which you earned it.  This helps agencies determine the amount of experience you have with that particular skill.
+* Show all experiences and accomplishments under the job in which you earned it.  This helps agencies determine the amount of experience you have with that particular skill.
 * Use either bullet or paragraph format to describe your experiences and accomplishments.
-* Use plain language-- avoid using acronyms and terns that are not easily understood.
+* Use plain language-- avoid using acronyms and terms that are not easily understood.
 
 ### Be concise
 Hiring agencies often receive dozens or even hundreds of resumes for certain positions.  Hiring managers quickly skim through submissions and eliminate candidates who clearly are not qualified. Look at your resume and ask:
@@ -95,8 +96,8 @@ Check your resume for spelling and grammatical errors and have someone else, wit
 
 * The Federal Government does have a standard job application. Your resume is your application.
 * Hiring agencies use the job announcement to describe the job and list the required qualifications and responsibilities.
-* After applying, the hiring agency uses the inforamtion in your resume to verify if you have the required qualifications stated in the job announcement.
-* Once the hiring agency has determined who is qualifed, they may use other assessments such as interviews or testing to determine the best qualified applications.
+* After applying, the hiring agency uses the information in your resume to verify if you have the required qualifications stated in the job announcement.
+* Once the hiring agency has determined who is qualified, they may use other assessments such as interviews or testing to determine the best qualified applications.
 
 [Learn more about the federal hiring process](../../application/process/).
 
