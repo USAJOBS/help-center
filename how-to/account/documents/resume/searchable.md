@@ -12,7 +12,7 @@ Making your resume searchable adds it to the USAJOBS Resume Mining collection. R
 
 * Only one of your resumes can be made searchable at a time.
 * Only certain formats are searchable including Word, text based pdfs, text files and resumes created using our Resume Builder tool.
-* Your resume will only remain searchable for 16 month unless it is renewed.
+* Your resume will only remain searchable for 18 month unless it is renewed.
 
 To make your resume searchable:
 
