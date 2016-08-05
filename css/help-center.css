@@ -1986,6 +1986,8 @@ html {
 .usajobs-button_bar--slim .usajobs-button_bar__save {
   display: inline-block;
   float: none;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 html {
