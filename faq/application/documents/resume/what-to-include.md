@@ -35,14 +35,13 @@ For each work experience you list, make sure you include:
 * Start and end dates (including the month and year).
 * The number of hours you worked per week.
 * The level and amount of experience--for instance, whether you served as a project manager or a team member helps to illustrate your level of experience.
-* Examples of relevant experiences and accomplishments that prove you can perform the tasks at the level required for the job as stated in the job announcement
+* •	Examples of relevant experiences and accomplishments that prove you can perform the tasks at the level required for the job as stated in the job announcement. Your experience needs to address every required qualification.
 
 #### Example
 
-**Program Analyst GS-343-11**
-
-January 2009 - Present
-40 Hours/Week
+**Program Analyst GS-343-11**  
+January 2009 - Present  
+40 Hours/Week  
 $63,000/Year
 
 * Experience/Accomplishment
@@ -59,7 +58,7 @@ When explaining your accomplishments:
 * Include examples of how you saved money, earned money, or managed money.
 * Include examples of how you saved or managed time.
 
-#### Example
+#### Examples
 
 * "Improved efficiency of document processing by 25% over the previous year".
 * "Wrote 25 news releases in a three-week period under daily deadlines".
@@ -72,6 +71,11 @@ These statements show in concrete terms what you accomplished.
 
 ### Customize your resume
 You should tailor your resume to the job announcement rather than sending out the same resume for every job. Customizing your resume helps you match your competencies, knowledge, skills, abilities and experience to the requirements for each job.  Emphasize your strengths and include everything you've done that relates to the job you're seeking. Leave out experience that isn't relevant.
+
+### Use similar terms and address every required qualification
+Your experience needs to address every required qualification in the job announcement. Hiring agencies will look for specific terms in your resume to make sure you have the experience they’re seeking. 
+
+For example, if the qualifications section says you need experience with “MS Project” you need to use the words ” MS Project” in your resume. 
 
 ### Organize your resume to make it easy to understand
 You need to organize your resume to help agencies evaluate your experience. If you don't provide the information required for the hiring agency to determine your qualifications, you might not be considered for the job.
