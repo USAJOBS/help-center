@@ -8,9 +8,9 @@ category: Advanced Search
 tags: [search, advanced, who may apply]
 ---
 
-Some federal jobs are open to the general public—meaning any U.S. citizen can apply. But, some federal jobs are only open eligible federal employees.  You can refine your job search results to only show jobs that you may be eligible for. 
+Some federal jobs are open to the general public—meaning any U.S. citizen can apply. But, some federal jobs are only open eligible federal employees.  You can refine your job search results to only show jobs that you may be eligible for.
 
-#### No – I do not fall into one of these categories and only want to see jobs open to the general public
+#### No – I do not fall into one of these categories and only want to see jobs open to the public
 
 Select this option if:
 
