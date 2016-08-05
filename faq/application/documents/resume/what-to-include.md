@@ -39,10 +39,9 @@ For each work experience you list, make sure you include:
 
 #### Example
 
-**Program Analyst GS-343-11**
-
-January 2009 - Present
-40 Hours/Week
+**Program Analyst GS-343-11**  
+January 2009 - Present  
+40 Hours/Week  
 $63,000/Year
 
 * Experience/Accomplishment
