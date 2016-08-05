@@ -55,6 +55,6 @@ Learn more about [which jobs you are eligible to apply for](../../../../faq/appl
 
 ## Additional resources
 
-* [Office of Personnel Management: Hiring Authorities](https://www.opm.gov/policy-data-oversight/hiring-information/hiring-authorities/)
-* [Veterans Employment Opportunities Act (VEOA)](https://www.fedshirevets.gov/job/shav/index.aspx/)
+* [Office of Personnel Management: Hiring Authorities (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/hiring-authorities/){:target="_blank"}
+* [Veterans Employment Opportunities Act - VEOA (FedsHireVets)](https://www.fedshirevets.gov/job/shav/index.aspx/){:target="_blank"}
 * [How to search by who may apply](../../advanced/who-may-apply/)
