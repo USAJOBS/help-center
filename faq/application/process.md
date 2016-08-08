@@ -42,7 +42,7 @@ If you have questions about the job, contact the agency representative listed at
 
 ## 4. Prepare your Application in USAJOBS
 
-Read the **How to Apply** section of the job announcement before starting your application. When you’re ready to apply, we’ll walk you through a five-step process to prepare your application, including attaching a resume and required documents. During the process you can review, edit, delete and update your information. We’ll automatically save your progress as you go, so you won’t lose any changes. Learn how to create an application. 
+Read the **How to Apply** section of the job announcement before starting your application. When you’re ready to apply, we’ll walk you through a five-step process to prepare your application, including attaching a resume and required documents. During the process you can review, edit, delete and update your information. We’ll automatically save your progress as you go, so you won’t lose any changes. [Learn how to create an application](../../how-to/application/). 
 
 ## 5. Submit Application to Agency
 
