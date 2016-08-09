@@ -8,49 +8,92 @@ category: application
 tags: [federal, hiring, process]
 ---
 
+This is a quick summary of how the federal application process works when you use USAJOBS to apply for positions.
+
 ## 1. Create a USAJOBS Account
 
-Creating a USAJOBS account allows you to save jobs, save searches, upload or build new resumes, upload required documentation and submit an application for open job announcements. You can only apply to job announcements with an account and complete profile. By completing your profile, you will get a more streamlined and personalized experience.
+First, you need to create an account and complete your profile to apply to any job on USAJOBS.  With a USAJOBS account and profile you can:
+
+* Save jobs you’re interested in.
+* Save and automate job searches.
+* Upload resumes or create one using our resume builder.
+* Upload and save required documents.
+* Apply to any job announcement on USAJOBS.
+* Have a more personalized experience.
 
 ## 2. Search for Jobs
 
-Once you create your account, you can search for federal job announcements. The more criteria you add to your search, the more specific your search results will be. You can search for jobs using the basic, advanced or map search and when you find search results you like, you can save the search or specific jobs to your account.
+Once you create your account, you can search for jobs. 
 
-When you sign into your account, we'll use your profile information to improve your search results.
+It’s best to sign into your account before doing a search. Why?  Because, we can use your profile information to improve your job search results.
+
+We offer several ways to search for jobs – you can use our basic, advanced, or map search. You can also use different filters such as location, salary, work schedule or agency to narrow your results. [Learn how to search for jobs](../../how-to/search/)
+
+### Save your search
+After you’ve entered your search criteria, let us do the searching for you. When you save a search, we’ll automatically look for jobs that match what you’re looking for and can email you, daily, weekly or monthly with those jobs. [Learn how to save a search](../../how-to/search/save/).
 
 ## 3. Review Job Announcement
 
-Once you find a job you’re interested in, review the announcement to determine if you’re eligible and meet the qualifications. We recommend reading the entire job announcement before beginning your application. If you have specific questions about the job, contact the agency representative listed at the bottom of the announcement.
+Once you find a job you’re interested in, review the announcement to determine if you’re eligible and meet the qualifications. Read the entire job announcement before starting your application—for each job there are specific qualifications you must meet and include in your application. 
+
+Read the **Who May Apply** section to determine if you’re eligible to apply for the position.  Read the **Qualifications** section to see if you meet the qualifications of the position. [Understand the job announcement](../../how-to/job-announcement/).
+
+If you have questions about the job, contact the agency representative listed at the bottom of the announcement.
 
 ## 4. Prepare your Application in USAJOBS
 
-Read the **How to Apply** section of the job announcement before starting your application. When you’re ready to apply, we’ll walk you through a five-step process to prepare your application, including attaching a resume and required documents. During the USAJOBS application process, you can add new resumes or documents and review them for accuracy. We'll automatically save your progress as you prepare your application in USAJOBS.
+Read the **How to Apply** section of the job announcement before starting your application. When you’re ready to apply, we’ll walk you through a five-step process to prepare your application, including attaching a resume and required documents. During the process you can review, edit, delete and update your information. We’ll automatically save your progress as you go, so you won’t lose any changes. [Learn how to create an application](../../how-to/application/). 
 
 ## 5. Submit Application to Agency
 
-Once your application is ready, you’ll be transferred from USAJOBS to the agency application system. You may need to complete other agency-required steps. Steps can include:
+Once your application is ready, you’ll be sent from USAJOBS to the agency application system. You may need to complete other agency-required steps such as:
 
-* Additional personal information
-* Additional documentation
-* Eligibility questions
-* Occupational questionnaire
+* Providing more personal information.
+* Providing more documentation.
+* Answering eligibility questions.
+* Completing an occupational questionnaire.
 
-After you submit your application, return to your USAJOBS account to confirm the agency received your application. Agencies will confirm receipt of your application by updating your status to "Received." Status updates are available in the **Applications** section of your account. You may also receive an email confirmation of your submission from the agency application system.
+The time it takes to submit an application depends on the job you’re applying for and the agency's requirements.
+
+After you submit your application, go back to your USAJOBS account and make sure the hiring agency received your application. You can see status updates in the **Application** section of your account. 
+
+### How long will it take to receive an updated status?
+It may take a few hours after you complete your application for the agency to update your application status.
+You may also receive an email confirmation from the agency application system, but not all agencies send email confirmations.
 
 ## 6. Agency Reviews Application
 
-The hiring agency will review your application to make sure you're eligible and meet the qualifications for the position. The agency will review and place applicants into quality categories and may provide a status update of "Reviewed" (not all agencies provide this status). The agency will send applicants in the highest category to the hiring official. These applicants will receive a status of "Referred" on their profile dashboard. All other applicants (not being considered) will receive a "Not Referred" status.
+Once the job announcement is closed, the hiring agency will review your application to make sure you’re eligible and meet the qualifications for the position. The hiring agency will place applicants into quality categories:
+
+* Minimum qualified
+* Highest qualified
+
+The hiring agency may update your application status to Reviewed, but not all agencies provide this status. 
+
+After all applications are reviewed, the hiring agency will send the highest qualified applicants to the hiring official—these applicants will see a **Referred** status in their application status. All other applicants (not being considered) will see a **Not Referred** status.
 
 ## 7. Interview
 
-The hiring official will review applications and select the applicants to interview based on agency policy. Hiring officials can choose to conduct panel, in-person, video or phone interviews. The agency will contact applicants directly to schedule interviews.
+The hiring official will review applications and select the applicants to interview based on agency policy. Hiring officials can interview applicants using:
+
+* A panel
+* In-person
+* Video
+* Phone
+
+The agency will contact applicants directly to schedule interviews. 
+### How long will it take to schedule an interview?
+It may take some time to schedule interviews, depending on the number of applicants being interviewed. 
 
 ## 8. Selection
 
-After interviewing applicants, the agency will select a candidate(s) and notify applicants who were not selected by updating their application status to "Not Selected." The agency will contact the candidate(s) to start the job offer process.
+After interviewing applicants, the hiring agency will select a candidate(s) and contact him or her to start the job offer process. The hiring agency will notify applicants who were not selected by updating their application status to **Not Selected**.
 
 ## 9. Job Offer
 
-The hiring agency will extend a tentative job offer contingent upon passing a background investigation. Once the tentative offer is accepted, the background investigation will begin.  Additional security checks may be needed for a higher-level clearance. Once the background investigation and any additional security checks are successfully completed, the job offer is final and the agency will contact the candidate(s) directly to negotiate a start date.
+The hiring agency will extend a tentative job offer contingent upon passing a background investigation. The background investigation will begin when the tentative offer is accepted. Additional security checks may be needed for a higher-level clearance.
+
+### When is the job offer final? 
+The job offer is final when the background investigation and any additional security checks are successfully completed. The hiring agency will contact the candidate(s) directly to set up a start date.
 
 

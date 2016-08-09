@@ -35,7 +35,7 @@ For each work experience you list, make sure you include:
 * Start and end dates (including the month and year).
 * The number of hours you worked per week.
 * The level and amount of experience--for instance, whether you served as a project manager or a team member helps to illustrate your level of experience.
-* •	Examples of relevant experiences and accomplishments that prove you can perform the tasks at the level required for the job as stated in the job announcement. Your experience needs to address every required qualification.
+* Examples of relevant experiences and accomplishments that prove you can perform the tasks at the level required for the job as stated in the job announcement. Your experience needs to address every required qualification.
 
 #### Example
 
@@ -73,9 +73,9 @@ These statements show in concrete terms what you accomplished.
 You should tailor your resume to the job announcement rather than sending out the same resume for every job. Customizing your resume helps you match your competencies, knowledge, skills, abilities and experience to the requirements for each job.  Emphasize your strengths and include everything you've done that relates to the job you're seeking. Leave out experience that isn't relevant.
 
 ### Use similar terms and address every required qualification
-Your experience needs to address every required qualification in the job announcement. Hiring agencies will look for specific terms in your resume to make sure you have the experience they’re seeking. 
+Your experience needs to address every required qualification in the job announcement. Hiring agencies will look for specific terms in your resume to make sure you have the experience they’re seeking.
 
-For example, if the qualifications section says you need experience with “MS Project” you need to use the words ” MS Project” in your resume. 
+For example, if the qualifications section says you need experience with “MS Project” you need to use the words ” MS Project” in your resume.
 
 ### Organize your resume to make it easy to understand
 You need to organize your resume to help agencies evaluate your experience. If you don't provide the information required for the hiring agency to determine your qualifications, you might not be considered for the job.
@@ -107,17 +107,8 @@ Check your resume for spelling and grammatical errors and have someone else, wit
 
 ## Additional resources
 
-* [Watch our resume writing video](https://www.youtube.com/watch?v=8YX7o1PBoFk)
-* [Applicant Tools and Resources (HR University)](https://hru.gov/Studio_Recruitment/Job_Seekers_Resource_Center.aspx)
-* [Create your federal resume (Go Government)](http://gogovernment.org/how_to_apply/write_your_federal_resume/create_your_resume.php)
-* [How to build a resume](../how-to/account/documents/resume/build)
-* [How to create a resume](../how-to/account/documents/resume/create)
-
-
-
-
-
-
-
-
-
+* [Watch our resume writing video](https://www.youtube.com/watch?v=8YX7o1PBoFk){:target="_blank"}
+* [Applicant Tools and Resources (HR University)](https://hru.gov/Studio_Recruitment/Job_Seekers_Resource_Center.aspx){:target="_blank"}
+* [Create your federal resume (Go Government)](http://gogovernment.org/how_to_apply/write_your_federal_resume/create_your_resume.php){:target="_blank"}
+* [How to build a resume](../../../../../how-to/account/documents/resume/build/)
+* [How to create a resume](../../../../../how-to/account/documents/resume/)
