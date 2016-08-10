@@ -1962,6 +1962,7 @@ html {
 }
 
 .js .usajobs-help-center-contact-us .usajobs-help-center-contact-us__context[aria-hidden=true],
+.js .usajobs-help-center-contact-us .usajobs-help-center-contact-us__optional-fields[aria-hidden=true],
 .js .usajobs-help-center-contact-us .usajobs-help-topic[aria-hidden=true] {
   display: none;
 }
