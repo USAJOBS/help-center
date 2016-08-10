@@ -14,7 +14,7 @@ Agencies post job announcements on USAJOBS to advertise their current job openin
 
 The details at the top of the job announcement can tell you whether you’re eligible to apply, if the job is in a location you like and how long you have to apply. 
 
-**Who May Apply** - This section tells you who is eligible to apply to the announcement.  Make sure you’re eligible before applying.
+**Who May Apply** - This section tells you who is eligible to apply to the job.  Make sure you’re eligible before applying.
 
 **Closing Date** - The closing date is the last day you can submit an application for the job—you can’t submit an application after 11:59pm EST (Eastern Standard Time) on that date.
 
