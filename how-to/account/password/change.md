@@ -13,16 +13,16 @@ tags: [password, change, support-password]
 2. Click **Username & Password** at the bottom of the column on the left. 
 3. Enter your current password followed by your new password.
 4. Verify your new password.
-5. Click the **Save button** at the bottom of the page.
+5. Click the **Save** button at the bottom of the page.
 
 ## Password Criteria
 
 Your new USAJOBS password must:
 
-* Be at least eight characters (20 maximum)
-* Contain at least one number (0-9)
-* Contain at least one uppercase letter (A-Z)
-* Contain at least one lowercase letter (a-z)
-* Contain at least one special character ! @ # $ % ^ & * ( )
+* Be at least eight characters (20 maximum).
+* Contain at least one number (0-9).
+* Contain at least one uppercase letter (A-Z).
+* Contain at least one lowercase letter (a-z).
+* Contain at least one special character ! @ # $ % ^ & * ( ).
 
 In addition, if someone can access your email, they may be able to gain access to your USAJOBS account. Make sure that the password to your email is different from your USAJOBS account.
