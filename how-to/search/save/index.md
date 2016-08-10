@@ -34,7 +34,7 @@ Click the **+** next to a saved search to see more details. From here you can:
 Click **View Search Results** to run the saved search and see your results.
 
 ### Renew a search
-Saved searches expire after one year and will automatically move into your archived list. Click **Renew Search for 1 Year** to renew your search for an additional year..
+Saved searches expire after one year and will automatically move into your archived list. Click **Renew Search for 1 Year** to renew your search for an additional year.
 
 ### Edit your saved search
 Click **Edit** to change your search criteria, such as keywords, location or even update your email preference. You’ll have the option to save the updated search.
@@ -42,7 +42,7 @@ Click **Edit** to change your search criteria, such as keywords, location or eve
 ### Duplicate a saved search
 Click **Duplicate** to create an exact copy of a saved search. When you duplicate, you have the option to edit the search criteria. 
 
-You may want to duplicate if you’re looking for similar jobs in two locations. Rather than creating a new saved search for each location, you can duplicate one search and change the location. For example, you may want to search for all Program Analyst jobs in Washington, D.C. and another search for all Program analyst jobs in Florida.
+You may want to duplicate if you’re looking for similar jobs in two locations. Rather than creating a new saved search for each location, you can duplicate one search and change the location. For example, you may want to search for all Program Analyst jobs in Washington, D.C. and another search for all Program Analyst jobs in Florida.
 
 ### Delete your saved search
 Click the filled-in **star icon**, with the label “Saved”, to delete a search. The star will no longer be filled and the label will change to “Save” to indicate it’s no longer saved. You must refresh the page or go to a new page to completely remove the search from your saved list. You can delete saved searches from both your active and archived list.
