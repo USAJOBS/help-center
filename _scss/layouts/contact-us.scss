@@ -57,6 +57,7 @@
 
 .js .usajobs-help-center-contact-us {
   .usajobs-help-center-contact-us__context,
+  .usajobs-help-center-contact-us__optional-fields,
   .usajobs-help-topic {
     &[aria-hidden=true] {
       display: none;
@@ -84,7 +85,7 @@
   .usajobs-button_bar__save {
     display: inline-block;
     float: none;
+    margin-top: 2.5rem;
+    margin-bottom: $size-default;
   }
 }
-
-

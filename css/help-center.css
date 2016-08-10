@@ -1952,6 +1952,7 @@ html {
 }
 
 .js .usajobs-help-center-contact-us .usajobs-help-center-contact-us__context[aria-hidden=true],
+.js .usajobs-help-center-contact-us .usajobs-help-center-contact-us__optional-fields[aria-hidden=true],
 .js .usajobs-help-center-contact-us .usajobs-help-topic[aria-hidden=true] {
   display: none;
 }
@@ -1976,6 +1977,8 @@ html {
 .usajobs-button_bar--slim .usajobs-button_bar__save {
   display: inline-block;
   float: none;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 html {
