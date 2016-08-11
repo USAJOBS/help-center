@@ -26,7 +26,7 @@ Most federal jobs require you to be a [U.S. citizen](../../../../working-in-gove
 
 ### Federal employees
 
-If you select this option, you’ll see jobs open to the general public AND jobs that are only open to the eligible groups listed below. You may see jobs you that you can’t apply for based on eligibility. For example, some agencies may post a job that is only open to current agency employees.
+If you select this option, you’ll see jobs open to the general public AND jobs that are only open to the eligible groups listed below. You may see jobs that you can’t apply for based on eligibility. For example, some agencies may post a job that is only open to current agency employees.
 
 Select this option if you are:
 
