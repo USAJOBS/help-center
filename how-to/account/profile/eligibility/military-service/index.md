@@ -44,7 +44,7 @@ Select this option if you have a disability rating from the VA, of at least 10 p
 
 _Compensable service connected disability of 30% or more (CPS)_
 
-Select this option if you have a disability rating from the VA, of at least of 30 percent or more due to your military service.
+Select this option if you have a disability rating from the VA, of at least 30 percent or more due to your military service.
 
 _Non-compensable disability or Purple Heart (XP)_
 
