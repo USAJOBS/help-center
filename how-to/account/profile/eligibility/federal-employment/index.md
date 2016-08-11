@@ -33,7 +33,7 @@ Select this option if you're a **former** federal civilian employee without rein
 
 ### What is reinstatement?
 
-You may be eligible for reinstatement if you held a career or career-conditional appointment in the federal government. Reinstatement allows former federal employees re-enter the federal competitive service workforce without competing with the public. [Learn more about reinstatement](../../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
+You may be eligible for reinstatement if you held a career or career-conditional appointment in the federal government. Reinstatement allows former federal employees to re-enter the federal competitive service workforce without competing with the public. [Learn more about reinstatement](../../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
 
 ## Are you a current federal civilian employee serving under a Veterans' Recruitment Appointment (VRA)?
 
