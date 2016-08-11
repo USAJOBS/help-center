@@ -10,7 +10,7 @@ tags: [search, save, support-search-save]
 
 You can save a search to help you look for jobs in your area of interest. When you save a search, USAJOBS will automatically look for jobs that match the keywords and other criteria in your search. We will email you, daily, weekly or monthly, when there are new jobs that match what you’re looking for.
 
-* You can create and save up to 10 saved searches—saved searches will expire one year after you create it.
+* You can create and save up to 10 saved searches—a saved search will expire one year after you create it.
 * You can [manage your saved searches in your account](#manage-saved-searches-in-your-account).
 
 ### To save a search
