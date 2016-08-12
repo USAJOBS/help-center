@@ -1800,6 +1800,10 @@ html {
   margin-bottom: 0.5em;
 }
 
+.usajobs-help-center-article .usajobs-content-well a {
+  text-decoration: underline;
+}
+
 .usajobs-help-center-article__related {
   margin-top: 8.9rem;
 }
