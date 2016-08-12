@@ -30,7 +30,7 @@ The hiring agency has received your job application.
 
 The hiring agency has reviewed your job application, but has not yet determined if you're qualified.
 
-#### Referred
+**Referred**
 Your application is among the best qualified and is referred to the next step in the selection process.
 
 **Selected**
