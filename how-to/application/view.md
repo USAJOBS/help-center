@@ -34,7 +34,7 @@ You can receive emails to let you know if the status of your job application cha
 
 ### View job announcement information
 
-Click the + to see more details about the job application. Each application has a summary including:
+Click the **+** to see more details about the job application. Each application has a summary including:
 
 * Position title
 * Hiring agency
