@@ -24,10 +24,6 @@ $body-padding: $size-M;
     @include clearfix();
     padding: $size-M;
     background-color: $color-white;
-
-    @include media($ML) {
-      margin-bottom: $size-XL;
-    }
   }
 
   &__title {

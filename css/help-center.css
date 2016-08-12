@@ -793,12 +793,6 @@ html {
   display: block;
 }
 
-@media screen and (min-width: 48em) {
-  .usajobs-unique-hiring-paths__outer-body {
-    margin-bottom: 6rem;
-  }
-}
-
 .usajobs-unique-hiring-paths__title {
   text-align: center;
 }
