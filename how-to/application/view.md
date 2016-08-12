@@ -8,7 +8,7 @@ category: application
 tags: [application, view, home]
 ---
 
-When you log in to your USAJOBS account, you’ll see a list of your job applications.  Any job application you create on USAJOBS is automatically saved to your account &mdash; this includes complete, incomplete and archived applications.
+When you sign in to your USAJOBS account, you’ll see a list of your job applications.  Any job application you create on USAJOBS is automatically saved to your account &mdash; this includes complete, incomplete and archived applications.
 
 ## Active vs. archived applications
 Job applications are grouped into active and archived. Active applications are applications you’re currently working on or waiting to hear back on. Archived applications are applications you want to keep, but may not want to see if your active list.
@@ -34,7 +34,7 @@ You can receive emails to let you know if the status of your job application cha
 
 ### View job announcement information
 
-Click the + to see more details about the job application. Each application has a summary including:
+Click the **+** to see more details about the job application. Each application has a summary including:
 
 * Position title
 * Hiring agency

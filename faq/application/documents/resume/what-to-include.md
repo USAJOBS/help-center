@@ -103,7 +103,7 @@ Check your resume for spelling and grammatical errors and have someone else, wit
 * After applying, the hiring agency uses the information in your resume to verify if you have the required qualifications stated in the job announcement.
 * Once the hiring agency has determined who is qualified, they may use other assessments such as interviews or testing to determine the best qualified applications.
 
-[Learn more about the federal hiring process](../../application/process/).
+[Learn more about the federal hiring process](../../process/).
 
 ## Additional resources
 

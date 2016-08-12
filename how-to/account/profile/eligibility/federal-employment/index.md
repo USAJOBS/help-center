@@ -33,29 +33,29 @@ Select this option if you're a **former** federal civilian employee without rein
 
 ### What is reinstatement?
 
-You may be eligible for reinstatement if you held a career or career-conditional appointment in the federal government. Reinstatement allows former federal employees re-enter the federal competitive service workforce without competing with the public. [Learn more about reinstatement](../../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
+You may be eligible for reinstatement if you held a career or career-conditional appointment in the federal government. Reinstatement allows former federal employees to re-enter the federal competitive service workforce without competing with the public. [Learn more about reinstatement](../../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
 
 ## Are you a current federal civilian employee serving under a Veterans' Recruitment Appointment (VRA)?
 
-The Veterans’ Recruitment Appointment (VRA) is a hiring authority that federal agencies can use to hire eligible veterans without competing with the public. [Learn more about VRA](https://fedshirevets.gov/job/shav/index.aspx).
+The Veterans’ Recruitment Appointment (VRA) is a hiring authority that federal agencies can use to hire eligible veterans without competing with the public. [Learn more about VRA](https://fedshirevets.gov/job/shav/index.aspx){:target="_blank"}.
 
 Select **Yes** if you’re a current federal employee hired under a VRA.
 
 ## Indicate the pay plan, series, grade level/pay band of the highest permanent graded position you ever held as a federal civilian employee.
 
-You must provide information about your pay, series and grade level if you’re a current or former federal employee. This information can be found on a recent [SF-50](https://www.opm.gov/forms/pdfimage/sf50.pdf) (Notification of Personnel Action).
+You must provide information about your pay, series and grade level if you’re a current or former federal employee. This information can be found on a recent [SF-50](https://www.opm.gov/forms/pdfimage/sf50.pdf){:target="_blank"} (Notification of Personnel Action).
 
-[Learn more about pay systems and plans](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/).
+[Learn more about pay systems and plans](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/){:target="_blank"}.  
 [Learn more about series and grade levels](../../../../../faq/pay/series-and-grade/).
 
 
 ## Are you a retiree receiving a Federal annuity
-Select **Yes** if you’re a federal retiree receiving annuity benefits. If you’re receiving a federal annuity and then accept a new position, it may affect your annuity payments. [Learn more about federal annuity](https://www.opm.gov/retirement-services/my-annuity-and-benefits/).
+Select **Yes** if you’re a federal retiree receiving annuity benefits. If you’re receiving a federal annuity and then accept a new position, it may affect your annuity payments. [Learn more about federal annuity](https://www.opm.gov/retirement-services/my-annuity-and-benefits/){:target="_blank"}.
 
 ## Have you accepted a buyout from a Federal agency within the past 5 years?
 Some federal agencies may offer a buyout, also called a Voluntary Separation Incentive Payment (VSIP), to employees if the agency needs to downsize or restructure.
 
-If you’ve accepted a buyout from a federal agency and then accept a new paid position with a federal agency within 5 years of the buyout, you’ll be required to pay the entire amount back to the agency that gave you the buyout (before you start the new job). [Learn more about buyouts](https://www.opm.gov/policy-data-oversight/workforce-restructuring/voluntary-separation-incentive-payments/).
+If you’ve accepted a buyout from a federal agency and then accept a new paid position with a federal agency within 5 years of the buyout, you’ll be required to pay the entire amount back to the agency that gave you the buyout (before you start the new job). [Learn more about buyouts](https://www.opm.gov/policy-data-oversight/workforce-restructuring/voluntary-separation-incentive-payments/){:target="_blank"}.
 
 
 ## Additional Resources

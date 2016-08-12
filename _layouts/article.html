@@ -15,22 +15,26 @@
         <section class="usajobs-canvas">
           <div class="usajobs-help-center-article usajobs-content-gutter">
             <main class="usajobs-content-well" id="main-content" role="main">
-              <h1>{{ page.title }}</h1>
-              {{ content }}
+              <div class="usajobs-help-center-article__container">
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+              </div>
             </main>
             <aside class="usajobs-rightrail">
-              <h3 class="usajobs-help-center-article__related">Related Articles</h3>
+              <h3 class="usajobs-help-center-article__related">Related articles</h3>
               <ul class="usajobs-help-center-article__related-list">
               {% strip %}
               {% assign sorted_pages = site.pages | sort:"title" %}
               {% for node in sorted_pages %}
                 {% if node.category == page.category %}
                   {% if node.exclude_from_category != true %}
+                    {% if node.url != page.url %}
                 <li>
                   <a href="{{ site.baseurl }}{{ node.url }}">
                     {{ node.title }}
                   </a>
                 </li>
+                    {% endif %}
                   {% endif %}
                 {% endif %}
               {% endfor %}

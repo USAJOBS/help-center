@@ -15,11 +15,12 @@ To build a resume in USAJOBS:
 3. Make sure you're in the **Resumes** section and select the **Upload or build resume** button.
 4. Click **Build resume**.
 4. Name your new resume and click **Next**.
-5. Experience tab: Select **Add Experience**, enter the required information and click **Save Experience** once completed. To add additional work experience repeat this step or click **Next** to continue to the Education tab.
-6. Education Tab: Select **Add Education**, enter the required information and click **Save Education** once completed. To add additional education repeat this step or click **Next** to continue to the Reference tab.
-7. References tab: Select **Add Reference**, enter the required information and click **Save Reference** once completed. To add an additional reference repeat this step or click **Next** to continue to the Other tab. Note: You may add up to five references on your resume.
-8. Other Tab: You can enter additional information on your resume such as job related training, language skills, organizations/affiliations, professional publications, and other information. Select the corresponding button next to the title to add your information, select the **Add/Save** button for each section once completed. Click **Next** to continue to the Preview and Finish tab.
-9. Preview and Finish Tab: On the final page you can preview your resume and print a copy. If you're satisfied with your resume click **Finish** at the bottom. To edit your information click **Previous** or the tab section name at the top.
+5. Click **Add Work Experience**, enter the required information and click **Save Work Experience**. To add additional work experience repeat this step or click **Next** to continue with your education information.
+6. Click **Add Education**, enter the required information and click **Save Education**. Repeat this step to add additional education or click **Next** to continue with your references. You may also click **Finish** if you don't want to add more information.
+7. Click **Add Reference**, enter the required information and click **Save Reference**. You may add up to five references on your resume. Repeat this step to add an additional reference or click **Next** to continue to the next step.  
+8. You can enter additional information on your resume such as job related training, language skills, organizations/affiliations, professional publications, and other information. Click the corresponding button under each section to add your information, enter your information and click **Add** or **Save** for each section once completed. 
+9. Click **Finish** to save your resume. Your new resume will appear in your **Documents** list.
+10. Click **View** on the resume icon to preview your resume. To edit your resume click **Edit** on the resume icon and it will bring you to the first page of your resume in the resume builder tool.
 
 ### Important details
 

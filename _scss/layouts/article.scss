@@ -3,9 +3,21 @@
 @import 'base-shared';
 
 .usajobs-help-center-article {
+  &__container {
+    max-width: $article-max-width;
+  }
   // Fix for lack of design system lists in prod
   .usajobs-content-well ul {
     @include bulletList();
+  }
+
+  .usajobs-content-well ul,
+  .usajobs-content-well ol {
+    margin-left: 0.9em;
+  }
+
+  .usajobs-content-well a {
+    text-decoration: underline;
   }
 
   &__related {
