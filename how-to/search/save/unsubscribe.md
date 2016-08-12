@@ -19,5 +19,5 @@ To stop receiving saved search email notifications:
 7. Click **Save Search**.
 
 ## Additional information
+
 Saved searches expire after one year and will automatically move into your archived list and you will not receive emails.
-[Learn more about saved searches](index/).
