@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to determine federal employment status
 breadcrumb: Federal employment status
-category: Profile
+category: profile
 tags: [account, profile, eligibility]
 ---
 
@@ -17,6 +17,6 @@ Individuals, who previously held a career or career-conditional appointment with
 * I am a former federal civilian employee with reinstatement eligibility.
 * I am a former federal civilian employee but do not have reinstatement eligibility.
 
-## Additional Resources
+## Additional resources
 
 * [Working in Government - Federal Employees](../../../../../working-in-government/unique-hiring-paths/federal-employees/)

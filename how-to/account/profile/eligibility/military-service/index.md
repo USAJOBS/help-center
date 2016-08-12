@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to answer questions about military service
 breadcrumb: Military service
-category: eligibility
+category: profile
 tags: [account, profile, eligibility, military service]
 ---
 
@@ -68,7 +68,6 @@ VEOA is a hiring authority used to fill permanent, competitive service jobs. Und
 
 Enter the start and end dates of your service. Click **Add Service Dates** if you served over two different time periods.
 
-
-## Additional Resources
+## Additional resources
 
 * [Types of Preference (OPM)](https://www.opm.gov/policy-data-oversight/veterans-employment-initiative/vet-guide/#2Types){:target="_blank"}
