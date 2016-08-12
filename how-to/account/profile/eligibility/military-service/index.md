@@ -16,13 +16,13 @@ Select **No** if you’ve never served in the U.S. Armed Forces or you’re not 
 
 ### What is Derived Preference?
 
-Derived preference is when a **spouse**, **widow/widower**, or **parent** of a veteran is eligible to claim veterans' preference when your veteran is unable to use it. You're not eligible for derived preference if you have any other relationship with the veteran or if the veteran is living and is qualified for federal employment.  [Learn more about derived preference](https://fedshirevets.gov/job/familypref/index.aspx)
+Derived preference is when a **spouse**, **widow/widower**, or **parent** of a veteran is eligible to claim veterans' preference when your veteran is unable to use it. You're not eligible for derived preference if you have any other relationship with the veteran or if the veteran is living and is qualified for federal employment.  [Learn more about derived preference](https://fedshirevets.gov/job/familypref/index.aspx){:target="_blank"}.
 
 ## Do you claim Veterans’ Preference?
 
 Veterans’ Preference gives eligible veterans preference over many other applicants in the hiring process. Veterans’ Preference can be used when applying to permanent and temporary positions in both the competitive and excepted service (of the executive branch). However, veterans’ preference does not guarantee you a job.
 
-[Learn more about Veterans’ Preference](https://www.fedshirevets.gov/veteranemployees/veteranspreference/index.aspx).
+[Learn more about Veterans’ Preference](https://www.fedshirevets.gov/veteranemployees/veteranspreference/index.aspx){:target="_blank"}.
 
 You must select one of the following options:
 
@@ -32,11 +32,11 @@ Select this option if you don’t want to claim Veterans’ Preference.  Even if
 
 _Sole Survivorship Preference_
 
-Select this option if you’re the only surviving child in a family where your mother or father or sibling(s) died, is captured or missing in action or is 100 percent disabled, while on active duty and NOT by intentional misconduct or willful neglect.  [Learn more about Sole Survivorship](https://fedshirevets.gov/job/vetpref/index.aspx).
+Select this option if you’re the only surviving child in a family where your mother or father or sibling(s) died, is captured or missing in action or is 100 percent disabled, while on active duty and NOT by intentional misconduct or willful neglect.  [Learn more about Sole Survivorship](https://fedshirevets.gov/job/vetpref/index.aspx){:target="_blank"}.
 
 _Active Duty in the U.S. Armed Forces_
 
-Select this option if you served in the U.S. Armed Forces for more than 180 consecutive days, not including training. You must have served during specific time periods. [Learn more about Active Duty qualifications and time periods](https://www.fedshirevets.gov/job/vetpref/index.aspx#5point).
+Select this option if you served in the U.S. Armed Forces for more than 180 consecutive days, not including training. You must have served during specific time periods. [Learn more about Active Duty qualifications and time periods](https://www.fedshirevets.gov/job/vetpref/index.aspx#5point){:target="_blank"}.
 
 _Compensable service connected disability of at least 10% but less than 30% (CP)_
 
@@ -52,9 +52,9 @@ Select this option if you have received the Purple Heart or have a disability of
 
 _Widow/widower or parent of a deceased veteran, or spouse or parent of a disabled veteran (XP)_
 
-Select this option if your spouse or child was a veteran and is deceased or is a disabled veteran. [Learn more about family member preference](https://www.fedshirevets.gov/job/familypref/index.aspx).
+Select this option if your spouse or child was a veteran and is deceased or is a disabled veteran. [Learn more about family member preference](https://www.fedshirevets.gov/job/familypref/index.aspx){:target="_blank"}.
 
-[Learn more about claiming Veterans’ Preference based on a disability](https://www.fedshirevets.gov/job/vetpref/index.aspx#10point).
+[Learn more about claiming Veterans’ Preference based on a disability](https://www.fedshirevets.gov/job/vetpref/index.aspx#10point){:target="_blank"}.
 
 ## Are you a veteran who was separated from the armed forces under honorable conditions after completing an initial continuous tour of duty of at least 3 years (may have been released just short of 3 years) (VEOA)?
 
@@ -62,7 +62,7 @@ Select **Yes** if you’re a veteran who has served at least three continuous ye
 
 ### What is Veterans Employment Opportunity Act of 1998 (VEOA)?
 
-VEOA is a hiring authority used to fill permanent, competitive service jobs. Under VEOA, eligible veterans can apply to jobs that are only open to “status” employees (i.e. jobs that are not offered to candidates outside of the federal government). [Learn more about VEOA](https://fedshirevets.gov/job/shav/index.aspx).
+VEOA is a hiring authority used to fill permanent, competitive service jobs. Under VEOA, eligible veterans can apply to jobs that are only open to “status” employees (i.e. jobs that are not offered to candidates outside of the federal government). [Learn more about VEOA](https://fedshirevets.gov/job/shav/index.aspx){:target="_blank"}.
 
 ## Military Service Dates
 
@@ -71,4 +71,4 @@ Enter the start and end dates of your service. Click **Add Service Dates** if yo
 
 ## Additional Resources
 
-* [Types of Preference (OPM)](https://www.opm.gov/policy-data-oversight/veterans-employment-initiative/vet-guide/#2Types)
+* [Types of Preference (OPM)](https://www.opm.gov/policy-data-oversight/veterans-employment-initiative/vet-guide/#2Types){:target="_blank"}
