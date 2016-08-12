@@ -17,7 +17,7 @@ To build a resume in USAJOBS:
 4. Name your new resume and click **Next**.
 5. Click **Add Work Experience**, enter the required information and click **Save Work Experience**. To add additional work experience repeat this step or click **Next** to continue with your education information.
 6. Click **Add Education**, enter the required information and click **Save Education**. Repeat this step to add additional education or click **Next** to continue with your references. You may also click **Finish** if you don't want to add more information.
-7. Click **Add Reference**, enter the required information and click **Save Reference**. You may add up to five references on your resume. Repeat this step to add an additional references or click **Next** to continue to the next step.  
+7. Click **Add Reference**, enter the required information and click **Save Reference**. You may add up to five references on your resume. Repeat this step to add an additional reference or click **Next** to continue to the next step.  
 8. You can enter additional information on your resume such as job related training, language skills, organizations/affiliations, professional publications, and other information. Click the corresponding button under each section to add your information, enter your information and click **Add** or **Save** for each section once completed. 
 9. Click **Finish** to save your resume. Your new resume will appear in your **Documents** list.
 10. Click **View** on the resume icon to preview your resume. To edit your resume click **Edit** on the resume icon and it will bring you to the first page of your resume in the resume builder tool.
