@@ -1751,7 +1751,6 @@ html {
   list-style: none;
   padding-left: 0;
   display: table;
-  margin-left: 0.9em;
 }
 
 .usajobs-help-center-article .usajobs-content-well ul > li {
@@ -1768,6 +1767,11 @@ html {
   content: "";
   display: block;
   margin-bottom: 0.5em;
+}
+
+.usajobs-help-center-article .usajobs-content-well ul,
+.usajobs-help-center-article .usajobs-content-well ol {
+  margin-left: 0.9em;
 }
 
 .usajobs-help-center-article .usajobs-content-well a {
