@@ -1757,6 +1757,7 @@ html {
   list-style: none;
   padding-left: 0;
   display: table;
+  margin-left: 0.9em;
 }
 
 .usajobs-help-center-article .usajobs-content-well ul > li {
