@@ -14,7 +14,7 @@ tags: [application, update, apply, support-application-update]
 4.  Click the **+** icon to see all of the application details.
 5.  Review the **Closing date**-you can no longer update the application if the job has closed.
 6.  Click **Update Application**.
-7.  You will be sent to the Review step of the USAJOBS application process.
+7.  You will be sent to the **Review** of the USAJOBS application process.
 8. Click **Add/Remove Resume** if you want to change or update your resume.
 9. Click **Add/Remove Documents** if you want to change or update your documents.
 10. Complete the remaining steps in the USAJOBS application process.
