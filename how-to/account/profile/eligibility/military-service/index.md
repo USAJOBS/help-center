@@ -14,13 +14,13 @@ In the Eligibility section of your profile, you must provide information about c
 
 Select **No** if you’ve never served in the U.S. Armed Forces or you’re not a family member eligible for [derived preference](#what-is-derived-preference). If you answer no, the remaining military questions will disappear and you will not have to answer them.
 
-### What is Derived Preference?
+### What is derived preference?
 
 Derived preference is when a **spouse**, **widow/widower**, or **parent** of a veteran is eligible to claim veterans' preference when your veteran is unable to use it. You're not eligible for derived preference if you have any other relationship with the veteran or if the veteran is living and is qualified for federal employment.  [Learn more about derived preference](https://fedshirevets.gov/job/familypref/index.aspx){:target="_blank"}.
 
 ## Do you claim Veterans’ Preference?
 
-Veterans’ Preference gives eligible veterans preference over many other applicants in the hiring process. Veterans’ Preference can be used when applying to permanent and temporary positions in both the competitive and excepted service (of the executive branch). However, veterans’ preference does not guarantee you a job.
+Veterans’ Preference gives eligible veterans preference over many other applicants in the hiring process. Veterans’ Preference can be used when applying to permanent and temporary positions in both the competitive and excepted service (of the executive branch). However, Veterans’ Preference does not guarantee you a job.
 
 [Learn more about Veterans’ Preference](https://www.fedshirevets.gov/veteranemployees/veteranspreference/index.aspx){:target="_blank"}.
 
