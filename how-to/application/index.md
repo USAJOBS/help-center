@@ -10,19 +10,21 @@ tags: [application, create, submit, apply, support-application-create]
 
 To create an application on USAJOBS:
 
-1. Sign into your USAJOBS account.
-2. Ensure all four sections of your **Profile** are up-to-date. During the application process some of this information is sent to the agency. 
-3. Find the job announcement for which you would like to apply. You can use Basic, Advanced, Map, or your **Saved Searches** to find job announcements.
-4. Thoroughly review the job announcement, including the **How to Apply** and **Required Documents** sections. 
-5. Selecty **Apply Online**. The USAJOBS application process will guide you through five steps: 
-
-  1. **Select Resume**
-  2. **Select Documents**
-  3. **Review Package**
-  4. **Include Personal Info**
-  5. **Continue Application with Agency**
-  
-6. During the final step, you will be asked  to certify that your application is true, complete, and made in good faith. If you answer YES, check the box and select **Continue to Agency Site**. Select **Previous** if you would like to go back to review or edit your information.
+<ol>
+  <li>Sign into your USAJOBS account.</li>
+  <li>Ensure all four sections of your <strong>Profile</strong> are up-to-date. During the application process some of this information is sent to the agency.</li>
+  <li>Find the job announcement for which you would like to apply. You can use Basic, Advanced, Map, or your <strong>Saved Searches</strong> to find job announcements.</li>
+  <li>Thoroughly review the job announcement, including the <strong>How to Apply</strong> and <strong>Required Documents</strong> sections.</li>
+  <li>Select <strong>Apply Online</strong>. The USAJOBS application process will guide you through five steps:
+    <ol>
+      <li><strong>Select Resume</strong></li>
+      <li><strong>Select Documents</strong></li>
+      <li><strong>Review Package</strong></li>
+      <li><strong>Include Personal Info</strong></li>
+      <li><strong>Continue Application with Agency</strong></li>
+    </ol>
+  </li>
+  <li>During the final step, you will be asked  to certify that your application is true, complete, and made in good faith. If you answer YES, check the box and select <strong>Continue to Agency Site</strong>. Select <strong>Previous</strong> if you would like to go back to review or edit your information.</li>
+</ol>
 
 Once you select **Continue to Agency Site**, you will be sent to the agency application system where additional steps may be required.
-
