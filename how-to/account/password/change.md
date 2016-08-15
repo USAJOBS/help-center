@@ -15,7 +15,7 @@ tags: [password, change, support-password]
 4. Verify your new password.
 5. Click the **Save** button at the bottom of the page.
 
-## Password Criteria
+## Password criteria
 
 Your new USAJOBS password must:
 
