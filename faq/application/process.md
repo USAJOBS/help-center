@@ -27,7 +27,7 @@ Once you create your account, you can search for jobs.
 
 It’s best to sign into your account before doing a search. Why?  Because, we can use your profile information to improve your job search results.
 
-We offer several ways to search for jobs – you can use our basic, advanced, or map search. You can also use different filters such as location, salary, work schedule or agency to narrow your results. [Learn how to search for jobs](../../../how-to/search/)
+We offer several ways to search for jobs – you can use our basic, advanced, or map search. You can also use different filters such as location, salary, work schedule or agency to narrow your results. [Learn how to search for jobs](../../../how-to/search/).
 
 ### Save your search
 After you’ve entered your search criteria, let us do the searching for you. When you save a search, we’ll automatically look for jobs that match what you’re looking for and can email you, daily, weekly or monthly with those jobs. [Learn how to save a search](../../../how-to/search/save/).
