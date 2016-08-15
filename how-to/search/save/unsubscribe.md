@@ -14,7 +14,7 @@ To stop receiving saved search email notifications:
 2. Go to your **Saved Searches**.
 3. Click the **+** next to a saved search to see more details.
 4. Click **Edit**. You will go to the advanced search filters.
-5. Scroll to the bottom of the filters to the "Save this Search" section.
+5. Scroll to the bottom of the filters to the **Save this Search** section.
 6. Select the "Never – don’t email but save for later" option.
 7. Click **Save Search**.
 
