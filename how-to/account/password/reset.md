@@ -23,7 +23,7 @@ If you are trying to reset your password and have forgotten your secret question
 
 ### No longer have access to email address
 
-1. Select [Contact Us](www.usajobs.gov/Help/contact/) in the USAJOBS footer
+1. Select [Contact Us](../../../../contact/) in the USAJOBS footer
 2. Choose the “Sign In/Password” from the dropdown menu
 3. Complete all of the required fields
 4. In the “Question/Comment” box include the email address that is associated with your account (this is the email you can no longer access) and provide a new email address.
