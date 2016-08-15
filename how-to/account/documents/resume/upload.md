@@ -17,7 +17,7 @@ You can upload or build up to five resumes.
 6. Name your resume—the default name will match the file title from your computer. You have the option to edit the name of the resume.
 7. Click **Complete Upload**.
 
-You can also [build a resume](build/) using our Resume Builder tool.
+You can also [build a resume](../build/) using our Resume Builder tool.
 
 ## Do all agencies accept uploaded resumes or documents?
 No, not all agencies accept uploaded resumes or documents from USAJOBS.  If the agency does not accept uploaded resumes or documents, you will skip this step during the USAJOBS application process.  You may be asked to upload a resume when you enter the agency application system.
