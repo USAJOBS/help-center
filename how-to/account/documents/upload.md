@@ -10,7 +10,7 @@ tags: [account, documents, upload, support-documents]
 
 Some job announcements require certain documents or forms, such as transcripts, a DD-214, SF-15, SF-50, OF-306, or other types of documents. Read the **How to Apply** section in the job announcement to know which documents you need to provide.  
 
-## To Submit Uploaded Documents
+## To submit uploaded documents
 
 1.  Sign into your USAJOBS account.
 2.	Go to the **Documents** section of your account.
@@ -26,7 +26,7 @@ The uploaded document will appear in your account in the **Other Documents** sec
 ## Do all agencies accept uploaded documents?
 Not all agencies accept uploaded documents from USAJOBS.  If the agency does not accept uploaded documents, you will skip this step during the USAJOBS application process.  You may be asked to upload a document when you enter the agency application system.
 
-## Additional Information
+## Additional information
 
 * Documents uploaded during the Select Documents step of the USAJOBS application process will automatically be added to the **Other Documents** section of your account.
 * Only attach the documents specifically requested by the job announcement to which you are applying.
