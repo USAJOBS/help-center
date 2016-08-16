@@ -8,8 +8,8 @@ category: Search
 tags: [search, students, part-time, work schedule]
 ---
 
-Part-time work can be searched via [advanced search](../../../how-to/search/advanced/) and filtered on in search results. The [search criteria](../../../how-to/search/advanced/types-of-work/) and [filter](../../../how-to/search/filters/work-type/) to use is named "types of work".
+You can search for part-time work using [advanced search](../../../how-to/search/advanced/) and the search filters that appear on the search results page. In advanced search, select **Type of Work** as the [search criteria](../../../how-to/search/advanced/types-of-work/). On the search results page, select **Type of Work** as the [filter](../../../how-to/search/filters/work-type/) located in the left hand column.
 
-## Additional Resources
+## Additional resources
 
-* [Types of Work](../../../working-in-government/pay-and-leave/types-of-work/)
+* [Types of work](../../../working-in-government/pay-and-leave/types-of-work/)
