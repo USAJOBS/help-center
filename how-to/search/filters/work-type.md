@@ -10,7 +10,7 @@ tags: [search, filters, work type]
 
 Use this filter to limit results to one or more [types of work](../../../../working-in-government/pay-and-leave/types-of-work/).
 
-## Additional Resources
+## Additional resources
 
 * [How to search by types of work](../../advanced/types-of-work/)
 * [Types of work](../../../../working-in-government/pay-and-leave/types-of-work/)
