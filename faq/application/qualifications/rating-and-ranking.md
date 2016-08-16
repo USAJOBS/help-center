@@ -16,6 +16,6 @@ Rating is a comparison of a candidate’s experience or education against OPM re
 
 Ranking is a comparison of candidate’s experience and/or education against specifically determined factors, for the purpose of determining which is best qualified for a specific job.
 
-## Additional Resources
+## Additional resources
 
 * [Category rating (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating)
