@@ -12,7 +12,7 @@ Job announcements will indicate the need to supply one or more of these types of
 
 ## All
 
-### Cover Letter
+### Cover letter
 
 A cover letter may be included if there is additional information you wish to express to the hiring authorities that is outside of what is normally included in a resume.
 
@@ -52,6 +52,6 @@ The DD-214, "Certificate of Release or Discharge from Active Duty", is issued to
 The [SF-15 "Application for 10-point Veterans' Preference"](https://www.opm.gov/forms/standard-forms/) is used by Federal agencies and OPM examining offices to adjudicate individuals' claims for veterans' preference.
 
 
-## Additional Resources
+## Additional resources
 
-* [Standard Forms (OPM)](https://www.opm.gov/forms/standard-forms/)
+* [Standard forms (OPM)](https://www.opm.gov/forms/standard-forms/)
