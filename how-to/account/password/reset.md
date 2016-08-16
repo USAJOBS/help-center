@@ -4,6 +4,7 @@ layout: article
 section: how-to
 title: How to reset your password
 breadcrumb: Reset your password
+long-form: true
 category: account
 tags: [password, reset, tips, support-password]
 ---

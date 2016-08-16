@@ -43,13 +43,33 @@
             </aside>
           </div>
         </section>
-        <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
-          <div class="usajobs-help-center-article__additional-help">
-            <p>
-              <i class="fa fa-comment-o"></i>
-              Still need help? <a href="/Support/">Submit a ticket</a> to the USAJOBS Support Desk.
-            </p>
-          </div>
+        <div class="usajobs-content-gutter usajobs-help-center-article-contact">
+          <ul class="usa-accordion usajobs-help-center-article-contact__list">
+            <li>
+              <button class="usa-accordion-button usajobs-help-center-article-contact__button" aria-expanded="false" aria-controls="contact-us-form">
+                <i class="fa fa-comment-o"></i>
+                Still need help? <a href="#contact-form">Send your question</a> to the USAJOBS Support Desk.
+              </button>
+              <div id="contact-us-form" class="usajobs-help-center-article-contact__form-container">
+                <form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
+                  <h2>Contact us</h2>
+                  <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+                  {% unless page.long-form %}
+                    {% include components/contact-form-default.html %}
+                  {% else %}
+                    {% include components/contact-form-long.html %}
+                  {% endunless %}
+                  <div class="usajobs-button_bar-container">
+                    <div class="usajobs-button_bar--slim">
+                      <div class="usajobs-button_bar__body">
+                        <input type="submit" class="usa-button-big usa-button-primary usajobs-button_bar__save" value="Send" id="btn-send" name="SendButton">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </div>

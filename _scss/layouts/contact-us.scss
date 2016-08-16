@@ -4,6 +4,7 @@
 
 .usajobs-help-center-contact-us {
   @include outer-container();
+  clear: right;
 
   // Hack for uswds not allowing enough space at mobile for
   // form field borders on errors
@@ -14,6 +15,7 @@
   }
 
   &__legend {
+    @include h2();
     width: 100%;
   }
 
@@ -28,6 +30,10 @@
       display: inline-block;
       float: right;
     }
+  }
+
+  &__label-first {
+    margin-top: 0;
   }
 
   &__col {
@@ -52,6 +58,10 @@
     > .usajobs-help-topic {
       line-height: 2.0;
     }
+  }
+
+  &__question {
+    height: 25rem;
   }
 }
 

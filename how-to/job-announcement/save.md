@@ -5,8 +5,9 @@ section: how-to
 title: How to save a job announcement
 breadcrumb: Save
 category: Job Announcement
-tags: [job announcement, support-job-announcement]
+tags: [job announcement, support-saved-jobs]
 ---
+
 You can save up to 10 job announcements in your USAJOBS account.
 
 To save a job:
@@ -54,8 +55,3 @@ There are a few reasons why you may not see a saved job in your account:
 * The agency may have closed the job announcement-an agency may choose to close a job before its [posted closing date](../).
 * The agency may have canceled the job announcement.
 * You may have applied to the job. When you apply to a saved job it moves into your **Active** applications.
-
-
-
-
-
