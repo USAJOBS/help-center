@@ -10,6 +10,6 @@ tags: [search, filters, work schedule]
 
 Use this filter to limit results to one or more [work schedules](../../../../working-in-government/pay-and-leave/work-schedules/).
 
-## Additional Resources
+## Additional resources
 
 * [Pay & Leave](../../../../working-in-government/pay-and-leave/)
