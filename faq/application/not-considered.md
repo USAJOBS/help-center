@@ -18,5 +18,5 @@ You can find the agency contact information at the bottom of the job announcemen
 4. Click the **Full job announcement** link.
 5. Scroll to the bottom of the job announcement and use the contact phone number or email listed.
 
-You may also contact the human resources office of the hiring agency for additional assistance.
+You may also contact the human resources office of the hiring agency for more help.
 
