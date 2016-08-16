@@ -14,7 +14,7 @@ Use this filter to limit results to one or more pay grade range.
 
 A pay grade is a rate of basic pay associated with a specific level of work or range of difficulty, responsibility, and qualification requirements. The GS pay schedule has 15 pay grades and 10 steps in each grade covering more than 400 occupations.
 
-## Additional Resources
+## Additional resources
 
 * [How to search by salary range and pay grade](../../advanced/salary/)
 * [Pay & Leave](../../../../working-in-government/pay-and-leave/)
