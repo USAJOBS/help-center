@@ -14,7 +14,7 @@ The minimum and maximum amount of pay within a pay grade or pay band for that po
 
 #### Pay Grade/General Schedule
 
-Announcements are also classified by the Federal Government's General Schedule (GS) pay scale. As a result, announcements usually provide the salary as well as their GS equivalents.
+Job announcements are also classified by the Federal Government's General Schedule (GS) pay scale. As a result, job announcements usually provide the salary as well as their GS equivalents.
 
 #### Show Only Senior Executive Postings
 
@@ -26,6 +26,6 @@ For example, to search for positions that fall within the GS-9 and GS-12 levels,
 
 To refine your search results by Pay Grade, select a grade level provided in the refine pop-up box.
 
-## Additional Resources
+## Additional resources
 
-* [Locality Pay Area Definitions](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/locality-pay-area-definitions/)
+* [Locality pay area definitions](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/locality-pay-area-definitions/)
