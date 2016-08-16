@@ -18,7 +18,7 @@ Selecting this option excludes job announcements that are open for longer than 3
 
 Selecting this option excludes job announcements that contain the keywords you enter.
 
-## Additional Resources
+## Additional resources
 
 * [How to search by types of work](../../advanced/types-of-work/)
 * [Types of work](../../../../working-in-government/pay-and-leave/types-of-work/)
