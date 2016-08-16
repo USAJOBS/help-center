@@ -290,13 +290,77 @@
             </aside>
           </div>
         </section>
-        <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
-          <div class="usajobs-help-center-article__additional-help">
-            <p>
-              <i class="fa fa-comment-o"></i>
-              Still need help? <a href="/Support/">Submit a ticket</a> to the USAJOBS Support Desk.
-            </p>
-          </div>
+        <div class="usajobs-content-gutter usajobs-help-center-article-contact">
+          <ul class="usa-accordion usajobs-help-center-article-contact__list">
+            <li>
+              <button class="usa-accordion-button usajobs-help-center-article-contact__button" aria-expanded="false" aria-controls="contact-us-form">
+                <i class="fa fa-comment-o"></i>
+                Still need help? <a href="#contact-form">Send your question</a> to the USAJOBS Support Desk.
+              </button>
+              <div id="contact-us-form" class="usajobs-help-center-article-contact__form-container">
+                <form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
+                  <h2>Contact us</h2>
+                  <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+                  
+                    <fieldset class="usajobs-help-center-contact-us">
+  <input data-val="true" data-val-required="The ViewID field is required." id="ViewID" name="ViewID" type="hidden" value="3046296f-e40e-495e-bfb6-12d22bd1a32e">
+
+  <!-- First name -->
+  <div class="required-input">
+    <label for="FirstName" class="usajobs-help-center-contact-us__label-first">First name</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+    <input data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="" required aria-required="true">
+  </div>
+
+  <!-- Last name -->
+  <div class="required-input">
+    <label for="LastName">Last name</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+    <input data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="" required aria-required="true">
+  </div>
+
+  <!-- Email address -->
+  <div class="required-input">
+    <label for="EmailAddress">Primary Email address</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+    <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" required aria-required="true">
+  </div>
+
+  <!-- Phone number -->
+  <div class="optional-input">
+    <label for="PhoneNumber">
+      Telephone number <span class="usa-additional_text">Optional</span>
+    </label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+    <input class="form-control" data-val="true" data-val-length="A phone number must be 25 characters or less." data-val-length-max="25" data-val-regex="A phone number may contain only numbers and any of the following characters (.),(+),(\),(/),(-), space, and left and right parentheses." data-val-regex-pattern="^[0-9.\-+\\/() ]+$" id="PhoneNumber" maxlength="25" name="PhoneNumber" type="text" value="">
+    <p class="usajobs-form__help-brief">
+      Please provide your phone number, for a help desk technician to call, if additional information is needed to assist you.
+    </p>
+  </div>
+
+  <div class="required-input">
+    <label class="labeltext" for="Comment">Question / Comment</label>
+    <span class="usa-input-error-message field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
+    <textarea class="form-control usajobs-help-center-contact-us__question" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" data-val-required="Question / Comment is required." id="Comment" maxlength="2000" name="Comment" rows="5" required aria-required="true"></textarea>
+    <p class="usajobs-form__help-brief">
+      Please do not include your Social Security Number.
+    </p>
+    <p class="usajobs-form__help-brief usajobs-help-center-contact-us__comment-count" id="CommentCount">(2000 characters remaining)</p>
+  </div>
+</fieldset>
+
+                  
+                  <div class="usajobs-button_bar-container">
+                    <div class="usajobs-button_bar--slim">
+                      <div class="usajobs-button_bar__body">
+                        <input type="submit" class="usa-button-big usa-button-primary usajobs-button_bar__save" value="Send" id="btn-send" name="SendButton">
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </div>
@@ -349,7 +413,7 @@
               <a href="/Help/about/">About USAJOBS</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/contact/">Contact Us</a>
+              <a href="/Help/">Contact Us</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
               <a href="/Help/faq/">FAQs</a>
