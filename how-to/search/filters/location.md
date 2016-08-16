@@ -19,6 +19,6 @@ To filter by location:
 
 Remember, if you want to add more than one location, use [advanced search](../../advanced/location/).
 
-## Additional Resources
+## Additional resources
 
 * [How to search by location](../../advanced/location/)
