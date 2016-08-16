@@ -35,7 +35,7 @@ You can qualify for GS-9 positions on the basis of a master’s degree, and for 
 
 A step is a raise in salary. Most grades in the Federal government have 10 steps.
 
-## Additional Resources
+## Additional resources
 
 * [Salaries & Wages](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
 * [How to search by occupational series and job category](../../../how-to/search/advanced/occupational-series/)
