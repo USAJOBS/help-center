@@ -34,8 +34,8 @@ Select this option if you are:
 
 If you select this option you will see jobs open to the general public AND jobs open to eligible federal employees. You may see jobs you aren’t eligible for.
 
-## Additional Resources
+## Additional resources
 
-* [Service](../../../../working-in-government/service/)
+* [Entering federal service](../../../../working-in-government/service/)
 * [How to determine federal employment status](../../../../how-to/account/profile/eligibility/federal-employment-status/)
 * [Which jobs am I eligible to apply for?](../../../../faq/application/eligibility/)
