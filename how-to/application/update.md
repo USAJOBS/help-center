@@ -22,7 +22,7 @@ tags: [application, update, apply, support-application-update]
 12. Complete the remaining steps of your application in the agency application system.
 13. Click **Submit** in the agency application system - your application will  not be updated until you submit.
 
-## Additional Information
+## Additional information
 
 * Job announcements that are  “open” are still accepting new applications and updated applications.
 * Job announcements that are “closed” are no longer accepting applications or updates to previously submitted applications.
