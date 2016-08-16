@@ -18,7 +18,7 @@ To edit a resume that you built using the USAJOBS Resume Builder tool:
 4.  Make your edits and click **Save**.
 5.  Click **Cancel** if you do not want to save your changes.
 
-In the **Select Resume** step of the [USAJOBS Application Process](../../../../application/), you will also have the opportunity to edit your USAJOBS builder resume.
+In the **Select Resume** step of the [USAJOBS application process](../../../../application/), you will also have the opportunity to edit your USAJOBS builder resume.
 
 ### Deleting a section
 
@@ -28,7 +28,7 @@ If you want to delete an entry in work experience, education, or references, cli
 
 To edit an uploaded resume, you must [upload](../upload/) the updated file to your USAJOBS account.
 
-## Additional Resources
+## Additional resources
 
 * [What should I include in my federal resume?](../../../../../faq/application/documents/resume/what-to-include/)
 
