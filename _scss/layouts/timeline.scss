@@ -1,0 +1,48 @@
+// Timeline
+
+@import 'base-shared';
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.usajobs-help-center.timeline {
+  height: 100%;
+
+  .usajobs-content-well-full {
+    height: 100%;
+  }
+}
+
+.usajobs-help-center-timeline__panel {
+  @include display(flex);
+  @include justify-content(center);
+  @include align-items(center);
+  @include contentGutter();
+  height: 100%;
+  width: 100%;
+  color: $color-white;
+}
+
+.usajobs-help-center-timeline__panel.panel-1 {
+  background-color: $color-primary;
+}
+.usajobs-help-center-timeline__panel.panel-2 {
+  background-color: $color-secondary;
+}
+.usajobs-help-center-timeline__panel.panel-3 {
+  background-color: $color-green;
+}
+.usajobs-help-center-timeline__panel.panel-4 {
+  background-color: $color-gold;
+}
+.usajobs-help-center-timeline__panel.panel-5 {
+  background-color: $color-gray-dark;
+}
+.usajobs-help-center-timeline__panel.panel-6 {
+  background-color: $color-primary-darker;
+}
+.usajobs-help-center-timeline__panel.panel-7 {
+  background-color: $color-secondary-dark;
+}

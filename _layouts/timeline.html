@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include prod-head.html %}
+  </head>
+  <body>
+    <a class="skipnav" href="#main-content">Skip main navigation</a>
+    {% include components/nav-help.html %}
+    <div class="usajobs-help-center timeline">
+      <main class="usajobs-content-well-full" id="main-content" role="main">
+        {{ content }}
+      </main>
+    </div>
+    {% include scripts.html %}
+  </body>
+</html>

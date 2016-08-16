@@ -86,6 +86,9 @@ module.exports = function(grunt) {
           'node_modules/usajobs-design-system/js/components/accordion.js',
           'node_modules/usajobs-design-system/js/components/footer.js',
           'node_modules/usajobs-design-system/js/components/nav.js',
+          'js/vendor/gsap/TweenMax.min.js',
+          'node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js',
+          'node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js',
           'js/components/*.js'
         ],
         dest: 'js/usajobs-help-center.js'
