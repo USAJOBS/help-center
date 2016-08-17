@@ -1,0 +1,58 @@
+// Top Questions
+
+@import 'base-shared';
+
+.usajobs-help-center-home-top-questions {
+  @include clearfix();
+  padding-top: $size-M;
+  padding-bottom: $size-M;
+  background: $color-primary-alt-darkest;
+
+  &__body {
+    max-width: $site-max-width;
+    @include contentGutter();
+
+    @include media($ML) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__col {
+    @include media($ML) {
+      @include span-columns(3,6);
+    }
+    @include media($L) {
+      @include span-columns(6,12);
+    }
+  }
+
+  &__title {
+    color: $color-white;
+    margin-top: 0;
+    margin-bottom: $size-default;
+  }
+
+  &__list {
+    @include unstyledList();
+  }
+
+  &__link {
+    display: block;
+    @include h4();
+    color: $color-white;
+    text-decoration: none;
+    padding: $size-default 0;
+
+    &:visited,
+    &:hover {
+      color: $color-white;
+      text-decoration: none;
+    }
+
+    .fa {
+      font-size: $h2-font-size;
+      padding-right: $size-base;
+    }
+  }
+}

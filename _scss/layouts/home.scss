@@ -2,16 +2,11 @@
 
 @import 'base-shared';
 
-.usajobs-help-center__home-container {
-  background-color: $color-gray-lightest;
-}
-
 .usajobs-help-center-home {
   padding: $size-M;
-  background-color: $color-gray-lightest;
 
   @include media($ML) {
-    padding: $size-XL $size-M $size-default;
+    padding: $size-M $size-M $size-default;
   }
 
   a:visited {
@@ -42,6 +37,11 @@
     margin-bottom: $size-default;
     padding: $size-M $size-default;
     background-color: $color-white;
+
+    @include media($L) {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   &__section.faq,
@@ -72,23 +72,11 @@
     }
   }
 
-  &__sub-section {
-    @include media($M) {
-      @include span-columns(3, 6);
-    }
-
-    &.unique-hiring-paths {
-      @include media($M) {
-        @include omega();
-      }
-    }
-  }
-
   &__section-title {
     display: block;
     width: 100%;
-    text-align: center;
     text-decoration: none;
+    border-bottom: 1px solid $color-primary-darkest;
 
     &:visited,
     &:hover {
@@ -97,6 +85,7 @@
 
     h3 {
       color: $color-primary-darkest;
+      margin-bottom: $size-S;
     }
 
     &:visited,
@@ -108,25 +97,24 @@
     }
   }
 
-  &__section-title.faq .fa {
-    @include makeCircle(118px, $color-primary-alt, none, $color-primary-alt);
-    box-shadow: inset 0 0 0 3px $color-primary-alt;
+  &__section-title .fa {
+    margin-right: $size-base;
     text-align: center;
-    font-size: rem(59px);
+  }
+
+  &__section-title.faq .fa {
+    @include makeCircle(48px, $color-primary-alt, none, $color-primary-alt);
+    box-shadow: inset 0 0 0 3px $color-primary-alt;
   }
 
   &__section-title.how-to .fa {
-    @include makeCircle(118px, $color-green, none, $color-green);
+    @include makeCircle(48px, $color-green, none, $color-green);
     box-shadow: inset 0 0 0 3px $color-green;
-    text-align: center;
-    font-size: rem(59px);
   }
 
   &__section-title.working-in-government .fa {
-    @include makeCircle(118px, $color-gold, none, $color-gold);
+    @include makeCircle(48px, $color-gold, none, $color-gold);
     box-shadow: inset 0 0 0 3px $color-gold;
-    text-align: center;
-    font-size: rem(59px);
 
     &:before {
       margin-right: -4px;
@@ -136,10 +124,11 @@
   &__section-link {
     display: block;
     position: absolute;
-    left: $size-default;
+    left: 0;
     right: $size-default;
     bottom: $size-base;
     padding: $size-S 0;
+    max-width: $button-max-width;
     text-decoration: none;
   }
 

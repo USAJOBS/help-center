@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+{% include base.html %}
+  <head>
+    {% include prod-head.html %}
+  </head>
+  <body>
+    <a class="skipnav" href="#main-content">Skip main navigation</a>
+    {% include components/nav-help.html %}
+    <div class="usajobs-help-center">
+      {% include components/search-banner-with-nav.html %}
+      {% include components/breadcrumbs.html %}
+      <section class="usajobs-shell">
+        <section class="usajobs-canvas">
+          <div class="usajobs-help-center-article usajobs-content-gutter">
+            <main class="usajobs-content-well" id="main-content" role="main">
+              <div class="usajobs-help-center-article__container">
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+              </div>
+            </main>
+            <aside class="usajobs-rightrail">
+              <h3 class="usajobs-help-center-article__related">Related articles</h3>
+              <ul class="usajobs-help-center-article__related-list">
+              {% strip %}
+              {% assign sorted_pages = site.pages | sort:"title" %}
+              {% for node in sorted_pages %}
+                {% if node.category == page.category %}
+                  {% if node.exclude_from_category != true %}
+                    {% if node.url != page.url %}
+                <li>
+                  <a href="{{ site.baseurl }}{{ node.url }}">
+                    {{ node.title }}
+                  </a>
+                </li>
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              {% endstrip %}
+              </ul>
+            </aside>
+          </div>
+        </section>
+        <div class="usajobs-content-gutter usajobs-help-center-article-contact">
+          <div id="contact-us-form" class="usajobs-help-center-article-contact__form-container">
+            <form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
+              <h2>Contact us</h2>
+              <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+              {% unless page.long-form %}
+                {% include components/contact-form-default.html %}
+              {% else %}
+                {% include components/contact-form-long.html %}
+              {% endunless %}
+              <div class="usajobs-button_bar-container">
+                <div class="usajobs-button_bar--slim">
+                  <div class="usajobs-button_bar__body">
+                    <input type="submit" class="usa-button-big usa-button-primary usajobs-button_bar__save" value="Send" id="btn-send" name="SendButton">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    {% include components/footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

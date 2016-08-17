@@ -10,15 +10,13 @@
     <div class="usajobs-help-center">
       <div class="usajobs-help-center__home-container">
         {% include components/search-banner.html param="home" %}
+        {% include components/home/top-questions.html %}
         <section class="usajobs-shell">
           <section class="usajobs-canvas">
             <div class="usajobs-help-center-home usajobs-content-gutter">
               <main class="usajobs-content-well-full" id="main-content" role="main">
                 {{ content }}
               </main>
-            </div>
-            <div class="usajobs-unique-hiring-paths-container">
-              {% include components/unique-hiring-paths.html %}
             </div>
           </section>
         </section>

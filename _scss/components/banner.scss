@@ -16,8 +16,8 @@ $icon-size: rem(164px);
 
   &.home {
     @include media($ML) {
-      padding-top: $size-XL;
-      padding-bottom: ($size-XXL + rem(44px)); // 44px = height of search bar
+      padding-top: $size-default;
+      padding-bottom: 6.5rem;
     }
   }
 
