@@ -213,7 +213,7 @@
 </div>
       <section class="usajobs-shell">
         <section class="usajobs-canvas">
-          <div class="usajobs-help-center-article usajobs-content-gutter">
+          <div class="usajobs-help-center-article usajobs-content-gutter" data-object="help-article">
             <main class="usajobs-content-well" id="main-content" role="main">
               <div class="usajobs-help-center-article__container">
                 <h1>How to update an application</h1>
@@ -245,6 +245,12 @@
               </div>
             </main>
             <aside class="usajobs-rightrail">
+              <div class="usajobs-help-center-article__reveal-contact-us">
+                <h3>Still need help?</h3>
+                <a class="usa-button usa-button-outline" href="#contact-us-form" data-behavior="help-article.contact" aria-controls="contact-us-form">
+                  <i class="fa fa-comment-o"></i> Contact us
+                </a>
+              </div>
               
               <h3 class="usajobs-help-center-article__related">Related articles</h3>
               <ul class="usajobs-help-center-article__related-list">
@@ -335,7 +341,7 @@
     <span class="field-validation-valid usa-input-error-message" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
     <input class="form-control" data-val="true" data-val-length="A phone number must be 25 characters or less." data-val-length-max="25" data-val-regex="A phone number may contain only numbers and any of the following characters (.),(+),(\),(/),(-), space, and left and right parentheses." data-val-regex-pattern="^[0-9.\-+\\/() ]+$" id="PhoneNumber" maxlength="25" name="PhoneNumber" type="text" value="">
     <p class="usajobs-form__help-brief">
-      Please provide your phone number, for a help desk technician to call, if additional information is needed to assist you.
+      Please provide your phone number in case your issue cannot be resolved via email.
     </p>
   </div>
 
