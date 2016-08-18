@@ -1927,7 +1927,7 @@ html {
 }
 
 .usajobs-help-center-article__related-list > li {
-  line-height: 1.8;
+  margin-bottom: 0.75em;
 }
 
 .usajobs-help-center-article__related-list > li > a {

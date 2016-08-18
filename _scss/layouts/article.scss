@@ -28,7 +28,7 @@
     @include unstyledList();
 
     > li {
-      line-height: 1.8;
+      margin-bottom: 0.75em;
     }
 
     > li > a {

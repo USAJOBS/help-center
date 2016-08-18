@@ -1,6 +1,6 @@
 ---
 permalink: /how-to/contact-usajobs/
-layout: article
+layout: article-no-aside
 section: how-to
 title: How to contact USAJOBS
 breadcrumb: Contact USAJOBS

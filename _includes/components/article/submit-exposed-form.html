@@ -1,0 +1,20 @@
+<div class="usajobs-content-gutter usajobs-help-center-article-contact">
+  <div id="contact-us-form" class="usajobs-help-center-article-contact__form-container">
+    <form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
+      <h2>Contact us</h2>
+      <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+      {% unless page.long-form %}
+        {% include components/article/contact-form-default.html %}
+      {% else %}
+        {% include components/article/contact-form-long.html %}
+      {% endunless %}
+      <div class="usajobs-button_bar-container">
+        <div class="usajobs-button_bar--slim">
+          <div class="usajobs-button_bar__body">
+            <input type="submit" class="usa-button-big usa-button-primary usajobs-button_bar__save" value="Send" id="btn-send" name="SendButton">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
