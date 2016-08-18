@@ -18,4 +18,3 @@ tags: [application, continue, apply ]
 ## Additional information
 Each time you select **Save & Continue** in the application process your progress is automatically saved.
 Learn [how to update an application](../update/), if your application has an “Incomplete” status.
-
