@@ -7,12 +7,12 @@ html, body {
   height: 100%;
 }
 
-.usajobs-help-center.timeline {
+.usajobs-help-center,
+.usajobs-help-center-timeline {
   height: 100%;
+}
 
-  .usajobs-content-well-full {
-    height: 100%;
-  }
+.usajobs-help-center-timeline {
 }
 
 .usajobs-help-center-timeline-panel {
@@ -24,6 +24,11 @@ html, body {
   width: 100%;
   color: $color-white;
 
+  &__body {
+    max-width: 1600px;
+    max-width: 160.0rem;
+  }
+
   &__prior {
     .usajobs-help-center-timeline-panel__year {
       padding-left: $size-XXL;
@@ -34,48 +39,97 @@ html, body {
     display: block;
     text-align: center;
     font-family: $font-sans;
-    font-size: 100px;
-    font-size: 10.0rem;
     font-weight: bold;
     font-style: normal;
     color: $color-white;
+    font-size: 50px;
+    font-size: 5.0rem;
+
+    @include media($ML) {
+      font-size: 100px;
+      font-size: 10.0rem;
+    }
   }
 
   &__prior,
   &__sub-title {
-    margin-bottom: $size-XXL;
     font-family: $font-serif;
-    font-size: $title-font-size;
     font-weight: 100;
     font-style: italic;
     color: $color-white;
     text-align: center;
+    font-size: ($title-font-size /2);
+    margin-bottom: $size-default;
+
+    @include media($ML) {
+      font-size: $title-font-size;
+      margin-bottom: $size-XXL;
+    }
   }
 
   &__event-title {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: $h1-font-size;
+    font-size: $h4-font-size;
+
+    @include media($ML) {
+      font-size: $h1-font-size;
+    }
   }
 
   p {
-    @include h3();
+    font-size: $small-font-size;
     font-family: $font-serif;
     font-weight: 100;
+
+    @include media($ML) {
+      font-size: $h3-font-size;
+    }
+  }
+
+  &__quote p,
+  p.usajobs-help-center-timeline-panel__intro {
+    font-weight: normal;
+    color: $color-white;
+    font-size: ($h1-font-size /2);
+
+    @include media($ML) {
+      font-size: $h1-font-size;
+      margin-bottom: $size-XXL;
+    }
   }
 
   p.usajobs-help-center-timeline-panel__intro {
-    margin-bottom: $size-XXL;
     font-family: $font-sans;
-    font-size: $h1-font-size;
-    font-weight: normal;
-    color: $color-white;
   }
 
   p.usajobs-help-center-timeline-panel__strong {
     font-family: $font-sans;
-    font-size: $h1-font-size;
     font-weight: bold;
+    font-size: ($h1-font-size /2);
+
+    @include media($ML) {
+      font-size: $h1-font-size;
+    }
+  }
+
+  &__attrib {
+    @include media($M) {
+      @include span-columns(6,12);
+      @include omega();
+      float: right;
+    }
+
+    p {
+      font-family: $font-serif;
+      font-style: italic;
+      margin: 0;
+      font-size: ($h2-font-size /2);
+
+      @include media($ML) {
+        font-size: $h2-font-size;
+      }
+    }
   }
 
   &__img {
@@ -88,22 +142,40 @@ html, body {
     }
   }
 
+  &__img-container {
+    text-align: center;
+
+    img {
+      max-width: rem(220px);
+
+      @include media($ML) {
+        max-width: inherit;
+      }
+    }
+
+    img.mini {
+      max-width: rem(100px);
+    }
+  }
+
   &__text-container {
-    padding: 0 $size-M;
+    @include media($ML) {
+      padding: 0 $size-M;
+    }
   }
 }
 
 .usajobs-help-center-timeline-panel.panel-1 {
-  background-color: $color-secondary-dark;
+  background-color: $color-gray-dark
 }
 .usajobs-help-center-timeline-panel.panel-2 {
   background-color: $color-primary;
 }
 .usajobs-help-center-timeline-panel.panel-3 {
-  background-color: $color-visited;
+  background-color: $color-secondary-dark;
 }
 .usajobs-help-center-timeline-panel.panel-4 {
-  background-color: $color-secondary-dark;
+  background-color: $color-cool-blue-light;
 }
 .usajobs-help-center-timeline-panel.panel-5 {
   background-color: $color-green;
@@ -112,17 +184,186 @@ html, body {
   background-color: $color-primary-alt-dark;
 }
 .usajobs-help-center-timeline-panel.panel-7 {
-  background-color: $color-secondary;
+  background-color: $color-gray-warm-dark;
 }
 .usajobs-help-center-timeline-panel.panel-8 {
-  background-color: $color-green;
+  background-color: $color-gray;
 }
 .usajobs-help-center-timeline-panel.panel-9 {
-  background-color: $color-secondary-dark
+  background-color: $color-secondary-darkest;
 }
 .usajobs-help-center-timeline-panel.panel-10 {
-  background-color: $color-primary;
+  background-color: $color-primary-darker;
 }
 .usajobs-help-center-timeline-panel.panel-11 {
   background-color: $color-visited;
+}
+
+.usajobs-help-center-timeline-panel-stats {
+  &__list {
+    @include unstyledList();
+    width: 100%;
+    margin-top: $size-XL;
+  }
+
+  &__item {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.usajobs-help-center-timeline-panel-stats-bubble {
+  background-color: $color-green;
+  border-radius: $size-base;
+  padding: $size-S;
+
+  @include media($ML) {
+    padding: $size-default;
+  }
+
+  &__list {
+    margin: 0;
+  }
+
+  &__list li {
+    @include h2();
+    font-size: ($h2-font-size /2);
+    color: $color-white;
+
+    @include media($ML) {
+      font-size: $h2-font-size;
+    }
+  }
+}
+
+$pillar-icon-width: rem(68px);
+$pillar-body-padding: $size-default;
+
+.usajobs-ds-home-research-pillars {
+  &__list {
+    @include unstyledList();
+    width: 100%;
+
+    @include media($ML) {
+      margin-top: $size-XL;
+    }
+
+    .usajobs-ds-home-research-pillars__pillar {
+      display: inline-block;
+      width: 100%;
+
+      @include media($M) {
+        @include span-columns(3,6);
+        min-height: rem(225px);
+      }
+
+      &:nth-child(2n) {
+        @include media($M) {
+          @include omega();
+        }
+      }
+
+      p.usajobs-ds-home-research-pillars__pillar-desc {
+        font-size: $h6-font-size;
+
+        @include media($ML) {
+          font-size: $h4-font-size;
+        }
+      }
+    }
+  }
+
+  &__body {
+    padding: 0 $pillar-body-padding $pillar-body-padding;
+  }
+
+  &__icon .fa {
+    display: inline-block;
+    text-align: center;
+    font-size: ($pillar-icon-width /2);
+
+    @include media($ML) {
+      font-size: $pillar-icon-width;
+    }
+  }
+
+  &__icon.p1 .fa {
+    color: $color-secondary-darkest;
+  }
+
+  &__icon.p2 .fa {
+    color: $color-primary-alt;
+    @include transform(rotate(60deg));
+  }
+
+  &__icon.p3 .fa {
+    color: $color-green;
+    @include transform(rotate(120deg));
+  }
+
+  &__icon.p4 .fa {
+    color: $color-gold;
+    @include transform(rotate(180deg));
+  }
+
+  &__icon.p5 .fa {
+    color: $color-primary;
+    @include transform(rotate(240deg));
+  }
+
+  &__icon.p6 .fa {
+    color: $color-primary-darkest;
+    @include transform(rotate(300deg));
+  }
+
+  &__pillar-title {
+    margin-top: 0;
+    text-transform: uppercase;
+    display: none;
+
+    @include media($ML) {
+      display: block;
+    }
+  }
+}
+
+.no-flexbox .usajobs-ds-home-research-pillars {
+  $icon-padding: $size-default;
+
+  &__pillar {
+    @include clearfix();
+    display: table;
+  }
+
+  &__figure,
+  &__body {
+    display: table-cell;
+  }
+
+  &__body {
+    @include calc(width, "100% - " ($pillar-icon-width + $icon-padding + ($pillar-body-padding * 2)));
+
+    .lt-ie9 & {
+      width: 75%;
+    }
+  }
+}
+
+.flexbox .usajobs-ds-home-research-pillars {
+  &__pillar {
+    @include display(flex);
+    @include align-items(flex-start);
+  }
+
+  &__figure {
+    @include flex-shrink(0);
+  }
+
+  &__body {
+    @include flex(1);
+    min-width: 0;
+  }
 }
