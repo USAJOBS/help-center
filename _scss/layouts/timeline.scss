@@ -15,7 +15,7 @@ html, body {
   }
 }
 
-.usajobs-help-center-timeline__panel {
+.usajobs-help-center-timeline-panel {
   @include display(flex);
   @include justify-content(center);
   @include align-items(center);
@@ -23,26 +23,106 @@ html, body {
   height: 100%;
   width: 100%;
   color: $color-white;
+
+  &__prior {
+    .usajobs-help-center-timeline-panel__year {
+      padding-left: $size-XXL;
+    }
+  }
+
+  &__year {
+    display: block;
+    text-align: center;
+    font-family: $font-sans;
+    font-size: 100px;
+    font-size: 10.0rem;
+    font-weight: bold;
+    font-style: normal;
+    color: $color-white;
+  }
+
+  &__prior,
+  &__sub-title {
+    margin-bottom: $size-XXL;
+    font-family: $font-serif;
+    font-size: $title-font-size;
+    font-weight: 100;
+    font-style: italic;
+    color: $color-white;
+    text-align: center;
+  }
+
+  &__event-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: $h1-font-size;
+  }
+
+  p {
+    @include h3();
+    font-family: $font-serif;
+    font-weight: 100;
+  }
+
+  p.usajobs-help-center-timeline-panel__intro {
+    margin-bottom: $size-XXL;
+    font-family: $font-sans;
+    font-size: $h1-font-size;
+    font-weight: normal;
+    color: $color-white;
+  }
+
+  p.usajobs-help-center-timeline-panel__strong {
+    font-family: $font-sans;
+    font-size: $h1-font-size;
+    font-weight: bold;
+  }
+
+  &__img {
+    @include media($SM) {
+      max-width: rem(440px);
+    }
+
+    @include media($ML) {
+      max-width: 100%;
+    }
+  }
+
+  &__text-container {
+    padding: 0 $size-M;
+  }
 }
 
-.usajobs-help-center-timeline__panel.panel-1 {
+.usajobs-help-center-timeline-panel.panel-1 {
+  background-color: $color-secondary-dark;
+}
+.usajobs-help-center-timeline-panel.panel-2 {
   background-color: $color-primary;
 }
-.usajobs-help-center-timeline__panel.panel-2 {
-  background-color: $color-secondary;
+.usajobs-help-center-timeline-panel.panel-3 {
+  background-color: $color-visited;
 }
-.usajobs-help-center-timeline__panel.panel-3 {
+.usajobs-help-center-timeline-panel.panel-4 {
+  background-color: $color-secondary-dark;
+}
+.usajobs-help-center-timeline-panel.panel-5 {
   background-color: $color-green;
 }
-.usajobs-help-center-timeline__panel.panel-4 {
-  background-color: $color-gold;
+.usajobs-help-center-timeline-panel.panel-6 {
+  background-color: $color-primary-alt-dark;
 }
-.usajobs-help-center-timeline__panel.panel-5 {
-  background-color: $color-gray-dark;
+.usajobs-help-center-timeline-panel.panel-7 {
+  background-color: $color-secondary;
 }
-.usajobs-help-center-timeline__panel.panel-6 {
-  background-color: $color-primary-darker;
+.usajobs-help-center-timeline-panel.panel-8 {
+  background-color: $color-green;
 }
-.usajobs-help-center-timeline__panel.panel-7 {
-  background-color: $color-secondary-dark;
+.usajobs-help-center-timeline-panel.panel-9 {
+  background-color: $color-secondary-dark
+}
+.usajobs-help-center-timeline-panel.panel-10 {
+  background-color: $color-primary;
+}
+.usajobs-help-center-timeline-panel.panel-11 {
+  background-color: $color-visited;
 }

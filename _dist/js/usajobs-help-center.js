@@ -2849,7 +2849,7 @@ $(function () { // wait for document ready
 	});
 
 	// get all slides
-	var slides = document.querySelectorAll(".usajobs-help-center-timeline__panel");
+	var slides = document.querySelectorAll(".usajobs-help-center-timeline-panel");
 
 	// create scene for every slide
 	for (var i=0; i<slides.length; i++) {
