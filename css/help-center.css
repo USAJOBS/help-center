@@ -2648,12 +2648,18 @@ html, body {
 
 @media screen and (min-width: 48em) {
   .usajobs-help-center-timeline-panel__img-container img {
-    max-width: inherit;
+    max-width: 100%;
   }
 }
 
 .usajobs-help-center-timeline-panel__img-container img.mini {
   max-width: 10rem;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-timeline-panel__img-container img.mini {
+    max-width: 100%;
+  }
 }
 
 @media screen and (min-width: 48em) {

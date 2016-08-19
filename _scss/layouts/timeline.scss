@@ -149,12 +149,16 @@ html, body {
       max-width: rem(220px);
 
       @include media($ML) {
-        max-width: inherit;
+        max-width: 100%;
       }
     }
 
     img.mini {
       max-width: rem(100px);
+
+      @include media($ML) {
+        max-width: 100%;
+      }
     }
   }
 
