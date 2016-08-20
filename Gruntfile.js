@@ -193,6 +193,9 @@ module.exports = function(grunt) {
         'working-in-government/**/*.md'
         ]
       }
+    },
+    htmllint: {
+      all: [ '_dist/about/index.html' ]
     }
   });
 

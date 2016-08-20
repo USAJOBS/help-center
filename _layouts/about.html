@@ -7,11 +7,13 @@
     <a class="skipnav" href="#main-content">Skip main navigation</a>
     {% include components/nav-help.html %}
     <div class="usajobs-help-center">
-      {% include components/title-banner.html param="about" %}
-      <div class="usajobs-help-center-about">
-        <main class="usajobs-content-well-full" id="main-content" role="main">
-          {{ content }}
-        </main>
+      <div>
+        {% include components/title-banner.html param="about" %}
+        <div class="usajobs-help-center-about">
+          <main class="usajobs-content-well-full" id="main-content" role="main">
+            {{ content }}
+          </main>
+        </div>
       </div>
     </div>
     {% include components/footer.html %}
