@@ -61,7 +61,7 @@
   <div class="usa-disclaimer">
     <div class="usa-grid usajobs-disclaimer-official">
       <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/Help/img/us_flag_small.png">
-      An official website of the United States Government
+      <p>An official website of the United States Government</p>
     </div>
   </div>
   <nav class="usajobs-nav" role="navigation" aria-label="main navigation" data-object="nav">
@@ -69,7 +69,7 @@
       <div class="usajobs-nav__header-container">
         <div class="usajobs-nav__header">
           <div class="usajobs-nav__brand-container">
-            <a class="usajobs-nav__brand" href="https://www.usajobs.gov/">
+            <a class="usajobs-nav__brand" href="/Help">
               <span class="logo"></span>
             </a>
           </div>
@@ -178,8 +178,8 @@
 
 </div>
 
-      <div class="usajobs-help-center-breadcrumb-container">
-  <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
+      <div class="usajobs-help-center-breadcrumb usajobs-help-center-breadcrumb--">
+  <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb__list">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/Help/">
         Home
@@ -206,16 +206,14 @@
       How to complete any task on USAJOBS, step by step.
     </h2>
 
+
+    <h3 class="section-header">
+      <i class="fa fa-user"></i> Manage account
+    </h3>
     <div class="usajobs-grid-full">
       <div class="usajobs-width-one-fourth">
-        <h3><i class="fa fa-user"></i> Account</h3>
+        <h4>Account</h4>
         <ul class="usajobs-help-center-landing__link-list">
-          <li>
-            <a href="/Help/how-to/account/password/reset/">Reset your password</a>
-          </li>
-          <li>
-            <a href="/Help/how-to/account/password/change/">Change your password</a>
-          </li>
           <li>
             <a href="/Help/how-to/account/">Create an account</a>
           </li>
@@ -223,40 +221,69 @@
             <a href="/Help/how-to/account/delete/">Delete an account</a>
           </li>
         </ul>
-
+      </div>
+      <div class="usajobs-width-one-fourth">
+        <h4>Password</h4>
+        <ul class="usajobs-help-center-landing__link-list">
+          <li>
+            <a href="/Help/how-to/account/password/reset/">Reset your password</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/account/password/change/">Change your password</a>
+          </li>
+        </ul>
+      </div>
+      <div class="usajobs-width-one-fourth">
         <h4>Profile</h4>
         <ul class="usajobs-help-center-landing__link-list">
           <li>
             <a href="/Help/how-to/account/profile/">Create a profile</a>
           </li>
-        </ul>
-        <h5>Eligibility</h5>
-        <ul class="usajobs-help-center-landing__link-list">
           <li>
             <a href="/Help/how-to/account/profile/eligibility/military-service/">
-              Military Service
+              Provide military service information
             </a>
           </li>
           <li>
             <a href="/Help/how-to/account/profile/eligibility/federal-employment/">
-              Federal Employment
+              Provide federal employment information
             </a>
           </li>
         </ul>
+      </div>
+    </div>
 
-        <h4>Documents</h4>
+    <h3 class="section-header">
+      <i class="fa fa-file-text-o"></i> Apply
+    </h3>
+    <div class="usajobs-grid-full">
+      <div class="usajobs-width-one-fourth">
+        <h4>Job announcement</h4>
         <ul class="usajobs-help-center-landing__link-list">
           <li>
-            <a href="/Help/how-to/account/documents/fax/">Fax documents</a>
+            <a href="/Help/how-to/job-announcement/">Understand a job announcement</a>
           </li>
           <li>
-            <a href="/Help/how-to/account/documents/">Manage documents</a>
+            <a href="/Help/how-to/job-announcement/save/">Save a job announcement</a>
           </li>
-          <li>
-            <a href="/Help/how-to/account/documents/upload/">Upload documents</a>
-          </li>
+          <li><a href="/Help/how-to/application/agency/contact/">Contact an agency</a></li>
         </ul>
-        <h5>Resume</h5>
+      </div>
+      <div class="usajobs-width-one-fourth">
+        <h4>Application</h4>
+        <ul class="usajobs-help-center-landing__link-list">
+          <li><a href="/Help/how-to/application/">Create an application</a></li>
+          <li><a href="/Help/how-to/application/save/">Save an application</a></li>
+          <li><a href="/Help/how-to/application/update/">Update an application</a></li>
+          <li><a href="/Help/how-to/application/continue/">Continue an application</a></li>
+          <li><a href="/Help/how-to/application/status/">Check on the status of an application</a></li>
+          <li><a href="/Help/how-to/application/archive/">Archive an application</a></li>
+          <li><a href="/Help/how-to/application/cancel/">Cancel an application</a></li>
+          <li><a href="/Help/how-to/application/view/">View job applications</a></li>
+        </ul>
+      </div>
+      <div class="usajobs-width-one-fourth">
+        <h4>Resume</h4>
         <ul class="usajobs-help-center-landing__link-list">
           <li>
             <a href="/Help/how-to/account/documents/resume/">Create a resume</a>
@@ -268,6 +295,9 @@
             <a href="/Help/how-to/account/documents/resume/edit/">Edit a resume</a>
           </li>
           <li>
+            <a href="/Help/how-to/account/documents/resume/upload/">Upload a resume</a>
+          </li>
+          <li>
             <a href="/Help/how-to/account/documents/resume/searchable/">
               Make a resume searchable
             </a>
@@ -275,137 +305,129 @@
           <li>
             <a href="/Help/how-to/account/documents/resume/print/">Print a resume</a>
           </li>
+        </ul>
+      </div>
+      <div class="usajobs-width-one-fourth">
+        <h4>Documents</h4>
+        <ul class="usajobs-help-center-landing__link-list">
           <li>
-            <a href="/Help/how-to/account/documents/resume/upload/">Upload a resume</a>
+            <a href="/Help/how-to/account/documents/upload/">Upload documents</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/account/documents/">Manage documents</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/account/documents/fax/">Fax documents</a>
           </li>
         </ul>
+      </div>
+    </div>
 
-        <!-- h4>Notifications</h4>
-        <ul class="usajobs-help-center-landing__link-list">
-          <li>
-            <a href="/Help/how-to/account/notifications/preference/">Select an email notification preference</a>
-          </li>
-        </ul -->
-      </div>
-
+    <h3 class="section-header">
+      <i class="fa fa-search"></i> Search
+    </h3>
+    <div class="usajobs-grid-full">
       <div class="usajobs-width-one-fourth">
-        <h3><i class="fa fa-file-text-o"></i> Application</h3>
-        <ul class="usajobs-help-center-landing__link-list">
-          <li><a href="/Help/how-to/application/cancel/">Cancel an application</a></li>
-          <li><a href="/Help/how-to/application/status/">Check the status of an application</a></li>
-          <li><a href="/Help/how-to/application/agency/contact/">Contact an agency</a></li>
-          <li><a href="/Help/how-to/application/continue/">Continue an application</a></li>
-          <li><a href="/Help/how-to/application/">Create an application</a></li>
-          <li><a href="/Help/how-to/application/save/">Save an application</a></li>
-          <li><a href="/Help/how-to/application/update/">Update an application</a></li>
-          <li><a href="/Help/how-to/application/view/">View job applications</a></li>
-        </ul>
-      </div>
-      <div class="usajobs-width-one-fourth">
-        <h3><i class="fa fa-envelope-o"></i> Job Announcement</h3>
-        <ul class="usajobs-help-center-landing__link-list">
-          <li>
-            <a href="/Help/how-to/job-announcement/">Understand a job announcement</a>
-          </li>
-        </ul>
-      </div>
-      <div class="usajobs-width-one-fourth">
-        <h3><i class="fa fa-search"></i> Search</h3>
+        <h4>Basic</h4>
         <ul class="usajobs-help-center-landing__link-list">
           <li><a href="/Help/how-to/search/">Search</a></li>
-          <li><a href="/Help/how-to/search/advanced/">Search (advanced)</a></li>
-          <li><a href="/Help/how-to/search/map/">Search (map)</a></li>
           <li><a href="/Help/how-to/search/results/">Understand search results</a></li>
           <li><a href="/Help/how-to/search/save/">Save a search</a></li>
-          <li><a href="/Help/how-to/search/save/job/">Save a Job</a></li>
           <li><a href="/Help/how-to/search/save/unsubscribe/">Unsubscribe from a saved search</a></li>
+        </ul>
+      </div>
+      <div class="usajobs-width-one-fourth">
+        <h4>Advanced</h4>
+        <ul class="usajobs-help-center-landing__link-list">
+          <li><a href="/Help/how-to/search/advanced/">Search</a></li>
+          <li><a href="/Help/how-to/search/map/">Map search</a></li>
+        </ul>
+      </div>
+      <div class="usajobs-width-one-fourth">
+        <h4>Search by</h4>
+        <ul class="usajobs-help-center-landing__link-list">
           <li>
-            <h4>Search by&hellip;</h4>
-            <ul class="usa-unstyled-list">
-              <li>
-                <a href="/Help/how-to/search/advanced/department-and-agency/">
-                  Department &amp; Agency
-                </a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/advanced/keyword/">
-                  Keyword
-                </a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/advanced/location/">
-                  Location
-                </a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/advanced/occupational-series/">
-                  Occupational series &amp; job category
-                </a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/advanced/posting-date/">
-                  Posting date
-                </a>
-              </li>
-              <!-- li>
-                <a href="/Help/how-to/search/advanced/profile/">
-                  Profile - Eligibility
-                </a>
-              </li -->
-              <li>
-                <a href="/Help/how-to/search/advanced/salary/">
-                  Salary range &amp; pay grade
-                </a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/advanced/types-of-work/">
-                  Types of work
-                </a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/advanced/who-may-apply/">
-                  Who may apply
-                </a>
-              </li>
-            </ul>
+            <a href="/Help/how-to/search/advanced/department-and-agency/">
+              Department &amp; agency
+            </a>
           </li>
           <li>
-            <h4>Filter results by&hellip;</h4>
-            <ul class="usa-unstyled-list">
-              <li>
-                <a href="/Help/how-to/search/filters/department-and-agency/">Department &amp; Agency</a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/filters/exclude/">Exclude These</a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/filters/job-category/">Job Categories</a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/filters/location/">Location</a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/filters/pay-grade/">Pay Grade</a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/filters/posting-date/">Posting Date</a>
-              </li>
-              <!-- li>
-                <a href="/Help/how-to/search/filters/profile/">Profile - Eligibility</a>
-              </li -->
-              <li>
-                <a href="/Help/how-to/search/filters/salary/">Salary</a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/filters/work-schedule/">Work Schedule</a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/filters/work-type/">Work Type</a>
-              </li>
-              <li>
-                <a href="/Help/how-to/search/filters/who-may-apply/">Who may apply</a>
-              </li>
-            </ul>
+            <a href="/Help/how-to/search/advanced/keyword/">
+              Keyword
+            </a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/advanced/location/">
+              Location
+            </a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/advanced/occupational-series/">
+              Occupational series &amp; job category
+            </a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/advanced/posting-date/">
+              Posting date
+            </a>
+          </li>
+          <!-- li>
+            <a href="/Help/how-to/search/advanced/profile/">
+              Profile - Eligibility
+            </a>
+          </li -->
+          <li>
+            <a href="/Help/how-to/search/advanced/salary/">
+              Salary range &amp; pay grade
+            </a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/advanced/types-of-work/">
+              Types of work
+            </a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/advanced/who-may-apply/">
+              Who may apply
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="usajobs-width-one-fourth">
+        <h4>Filter results by&hellip;</h4>
+        <ul class="usajobs-help-center-landing__link-list">
+          <li>
+            <a href="/Help/how-to/search/filters/department-and-agency/">Department &amp; agency</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/filters/exclude/">Exclude these</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/filters/job-category/">Job categories</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/filters/location/">Location</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/filters/pay-grade/">Pay grade</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/filters/posting-date/">Posting date</a>
+          </li>
+          <!-- li>
+            <a href="/Help/how-to/search/filters/profile/">Profile - Eligibility</a>
+          </li -->
+          <li>
+            <a href="/Help/how-to/search/filters/salary/">Salary</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/filters/work-schedule/">Work schedule</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/filters/work-type/">Work type</a>
+          </li>
+          <li>
+            <a href="/Help/how-to/search/filters/who-may-apply/">Who may apply</a>
           </li>
         </ul>
       </div>
@@ -463,9 +485,6 @@
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
               <a href="/Help/about/">About USAJOBS</a>
-            </li>
-            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/contact/">Contact Us</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
               <a href="/Help/faq/">FAQs</a>

@@ -65,7 +65,7 @@
   <div class="usa-disclaimer">
     <div class="usa-grid usajobs-disclaimer-official">
       <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/Help/img/us_flag_small.png">
-      An official website of the United States Government
+      <p>An official website of the United States Government</p>
     </div>
   </div>
   <nav class="usajobs-nav" role="navigation" aria-label="main navigation" data-object="nav">
@@ -73,7 +73,7 @@
       <div class="usajobs-nav__header-container">
         <div class="usajobs-nav__header">
           <div class="usajobs-nav__brand-container">
-            <a class="usajobs-nav__brand" href="https://www.usajobs.gov/">
+            <a class="usajobs-nav__brand" href="/Help">
               <span class="logo"></span>
             </a>
           </div>
@@ -182,8 +182,8 @@
 
 </div>
 
-      <div class="usajobs-help-center-breadcrumb-container">
-  <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb">
+      <div class="usajobs-help-center-breadcrumb usajobs-help-center-breadcrumb--">
+  <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb__list">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
       <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="/Help/">
         Home
@@ -215,11 +215,12 @@
         <section class="usajobs-canvas">
           <div class="usajobs-help-center-article usajobs-content-gutter">
             <main class="usajobs-content-well" id="main-content" role="main">
-              <h1>How to save a search</h1>
-              <p>You can save a search to help you look for jobs in your area of interest. When you save a search, USAJOBS will automatically look for jobs that match the keywords and other criteria in your search. We will email you, daily, weekly or monthly, when there are new jobs that match what you’re looking for.</p>
+              <div class="usajobs-help-center-article__container">
+                <h1>How to save a search</h1>
+                <p>You can save a search to help you look for jobs in your area of interest. When you save a search, USAJOBS will automatically look for jobs that match the keywords and other criteria in your search. We will email you, daily, weekly or monthly, when there are new jobs that match what you’re looking for.</p>
 
 <ul>
-  <li>You can create and save up to 10 saved searches—saved searches will expire one year after you create it.</li>
+  <li>You can create and save up to 10 saved searches—a saved search will expire one year after you create it.</li>
   <li>You can <a href="#manage-saved-searches-in-your-account">manage your saved searches in your account</a>.</li>
 </ul>
 
@@ -246,7 +247,7 @@
 <p>Click <strong>View Search Results</strong> to run the saved search and see your results.</p>
 
 <h3 id="renew-a-search">Renew a search</h3>
-<p>Saved searches expire after one year and will automatically move into your archived list. Click <strong>Renew Search for 1 Year</strong> to renew your search for an additional year..</p>
+<p>Saved searches expire after one year and will automatically move into your archived list. Click <strong>Renew Search for 1 Year</strong> to renew your search for an additional year.</p>
 
 <h3 id="edit-your-saved-search">Edit your saved search</h3>
 <p>Click <strong>Edit</strong> to change your search criteria, such as keywords, location or even update your email preference. You’ll have the option to save the updated search.</p>
@@ -254,10 +255,10 @@
 <h3 id="duplicate-a-saved-search">Duplicate a saved search</h3>
 <p>Click <strong>Duplicate</strong> to create an exact copy of a saved search. When you duplicate, you have the option to edit the search criteria.</p>
 
-<p>You may want to duplicate if you’re looking for similar jobs in two locations. Rather than creating a new saved search for each location, you can duplicate one search and change the location. For example, you may want to search for all Program Analyst jobs in Washington, D.C. and another search for all Program analyst jobs in Florida.</p>
+<p>You may want to duplicate if you’re looking for similar jobs in two locations. Rather than creating a new saved search for each location, you can duplicate one search and change the location. For example, you may want to search for all Program Analyst jobs in Washington, D.C. and another search for all Program Analyst jobs in Florida.</p>
 
 <h3 id="delete-your-saved-search">Delete your saved search</h3>
-<p>Click the filled-in <strong>star icon</strong>, with the label “Saved”, to delete a search. The star will no longer be filled and the label will change to “Save” to indicate it’s no longer saved. You must refresh the page or go to a new page to completely remove the search from your saved list. You can delete saved searches from both your active and archived list.</p>
+<p>You can only delete saved searches from your <a href="#archive-your-saved-search">archived list</a>. Go to your archived saved searches and click the <strong>+</strong> next to the saved search you want to delete.  Click <strong>Delete</strong> located under the <strong>Unarchive Search</strong> button.</p>
 
 <p>If you delete a saved search, it will be removed from your account and you will no longer receive email notifications with those search results.</p>
 
@@ -268,24 +269,16 @@
 <p>If you have no saved searches, you can create a new saved search from the <strong>Saved Searches</strong> section of your account. You can save up to 10 searches.</p>
 
 
+              </div>
             </main>
             <aside class="usajobs-rightrail">
-              <h3 class="usajobs-help-center-article__related">Related Articles</h3>
-              <ul class="usa-unstyled-list">
+              
+              <h3 class="usajobs-help-center-article__related">Related articles</h3>
+              <ul class="usajobs-help-center-article__related-list">
               
                 <li>
                   <a href="/Help/how-to/search/results/feed/">
                     How to save a feed of search results
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/save/job/">
-                    How to save a job
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/save/">
-                    How to save a search
                   </a>
                 </li>
                 <li>
@@ -328,14 +321,87 @@
             </aside>
           </div>
         </section>
-        <div class="usajobs-content-gutter usajobs-help-center-article__additional-container">
-          <div class="usajobs-help-center-article__additional-help">
-            <p>
-              <i class="fa fa-comment-o"></i>
-              Still need help? <a href="/Support/">Submit a ticket</a> to the USAJOBS Support Desk.
-            </p>
+        
+<div class="usajobs-content-gutter usajobs-help-center-article-contact">
+  <ul class="usa-accordion usajobs-help-center-article-contact__list">
+    <li>
+      <button class="usa-accordion-button usajobs-help-center-article-contact__button" aria-expanded="false" aria-controls="contact-us-form">
+        <i class="fa fa-comment-o"></i>
+        Still need help? <a href="#contact-form">Send your question</a> to the USAJOBS Support Desk.
+      </button>
+      <div id="contact-us-form" class="usajobs-help-center-article-contact__form-container">
+        <h2>Contact us</h2>
+        <h2 class="usajobs-help-center__lead">
+          Please use the form below to contact us. We will get back to you within one business day. Your interest and patience are appreciated.
+        </h2>
+        <p>
+          The USAJOBS Support Desk is available Monday through Friday, 7am – 8pm EST; Saturday and Sunday, 8am – 4pm EST (excluding federal holidays). USAJOBS does not provide direct phone support. The form below will allow you to send an email to the Help Desk where you can request assistance by phone or email.
+        </p>
+        <form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
+          <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+          
+            <fieldset class="usajobs-help-center-contact-us">
+  <input data-val="true" data-val-required="The ViewID field is required." id="ViewID" name="ViewID" type="hidden" value="3046296f-e40e-495e-bfb6-12d22bd1a32e">
+
+  <!-- First name -->
+  <div class="required-input">
+    <label for="FirstName" class="usajobs-help-center-contact-us__label-first">First name</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+    <input data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="" required aria-required="true">
+  </div>
+
+  <!-- Last name -->
+  <div class="required-input">
+    <label for="LastName">Last name</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+    <input data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="" required aria-required="true">
+  </div>
+
+  <!-- Email address -->
+  <div class="required-input">
+    <label for="EmailAddress">Primary Email address</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+    <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" required aria-required="true">
+  </div>
+
+  <!-- Phone number -->
+  <div class="optional-input">
+    <label for="PhoneNumber">
+      Telephone number <span class="usa-additional_text">Optional</span>
+    </label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+    <input class="form-control" data-val="true" data-val-length="A phone number must be 25 characters or less." data-val-length-max="25" data-val-regex="A phone number may contain only numbers and any of the following characters (.),(+),(\),(/),(-), space, and left and right parentheses." data-val-regex-pattern="^[0-9.\-+\\/() ]+$" id="PhoneNumber" maxlength="25" name="PhoneNumber" type="text" value="">
+    <p class="usajobs-form__help-brief">
+      Please provide your phone number in case your issue cannot be resolved via email.
+    </p>
+  </div>
+
+  <div class="required-input">
+    <label class="labeltext" for="Comment">Question / Comment</label>
+    <span class="usa-input-error-message field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
+    <textarea class="form-control usajobs-help-center-contact-us__question" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" data-val-required="Question / Comment is required." id="Comment" maxlength="2000" name="Comment" rows="5" required aria-required="true"></textarea>
+    <p class="usajobs-form__help-brief">
+      Please do not include your Social Security Number.
+    </p>
+    <p class="usajobs-form__help-brief usajobs-help-center-contact-us__comment-count" id="CommentCount">(2000 characters remaining)</p>
+  </div>
+</fieldset>
+
+          
+          <div class="usajobs-button_bar-container">
+            <div class="usajobs-button_bar--slim">
+              <div class="usajobs-button_bar__body">
+                <input type="submit" class="usa-button-big usa-button-primary usajobs-button_bar__save" value="Send" id="btn-send" name="SendButton">
+              </div>
+            </div>
           </div>
-        </div>
+        </form>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
       </section>
     </div>
     <footer class="usa-footer usa-footer-big usajobs-footer--v1" role="contentinfo" aria-label="footer" data-object="footer">
@@ -385,9 +451,6 @@
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
               <a href="/Help/about/">About USAJOBS</a>
-            </li>
-            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/contact/">Contact Us</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
               <a href="/Help/faq/">FAQs</a>

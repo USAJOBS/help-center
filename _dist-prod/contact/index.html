@@ -65,7 +65,7 @@
   <div class="usa-disclaimer">
     <div class="usa-grid usajobs-disclaimer-official">
       <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/Help/img/us_flag_small.png">
-      An official website of the United States Government
+      <p>An official website of the United States Government</p>
     </div>
   </div>
   <nav class="usajobs-nav" role="navigation" aria-label="main navigation" data-object="nav">
@@ -73,7 +73,7 @@
       <div class="usajobs-nav__header-container">
         <div class="usajobs-nav__header">
           <div class="usajobs-nav__brand-container">
-            <a class="usajobs-nav__brand" href="https://www.usajobs.gov/">
+            <a class="usajobs-nav__brand" href="/Help">
               <span class="logo"></span>
             </a>
           </div>
@@ -196,13 +196,16 @@
         </optgroup>
       </select>
 
-      <div class="usajobs-help-context" id="usajobs-help-context" aria-hidden="true">
+      <div class="usajobs-help-center-contact-us__context" id="usajobs-help-context" aria-hidden="true">
         <h3>Recommended topics</h3>
         <p>
           Please read these Help Center articles which may answer your question.
         </p>
-        <ul class="usa-unstyled-list">
+        <ul class="usajobs-help-center-contact-us__topic-list">
           
+          <li class="usajobs-help-topic sign-in-password" aria-hidden="true">
+            <a href="/Help/how-to/account/access/">How to regain access if you no longer have access to your primary email address</a>
+          </li>
           <li class="usajobs-help-topic sign-in-password" aria-hidden="true">
             <a href="/Help/how-to/account/password/change/">How to change your password</a>
           </li>
@@ -218,17 +221,17 @@
           <li class="usajobs-help-topic documents" aria-hidden="true">
             <a href="/Help/how-to/account/documents/fax/">How to fax documents</a>
           </li>
+          <li class="usajobs-help-topic sign-in-password" aria-hidden="true">
+            <a href="/Help/how-to/account/password/reset/security-questions/">How to reset your password when you have forgotten your security questions</a>
+          </li>
           <li class="usajobs-help-topic resumes" aria-hidden="true">
             <a href="/Help/how-to/account/documents/resume/build/formatting/">How to fix formatting errors</a>
           </li>
-          <li class="usajobs-help-topic resumes" aria-hidden="true">
-            <a href="/Help/how-to/account/documents/resume/build/">How to build a resume</a>
-          </li>
-          <li class="usajobs-help-topic resumes" aria-hidden="true">
-            <a href="/Help/how-to/account/documents/resume/">How to create a resume</a>
-          </li>
           <li class="usajobs-help-topic pathways-programs" aria-hidden="true">
             <a href="/Help/working-in-government/unique-hiring-paths/students/">Students & recent graduates</a>
+          </li>
+          <li class="usajobs-help-topic search-save saved-search" aria-hidden="true">
+            <a href="/Help/how-to/search/save/">How to save a search</a>
           </li>
           <li class="usajobs-help-topic documents" aria-hidden="true">
             <a href="/Help/how-to/account/documents/">How to manage documents</a>
@@ -236,17 +239,17 @@
           <li class="usajobs-help-topic pathways-programs" aria-hidden="true">
             <a href="/Help/working-in-government/unique-hiring-paths/students/faq/">Pathways FAQs</a>
           </li>
-          <li class="usajobs-help-topic search-save saved-search" aria-hidden="true">
-            <a href="/Help/how-to/search/save/">How to save a search</a>
-          </li>
           <li class="usajobs-help-topic profile" aria-hidden="true">
             <a href="/Help/how-to/account/profile/">How to create a profile</a>
           </li>
+          <li class="usajobs-help-topic resumes" aria-hidden="true">
+            <a href="/Help/how-to/account/documents/resume/">How to create a resume</a>
+          </li>
+          <li class="usajobs-help-topic resumes" aria-hidden="true">
+            <a href="/Help/how-to/account/documents/resume/build/">How to build a resume</a>
+          </li>
           <li class="usajobs-help-topic creating-an-account" aria-hidden="true">
             <a href="/Help/how-to/account/">How to create an account</a>
-          </li>
-          <li class="usajobs-help-topic search-results" aria-hidden="true">
-            <a href="/Help/how-to/search/results/">How to understand job search results</a>
           </li>
           <li class="usajobs-help-topic application-create submitting-an-application" aria-hidden="true">
             <a href="/Help/how-to/application/">How to create an application</a>
@@ -257,8 +260,8 @@
           <li class="usajobs-help-topic search-basic basic-search" aria-hidden="true">
             <a href="/Help/how-to/search/">How to search</a>
           </li>
-          <li class="usajobs-help-topic save-job saved-jobs" aria-hidden="true">
-            <a href="/Help/how-to/search/save/job/">How to save a job</a>
+          <li class="usajobs-help-topic search-results" aria-hidden="true">
+            <a href="/Help/how-to/search/results/">How to understand job search results</a>
           </li>
           <li class="usajobs-help-topic resumes" aria-hidden="true">
             <a href="/Help/how-to/account/documents/resume/print/">How to print a resume</a>
@@ -275,11 +278,11 @@
           <li class="usajobs-help-topic application-update updating-my-application" aria-hidden="true">
             <a href="/Help/how-to/application/update/">How to update an application</a>
           </li>
-          <li class="usajobs-help-topic documents" aria-hidden="true">
-            <a href="/Help/how-to/account/documents/upload/">How to upload documents</a>
-          </li>
           <li class="usajobs-help-topic resumes" aria-hidden="true">
             <a href="/Help/how-to/account/documents/resume/upload/">How to upload a resume</a>
+          </li>
+          <li class="usajobs-help-topic documents" aria-hidden="true">
+            <a href="/Help/how-to/account/documents/upload/">How to upload documents</a>
           </li>
           <li class="usajobs-help-topic resumes" aria-hidden="true">
             <a href="/Help/faq/application/documents/resume/what-to-include/">What should I include in my federal resume?</a>
@@ -443,9 +446,6 @@
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
               <a href="/Help/about/">About USAJOBS</a>
-            </li>
-            <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
-              <a href="/Help/contact/">Contact Us</a>
             </li>
             <li class="usajobs-footer--v1__menu-item help-menu is-hidden">
               <a href="/Help/faq/">FAQs</a>
