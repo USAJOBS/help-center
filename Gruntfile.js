@@ -197,7 +197,8 @@ module.exports = function(grunt) {
     htmllint: {
       all: {
         options: {
-          errorlevels: ['error']
+          errorlevels: ['error'],
+          ignore: 'Element “img” is missing required attribute “src”.'
         },
         src: [ '_dist/**/*.html' ]
       }
