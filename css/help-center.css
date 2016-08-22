@@ -2664,8 +2664,36 @@ html, body {
 
 @media screen and (min-width: 48em) {
   .usajobs-help-center-timeline-panel__text-container {
-    padding: 0 3rem;
+    padding: 0 1.5rem;
   }
+}
+
+.usajobs-help-center-timeline-panel__shade {
+  position: absolute;
+  left: 50%;
+  border-left: 1px solid #ffffff;
+  height: 5%;
+}
+
+.usajobs-help-center-timeline-panel__shade.top {
+  top: 0;
+}
+
+.usajobs-help-center-timeline-panel__shade.top .usajobs-help-center-timeline-panel__shade-pull {
+  bottom: -1.5rem;
+}
+
+.usajobs-help-center-timeline-panel__shade.bottom {
+  bottom: 0;
+}
+
+.usajobs-help-center-timeline-panel__shade.bottom .usajobs-help-center-timeline-panel__shade-pull {
+  top: -1.5rem;
+}
+
+.usajobs-help-center-timeline-panel__shade-pull {
+  position: absolute;
+  margin-left: -0.75rem;
 }
 
 .usajobs-help-center-timeline-panel.panel-1 {
@@ -2830,6 +2858,7 @@ html, body {
 
 .usajobs-ds-home-research-pillars__list .usajobs-ds-home-research-pillars__pillar p.usajobs-ds-home-research-pillars__pillar-desc {
   font-size: 13px;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 48em) {

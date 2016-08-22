@@ -164,8 +164,36 @@ html, body {
 
   &__text-container {
     @include media($ML) {
-      padding: 0 $size-M;
+      padding: 0 $size-default;
     }
+  }
+
+  &__shade {
+    position: absolute;
+    left: 50%;
+    border-left: 1px solid $color-white;
+    height: 5%;
+
+    &.top {
+      top: 0;
+
+      .usajobs-help-center-timeline-panel__shade-pull {
+        bottom: -#{$size-default};
+      }
+    }
+
+    &.bottom {
+      bottom: 0;
+
+      .usajobs-help-center-timeline-panel__shade-pull {
+        top: -#{$size-default};
+      }
+    }
+  }
+
+  &__shade-pull {
+    position: absolute;
+    margin-left: -0.75rem;
   }
 }
 
@@ -272,6 +300,7 @@ $pillar-body-padding: $size-default;
 
       p.usajobs-ds-home-research-pillars__pillar-desc {
         font-size: $h6-font-size;
+        margin-top: 0;
 
         @include media($ML) {
           font-size: $h4-font-size;
