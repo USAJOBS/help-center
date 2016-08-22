@@ -195,7 +195,12 @@ module.exports = function(grunt) {
       }
     },
     htmllint: {
-      all: [ '_dist/about/index.html' ]
+      all: {
+        options: {
+          errorlevels: ['error']
+        },
+        src: [ '_dist/**/*.html' ]
+      }
     }
   });
 

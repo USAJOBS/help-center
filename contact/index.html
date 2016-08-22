@@ -15,7 +15,7 @@ exclude_from_category: true
   The USAJOBS Support Desk is available Monday through Friday, 7am – 8pm EST; Saturday and Sunday, 8am – 4pm EST (excluding federal holidays). USAJOBS does not provide direct phone support. The form below will allow you to send an email to the Help Desk where you can request assistance by phone or email.
 </p>
 
-<form name="example" aria-labelled-by="usajobs-help-center-contact-us__legend" class="usa-form-large usajobs-form" action="/Help/Support/" method="post" novalidate="novalidate">
+<form name="example" class="usa-form-large usajobs-form" action="/Help/Support/" method="post" novalidate="novalidate">
   <fieldset class="usajobs-help-center-contact-us" data-object="help.contact_us">
     <legend class="usajobs-help-center-contact-us__legend">
       Select a support topic
@@ -152,7 +152,7 @@ exclude_from_category: true
         <div class="required-input">
           <label class="labeltext" for="Comment">Question / Comment</label>
           <span class="usa-input-error-message field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
-          <textarea class="form-control" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" data-val-required="Question / Comment is required." id="Comment" maxlength="2000" name="Comment" rows="5" required aria-required="true"></textarea>
+          <textarea class="form-control" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" data-val-required="Question / Comment is required." id="Comment" maxlength="2000" name="Comment" rows="5" required></textarea>
           <p class="usajobs-form__help-brief">
             Please do not include your Social Security Number.
           </p>
@@ -168,21 +168,21 @@ exclude_from_category: true
       <div class="required-input">
         <label for="FirstName">First Name</label>
         <span class="field-validation-valid usa-input-error-message" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
-        <input data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="" required aria-required="true">
+        <input data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="" required>
       </div>
 
       <!-- LastName -->
       <div class="required-input">
         <label for="LastName">Last Name</label>
         <span class="field-validation-valid usa-input-error-message" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
-        <input data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="" required aria-required="true">
+        <input data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="" required>
       </div>
 
       <!-- EmailAddress -->
       <div class="required-input">
         <label for="EmailAddress">Email Address</label>
         <span class="field-validation-valid usa-input-error-message" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
-        <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" required aria-required="true">
+        <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" required>
       </div>
 
       <!-- PhoneNumber -->

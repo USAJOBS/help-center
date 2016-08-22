@@ -1,6 +1,6 @@
 ---
 permalink: /how-to/application/update/
-layout: article-version-b
+layout: article
 section: how-to
 title: How to update an application
 breadcrumb: Update

@@ -36,6 +36,18 @@
     }
   }
 
+  &__reveal-contact-us {
+    display: none;
+
+    @include media($L) {
+      display: inherit;
+    }
+
+    .usa-button {
+      width: 100%;
+    }
+  }
+
   // Override of the US Standards on lists. It really does odd things inside of articles.
   ul,
   ol {

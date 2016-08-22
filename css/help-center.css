@@ -1934,6 +1934,20 @@ html {
   text-decoration: none;
 }
 
+.usajobs-help-center-article__reveal-contact-us {
+  display: none;
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-article__reveal-contact-us {
+    display: inherit;
+  }
+}
+
+.usajobs-help-center-article__reveal-contact-us .usa-button {
+  width: 100%;
+}
+
 .usajobs-help-center-article ul,
 .usajobs-help-center-article ol {
   margin-bottom: 1rem;

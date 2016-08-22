@@ -1,6 +1,6 @@
 {
   "name": "USAJOBS_Help_Center",
-  "version": "5.7.2",
+  "version": "5.8.3",
   "description": "USAJOBS Help Center",
   "repository": "http://github.com/USAJOBS/help-center",
   "license": "CC0-1.0",
@@ -16,7 +16,6 @@
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-html": "^8.0.2",
-    "grunt-htmllint": "^0.2.7",
     "grunt-link-checker": "^0.2.0",
     "grunt-mdspell": "^0.4.0",
     "grunt-notify": "^0.4.5",
@@ -38,16 +37,15 @@
     "usajobs-design-system": "^1.1.8"
   },
   "scripts": {
-    "all": "npm run prod && npm run build && npm run deploy",
+    "all": "npm run build && npm run deploy",
     "build": "grunt build",
-    "build:prod": "grunt build-prod",
-    "deploy:cloud": "grunt build-prod; cf push",
+    "deploy:cloud": "grunt build; cf push",
     "css": "grunt css",
     "deploy": "git subtree push --prefix _dist origin gh-pages",
     "js": "grunt js",
     "open:repo": "opener http://github.com/USAJOBS/help-center",
     "start": "grunt serve",
-    "test": "grunt linkChecker | grep -v %7B%7B%20",
+    "test": "grunt build; grunt htmllint; grunt linkChecker | grep -v %7B%7B%20",
     "postinstall": "grunt css && grunt js"
   }
 }
