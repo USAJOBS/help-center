@@ -1,0 +1,29 @@
+sudo: required
+
+dist: trusty
+
+language: node_js
+
+node_js:
+  - "0.10"
+  - "0.12"
+  - "4"
+  - "5"
+  - "6"
+
+install:
+  - npm install
+
+script:
+  - npm test
+
+install:
+  - npm install
+
+notifications:
+  email:
+    - matthew.dingee@opm.gov
+
+branches:
+  only:
+    - gh-pages
