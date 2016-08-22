@@ -6,6 +6,9 @@ language: ruby
 rvm:
   - 2.2
 
+node_js:
+  - "5"
+
 install:
   - npm install
 
