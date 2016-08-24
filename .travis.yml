@@ -1,22 +1,19 @@
 sudo: required
 dist: trusty
 
-language: ruby
-
-rvm:
-  - 2.2
+language: node_js
 
 node_js:
-  - "5"
+  - "5.3"
+
+before_install:
+  - rvm install 2.2.3
 
 install:
   - npm install
 
 script:
   - npm test
-
-install:
-  - npm install
 
 notifications:
   email:

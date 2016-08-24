@@ -2519,10 +2519,6 @@ html, body {
   max-width: 160.0rem;
 }
 
-.usajobs-help-center-timeline-panel__prior .usajobs-help-center-timeline-panel__year {
-  padding-left: 7.5rem;
-}
-
 .usajobs-help-center-timeline-panel__year {
   display: block;
   text-align: center;
@@ -2530,15 +2526,7 @@ html, body {
   font-weight: bold;
   font-style: normal;
   color: #ffffff;
-  font-size: 50px;
-  font-size: 5.0rem;
-}
-
-@media screen and (min-width: 48em) {
-  .usajobs-help-center-timeline-panel__year {
-    font-size: 100px;
-    font-size: 10.0rem;
-  }
+  font-size: 44px;
 }
 
 .usajobs-help-center-timeline-panel__prior, .usajobs-help-center-timeline-panel__sub-title {
@@ -2553,8 +2541,8 @@ html, body {
 
 @media screen and (min-width: 48em) {
   .usajobs-help-center-timeline-panel__prior, .usajobs-help-center-timeline-panel__sub-title {
-    font-size: 5.2rem;
-    margin-bottom: 7.5rem;
+    font-size: 44px;
+    margin-bottom: 3rem;
   }
 }
 
@@ -2566,7 +2554,7 @@ html, body {
 
 @media screen and (min-width: 48em) {
   .usajobs-help-center-timeline-panel__event-title {
-    font-size: 44px;
+    font-size: 34px;
   }
 }
 
@@ -2592,8 +2580,8 @@ html, body {
 @media screen and (min-width: 48em) {
   .usajobs-help-center-timeline-panel__quote p,
   .usajobs-help-center-timeline-panel p.usajobs-help-center-timeline-panel__intro {
-    font-size: 44px;
-    margin-bottom: 7.5rem;
+    font-size: 34px;
+    margin-bottom: 6rem;
   }
 }
 
@@ -2857,7 +2845,7 @@ html, body {
     display: block;
     margin-right: 4.8291588071%;
     width: 47.5854205965%;
-    min-height: 22.5rem;
+    min-height: 9.5rem;
   }
   .usajobs-ds-home-research-pillars__list .usajobs-ds-home-research-pillars__pillar:last-child {
     margin-right: 0;
@@ -2872,12 +2860,12 @@ html, body {
 
 .usajobs-ds-home-research-pillars__list .usajobs-ds-home-research-pillars__pillar p.usajobs-ds-home-research-pillars__pillar-desc {
   font-size: 13px;
-  margin-top: 0;
+  margin: 0;
 }
 
 @media screen and (min-width: 48em) {
   .usajobs-ds-home-research-pillars__list .usajobs-ds-home-research-pillars__pillar p.usajobs-ds-home-research-pillars__pillar-desc {
-    font-size: 19px;
+    font-size: 1.7rem;
   }
 }
 
@@ -2940,12 +2928,6 @@ html, body {
   margin-top: 0;
   text-transform: uppercase;
   display: none;
-}
-
-@media screen and (min-width: 48em) {
-  .usajobs-ds-home-research-pillars__pillar-title {
-    display: block;
-  }
 }
 
 .no-flexbox .usajobs-ds-home-research-pillars__pillar {

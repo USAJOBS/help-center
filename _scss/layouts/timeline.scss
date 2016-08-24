@@ -29,12 +29,6 @@ html, body {
     max-width: 160.0rem;
   }
 
-  &__prior {
-    .usajobs-help-center-timeline-panel__year {
-      padding-left: $size-XXL;
-    }
-  }
-
   &__year {
     display: block;
     text-align: center;
@@ -42,13 +36,7 @@ html, body {
     font-weight: bold;
     font-style: normal;
     color: $color-white;
-    font-size: 50px;
-    font-size: 5.0rem;
-
-    @include media($ML) {
-      font-size: 100px;
-      font-size: 10.0rem;
-    }
+    font-size: $h1-font-size;
   }
 
   &__prior,
@@ -62,8 +50,8 @@ html, body {
     margin-bottom: $size-default;
 
     @include media($ML) {
-      font-size: $title-font-size;
-      margin-bottom: $size-XXL;
+      font-size: $h1-font-size;
+      margin-bottom: $size-M;
     }
   }
 
@@ -73,7 +61,7 @@ html, body {
     font-size: $h4-font-size;
 
     @include media($ML) {
-      font-size: $h1-font-size;
+      font-size: $h2-font-size;
     }
   }
 
@@ -94,8 +82,8 @@ html, body {
     font-size: ($h1-font-size /2);
 
     @include media($ML) {
-      font-size: $h1-font-size;
-      margin-bottom: $size-XXL;
+      font-size: $h2-font-size;
+      margin-bottom: $size-XL;
     }
   }
 
@@ -289,7 +277,7 @@ $pillar-body-padding: $size-default;
 
       @include media($M) {
         @include span-columns(3,6);
-        min-height: rem(225px);
+        min-height: rem(95px);
       }
 
       &:nth-child(2n) {
@@ -300,10 +288,10 @@ $pillar-body-padding: $size-default;
 
       p.usajobs-ds-home-research-pillars__pillar-desc {
         font-size: $h6-font-size;
-        margin-top: 0;
+        margin: 0;
 
         @include media($ML) {
-          font-size: $h4-font-size;
+          font-size: $base-font-size;
         }
       }
     }
@@ -356,10 +344,6 @@ $pillar-body-padding: $size-default;
     margin-top: 0;
     text-transform: uppercase;
     display: none;
-
-    @include media($ML) {
-      display: block;
-    }
   }
 }
 
