@@ -8,7 +8,7 @@ category: Job Announcement
 tags: [job announcement, support-saved-jobs]
 ---
 
-You can save up to 10 job announcements in your USAJOBS account.
+You can save up to 25 job announcements in your USAJOBS account.
 
 To save a job:
 
@@ -19,9 +19,11 @@ To save a job:
 5.	Review your saved jobs in the **Saved Jobs** section of your account.
 
 ## Manage your saved jobs in your account
+
 The **Saved Jobs** section of your account displays each job announcement you save on USAJOBS. You must sign into your account to see all of your saved jobs. Here’s what you can do:
 
 ### Sort your saved jobs
+
 By default, the most recent saved jobs are listed at the top, but you can **Sort by**:
 
 * Saved date
@@ -30,9 +32,11 @@ By default, the most recent saved jobs are listed at the top, but you can **Sort
 * Job title
 
 ### Receive email notifications
+
 You can receive an email any time a saved job is scheduled to close in three calendar days. To receive email notifications, click on the **Notifications** icon and select the checkbox.
 
 ### View job announcement information
+
 Click the **+** to see more details about the saved job. Each saved job shows a summary including:
 
 * Position title
@@ -47,9 +51,11 @@ Click the **+** to see more details about the saved job. Each saved job shows a 
 [Learn more about the job announcement](../).
 
 ### Apply, view more or delete saved jobs
+
 Within the saved jobs details you can also apply, delete or view more similar jobs.
 
 ### What if I don't see a saved job in my account?
+
 There are a few reasons why you may not see a saved job in your account:
 
 * The agency may have closed the job announcement-an agency may choose to close a job before its [posted closing date](../).
