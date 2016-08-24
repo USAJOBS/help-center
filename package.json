@@ -45,7 +45,7 @@
     "js": "grunt js",
     "open:repo": "opener http://github.com/USAJOBS/help-center",
     "start": "grunt serve",
-    "test": "grunt htmllint; grunt linkChecker | grep -v %7B%7B%20",
+    "test": "grunt htmllint; grunt linkChecker:staging | grep -v %7B%7B%20",
     "postinstall": "grunt css && grunt js"
   }
 }

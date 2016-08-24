@@ -177,8 +177,11 @@ module.exports = function(grunt) {
           initialPort: 4001
         }
       },
-      postDeploy: {
+      staging: {
         site: 'usajobs.github.io/Help/'
+      },
+      postDeploy: {
+        site: 'http://usajobs.github.io/Help'
       }
     },
     mdspell: {

@@ -46,19 +46,25 @@ html, body {
     font-style: italic;
     color: $color-white;
     text-align: center;
-    font-size: ($title-font-size /2);
+    font-size: ($h1-font-size /2);
+    margin-top: 0;
     margin-bottom: $size-default;
 
     @include media($ML) {
       font-size: $h1-font-size;
+      margin-top: $size-default;
       margin-bottom: $size-M;
     }
   }
 
   &__event-title {
-    text-transform: uppercase;
+    display: none;
     font-weight: bold;
     font-size: $h4-font-size;
+
+    @include media($SM) {
+      display: inherit;
+    }
 
     @include media($ML) {
       font-size: $h2-font-size;
@@ -75,11 +81,19 @@ html, body {
     }
   }
 
+  &__quote {
+    margin: 0;
+  }
+
   &__quote p,
   p.usajobs-help-center-timeline-panel__intro {
     font-weight: normal;
     color: $color-white;
-    font-size: ($h1-font-size /2);
+    font-size: $base-font-size;
+
+    @include media($M) {
+      font-size: ($h1-font-size /2);
+    }
 
     @include media($ML) {
       font-size: $h2-font-size;
@@ -133,7 +147,8 @@ html, body {
   &__img-container {
     text-align: center;
 
-    img {
+    img,
+    .usajobs-help-center-timeline-panel__img {
       max-width: rem(220px);
 
       @include media($ML) {
@@ -157,10 +172,15 @@ html, body {
   }
 
   &__shade {
+    display: none;
     position: absolute;
     left: 50%;
     border-left: 1px solid $color-white;
     height: 5%;
+
+    @include media($SM) {
+      display: inherit;
+    }
 
     &.top {
       top: 0;
@@ -221,9 +241,16 @@ html, body {
 
 .usajobs-help-center-timeline-panel-stats {
   &__list {
-    @include unstyledList();
-    width: 100%;
-    margin-top: $size-XL;
+    display: none;
+
+    @include media($SM) {
+      @include unstyledList();
+      width: 100%;
+    }
+
+    @include media($ML) {
+      margin-top: $size-XL;
+    }
   }
 
   &__item {
@@ -254,7 +281,7 @@ html, body {
     color: $color-white;
 
     @include media($ML) {
-      font-size: $h2-font-size;
+      font-size: $h3-font-size;
     }
   }
 }
