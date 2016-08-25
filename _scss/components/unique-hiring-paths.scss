@@ -12,22 +12,26 @@ $body-padding: $size-M;
   background-color: $color-gray-lightest;
 
   @include media($M) {
+    padding-left: $size-default;
+    padding-right: $size-default;
+  }
+
+  @include media($ML) {
     padding-left: $size-M;
     padding-right: $size-M;
   }
 }
 
 .usajobs-unique-hiring-paths {
-  @include contentGutter();
-
   &__outer-body {
     @include clearfix();
-    padding: $size-M;
+    padding: $size-default;
     background-color: $color-white;
   }
 
   &__title {
     text-align: center;
+    padding-top: $size-default;
   }
 
   &__description {

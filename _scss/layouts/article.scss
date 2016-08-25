@@ -36,15 +36,27 @@
     }
   }
 
-  &__reveal-contact-us {
-    display: none;
+  &__additional-container {
+    @include span-columns(12, 12);
+    margin: $size-M 0;
+  }
 
-    @include media($L) {
-      display: inherit;
-    }
+  &__additional-help {
+    padding: $size-default;
+    text-align: center;
+    background-color: $color-primary-alt-lightest;
 
-    .usa-button {
-      width: 100%;
+    p {
+      @include h4();
+      color: $color-primary-darkest;
+
+      a {
+        font-weight: normal;
+      }
+
+      a:visited {
+        color: $color-primary;
+      }
     }
   }
 
@@ -58,41 +70,5 @@
     padding: 0 $size-default;
     color: $color-gray;
     border-left: 4px solid $color-gray-light;
-  }
-}
-
-.usajobs-help-center-article-contact {
-  @include span-columns(12, 12);
-  margin: $size-M 0;
-
-  &__list {
-    @include unstyledList();
-  }
-}
-
-.usajobs-help-center-article-contact .usajobs-help-center-article-contact__button {
-  width: 100%;
-  padding: $size-M $size-default;
-  @include h4();
-  text-align: center;
-  background-color: $color-primary-alt-lightest;
-  color: $color-primary-darkest;
-}
-
-.usajobs-help-center-article-contact .usajobs-help-center-article-contact__button:hover {
-  background-color: $color-primary-alt-light;
-  color: $color-primary-darkest;
-}
-
-.usajobs-help-center-article-contact .usajobs-help-center-article-contact__button[aria-expanded=false],
-.usajobs-help-center-article-contact .usajobs-help-center-article-contact__button[aria-expanded=true] {
-  background-image: inherit;
-}
-
-.js .usajobs-help-center-article-contact {
-  .usajobs-help-center-article-contact__form-container {
-    &[aria-hidden=true] {
-      display: none;
-    }
   }
 }
