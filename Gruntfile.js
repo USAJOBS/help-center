@@ -178,10 +178,7 @@ module.exports = function(grunt) {
         }
       },
       staging: {
-        site: 'usajobs.github.io/Help/'
-      },
-      postDeploy: {
-        site: 'http://usajobs.github.io/Help'
+        site: 'usajobs.github.io/Help'
       }
     },
     mdspell: {
