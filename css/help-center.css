@@ -2162,7 +2162,7 @@ html {
 
 @media screen and (min-width: 48em) {
   .usajobs-help-center-home {
-    padding: 3rem 3rem 1.5rem;
+    padding: 3rem 3rem 0;
   }
 }
 
@@ -2226,7 +2226,13 @@ html {
   background-color: #ffffff;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-home__section {
+    padding-bottom: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
   .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.working-in-government {
     width: 49%;
   }
@@ -2238,7 +2244,7 @@ html {
   }
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 48em) {
   .usajobs-help-center-home__section.faq {
     margin-right: 2%;
   }
@@ -2256,29 +2262,11 @@ html {
   }
 }
 
-@media screen and (min-width: 37.5em) {
-  .usajobs-help-center-home__sub-section {
-    float: left;
-    display: block;
-    margin-right: 4.8291588071%;
-    width: 47.5854205965%;
-  }
-  .usajobs-help-center-home__sub-section:last-child {
-    margin-right: 0;
-  }
-}
-
-@media screen and (min-width: 37.5em) {
-  .usajobs-help-center-home__sub-section.unique-hiring-paths {
-    margin-right: 0;
-  }
-}
-
 .usajobs-help-center-home__section-title {
   display: block;
   width: 100%;
-  text-align: center;
   text-decoration: none;
+  text-align: center;
 }
 
 .usajobs-help-center-home__section-title:visited, .usajobs-help-center-home__section-title:hover {
@@ -2292,6 +2280,25 @@ html {
 .usajobs-help-center-home__section-title:visited h3, .usajobs-help-center-home__section-title:hover h3 {
   color: #112e51;
   text-decoration: none;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-home__section-title.faq, .usajobs-help-center-home__section-title.working-in-government {
+    text-align: left;
+  }
+}
+
+.usajobs-help-center-home__section-title-text {
+  display: block;
+  margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-home__section-title-text {
+    display: inline-block;
+    margin-top: 0;
+    padding-left: 1rem;
+  }
 }
 
 .usajobs-help-center-home__link-list a:visited {
@@ -2348,18 +2355,8 @@ html {
   }
 }
 
-.usajobs-help-center-home__section-title.faq .fa {
-  display: inline-block;
-  width: 118px;
-  height: 118px;
-  line-height: 118px;
-  border-radius: 50%;
-  color: #02bfe7;
-  background-color: none;
-  box-shadow: inset 0 0 0 2px #02bfe7;
-  box-shadow: inset 0 0 0 3px #02bfe7;
+.usajobs-help-center-home__section-title .fa {
   text-align: center;
-  font-size: 5.9rem;
 }
 
 .usajobs-help-center-home__section-title.how-to .fa {
@@ -2372,8 +2369,34 @@ html {
   background-color: none;
   box-shadow: inset 0 0 0 2px #2e8540;
   box-shadow: inset 0 0 0 3px #2e8540;
-  text-align: center;
   font-size: 5.9rem;
+}
+
+.usajobs-help-center-home__section-title.faq .fa {
+  display: inline-block;
+  width: 118px;
+  height: 118px;
+  line-height: 118px;
+  border-radius: 50%;
+  color: #02bfe7;
+  background-color: none;
+  box-shadow: inset 0 0 0 2px #02bfe7;
+  box-shadow: inset 0 0 0 3px #02bfe7;
+  font-size: 5.9rem;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-home__section-title.faq .fa {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    border-radius: 50%;
+    color: #02bfe7;
+    background-color: none;
+    box-shadow: inset 0 0 0 2px #02bfe7;
+    font-size: 3.4rem;
+  }
 }
 
 .usajobs-help-center-home__section-title.working-in-government .fa {
@@ -2386,8 +2409,21 @@ html {
   background-color: none;
   box-shadow: inset 0 0 0 2px #fdb81e;
   box-shadow: inset 0 0 0 3px #fdb81e;
-  text-align: center;
   font-size: 5.9rem;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-home__section-title.working-in-government .fa {
+    display: inline-block;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    border-radius: 50%;
+    color: #fdb81e;
+    background-color: none;
+    box-shadow: inset 0 0 0 2px #fdb81e;
+    font-size: 3.4rem;
+  }
 }
 
 .usajobs-help-center-home__section-title.working-in-government .fa:before {
@@ -2409,6 +2445,12 @@ html {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-home__section-link {
+    bottom: 1.5rem;
   }
 }
 

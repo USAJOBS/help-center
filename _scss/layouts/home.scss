@@ -11,7 +11,7 @@
   background-color: $color-gray-lightest;
 
   @include media($ML) {
-    padding: $size-M $size-M $size-default;
+    padding: $size-M $size-M 0;
   }
 
   &__page-title {
@@ -38,11 +38,15 @@
     margin-bottom: $size-default;
     padding: $size-M $size-default;
     background-color: $color-white;
+
+    @include media($L) {
+      padding-bottom: $size-L;
+    }
   }
 
   &__section.faq,
   &__section.working-in-government {
-    @include media($M) {
+    @include media($ML) {
       width: 49%;
     }
     @include media($L) {
@@ -51,7 +55,7 @@
   }
 
   &__section.faq {
-    @include media($M) {
+    @include media($ML) {
       margin-right: 2%;
     }
 
@@ -66,23 +70,11 @@
     }
   }
 
-  &__sub-section {
-    @include media($M) {
-      @include span-columns(3, 6);
-    }
-
-    &.unique-hiring-paths {
-      @include media($M) {
-        @include omega();
-      }
-    }
-  }
-
   &__section-title {
     display: block;
     width: 100%;
-    text-align: center;
     text-decoration: none;
+    text-align: center;
 
     &:visited,
     &:hover {
@@ -99,6 +91,24 @@
         color: $color-primary-darkest;
         text-decoration: none;
       }
+    }
+  }
+
+  &__section-title.faq,
+  &__section-title.working-in-government {
+    @include media($ML) {
+      text-align: left;
+    }
+  }
+
+  &__section-title-text {
+    display: block;
+    margin-top: $size-default;
+
+    @include media($ML) {
+      display: inline-block;
+      margin-top: 0;
+      padding-left: $size-S;
     }
   }
 
@@ -128,25 +138,36 @@
     }
   }
 
-  &__section-title.faq .fa {
-    @include makeCircle(118px, $color-primary-alt, none, $color-primary-alt);
-    box-shadow: inset 0 0 0 3px $color-primary-alt;
+  &__section-title .fa {
     text-align: center;
-    font-size: rem(59px);
   }
 
   &__section-title.how-to .fa {
     @include makeCircle(118px, $color-green, none, $color-green);
     box-shadow: inset 0 0 0 3px $color-green;
-    text-align: center;
     font-size: rem(59px);
+  }
+
+  &__section-title.faq .fa {
+    @include makeCircle(118px, $color-primary-alt, none, $color-primary-alt);
+    box-shadow: inset 0 0 0 3px $color-primary-alt;
+    font-size: rem(59px);
+
+    @include media($ML) {
+      @include makeCircle(68px, $color-primary-alt, none, $color-primary-alt);
+      font-size: rem(34px);
+    }
   }
 
   &__section-title.working-in-government .fa {
     @include makeCircle(118px, $color-gold, none, $color-gold);
     box-shadow: inset 0 0 0 3px $color-gold;
-    text-align: center;
     font-size: rem(59px);
+
+    @include media($ML) {
+      @include makeCircle(68px, $color-gold, none, $color-gold);
+      font-size: rem(34px);
+    }
 
     &:before {
       margin-right: -4px;
@@ -166,6 +187,10 @@
       width: 100%;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    @include media($L) {
+      bottom: $size-default;
     }
 
     &:visited {
