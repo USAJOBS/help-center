@@ -2166,10 +2166,6 @@ html {
   }
 }
 
-.usajobs-help-center-home a:visited {
-  color: #0071bc;
-}
-
 .usajobs-help-center-home__page-title {
   margin-top: 0;
   margin-bottom: 3rem;
@@ -2231,8 +2227,14 @@ html {
 }
 
 @media screen and (min-width: 37.5em) {
-  .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.how-to {
+  .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.working-in-government {
     width: 49%;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.working-in-government {
+    padding: 3rem;
   }
 }
 
@@ -2243,14 +2245,14 @@ html {
 }
 
 @media screen and (min-width: 62em) {
-  .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.how-to {
+  .usajobs-help-center-home__section.faq {
     margin-right: 1%;
   }
 }
 
 @media screen and (min-width: 62em) {
-  .usajobs-help-center-home__section.faq, .usajobs-help-center-home__section.how-to, .usajobs-help-center-home__section.working-in-government {
-    width: 32.666666%;
+  .usajobs-help-center-home__section.working-in-government {
+    width: 50%;
   }
 }
 
@@ -2290,6 +2292,60 @@ html {
 .usajobs-help-center-home__section-title:visited h3, .usajobs-help-center-home__section-title:hover h3 {
   color: #112e51;
   text-decoration: none;
+}
+
+.usajobs-help-center-home__link-list a:visited {
+  color: #0071bc;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-home__section-header {
+    float: left;
+    display: block;
+    margin-right: 4.8291588071%;
+    width: 30.1138941286%;
+  }
+  .usajobs-help-center-home__section-header:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-home__section-header {
+    float: left;
+    display: block;
+    margin-right: 2.3576520234%;
+    width: 23.2317609825%;
+  }
+  .usajobs-help-center-home__section-header:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-home__list-container {
+    float: left;
+    display: block;
+    margin-right: 4.8291588071%;
+    width: 65.0569470643%;
+    margin-right: 0;
+  }
+  .usajobs-help-center-home__list-container:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-home__list-container {
+    float: left;
+    display: block;
+    margin-right: 2.3576520234%;
+    width: 74.4105869942%;
+    margin-right: 0;
+  }
+  .usajobs-help-center-home__list-container:last-child {
+    margin-right: 0;
+  }
 }
 
 .usajobs-help-center-home__section-title.faq .fa {
@@ -2340,17 +2396,24 @@ html {
 
 .usajobs-help-center-home__section-link {
   display: block;
+  color: #ffffff;
+  max-width: 30.4rem;
 }
 
 @media screen and (min-width: 37.5em) {
   .usajobs-help-center-home__section-link {
     position: absolute;
-    left: 1.5rem;
-    right: 1.5rem;
     bottom: 0.5rem;
     padding: 1rem 0;
     text-decoration: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
+
+.usajobs-help-center-home__section-link:visited {
+  color: #ffffff;
 }
 
 .usajobs-help-center-home__desc {

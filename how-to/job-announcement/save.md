@@ -18,6 +18,8 @@ To save a job:
 4.	Click the **Save Job** link next to the job title for each job you want to save.
 5.	Review your saved jobs in the **Saved Jobs** section of your account.
 
+You may also save and remove jobs to and from your saved jobs list when you are viewing a job announcement.
+
 ## Manage your saved jobs in your account
 
 The **Saved Jobs** section of your account displays each job announcement you save on USAJOBS. You must sign into your account to see all of your saved jobs. Here’s what you can do:
@@ -52,7 +54,11 @@ Click the **+** to see more details about the saved job. Each saved job shows a 
 
 ### Apply, view more or delete saved jobs
 
-Within the saved jobs details you can also apply, delete or view more similar jobs.
+Within the saved jobs details you can also apply, delete, or view more similar jobs.
+
+#### Removing a saved job
+
+To remove a saved job click the **Saved** link. This saved job will be removed when you leave this tab or page and will no longer appear in your saved jobs upon your next visit to your list.
 
 ### What if I don't see a saved job in my account?
 
