@@ -42,8 +42,8 @@ html {
 .usajobs-help-center-title-banner {
   padding-top: 1.5rem;
   background: #112e51;
-  background-image: url("../img/helpcenter_star.png");
-  background-image: url("../img/helpcenter_star.svg");
+  background-image: url("../img/help-center/helpcenter_star.png");
+  background-image: url("../img/help-center/helpcenter_star.svg");
   background-position: right top;
   background-repeat: no-repeat;
 }
@@ -52,16 +52,16 @@ html {
   .usajobs-help-center-search-banner.home,
   .usajobs-help-center-search-banner--with-nav.home,
   .usajobs-help-center-title-banner.home {
-    padding-top: 1.5rem;
     padding-bottom: 6.5rem;
+    padding-top: 1.5rem;
   }
 }
 
 .usajobs-help-center-search-banner__container,
 .usajobs-help-center-search-banner--with-nav__container,
 .usajobs-help-center-title-banner__container {
-  max-width: 120rem;
   padding: 0 1.5rem;
+  max-width: 120rem;
 }
 
 @media screen and (min-width: 48em) {
@@ -108,9 +108,16 @@ html {
 .usajobs-help-center-search-banner .usa-search,
 .usajobs-help-center-search-banner--with-nav .usa-search,
 .usajobs-help-center-title-banner .usa-search {
-  max-width: 120rem;
   margin-left: auto;
   margin-right: auto;
+  max-width: 120rem;
+}
+
+.usajobs-help-center-search-banner .usa-search [type="submit"],
+.usajobs-help-center-search-banner--with-nav .usa-search [type="submit"],
+.usajobs-help-center-title-banner .usa-search [type="submit"] {
+  background-image: url("../img/help-center/search.png");
+  background-image: url("../img/help-center/search.svg");
 }
 
 .usajobs-help-center-search-banner {
@@ -159,8 +166,8 @@ html {
 }
 
 .usajobs-uhp-banner__body {
-  position: relative;
   padding: 0 1.5rem;
+  position: relative;
   margin-top: -1rem;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
@@ -1455,7 +1462,7 @@ html {
 
 @media screen and (min-width: 62em) {
   .usajobs-help-center-about-what__body {
-    background-image: url("../img/opm_seal.png");
+    background-image: url("../img/help-center/opm_seal.png");
     background-position: right;
     background-repeat: no-repeat;
   }
@@ -1841,7 +1848,7 @@ html {
   margin-left: 6rem;
 }
 
-.usajobs-help-center-about-learn-more__help-sections .working-in-government.fa:before {
+.usajobs-help-center-about-learn-more__help-sections .working-in-government.fa::before {
   margin-right: -3px;
 }
 

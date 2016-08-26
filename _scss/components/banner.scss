@@ -9,21 +9,21 @@ $icon-size: rem(164px);
 .usajobs-help-center-title-banner {
   padding-top: $size-default;
   background: $color-primary-darkest;
-  background-image: url("../img/helpcenter_star.png");
-  background-image: url("../img/helpcenter_star.svg");
+  background-image: url('../img/help-center/helpcenter_star.png');
+  background-image: url('../img/help-center/helpcenter_star.svg');
   background-position: right top;
   background-repeat: no-repeat;
 
   &.home {
     @include media($ML) {
-      padding-top: $size-default;
       padding-bottom: 6.5rem;
+      padding-top: $size-default;
     }
   }
 
   &__container {
-    max-width: $site-max-width;
     @include contentGutter();
+    max-width: $site-max-width;
 
     @include media($ML) {
       margin-left: auto;
@@ -48,13 +48,13 @@ $icon-size: rem(164px);
   }
 
   .usa-search {
-    max-width: $site-max-width;
     margin-left: auto;
     margin-right: auto;
+    max-width: $site-max-width;
 
-    input[type=search] {
-      @include media($ML) {
-      }
+    [type="submit"] {
+      background-image: url('../img/help-center/search.png');
+      background-image: url('../img/help-center/search.svg');
     }
   }
 }
@@ -83,10 +83,10 @@ $icon-size: rem(164px);
   @include media($M) {
     padding: $size-XXL 0;
   }
-}
 
-.usajobs-help-center-title-banner.about {
-  background-image: none;
+  &.about {
+    background-image: none;
+  }
 }
 
 .usajobs-uhp-banner {
@@ -100,9 +100,9 @@ $icon-size: rem(164px);
   }
 
   &__body {
-    position: relative;
     @include clearfix();
     @include contentGutter();
+    position: relative;
     margin-top: rem(-10px);
     padding-top: $size-L;
     padding-bottom: $size-L;
@@ -111,13 +111,13 @@ $icon-size: rem(164px);
   &__title-container,
   &__text-container {
     @include media($ML) {
-      @include span-columns(3,6);
+      @include span-columns(3, 6);
     }
   }
 
   &__title-container {
     @include media($L) {
-      @include span-columns(4,12);
+      @include span-columns(4, 12);
     }
   }
 
@@ -139,7 +139,7 @@ $icon-size: rem(164px);
 
   &__text-container {
     @include media($L) {
-      @include span-columns(8,12);
+      @include span-columns(8, 12);
     }
   }
 
