@@ -55,6 +55,10 @@ $icon-size: rem(164px);
     [type="submit"] {
       background-image: url('../img/help-center/search.png');
       background-image: url('../img/help-center/search.svg');
+
+      @include media($SM) {
+        background-image: inherit;
+      }
     }
   }
 }

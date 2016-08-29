@@ -120,6 +120,14 @@ html {
   background-image: url("../img/help-center/search.svg");
 }
 
+@media screen and (min-width: 30em) {
+  .usajobs-help-center-search-banner .usa-search [type="submit"],
+  .usajobs-help-center-search-banner--with-nav .usa-search [type="submit"],
+  .usajobs-help-center-title-banner .usa-search [type="submit"] {
+    background-image: inherit;
+  }
+}
+
 .usajobs-help-center-search-banner {
   padding-bottom: 3rem;
 }
