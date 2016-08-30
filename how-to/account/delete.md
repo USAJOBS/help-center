@@ -18,6 +18,8 @@ To delete a USAJOBS account:
 
 ## Additional information
 
+If you delete your account:
+
 * You will lose all documents in your account, including application history, resumes, saved documents, saved searches, and all other documents.
 * Your account will be deleted 168 hours (7 days) after the Confirm Deletion button is clicked.
 * You will not be able to create a new account with the same  email address until 7 calendar days have elapsed. This is  a security precaution.
