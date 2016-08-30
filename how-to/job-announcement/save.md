@@ -56,9 +56,9 @@ Click the **+** to see more details about the saved job. Each saved job shows a 
 
 Within the saved jobs details you can also apply, delete, or view more similar jobs.
 
-#### Removing a saved job
+#### Remove a saved job
 
-To remove a saved job click the **Saved** link. This saved job will be removed when you leave this tab or page and will no longer appear in your saved jobs upon your next visit to your list.
+To remove a saved job click the **Saved** link. Then go to a different page and come back to your **Saved Jobs**. The job will no longer appear in your saved jobs list.
 
 ### What if I don't see a saved job in my account?
 
