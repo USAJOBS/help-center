@@ -15,15 +15,15 @@ For example, a schedule could be Monday - Friday, from 9 am or 5 pm or Wednesday
 
 Several work schedules exist – alternative, flexible, fixed and compressed.
 
-## Full Time
+## Full time
 
 A work schedule that requires most employees to work 40 hours during the traditional work week, or 80 hours in a pay period.
 
-## Part Time
+## Part time
 
 A work schedule that requires most employees to work less than 40 hours during the traditional work week, or less than 80 hours in a pay period.
 
-## Shift Work
+## Shift work
 
 Occurs in a work schedule that utilizes 24 hours a day and occasionally, 7 days a week, to keep an organization operating. Shift work occurs whenever 24 hour coverage is necessary or when a 24 hour day optimizes work output and productivity.
 
@@ -31,14 +31,14 @@ Occurs in a work schedule that utilizes 24 hours a day and occasionally, 7 days 
 
 Service performed without a regularly scheduled tour of duty.
 
-## Job Share
+## Job share
 
 Alternative work schedule in which two employees voluntarily share the responsibilities of one full time job, and receive salary and benefits on pro-rata basis. Job sharing creates regular part time (half days, alternative days, alternative weeks, etc.) where there was one full time position, and thus avoids a total loss of employment in a layoff.
 
-## Multiple Schedules
+## Multiple schedules
 
 Two or more schedules presented alternatively. Open Continuous/Standing Register Jobs - Extended or open continuous announcements are used to accept applications in anticipation of vacancies.
 
-## Additional Resources
+## Additional resources
 
-* [Work Schedules (OPM)](https://www.opm.gov/policy-data-oversight/pay-leave/work-schedules/)
+* [Work schedules (OPM)](https://www.opm.gov/policy-data-oversight/pay-leave/work-schedules/)
