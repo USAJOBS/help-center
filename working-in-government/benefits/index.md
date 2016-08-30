@@ -13,7 +13,7 @@ A career with the U.S. Government provides employees with a comprehensive benefi
 Eligibility for benefits depends on the type of position you hold and whether your position is full-time, part-time, or intermittent. Contact the hiring agency for more information on the specific benefits offered.
 
 
-## Additional Resources
+## Additional resources
 
 * [Benefits for federal employees](https://www.usa.gov/benefits-for-federal-employees "usa.gov")
-* [Healthcare Insurance](https://www.opm.gov/healthcare-insurance/ "opm.gov")
+* [Healthcare insurance](https://www.opm.gov/healthcare-insurance/ "opm.gov")
