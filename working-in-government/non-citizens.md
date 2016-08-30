@@ -2,7 +2,7 @@
 permalink: /working-in-government/non-citizens/
 layout: article
 section: working-in-government
-title: Employment of Non-Citizens
+title: Employment of non-citizens
 breadcrumb: Employment of Non-Citizens
 category: working-in-government
 tags: [non-citizens, citizenship, eligibility]
@@ -16,17 +16,17 @@ An agency may hire a qualified non-citizen into the [excepted service](../servic
 
 Only United States citizens and nationals may be appointed in the competitive civil service; however, Federal agencies may employ certain non-citizens who meet specific employability requirements in the excepted service or the Senior Executive Service. Several factors determine whether a Federal agency may employ a non-citizen. They are: Executive Order 11935 requiring citizenship in the competitive civil service, the annual appropriations act ban on paying aliens from many countries, and the immigration law ban on employing aliens unless they are lawfully admitted for permanent residence or otherwise authorized to be employed.
 
-## Executive Order 11935 On The Competitive Civil Service
+## Executive Order 11935 on the competitive civil service
 
 Under Executive Order 11935, only United States citizens and nationals (residents of American Samoa and Swains Island) may compete for, and be appointed to, competitive service jobs. With Office of Personnel Management approval, agencies are permitted to hire non-citizens when there are no qualified citizens available. A non-citizen hired in the absence of qualified citizens may only be given an excepted appointment, and does not acquire competitive civil service status. He or she may not be promoted or reassigned to another position in the competitive service, except in situations where a qualified citizen is not available. The non-citizen may be hired only if permitted by the appropriations act and the immigration law.
 
-## Excepted Service And Senior Executive Service
+## Excepted service and Senior Executive service
 
 Some Federal agencies (among them the United States Postal Service, the Tennessee Valley Authority and the Federal Bureau of Investigation), and some types of positions (for example, lawyers and chaplains) are exempt from competitive civil service hiring requirements. An agency may hire a qualified non-citizen in the excepted service or Senior Executive Service, if it is permitted to do so by the annual appropriations act and the immigration law and the agency's specific laws and internal policies.
 
 Many agencies have executive level positions in the Senior Executive Service.
 
-## Appropriations Act Restrictions
+## Appropriations Act restrictions
 
 Congress prohibits the use of appropriated funds to employ non-citizens within the United States. Certain groups of non-citizens are not included in this ban. They are:
 
@@ -42,7 +42,7 @@ Also, some agencies are exempt from these restrictions.
 
 Although the above groups are not prohibited from being paid from agency appropriated funds, group members are still subject to the requirements of Executive Order 11935 listed above and to the immigration law as summarized below.
 
-## Immigration Law Requirements On Employing Citizens And Aliens
+## Immigration law requirements on employing citizens and aliens
 
 For any work to be performed in the United States, immigration law requires private and public employers to hire only individuals who are eligible to be employed. Those individuals are:
 
@@ -53,6 +53,6 @@ Questions about an individual's citizenship, nationality, immigration status, an
 
 Although an alien may be authorized to work under the immigration laws, he or she is still subject to the requirements of Executive Order 11935 and appropriations act restrictions as stated above.
 
-## Employment Inquiries
+## Employment inquiries
 
 A non-citizen should contact the agency in which he or she is interested, concerning questions of employment eligibility.
