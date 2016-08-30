@@ -2,7 +2,7 @@
 permalink: /working-in-government/pay-and-leave/types-of-work/
 layout: article
 section: working-in-government
-title: Types of Work
+title: Types of work
 breadcrumb: Types of Work
 category: pay-and-leave
 tags: [search, keywords, tips]
@@ -10,7 +10,7 @@ tags: [search, keywords, tips]
 
 The Federal Government offers various types of federal employment to suit the different needs of a diverse and dynamic workforce. Searching for the type of employment that is right for you is easy on USAJOBS.
 
-Use the Advanced Search function to elect if you are looking for a: permanent, temporary, term, or part-time position.
+Use the **Advanced Search** function to elect if you are looking for a: permanent, temporary, term, or part-time position.
 
 **All** - Includes all types of work listed below.
 
