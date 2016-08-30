@@ -18,6 +18,6 @@ A hiring authority OPM grants to agencies to fill competitive service positions 
 
 
 
-## Additional Resources
+## Additional resources
 
-* [Competitive Hiring (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=CompetitveExamining)
+* [Competitive hiring (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=CompetitveExamining)
