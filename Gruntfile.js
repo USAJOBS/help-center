@@ -142,7 +142,7 @@ module.exports = function(grunt) {
           '!js/usajobs-design-system-components.js',
           '!js/usajobs-design-system-documentation.js'
         ],
-        tasks: ['jshint:all', 'concat:all'],
+        tasks: ['jshint:all', 'concat:base'],
         options: {
           debounceDelay: 250,
           livereload: true
@@ -152,7 +152,7 @@ module.exports = function(grunt) {
         files: [
           'js/components/*.js'
         ],
-        tasks: ['jshint:components', 'concat:all'],
+        tasks: ['jshint:components', 'concat:components'],
         options: {
           debounceDelay: 250,
           livereload: true
@@ -215,5 +215,5 @@ module.exports = function(grunt) {
   grunt.registerTask('build-flat', ['shell:jekyllBuildFlat']);
   grunt.registerTask('build-prod', ['shell:jekyllBuildProd']);
   grunt.registerTask('css', ['sass', 'autoprefixer', 'cssmin']);
-  grunt.registerTask('js', ['jshint:all', 'concat']);
+  grunt.registerTask('js', ['jshint:all', 'concat:base', 'concat:components']);
 };

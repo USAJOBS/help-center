@@ -84,8 +84,6 @@ $help_accordion.on('click', '[data-behavior]', function (event) {
     $target = $object.find('#' + $el.attr('aria-controls')),
     state = $target.attr('aria-hidden');
 
-  // $el.blur(); // Removes focus
-
   // Each behavior attached to the element should be triggered
   $.each(behavior.split(' '), function (idx, action) {
     if (action.match(/^help/)) {
@@ -97,11 +95,19 @@ $help_accordion.on('click', '[data-behavior]', function (event) {
 $help_accordion.on('help-accordion.toggle', function(event, opts) {
   event.preventDefault();
 
-  opts.target.slideDown(function () {
-    $('html, body').animate({
-      scrollTop: opts.object.offset().top
+  if (opts.state === 'true') {
+    opts.target.slideDown(function () {
+      $('html, body').animate({
+        scrollTop: opts.object.offset().top
+      });
     });
-  });
+  } else {
+    opts.target.slideUp(function () {
+      $('html, body').animate({
+        scrollTop: opts.object.offset().top
+      });
+    });
+  }
 });
 
 var $article = $('[data-object="help-article"]'),
