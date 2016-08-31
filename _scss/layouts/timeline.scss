@@ -2,7 +2,8 @@
 
 @import 'base-shared';
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
 }
@@ -10,9 +11,6 @@ html, body {
 .usajobs-help-center.timeline,
 .usajobs-help-center-timeline {
   height: 100%;
-}
-
-.usajobs-help-center-timeline {
 }
 
 .usajobs-help-center-timeline-panel {
@@ -25,8 +23,7 @@ html, body {
   color: $color-white;
 
   &__body {
-    max-width: 1600px;
-    max-width: 160.0rem;
+    max-width: rem(1600px);
   }
 
   &__year {
@@ -46,7 +43,7 @@ html, body {
     font-style: italic;
     color: $color-white;
     text-align: center;
-    font-size: ($h1-font-size /2);
+    font-size: ($h1-font-size / 2);
     margin-top: 0;
     margin-bottom: $size-default;
 
@@ -92,7 +89,7 @@ html, body {
     font-size: $base-font-size;
 
     @include media($M) {
-      font-size: ($h1-font-size /2);
+      font-size: ($h1-font-size / 2);
     }
 
     @include media($ML) {
@@ -108,7 +105,7 @@ html, body {
   p.usajobs-help-center-timeline-panel__strong {
     font-family: $font-sans;
     font-weight: bold;
-    font-size: ($h1-font-size /2);
+    font-size: ($h1-font-size / 2);
 
     @include media($ML) {
       font-size: $h1-font-size;
@@ -117,7 +114,7 @@ html, body {
 
   &__attrib {
     @include media($M) {
-      @include span-columns(6,12);
+      @include span-columns(6, 12);
       @include omega();
       float: right;
     }
@@ -126,7 +123,7 @@ html, body {
       font-family: $font-serif;
       font-style: italic;
       margin: 0;
-      font-size: ($h2-font-size /2);
+      font-size: ($h2-font-size / 2);
 
       @include media($ML) {
         font-size: $h2-font-size;
@@ -184,57 +181,67 @@ html, body {
 
     &.top {
       top: 0;
+    }
 
-      .usajobs-help-center-timeline-panel__shade-pull {
-        bottom: -#{$size-default};
-      }
+    &.top .usajobs-help-center-timeline-panel__shade-pull {
+      bottom: -#{$size-default};
     }
 
     &.bottom {
       bottom: 0;
+    }
 
-      .usajobs-help-center-timeline-panel__shade-pull {
-        top: -#{$size-default};
-      }
+    &.bottom .usajobs-help-center-timeline-panel__shade-pull {
+      top: -#{$size-default};
     }
   }
 
   &__shade-pull {
     position: absolute;
-    margin-left: -0.75rem;
+    margin-left: -.75rem;
   }
 }
 
 .usajobs-help-center-timeline-panel.panel-1 {
-  background-color: $color-gray-dark
+  background-color: $color-gray-dark;
 }
+
 .usajobs-help-center-timeline-panel.panel-2 {
   background-color: $color-primary;
 }
+
 .usajobs-help-center-timeline-panel.panel-3 {
   background-color: $color-secondary-dark;
 }
+
 .usajobs-help-center-timeline-panel.panel-4 {
   background-color: $color-cool-blue-light;
 }
+
 .usajobs-help-center-timeline-panel.panel-5 {
   background-color: $color-green;
 }
+
 .usajobs-help-center-timeline-panel.panel-6 {
   background-color: $color-primary-alt-dark;
 }
+
 .usajobs-help-center-timeline-panel.panel-7 {
   background-color: $color-gray-warm-dark;
 }
+
 .usajobs-help-center-timeline-panel.panel-8 {
   background-color: $color-gray;
 }
+
 .usajobs-help-center-timeline-panel.panel-9 {
   background-color: $color-secondary-darkest;
 }
+
 .usajobs-help-center-timeline-panel.panel-10 {
   background-color: $color-primary-darker;
 }
+
 .usajobs-help-center-timeline-panel.panel-11 {
   background-color: $color-visited;
 }
@@ -265,7 +272,7 @@ html, body {
 .usajobs-help-center-timeline-panel-stats-bubble {
   background-color: $color-green;
   border-radius: $size-base;
-  padding: $size-S;
+  padding: $size-S $size-S 0;
 
   @include media($ML) {
     padding: $size-default;
@@ -277,7 +284,7 @@ html, body {
 
   &__list li {
     @include h2();
-    font-size: ($h2-font-size /2);
+    font-size: ($h2-font-size / 2);
     color: $color-white;
 
     @include media($ML) {
@@ -303,7 +310,7 @@ $pillar-body-padding: $size-default;
       width: 100%;
 
       @include media($M) {
-        @include span-columns(3,6);
+        @include span-columns(3, 6);
         min-height: rem(95px);
       }
 
@@ -331,7 +338,7 @@ $pillar-body-padding: $size-default;
   &__icon .fa {
     display: inline-block;
     text-align: center;
-    font-size: ($pillar-icon-width /2);
+    font-size: ($pillar-icon-width / 2);
 
     @include media($ML) {
       font-size: $pillar-icon-width;
@@ -343,28 +350,28 @@ $pillar-body-padding: $size-default;
   }
 
   &__icon.p2 .fa {
-    color: $color-primary-alt;
     @include transform(rotate(60deg));
+    color: $color-primary-alt;
   }
 
   &__icon.p3 .fa {
-    color: $color-green;
     @include transform(rotate(120deg));
+    color: $color-green;
   }
 
   &__icon.p4 .fa {
-    color: $color-gold;
     @include transform(rotate(180deg));
+    color: $color-gold;
   }
 
   &__icon.p5 .fa {
-    color: $color-primary;
     @include transform(rotate(240deg));
+    color: $color-primary;
   }
 
   &__icon.p6 .fa {
-    color: $color-primary-darkest;
     @include transform(rotate(300deg));
+    color: $color-primary-darkest;
   }
 
   &__pillar-title {
@@ -388,7 +395,7 @@ $pillar-body-padding: $size-default;
   }
 
   &__body {
-    @include calc(width, "100% - " ($pillar-icon-width + $icon-padding + ($pillar-body-padding * 2)));
+    @include calc(width, '100% - ' ($pillar-icon-width + $icon-padding + ($pillar-body-padding * 2)));
 
     .lt-ie9 & {
       width: 75%;
