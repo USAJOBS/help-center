@@ -120,7 +120,7 @@
 }
 
 .usajobs-help-center-about-get-started {
-  @include fullBleed($color-green);
+  @include fullBleed($color-gray-warm-dark);
 
   &__body {
     padding-top: $size-XL;
@@ -210,26 +210,80 @@
       text-align: center;
       font-size: $h3-font-size;
     }
-  }
 
-  &__help-sections .faq.fa {
-    @include makeCircle(48px, $color-primary-alt, none, $color-primary-alt);
-    box-shadow: inset 0 0 0 3px $color-primary-alt;
-  }
+    .faq.fa {
+      @include makeCircle(48px, $color-primary-alt, none, $color-primary-alt);
+      box-shadow: inset 0 0 0 3px $color-primary-alt;
+    }
 
-  &__help-sections .how-to.fa {
-    @include makeCircle(48px, $color-green, none, $color-green);
-    box-shadow: inset 0 0 0 3px $color-green;
-    margin-left: $size-XL;
-  }
+    .how-to.fa {
+      @include makeCircle(48px, $color-green, none, $color-green);
+      box-shadow: inset 0 0 0 3px $color-green;
+      margin-left: $size-XL;
+    }
 
-  &__help-sections .working-in-government.fa {
-    @include makeCircle(48px, $color-gold, none, $color-gold);
-    box-shadow: inset 0 0 0 3px $color-gold;
-    margin-left: $size-XL;
+    .working-in-government.fa {
+      @include makeCircle(48px, $color-gold, none, $color-gold);
+      box-shadow: inset 0 0 0 3px $color-gold;
+      margin-left: $size-XL;
+    }
 
-    &::before {
+    .working-in-government.fa::before {
       margin-right: -3px;
+    }
+  }
+}
+
+.usajobs-landing-anniversary {
+  @include clearfix();
+  clear: left;
+  background: $color-green;
+
+  &__body {
+    @include outer-container();
+    max-width: $site-max-width;
+    padding: $size-M $size-default;
+    background-image: url('../img/help-center/timeline/background.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    @include media($M) {
+      padding: $size-L;
+    }
+
+    @include media($ML) {
+      background-position: left 50%;
+      background-size: 30% auto;
+    }
+
+    @include media($L) {
+      background-position: left 50%;
+      background-size: 25% auto;
+    }
+  }
+
+  &__title {
+    @include h1();
+    text-align: center;
+    color: $color-white;
+    margin-top: 0;
+    margin-bottom: $size-default;
+  }
+
+  &__quote {
+    color: $color-white;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  a.usajobs-landing-anniversary__link {
+    font-weight: bold;
+    color: $color-white;
+    text-decoration: underline;
+
+    &:visited,
+    &:hover {
+      color: $color-white;
     }
   }
 }
