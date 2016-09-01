@@ -2647,6 +2647,16 @@ body {
   }
 }
 
+.usajobs-help-center-timeline-panel__sub-title {
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-timeline-panel__sub-title {
+    margin-bottom: 3rem;
+  }
+}
+
 .usajobs-help-center-timeline-panel__event-title {
   display: none;
   font-weight: bold;
@@ -2719,12 +2729,18 @@ body {
   }
 }
 
+.usajobs-help-center-timeline-panel__attrib-container::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 @media screen and (min-width: 37.5em) {
   .usajobs-help-center-timeline-panel__attrib {
     float: left;
     display: block;
     margin-right: 4.8291588071%;
-    width: 100%;
+    width: 47.5854205965%;
     margin-right: 0;
     float: right;
   }
@@ -2742,7 +2758,7 @@ body {
 
 @media screen and (min-width: 48em) {
   .usajobs-help-center-timeline-panel__attrib p {
-    font-size: 34px;
+    font-size: 24px;
   }
 }
 
@@ -2825,8 +2841,26 @@ body {
   margin-left: -.75rem;
 }
 
+.usajobs-help-center-timeline-panel__scroll-down {
+  margin-top: 1.5rem;
+}
+
+.usajobs-help-center-timeline-panel__scroll-down a,
+.usajobs-help-center-timeline-panel__scroll-down a:visited {
+  color: #ffffff;
+}
+
+.usajobs-help-center-timeline-panel__return {
+  display: block;
+  padding: 3rem 0 0;
+  text-align: center;
+}
+
 .usajobs-help-center-timeline-panel.panel-1 {
-  background-color: #323a45;
+  background-color: #2e8540;
+  background-image: url("../img/help-center/timeline/background.svg");
+  background-repeat: no-repeat;
+  background-position: center 140%;
 }
 
 .usajobs-help-center-timeline-panel.panel-2 {
@@ -2842,7 +2876,7 @@ body {
 }
 
 .usajobs-help-center-timeline-panel.panel-5 {
-  background-color: #2e8540;
+  background-color: #494440;
 }
 
 .usajobs-help-center-timeline-panel.panel-6 {
@@ -2850,7 +2884,7 @@ body {
 }
 
 .usajobs-help-center-timeline-panel.panel-7 {
-  background-color: #494440;
+  background-color: #981b1e;
 }
 
 .usajobs-help-center-timeline-panel.panel-8 {
@@ -2858,7 +2892,7 @@ body {
 }
 
 .usajobs-help-center-timeline-panel.panel-9 {
-  background-color: #981b1e;
+  background-color: #4c2c92;
 }
 
 .usajobs-help-center-timeline-panel.panel-10 {
@@ -2866,45 +2900,7 @@ body {
 }
 
 .usajobs-help-center-timeline-panel.panel-11 {
-  background-color: #4c2c92;
-}
-
-.usajobs-help-center-timeline-panel-stats__list {
-  display: none;
-}
-
-@media screen and (min-width: 30em) {
-  .usajobs-help-center-timeline-panel-stats__list {
-    display: block;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    width: 100%;
-  }
-  .usajobs-help-center-timeline-panel-stats__list > li {
-    display: list-item;
-    margin: 0;
-  }
-  .usajobs-help-center-timeline-panel-stats__list > li:before {
-    display: none;
-  }
-  .usajobs-help-center-timeline-panel-stats__list > li:after {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  .usajobs-help-center-timeline-panel-stats__list {
-    margin-top: 6rem;
-  }
-}
-
-.usajobs-help-center-timeline-panel-stats__item {
-  display: inline-block;
-  float: left;
-  width: 50%;
-  text-align: center;
-  font-weight: bold;
+  background-color: #112e51;
 }
 
 .usajobs-help-center-timeline-panel-stats-bubble {
