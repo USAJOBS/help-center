@@ -1662,7 +1662,7 @@ html {
 }
 
 .usajobs-help-center-about-get-started {
-  background-color: #2e8540;
+  background-color: #494440;
 }
 
 .usajobs-help-center-about-get-started::after {
@@ -1882,6 +1882,85 @@ html {
 
 .usajobs-help-center-about-learn-more__help-sections .working-in-government.fa::before {
   margin-right: -3px;
+}
+
+.usajobs-landing-anniversary {
+  clear: left;
+  background: #2e8540;
+}
+
+.usajobs-landing-anniversary::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.usajobs-landing-anniversary__body {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120rem;
+  padding: 3rem 1.5rem;
+  background-image: url("../img/help-center/timeline/background.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.usajobs-landing-anniversary__body::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+  .usajobs-landing-anniversary__body {
+    padding: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-landing-anniversary__body {
+    background-position: left 50%;
+    background-size: 30% auto;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-landing-anniversary__body {
+    background-position: left 50%;
+    background-size: 25% auto;
+  }
+}
+
+.usajobs-landing-anniversary__title {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 44px;
+  font-size: 4.4rem;
+  color: #112e51;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.usajobs-landing-anniversary__quote {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.usajobs-landing-anniversary a.usajobs-landing-anniversary__link {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.usajobs-landing-anniversary a.usajobs-landing-anniversary__link:visited, .usajobs-landing-anniversary a.usajobs-landing-anniversary__link:hover {
+  color: #ffffff;
 }
 
 html {
