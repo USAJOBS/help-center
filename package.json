@@ -2,8 +2,30 @@
   "name": "USAJOBS_Help_Center",
   "version": "5.8.4",
   "description": "USAJOBS Help Center",
-  "repository": "http://github.com/USAJOBS/help-center",
-  "license": "CC0-1.0",
+  "keywords": [
+    "USAJOBS",
+    "gov",
+    "help",
+    "support"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/USAJOBS/Help"
+  },
+  "author": "Lab @ OPM",
+  "contributors": [
+    "Saleim Abushanab <saleim.abushanab@opm.gov>",
+    "Min Chung <min.chung@opm.gov>",
+    "Matthew Dingee <matthew.dingee@opm.gov>",
+    "Debbie LeNard <deborah.lenard@opm.gov>",
+    "Kyhry Taylor <kyhry.taylor@opm.gov>",
+    "Peter Toohey <peter.toohey@opm.gov>"
+  ],
+  "license": "SEE LICENSE in LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/USAJOBS/Help/issues"
+  },
+  "homepage": "http://usajobs.github.io/Help/",
   "devDependencies": {
     "clean-css": "^3.4.19",
     "grunt": "^1.0.1",
@@ -19,11 +41,11 @@
     "grunt-link-checker": "^0.2.0",
     "grunt-mdspell": "^0.4.0",
     "grunt-notify": "^0.4.5",
-    "grunt-sass": "^1.0.0",
-    "grunt-scss-lint": "^0.3.8",
+    "grunt-sass": "^1.2.1",
+    "grunt-scss-lint": "^0.5.0",
     "grunt-shell": "^1.2.1",
     "grunt-spritesmith": "^6.3.1",
-    "jshint-stylish": "^2.1.0",
+    "jshint-stylish": "^2.2.0",
     "load-grunt-tasks": "^3.5.0",
     "node-sass": "^3.8.0",
     "opener": "^1.4.1",
@@ -32,9 +54,8 @@
     "time-grunt": "^1.4.0"
   },
   "dependencies": {
-    "gasp": "0.0.2",
     "scrollmagic": "^2.0.5",
-    "usajobs-design-system": "^1.1.8"
+    "usajobs-design-system": "^1.1.9"
   },
   "scripts": {
     "all": "npm run build && npm run deploy",

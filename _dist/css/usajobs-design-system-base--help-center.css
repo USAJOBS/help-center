@@ -6638,12 +6638,38 @@ h6 {
   margin: 1rem 0;
 }
 
+.usajobs-section-header,
 .section-header {
   margin-top: 7.5rem;
   margin-bottom: 1rem;
   padding: 0.5em 0;
   color: #112e51;
   border-bottom: 1px solid #112e51;
+}
+
+.usajobs-section-header__link,
+.section-header__link {
+  display: block;
+  padding: 0.5rem 1.5rem 1.5rem 0;
+  font-size: 1.7rem;
+  color: #0071bc;
+}
+
+.usajobs-section-header__link:visited,
+.section-header__link:visited {
+  color: #0071bc;
+}
+
+@media screen and (min-width: 37.5em) {
+  .usajobs-section-header__link,
+  .section-header__link {
+    display: inline-block;
+    float: right;
+  }
+}
+
+.main-content .usajobs-section-header .usajobs-section-header__link {
+  text-decoration: none;
 }
 
 .main-content a {

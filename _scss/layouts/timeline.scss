@@ -215,9 +215,11 @@ body {
 
   &__scroll-down {
     margin-top: $size-default;
+    text-align: center;
 
     a,
     a:visited {
+      display: block;
       color: $color-white;
     }
   }
