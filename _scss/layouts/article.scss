@@ -3,6 +3,8 @@
 @import 'base-shared';
 
 .usajobs-help-center-article {
+  @include clearfix();
+
   &__container {
     max-width: $article-max-width;
   }
@@ -13,7 +15,7 @@
 
   .usajobs-content-well ul,
   .usajobs-content-well ol {
-    margin-left: 0.9em;
+    margin-left: .9em;
   }
 
   .usajobs-content-well a {
@@ -21,14 +23,14 @@
   }
 
   &__related {
-    margin-top: rem(89px);
+    margin-top: $size-L;
   }
 
   &__related-list {
     @include unstyledList();
 
     > li {
-      margin-bottom: 0.75em;
+      margin-bottom: .75em;
     }
 
     > li > a {
@@ -70,5 +72,41 @@
     padding: 0 $size-default;
     color: $color-gray;
     border-left: 4px solid $color-gray-light;
+  }
+
+  &__reveal-contact-us {
+    margin-top: $size-default;
+  }
+}
+
+.usajobs-help-center-article-contact {
+  @include clearfix();
+  margin-bottom: $size-XXL;
+
+  &__list {
+    @include unstyledList();
+  }
+
+  &__form-container[aria-hidden=true] {
+    display: none;
+  }
+
+  .usajobs-help-center-article-contact__button {
+    padding-top: $size-M;
+    padding-bottom: $size-M;
+    background-color: $color-gray;
+    background-image: inherit;
+    color: $color-white;
+    font-size: $h3-font-size;
+
+    &:hover {
+      background-color: $color-gray-dark;
+      color: $color-white;
+    }
+
+    .usa-button {
+      margin-left: $size-default;
+      font-size: $base-font-size;
+    }
   }
 }

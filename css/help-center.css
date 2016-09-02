@@ -1958,6 +1958,12 @@ html {
   clip: rect(0 0 0 0) !important;
 }
 
+.usajobs-help-center-article::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 .usajobs-help-center-article__container {
   max-width: 60rem;
 }
@@ -1986,7 +1992,7 @@ html {
 
 .usajobs-help-center-article .usajobs-content-well ul,
 .usajobs-help-center-article .usajobs-content-well ol {
-  margin-left: 0.9em;
+  margin-left: .9em;
 }
 
 .usajobs-help-center-article .usajobs-content-well a {
@@ -1994,7 +2000,7 @@ html {
 }
 
 .usajobs-help-center-article__related {
-  margin-top: 8.9rem;
+  margin-top: 4.5rem;
 }
 
 .usajobs-help-center-article__related-list {
@@ -2018,7 +2024,7 @@ html {
 }
 
 .usajobs-help-center-article__related-list > li {
-  margin-bottom: 0.75em;
+  margin-bottom: .75em;
 }
 
 .usajobs-help-center-article__related-list > li > a {
@@ -2071,6 +2077,63 @@ html {
   padding: 0 1.5rem;
   color: #5b616b;
   border-left: 4px solid #aeb0b5;
+}
+
+.usajobs-help-center-article__reveal-contact-us {
+  margin-top: 1.5rem;
+}
+
+.usajobs-help-center-article-contact {
+  margin-bottom: 7.5rem;
+}
+
+.usajobs-help-center-article-contact::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.usajobs-help-center-article-contact__list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.usajobs-help-center-article-contact__list > li {
+  display: list-item;
+  margin: 0;
+}
+
+.usajobs-help-center-article-contact__list > li:before {
+  display: none;
+}
+
+.usajobs-help-center-article-contact__list > li:after {
+  display: none;
+}
+
+.usajobs-help-center-article-contact__form-container[aria-hidden=true] {
+  display: none;
+}
+
+.usajobs-help-center-article-contact .usajobs-help-center-article-contact__button {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #5b616b;
+  background-image: inherit;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.usajobs-help-center-article-contact .usajobs-help-center-article-contact__button:hover {
+  background-color: #323a45;
+  color: #ffffff;
+}
+
+.usajobs-help-center-article-contact .usajobs-help-center-article-contact__button .usa-button {
+  margin-left: 1.5rem;
+  font-size: 1.7rem;
 }
 
 html {
