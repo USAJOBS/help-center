@@ -5,29 +5,49 @@
 .usajobs-help-center-article {
   @include clearfix();
 
+  // Override of the US Standards on lists. It really does odd things inside of articles.
+  ul,
+  ol {
+    margin-bottom: $size-S;
+  }
+
+  blockquote {
+    padding: 0 $size-default;
+    color: $color-gray;
+    border-left: 4px solid $color-gray-light;
+  }
+
   &__container {
     max-width: $article-max-width;
   }
   // Fix for lack of design system lists in prod
-  .usajobs-content-well ul {
-    @include bulletList();
-  }
+  .usajobs-content-well {
+    @include media($L) {
+      min-height: 50vh;
+    }
 
-  .usajobs-content-well ul,
-  .usajobs-content-well ol {
-    margin-left: .9em;
-  }
+    ul {
+      @include bulletList();
+    }
 
-  .usajobs-content-well a {
-    text-decoration: underline;
+    ul,
+    ol {
+      margin-left: .9em;
+      margin-bottom: $size-S;
+    }
+
+    a {
+      text-decoration: underline;
+    }
   }
 
   &__related {
     margin-top: $size-L;
   }
 
-  &__related-list {
+  .usajobs-help-center-article__related-list {
     @include unstyledList();
+    margin-bottom: $size-L;
 
     > li {
       margin-bottom: .75em;
@@ -62,18 +82,6 @@
     }
   }
 
-  // Override of the US Standards on lists. It really does odd things inside of articles.
-  ul,
-  ol {
-    margin-bottom: $size-S;
-  }
-
-  blockquote {
-    padding: 0 $size-default;
-    color: $color-gray;
-    border-left: 4px solid $color-gray-light;
-  }
-
   &__reveal-contact-us {
     margin-top: $size-default;
   }
@@ -92,8 +100,7 @@
   }
 
   .usajobs-help-center-article-contact__button {
-    padding-top: $size-M;
-    padding-bottom: $size-M;
+    padding: $size-M $size-default;
     background-color: $color-gray;
     background-image: inherit;
     color: $color-white;
@@ -105,8 +112,11 @@
     }
 
     .usa-button {
-      margin-left: $size-default;
       font-size: $base-font-size;
+
+      @include media($SM) {
+        margin-left: $size-default;
+      }
     }
   }
 }
