@@ -9,4 +9,12 @@ suppress-form: true
 tags: [contact, help, support]
 ---
 
-At the bottom of any Help Center article you will a button that reads "Still need help? Send your question to the USAJOBS Support Desk". If the article is does not answer your question then click that button, fill out the form, and click "Send".
+First, try to find the answer to your question in our **FAQs**, **How To’s** or **Working in Government** sections. 
+
+If you can’t find the answer to your question and still need help:
+
+1.	Click the **Contact us** button located on the right hand side, or at the bottom, of every Help Center page. A **Contact us** form will appear at the bottom of the page.
+2.	Fill out the form and click **Send**.
+
+We will get back to you within one business day, once you submit the form. If you don’t hear back from us after one business day, check your email SPAM or junk folder. 
+
