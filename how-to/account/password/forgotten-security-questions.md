@@ -9,4 +9,12 @@ category: account
 tags: [password, reset, tips, security, questions, support-password]
 ---
 
-If you’ve forgotten your secret questions and are trying to reset your password, click on the **Have USAJOBS send you a link to reset your password**. We will send you an email, to the email address associated with your USAJOBS account.  The email will have a link to reset your password.
+If you’ve forgotten your secret questions, please contact the USAJOBS Support Desk:
+
+1. Fill out the **Contact Us** form at the bottom of the page.
+2. Select the **Sign In/Password** as the Topic.
+3. Provide a current email address that you can access in the **Question/Comment** box. Include other information associated with your account including your username, mailing address, or phone number(s).
+4. Click **Send**.
+
+We'll get back to you within one business day, once you submit the form. If you don’t hear back from us after one business day, check your email SPAM or junk folder. 
+
