@@ -52,13 +52,9 @@ Click the **+** to see more details about the saved job. Each saved job shows a 
 
 [Learn more about the job announcement](../).
 
-### Apply, view more or delete saved jobs
+### Apply, view more or remove saved jobs
 
-Within the saved jobs details you can also apply, delete, or view more similar jobs.
-
-#### Remove a saved job
-
-To remove a saved job click the **Saved** link. Then go to a different page and come back to your **Saved Jobs**. The job will no longer appear in your saved jobs list.
+Within the saved jobs details you can also apply, [remove](remove/), or view more similar jobs.
 
 ### What if I don't see a saved job in my account?
 
