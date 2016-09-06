@@ -1,18 +1,20 @@
 ---
 permalink: /how-to/application/status/
 layout: article
-title: How to check on the status of an application
+title: How to see your application status
 breadcrumb: Application status
 category: Application
 section: how-to
 tags: [application, status, tips, support-application-status]
 ---
 
-1.	Sign into  your USAJOBS account.
-2.	Go to your **Applications**— your active applications display automatically.
+1.	Sign into your USAJOBS account.
+2.	Go to your **Applications**, located on your **Home** page — your active applications display automatically.
 3.	Review your list of applications. Your applications are listed by the date they were last updated.
+4.	The application status is highlighted next to each job application.
+5.	Click the **+** to see more application details. 
 
-The application status is highlighted next to each job application. Click the **+** to see more application details. You can also [filter your applications by status](#how-to-filter-applications).
+You can also [filter your applications by status](#how-to-filter-applications).
 
 ## What does each status mean?
 
