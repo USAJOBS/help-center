@@ -16,5 +16,5 @@ If you can’t find the answer to your question and still need help:
 1.	Click the **Contact us** button located on the right hand side, or at the bottom, of every Help Center page. A **Contact us** form will appear at the bottom of the page.
 2.	Fill out the form and click **Send**.
 
-We will get back to you within one business day, once you submit the form. If you don’t hear back from us after one business day, check your email SPAM or junk folder. 
+We'll get back to you within one business day, once you submit the form. If you don’t hear back from us after one business day, check your email SPAM or junk folder. 
 
