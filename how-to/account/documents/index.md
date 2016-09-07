@@ -43,6 +43,7 @@ You can [upload a resume](resume/upload/) or [use our Resume Builder to build on
 * PNG
 * RTF
 * PDF
+* Txt
 * Word (.doc or .docx)
 
 If you upload a resume, we recommend writing your resume using Word because you can make it searchable to recruiters in our resume bank.
@@ -61,6 +62,7 @@ All documents must be less than 3MB in size and in one of the following document
 * PNG
 * RTF
 * PDF
+* Txt
 * Word (.doc or .docx)
 
 If you make changes to a document, the updated version of the file will need to be uploaded to your account.  However, some forms can’t be edited, except for the file name or document type.
