@@ -4,7 +4,7 @@ var $article = $('[data-object="help-article"]'),
 
     ga('send', {
       hitType: 'event',
-      eventCategory: 'HelpCenter',
+      eventCategory: 'helpcenter',
       eventAction: action,
       eventLabel: label
     });
@@ -34,14 +34,14 @@ $article.on('help-article.contact', function(event, opts) {
     $('html, body').animate({
       scrollTop: opts.target.offset().top
     });
-    fireEvent('contact-us-open', 'Right rail primary button');
+    fireEvent('select', 'USAJOBS_' + window.location.pathname);
   });
 });
 
 $article.on('help-article.contact-event', function(event, opts) {
   if (opts.el.attr('aria-expanded') === 'false') {
-    fireEvent('contact-us-close', 'Accordion closing');
+    fireEvent('close', 'USAJOBS_' + window.location.pathname);
   } else {
-    fireEvent('contact-us-open', 'Accordion opening');
+    fireEvent('open', 'USAJOBS_' + window.location.pathname);
   }
 });
