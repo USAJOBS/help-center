@@ -1890,21 +1890,15 @@ html {
 
 @media screen and (min-width: 37.5em) {
   .usajobs-landing-anniversary__body {
-    padding: 4.5rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  .usajobs-landing-anniversary__body {
     background-position: left 50%;
-    background-size: 30% auto;
+    background-size: 75% auto;
   }
 }
 
 @media screen and (min-width: 62em) {
   .usajobs-landing-anniversary__body {
-    background-position: left 50%;
-    background-size: 25% auto;
+    background-position: -75% 50%;
+    background-size: 75% auto;
   }
 }
 
@@ -1926,7 +1920,13 @@ html {
 .usajobs-landing-anniversary__quote {
   color: #ffffff;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-landing-anniversary__quote {
+    line-height: 1.7;
+  }
 }
 
 .usajobs-landing-anniversary a.usajobs-landing-anniversary__link {

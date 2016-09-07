@@ -248,17 +248,13 @@
     background-position: left top;
 
     @include media($M) {
-      padding: $size-L;
-    }
-
-    @include media($ML) {
       background-position: left 50%;
-      background-size: 30% auto;
+      background-size: 75% auto;
     }
 
     @include media($L) {
-      background-position: left 50%;
-      background-size: 25% auto;
+      background-position: -75% 50%;
+      background-size: 75% auto;
     }
   }
 
@@ -273,7 +269,11 @@
   &__quote {
     color: $color-white;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: $size-default;
+
+    @include media($ML) {
+      line-height: $lead-line-height;
+    }
   }
 
   a.usajobs-landing-anniversary__link {
