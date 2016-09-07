@@ -11,9 +11,10 @@ tags: [search, save, support-search-save]
 You can save a search to help you look for jobs in your area of interest. When you save a search, USAJOBS will automatically look for jobs that match the keywords and other criteria in your search. We will email you, daily, weekly or monthly, when there are new jobs that match what you’re looking for.
 
 * You can create and save up to 10 saved searches—a saved search will expire one year after you create it.
+* You can sign up to receive daily, weekly or monthly email notifications.
 * You can [manage your saved searches in your account](#manage-saved-searches-in-your-account).
 
-### To save a job search
+### To save a job search and sign up for email notifications
 
 1.	Sign into your USAJOBS account. If you don’t have an account, you need to create one. Only signed in users can save their search.
 2.	Start a job search by entering a keyword or location in the search box and click **Search**. You can also choose the **Advanced Search** option to narrow your results.
