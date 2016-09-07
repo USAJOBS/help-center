@@ -33,6 +33,7 @@ All documents must be less than 3MB in size and in one of the following document
 * PNG
 * RTF
 * PDF
+* TXT
 * Word (.doc or .docx)
 
 ### How do I upload a document that's larger than 3MB? 
