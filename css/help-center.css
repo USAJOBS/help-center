@@ -2707,6 +2707,12 @@ body {
   font-size: 44px;
 }
 
+@media screen and (max-height: 320px) {
+  .usajobs-help-center-timeline-panel__year {
+    font-size: 24px;
+  }
+}
+
 .usajobs-help-center-timeline-panel__prior, .usajobs-help-center-timeline-panel__sub-title {
   font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   font-weight: 100;
@@ -2716,6 +2722,12 @@ body {
   font-size: 22px;
   margin-top: 0;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (max-height: 320px) {
+  .usajobs-help-center-timeline-panel__prior, .usajobs-help-center-timeline-panel__sub-title {
+    font-size: 19px;
+  }
 }
 
 @media screen and (min-width: 48em) {
@@ -2745,6 +2757,12 @@ body {
 @media screen and (min-width: 30em) {
   .usajobs-help-center-timeline-panel__event-title {
     display: inherit;
+  }
+}
+
+@media screen and (max-height: 320px) {
+  .usajobs-help-center-timeline-panel__event-title {
+    display: none;
   }
 }
 
@@ -2847,6 +2865,12 @@ body {
   }
 }
 
+@media screen and (max-height: 320px) {
+  .usajobs-help-center-timeline-panel__img {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 48em) {
   .usajobs-help-center-timeline-panel__img {
     max-width: 100%;
@@ -2862,6 +2886,13 @@ body {
   max-width: 22rem;
 }
 
+@media screen and (max-height: 320px) {
+  .usajobs-help-center-timeline-panel__img-container img,
+  .usajobs-help-center-timeline-panel__img-container .usajobs-help-center-timeline-panel__img {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 48em) {
   .usajobs-help-center-timeline-panel__img-container img,
   .usajobs-help-center-timeline-panel__img-container .usajobs-help-center-timeline-panel__img {
@@ -2871,6 +2902,12 @@ body {
 
 .usajobs-help-center-timeline-panel__img-container img.mini {
   max-width: 10rem;
+}
+
+@media screen and (max-height: 320px) {
+  .usajobs-help-center-timeline-panel__img-container img.mini {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 48em) {
@@ -2896,6 +2933,12 @@ body {
 @media screen and (min-width: 30em) {
   .usajobs-help-center-timeline-panel__shade {
     display: inherit;
+  }
+}
+
+@media screen and (max-height: 320px) {
+  .usajobs-help-center-timeline-panel__shade {
+    display: none;
   }
 }
 
@@ -2935,6 +2978,12 @@ body {
   display: block;
   padding: 3rem 0 0;
   text-align: center;
+}
+
+@media screen and (max-height: 320px) {
+  .usajobs-help-center-timeline-panel__return {
+    max-width: 10rem;
+  }
 }
 
 .usajobs-help-center-timeline-panel.panel-1 {

@@ -34,6 +34,10 @@ body {
     font-style: normal;
     color: $color-white;
     font-size: $h1-font-size;
+
+    @include media(max-height 320px) {
+      font-size: $h3-font-size;
+    }
   }
 
   &__prior,
@@ -46,6 +50,10 @@ body {
     font-size: ($h1-font-size / 2);
     margin-top: 0;
     margin-bottom: $size-default;
+
+    @include media(max-height 320px) {
+      font-size: $h4-font-size;
+    }
 
     @include media($ML) {
       font-size: $h1-font-size;
@@ -69,6 +77,10 @@ body {
 
     @include media($SM) {
       display: inherit;
+    }
+
+    @include media(max-height 320px) {
+      display: none;
     }
 
     @include media($ML) {
@@ -148,6 +160,10 @@ body {
       max-width: rem(440px);
     }
 
+    @include media(max-height 320px) {
+      display: none;
+    }
+
     @include media($ML) {
       max-width: 100%;
     }
@@ -160,6 +176,10 @@ body {
     .usajobs-help-center-timeline-panel__img {
       max-width: rem(220px);
 
+      @include media(max-height 320px) {
+        display: none;
+      }
+
       @include media($ML) {
         max-width: 100%;
       }
@@ -167,6 +187,10 @@ body {
 
     img.mini {
       max-width: rem(100px);
+
+      @include media(max-height 320px) {
+        display: none;
+      }
 
       @include media($ML) {
         max-width: 100%;
@@ -189,6 +213,10 @@ body {
 
     @include media($SM) {
       display: inherit;
+    }
+
+    @include media(max-height 320px) {
+      display: none;
     }
 
     &.top {
@@ -228,6 +256,10 @@ body {
     display: block;
     padding: $size-M 0 0;
     text-align: center;
+
+    @include media(max-height 320px) {
+      max-width: rem(100px);
+    }
   }
 }
 
