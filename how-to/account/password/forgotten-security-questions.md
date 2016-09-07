@@ -9,7 +9,7 @@ category: account
 tags: [password, reset, tips, security, questions, support-password]
 ---
 
-If you’ve forgotten your secret questions, please contact the USAJOBS Support Desk:
+If you’ve forgotten your security questions, please contact the USAJOBS Support Desk:
 
 1. Fill out the **Contact Us** form at the bottom of the page.
 2. Select the **Sign In/Password** as the Topic.
