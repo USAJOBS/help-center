@@ -13,16 +13,15 @@ You can save a search to help you look for jobs in your area of interest. When y
 * You can create and save up to 10 saved searches—a saved search will expire one year after you create it.
 * You can [manage your saved searches in your account](#manage-saved-searches-in-your-account).
 
-### To save a search
+### To save a job search
 
 1.	Sign into your USAJOBS account. If you don’t have an account, you need to create one. Only signed in users can save their search.
 2.	Start a job search by entering a keyword or location in the search box and click **Search**. You can also choose the **Advanced Search** option to narrow your results.
-3.	Click **Save current Search** on the search results page located on the left side of the page under the [search filters](../filters/).
-4.	Confirm how you want to search for keywords (similar to, exact match etc.).
-5.	Enter additional search criteria if you want—the more information you add, the more specific your results will be.
-6.	Name your search—this will help you manage your saved searches.
-7.	Choose how often you want to receive an email notification with all jobs that match your search.
-8.	Click **Save Search** or **Save and View Results**.
+3.	Click **Save This Search** on the search results page located on the left side of the page under the search filters.
+4.	Enter additional search criteria if you want—the more information you add, the more specific your results will be.
+5.	Name your search—this will help you manage your saved searches.
+6.	Choose how often you want to receive an email notification with all jobs that match your search. We recommend daily if you’re looking for very specific positions since some announcements can open and close within a week.  If you select daily, you’ll receive one email per day IF new jobs have been posted that match your criteria in the last 24 hours.
+7.	Click **Save Search** or **Save and View Results**. By clicking **Save and View Results**, you can see if the saved search returns the results you want.  If not, you can [edit the saved search](#edit-your-saved-search).
 
 ## Manage saved searches in your account
 
