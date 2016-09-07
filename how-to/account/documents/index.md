@@ -65,5 +65,7 @@ All documents must be less than 3MB in size and in one of the following document
 
 If you make changes to a document, the updated version of the file will need to be uploaded to your account.  However, some forms can’t be edited, except for the file name or document type.
 
+[How do I upload a document that's larger than 3MB](upload/#how-do-I-upload-a-document-that's-larger-than-3MB)?
+
 
 
