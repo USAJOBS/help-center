@@ -54,7 +54,7 @@ Click the **+** to see more details about the saved job. Each saved job shows a 
 
 ### Apply, view more or remove saved jobs
 
-Within the saved jobs details you can also apply, [remove](remove/), or view more similar jobs.
+Within the saved jobs details you can also apply, [remove](../remove/), or view more similar jobs.
 
 ### What if I don't see a saved job in my account?
 
