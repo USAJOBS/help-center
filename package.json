@@ -27,6 +27,7 @@
   },
   "homepage": "http://usajobs.github.io/Help/",
   "devDependencies": {
+    "broken-link-checker": "^0.7.3",
     "clean-css": "^3.4.19",
     "grunt": "^1.0.1",
     "grunt-autoprefixer": "^3.0.4",

@@ -2,7 +2,7 @@
 permalink: /how-to/account/access/
 layout: article-exposed-form
 section: how-to
-title: How can I access my account when the email address on my account in no longer valid?
+title: How can I access my account when the email address on my account is no longer valid?
 breadcrumb: Regain access
 category: account
 tags: [password, regain, email, access, support-password]
@@ -14,5 +14,4 @@ tags: [password, regain, email, access, support-password]
 
 The USAJOBS Help Desk will send you an email, to the email address you can access, asking for the answers to your security questions. You must reply to the help desk with your answers to regain access to your account.
 
-After you reply to the help desk, they will update the email address in your account and send you another email to your new email address with directions to reset your password. 
-
+After you reply to the help desk, they will update the email address in your account and send you another email to your new email address with directions to reset your password.
