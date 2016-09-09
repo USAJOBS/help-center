@@ -2704,12 +2704,18 @@ body {
   font-weight: bold;
   font-style: normal;
   color: #ffffff;
-  font-size: 44px;
+  font-size: 34px;
 }
 
 @media screen and (max-height: 320px) {
   .usajobs-help-center-timeline-panel__year {
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 37.5em) {
+  .usajobs-help-center-timeline-panel__year {
+    font-size: 44px;
   }
 }
 
@@ -2740,6 +2746,13 @@ body {
 
 .usajobs-help-center-timeline-panel__sub-title {
   margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width: 37.5em) {
+  .usajobs-help-center-timeline-panel__sub-title {
+    font-size: 24px;
+  }
 }
 
 @media screen and (min-width: 48em) {
@@ -2883,13 +2896,20 @@ body {
 
 .usajobs-help-center-timeline-panel__img-container img,
 .usajobs-help-center-timeline-panel__img-container .usajobs-help-center-timeline-panel__img {
-  max-width: 22rem;
+  max-width: 11rem;
 }
 
 @media screen and (max-height: 320px) {
   .usajobs-help-center-timeline-panel__img-container img,
   .usajobs-help-center-timeline-panel__img-container .usajobs-help-center-timeline-panel__img {
     display: none;
+  }
+}
+
+@media screen and (min-width: 37.5em) {
+  .usajobs-help-center-timeline-panel__img-container img,
+  .usajobs-help-center-timeline-panel__img-container .usajobs-help-center-timeline-panel__img {
+    max-width: 22rem;
   }
 }
 
@@ -3058,8 +3078,14 @@ body {
   font-size: 34px;
   font-size: 3.4rem;
   color: #112e51;
-  font-size: 17px;
+  font-size: 1.4rem;
   color: #ffffff;
+}
+
+@media screen and (min-width: 37.5em) {
+  .usajobs-help-center-timeline-panel-stats-bubble__list li {
+    font-size: 17px;
+  }
 }
 
 @media screen and (min-width: 48em) {
@@ -3120,8 +3146,14 @@ body {
 }
 
 .usajobs-ds-home-research-pillars__list .usajobs-ds-home-research-pillars__pillar p.usajobs-ds-home-research-pillars__pillar-desc {
-  font-size: 13px;
+  font-size: 12px;
   margin: 0;
+}
+
+@media screen and (min-width: 30em) {
+  .usajobs-ds-home-research-pillars__list .usajobs-ds-home-research-pillars__pillar p.usajobs-ds-home-research-pillars__pillar-desc {
+    font-size: 13px;
+  }
 }
 
 @media screen and (min-width: 48em) {

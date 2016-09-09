@@ -33,10 +33,14 @@ body {
     font-weight: bold;
     font-style: normal;
     color: $color-white;
-    font-size: $h1-font-size;
+    font-size: $h2-font-size;
 
     @include media(max-height 320px) {
       font-size: $h3-font-size;
+    }
+
+    @include media($M) {
+      font-size: $h1-font-size;
     }
   }
 
@@ -64,6 +68,11 @@ body {
 
   &__sub-title {
     margin-bottom: $size-base;
+    font-size: $base-font-size;
+
+    @include media($M) {
+      font-size: $h3-font-size;
+    }
 
     @include media($ML) {
       margin-bottom: $size-M;
@@ -174,10 +183,14 @@ body {
 
     img,
     .usajobs-help-center-timeline-panel__img {
-      max-width: rem(220px);
+      max-width: rem(110px);
 
       @include media(max-height 320px) {
         display: none;
+      }
+
+      @include media($M) {
+        max-width: rem(220px);
       }
 
       @include media($ML) {
@@ -325,8 +338,12 @@ body {
 
   &__list li {
     @include h2();
-    font-size: ($h2-font-size / 2);
+    font-size: $small-font-size;
     color: $color-white;
+
+    @include media($M) {
+      font-size: ($h2-font-size / 2);
+    }
 
     @include media($ML) {
       font-size: $h3-font-size;
@@ -362,8 +379,12 @@ $pillar-body-padding: $size-default;
       }
 
       p.usajobs-ds-home-research-pillars__pillar-desc {
-        font-size: $h6-font-size;
+        font-size: $h3-font-size / 2;
         margin: 0;
+
+        @include media($SM) {
+          font-size: $h6-font-size;
+        }
 
         @include media($ML) {
           font-size: $base-font-size;

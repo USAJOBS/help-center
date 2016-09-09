@@ -549,47 +549,12 @@
       </main>
     </div>
       <!--[if lt IE 9]>
-    <script src="/Help/js/vendor/selectivizr-min.js"></script>
-    <script src="/Help/js/vendor/respond.min.js"></script>
-    <script src="/Help/js/vendor/rem.min.js"></script>
+    <script src="/js/vendor/selectivirz-min.js"></script>
+    <script src="/js/vendor/respond.min.js"></script>
+    <script src="/js/vendor/rem.min.js"></script>
   <![endif]-->
-  <script src="/Help/js/usajobs-help-center.js"></script>
+  <script src="/js/usajobs-help-center.js"></script>
   <script src="/Help/js/usajobs-help-center-components.js"></script>
-
-
-
-
-
-
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
-    <article>
-      <a class="usajobs-help-center-search__result" href="/Help{{ url }}">
-        {{title}}
-      </a>
-    </article>
-  {{/entries}}
-  {{^entries}}
-  <p>Sorry, no help articles where found.</p>
-  <h4>Search Suggestions</h4>
-  <ul>
-    <li>Check your spelling.</li>
-    <li>Try using different, or more general, keywords.</li>
-  </ul>
-  {{/entries}}
-</script>
-
-
-<script type="text/javascript">
-  $(function() {
-    $('#search-query').lunrSearch({
-      indexUrl: '/Help/js/index.json',   // Url for the .json file containing search index data
-      results : '#search-results',  // selector for containing search results element
-      entries : '.entries',         // selector for search entries containing element (contained within results above)
-      template: '#search-results-template'  // selector for Mustache.js template
-    });
-  });
-</script>
 
   </body>
 </html>
