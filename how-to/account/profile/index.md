@@ -17,4 +17,4 @@ click the **Continue to Profile** button. Complete all the required fields withi
 1. Contact
 2. Eligibility
 3. Demographics
-4. Other
+4. Preferences
