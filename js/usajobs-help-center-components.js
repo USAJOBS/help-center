@@ -75,7 +75,22 @@ $help.on('help.open', function(event, opts) {
   }
 });
 
-var $help_accordion = $('[data-object="help-accordion"]');
+var $help_accordion = $('[data-object="help-accordion"]'),
+  hideContentByDefault = function () {
+    var $drawers = $help_accordion.find('[data-behavior="help-accordion.toggle"]'),
+      drawer_state;
+
+    $.each($drawers, function (idx, drawer) {
+      drawer_state = $(drawer).attr('aria-expanded');
+
+      if (drawer_state === 'false') {
+        $help_accordion.find('#' + $(drawer).attr('aria-controls')).hide();
+      }
+    });
+  };
+
+// Hide drawer contents that should be hidden by default
+hideContentByDefault();
 
 $help_accordion.on('click', '[data-behavior]', function (event) {
   var $el = $(this),
