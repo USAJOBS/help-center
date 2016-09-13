@@ -1,5 +1,5 @@
 ---
-permalink: /how-to/contact-usajobs/
+permalink: /contact/
 layout: article-no-aside
 section: how-to
 title: How to contact USAJOBS
@@ -10,11 +10,13 @@ exclude_from_search: true
 tags: [contact, help, support]
 ---
 
-First, try to find the answer to your question in our **FAQs**, **How To’s** or **Working in Government** sections.
-
+First, try to find the answer to your question in our FAQs, How To’s, or Working in Government help articles.
 If you can’t find the answer to your question and still need help:
 
-1. Click the **Contact us** button located on the right hand side, or at the bottom, of every Help Center page. A **Contact us** form will appear at the bottom of the page.
-2. Fill out the form and click **Send**.
+1.	Scroll to the bottom of any Help Center page.
+2.	Click the **Still need help? Contact us button**.
+3.	Fill out the form and click **Send**.
 
-We'll get back to you within one business day, once you submit the form. If you don’t hear back from us after one business day, check your email SPAM or junk folder.
+Once you submit the form, we will get back to you within one business day.
+
+The USAJOBS Support Desk is available Monday through Friday, 7am – 8pm EST; Saturday and Sunday, 8am – 4pm EST (excluding federal holidays). USAJOBS does not provide direct phone support. The contact form will allow you to send an email to the Help Desk where you can request assistance by phone or email.

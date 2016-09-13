@@ -3,32 +3,54 @@
 @import 'base-shared';
 
 .usajobs-help-center-article {
+  @include clearfix();
+
+  // Override of the US Standards on lists. It really does odd things inside of articles.
+  ul,
+  ol {
+    margin-bottom: $size-S;
+  }
+
+  blockquote {
+    padding: 0 $size-default;
+    color: $color-gray;
+    border-left: 4px solid $color-gray-light;
+  }
+
   &__container {
     max-width: $article-max-width;
   }
   // Fix for lack of design system lists in prod
-  .usajobs-content-well ul {
-    @include bulletList();
-  }
+  .usajobs-content-well {
+    @include media($L) {
+      min-height: 50vh;
+    }
 
-  .usajobs-content-well ul,
-  .usajobs-content-well ol {
-    margin-left: 0.9em;
-  }
+    ul {
+      @include bulletList();
+    }
 
-  .usajobs-content-well a {
-    text-decoration: underline;
+    ul,
+    ol {
+      margin-left: .9em;
+      margin-bottom: $size-S;
+    }
+
+    a {
+      text-decoration: underline;
+    }
   }
 
   &__related {
-    margin-top: rem(89px);
+    margin-top: $size-L;
   }
 
-  &__related-list {
+  .usajobs-help-center-article__related-list {
     @include unstyledList();
+    margin-bottom: $size-L;
 
     > li {
-      margin-bottom: 0.75em;
+      margin-bottom: .75em;
     }
 
     > li > a {
@@ -60,15 +82,41 @@
     }
   }
 
-  // Override of the US Standards on lists. It really does odd things inside of articles.
-  ul,
-  ol {
-    margin-bottom: $size-S;
+  &__reveal-contact-us {
+    margin-top: $size-default;
+  }
+}
+
+.usajobs-help-center-article-contact {
+  @include clearfix();
+  margin-bottom: $size-XXL;
+
+  &__list {
+    @include unstyledList();
   }
 
-  blockquote {
-    padding: 0 $size-default;
-    color: $color-gray;
-    border-left: 4px solid $color-gray-light;
+  &__form-container[aria-hidden=true] {
+    display: none;
+  }
+
+  .usajobs-help-center-article-contact__button {
+    padding: $size-M $size-default;
+    background-color: $color-gray;
+    background-image: inherit;
+    color: $color-white;
+    font-size: $h3-font-size;
+
+    &:hover {
+      background-color: $color-gray-dark;
+      color: $color-white;
+    }
+
+    .usa-button {
+      font-size: $base-font-size;
+
+      @include media($SM) {
+        margin-left: $size-default;
+      }
+    }
   }
 }

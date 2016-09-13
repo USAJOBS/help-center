@@ -2,9 +2,12 @@
 <div class="usajobs-content-gutter usajobs-help-center-article-contact">
   <ul class="usa-accordion usajobs-help-center-article-contact__list">
     <li>
-      <button class="usa-accordion-button usajobs-help-center-article-contact__button" aria-expanded="false" aria-controls="contact-us-form">
-        <i class="fa fa-comment-o"></i>
-        Still need help? <strong>Contact the USAJOBS Support Desk</strong>.
+      <button class="usa-accordion-button usajobs-help-center-article-contact__button" aria-expanded="false" aria-controls="contact-us-form" data-behavior="help-article.contact-event">
+        Still need help?
+        <span class="usa-button usa-button-big usa-button-outline-inverse">
+          <i class="fa fa-envelope"></i>
+          Contact us
+        </span>
       </button>
       <div id="contact-us-form" class="usajobs-help-center-article-contact__form-container">
         <h2>Contact us</h2>
@@ -16,6 +19,7 @@
         </p>
         <form name="example" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
           <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+          <input type="hidden" id="SelectedContactReason" name="SelectedContactReason" value="{{ page.permalink }} - {{ page.breadcrumb }}">
           {% unless page.long-form %}
             {% include components/article/contact-form-default.html %}
           {% else %}
