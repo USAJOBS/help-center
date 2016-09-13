@@ -20,6 +20,7 @@
   &__container {
     max-width: $article-max-width;
   }
+
   // Fix for lack of design system lists in prod
   .usajobs-content-well {
     @include media($L) {
@@ -38,6 +39,14 @@
 
     a {
       text-decoration: underline;
+    }
+
+    &.has-exposed-form {
+      margin-bottom: $size-default;
+
+      @include media($L) {
+        min-height: inherit;
+      }
     }
   }
 

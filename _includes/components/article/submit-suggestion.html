@@ -1,0 +1,47 @@
+<div class="usajobs-content-gutter usajobs-help-center-article-contact">
+  <div id="contact-us-form" class="usajobs-help-center-article-contact__form-container">
+    <form name="example" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
+      <span class="usajobs-form__legend">All fields are required</span>
+      <fieldset class="usajobs-help-center-contact-us">
+        <input data-val="true" data-val-required="The ViewID field is required." id="ViewID" name="ViewID" type="hidden" value="3046296f-e40e-495e-bfb6-12d22bd1a32e">
+        <input type="hidden" id="SelectedContactReason" name="SelectedContactReason" value="{{ page.permalink }} - {{ page.breadcrumb }}">
+
+        <!-- First name -->
+        <div class="required-input">
+          <label for="FirstName" class="usajobs-help-center-contact-us__label-first">First name</label>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+          <input data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="" required>
+        </div>
+
+        <!-- Last name -->
+        <div class="required-input">
+          <label for="LastName">Last name</label>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+          <input data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="" required>
+        </div>
+
+        <!-- Email address -->
+        <div class="required-input">
+          <label for="EmailAddress">Primary email address</label>
+          <span class="field-validation-valid usa-input-error-message" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+          <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" required>
+        </div>
+
+        <div class="required-input">
+          <label class="labeltext" for="Comment">Suggestion</label>
+          <span class="usa-input-error-message field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
+          <textarea class="form-control usajobs-help-center-contact-us__question" cols="40" data-val="true" data-val-length="Suggestion must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" data-val-required="Suggestion is required." id="Comment" maxlength="2000" name="Comment" rows="5" required></textarea>
+          <p class="usajobs-form__help-brief usajobs-help-center-contact-us__comment-count" id="CommentCount">(2000 characters remaining)</p>
+        </div>
+      </fieldset>
+
+      <div class="usajobs-button_bar-container">
+        <div class="usajobs-button_bar--slim">
+          <div class="usajobs-button_bar__body">
+            <input type="submit" class="usa-button-big usa-button-primary usajobs-button_bar__save" value="Send" id="btn-send" name="SendButton">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

@@ -2017,6 +2017,16 @@ html {
   text-decoration: underline;
 }
 
+.usajobs-help-center-article .usajobs-content-well.has-exposed-form {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-article .usajobs-content-well.has-exposed-form {
+    min-height: inherit;
+  }
+}
+
 .usajobs-help-center-article__related {
   margin-top: 4.5rem;
 }
