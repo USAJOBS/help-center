@@ -1,8 +1,0 @@
-*.html merge=ours
-sitemap.xml merge=ours
-js/*.js merge=ours
-js/components/*.js merge=ours
-js/index.json merge=ours
-css/*.css merge=ours
-css/*.css.map merge=ours
-
