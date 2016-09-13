@@ -14,7 +14,7 @@ tags: [application, status, tips, support-application-status]
 4.	The application status is highlighted next to each job application.
 5.	Click the **+** to see more application details.
 
-You can also [filter your applications by status](#how-to-filter-applications).
+You can also [find and filter your applications](#how-to-find-and-filter-applications).
 
 ## What does each status mean?
 
