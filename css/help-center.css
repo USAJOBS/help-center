@@ -2131,6 +2131,10 @@ html {
   display: none;
 }
 
+.usajobs-help-center-article-contact__form-container {
+  max-width: 60rem;
+}
+
 .usajobs-help-center-article-contact__form-container[aria-hidden=true] {
   display: none;
 }

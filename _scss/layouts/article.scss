@@ -104,8 +104,12 @@
     @include unstyledList();
   }
 
-  &__form-container[aria-hidden=true] {
-    display: none;
+  &__form-container {
+    max-width: $article-max-width;
+
+    &[aria-hidden=true] {
+      display: none;
+    }
   }
 
   .usajobs-help-center-article-contact__button {
