@@ -49,16 +49,16 @@ You must provide information about your pay, series and grade level if you’re 
 [Learn more about series and grade levels](../../../../../faq/pay/series-and-grade/).
 
 
-## Are you a retiree receiving a Federal annuity
+## Are you a retiree receiving a federal annuity
 Select **Yes** if you’re a federal retiree receiving annuity benefits. If you’re receiving a federal annuity and then accept a new position, it may affect your annuity payments. [Learn more about federal annuity](https://www.opm.gov/retirement-services/my-annuity-and-benefits/){:target="_blank"}.
 
-## Have you accepted a buyout from a Federal agency within the past 5 years?
+## Have you accepted a buyout from a federal agency within the past 5 years?
 Some federal agencies may offer a buyout, also called a Voluntary Separation Incentive Payment (VSIP), to employees if the agency needs to downsize or restructure.
 
 If you’ve accepted a buyout from a federal agency and then accept a new paid position with a federal agency within 5 years of the buyout, you’ll be required to pay the entire amount back to the agency that gave you the buyout (before you start the new job). [Learn more about buyouts](https://www.opm.gov/policy-data-oversight/workforce-restructuring/voluntary-separation-incentive-payments/){:target="_blank"}.
 
 
-## Additional Resources
+## Additional resources
 
 * [Working in Government - Federal Employees](../../../../../working-in-government/unique-hiring-paths/federal-employees/)
 
