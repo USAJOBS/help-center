@@ -1,13 +1,9 @@
 var $article = $('[data-object="help-article"]'),
   fireEvent = function (action, label) {
-    window.console.log('FIRED GA event: ' + action + ' with label: ' + label);
-
-    ga('send', {
-      hitType: 'event',
-      eventCategory: 'helpcenter',
-      eventAction: action,
-      eventLabel: label
-    });
+    if (window.ga && ga.create) {
+      var trackerName = ga.getAll()[0].get('name');
+      ga(trackerName + '.send', 'event', 'helpcenter', action, label);
+    }
   };
 
 $article.on('click', '[data-behavior]', function (event) {
@@ -29,19 +25,26 @@ $article.on('click', '[data-behavior]', function (event) {
 });
 
 $article.on('help-article.contact', function(event, opts) {
-  opts.target.slideDown(function () {
-    opts.target.siblings('button').trigger('click');
-    $('html, body').animate({
-      scrollTop: opts.target.offset().top
-    });
-    fireEvent('select', 'USAJOBS_' + window.location.pathname);
-  });
+  opts.target.siblings('button').trigger('click');
+  fireEvent('select', 'USAJOBS_' + window.location.pathname);
 });
 
 $article.on('help-article.contact-event', function(event, opts) {
   if (opts.el.attr('aria-expanded') === 'false') {
+    opts.target.slideUp(function () {
+      $('html, body').animate({
+        scrollTop: opts.object.offset().top
+      });
+    });
+
     fireEvent('close', 'USAJOBS_' + window.location.pathname);
   } else {
+    opts.target.slideDown(function () {
+      $('html, body').animate({
+        scrollTop: opts.target.offset().top
+      });
+    });
+    
     fireEvent('open', 'USAJOBS_' + window.location.pathname);
   }
 });
