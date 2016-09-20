@@ -4,7 +4,22 @@ var $article = $('[data-object="help-article"]'),
       var trackerName = ga.getAll()[0].get('name');
       ga(trackerName + '.send', 'event', 'helpcenter', action, label);
     }
+  },
+  hideContentByDefault = function () {
+    var $drawers = $article.find('[data-behavior="help-article.contact-event"]'),
+      drawer_state;
+
+    $.each($drawers, function (idx, drawer) {
+      drawer_state = $(drawer).attr('aria-expanded');
+
+      if (drawer_state === 'false') {
+        $article.find('#' + $(drawer).attr('aria-controls')).hide();
+      }
+    });
   };
+
+// Hide drawer contents that should be hidden by default
+hideContentByDefault();
 
 $article.on('click', '[data-behavior]', function (event) {
   var $el = $(this),
@@ -44,7 +59,7 @@ $article.on('help-article.contact-event', function(event, opts) {
         scrollTop: opts.target.offset().top
       });
     });
-    
+
     fireEvent('open', 'USAJOBS_' + window.location.pathname);
   }
 });

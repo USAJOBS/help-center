@@ -119,6 +119,10 @@
     color: $color-white;
     font-size: $h3-font-size;
 
+    &[aria-expanded=false] {
+      background-image: inherit;
+    }
+
     &:hover {
       background-color: $color-gray-dark;
       color: $color-white;
