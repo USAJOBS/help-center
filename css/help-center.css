@@ -2147,6 +2147,10 @@ html {
   font-size: 24px;
 }
 
+.usajobs-help-center-article-contact .usajobs-help-center-article-contact__button[aria-expanded=false] {
+  background-image: inherit;
+}
+
 .usajobs-help-center-article-contact .usajobs-help-center-article-contact__button:hover {
   background-color: #323a45;
   color: #ffffff;
