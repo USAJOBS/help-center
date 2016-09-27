@@ -10,10 +10,11 @@ exclude_from_search: true
 tags: [contact, help, support]
 ---
 
-First, try to find the answer to your question in our FAQs, How To’s, or Working in Government help articles.
+First, try to find the answer to your question in our [FAQs](../../faq/), [How To’s](../), or [Working in Government](../../working-in-government/) help articles.
+
 If you can’t find the answer to your question and still need help:
 
-1.	Scroll to the bottom of any Help Center page.
+1.	Scroll to the bottom of this page (or any Help Center page).
 2.	Click the **Still need help? Contact us button**.
 3.	Fill out the form and click **Send**.
 
