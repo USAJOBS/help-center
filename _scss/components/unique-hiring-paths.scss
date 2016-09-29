@@ -77,20 +77,15 @@ $body-padding: $size-M;
     padding-bottom: $size-default;
     font-size: $h2-font-size;
     text-align: center;
-  }
 
-  &__icon {
     &.federal-employees,
     &.ses {
       @include makeCircle(68px, none, $color-primary-darkest);
     }
 
     &.federal-employees .fa::before {
-      margin-right: rem(-4px);
-    }
-
-    &.federal-employees .fa::before {
       margin-top: rem(-3px);
+      margin-right: rem(-4px);
     }
 
     &.veterans,
@@ -98,10 +93,8 @@ $body-padding: $size-M;
       @include makeCircle(68px, none, $color-green);
     }
 
-    &.military-spouses {
-      .fa {
-        font-size: $h3-font-size;
-      }
+    &.military-spouses .fa {
+      font-size: $h3-font-size;
     }
 
     &.students {
