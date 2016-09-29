@@ -1021,11 +1021,8 @@ html {
 }
 
 .usajobs-unique-hiring-paths__icon.federal-employees .fa::before {
-  margin-right: -0.4rem;
-}
-
-.usajobs-unique-hiring-paths__icon.federal-employees .fa::before {
   margin-top: -0.3rem;
+  margin-right: -0.4rem;
 }
 
 .usajobs-unique-hiring-paths__icon.veterans, .usajobs-unique-hiring-paths__icon.military-spouses {
