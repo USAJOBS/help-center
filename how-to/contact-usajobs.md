@@ -14,7 +14,7 @@ First, try to find the answer to your question in our [FAQs](../faq/), [How Toâ€
 
 If you canâ€™t find the answer to your question and still need help:
 
-1.	Scroll to the bottom of this page (or any Help Center page).
+1.	Scroll to the bottom of any Help Center article.
 2.	Click the **Still need help? Contact us button**.
 3.	Fill out the form and click **Send**.
 
