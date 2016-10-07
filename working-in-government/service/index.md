@@ -32,7 +32,7 @@ The Senior Executive Service (SES) is the corps of executives, selected for thei
 Special non-competitive appointing authorities are established by law or Executive Order. Agencies may use a variety of appointing authorities to hire job applicants. Examples of appointing authorities:
 
 * [Direct-Hire authority](https://www.opm.gov/policy-data-oversight/hiring-information/direct-hire-authority/)
-* [Disabled appointing authority](https://www.opm.gov/policy-data-oversight/disability-employment/)
+* [People with disabilities](https://www.opm.gov/policy-data-oversight/disability-employment/)
 * [30% Disabled Veterans appointing authority](https://www.opm.gov/policy-data-oversight/hiring-information/veterans-authorities/)
 
 Veterans, individuals with disabilities, many current and former federal employees, and returning Peace Corps volunteers are all examples of individuals eligible for [non-competitive appointment](../appointments/).
