@@ -2024,6 +2024,12 @@ html {
   }
 }
 
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-article .usajobs-content-well.usajobs-content-well--exposed-form {
+    min-height: inherit;
+  }
+}
+
 .usajobs-help-center-article__related {
   margin-top: 4.5rem;
 }

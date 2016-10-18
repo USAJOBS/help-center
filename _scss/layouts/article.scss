@@ -50,6 +50,12 @@
     }
   }
 
+  .usajobs-content-well.usajobs-content-well--exposed-form {
+    @include media($L) {
+      min-height: inherit;
+    }
+  }
+
   &__related {
     margin-top: $size-L;
   }
