@@ -9,6 +9,7 @@
     </p>
     <form name="example" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
       <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+      <input type="hidden" id="SelectedContactReason" name="SelectedContactReason" value="{{ page.permalink }} - {{ page.breadcrumb }}">
       {% unless page.long-form %}
         {% include components/article/contact-form-default.html %}
       {% else %}
