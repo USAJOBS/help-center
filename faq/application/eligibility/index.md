@@ -14,7 +14,7 @@ Federal agencies typically seek candidates from one of the **three following eli
 
 ## 1. New candidates
 
-Candiates who are new to the Federal Government and have no prior federal employment.
+Candidates who are new to the Federal Government and have no prior federal employment.
 
 * [Non-Citizens](../../../working-in-government/non-citizens/)
 * [U. S. Citizens](../../../working-in-government/us-citizens/)

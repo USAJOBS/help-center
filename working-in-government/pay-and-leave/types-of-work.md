@@ -18,7 +18,7 @@ Use the **Advanced Search** function to elect if you are looking for a: permanen
 
 **Temporary** - A position lasting one year or less, with a specific expiration date. Typically used to fill a short-term position due to reorganization, cancellation, or the completion of a specific project or peak workload; or to fill positions that involve intermittent (irregular) or seasonal (recurring annually) work schedules.
 
-**Term** - A postion lasting more than one year but less than four years, with a specific expiration date. Term appointments may be used for project work; extraordinary workload; scheduled cancellation of a position; reorganization; uncertainty of future funding; or contracting out of the function.
+**Term** - A position lasting more than one year but less than four years, with a specific expiration date. Term appointments may be used for project work; extraordinary workload; scheduled cancellation of a position; reorganization; uncertainty of future funding; or contracting out of the function.
 
 **Detail** - A temporary employee to a different position for a specific time, with the employee returning to his or her regular duties at the end of the detail.
 
@@ -43,4 +43,3 @@ Use the **Advanced Search** function to elect if you are looking for a: permanen
 * Student
 
 **Intermittent** - Occurring at irregular intervals; not continuous or steady.
-

@@ -16,7 +16,7 @@ A new General Schedule (GS) employee is entitled to have pay set at step 1 of th
 
 ## If you have previous civilian service in the Federal Government
 
-A reemployed GS employee is entitled to have pay set at step 1 of the grade. An agency may use the [maximum payable rate rule](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/maximum-payable-rate-rule/) or the [superior qualifications and special needs pay-setting authority](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/superior-qualifications-and-special-needs-pay-setting-authority/) to set pay up to step 10. Contact the employing agency for information about its policy.
+A re-employed GS employee is entitled to have pay set at step 1 of the grade. An agency may use the [maximum payable rate rule](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/maximum-payable-rate-rule/) or the [superior qualifications and special needs pay-setting authority](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/superior-qualifications-and-special-needs-pay-setting-authority/) to set pay up to step 10. Contact the employing agency for information about its policy.
 
 ## How is pay set for an employee who isn’t under the General Schedule?
 

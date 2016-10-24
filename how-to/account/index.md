@@ -33,5 +33,4 @@ To help with these precautions, please follow these tips:
 * Your USAJOBS account password should be something only you know, and should not be shared with anyone, even family members.
 * The e-mail address associated with your USAJOBS account should be personal and private, controlled by only you and not shared with anyone, even family members. Avoid using e-mail addresses that are issued and managed by another party or organization - .gov/.mil or a corporate e-mail account.
 * Choose security questions and answers that only you know the answer to, and that cannot be easily guessed by someone else.
-* Periodic password resets may enhance the security of your account. If you suspect that someone knows your USAJOBS username and password, you can change your password using the self-service password reset function by clicking ForgotPassword
-
+* Periodic password resets may enhance the security of your account. If you suspect that someone knows your USAJOBS username and password, you can change your password using the self-service password reset function by clicking **Forgot Password**
