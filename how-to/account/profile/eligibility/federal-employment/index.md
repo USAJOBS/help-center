@@ -49,7 +49,7 @@ You must provide information about your pay, series and grade level if you’re 
 [Learn more about series and grade levels](../../../../../faq/pay/series-and-grade/).
 
 
-## Are you a retiree receiving a federal annuity
+## Are you a retiree receiving a federal annuity?
 Select **Yes** if you’re a federal retiree receiving annuity benefits. If you’re receiving a federal annuity and then accept a new position, it may affect your annuity payments. [Learn more about federal annuity](https://www.opm.gov/retirement-services/my-annuity-and-benefits/){:target="_blank"}.
 
 ## Have you accepted a buyout from a federal agency within the past 5 years?
