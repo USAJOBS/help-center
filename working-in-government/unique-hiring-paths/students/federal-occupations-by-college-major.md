@@ -35,7 +35,7 @@ You may begin your federal job search on USAJOBS by searching using the four-dig
 * Transportation Operations Series 2150
 * Marine Cargo Series 2161
 
-### Acuarial Science
+### Actuarial Science
 
 * Actuarial Science Series 1510*
 
@@ -503,7 +503,7 @@ You may begin your federal job search on USAJOBS by searching using the four-dig
 
 * Geophysics Series 1313*
 
-### Global Businesss Management
+### Global Business Management
 
 * Trade Specialist Series 1140
 
