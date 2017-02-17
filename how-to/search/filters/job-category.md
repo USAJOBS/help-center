@@ -1,19 +1,7 @@
 ---
 permalink: /how-to/search/filters/job-category/
-layout: article
+layout: article-redirect
 section: how-to
-title: How to filter results by job category
-breadcrumb: Job category
-category: Filters
-tags: [search, filters, job category]
+title: How to filter by job category
+redirect: /how-to/search/filters/series/
 ---
-
-Use this filter to limit results to one or more job categories.
-
-## Occupational series & job categories
-
-Occupations in the Federal Government are designated professional (general schedule) or trade, crafts, or labor (wage grade), and are further categorized and defined by series and/or grade. You can [search by occupational series and job category in advanced search](../../advanced/occupational-series/).
-
-## Additional resources
-
-* [How to search by occupational series and job cateogry](../../advanced/occupational-series/)
