@@ -38,4 +38,4 @@ A step is a raise in salary. Most grades in the Federal government have 10 steps
 ## Additional resources
 
 * [Salaries & Wages](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
-* [How to search by occupational series and job category](../../../how-to/search/advanced/occupational-series/)
+* [How to search by occupational series](../../../how-to/search/filters/series/)

@@ -63,7 +63,7 @@ You can search for jobs by keyword, occupation or job category, agency, location
 The USAJOBS help center offers step-by-step tutorials on how to use all of the search functions.
 
 * [Learn how to search for jobs](../how-to/search/)
-* [Understand the different job categories](../how-to/search/advanced/occupational-series/)
+* [Understand the different job categories](../how-to/search/filters/series/)
 
 #### You can save searches and receive notifications
 
@@ -100,13 +100,3 @@ Once your application is ready, you’ll be transferred to the hiring agency app
 You can check the status of your application in your USAJOBS account—your account will show your job application history.
 
 [Understand your application status](../how-to/application/status/).
-
-
-
-
-
-
-
-
-
-

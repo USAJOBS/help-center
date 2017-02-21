@@ -10,13 +10,14 @@ tags: [search, basic, filters]
 
 On the search results page you can filter your results using the following criteria:
 
-* [Department & Agency](department-and-agency/)
-* [Exclusion](exclude/)
-* [Job category](job-category/)
+* [Agency](agency/)
+* [Appointment type](appointment-type/)
+* [Department](department/)
+* [Hiring path](hiring-path/)
 * [Location](location/)
-* [Pay Grade](pay-grade/)
-* [Posting date](posting-date/)
-* [Salary](salary)
-* [Who may apply](who-may-apply/)
-* [Work schedule](work-schedule)
-* [Work types](work-type/)
+* [Pay](pay/)
+* [Security clearance](security-clearance/)
+* [Series](series/)
+* [Travel percentage](travel-percentage/)
+* [Work schedule](work-schedule/)
+* [Zero job openings](zero-job-openings/)

@@ -13,10 +13,8 @@ To stop receiving saved search email notifications:
 1. Sign into your USAJOBS account.
 2. Go to your **Saved Searches**.
 3. Click the **+** next to a saved search to see more details.
-4. Click **Edit**. You will go to the advanced search filters.
-5. Scroll to the bottom of the filters to the **Save this Search** section.
-6. Select the "Never – don’t email but save for later" option.
-7. Click **Save Search**.
+4. Click **View results?**. You will go to the search results page.
+5. At the top of the results...
 
 ## Additional information
 
