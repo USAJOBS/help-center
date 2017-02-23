@@ -7,13 +7,15 @@ category: Filters
 tags: [search, filters, who may apply, hiring path]
 ---
 
-Some federal jobs are open to the general public &mdash; meaning any U.S. citizen can apply. But, some federal jobs are only open to eligible current or former federal civilian employees or people who may be eligible under a unique hiring path. You can filter your job search results to only show you jobs that meet your specific eligibility criteria.
+Some federal jobs are open to the general public &mdash; meaning any U.S. citizen can apply. But, some federal jobs are only open to eligible current or former federal civilian employees or people who may be eligible under a unique hiring path. You can filter your job search results to only show you jobs that meet your specific eligibility criteria. You can filter by one or more hiring paths.
 
-### Open to the Public
+If you fall under one of the groups listed below, you may or may not be eligible for each job listed in your search results. You must read the **Who May Apply** section of the job announcement to determine if you’re eligible to apply.
 
-If you select this option, you will only see jobs open to the public.
+### Open to the public
 
-Select this option if you’ve never worked for the federal government and you are a:
+If you select this option, you will only see jobs open to the general public.
+
+Select this option if you’ve never worked for the federal government and you're a:
 
 * U.S. citizen or
 * National or individual who owes allegiance to the U.S.
@@ -26,9 +28,9 @@ Most federal jobs require you to be a [U.S. citizen](../../../../working-in-gove
 
 ### Federal employees
 
-If you select this option, you’ll see jobs open to the general public AND jobs that are only open to the eligible groups listed below. You may see jobs that you can’t apply for based on eligibility. For example, some agencies may post a job that is only open to current agency employees.
+Select this option to see jobs open to current or former federal employees. You may also see jobs open to current agency employees – an agency may post a job that is only open to current agency employees. You must read the **Who May Apply** section to find out if you’re eligible to apply.
 
-Select this option if you are:
+Select this option if you're:
 
 #### A current or former federal civilian employee
 
@@ -37,21 +39,54 @@ Select this option if you are:
 * In an [excepted service](../../../../working-in-government/service/) position covered by an [interchange agreement](../../../../working-in-government/unique-hiring-paths/federal-employees/interchange-agreements/).
 * Eligible for [reinstatement](../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
 
-#### A Veteran
+As a current of former federal employee, you can also apply to jobs that are open to the public.
 
-* Eligible for [veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or separated from the armed forces under honorable conditions after three years ,or more, of continuous military service.
+[Learn more about the federal employee hiring path](../../../../working-in-government/unique-hiring-paths/federal-employees/).
 
-#### An individual who falls under one of the following groups:
+### Veterans
+Select this option if you're:
 
-* Military spouses
-* Former overseas employees
-* Individuals with a disability
-* Peace Corp or AmeriCorps VISTA Alumni
+* Eligible for [veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or 
+* Separated from the armed forces under honorable conditions after three years or more, of continuous military service.
 
-If you fall under one of the groups listed above, you may or may not be eligible for each job listed in your search results.  You must read the **Who May Apply** section of the job announcement to determine if you are eligible to apply.
+[Learn more about the veterans’ hiring path](../../../../working-in-government/unique-hiring-paths/veterans/).
+
+### Students and recent graduates
+If you’re a current student or have recently graduated in the past two years, you may be eligible for federal internships and job opportunities through the Pathways Program.  Select this option to see internships and Pathways Program jobs.
+
+[Learn more about the students and recent graduates hiring path](../../../../working-in-government/unique-hiring-paths/students/).
+
+### Individuals with disabilities
+If you’re an individual with a disability you can apply and compete for any job that you’re eligible for and meet the qualifications.  However, some jobs offer the Schedule A hiring path.  Schedule A gives federal agencies an optional, potentially faster, way to hire individuals with disabilities. Select this option to see jobs that offer the Schedule A hiring path.
+
+[Learn more about the individuals with a disability hiring path](../../../../working-in-government/unique-hiring-paths/individuals-with-disabilities/).
+
+### Former overseas employees
+If you're a family member of a federal employee, or uniformed service member, who has completed 52 weeks of service in a federal position overseas, you may be eligible to apply for competitive service positions or those open to merit promotion. Select this option to see jobs open to former overseas employees.
+
+[Learn more about former overseas employees hiring path](../../../../working-in-government/unique-hiring-paths/former-overseas-employees/).
+
+### Land management
+Select this option if you want to see jobs open to current or former time-limited federal employees under the Land Management Workforce Flexibility Act.
+
+### Military spouses
+If you’re a military spouse, you may be eligible to apply to competitive service positions. You must meet specific requirements to be eligible for this hiring path.  Select this option if you want to see jobs open to military spouses.
+
+[Learn more about the military spouse hiring path](../../../../working-in-government/unique-hiring-paths/military-spouses/).
+
+### National Guard
+Select this option if you want to see jobs open to current National Guard members or transitioning military service members.
+Native Americans. Select this option if you want to see jobs open to people with a tribal affiliation.
+
+### Peace Corps and Vista
+If you’ve served at least two years with Peace Corps or one year with AmeriCorps VISTA you may qualify for non-competitive eligibility.
+[Learn more about the Peace Corps and AmeriCorps VISTA hiring path](../../../../working-in-government/unique-hiring-paths/peace-corps/).
+
+### Senior Executives
+The Senior Executive Service (SES) consists of executive positions classified above General Schedule (GS) grade 15 or equivalent positions in most Executive Branch agencies of the Federal Government. You must meet the five Executive Core Qualifications to be eligible for these jobs. Select this option if you want to see jobs open to the Senior Executive Service. 
+[Learn more about the Senior Executive hiring path](../../../../working-in-government/unique-hiring-paths/senior-executives/).
 
 Learn more about [which jobs you are eligible to apply for](../../../../faq/application/eligibility/).
-
 
 ## Additional resources
 
