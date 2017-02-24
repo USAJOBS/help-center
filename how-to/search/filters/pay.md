@@ -8,25 +8,31 @@ category: Filters
 tags: [search, filters, pay grade]
 ---
 
-Use this filter to limit results to one or more pay grade range.
+You can filter your search results by salary or pay grade.
 
 ## Salary Range
 
-Use **salary** to search for jobs that fall within a specific salary range.
+Typically there is a minimum and maximum salary for every job – federal agencies determine a salary based on their pay setting rules (the pay grade or other pay schedule) and your qualifications.
 
-Salary range is the minimum and maximum amount of pay within a pay grade or pay band for that position. Federal agencies offer pay for a position depending on their pay setting rules and your qualifications. If you’re new to the government, your pay will likely be set at the minimum salary for the pay grade or band for which you are selected.
+Each job announcement will display a starting salary.  When you filter by a salary range, we’ll show you all of the jobs that have a starting salary within that range. You may see multiple GS grades and pay schedules in your results. 
 
+### Hourly wage
+Some federal jobs offer hourly wages. When you filter by salary, we convert the hourly wages to annual salaries and show you any hourly jobs that fall within your salary range.
 
-## Pay Grade/General Schedule
+## Pay Grade
+A  General Schedule (GS) pay grade is one of many pay systems in the Federal Government. A GS pay grade is a rate of basic pay based on the specific level of work or range of difficulty, responsibility, and qualifications. 
 
-A pay grade is a rate of basic pay associated with a specific level of work or range of difficulty, responsibility, and qualification requirements. The GS pay schedule has 15 pay grades and 10 steps in each grade covering more than 400 occupations.
+The GS pay schedule has 15 pay grades and 10 steps in each grade. A salary can vary within a pay grade depending if you’re at step 1 (the starting salary) or step 10 (the maximum salary). If you’re new to the government, your pay will likely be set at the starting salary for the pay grade and step for which you are selected.
 
-Use **pay grade** (GS) to look for jobs that fall within a specific pay grade range. For example, to search for positions that fall within the GS-9 and GS-12 levels, select 9 as the low value and 12 as the high value.
-
-The Federal Government classifies job announcements by the General Schedule (GS) pay system as well as other pay systems. In your search results, you may see jobs that are outside of the GS pay system, but equivalent in salary to GS positions.
-
+When you search by a GS grade or range of grades, we’ll show you jobs that match the grade(s) and any non-GS jobs that are equivalent in salary. For example, to search for jobs that fall within the GS 9 and GS 12 levels, click GS 9 and then click GS 12. We’ll show you all jobs that are GS 9, GS 10, GS 11 or GS 12.
 
 [Learn more about federal salaries and pay grades](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/){:target="_blank"}.
+
+## Additional resources
+
+* [Locality pay area definitions](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/locality-pay-area-definitions/){:target="_blank"}
+* [Pay & Leave](../../../../working-in-government/pay-and-leave/)
+
 
 
 ## Show Only Senior Executive Postings
