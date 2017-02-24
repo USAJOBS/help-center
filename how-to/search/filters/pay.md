@@ -35,12 +35,4 @@ When you search by a GS grade or range of grades, we’ll show you jobs that mat
 
 
 
-## Show Only Senior Executive Postings
 
-Select the **Show Only Senior Executive Postings** option to search for all Senior Executive Service opportunities that meet your search criteria. [Learn more about the Senior Executive Service program](https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/senior-executives/){:target="_blank"}.
-
-
-## Additional resources
-
-* [Locality pay area definitions](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/locality-pay-area-definitions/){:target="_blank"}
-* [Pay & Leave](../../../../working-in-government/pay-and-leave/)
