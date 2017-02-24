@@ -15,6 +15,7 @@ You can save a search to help you look for jobs in your area of interest. When y
 * You can [manage your saved searches in your account](#manage-saved-searches-in-your-account).
 
 ## To save a job search and sign up for email notifications:
+
 1.	Sign into your USAJOBS account. If you don’t have an account, you need to create one. Only signed in users can save their search.
 2.	Start a job search by entering a keyword or location in the search box and click **Search**. 
 3.	Narrow your results using filters.
@@ -25,7 +26,8 @@ You can save a search to help you look for jobs in your area of interest. When y
 
 ## Manage saved searches in your account
 You can manage your saved searches in the Saved Searches section of your account. You can have both active and archived saved searches.
-1.	Sign into your USAJOBS account and go to Saved Searches.
+
+1.	Sign into your USAJOBS account and go to **Saved Searches**.
 2.	Click the **+** next to a saved search to see more details. From here you can:
 
 ### Run your saved search
@@ -41,7 +43,7 @@ Click **Edit search criteria** to change your keywords, location or filters. You
 You can update how often you want to receive emails with your saved search results. Click **Edit notifications settings** to change your notifications to daily, weekly, monthly or turn them off.
 
 ### Delete your saved search
-You can only delete saved searches from your archived list. Go to your archived saved searches and click the + next to the saved search you want to delete. Click **Delete** located under the **Unarchive Search** button.
+You can only delete saved searches from your archived list. Go to your archived saved searches and click the **+** next to the saved search you want to delete. Click **Delete** located under the **Unarchive Search** button.
 
 If you delete a saved search, it will be removed from your account and you’ll no longer receive email notifications with those search results.
 
