@@ -8,7 +8,7 @@ category: Filters
 tags: [search, filters, travel, percentage]
 ---
 
-You can filter your search results by the amount of travel the job requires.  Read the Travel Required section in each job announcement to understand the travel requirements.
+You can filter your search results by the amount of travel the job requires.  Read the **Travel Required** section in each job announcement to understand the travel requirements.
 
 1.	Go to **More Filters**.
 2.	Scroll down to **Travel Percentage**.
