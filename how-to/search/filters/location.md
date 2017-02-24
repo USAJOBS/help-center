@@ -17,7 +17,7 @@ To search for a job by location:
 Your location(s) will display above your search results.  
 
 ## Add and remove locations
-You can search on multiple locations at the same time – just enter another location in the Location search box (you can only enter one at a time). To remove a location, click on the x next to the location you want to remove. Your search results will update every time you add or remove a location. 
+You can search on multiple locations at the same time – just enter another location in the **Location** search box (you can only enter one at a time). To remove a location, click on the x next to the location you want to remove. Your search results will update every time you add or remove a location. 
 
 ## Change the distance within a location
 When you search by a city, we automatically show you jobs within a 25-mile radius. Go to **More Filters** to change the radius. We do not use a radius if you search by state or country.
