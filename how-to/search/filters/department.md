@@ -8,4 +8,13 @@ category: Filters
 tags: [search, filters, department]
 ---
 
-Use this filter to limit results to one or more departments or agencies. Clicking or tapping a department name will reveal a list of agencies that can be selected in order to filter your search results.
+You can search for jobs within a specific department.
+
+1.	Go to **Top Filters** located on the right side of the search results page.
+2.	Scroll down and click **Department and Agency**.
+3.	Use the A-Z list to find the department(s) – we only show departments with available jobs.
+4.	Select the checkbox next to each department you want to search. You can select more than one.
+
+Your search results will update automatically as you select each department.
+
+You can also search by department using the search keyword box. 
