@@ -45,7 +45,7 @@ You can update how often you want to receive emails with your saved search resul
 ### Delete your saved search
 You can only delete saved searches from your archived list. Go to your archived saved searches and click the **+** next to the saved search you want to delete. Click **Delete** located under the **Unarchive Search** button.
 
-If you delete a saved search, it will be removed from your account and you’ll no longer receive email notifications with those search results.
+If you delete a saved search, we'll remove it from your account and you’ll no longer receive email notifications with those search results.
 
 ### Archive your saved search
 Click **Archive** to move the saved search to your archived list. You may want to archive a saved search if you’re no longer interested in the search, but you don’t want to delete it.
