@@ -26,7 +26,7 @@ Temporary appointments have a set time-limit and include the following:
 ## Student 
 * **Internship** – A job for current students (paid and unpaid) to learn about federal careers while remaining in school.
 * **Recent graduate** – A job for recent graduates seeking a career development program.
-* **Summer** – Jobs available during the summer months. Usually for students.
+* **Summer** – A job available during the summer months and is usually for students.
 
 ## Additional resources
 
