@@ -17,4 +17,4 @@ You can search for jobs within a specific department.
 
 Your search results will update automatically as you select each department.
 
-You can also search by department using the search keyword box. 
+You can also use the keyword search box to search by department. 
