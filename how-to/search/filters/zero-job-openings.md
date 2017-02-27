@@ -15,6 +15,6 @@ You may want to set up a saved search including filters with 0 jobs openings bec
 
 For example, there are some jobs that are only available at certain times of the year, such as a Presidential Management Fellow.  If you want to find a Presidential Management Fellow (PMF) job, but there are none available yet, you can set up a saved search using that filter. If a new PMF job is posted, we’ll email you with a link to updated search results.
 
-## Additional Resources
+[Learn how to set up email notifications for jobs not yet posted](../../../../faq/search/job/not-posted).
 
 
