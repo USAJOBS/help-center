@@ -8,7 +8,10 @@ category: Search
 tags: [search, students, internships]
 ---
 
-To find internships:
+The Federal Government offers internships through the Pathways Program.
 
-1. Visit the [Pathways program page](https://www.usajobs.gov/StudentsAndGrads/) and click on **Find Internships**.
-2. Navigate to our [search](https://www.usajobs.gov/Search/) and [search by appointment type](../../../how-to/search/filters/appointment-type/). One of the types is "Internships". You may also search for jobs open to "Recent Graduates".
+There are several ways to search USAJOBS for current internship opportunities:
+
+* Go to the [Student and Recent Graduates]((https://www.usajobs.gov/StudentsAndGrads/) page and click **Search Internship Jobs**. Or
+* Type “internship” into the keyword search box on USAJOBS. Or
+* Use the internship filter on the search results page – go to **More Filters** and then to **Appointment type** and select **Internship**.
