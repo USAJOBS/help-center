@@ -27,7 +27,7 @@ Once you create your account, you can search for jobs.
 
 It’s best to sign into your account before doing a search. Why?  Because, we can use your profile information to improve your job search results.
 
-You can use filters such as location, pay, work schedule, or agency to narrow your search results. [Learn how to search for jobs](../../../how-to/search/).
+Start your job search by typing in a keyword or location. You can narrow your results by salary, work schedule, agency and more.   [Learn how to search for jobs](../../../how-to/search/).
 
 ### Save your search
 
@@ -35,9 +35,10 @@ After you’ve entered your search criteria, let us do the searching for you. Wh
 
 ## 3. Review job announcement
 
-Once you find a job you’re interested in, review the announcement to determine if you’re eligible and meet the qualifications. Read the entire job announcement before starting your application—for each job there are specific qualifications you must meet and include in your application.
+Once you find a job you’re interested in, review the announcement to find out if you’re eligible and meet the qualifications. Read the entire job announcement before starting your application—for each job there are specific qualifications you must meet and include in your application.
 
-Read the **Who May Apply** section to determine if you’re eligible to apply for the position.  Read the **Qualifications** section to see if you meet the qualifications of the position. [Understand the job announcement](../../../how-to/job-announcement/).
+* Read the **Who May Apply** section to see if you’re eligible to apply for the position.  
+* Read the **Qualifications** section to see if you meet the qualifications of the position. [Understand the job announcement](../../../how-to/job-announcement/).
 
 If you have questions about the job, contact the agency representative listed at the bottom of the announcement.
 
@@ -52,11 +53,11 @@ Once your application is ready, you’ll be sent from USAJOBS to the agency appl
 * Providing more personal information.
 * Providing more documentation.
 * Answering eligibility questions.
-* Completing an occupational questionnaire.
+* Completing an occupational questionnaire – look for a preview of the questions under the **Required documents** section.
 
 The time it takes to submit an application depends on the job you’re applying for and the agency's requirements.
 
-After you submit your application, go back to your USAJOBS account and make sure the hiring agency received your application. You can see status updates in the **Application** section of your account.
+After you submit your application, go back to the **Application** section of your USAJOBS account and make sure the hiring agency received your application. Your application status will say **Received** if the application went through.
 
 ### How long will it take to receive an updated status?
 It may take a few hours after you complete your application for the agency to update your application status.
@@ -64,18 +65,18 @@ You may also receive an email confirmation from the agency application system, b
 
 ## 6. Agency reviews application
 
-Once the job announcement is closed, the hiring agency will review your application to make sure you’re eligible and meet the qualifications for the position. The hiring agency will place applicants into quality categories:
+Once the job announcement is closed, the hiring agency will review your application to make sure you’re eligible and meet the job qualifications. The hiring agency will place applicants into quality categories:
 
 * Minimum qualified
 * Highest qualified
 
-The hiring agency may update your application status to Reviewed, but not all agencies provide this status.
+The hiring agency may update your application status to **Reviewed**, but not all agencies provide this status.
 
 After all applications are reviewed, the hiring agency will send the highest qualified applicants to the hiring official—these applicants will see a **Referred** status in their application status. All other applicants (not being considered) will see a **Not Referred** status.
 
 ## 7. Interview
 
-The hiring official will review applications and select the applicants to interview based on agency policy. Hiring officials can interview applicants using:
+The hiring official will review applications and decide who to interview based on agency policy. Hiring officials can interview applicants using:
 
 * A panel
 * In-person
