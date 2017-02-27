@@ -11,7 +11,7 @@ tags: [search, students, part-time, work schedule]
 You can search for part-time work using the search filters that appear on the right side of the search results page.
 On the search results page:
 
-1.	Click on **More Filters**.
+1.	Click **More Filters**.
 2.	Go to **Work schedule**.
 3.	Select **Part-time**.  
 
