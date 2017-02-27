@@ -8,7 +8,7 @@ category: Filters
 tags: [search, filters, security, clearance]
 ---
 
-You can filter your search results by the type of security clearance the job requires.  Read the Security Clearance section in each job announcement to find out the required security clearance.
+You can filter your search results by the type of security clearance the job requires.  Read the Security Clearance section in each job announcement to find out the required security clearance to understand what's required.
 
 1.	Go to **More Filters**.
 2.	Scroll down to **Security Clearance**.
