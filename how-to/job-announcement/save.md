@@ -8,21 +8,21 @@ category: Job Announcement
 tags: [job announcement, support-saved-jobs]
 ---
 
-You can save up to 25 job announcements in your USAJOBS account.
+You need to have a USAJOBS account and be signed in to saave a job. You can save up to 25 job announcements in your account.
 
 To save a job:
 
 1.	Sign into your USAJOBS account.
-2.	Search for a job by typing a keyword or location into the search box.
+2.	Search for a job by typing a keyword or location into the search box or run a saved search if you have one.
 3.	Review the job search results.
-4.	Click the **Save Job** link next to the job title for each job you want to save.
+4.	Click **Save Job** or the star icon next to the job title for each job you want to save. The link will change to **Saved** and the star will be filled in. This means the job is saved.
 5.	Review your saved jobs in the **Saved Jobs** section of your account.
 
-You may also save and remove jobs to and from your saved jobs list when you are viewing a job announcement.
+You can also save a job when you're vieweing a job announcement -- look for the same yellow star and click **Save**.
 
 ## Manage your saved jobs in your account
 
-The **Saved Jobs** section of your account displays each job announcement you save on USAJOBS. You must sign into your account to see all of your saved jobs. Here’s what you can do:
+The **Saved Jobs** section of your account displays each job you save on USAJOBS. You must sign into your account to see all of your saved jobs. Here’s what you can do:
 
 ### Sort your saved jobs
 
@@ -35,7 +35,7 @@ By default, the most recent saved jobs are listed at the top, but you can **Sort
 
 ### Receive email notifications
 
-You can receive an email any time a saved job is scheduled to close in three calendar days. To receive email notifications, click on the **Notifications** icon and select the checkbox.
+You can sign up to receive an email any time a saved job is scheduled to close in three calendar days. To receive email notifications, click on the **Notifications** icon and select the checkbox.
 
 ### View job announcement information
 
