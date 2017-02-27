@@ -12,10 +12,10 @@ To create an application on USAJOBS:
 
 <ol>
   <li>Sign into your USAJOBS account.</li>
-  <li>Ensure all four sections of your <strong>Profile</strong> are up-to-date. During the application process some of this information is sent to the agency.</li>
-  <li>Find the job announcement for which you would like to apply. You can use Basic, Advanced, Map, or your <strong>Saved Searches</strong> to find job announcements.</li>
+  <li>Make sure all four sections of your Profile (Contact, Eligibility, Demographics and Preferences) are up-to-date. During the application process some of this information is sent to the hiring agency.</li>
+  <li>Find the job announcement you want to apply to – you can search for jobs by keyword or location, or use your <strong>Saved Searches</strong>.</li>
   <li>Thoroughly review the job announcement, including the <strong>How to Apply</strong> and <strong>Required Documents</strong> sections.</li>
-  <li>Select <strong>Apply Online</strong>. The USAJOBS application process will guide you through five steps:
+  <li>Click <strong>Apply</strong>. The USAJOBS application process will guide you through five steps:
     <ol>
       <li><strong>Select Resume</strong></li>
       <li><strong>Select Documents</strong></li>
@@ -24,7 +24,7 @@ To create an application on USAJOBS:
       <li><strong>Continue Application with Agency</strong></li>
     </ol>
   </li>
-  <li>During the final step, you will be asked  to certify that your application is true, complete, and made in good faith. If you answer YES, check the box and select <strong>Continue to Agency Site</strong>. Select <strong>Previous</strong> if you would like to go back to review or edit your information.</li>
+  <li>During the final step, you'll be asked  to certify that your application is true, complete, and made in good faith. If you answer YES, check the box and click <strong>Continue to Agency Site</strong>. Select <strong>Previous</strong> if you'd like to go back to review or edit your information.</li>
 </ol>
 
-Once you select **Continue to Agency Site**, you will be sent to the agency application system where additional steps may be required.
+Once you select **Continue to Agency Site**, you'll be sent to the agency application system where you may have to complete additional steps.
