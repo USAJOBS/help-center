@@ -8,16 +8,23 @@ category: Filters
 tags: [search, basic, filters]
 ---
 
-On the search results page you can filter your results using the following criteria:
+On the search results page you can refine your results using the filters located on the right hand side of the page.
 
-* [Agency](agency/)
-* [Appointment type](appointment-type/)
-* [Department](department/)
-* [Hiring path](hiring-path/)
-* [Location](location/)
-* [Pay](pay/)
-* [Security clearance](security-clearance/)
-* [Series](series/)
-* [Travel percentage](travel-percentage/)
-* [Work schedule](work-schedule/)
-* [Zero job openings](zero-job-openings/)
+You can select one or many filters and your results will update automatically as you select each one. The number in parenthesis tells you the number of available jobs for that filter.  When you select a filter, it will appear above your search results – click the x to remove it from your search. 
+
+**Top filters** include:
+
+* [Hiring path](hiring-path/) – who is eligible and may apply to the job.
+* [Pay](pay/) – salary or GS grade level.
+* [Department](department/) - a specific department
+* [Agency](agency/) – a specific agency.
+* [Series](series/) – a unique identifier for job occupations and categories.
+* [Zero job openings](zero-job-openings/) - a way to see filters with no current job openings.
+
+**More filters** include:
+
+* [Location distance](location/) –.the distance from a city – the default is 25-miles.
+* [Work schedule](work-schedule/) – full-time, part-time, job share and more.
+* [Appointment type](appointment-type/) – permanent, temporary, internships and more.
+* [Security clearance](security-clearance/) – the different levels of security clearance 
+* [Travel percentage](travel-percentage/) – how often you’ll need to travel.
