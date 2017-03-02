@@ -5,5 +5,11 @@
   <head>
     {% include prod-head.html %}
   </head>
-  <body onload="window.location='{{ page.redirect }}';"></body>
+  <body>
+    <div class="usajobs-help-center">
+      <script>
+        window.location="{{ site.baseurl }}{{ page.redirect }}";
+      </script>
+    </div>
+  </body>
 </html>
