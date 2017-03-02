@@ -6,16 +6,6 @@
     <input data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="" required>
   </div>
 
-  <!-- Address -->
-  <div class="required-input">
-    <label for="Address" id="AddressLabel">Address</label>
-    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="Address" data-valmsg-replace="true"></span>
-    <input data-val="true" data-val-length="Address must be less than 100 characters." data-val-length-max="100" id="Address" name="Address" maxlength="100" type="text" value="" aria-required="true" required>
-    <p class="usajobs-form__help-brief">
-      Full home or mailing address including city and state.
-    </p>
-  </div>
-
   <!-- Last name -->
   <div class="required-input">
     <label for="LastName">Last name</label>
@@ -28,6 +18,16 @@
     <label for="Username" id="UsernameLabel">Username</label>
     <span class="field-validation-valid usa-input-error-message" data-valmsg-for="Username" data-valmsg-replace="true"></span>
     <input data-val="true" data-val-length="Username must be between 8 and 20 characters" data-val-length-max="20" data-val-length-min="8" data-val-regex="Username must contain at least one letter (i.e. can’t be all numbers), and may only contain the following special characters: underscore(_), ampersand(&amp;), and period(.)." data-val-regex-pattern="^[a-zA-Z0-9\x5F\x2E\x26]*[a-zA-Z]+[a-zA-Z0-9\x5F\x2E\x26]*" data-val-required="Username is required." id="Username" name="Username" type="text" maxlength="20" value="" required aria-required="true" autocomplete="username">
+  </div>
+
+  <!-- Address -->
+  <div class="required-input">
+    <label for="Address" id="AddressLabel">Address</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="Address" data-valmsg-replace="true"></span>
+    <input data-val="true" data-val-length="Address must be less than 100 characters." data-val-length-max="100" id="Address" name="Address" maxlength="100" type="text" value="" aria-required="true" required>
+    <p class="usajobs-form__help-brief">
+      Full home or mailing address including city and state.
+    </p>
   </div>
 
   <!-- Email address -->
