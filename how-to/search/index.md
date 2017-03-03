@@ -28,7 +28,7 @@ On the search results page, you can filter your results using multiple criteria,
 * [Work schedule](filters/work-schedule/)
 * [Appointment type](filters/appointment-type/)
 * [Security clearance](filters/security-clearance/)
-* [Travel percentage](filters/travel/)
+* [Travel percentage](filters/travel-percentage/)
 
 [Learn more about filters](filters/).
 
