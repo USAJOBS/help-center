@@ -8,34 +8,33 @@ category: pay
 tags: [pay, series, grade]
 ---
 
-Series and grade refers to the Federal government's system for categorizing and defining jobs. If you have never worked in the Federal government, you do not have to enter a series or grade on your resume for previous, non-government jobs. Upon application, however, you may be prompted to pick the highest grade you desire or are eligible for.
+Series and grade is the Federal Government’s system for categorizing and defining jobs. The series  is a numbered system for grouping similar occupations.  For example, a Nurse is part of the 0610 series.  A ‘grade’ refers to the [General Schedule (GS) pay scale](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) – it’s the pay level for the job.  The higher the grade level, the higher the pay. The GS pay schedule is the most common pay schedule, but there are others, including the [wage scale](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/federal-wage-system/) and [special rates](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/special-rates-requests/).
 
-The [GS pay schedule](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) provides the base schedule and schedules by state. You may also view the [wage scale schedules](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/federal-wage-system/).
-
+If you’ve never worked in the Federal Government, you don’t have to include a series or grade on your resume for previous, non-government jobs. However, when you apply, you might have to say the highest grade you’d like, or are eligible for. 
 
 ## Determining which grade is appropriate
 
 ### Just starting out
 
-If you are just starting out, you can qualify for jobs at the GS-2 level with a high school diploma or as little as 3 months of general work experience. At GS-3 and GS-4 levels, you can qualify with more months of general experience. Starting at GS-5, jobs generally require 1 year of specialized experience to qualify.
+If you’re just starting out in the workforce, and you have a high school diploma or as little as three months of general work experience, you can qualify for jobs at the GS-2.  If you have more months of general experience, you can qualify for the GS-3 and GS-4 levels. Starting at GS-5, jobs generally require 1 year of specialized experience to qualify.
 
 ### Graduates
 
-When you have a degree but no specialized experience in a career field, you are eligible for appointment at the GS-5 pay scale. (If you maintained a B average, or met other academic credentials in college, you can start out at the GS-7 pay scale.)
+When you have a degree but no specialized experience in a career field, you’re eligible for the GS-5 jobs. You can qualify for GS-7 jobs, if you maintained a B average, or met other academic credentials in college.
 
 ### Experience
 
-To qualify for jobs at the GS-7 and higher grades, your background must have included experience closely related to the work to be performed in the job for which you are applying
+To qualify for jobs at the GS-7 and higher grades, you must have specific work experience related to the job you want and its responsibilities.
 
 ### Advanced degree
 
-You can qualify for GS-9 positions on the basis of a master’s degree, and for GS-11 positions on the basis of a doctorate.
+You can qualify for GS-9 positions if you have a master’s degree, and for GS-11 positions if you have a doctorate.
 
 ## Steps
 
-A step is a raise in salary. Most grades in the Federal government have 10 steps.
+A “step” is a raise in salary. In the GS pay scale, each grade has 10 steps.
 
 ## Additional resources
 
+* [Pay systems](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/)
 * [Salaries & Wages](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
-* [How to search by occupational series](../../../how-to/search/filters/series/)
