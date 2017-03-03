@@ -8,11 +8,21 @@ category: Filters
 tags: [search, filters, series]
 ---
 
-Occupations in the Federal Government are designated professional (general schedule) or trade, crafts, or labor (wage grade), and are further categorized and defined by series and/or grade. Following is a list of the occupational "families" and a description of what types of positions are included in each.
+The Federal Government categorizes occupations as professional or trade, crafts or labor. These groups are further categorized into “series” – a family of similar occupations.  
+
+You can filter your results by series if you know what type of job you want.
+
+1.	Go to **More Filters**.
+2.	Scroll down to **Series**.
+3.	Select the series you’re looking for – you can select more than one.
+
+Your search results will update automatically as you select each filter. 
+
+Below is a description of the types of jobs in each series.
 
 ## Professional occupations
 
-The following job families are classified as Professional Occupations. These are positions whose primary duty requires knowledge or experience of an administrative, clerical, scientific, artistic, or technical nature and is not related to trade, craft, or manual labor work.
+Professional occupations are positions whose primary duty requires knowledge or experience of an administrative, clerical, scientific, artistic, or technical nature and is not related to trade, craft, or manual labor work. 
 
 ### 0000 – Miscellaneous Occupations
 
@@ -109,7 +119,7 @@ Administrative positions that involve managing, supervising, leading, administer
 
 ## Trade, Craft, or Labor
 
-The following job families are classified as Trade, Craft or Labor. These are positions whose primary duty involves the performance of physical work and requires knowledge or experience of a trade, craft, or manual labor nature.
+Trade, craft or labor positions involve the performance of physical work and require knowledge or experience of a trade, craft, or manual labor nature. 
 
 ### 2500 – Wire Communications Equipment Installation and Maintenance
 
