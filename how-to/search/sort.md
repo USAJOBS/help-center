@@ -8,7 +8,7 @@ category: Search
 tags: [search, sort, results]
 ---
 
-You can arrange your results by using the Sort by drop down menu located in the upper right corner above your search results. You can sort by:
+You can arrange your results by using the **Sort by** drop down menu located in the upper right corner above your search results. You can sort by:
 
 ## Relevance
 By default, we display the most relevant jobs at the top. 
