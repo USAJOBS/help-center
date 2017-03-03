@@ -23,7 +23,7 @@ Shift-work requires coverage 24 hours per day, and sometimes 7 days per week.  A
 An intermittent job requires you to work from time to time – there is no set schedule.  This is not the same as a part-time job.
 
 ## Job sharing
-A job share job requires you to share a full-time job with another employee.  You and the other employee share the full-time job responsibilities and receive salary and benefits on a pro-rata basis. Each job sharer can work up to 32 hours per week. 
+A job share job requires you to share a full-time job with another employee.  You and the other employee share the full-time job responsibilities and receive salary and benefits on a pro-rated basis. Each job sharer can work up to 32 hours per week. 
 
 ## Multiple
 A job with multiple work schedules usually means there is more than one position that can be filled and the work schedules may vary. 
