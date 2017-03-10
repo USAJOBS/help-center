@@ -1002,11 +1002,24 @@ html {
   border-radius: 50%;
   color: #ffffff;
   background-color: #e31c3d;
-  box-shadow: inset 0 0 0 2px none;
+  box-shadow: 0 0 0 2px none inset;
   display: inline-block;
   padding-bottom: 1.5rem;
-  font-size: 34px;
+  font-size: 1.7rem;
   text-align: center;
+  margin-right: 0.5rem;
+  font-size: 34px;
+}
+
+.usajobs-unique-hiring-paths__icon.public {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #02bfe7;
+  box-shadow: 0 0 0 2px none inset;
 }
 
 .usajobs-unique-hiring-paths__icon.federal-employees, .usajobs-unique-hiring-paths__icon.ses {
@@ -1017,12 +1030,12 @@ html {
   border-radius: 50%;
   color: #ffffff;
   background-color: #112e51;
-  box-shadow: inset 0 0 0 2px none;
+  box-shadow: 0 0 0 2px none inset;
 }
 
 .usajobs-unique-hiring-paths__icon.federal-employees .fa::before {
   margin-top: -0.3rem;
-  margin-right: -0.4rem;
+  margin-right: -0.2rem;
 }
 
 .usajobs-unique-hiring-paths__icon.veterans, .usajobs-unique-hiring-paths__icon.military-spouses {
@@ -1033,11 +1046,19 @@ html {
   border-radius: 50%;
   color: #ffffff;
   background-color: #2e8540;
-  box-shadow: inset 0 0 0 2px none;
+  box-shadow: 0 0 0 2px none inset;
 }
 
-.usajobs-unique-hiring-paths__icon.military-spouses .fa {
-  font-size: 24px;
+.usajobs-unique-hiring-paths__icon.military-spouses .fa.is-first {
+  text-indent: 0;
+  top: -2px;
+  left: -4px;
+  opacity: 0.8;
+}
+
+.usajobs-unique-hiring-paths__icon.military-spouses .fa.is-second {
+  text-indent: 0;
+  left: 3px;
 }
 
 .usajobs-unique-hiring-paths__icon.students {
@@ -1048,7 +1069,7 @@ html {
   border-radius: 50%;
   color: #ffffff;
   background-color: #fdb81e;
-  box-shadow: inset 0 0 0 2px none;
+  box-shadow: 0 0 0 2px none inset;
 }
 
 .usajobs-unique-hiring-paths__icon.individuals-with-disabilities {
@@ -1059,7 +1080,56 @@ html {
   border-radius: 50%;
   color: #ffffff;
   background-color: #205493;
-  box-shadow: inset 0 0 0 2px none;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-unique-hiring-paths__icon.peace-corps {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #4c2c92;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-unique-hiring-paths__icon.former-overseas-employees {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #046b99;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-unique-hiring-paths__icon.native-americans {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #5b616b;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-unique-hiring-paths__icon.land-mgmt {
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #494440;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-unique-hiring-paths__icon.military-spouses .fa.is-first {
+  top: -4px;
+  left: -8px;
 }
 
 .usajobs-unique-hiring-paths__link {
@@ -1231,11 +1301,13 @@ html {
 
 .usajobs-uhp-section-nav__icon {
   display: inline-block;
-}
-
-.usajobs-uhp-section-nav__icon {
   width: 3rem;
   color: #e31c3d;
+  text-align: center;
+}
+
+.usajobs-uhp-section-nav__icon.public {
+  color: #02bfe7;
 }
 
 .usajobs-uhp-section-nav__icon.federal-employees, .usajobs-uhp-section-nav__icon.ses {
@@ -1255,12 +1327,40 @@ html {
   color: #2e8540;
 }
 
+.usajobs-uhp-section-nav__icon.military-spouses .fa.is-first {
+  text-indent: 0;
+  top: -2px;
+  left: -4px;
+  opacity: 0.8;
+}
+
+.usajobs-uhp-section-nav__icon.military-spouses .fa.is-second {
+  text-indent: 0;
+  left: 3px;
+}
+
 .usajobs-uhp-section-nav__icon.students {
   color: #fdb81e;
 }
 
 .usajobs-uhp-section-nav__icon.individuals-with-disabilities {
   color: #205493;
+}
+
+.usajobs-uhp-section-nav__icon.peace-corps {
+  color: #4c2c92;
+}
+
+.usajobs-uhp-section-nav__icon.former-overseas-employees {
+  color: #046b99;
+}
+
+.usajobs-uhp-section-nav__icon.native-americans {
+  color: #5b616b;
+}
+
+.usajobs-uhp-section-nav__icon.land-mgmt {
+  color: #494440;
 }
 
 .usajobs-uhp-section-nav__link {
@@ -1769,7 +1869,7 @@ html {
   border-radius: 50%;
   color: #ffffff;
   background-color: #e31c3d;
-  box-shadow: inset 0 0 0 2px none;
+  box-shadow: 0 0 0 2px none inset;
 }
 
 .usajobs-help-center-about-learn-more__social-link .fa-facebook {
@@ -1780,7 +1880,7 @@ html {
   border-radius: 50%;
   color: #ffffff;
   background-color: #0071bc;
-  box-shadow: inset 0 0 0 2px none;
+  box-shadow: 0 0 0 2px none inset;
 }
 
 .usajobs-help-center-about-learn-more__social-link .fa-linkedin {
@@ -1791,7 +1891,7 @@ html {
   border-radius: 50%;
   color: #ffffff;
   background-color: #112e51;
-  box-shadow: inset 0 0 0 2px none;
+  box-shadow: 0 0 0 2px none inset;
 }
 
 .usajobs-help-center-about-learn-more__social-link .fa-twitter {
@@ -1802,7 +1902,7 @@ html {
   border-radius: 50%;
   color: #ffffff;
   background-color: #02bfe7;
-  box-shadow: inset 0 0 0 2px none;
+  box-shadow: 0 0 0 2px none inset;
 }
 
 .usajobs-help-center-about-learn-more__help-sections {
@@ -1823,7 +1923,7 @@ html {
   border-radius: 50%;
   color: #02bfe7;
   background-color: none;
-  box-shadow: inset 0 0 0 2px #02bfe7;
+  box-shadow: 0 0 0 2px #02bfe7 inset;
   box-shadow: inset 0 0 0 3px #02bfe7;
 }
 
@@ -1835,7 +1935,7 @@ html {
   border-radius: 50%;
   color: #2e8540;
   background-color: none;
-  box-shadow: inset 0 0 0 2px #2e8540;
+  box-shadow: 0 0 0 2px #2e8540 inset;
   box-shadow: inset 0 0 0 3px #2e8540;
   margin-left: 6rem;
 }
@@ -1848,7 +1948,7 @@ html {
   border-radius: 50%;
   color: #fdb81e;
   background-color: none;
-  box-shadow: inset 0 0 0 2px #fdb81e;
+  box-shadow: 0 0 0 2px #fdb81e inset;
   box-shadow: inset 0 0 0 3px #fdb81e;
   margin-left: 6rem;
 }
@@ -2557,7 +2657,7 @@ html {
   border-radius: 50%;
   color: #2e8540;
   background-color: none;
-  box-shadow: inset 0 0 0 2px #2e8540;
+  box-shadow: 0 0 0 2px #2e8540 inset;
   box-shadow: inset 0 0 0 3px #2e8540;
   font-size: 5.9rem;
 }
@@ -2570,7 +2670,7 @@ html {
   border-radius: 50%;
   color: #02bfe7;
   background-color: none;
-  box-shadow: inset 0 0 0 2px #02bfe7;
+  box-shadow: 0 0 0 2px #02bfe7 inset;
   box-shadow: inset 0 0 0 3px #02bfe7;
   font-size: 5.9rem;
 }
@@ -2584,7 +2684,7 @@ html {
     border-radius: 50%;
     color: #02bfe7;
     background-color: none;
-    box-shadow: inset 0 0 0 2px #02bfe7;
+    box-shadow: 0 0 0 2px #02bfe7 inset;
     font-size: 3.4rem;
   }
 }
@@ -2597,7 +2697,7 @@ html {
   border-radius: 50%;
   color: #fdb81e;
   background-color: none;
-  box-shadow: inset 0 0 0 2px #fdb81e;
+  box-shadow: 0 0 0 2px #fdb81e inset;
   box-shadow: inset 0 0 0 3px #fdb81e;
   font-size: 5.9rem;
 }
@@ -2611,7 +2711,7 @@ html {
     border-radius: 50%;
     color: #fdb81e;
     background-color: none;
-    box-shadow: inset 0 0 0 2px #fdb81e;
+    box-shadow: 0 0 0 2px #fdb81e inset;
     font-size: 3.4rem;
   }
 }
@@ -2688,7 +2788,7 @@ html {
   border-radius: 50%;
   color: #02bfe7;
   background-color: none;
-  box-shadow: inset 0 0 0 2px #02bfe7;
+  box-shadow: 0 0 0 2px #02bfe7 inset;
   box-shadow: inset 0 0 0 3px #02bfe7;
 }
 
@@ -2700,7 +2800,7 @@ html {
   border-radius: 50%;
   color: #2e8540;
   background-color: none;
-  box-shadow: inset 0 0 0 2px #2e8540;
+  box-shadow: 0 0 0 2px #2e8540 inset;
   box-shadow: inset 0 0 0 3px #2e8540;
 }
 
@@ -2712,7 +2812,7 @@ html {
   border-radius: 50%;
   color: #fdb81e;
   background-color: none;
-  box-shadow: inset 0 0 0 2px #fdb81e;
+  box-shadow: 0 0 0 2px #fdb81e inset;
   box-shadow: inset 0 0 0 3px #fdb81e;
 }
 

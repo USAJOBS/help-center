@@ -60,26 +60,57 @@
 
   </head>
   <body>
-    <a class="skipnav" href="#main-content">Skip main navigation</a>
-    <header class="usajobs-site-header" aria-label="header">
-  <div class="usa-disclaimer">
-    <div class="usa-grid usajobs-disclaimer-official">
-      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/Help/img/us_flag_small.png">
-      <p>An official website of the United States Government</p>
+    <header class="usajobs-site-header" role="banner" aria-label="header">
+  <!-- Gov banner BEGIN -->
+  <div class="usa-banner">
+    <div class="usa-accordion">
+      <header class="usa-banner-header usajobs-nav--vTest__banner-header">
+        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-inner">
+          <img src="/img/favicons/favicon-57.png" alt="U.S. flag">
+          <p>An official website of the United States government</p>
+          <button class="usa-button usa-banner-button"
+            aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner-button-text">Here's how you know</span>
+          </button>
+        </div>
+        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-warning">
+          <p><i class="fa fa-exclamation-circle"></i> This is a FAKE environment. The jobs and information on this system are not real.</p>
+        </div>
+      </header>
+      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+        <div class="usa-banner-guidance-gov usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="/img/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media_block-body">
+            <p>
+              <strong>The .gov means it’s official.</strong>
+              <br>
+              Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner-guidance-ssl usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="/img/icon-https.svg" alt="SSL">
+          <div class="usa-media_block-body">
+            <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <nav class="usajobs-nav" aria-label="main navigation" data-object="nav">
-    <div class="usajobs-nav__body">
+  <!-- Gov banner END -->
+  <nav class="usajobs-nav usajobs-nav--full_bleed usajobs-nav--vTest usajobs-nav--search" role="navigation" aria-label="main navigation" data-object="nav" data-behavior="">
+    <div class="usajobs-nav__body usajobs-nav--full_bleed__body">
       <div class="usajobs-nav__header-container">
-        <div class="usajobs-nav__header">
+        <div class="usajobs-nav__header usajobs-nav--full_bleed__header">
           <div class="usajobs-nav__brand-container">
-            <a class="usajobs-nav__brand" href="/Help/">
-              <span class="logo"></span>
+            <a class="usajobs-nav__brand usajobs-nav--vTest__brand usajobs-nav--full_bleed__brand" href="/Help/">
+              <span class="logo" title="USAJOBS logo"></span>
+              <span class="test">FAKE <i class="fa fa-exclamation-circle"></i></span>
             </a>
           </div>
           <div class="usajobs-nav__menu" id="usajobs-menu">
-            <ul role="menubar">
-              <li class="usajobs-nav__menu-container usajobs-nav__account" data-state="is-closed">
+            <ul>
+              <li class="usajobs-nav__menu-container usajobs-nav__account">
                 <a class="usajobs-nav__section-link menu-toggle user-logged-out" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home" title="Account-Logged Out">
                   <span class="fa fa-user"></span>
                   <span class="usajobs-nav__account_name">Sign In</span>
@@ -92,8 +123,8 @@
                   Help
                 </a>
               </li>
-              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed">
-                <a data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v1-active" class="usajobs-nav__section-link" href="/Help/" title="Job Search">
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-open">
+                <a id="nav-menu-search-toggle" data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v2-unauth" class="usajobs-nav__section-link usajobs-nav--search__section-link" href="/Help/" title="Job Search">
                   <span class="fa fa-search"></span>
                   Search
                 </a>
@@ -101,27 +132,29 @@
             </ul>
           </div>
         </div>
-        <div id="usajobs-search-form-v1-active" class="usajobs-nav__search" aria-expanded="false" role="menu">
+        <div id="usajobs-search-form-v2-unauth" class="usajobs-nav__search" aria-expanded="false" role="menu">
           <form action="/Search" method="get" novalidate="novalidate" role="search">
-            <fieldset>
+            <fieldset class="usajobs-nav--full_bleed__search-body">
               <div class="usajobs-nav__search-keywords-container">
                 <label for="search-keyword">
                   <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
                   Keywords
                 </label>
-                <input id="search-keyword" name="search-keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="off">
+                <input id="search-keyword" name="keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, dept., agency, series, or keyword" type="text" value="" autocomplete="false">
+                <input type="hidden" id="search-keyword-autocomplete" name="search-keyword-autocomplete">
+                <div id="search-keyword-autocomplete-container"></div>
               </div>
               <div class="usajobs-nav__search-location-container">
-                <label for="search-location">
+                <label class="usajobs-nav__location-label" for="search-location-2">
                   <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
                   Location
                 </label>
-                <input id="search-location" name="search-location" type="text" class="usajobs-nav__search-location-input" placeholder="City, State, ZIP, or Country">
+                <input id="search-location-2" name="location_name" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="">
                 <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
                 <input type="hidden" id="AutoCompleteSelected" name="AutoCompleteSelected">
               </div>
-              <div class="usajobs-nav__search-button-container">
-                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+              <div class="usajobs-nav__search-button-container usajobs-nav--full_bleed__search-button-container">
+                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button" data-behavior="nav.close_refiners">
                   Search
                 </button>
               </div>
@@ -179,24 +212,6 @@
       </a>
     </li>
 
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/"  class="usajobs-help-center-breadcrumb__link">
-        <span property="item" typeof="WebPage">How to</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/job-announcement/"  class="usajobs-help-center-breadcrumb__link">
-        <span property="item" typeof="WebPage">Job Announcement</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/job-announcement/save/" class="usajobs-help-center-breadcrumb__link is-active">
-        <span property="item" typeof="WebPage">Save</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
 
   </ul>
 </div>
@@ -282,16 +297,6 @@
               <h3 class="usajobs-help-center-article__related">Related articles</h3>
               <ul class="usajobs-help-center-article__related-list">
               
-                <li>
-                  <a href="/Help/how-to/job-announcement/remove/">
-                    How to remove a saved job
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/job-announcement/">
-                    How to understand the job announcement
-                  </a>
-                </li>
               
               </ul>
             </aside>

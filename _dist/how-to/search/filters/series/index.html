@@ -60,26 +60,57 @@
 
   </head>
   <body>
-    <a class="skipnav" href="#main-content">Skip main navigation</a>
-    <header class="usajobs-site-header" aria-label="header">
-  <div class="usa-disclaimer">
-    <div class="usa-grid usajobs-disclaimer-official">
-      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/Help/img/us_flag_small.png">
-      <p>An official website of the United States Government</p>
+    <header class="usajobs-site-header" role="banner" aria-label="header">
+  <!-- Gov banner BEGIN -->
+  <div class="usa-banner">
+    <div class="usa-accordion">
+      <header class="usa-banner-header usajobs-nav--vTest__banner-header">
+        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-inner">
+          <img src="/img/favicons/favicon-57.png" alt="U.S. flag">
+          <p>An official website of the United States government</p>
+          <button class="usa-button usa-banner-button"
+            aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner-button-text">Here's how you know</span>
+          </button>
+        </div>
+        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-warning">
+          <p><i class="fa fa-exclamation-circle"></i> This is a FAKE environment. The jobs and information on this system are not real.</p>
+        </div>
+      </header>
+      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+        <div class="usa-banner-guidance-gov usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="/img/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media_block-body">
+            <p>
+              <strong>The .gov means it’s official.</strong>
+              <br>
+              Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner-guidance-ssl usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="/img/icon-https.svg" alt="SSL">
+          <div class="usa-media_block-body">
+            <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <nav class="usajobs-nav" aria-label="main navigation" data-object="nav">
-    <div class="usajobs-nav__body">
+  <!-- Gov banner END -->
+  <nav class="usajobs-nav usajobs-nav--full_bleed usajobs-nav--vTest usajobs-nav--search" role="navigation" aria-label="main navigation" data-object="nav" data-behavior="">
+    <div class="usajobs-nav__body usajobs-nav--full_bleed__body">
       <div class="usajobs-nav__header-container">
-        <div class="usajobs-nav__header">
+        <div class="usajobs-nav__header usajobs-nav--full_bleed__header">
           <div class="usajobs-nav__brand-container">
-            <a class="usajobs-nav__brand" href="/Help/">
-              <span class="logo"></span>
+            <a class="usajobs-nav__brand usajobs-nav--vTest__brand usajobs-nav--full_bleed__brand" href="/Help/">
+              <span class="logo" title="USAJOBS logo"></span>
+              <span class="test">FAKE <i class="fa fa-exclamation-circle"></i></span>
             </a>
           </div>
           <div class="usajobs-nav__menu" id="usajobs-menu">
-            <ul role="menubar">
-              <li class="usajobs-nav__menu-container usajobs-nav__account" data-state="is-closed">
+            <ul>
+              <li class="usajobs-nav__menu-container usajobs-nav__account">
                 <a class="usajobs-nav__section-link menu-toggle user-logged-out" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home" title="Account-Logged Out">
                   <span class="fa fa-user"></span>
                   <span class="usajobs-nav__account_name">Sign In</span>
@@ -92,8 +123,8 @@
                   Help
                 </a>
               </li>
-              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed">
-                <a data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v1-active" class="usajobs-nav__section-link" href="/Help/" title="Job Search">
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-open">
+                <a id="nav-menu-search-toggle" data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v2-unauth" class="usajobs-nav__section-link usajobs-nav--search__section-link" href="/Help/" title="Job Search">
                   <span class="fa fa-search"></span>
                   Search
                 </a>
@@ -101,27 +132,29 @@
             </ul>
           </div>
         </div>
-        <div id="usajobs-search-form-v1-active" class="usajobs-nav__search" aria-expanded="false" role="menu">
+        <div id="usajobs-search-form-v2-unauth" class="usajobs-nav__search" aria-expanded="false" role="menu">
           <form action="/Search" method="get" novalidate="novalidate" role="search">
-            <fieldset>
+            <fieldset class="usajobs-nav--full_bleed__search-body">
               <div class="usajobs-nav__search-keywords-container">
                 <label for="search-keyword">
                   <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
                   Keywords
                 </label>
-                <input id="search-keyword" name="search-keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="off">
+                <input id="search-keyword" name="keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, dept., agency, series, or keyword" type="text" value="" autocomplete="false">
+                <input type="hidden" id="search-keyword-autocomplete" name="search-keyword-autocomplete">
+                <div id="search-keyword-autocomplete-container"></div>
               </div>
               <div class="usajobs-nav__search-location-container">
-                <label for="search-location">
+                <label class="usajobs-nav__location-label" for="search-location-2">
                   <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
                   Location
                 </label>
-                <input id="search-location" name="search-location" type="text" class="usajobs-nav__search-location-input" placeholder="City, State, ZIP, or Country">
+                <input id="search-location-2" name="location_name" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="">
                 <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
                 <input type="hidden" id="AutoCompleteSelected" name="AutoCompleteSelected">
               </div>
-              <div class="usajobs-nav__search-button-container">
-                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+              <div class="usajobs-nav__search-button-container usajobs-nav--full_bleed__search-button-container">
+                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button" data-behavior="nav.close_refiners">
                   Search
                 </button>
               </div>
@@ -179,30 +212,6 @@
       </a>
     </li>
 
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/"  class="usajobs-help-center-breadcrumb__link">
-        <span property="item" typeof="WebPage">How to</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/search/"  class="usajobs-help-center-breadcrumb__link">
-        <span property="item" typeof="WebPage">Search</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/search/filters/"  class="usajobs-help-center-breadcrumb__link">
-        <span property="item" typeof="WebPage">Filters</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/how-to/search/filters/series/" class="usajobs-help-center-breadcrumb__link is-active">
-        <span property="item" typeof="WebPage">Series</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
 
   </ul>
 </div>
@@ -230,95 +239,95 @@
 
 <p>Professional occupations are positions whose primary duty requires knowledge or experience of an administrative, clerical, scientific, artistic, or technical nature and is not related to trade, craft, or manual labor work.</p>
 
-<h3 id="miscellaneous-occupations">0000 – Miscellaneous Occupations</h3>
+<h3 id="0000--miscellaneous-occupations">0000 – Miscellaneous Occupations</h3>
 
 <p>Positions whose duties are to administer, supervise, or perform work that cannot be included in other occupational groups either because the duties are unique, or because they are complex and come in part under various groups.</p>
 
-<h3 id="social-science-psychology-and-welfare">0100 – Social Science, Psychology, and Welfare</h3>
+<h3 id="0100--social-science-psychology-and-welfare">0100 – Social Science, Psychology, and Welfare</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform research or other professional and scientific work, subordinate technical work, or related clerical work in one or more of the social sciences; in psychology; in social work; in recreational activities; or in the administration of public welfare and insurance programs.</p>
 
-<h3 id="human-resources-management">0200 – Human Resources Management</h3>
+<h3 id="0200--human-resources-management">0200 – Human Resources Management</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform work involved in the various phases of human resources management.</p>
 
-<h3 id="general-administrative-clerical-and-office-services">0300 – General Administrative, Clerical, and Office Services</h3>
+<h3 id="0300--general-administrative-clerical-and-office-services">0300 – General Administrative, Clerical, and Office Services</h3>
 
 <p>Positions whose duties are to administer, supervise, or perform work involved in management analysis; stenography, typing, correspondence, and secretarial work; mail and file work; the operation of office appliances; the operation of communications equipment, use of codes and ciphers, and procurement of the most effective and efficient communications services; the operation of microform equipment, peripheral equipment, mail processing equipment, duplicating equipment, and copier/duplicating equipment; and other work of a general clerical and administrative nature.</p>
 
-<h3 id="natural-resources-management-and-biological-sciences">0400 – Natural Resources Management and Biological Sciences</h3>
+<h3 id="0400--natural-resources-management-and-biological-sciences">0400 – Natural Resources Management and Biological Sciences</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform research or other professional and scientific work or subordinate technical work in any of the fields of science concerned with living organisms, their distribution, characteristics, life processes, and adaptations and relations to the environment; the soil, its properties and distribution, and the living organisms growing in or on the soil; and the management, conservation, or utilization thereof for particular purposes or uses.</p>
 
-<h3 id="accounting-and-budget">0500 – Accounting and Budget</h3>
+<h3 id="0500--accounting-and-budget">0500 – Accounting and Budget</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform professional, technical, or related clerical work of an accounting, budget administration, related financial management, or similar nature.</p>
 
-<h3 id="medical-hospital-dental-and-public-health">0600 – Medical, Hospital, Dental, and Public Health</h3>
+<h3 id="0600--medical-hospital-dental-and-public-health">0600 – Medical, Hospital, Dental, and Public Health</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform research or other professional and scientific work, subordinate technical work, or related clerical work in the several branches of medicine, surgery, and dentistry or in related patient care services such as dietetics, nursing, occupational therapy, physical therapy, pharmacy, and others.</p>
 
-<h3 id="veterinary-medical-science">0700 – Veterinary Medical Science</h3>
+<h3 id="0700--veterinary-medical-science">0700 – Veterinary Medical Science</h3>
 
 <p>Positions whose duties are to advise on, administer, manage, supervise, or perform professional or technical support work in the various branches of veterinary medical science.</p>
 
-<h3 id="engineering-and-architecture">0800 – Engineering and Architecture</h3>
+<h3 id="0800--engineering-and-architecture">0800 – Engineering and Architecture</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform professional, scientific, or technical work concerned with engineering or architectural projects, facilities, structures, systems, processes, equipment, devices, material or methods. Positions in this group require knowledge of the science or art, or both, by which materials, natural resources, and powers are made useful.</p>
 
-<h3 id="legal-and-kindred">0900 – Legal and Kindred</h3>
+<h3 id="0900--legal-and-kindred">0900 – Legal and Kindred</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform work of a legal or kindred nature.</p>
 
-<h3 id="information-and-arts">1000 – Information and Arts</h3>
+<h3 id="1000--information-and-arts">1000 – Information and Arts</h3>
 
 <p>Positions that involve professional, artistic, technical, or clerical work in: (1) the communication of information and ideas through verbal, visual, or pictorial means; (2) the collection, custody, presentation, display, and interpretation of art works, cultural objects, and other artifacts; or (3) a branch of fine or applied arts such as industrial design, interior design, or musical composition. Positions in this group require writing, editing, and language ability; artistic skill and ability; knowledge of foreign languages; the ability to evaluate and interpret informational and cultural materials; or the practical application of technical or aesthetic principles combined with manual skill and dexterity; or related clerical skills.</p>
 
-<h3 id="business-and-industry">1100 – Business and Industry</h3>
+<h3 id="1100--business-and-industry">1100 – Business and Industry</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform work pertaining to and requiring a knowledge of business and trade practices, characteristics and use of equipment, products, or property, or industrial production methods and processes, including the conduct of investigations and studies; the collection, analysis, and dissemination of information; the establishment and maintenance of contacts with industry and commerce; the provision of advisory services; the examination and appraisal of merchandise or property; and the administration of regulatory provisions and controls.</p>
 
-<h3 id="copyright-patent-and-trademark">1200 – Copyright, Patent, and Trademark</h3>
+<h3 id="1200--copyright-patent-and-trademark">1200 – Copyright, Patent, and Trademark</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform professional scientific, technical, and legal work involved in the cataloging and registration of copyrights, in the classification and issuance of patents, in the registration of trademarks, in the prosecution of applications for patents before the Patent Office, and in the giving of advice to Government officials on patent matters.</p>
 
-<h3 id="physical-sciences">1300 – Physical Sciences</h3>
+<h3 id="1300--physical-sciences">1300 – Physical Sciences</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform research or other professional and scientific work, or subordinate technical work, in any of the fields of science concerned with matter, energy, physical space, time, nature of physical measurement, and fundamental structural particles; and the nature of the physical environment.</p>
 
-<h3 id="library-and-archives">1400 – Library and Archives</h3>
+<h3 id="1400--library-and-archives">1400 – Library and Archives</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform professional and scientific work or subordinate technical work in the various phases of library and archival science.</p>
 
-<h3 id="mathematical-sciences">1500 – Mathematical Sciences</h3>
+<h3 id="1500--mathematical-sciences">1500 – Mathematical Sciences</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform research or other professional and scientific work or related clerical work in basic mathematical principles, methods, procedures, or relationships, including the development and application of mathematical methods for the investigation and solution of problems; the development and application of statistical theory in the selection, collection, classification, adjustment, analysis, and interpretation of data; the development and application of mathematical, statistical, and financial principles to programs or problems involving life and property risks; and any other professional and scientific or related clerical work requiring primarily and mainly the understanding and use of mathematical theories, methods, and operations.</p>
 
-<h3 id="equipment-facilities-and-services">1600 – Equipment, Facilities, and Services</h3>
+<h3 id="1600--equipment-facilities-and-services">1600 – Equipment, Facilities, and Services</h3>
 
 <p>Positions whose duties are to advise on, manage, or provide instructions and information concerning the operation, maintenance, and use of equipment, shops, buildings, laundries, printing plants, power plants, cemeteries, or other Government facilities, or other work involving services provided predominantly by persons in trades, crafts, or manual labor operations.</p>
 
-<h3 id="education">1700 – Education</h3>
+<h3 id="1700--education">1700 – Education</h3>
 
 <p>Positions whose duties are to involve administering, managing, supervising, performing, or supporting education or training work when the paramount requirement of the position is knowledge of, or skill in, education, training, or instruction processes.</p>
 
-<h3 id="inspection-investigation-enforcement-and-compliance">1800 – Inspection, Investigation, Enforcement, and Compliance</h3>
+<h3 id="1800--inspection-investigation-enforcement-and-compliance">1800 – Inspection, Investigation, Enforcement, and Compliance</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform inspection, investigation, enforcement, or compliance work primarily concerned with alleged or suspected offenses against the laws of the United States, or such work primarily concerned with determining compliance with laws and regulations.</p>
 
-<h3 id="quality-assurance-inspection-and-grading">1900 – Quality Assurance, Inspection, and Grading</h3>
+<h3 id="1900--quality-assurance-inspection-and-grading">1900 – Quality Assurance, Inspection, and Grading</h3>
 
 <p>Positions whose duties are to advise on, supervise, or perform administrative or technical work primarily concerned with the quality assurance or inspection of material, facilities, and processes; or with the grading of commodities under official standards.</p>
 
-<h3 id="supply">2000 – Supply</h3>
+<h3 id="2000--supply">2000 – Supply</h3>
 
 <p>Positions that involve work concerned with furnishing all types of supplies, equipment, material, property (except real estate), and certain services to components of the Federal Government, industrial, or other concerns under contract to the Government, or receiving supplies from the Federal Government. Included are positions concerned with one or more aspects of supply activities from initial planning, including requirements analysis and determination, through acquisition, cataloging, storage, distribution, utilization to ultimate issue for consumption or disposal.</p>
 
-<h3 id="transportation">2100 – Transportation</h3>
+<h3 id="2100--transportation">2100 – Transportation</h3>
 
 <p>Positions whose duties are to advise on, administer, supervise, or perform clerical, administrative, or technical work involved in the provision of transportation service to the Government, the regulation of transportation utilities by the Government, or the management of Government-funded transportation programs, including transportation research and development projects.</p>
 
-<h3 id="information-technology">2200 – Information Technology</h3>
+<h3 id="2200--information-technology">2200 – Information Technology</h3>
 
 <p>Administrative positions that involve managing, supervising, leading, administering, developing, delivering, and supporting information technology (IT) systems and services. This series covers only those positions for which the principal requirement is knowledge of IT principles, concepts, and methods; e.g., data storage, software applications, networking. Information technology refers to systems and services used in the automated acquisition, storage, manipulation, management, movement, control, display, switching, interchange, transmission, assurance, or reception of information. Information technology includes computers, network components, peripheral equipment, software, firmware, services, and related resources.</p>
 
@@ -326,143 +335,143 @@
 
 <p>Trade, craft or labor positions involve the performance of physical work and require knowledge or experience of a trade, craft, or manual labor nature.</p>
 
-<h3 id="wire-communications-equipment-installation-and-maintenance">2500 – Wire Communications Equipment Installation and Maintenance</h3>
+<h3 id="2500--wire-communications-equipment-installation-and-maintenance">2500 – Wire Communications Equipment Installation and Maintenance</h3>
 
 <p>Occupations involved in the construction, installation, maintenance, repair, and testing of all types of wire communications systems and associated equipment that are predominantly electrical-mechanical.</p>
 
-<h3 id="electronic-equipment-installation-and-maintenance">2600 – Electronic Equipment Installation and Maintenance</h3>
+<h3 id="2600--electronic-equipment-installation-and-maintenance">2600 – Electronic Equipment Installation and Maintenance</h3>
 
 <p>Occupations involved in the installation, repair, overhaul, fabrication, tuning, alignment, modification, calibration, and testing of electronic equipment and related devices such as radio, radar, loran, sonar, television, and other communications equipment; industrial controls; fire control, flight/landing control, bombing-navigation, and other integrated systems; and electronic computer systems and equipment.</p>
 
-<h3 id="electrical-installation-and-maintenance">2800 – Electrical Installation and Maintenance</h3>
+<h3 id="2800--electrical-installation-and-maintenance">2800 – Electrical Installation and Maintenance</h3>
 
 <p>Occupations involved in the fabrication, installation, alteration, maintenance, repair, and testing of electrical systems, instruments, apparatus, and equipment.</p>
 
-<h3 id="fabric-and-leather-work">3100 – Fabric and Leather Work</h3>
+<h3 id="3100--fabric-and-leather-work">3100 – Fabric and Leather Work</h3>
 
 <p>Occupations involving the fabrication, modification, and repair of clothing and equipment made of: (1) woven textile fabrics of animal, vegetable, or synthetic origin; (2) plastic film and filaments; (3) natural and simulated leather; (4) natural and synthetic fabrics; and (5) paper.</p>
 
-<h3 id="instrument-work">3300 – Instrument Work</h3>
+<h3 id="3300--instrument-work">3300 – Instrument Work</h3>
 
 <p>Occupations that involve fabricating, assembling, calibrating, testing, installing, repairing, modifying, and maintaining instruments and instrumentation systems for measuring, regulating, and computing physical quantities such as mass, moment, force, acceleration, displacement, stress, strain, vibration or oscillation frequency, phase and amplitude, linear or angular velocity, space-time position and attitude, pressure, temperature, density, viscosity, humidity, thermal or electrical conductivity, voltage, current, power, power factor, impedance, and radiation.</p>
 
-<h3 id="machine-tool-work">3400 – Machine Tool Work</h3>
+<h3 id="3400--machine-tool-work">3400 – Machine Tool Work</h3>
 
 <p>Occupations that involve setting up and operating machine tools and using hand tools to make or repair (shape, fit, finish, assemble) metal parts, tools, gages, models, patterns, mechanisms, and machines; and machining explosives and synthetic materials.</p>
 
-<h3 id="general-services-and-support-work">3500 – General Services and Support Work</h3>
+<h3 id="3500--general-services-and-support-work">3500 – General Services and Support Work</h3>
 
 <p>Occupations not specifically covered by another work family that require little or no specialized training or work experience to enter. These occupations usually involve work such as moving and handling materials (e.g., loading, unloading, digging, hauling, hoisting, carrying, wrapping, mixing, pouring, spreading); washing and cleaning laboratory apparatus, cars, and trucks, etc; cleaning and maintaining living quarters, hospital rooms and ward, office buildings, grounds, and other areas; and doing other general maintenance work by hand or using common hand tools and power equipment. They may involve heavy or light physical work and various skill levels.</p>
 
-<h3 id="structural-and-finishing-work">3600 – Structural and Finishing Work</h3>
+<h3 id="3600--structural-and-finishing-work">3600 – Structural and Finishing Work</h3>
 
 <p>Occupations not specifically covered by another work family that involve doing structural and finishing work in construction, maintenance, and repair of surfaces and structures (e.g., laying brick, block, and stone; setting tile; finishing cement and concrete; plastering; installing, maintaining, and repairing asphalt, tar, and gravel; roofing; insulating and glazing).</p>
 
-<h3 id="metal-processing">3700 – Metal Processing</h3>
+<h3 id="3700--metal-processing">3700 – Metal Processing</h3>
 
 <p>Occupations that involve processing or treating metals to alter their properties or produce desirable qualities such as hardness or workability, using processes such as welding, plating, melting, alloying, casting, annealing, heat treating, and refining.</p>
 
-<h3 id="metal-work">3800 – Metal Work</h3>
+<h3 id="3800--metal-work">3800 – Metal Work</h3>
 
 <p>Occupations involved in shaping and forming metal and making and repairing metal parts or equipment and includes such work as the fabrication and assembly of sheet metal parts and equipment; forging and press operations; structural iron working, boiler making, ship fitting, and other plate metal work; rolling, cutting, stamping, riveting, etc. It does not include machine tool work.</p>
 
-<h3 id="motion-picture-radio-television-and-sound-equipment-operation">3900 – Motion Picture, Radio, Television, and Sound Equipment Operation</h3>
+<h3 id="3900--motion-picture-radio-television-and-sound-equipment-operation">3900 – Motion Picture, Radio, Television, and Sound Equipment Operation</h3>
 
 <p>Occupations involved in setting up, testing, operating, and making minor repairs to equipment such as microphones, sound and radio controls, sound recording equipment, lighting and sound effects devices, television cameras, magnetic video tape recorders, motion picture projectors, and broadcast transmitters used in the production of motion pictures and radio and television programs. It also includes occupations that involve related work such as operating public address system equipment.</p>
 
-<h3 id="lens-and-crystal-work">4000 – Lens and Crystal Work</h3>
+<h3 id="4000--lens-and-crystal-work">4000 – Lens and Crystal Work</h3>
 
 <p>Occupations involved in making precision optical elements, crystal blanks or wafers, or other items of glass, crystalline substances, synthetics, polished metals, or similar materials, using such methods as cutting, etching, grinding, polishing, etc.</p>
 
-<h3 id="painting-and-paperhanging">4100 – Painting and Paperhanging</h3>
+<h3 id="4100--painting-and-paperhanging">4100 – Painting and Paperhanging</h3>
 
 <p>Occupations that involve hand or spray painting and decorating interiors and exteriors of buildings, structures, aircraft, vessels, mobile equipment, fixtures, furnishings, machinery, and other surfaces; finishing hardwoods, furniture, and cabinetry; painting signs; covering interiors of rooms with strips of wallpaper or fabric, etc.</p>
 
-<h3 id="plumbing-and-pipe-fitting">4200 – Plumbing and Pipe-fitting</h3>
+<h3 id="4200--plumbing-and-pipe-fitting">4200 – Plumbing and Pipe-fitting</h3>
 
 <p>Occupations that involve the installation, maintenance, and repair of water, air, steam, gas, sewer, and other pipelines and systems, and related fixtures, apparatus, and accessories.</p>
 
-<h3 id="pliable-materials-work">4300 – Pliable Materials Work</h3>
+<h3 id="4300--pliable-materials-work">4300 – Pliable Materials Work</h3>
 
 <p>Occupations involved in shaping, forming, and repairing items and parts from non-metallic mold-able materials such as plastic, rubber, clay, wax, plaster, glass, sand, or other similar materials.</p>
 
-<h3 id="printing-family">4400 – Printing Family</h3>
+<h3 id="4400--printing-family">4400 – Printing Family</h3>
 
 <p>Occupations involved in letterpress (relief), offset-lithographic, gravure (intaglio), or screen printing; includes layout, hand composition, photoengraving, plate making, printing, and finishing operations.</p>
 
-<h3 id="wood-work">4600 – Wood Work</h3>
+<h3 id="4600--wood-work">4600 – Wood Work</h3>
 
 <p>Occupations involved in the construction, alteration, repair, and maintenance of wooden buildings and other structures, and the fabrication and repair of wood products such as furniture, foundry patterns, and form blocks, using power and hand tools.</p>
 
-<h3 id="general-maintenance-and-operations-work">4700 – General Maintenance and Operations Work</h3>
+<h3 id="4700--general-maintenance-and-operations-work">4700 – General Maintenance and Operations Work</h3>
 
 <p>Occupations that: (1) consist of various combinations of work that are involved in constructing, maintaining, and repairing buildings, roads, grounds, and related facilities; manufacturing, modifying, and repairing items or apparatus made from a variety of materials or types of components; or repairing and operating equipment or utilities; and (2) require the application of a variety of trade practices associated with occupations in more than one job family (unless otherwise indicated), and the performance of the highest level of work in at least two of the trades involved.</p>
 
-<h3 id="general-equipment-maintenance">4800 – General Equipment Maintenance</h3>
+<h3 id="4800--general-equipment-maintenance">4800 – General Equipment Maintenance</h3>
 
 <p>Occupations involved in the maintenance or repair of equipment, machines, or instruments that are not coded to other job families because the equipment is not characteristically related to one of the established subject matter areas, such as electronics, electrical, industrial, transportation, instruments, engines, aircraft, ordnance, etc., or because the nature of the work calls for limited knowledge/skill in a variety of crafts or trades as they relate to the repair of such equipment, but not a predominate knowledge of any one trade or craft.</p>
 
-<h3 id="plant-and-animal-work">5000 – Plant and Animal Work</h3>
+<h3 id="5000--plant-and-animal-work">5000 – Plant and Animal Work</h3>
 
 <p>Occupations involved in general or specialized farming operations; gardening, including the general care of grounds, roadways, nurseries, greenhouses, etc; trimming and felling trees; and propagating, caring for, handling, and controlling animals and insects, including pest species.</p>
 
-<h3 id="miscellaneous-occupations-1">5200 – Miscellaneous Occupations</h3>
+<h3 id="5200--miscellaneous-occupations">5200 – Miscellaneous Occupations</h3>
 
 <p>Occupations that are not covered by the definition of any other job family or that are of such a general or miscellaneous character as to preclude placing them within another job family.</p>
 
-<h3 id="industrial-equipment-maintenance">5300 – Industrial Equipment Maintenance</h3>
+<h3 id="5300--industrial-equipment-maintenance">5300 – Industrial Equipment Maintenance</h3>
 
 <p>Occupations involved in the general maintenance, installation, and repair of portable and stationary industrial machinery, tools, and equipment such as sewing machines, machine tools, woodworking and metalworking machines, printing equipment, processing equipment, driving machinery, power generating equipment, air conditioning equipment, heating and boiler plant equipment, and other types of machines and equipment used in the production of goods and services.</p>
 
-<h3 id="industrial-equipment-operation">5400 – Industrial Equipment Operation</h3>
+<h3 id="5400--industrial-equipment-operation">5400 – Industrial Equipment Operation</h3>
 
 <p>Occupations involved in the operation of portable and stationary industrial equipment, tools, and machines to generate and distribute utilities such as electricity, steam, and gas for heat or power; treat and distribute water; collect, treat, and dispose of waste; open and close bridges, locks, and dams; lift and move workers, materials, and equipment; manufacture and process materials and products, etc.</p>
 
-<h3 id="transportationmobile-equipment-operation">5700 – Transportation/Mobile Equipment Operation</h3>
+<h3 id="5700--transportationmobile-equipment-operation">5700 – Transportation/Mobile Equipment Operation</h3>
 
 <p>Occupations involved in the operation and operational maintenance of self-propelled transportation and other mobile equipment (except aircraft) used to move materials or passengers, including motor vehicles, engineering and construction equipment, tractors, etc., some of which may be equipped with power takeoff and controls to operate special purpose equipment; ocean-going and inland waterway vessels, harbor craft, and floating plants; and trains, locomotives, and train cars.</p>
 
-<h3 id="transportationmobile-equipment-maintenance">5800 – Transportation/Mobile Equipment Maintenance</h3>
+<h3 id="5800--transportationmobile-equipment-maintenance">5800 – Transportation/Mobile Equipment Maintenance</h3>
 
 <p>Occupations involved in repairing, adjusting, and maintaining self-propelled transportation and other mobile equipment (except aircraft), including any special purpose features with which they may be equipped.</p>
 
-<h3 id="ammunition-explosives-and-toxic-materials-work">6500 – Ammunition, Explosives, and Toxic Materials Work</h3>
+<h3 id="6500--ammunition-explosives-and-toxic-materials-work">6500 – Ammunition, Explosives, and Toxic Materials Work</h3>
 
 <p>Occupations involved in the manufacturing, assembling, disassembling, renovating, loading, deactivating, modifying, destroying, testing, handling, placing, and discharging of ammunition, propellants, chemicals and toxic materials, and other conventional and special munitions and explosives.</p>
 
-<h3 id="armament-work">6600 – Armament Work</h3>
+<h3 id="6600--armament-work">6600 – Armament Work</h3>
 
 <p>Occupations involved in the installation, repair, rebuilding, adjustment, modification, and testing of small arms and artillery weapons and allied accessories. Artillery includes, but is not limited to, field artillery, antitank artillery, anti-aircraft weapons, aircraft and shipboard weapons, recoilless rifles, rocket launchers, mortars, cannons, and allied accessories. Small arms includes, but is not limited to, rifles, carbines, pistols, revolvers, helmets, body armor, shoulder-type rocket launchers, machine guns, and automatic rifles.</p>
 
-<h3 id="packing-and-processing">7000 – Packing and Processing</h3>
+<h3 id="7000--packing-and-processing">7000 – Packing and Processing</h3>
 
 <p>Occupations involved in determining the measures required to protect items against damage during movement or storage; selecting proper method of packing, including type and size of container; cleaning, drying, and applying preservatives to materials, parts, or mechanical equipment; and packing equipment, parts, and materials.</p>
 
-<h3 id="laundry-dry-cleaning-and-pressing">7300 – Laundry, Dry Cleaning, and Pressing</h3>
+<h3 id="7300--laundry-dry-cleaning-and-pressing">7300 – Laundry, Dry Cleaning, and Pressing</h3>
 
 <p>Occupations involved in receiving, sorting, washing, drying, dry cleaning, dyeing, pressing, and preparing for delivery clothes, linens, and other articles requiring laundering, dry cleaning, or pressing.</p>
 
-<h3 id="food-preparation-and-serving">7400 – Food Preparation and Serving</h3>
+<h3 id="7400--food-preparation-and-serving">7400 – Food Preparation and Serving</h3>
 
 <p>Occupations involved in the preparation and serving of food.</p>
 
-<h3 id="personal-services">7600 – Personal Services</h3>
+<h3 id="7600--personal-services">7600 – Personal Services</h3>
 
 <p>Occupations concerned with providing grooming, beauty, or other personal services to individuals, patrons, guests, passengers, entertainers, etc., or attending to their personal effects.</p>
 
-<h3 id="fluid-systems-maintenance">8200 – Fluid Systems Maintenance</h3>
+<h3 id="8200--fluid-systems-maintenance">8200 – Fluid Systems Maintenance</h3>
 
 <p>Occupations that involve the repair, modification, assembly, and testing of fluid systems and fluid system components of aircraft, aircraft engines, missiles, and mobile and support equipment.</p>
 
-<h3 id="engine-overhaul">8600 – Engine Overhaul</h3>
+<h3 id="8600--engine-overhaul">8600 – Engine Overhaul</h3>
 
 <p>Occupations concerned primarily with the manufacture, repair, modification, and major overhaul of engines (except where covered by another group), including the disassembly, reassembly, and test phases of engine overhaul programs.</p>
 
-<h3 id="aircraft-overhaul">8800 – Aircraft Overhaul</h3>
+<h3 id="8800--aircraft-overhaul">8800 – Aircraft Overhaul</h3>
 
 <p>Occupations concerned primarily with the overhaul of aircraft, including the disassembly, reassembly, and test phases of aircraft overhaul programs.</p>
 
-<h3 id="film-processing">9000 – Film Processing</h3>
+<h3 id="9000--film-processing">9000 – Film Processing</h3>
 
 <p>Occupations that involve processing film; for example, operating motion picture developers and printers; cleaning, repairing, matching, cutting, splicing, and assembling films; and mixing developing solutions). The work does not include processing work that requires specialized subject-matter knowledge or artistic ability.</p>
 
@@ -478,61 +487,6 @@
               <h3 class="usajobs-help-center-article__related">Related articles</h3>
               <ul class="usajobs-help-center-article__related-list">
               
-                <li>
-                  <a href="/Help/how-to/search/filters/zero-job-openings/">
-                    How do I see search filters with 0 job openings?
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/agency/">
-                    How to filter results by agency
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/appointment-type/">
-                    How to filter results by appointment type
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/department/">
-                    How to filter results by department
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/hiring-path/">
-                    How to filter results by hiring path
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/location/">
-                    How to filter results by location
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/pay/">
-                    How to filter results by pay
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/security-clearance/">
-                    How to filter results by security clearance
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/travel-percentage/">
-                    How to filter results by travel percentage
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/work-schedule/">
-                    How to filter results by work schedule
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/search/filters/">
-                    How to search using filters
-                  </a>
-                </li>
               
               </ul>
             </aside>

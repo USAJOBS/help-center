@@ -33,11 +33,13 @@ $body-padding: $size-M;
 
   &__icon {
     display: inline-block;
-  }
-
-  &__icon {
     width: rem(30px);
     color: $color-secondary;
+    text-align: center;
+
+    &.public {
+      color: $color-primary-alt;
+    }
 
     &.federal-employees,
     &.ses {
@@ -58,12 +60,41 @@ $body-padding: $size-M;
       color: $color-green;
     }
 
+    &.military-spouses {
+      .fa.is-first {
+        text-indent: 0;
+        top: -2px;
+        left: -4px;
+        opacity: 0.8;
+      }
+      .fa.is-second {
+        text-indent: 0;
+        left: 3px;
+      }
+    }
+
     &.students {
       color: $color-gold;
     }
 
     &.individuals-with-disabilities {
       color: $color-primary-darker;
+    }
+
+    &.peace-corps {
+      color: $color-visited;
+    }
+
+    &.former-overseas-employees {
+      color: $color-primary-alt-darkest;
+    }
+
+    &.native-americans {
+      color: $color-gray;
+    }
+
+    &.land-mgmt {
+      color: $color-gray-warm-dark;
     }
   }
 

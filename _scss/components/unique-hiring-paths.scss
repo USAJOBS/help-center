@@ -72,37 +72,15 @@ $body-padding: $size-M;
   }
 
   &__icon {
-    @include makeCircle(68px, none, $color-secondary);
-    display: inline-block;
-    padding-bottom: $size-default;
+    @include UHPIcons(68px);
     font-size: $h2-font-size;
-    text-align: center;
 
-    &.federal-employees,
-    &.ses {
-      @include makeCircle(68px, none, $color-primary-darkest);
-    }
-
-    &.federal-employees .fa::before {
-      margin-top: rem(-3px);
-      margin-right: rem(-4px);
-    }
-
-    &.veterans,
     &.military-spouses {
-      @include makeCircle(68px, none, $color-green);
-    }
-
-    &.military-spouses .fa {
-      font-size: $h3-font-size;
-    }
-
-    &.students {
-      @include makeCircle(68px, none, $color-gold);
-    }
-
-    &.individuals-with-disabilities {
-      @include makeCircle(68px, none, $color-primary-darker);
+      // Trying to align these a bit better
+      .fa.is-first {
+        top: -4px;
+        left: -8px;
+      }
     }
   }
 

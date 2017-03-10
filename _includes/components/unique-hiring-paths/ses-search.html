@@ -1,9 +1,10 @@
 <div class="usajobs-uhp-search-banner usajobs-ses-search">
   <div role="search" id="ses-search" class="usajobs-uhp-search-banner__container">
-    <form class="usa-search usa-search-big" action="https://www.usajobs.gov/Search/GetSESResults/" id="sessearch" method="get" novalidate="novalidate" role="search">
+    <form class="usa-search usa-search-big" action="https://test.usajobs.gov/Search/Results" id="sessearch" method="get" novalidate="novalidate" role="search">
+      <input type="hidden" name="hp" value="ses">
       <h3 class="usajobs-uhp-search-banner__title">
         Begin your search
-      <span class="fa fa-search usajobs-uhp-search-banner__search-icon"></span>
+        <span class="fa fa-search usajobs-uhp-search-banner__search-icon"></span>
       </h3>
       <fieldset>
         <div class="usajobs-nav__search-keywords-container">
@@ -11,14 +12,14 @@
             <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
             Keywords
           </label>
-          <input id="Keyword" name="Keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="off">
+          <input id="keyword" name="keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, dept., agency, series, or keyword" type="text" value="" autocomplete="off">
         </div>
         <div class="usajobs-nav__search-location-container">
           <label for="Location">
             <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
             Location
           </label>
-          <input id="Location" name="Location" type="text" class="usajobs-nav__search-location-input" placeholder="City, State, ZIP, or Country">
+          <input id="Location" name="l" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country">
           <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
           <input type="hidden" id="ses-AutoCompleteSelected" name="sesAutoCompleteSelected">
         </div>
