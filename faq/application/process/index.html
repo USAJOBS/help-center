@@ -60,26 +60,57 @@
 
   </head>
   <body>
-    <a class="skipnav" href="#main-content">Skip main navigation</a>
-    <header class="usajobs-site-header" aria-label="header">
-  <div class="usa-disclaimer">
-    <div class="usa-grid usajobs-disclaimer-official">
-      <img class="usa-flag_icon" alt="U.S. flag signifying that this is a United States federal government website" src="/Help/img/us_flag_small.png">
-      <p>An official website of the United States Government</p>
+    <header class="usajobs-site-header" role="banner" aria-label="header">
+  <!-- Gov banner BEGIN -->
+  <div class="usa-banner">
+    <div class="usa-accordion">
+      <header class="usa-banner-header usajobs-nav--vTest__banner-header">
+        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-inner">
+          <img src="/img/favicons/favicon-57.png" alt="U.S. flag">
+          <p>An official website of the United States government</p>
+          <button class="usa-button usa-banner-button"
+            aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner-button-text">Here's how you know</span>
+          </button>
+        </div>
+        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-warning">
+          <p><i class="fa fa-exclamation-circle"></i> This is a FAKE environment. The jobs and information on this system are not real.</p>
+        </div>
+      </header>
+      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+        <div class="usa-banner-guidance-gov usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="/img/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media_block-body">
+            <p>
+              <strong>The .gov means it’s official.</strong>
+              <br>
+              Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner-guidance-ssl usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="/img/icon-https.svg" alt="SSL">
+          <div class="usa-media_block-body">
+            <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <nav class="usajobs-nav" aria-label="main navigation" data-object="nav">
-    <div class="usajobs-nav__body">
+  <!-- Gov banner END -->
+  <nav class="usajobs-nav usajobs-nav--full_bleed usajobs-nav--vTest usajobs-nav--search" role="navigation" aria-label="main navigation" data-object="nav" data-behavior="">
+    <div class="usajobs-nav__body usajobs-nav--full_bleed__body">
       <div class="usajobs-nav__header-container">
-        <div class="usajobs-nav__header">
+        <div class="usajobs-nav__header usajobs-nav--full_bleed__header">
           <div class="usajobs-nav__brand-container">
-            <a class="usajobs-nav__brand" href="/Help/">
-              <span class="logo"></span>
+            <a class="usajobs-nav__brand usajobs-nav--vTest__brand usajobs-nav--full_bleed__brand" href="/Help/">
+              <span class="logo" title="USAJOBS logo"></span>
+              <span class="test">FAKE <i class="fa fa-exclamation-circle"></i></span>
             </a>
           </div>
           <div class="usajobs-nav__menu" id="usajobs-menu">
-            <ul role="menubar">
-              <li class="usajobs-nav__menu-container usajobs-nav__account" data-state="is-closed">
+            <ul>
+              <li class="usajobs-nav__menu-container usajobs-nav__account">
                 <a class="usajobs-nav__section-link menu-toggle user-logged-out" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home" title="Account-Logged Out">
                   <span class="fa fa-user"></span>
                   <span class="usajobs-nav__account_name">Sign In</span>
@@ -92,8 +123,8 @@
                   Help
                 </a>
               </li>
-              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed">
-                <a data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v1-active" class="usajobs-nav__section-link" href="/Help/" title="Job Search">
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-open">
+                <a id="nav-menu-search-toggle" data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v2-unauth" class="usajobs-nav__section-link usajobs-nav--search__section-link" href="/Help/" title="Job Search">
                   <span class="fa fa-search"></span>
                   Search
                 </a>
@@ -101,27 +132,29 @@
             </ul>
           </div>
         </div>
-        <div id="usajobs-search-form-v1-active" class="usajobs-nav__search" aria-expanded="false" role="menu">
+        <div id="usajobs-search-form-v2-unauth" class="usajobs-nav__search" aria-expanded="false" role="menu">
           <form action="/Search" method="get" novalidate="novalidate" role="search">
-            <fieldset>
+            <fieldset class="usajobs-nav--full_bleed__search-body">
               <div class="usajobs-nav__search-keywords-container">
                 <label for="search-keyword">
                   <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
                   Keywords
                 </label>
-                <input id="search-keyword" name="search-keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, Skills, Agency" type="text" value="" autocomplete="off">
+                <input id="search-keyword" name="keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, dept., agency, series, or keyword" type="text" value="" autocomplete="false">
+                <input type="hidden" id="search-keyword-autocomplete" name="search-keyword-autocomplete">
+                <div id="search-keyword-autocomplete-container"></div>
               </div>
               <div class="usajobs-nav__search-location-container">
-                <label for="search-location">
+                <label class="usajobs-nav__location-label" for="search-location-2">
                   <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
                   Location
                 </label>
-                <input id="search-location" name="search-location" type="text" class="usajobs-nav__search-location-input" placeholder="City, State, ZIP, or Country">
+                <input id="search-location-2" name="location_name" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="">
                 <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
                 <input type="hidden" id="AutoCompleteSelected" name="AutoCompleteSelected">
               </div>
-              <div class="usajobs-nav__search-button-container">
-                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+              <div class="usajobs-nav__search-button-container usajobs-nav--full_bleed__search-button-container">
+                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button" data-behavior="nav.close_refiners">
                   Search
                 </button>
               </div>
@@ -179,24 +212,6 @@
       </a>
     </li>
 
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/faq/"  class="usajobs-help-center-breadcrumb__link">
-        <span property="item" typeof="WebPage">FAQs</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/faq/application/"  class="usajobs-help-center-breadcrumb__link">
-        <span property="item" typeof="WebPage">Application</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a href="/Help/faq/application/process/" class="usajobs-help-center-breadcrumb__link is-active">
-        <span property="item" typeof="WebPage">Process</span>
-        <meta property="position" content="1">
-      </a>
-    </li>
 
   </ul>
 </div>
@@ -208,7 +223,7 @@
                 <h1>How does the application process work?</h1>
                 <p>This is a quick summary of how the federal application process works when you use USAJOBS to apply for positions.</p>
 
-<h2 id="create-a-usajobs-account">1. Create a USAJOBS account</h2>
+<h2 id="1-create-a-usajobs-account">1. Create a USAJOBS account</h2>
 
 <p>First, you need to create an account and complete your profile to apply to any job on USAJOBS.  With a USAJOBS account and profile you can:</p>
 
@@ -221,7 +236,7 @@
   <li>Have a more personalized experience.</li>
 </ul>
 
-<h2 id="search-for-jobs">2. Search for jobs</h2>
+<h2 id="2-search-for-jobs">2. Search for jobs</h2>
 
 <p>Once you create your account, you can search for jobs.</p>
 
@@ -233,7 +248,7 @@
 
 <p>After you’ve entered your search criteria, let us do the searching for you. When you save a search, we’ll automatically look for jobs that match what you’re looking for and can email you, daily, weekly or monthly with those jobs. <a href="../../../how-to/search/save/">Learn how to save a search</a>.</p>
 
-<h2 id="review-job-announcement">3. Review job announcement</h2>
+<h2 id="3-review-job-announcement">3. Review job announcement</h2>
 
 <p>Once you find a job you’re interested in, review the announcement to find out if you’re eligible and meet the qualifications. Read the entire job announcement before starting your application—for each job there are specific qualifications you must meet and include in your application.</p>
 
@@ -244,11 +259,11 @@
 
 <p>If you have questions about the job, contact the agency representative listed at the bottom of the announcement.</p>
 
-<h2 id="prepare-your-application-in-usajobs">4. Prepare your application in USAJOBS</h2>
+<h2 id="4-prepare-your-application-in-usajobs">4. Prepare your application in USAJOBS</h2>
 
 <p>Read the <strong>How to Apply</strong> section of the job announcement before starting your application. When you’re ready to apply, we’ll walk you through a five-step process to prepare your application, including attaching a resume and required documents. During the process you can review, edit, delete and update your information. We’ll automatically save your progress as you go, so you won’t lose any changes. <a href="../../../how-to/application/">Learn how to create an application</a>.</p>
 
-<h2 id="submit-application-to-agency">5. Submit application to agency</h2>
+<h2 id="5-submit-application-to-agency">5. Submit application to agency</h2>
 
 <p>Once your application is ready, you’ll be sent from USAJOBS to the agency application system. You may need to complete other agency-required steps such as:</p>
 
@@ -267,7 +282,7 @@
 <p>It may take a few hours after you complete your application for the agency to update your application status.
 You may also receive an email confirmation from the agency application system, but not all agencies send email confirmations.</p>
 
-<h2 id="agency-reviews-application">6. Agency reviews application</h2>
+<h2 id="6-agency-reviews-application">6. Agency reviews application</h2>
 
 <p>Once the job announcement is closed, the hiring agency will review your application to make sure you’re eligible and meet the job qualifications. The hiring agency will place applicants into quality categories:</p>
 
@@ -280,7 +295,7 @@ You may also receive an email confirmation from the agency application system, b
 
 <p>After all applications are reviewed, the hiring agency will send the highest qualified applicants to the hiring official—these applicants will see a <strong>Referred</strong> status in their application status. All other applicants (not being considered) will see a <strong>Not Referred</strong> status.</p>
 
-<h2 id="interview">7. Interview</h2>
+<h2 id="7-interview">7. Interview</h2>
 
 <p>The hiring official will review applications and decide who to interview based on agency policy. Hiring officials can interview applicants using:</p>
 
@@ -296,11 +311,11 @@ You may also receive an email confirmation from the agency application system, b
 <h3 id="how-long-will-it-take-to-schedule-an-interview">How long will it take to schedule an interview?</h3>
 <p>It may take some time to schedule interviews, depending on the number of applicants being interviewed.</p>
 
-<h2 id="selection">8. Selection</h2>
+<h2 id="8-selection">8. Selection</h2>
 
 <p>After interviewing applicants, the hiring agency will select a candidate(s) and contact him or her to start the job offer process. The hiring agency will notify applicants who were not selected by updating their application status to <strong>Not Selected</strong>.</p>
 
-<h2 id="job-offer">9. Job offer</h2>
+<h2 id="9-job-offer">9. Job offer</h2>
 
 <p>The hiring agency will extend a tentative job offer contingent upon passing a background investigation. The background investigation will begin when the tentative offer is accepted. Additional security checks may be needed for a higher-level clearance.</p>
 
@@ -319,26 +334,6 @@ You may also receive an email confirmation from the agency application system, b
               <h3 class="usajobs-help-center-article__related">Related articles</h3>
               <ul class="usajobs-help-center-article__related-list">
               
-                <li>
-                  <a href="/Help/faq/application/reapply/">
-                    How can I reapply to a job?
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/how-to/application/view/">
-                    How to view job applications
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/faq/application/contact-information/no-current-address/">
-                    What can I do if I do not have a current address?
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/faq/application/not-considered/">
-                    Why was my application not qualified?
-                  </a>
-                </li>
               
               </ul>
             </aside>
