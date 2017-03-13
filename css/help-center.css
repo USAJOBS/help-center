@@ -61,7 +61,7 @@ html {
 .usajobs-help-center-search-banner--with-nav__container,
 .usajobs-help-center-title-banner__container {
   padding: 0 1.5rem;
-  max-width: 120rem;
+  max-width: 160rem;
 }
 
 @media screen and (min-width: 48em) {
@@ -110,7 +110,7 @@ html {
 .usajobs-help-center-title-banner .usa-search {
   margin-left: auto;
   margin-right: auto;
-  max-width: 120rem;
+  max-width: 160rem;
 }
 
 .usajobs-help-center-search-banner .usa-search [type="submit"],
@@ -163,7 +163,7 @@ html {
 }
 
 .usajobs-uhp-banner__container {
-  max-width: 120rem;
+  max-width: 160rem;
 }
 
 @media screen and (min-width: 48em) {

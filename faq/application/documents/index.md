@@ -29,29 +29,29 @@ If there are other additional documents that you wish to pass to hiring authorit
 
 ### Executive Core Qualifications (ECQs)
 
-Applicants to SES positions must demonstrate they possess [Executive Core Qualifications (ECQs)](https://www.opm.gov/policy-data-oversight/senior-executive-service/executive-core-qualifications/) when applying. The ECQs define the competencies needed to build a federal corporate culture that drives for results, serves customers, and builds successful teams and coalitions within and outside the organization. The ECQs are required for entry to the SES and are used by many departments and agencies in selection, performance management, and leadership development for executive positions.
+Applicants to SES positions must demonstrate they possess [Executive Core Qualifications (ECQs)](https://www.opm.gov/policy-data-oversight/senior-executive-service/executive-core-qualifications/){:target="_blank"} when applying. The ECQs define the competencies needed to build a federal corporate culture that drives for results, serves customers, and builds successful teams and coalitions within and outside the organization. The ECQs are required for entry to the SES and are used by many departments and agencies in selection, performance management, and leadership development for executive positions.
 
 ## Federal employees
 
 ### OF-306
 
-The OF-306, [Declaration for Federal Employment](https://www.opm.gov/forms/Optional-forms/) is used to determine your acceptability for Federal and Federal contract employment and your enrollment status in the Government's Life Insurance program. You may be asked to complete this form at any time during the hiring process. Follow instructions that the agency provides. If you are selected, before you are appointed you will be asked to update your responses on this form and on other materials submitted during the application process and then to re-certify that your answers are true.
+The OF-306, [Declaration for Federal Employment](https://www.opm.gov/forms/Optional-forms/){:target="_blank"} is used to determine your acceptability for Federal and Federal contract employment and your enrollment status in the Government's Life Insurance program. You may be asked to complete this form at any time during the hiring process. Follow instructions that the agency provides. If you are selected, before you are appointed you will be asked to update your responses on this form and on other materials submitted during the application process and then to re-certify that your answers are true.
 
 ### SF-50
 
-The [SF-50](https://www.opm.gov/forms/standard-forms/) is a notification of a Personnel Action. It contains your series, grade, and other information useful to you or required if applying for reinstatement. Used by current and former federal employees. [Learn how to obtain a copy of your SF-50](http://www.archives.gov/st-louis/civilian-personnel/index.html).
+The [SF-50](https://www.opm.gov/forms/standard-forms/){:target="_blank"} is a notification of a Personnel Action. It contains your series, grade, and other information useful to you or required if applying for reinstatement. Used by current and former federal employees. [Learn how to obtain a copy of your SF-50](http://www.archives.gov/st-louis/civilian-personnel/index.html){:target="_blank"}.
 
 ## Veterans
 
 ### DD-214
 
-The DD-214, "Certificate of Release or Discharge from Active Duty", is issued to military members upon separation from active service. It contains information about the veteran's dates of military service and separation. Most veterans and their next-of-kin can obtain free copies of their DD Form 214 Report of Separation and other military and medical records through the [National Archives Veterans’ Records Service](http://www.archives.gov/veterans/military-service-records/).
+The DD-214, "Certificate of Release or Discharge from Active Duty", is issued to military members upon separation from active service. It contains information about the veteran's dates of military service and separation. Most veterans and their next-of-kin can obtain free copies of their DD Form 214 Report of Separation and other military and medical records through the [National Archives Veterans’ Records Service](http://www.archives.gov/veterans/military-service-records/){:target="_blank"}.
 
 ### SF-15
 
-The [SF-15 "Application for 10-point Veterans' Preference"](https://www.opm.gov/forms/standard-forms/) is used by Federal agencies and OPM examining offices to adjudicate individuals' claims for veterans' preference.
+The [SF-15 "Application for 10-point Veterans' Preference"](https://www.opm.gov/forms/standard-forms/){:target="_blank"} is used by Federal agencies and OPM examining offices to adjudicate individuals' claims for veterans' preference.
 
 
 ## Additional resources
 
-* [Standard forms (OPM)](https://www.opm.gov/forms/standard-forms/)
+* [Standard forms (OPM)](https://www.opm.gov/forms/standard-forms/){:target="_blank"}

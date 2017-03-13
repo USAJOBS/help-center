@@ -14,4 +14,4 @@ If the job announcement has closed and no longer appears on the USAJOBS website,
 
 To learn more, please consult the following resources:
 
-* [A-Z index of U.S. Government Departments and Agencies](https://www.usa.gov/federal-agencies/a)
+* [A-Z index of U.S. Government Departments and Agencies](https://www.usa.gov/federal-agencies/a){:target="_blank"}

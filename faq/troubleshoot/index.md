@@ -14,12 +14,12 @@ tags: [troubleshoot, browsers, browser, compatibility]
 
 We support the current and prior major releases of:
 
-* [Chrome](https://www.google.com/chrome/)
-* [Firefox](http://www.mozilla.org/firefox/)
-* [Safari](http://www.apple.com/safari/)
-* [Internet Explorer](http://ie.microsoft.com/)
+* [Chrome](https://www.google.com/chrome/){:target="_blank"}
+* [Firefox](http://www.mozilla.org/firefox/){:target="_blank"}
+* [Safari](http://www.apple.com/safari/){:target="_blank"}
+* [Internet Explorer](http://ie.microsoft.com/){:target="_blank"}
 
-All of the designs meet the [WCAG 2.0 AA accessibility guidelines](http://www.w3.org/TR/WCAG20/) and are compliant with [Section 508 of the Rehabilitation Act](http://www.section508.gov/).
+All of the designs meet the [WCAG 2.0 AA accessibility guidelines](http://www.w3.org/TR/WCAG20/){:target="_blank"} and are compliant with [Section 508 of the Rehabilitation Act](http://www.section508.gov/){:target="_blank"}.
 
 ## Should I upgrade my browser?
 

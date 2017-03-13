@@ -20,7 +20,7 @@ Some job announcements require certain documents or forms, such as transcripts, 
 6.	Name your document-the default name will match the file title from your computer. You have the option to edit the name of the document.
 7.	Select the **Document Type** from the options below the document name.  
 8.	Click the **Complete Upload** button.
-	
+
 The uploaded document will appear in your account in the **Other Documents** section. The documents will appear in the order you upload them.
 
 ## Document Size and Format
@@ -36,12 +36,12 @@ All documents must be less than 3MB in size and in one of the following document
 * TXT
 * Word (.doc or .docx)
 
-### How do I upload a document that's larger than 3MB? 
+### How do I upload a document that's larger than 3MB?
 
 If your document is larger than 3 MB, here are some suggestions:
 
-* Read Adobe’s tutorial on [how to reduce PDF file size](https://acrobatusers.com/tutorials/reducing-file-size).
-* Print your document, scan it (if you have a personal scanner) and save it at a smaller size. 
+* Read Adobe’s tutorial on [how to reduce PDF file size](https://acrobatusers.com/tutorials/reducing-file-size){:target="_blank"}.
+* Print your document, scan it (if you have a personal scanner) and save it at a smaller size.
 * Use a smaller image format. Different image formats have varying sizes – JPEG files typically are the largest and PNG files are the smallest.
 * Take your document to an office supply store (i.e. Staples, FedEx Office/Kinkos) and ask them to shrink the document size for you and save it to a disk or flash drive. Make sure you tell the office tech the document can’t exceed 3MB (3,072 KB).
 

@@ -12,5 +12,5 @@ The U.S. Office of Personnel Management (OPM) provides leadership on Federal pay
 
 ## Additional resources
 
-* [Pay](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/ "opm.gov")
-* [Leave](https://www.opm.gov/policy-data-oversight/pay-leave/leave-administration/ "opm.gov")
+* [Pay](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/ "opm.gov"){:target="_blank"}
+* [Leave](https://www.opm.gov/policy-data-oversight/pay-leave/leave-administration/ "opm.gov"){:target="_blank"}

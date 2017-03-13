@@ -27,4 +27,4 @@ Though not specifically for veterans, the [Schedule A authority for people with 
 
 ## Additional Resources
 
-* [Feds Hire Vets - Special Hiring Authorities for Veterans](https://fedshirevets.gov/job/shav/index.aspx)
+* [Feds Hire Vets - Special Hiring Authorities for Veterans](https://fedshirevets.gov/job/shav/index.aspx){:target="_blank"}

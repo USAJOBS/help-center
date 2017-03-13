@@ -41,4 +41,4 @@ Two or more schedules presented alternatively. Open Continuous/Standing Register
 
 ## Additional resources
 
-* [Work schedules (OPM)](https://www.opm.gov/policy-data-oversight/pay-leave/work-schedules/)
+* [Work schedules (OPM)](https://www.opm.gov/policy-data-oversight/pay-leave/work-schedules/){:target="_blank"}

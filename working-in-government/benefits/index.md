@@ -15,5 +15,5 @@ Eligibility for benefits depends on the type of position you hold and whether yo
 
 ## Additional resources
 
-* [Benefits for federal employees](https://www.usa.gov/benefits-for-federal-employees "usa.gov")
-* [Healthcare insurance](https://www.opm.gov/healthcare-insurance/ "opm.gov")
+* [Benefits for federal employees](https://www.usa.gov/benefits-for-federal-employees "usa.gov"){:target="_blank"}
+* [Healthcare insurance](https://www.opm.gov/healthcare-insurance/ "opm.gov"){:target="_blank"}

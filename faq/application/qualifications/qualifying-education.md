@@ -15,7 +15,7 @@ Qualifying educational institutions/programs include:
 * A graduate or professional school.
 * A post-secondary home-school curriculum.
 
-To determine if a school or program is accredited, refer to the [U.S. Department of Education’s Institutional Accreditation System](http://ope.ed.gov/accreditation/Search.aspx)
+To determine if a school or program is accredited, refer to the [U.S. Department of Education’s Institutional Accreditation System](http://ope.ed.gov/accreditation/Search.aspx){:target="_blank"}
 
 A post-secondary certificate program must have been completed at a qualifying educational institution equivalent to at least one academic year of full-time study that is part of an accredited college-level, technical, trade, vocational, or business school curriculum.
 

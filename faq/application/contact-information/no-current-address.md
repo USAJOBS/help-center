@@ -31,5 +31,4 @@ Anytown, NY 12345-9999
 
 ## Where can you go for more information about General Delivery?
 
-You may speak to any local Post Office associate, call 1-800-ASK-USPS (1-800-275-8777), or visit the [U.S. Postal Service](https://www.usps.com/).
-
+You may speak to any local Post Office associate, call 1-800-ASK-USPS (1-800-275-8777), or visit the [U.S. Postal Service](https://www.usps.com/){:target="_blank"}.

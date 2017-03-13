@@ -22,7 +22,7 @@ Select this option if you’ve never worked for the federal government and you'r
 
 ### Who is a National or individual who owes allegiance to the U.S.?  
 
-Most federal jobs require you to be a [U.S. citizen](../../../../working-in-government/us-citizens/), but there are some exceptions for [nationals and individuals who owe allegiance to the U.S.](https://www.uscis.gov/ilink/docView/SLB/HTML/SLB/0-0-0-1/0-0-0-29/0-0-0-9696.html), including those from the American Samoa and Swain Islands. The **Who May Apply** section of each job announcement lists whether the job is open to U.S. citizens and non-U.S. citizens.
+Most federal jobs require you to be a [U.S. citizen](../../../../working-in-government/us-citizens/), but there are some exceptions for [nationals and individuals who owe allegiance to the U.S.](https://www.uscis.gov/ilink/docView/SLB/HTML/SLB/0-0-0-1/0-0-0-29/0-0-0-9696.html){:target="_blank"}, including those from the American Samoa and Swain Islands. The **Who May Apply** section of each job announcement lists whether the job is open to U.S. citizens and non-U.S. citizens.
 
 [Learn more about employment of non-U.S. citizens](../../../../working-in-government/non-citizens/).
 
@@ -46,7 +46,7 @@ As a current of former federal employee, you can also apply to jobs that are ope
 ## Veterans
 Select this option if you're:
 
-* Eligible for [veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or 
+* Eligible for [veterans' preference](../../../../working-in-government/unique-hiring-paths/veterans/preference/) or
 * Separated from the armed forces under honorable conditions after three years or more, of continuous military service.
 
 [Learn more about the veterans’ hiring path](../../../../working-in-government/unique-hiring-paths/veterans/).
@@ -77,7 +77,7 @@ If you’re a military spouse, you may be eligible to apply to competitive servi
 ## National Guard
 Select this option if you want to see jobs open to current National Guard members or transitioning military service members.
 
-## Native Americans. 
+## Native Americans.
 Select this option if you want to see jobs open to people with a tribal affiliation.
 
 ## Peace Corps and Vista
@@ -85,7 +85,7 @@ If you’ve served at least two years with Peace Corps or one year with AmeriCor
 [Learn more about the Peace Corps and AmeriCorps VISTA hiring path](../../../../working-in-government/unique-hiring-paths/peace-corps/).
 
 ## Senior Executives
-The Senior Executive Service (SES) consists of executive positions classified above General Schedule (GS) grade 15 or equivalent positions in most Executive Branch agencies of the Federal Government. You must meet the five Executive Core Qualifications to be eligible for these jobs. Select this option if you want to see jobs open to the Senior Executive Service. 
+The Senior Executive Service (SES) consists of executive positions classified above General Schedule (GS) grade 15 or equivalent positions in most Executive Branch agencies of the Federal Government. You must meet the five Executive Core Qualifications to be eligible for these jobs. Select this option if you want to see jobs open to the Senior Executive Service.
 [Learn more about the Senior Executive hiring path](../../../../working-in-government/unique-hiring-paths/senior-executives/).
 
 Learn more about [which jobs you are eligible to apply for](../../../../faq/application/eligibility/).

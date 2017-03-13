@@ -18,7 +18,7 @@ You must provide documentation or proof that your degree(s) is from a school acc
 
 Education completed outside of the U.S. must be equivalent to accredited U.S. education programs.
 
-[Learn more about education and training requirements](https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-policies/#url=e4).
+[Learn more about education and training requirements](https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-policies/#url=e4){:target="_blank"}.
 
 ## Academic Level and Degree Definitions
 

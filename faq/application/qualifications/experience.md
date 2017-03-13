@@ -44,4 +44,4 @@ Trade, Craft, and Labor jobs, sometimes referred to as "blue collar" jobs, have 
 
 ## Additional resources
 
-* [General Schedule qualification standards](https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-standards/)
+* [General Schedule qualification standards](https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-standards/){:target="_blank"}

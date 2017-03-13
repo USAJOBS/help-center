@@ -18,4 +18,4 @@ Ranking is a comparison of candidate’s experience and/or education against spe
 
 ## Additional resources
 
-* [Category rating (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating)
+* [Category rating (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=Category-Rating){:target="_blank"}

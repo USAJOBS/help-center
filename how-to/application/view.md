@@ -43,7 +43,7 @@ Click the **+** to see more details about the job application. Each application 
 * Last updated date
 *	[Work schedule](../../../working-in-government/pay-and-leave/work-schedules/)
 *	[Series and grade](../../../faq/pay/series-and-grade/)
-*	[Salary range](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
+*	[Salary range](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/){:target="_blank"}
 
 [Learn more about the job announcement](../../job-announcement/).
 

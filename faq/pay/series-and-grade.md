@@ -8,9 +8,9 @@ category: pay
 tags: [pay, series, grade]
 ---
 
-Series and grade is the Federal Government’s system for categorizing and defining jobs. The series  is a numbered system for grouping similar occupations.  For example, a Nurse is part of the 0610 series.  A ‘grade’ refers to the [General Schedule (GS) pay scale](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/) – it’s the pay level for the job.  The higher the grade level, the higher the pay. The GS pay schedule is the most common pay schedule, but there are others, including the [wage scale](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/federal-wage-system/) and [special rates](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/special-rates-requests/).
+Series and grade is the Federal Government’s system for categorizing and defining jobs. The series  is a numbered system for grouping similar occupations.  For example, a Nurse is part of the 0610 series.  A ‘grade’ refers to the [General Schedule (GS) pay scale](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/){:target="_blank"} – it’s the pay level for the job.  The higher the grade level, the higher the pay. The GS pay schedule is the most common pay schedule, but there are others, including the [wage scale](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/federal-wage-system/){:target="_blank"} and [special rates](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/special-rates-requests/){:target="_blank"}.
 
-If you’ve never worked in the Federal Government, you don’t have to include a series or grade on your resume for previous, non-government jobs. However, when you apply, you might have to say the highest grade you’d like, or are eligible for. 
+If you’ve never worked in the Federal Government, you don’t have to include a series or grade on your resume for previous, non-government jobs. However, when you apply, you might have to say the highest grade you’d like, or are eligible for.
 
 ## Determining which grade is appropriate
 
@@ -36,5 +36,5 @@ A “step” is a raise in salary. In the GS pay scale, each grade has 10 steps.
 
 ## Additional resources
 
-* [Pay systems](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/)
-* [Salaries & Wages](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/)
+* [Pay systems](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/){:target="_blank"}
+* [Salaries & Wages](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/){:target="_blank"}

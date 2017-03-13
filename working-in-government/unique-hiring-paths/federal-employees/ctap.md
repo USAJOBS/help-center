@@ -12,4 +12,4 @@ The Career Transition Assistance Program (CTAP) is an intra-agency program desig
 
 ## Additional Resources
 
-* [What is CTAP? (OPM)](https://www.opm.gov/FAQs/QA.aspx?fid=d5e0f29c-fcc1-4ee2-a9f1-67ef78c0dfe4&pid=7d7c7585-dee6-4689-ab76-d4b316b62bfb&result=1/)
+* [What is CTAP? (OPM)](https://www.opm.gov/FAQs/QA.aspx?fid=d5e0f29c-fcc1-4ee2-a9f1-67ef78c0dfe4&pid=7d7c7585-dee6-4689-ab76-d4b316b62bfb&result=1/){:target="_blank"}

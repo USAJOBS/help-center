@@ -17,5 +17,5 @@ Veterans' Recruitment Appointment (VRA) is an excepted authority that allows age
 
 ## Additional Resources
 
-* [Feds Hire Vets - Special Hiring Authorities for Veterans](https://fedshirevets.gov/job/shav/index.aspx)
-* [Frequently Asked Questions - Veterans (OPM)](https://www.opm.gov/FAQS/topic/veterans/index.aspx)
+* [Feds Hire Vets - Special Hiring Authorities for Veterans](https://fedshirevets.gov/job/shav/index.aspx){:target="_blank"}
+* [Frequently Asked Questions - Veterans (OPM)](https://www.opm.gov/FAQS/topic/veterans/index.aspx){:target="_blank"}

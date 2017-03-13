@@ -12,4 +12,4 @@ Individuals, who previously held a career or career-conditional appointment with
 
 ## Additional Resources
 
-* [Hiring Authorities - Reinstatement (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/reinstatement/)
+* [Hiring Authorities - Reinstatement (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/reinstatement/){:target="_blank"}

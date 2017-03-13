@@ -12,4 +12,4 @@ An Interchange Agreement may exist between the Office of Personnel Management an
 
 ## Additional Resources
 
-* [Interchange agreements with other merit systems (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=InterchangeAgreementsWithOtherMeritSystems)
+* [Interchange agreements with other merit systems (OPM)](https://www.opm.gov/policy-data-oversight/hiring-information/competitive-hiring/#url=InterchangeAgreementsWithOtherMeritSystems){:target="_blank"}
