@@ -2,6 +2,22 @@
 
 @import 'base-shared';
 
+// This first rule should move into the design system
+.usajobs-shell--large {
+  max-width: $site-max-width-L;
+
+  .usajobs-content-gutter {
+    @include media($XXXXL) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .usajobs-grid-full {
+    max-width: $site-max-width-L;
+  }
+}
+
 .usajobs-help-center__home-container {
   background-color: $color-gray-lightest;
 }

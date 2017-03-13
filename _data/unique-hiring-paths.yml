@@ -21,8 +21,8 @@ military-spouses:
   text: "If you're a military spouse, you may be eligible to apply using a non-competitive process designed to help you get a job in the federal government."
   image-alt: "Military service member hugging his spouse."
   icons:
-    - shield
-    - user
+    - circle-o
+    - circle-o
 
 peace-corps:
   title: Peace Corps/VISTA Alumni

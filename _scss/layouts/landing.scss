@@ -2,12 +2,15 @@
 
 @import 'base-shared';
 
-
 // Note: Some styles are shared with landing and can be found in help-center.scss
 
 .usajobs-help-center-landing {
   .usajobs-help-center__lead {
     margin-bottom: $size-XL;
+  }
+
+  .usajobs-grid-full {
+    max-width: $site-max-width-L;
   }
 
   &__title .fa {

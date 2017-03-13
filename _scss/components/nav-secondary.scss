@@ -7,7 +7,7 @@
 
   &__body {
     @include outer-container();
-    max-width: $site-max-width;
+    max-width: $site-max-width-L;
 
     @include media($SM) {
       padding-left: $size-default;
@@ -17,6 +17,11 @@
     @include media($ML) {
       padding-left: $size-M;
       padding-right: $size-M;
+    }
+
+    @include media($XXXXL) {
+      padding-left: 0;
+      padding-right: 0;
     }
 
     a {

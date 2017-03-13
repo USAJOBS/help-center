@@ -29,6 +29,11 @@ $icon-size: rem(164px);
       margin-left: auto;
       margin-right: auto;
     }
+
+    @include media($XXXXL) {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   &__title {
@@ -95,7 +100,7 @@ $icon-size: rem(164px);
 
 .usajobs-uhp-banner {
   &__container {
-    max-width: $site-max-width-L;
+    max-width: $site-max-width;
 
     @include media($ML) {
       margin-left: auto;
@@ -135,6 +140,18 @@ $icon-size: rem(164px);
 
   &__multiple-icons {
     font-size: rem(62px);
+
+    .fa.is-first {
+      text-indent: 0;
+      top: -6px;
+      left: -14px;
+      opacity: 0.8;
+    }
+
+    .fa.is-second {
+      text-indent: 0;
+      left: 12px;
+    }
   }
 
   &__icon .fa {
@@ -231,14 +248,24 @@ $icon-size: rem(164px);
   }
 }
 
-.usajobs-uhp-banner--peace-corps,
-.usajobs-uhp-banner--former-overseas-employees {
+.usajobs-uhp-banner--peace-corps {
   .usajobs-uhp-banner__body {
-    background-color: $color-secondary;
+    background-color: $color-visited;
   }
 
   .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-secondary);
+    @include makeSemiCircle($icon-size, $color-visited);
+    display: block;
+  }
+}
+
+.usajobs-uhp-banner--former-overseas-employees {
+  .usajobs-uhp-banner__body {
+    background-color: $color-primary-alt-darkest;
+  }
+
+  .usajobs-uhp-banner__icon .fa {
+    @include makeSemiCircle($icon-size, $color-primary-alt-darkest);
     display: block;
   }
 }

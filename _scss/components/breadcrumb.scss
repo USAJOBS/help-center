@@ -9,9 +9,14 @@
     @include unstyledList();
     @include contentGutter();
     width: 100%;
-    max-width: $site-max-width;
+    max-width: $site-max-width-L;
     margin-left: auto;
     margin-right: auto;
+
+    @include media($XXXXL) {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 
   &__list &__item {
@@ -59,6 +64,8 @@
   }
 
   .usajobs-help-center-breadcrumb__list {
+    max-width: $site-max-width;
+
     @include media($ML) {
       padding-top: $size-M;
       padding-bottom: $size-M;
