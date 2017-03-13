@@ -112,9 +112,14 @@
 
   &__form-container {
     max-width: $article-max-width;
+    padding: $size-default;
 
     &[aria-hidden=true] {
       display: none;
+    }
+
+    .usajobs-help-center__lead {
+      color: $color-black;
     }
   }
 
@@ -124,6 +129,7 @@
     background-image: inherit;
     color: $color-white;
     font-size: $h3-font-size;
+    text-align: center;
 
     &[aria-expanded=false] {
       background-image: inherit;

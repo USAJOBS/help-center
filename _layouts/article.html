@@ -25,10 +25,10 @@
                   <i class="fa fa-envelope"></i> Contact us
                 </a>
               </div>
-              {% assign sorted_pages = site.pages | sort:"title" %}
+              {% strip %}
+              {% assign sorted_pages = site.html_pages | sort:"title" %}
               <h3 class="usajobs-help-center-article__related">Related articles</h3>
               <ul class="usajobs-help-center-article__related-list">
-              {% strip %}
               {% for node in sorted_pages %}
                 {% if node.category == page.category %}
                   {% if node.exclude_from_category != true %}

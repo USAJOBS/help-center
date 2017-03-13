@@ -484,6 +484,7 @@ html {
 
 .usajobs-help-center-breadcrumb__list .usajobs-help-center-breadcrumb__item {
   display: inline-block;
+  font-size: 1.4rem;
 }
 
 .usajobs-help-center-breadcrumb__link {
@@ -2236,10 +2237,15 @@ html {
 
 .usajobs-help-center-article-contact__form-container {
   max-width: 60rem;
+  padding: 1.5rem;
 }
 
 .usajobs-help-center-article-contact__form-container[aria-hidden=true] {
   display: none;
+}
+
+.usajobs-help-center-article-contact__form-container .usajobs-help-center__lead {
+  color: #000000;
 }
 
 .usajobs-help-center-article-contact .usajobs-help-center-article-contact__button {
@@ -2248,6 +2254,7 @@ html {
   background-image: inherit;
   color: #ffffff;
   font-size: 24px;
+  text-align: center;
 }
 
 .usajobs-help-center-article-contact .usajobs-help-center-article-contact__button[aria-expanded=false] {

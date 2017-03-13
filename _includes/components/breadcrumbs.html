@@ -1,31 +1,43 @@
+{% capture url %}{% if page.language%}{{ page.url | remove: "/" | remove: page.language }}{% else %}{{ page.url | remove: "/" }}{% endif %}{% endcapture %}
+{% if url.size > 0 %}
 <div class="usajobs-help-center-breadcrumb usajobs-help-center-breadcrumb--{{ include.variation }}">
   <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb__list">
     <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href="{{ site.baseurl }}/">
+      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href={{ "/" | prepend: site.baseurl | prepend: site.url }}>
         Home
       </a>
     </li>
-{% strip %}
-{% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
-{% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-{% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
-{% for i in (1..forLoopMaxInt) %}
-  {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/index.html{% endcapture %}
-  {% capture current_breadcrumb_md_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
-  {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
-  {% for breadcrumb_page in site.pages %}
-    {% if current_breadcrumb_url == breadcrumb_page.url or current_breadcrumb_md_url == breadcrumb_page.url  %}
-    {% assign j = forLoopMaxInt | plus: 0 %}
-    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-      {% capture breadcrumb_page_page_url_without_index_html %}{{ breadcrumb_page.url | remove: "index.html" }}{% endcapture %}
-      <a href="{{ site.baseurl }}{{breadcrumb_page_page_url_without_index_html}}" {% if i == j %}class="usajobs-help-center-breadcrumb__link is-active"{% else %} class="usajobs-help-center-breadcrumb__link"{% endif %}>
-        <span property="item" typeof="WebPage">{{breadcrumb_page.breadcrumb}}</span>
-        <meta property="position" content="{{ page.parent_paths | size | plus: 1 }}">
-      </a>
-    </li>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-{% endstrip %}
+    <!-- Iteration breadcrumb item -->
+    {% assign position = 0 %}
+    {% for crumb in breadcrumbs %}
+
+      <!-- Skip if root -->
+      {% if crumb.url == "/" %}
+        {% continue %}
+      {% endif %}
+
+      <!-- Skip if language directory -->
+      {% if page.language %}
+        {% assign langpath = crumb.url | remove: "/" %}
+        {% if langpath == page.language %}
+          {% continue %}
+        {% endif %}
+      {% endif %}
+
+      <!-- Get breadcrumb title. -->
+      {% assign caption = crumb.title %}
+      <!-- span property="item" typeof="WebPage">{{breadcrumb_page.breadcrumb}}</span -->
+
+      <!-- SEO data -->
+      {% assign position = position  | plus: 1 %}
+
+      <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
+        {% if crumb.url != page.url %}<a property="item" class="usajobs-help-center-breadcrumb__link{% if crumb.url == page.url %} is-active{% endif %}" typeof="WebPage" href="{{ crumb.url | prepend: site.baseurl | prepend: site.url }}">{% endif %}
+        <span property="name" typeof="WebPage">{{ caption }}</span>
+        {% if crumb.url != page.url %}</a>{% endif %}
+        <meta property="position" content="{{ position }}" />
+      </li>
+    {% endfor %}
   </ul>
 </div>
+{% endif %}
