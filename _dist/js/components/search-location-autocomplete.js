@@ -123,6 +123,7 @@ $location.catcomplete({
       $hidden_countries.appendTo($search_form);
     }
 
+    $location.val(value);
     closeLocationAutocomplete();
     // $search_form.submit();
 

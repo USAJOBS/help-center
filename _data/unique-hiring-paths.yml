@@ -3,18 +3,24 @@ disability:
   text: "If you're an individual with a disability, you can apply and compete for any job for which you are eligible and meet the qualifications, but you also may be eligible for a special hiring authority."
   image-alt: "Male writing with mechanical pencil on paper document."
   icon: wheelchair-alt
+  search-filter-desc: "Jobs open to individuals with a disability."
+  search-filter-value: "disability"
 
 federal-employees:
   title: Federal Employees
   text: "If you are a current or former federal employee you may qualify to apply for a position under merit promotion consideration."
   image-alt: "A women typing on a laptop."
   icon: bank
+  search-filter-desc: "Jobs open to current and former federal employees."
+  search-filter-value: "fed"
 
 former-overseas-employees:
   title: Former Overseas Employees
   text: "If you're a family member of a federal employee, or uniformed service member, who has completed 52 weeks of service in a federal position overseas, you may be eligible to apply for jobs open to merit promotion candidates or be hired for a competitive service job."
   image-alt: "Fighter jets"
   icon: plane
+  search-filter-desc: "Jobs open to family members of federal employees who’ve worked overseas."
+  search-filter-value: "land"
 
 military-spouses:
   title: Military Spouses
@@ -23,27 +29,37 @@ military-spouses:
   icons:
     - circle-o
     - circle-o
+  search-filter-desc: "Jobs open to military spouses relocating under PCS orders, or whose spouse is 100% disabled or died while on active duty."
+  search-filter-value: "mspouse"
 
 peace-corps:
   title: Peace Corps/VISTA Alumni
   text: "If you served with the Peace Corps or AmeriCorps VISTA, you may qualify for non-competitive eligibility. This means that a federal agency can hire you outside of the formal competitive job announcement process."
   image-alt: "One individual helps another up a mountain."
   icon: flag
+  search-filter-desc: "Jobs open to individuals who’ve served at least 2 years with the Peace Corps or 1 year with AmeriCorps VISTA."
+  search-filter-value: "peace"
 
 ses:
   title: Senior Executives
   text: "You may be eligible for a Senior Executive Service position if you meet the five Executive Core Qualifications (ECQs)."
   image-alt: "A pen resting on an open notebook."
   icon: briefcase
+  search-filter-desc: "Jobs open to individuals who meet the five Executive Core Qualifications (ECQs)."
+  search-filter-value: "ses"
 
 students:
   title: Students & Recent Graduates
   text: "If you’re a current student or recent graduate, you may be eligible for federal internships and job opportunities through the Pathways program."
   image-alt: "Students at a picnic table reading."
   icon: graduation-cap
+  search-filter-desc: "Jobs open to students and recent graduates."
+  search-filter-value: "student"
 
 veterans:
   title: Veterans
   text: "If you’re a Veteran who served on active duty in the U.S. Armed Forces and were separated under honorable conditions, you may be eligible for veterans’ preference, as well as other veteran specific hiring options."
   image-alt: "Soldier saluting the American flag."
   icon: shield
+  search-filter-desc: "Jobs open to individuals who are preference eligible or were honorably discharged after 3 or more years of continuous active service."
+  search-filter-value: "vet"

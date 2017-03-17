@@ -1,0 +1,59 @@
+// UHP Search - Keyword autocomplete
+
+@import 'base-shared';
+@import 'font-awesome/font-awesome';
+
+.usajobs-search-keyword-autocomplete,
+.usajobs-search-location-autocomplete {
+  @include media($L) {
+    @include span-columns(5, 12);
+  }
+
+  .ui-autocomplete-close-header.ui-menu-item {
+    font-size: $small-font-size;
+    padding: $size-base $size-M $size-base 0;
+    background-color: $color-gray-warm-light;
+    text-align: right;
+
+    .fa {
+      text-align: right;
+    }
+  }
+
+  .ui-autocomplete-category {
+    @include h5();
+    margin: 0;
+    padding: $size-base $size-default;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-color: $color-gray-lightest;
+
+    @include media($M) {
+      padding: $size-S $size-default;
+    }
+
+    &.Cities {
+      position: relative;
+    }
+
+    &.Cities::before {
+      @include fa-icon();
+      content: $fa-var-building;
+      padding-right: $size-S;
+    }
+
+    &.Countries::before {
+      @include fa-icon();
+      content: $fa-var-globe;
+      padding-right: $size-S;
+    }
+  }
+
+  .ui-menu-item {
+    padding: $size-base $size-default;
+
+    @include media($M) {
+      padding: $size-S $size-default;
+    }
+  }
+}

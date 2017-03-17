@@ -270,7 +270,7 @@ $icon-size: rem(164px);
   }
 }
 
-// Search banners used in UHP pages: Students and SES
+// Search banners used in UHP pages
 .usajobs-uhp-search-banner {
   @include clearfix();
   @include contentGutter();
@@ -287,7 +287,8 @@ $icon-size: rem(164px);
   }
 
   &__title,
-  label {
+  label,
+  &__filters-desc {
     color: $color-white;
   }
 
@@ -298,6 +299,30 @@ $icon-size: rem(164px);
   .usajobs-nav__search-button {
     padding-left: $size-S;
     padding-right: $size-S;
+  }
+
+  &__filters-item {
+    @include row();
+    margin-top: $size-default;
+    text-align: center;
+
+    @include media($L) {
+      margin-top: $size-M;
+    }
+  }
+
+  &__filters-label {
+    margin-top: 0;
+    max-width: inherit;
+  }
+
+  &__filters-desc {
+    margin-top: $size-XS;
+    font-size: $small-font-size;
+  }
+
+  &__filters-uhp-icon {
+    @include UHPIcons(29px);
   }
 }
 

@@ -307,6 +307,57 @@
   </div>
 </div>
 
+
+<div class="usajobs-uhp-search-banner">
+  <div role="search" class="usajobs-uhp-search-banner__container">
+    <form class="usa-search usa-search-big" action="https://test.usajobs.gov/Search/Results" id="uhp-search" method="get" novalidate="novalidate" role="search">
+      <h3 class="usajobs-uhp-search-banner__title">
+        Begin your search
+        <span class="fa fa-search usajobs-uhp-search-banner__search-icon"></span>
+      </h3>
+      <fieldset>
+        <div class="usajobs-nav__search-keywords-container">
+          <label for="k">
+            <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
+            Keywords
+          </label>
+          <input id="keyword" name="k" class="usajobs-nav__search-keywords-input" placeholder="Job title, dept., agency, series, or keyword" type="text" value="" autocomplete="off">
+        </div>
+        <div class="usajobs-nav__search-location-container">
+          <label for="l">
+            <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
+            Location
+          </label>
+          <input id="uhp-location" name="l" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="" autocomplete="off">
+          <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+          <input type="hidden" id="inner-AutoCompleteSelected" name="innerAutoCompleteSelected">
+          <div id="search-inner-autocomplete-container"></div>
+        </div>
+        <div class="usajobs-nav__search-button-container">
+          <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+            Search Jobs
+          </button>
+        </div>
+        <div class="usajobs-uhp-search-banner__filters-item" title="Jobs open to individuals who’ve served at least 2 years with the Peace Corps or 1 year with AmeriCorps VISTA.">
+          <input type="hidden" name="hp" id="hp" value="peace" class="usajobs-uhp-search-banner__filters-checkbox">
+          <label for="hiring_path" class="usajobs-uhp-search-banner__filters-label">
+            <span class="usajobs-uhp-search-banner__filters-uhp-icon peace-corps">
+              <i class="fa fa-flag"></i>
+            </span>
+            <span>
+              Peace Corps/VISTA Alumni
+            </span>
+          </label>
+          <p class="usajobs-uhp-search-banner__filters-desc">
+            Look for this option under the <strong>Hiring Path</strong> filter in search.
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+
+
             </main>
             <aside class="usajobs-hiring-paths-nav">
               <div class="usajobs-uhp-section-nav">
