@@ -337,7 +337,7 @@
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
-      If you’re a current or former federal employee and hold a career appointment in the competitive service (also known as competitive status), or have completed the one-year career-conditional period, you are eligible for a merit promotion.
+      If you’re a current or former federal employee and hold a career appointment in the competitive service (also known as competitive status) you are eligible for a merit promotion.
     </p>
     <p>
       The merit promotion program lets a current or former federal employee apply for a job without having to compete with the general public. Instead, these individuals compete with other competitive status employees.  However, veterans can't use status points for merit promotion jobs. Applicants are evaluated and ranked for the position based on their experience, education, competencies and performance.
@@ -375,6 +375,57 @@
     </p>
   </div>
 </div>
+
+
+<div class="usajobs-uhp-search-banner">
+  <div role="search" class="usajobs-uhp-search-banner__container">
+    <form class="usa-search usa-search-big" action="https://test.usajobs.gov/Search/Results" id="uhp-search" method="get" novalidate="novalidate" role="search">
+      <h3 class="usajobs-uhp-search-banner__title">
+        Begin your search
+        <span class="fa fa-search usajobs-uhp-search-banner__search-icon"></span>
+      </h3>
+      <fieldset>
+        <div class="usajobs-nav__search-keywords-container">
+          <label for="k">
+            <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
+            Keywords
+          </label>
+          <input id="keyword" name="k" class="usajobs-nav__search-keywords-input" placeholder="Job title, dept., agency, series, or keyword" type="text" value="" autocomplete="off">
+        </div>
+        <div class="usajobs-nav__search-location-container">
+          <label for="l">
+            <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
+            Location
+          </label>
+          <input id="uhp-location" name="l" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="" autocomplete="off">
+          <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+          <input type="hidden" id="inner-AutoCompleteSelected" name="innerAutoCompleteSelected">
+          <div id="search-inner-autocomplete-container"></div>
+        </div>
+        <div class="usajobs-nav__search-button-container">
+          <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+            Search Jobs
+          </button>
+        </div>
+        <div class="usajobs-uhp-search-banner__filters-item" title="Jobs open to current and former federal employees.">
+          <input type="hidden" name="hp" id="hp" value="fed" class="usajobs-uhp-search-banner__filters-checkbox">
+          <label for="hiring_path" class="usajobs-uhp-search-banner__filters-label">
+            <span class="usajobs-uhp-search-banner__filters-uhp-icon federal-employees">
+              <i class="fa fa-bank"></i>
+            </span>
+            <span>
+              Federal Employees
+            </span>
+          </label>
+          <p class="usajobs-uhp-search-banner__filters-desc">
+            Look for this option under the <strong>Hiring Path</strong> filter in search.
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+
 
             </main>
             <aside class="usajobs-hiring-paths-nav">
