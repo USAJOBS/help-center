@@ -20,11 +20,15 @@ Your search results will update automatically as you select each filter.
 
 ### Not required
 The job does not require any travel.
+
 ### Occasional travel
 The job may require travel from time- to-time, but not on a regular basis. The travel may be for training or other work-related duties.
+
 ### 25% or greater
 The job requires at least 25% travel, but may require more.
+
 ### 50% or greater
 The job requires at least 50% travel, but may require more.
+
 ### 75% or greater
 The job requires at least 75% travel, but may require more.
