@@ -1,9 +1,10 @@
 ---
 permalink: /how-to/account/access/
-layout: article
+layout: article-exposed-form
 section: how-to
 title: How can I access my account when the email address on my account is no longer valid?
 breadcrumb: Regain access
+long-form: true
 category: account
 tags: [password, regain, email, access, support-password]
 ---
