@@ -1,6 +1,20 @@
 <div class="usajobs-uhp-section-nav">
-  <h2 class="usajobs-uhp-section__title">Unique hiring paths</h2>
+  <h2 class="usajobs-uhp-section__title">Hiring paths</h2>
   <ul class="usajobs-uhp-section-nav__list">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'public' %}is-active{% endif %}">
+      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/public/">
+        <div class="usajobs-uhp-section-nav__figure">
+          <div class="usajobs-uhp-section-nav__icon public">
+            <i class="fa fa-group"></i>
+          </div>
+        </div>
+        <div class="usajobs-uhp-section-nav__body">
+          <h3 class="usajobs-uhp-section-nav__item-title">
+            Open to the public
+          </h3>
+        </div>
+      </a>
+    </li>
     <li class="usajobs-uhp-section-nav__item {% if include.page == 'federal-employees' %}is-active{% endif %}">
       <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/federal-employees/">
         <div class="usajobs-uhp-section-nav__figure">
@@ -43,16 +57,16 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'ses' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/senior-executives/">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'disability' %}is-active{% endif %}">
+      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/individuals-with-disabilities/">
         <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon ses">
-            <i class="fa fa-briefcase"></i>
+          <div class="usajobs-uhp-section-nav__icon individuals-with-disabilities">
+            <i class="fa fa-wheelchair-alt"></i>
           </div>
         </div>
         <div class="usajobs-uhp-section-nav__body">
           <h3 class="usajobs-uhp-section-nav__item-title">
-            Senior executives
+            Individuals with a disability
           </h3>
         </div>
       </a>
@@ -71,16 +85,16 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'disability' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/individuals-with-disabilities/">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'land-management' %}is-active{% endif %}">
+      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/land-management/">
         <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon individuals-with-disabilities">
-            <i class="fa fa-wheelchair-alt"></i>
+          <div class="usajobs-uhp-section-nav__icon land-management">
+            <i class="fa fa-tree"></i>
           </div>
         </div>
         <div class="usajobs-uhp-section-nav__body">
           <h3 class="usajobs-uhp-section-nav__item-title">
-            Individuals with a disability
+            Land Management
           </h3>
         </div>
       </a>
@@ -100,16 +114,58 @@
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'peace-corps' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/peace-corps/">
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'national-guard' %}is-active{% endif %}">
+      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/national-guard/">
         <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon peace-corps">
+          <div class="usajobs-uhp-section-nav__icon national-guard">
             <i class="fa fa-flag"></i>
           </div>
         </div>
         <div class="usajobs-uhp-section-nav__body">
           <h3 class="usajobs-uhp-section-nav__item-title">
-            Peace Corps or AmeriCorps VISTA alumni
+            National Guard
+          </h3>
+        </div>
+      </a>
+    </li>
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'native-americans' %}is-active{% endif %}">
+      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/native-americans/">
+        <div class="usajobs-uhp-section-nav__figure">
+          <div class="usajobs-uhp-section-nav__icon native-americans">
+            <i class="fa fa-sun-o"></i>
+          </div>
+        </div>
+        <div class="usajobs-uhp-section-nav__body">
+          <h3 class="usajobs-uhp-section-nav__item-title">
+            Native Americans
+          </h3>
+        </div>
+      </a>
+    </li>
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'peace-corps' %}is-active{% endif %}">
+      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/peace-corps/">
+        <div class="usajobs-uhp-section-nav__figure">
+          <div class="usajobs-uhp-section-nav__icon peace-corps">
+            <i class="fa fa-globe"></i>
+          </div>
+        </div>
+        <div class="usajobs-uhp-section-nav__body">
+          <h3 class="usajobs-uhp-section-nav__item-title">
+            Peace Corps &amp; VISTA
+          </h3>
+        </div>
+      </a>
+    </li>
+    <li class="usajobs-uhp-section-nav__item {% if include.page == 'ses' %}is-active{% endif %}">
+      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/senior-executives/">
+        <div class="usajobs-uhp-section-nav__figure">
+          <div class="usajobs-uhp-section-nav__icon ses">
+            <i class="fa fa-briefcase"></i>
+          </div>
+        </div>
+        <div class="usajobs-uhp-section-nav__body">
+          <h3 class="usajobs-uhp-section-nav__item-title">
+            Senior executives
           </h3>
         </div>
       </a>

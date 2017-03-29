@@ -85,3 +85,98 @@
     text-decoration: underline;
   }
 }
+
+.usajobs-uhp-accordion-trigger {
+  line-height: 1.5;
+
+  &__sub-title {
+    font-weight: normal;
+  }
+}
+
+.usajobs-uhp-section-required-documents {
+  @include unstyledList();
+
+  &__item {
+    margin-bottom: $size-base;
+
+    @include media($M) {
+      @include span-columns(3, 6);
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    width: 100%;
+    padding: $size-default $size-S;
+    color: $color-primary;
+    text-decoration: none;
+
+    &:visited {
+      color: $color-primary;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__link:hover &__body {
+    text-decoration: underline;
+  }
+
+  &__link .fa {
+    font-size: $h1-font-size;
+    color: $color-secondary-dark;
+  }
+
+  &__body {
+    padding: 0 $size-default;
+    font-style: italic;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.no-flexbox .usajobs-uhp-section-required-documents {
+  &__link {
+    @include clearfix();
+    display: table;
+  }
+
+  &__figure,
+  &__body {
+    display: table-cell;
+  }
+
+$icon-width: rem(68px);
+$icon-padding: $size-default;
+$body-padding: $size-M;
+  &__body {
+    @include calc(width, "100% - " (38px + 15px + 30px));
+
+    .lt-ie9 & {
+      width: 75%;
+    }
+  }
+}
+
+.flexbox .usajobs-uhp-section-required-documents {
+  &__link {
+    @include display(flex);
+    @include align-items(center);
+  }
+
+  &__figure {
+    @include flex-shrink(0);
+  }
+
+  &__body {
+    @include flex(1);
+    min-width: 0;
+  }
+}

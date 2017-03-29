@@ -22,6 +22,14 @@ former-overseas-employees:
   search-filter-desc: "Jobs open to family members of federal employees who’ve worked overseas."
   search-filter-value: "land"
 
+land-management:
+  title: Land Management
+  text: "If you’re a current or former term or temporary employee of the Department of Agriculture or the Department of Interior, you may able to use the Land Management Flexibility Act to apply for permanent jobs that are open to federal employees."
+  image-alt: "Backpackers on a mountain looking at the sunset."
+  icon: tree
+  search-filter-desc: "Jobs open to current or former time-limited federal employees under the Land Management Workforce Flexibility Act."
+  search-filter-value: "land"
+
 military-spouses:
   title: Military Spouses
   text: "If you're a military spouse, you may be eligible to apply using a non-competitive process designed to help you get a job in the federal government."
@@ -32,11 +40,34 @@ military-spouses:
   search-filter-desc: "Jobs open to military spouses relocating under PCS orders, or whose spouse is 100% disabled or died while on active duty."
   search-filter-value: "mspouse"
 
+national-guard:
+  title: National Guard
+  text: "If you’re a member of the National Guard, or are willing and able to join the National Guard, you may be eligible to apply for federal jobs located within a National Guard unit. "
+  image-alt: "National guradsman"
+  icon: flag
+  search-filter-desc: "Jobs open to current National Guard members or transitioning military members."
+  search-filter-value: "nguard"
+
+native-americans:
+  title: Native Americans
+  text: "If you're an American Indian or an Alaskan Native who is a member of a federally recognized tribe, you may be eligible for Indian Preference."
+  image-alt: "Flags of the Native American Nations."
+  icon: sun-o
+  search-filter-desc: "Jobs open to those with a tribal affiliation."
+  search-filter-value: "native"
+
+public:
+  title: Open to the Public
+  text: "If you’re a U.S. citizen or national you can apply to jobs that are open to the public."
+  icon: group
+  search-filter-desc: "Jobs open to U.S. citizens, nationals or individuals who owe allegiance to the U.S."
+  search-filter-value: "public"
+
 peace-corps:
   title: Peace Corps/VISTA Alumni
   text: "If you served with the Peace Corps or AmeriCorps VISTA, you may qualify for non-competitive eligibility. This means that a federal agency can hire you outside of the formal competitive job announcement process."
   image-alt: "One individual helps another up a mountain."
-  icon: flag
+  icon: globe
   search-filter-desc: "Jobs open to individuals who’ve served at least 2 years with the Peace Corps or 1 year with AmeriCorps VISTA."
   search-filter-value: "peace"
 
