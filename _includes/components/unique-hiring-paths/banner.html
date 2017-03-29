@@ -1,10 +1,12 @@
 {% assign section = site.data.unique-hiring-paths[include.page] %}
 <div class="usajobs-uhp-banner usajobs-uhp-banner--{{ include.page }}">
   <div class="usajobs-uhp-banner__container">
+{% if include.page != 'public' %}
     <picture>
       <source srcset="{{ site.baseurl }}/img/help-center/unique-hiring-paths/{{ include.page }}-L.png" media="(min-width: 37.5em)">
       <img srcset="{{ site.baseurl }}/img/help-center/unique-hiring-paths/{{ include.page }}-S.png" alt="{{ section.image-alt }}">
     </picture>
+{% endif %}
     <div class="usajobs-uhp-banner__body">
       <div class="usajobs-uhp-banner__title-container">
         {% if section.icons %}
@@ -14,7 +16,7 @@
         </div>
         {% endif %}
         {% if section.icon %}
-        <div class="usajobs-uhp-banner__icon">
+        <div class="usajobs-uhp-banner__icon {% if section.icon-no-image %}usajobs-uhp-banner__icon-no-image{% endif %}">
           <span class="fa fa-{{ section.icon }}"></span>
         </div>
         {% endif %}

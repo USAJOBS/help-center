@@ -138,6 +138,10 @@ $icon-size: rem(164px);
     text-align: center;
   }
 
+  &__icon-no-image .fa {
+    margin-top: 0;
+  }
+
   &__multiple-icons {
     font-size: rem(62px);
 
@@ -209,6 +213,16 @@ $icon-size: rem(164px);
   }
 }
 
+.usajobs-uhp-banner--land-management {
+  .usajobs-uhp-banner__body {
+    background-color: $color-gray-warm-dark;
+  }
+
+  .usajobs-uhp-banner__icon .fa {
+    @include makeSemiCircle($icon-size, $color-gray-warm-dark);
+    display: block;
+  }
+}
 
 .usajobs-uhp-banner--military-spouses {
   .usajobs-uhp-banner__multiple-icons {
@@ -247,6 +261,41 @@ $icon-size: rem(164px);
   .usajobs-uhp-banner__icon .fa {
     @include makeSemiCircle($icon-size, $color-visited);
     display: block;
+  }
+}
+
+.usajobs-uhp-banner--public {
+  .usajobs-uhp-banner__container {
+    max-width: inherit;
+    background-color: $color-gray-lightest;
+  }
+
+  .usajobs-uhp-banner__body {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $site-max-width;
+    background-color: $color-gray-lightest;
+
+    @include media($XXL) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .usajobs-uhp-banner__text-container {
+    margin-top: $size-L;
+  }
+
+  .usajobs-uhp-banner__icon .fa {
+    @include makeCircle($icon-size, $color-primary-alt);
+    background-color: $color-primary-alt;
+    display: block;
+  }
+
+  .usajobs-uhp-banner__title,
+  .usajobs-uhp-banner__text {
+    color: $color-base;
   }
 }
 
@@ -345,6 +394,10 @@ $icon-size: rem(164px);
   // patching design system
   &__filters-uhp-icon.disability {
     @include makeCircle('29px', none, $color-primary-darker);
+  }
+
+  &__filters-uhp-icon.land-management {
+    @include makeCircle('29px', none, $color-gray-warm-dark);
   }
 }
 

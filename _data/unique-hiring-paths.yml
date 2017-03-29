@@ -60,6 +60,7 @@ public:
   title: Open to the Public
   text: "If you’re a U.S. citizen or national you can apply to jobs that are open to the public."
   icon: group
+  icon-no-image: true
   search-filter-desc: "Jobs open to U.S. citizens, nationals or individuals who owe allegiance to the U.S."
   search-filter-value: "public"
 
