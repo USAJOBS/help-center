@@ -290,12 +290,13 @@
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
-      It’s important to read the <strong>Who May Apply</strong> section of the job announcement to understand if you’re eligible or what you need to do to be eligible. Some jobs:
+      Jobs within a National Guard unit are in the <a href="/Help/working-in-government/service/">excepted service</a>, so it’s important to read the <strong>Who May Apply</strong> section of the job announcement to understand if you’re eligible or what you need to do to be eligible. Some jobs:
     </p>
     <ul>
       <li>Require you to already be a National Guard member in a specific state.</li>
       <li>Require you to already be a National Guard member, but willing to transfer to a specific state.</li>
       <li>Are open to anyone, but you must join the National Guard to accept the job.</li>
+      <li>Require you to wear a National Guard uniform.</li>
     </ul>
     <p>
       The <strong>Who May Apply</strong> section may say:
@@ -313,6 +314,7 @@
     <p>
       Select the <strong>National Guard</strong> filter on the search results page. Your results will display all of the jobs that are open to current National Guard members, or anyone willing to join the National Guard.
     </p>
+
   </div>
 </div>
 
@@ -329,10 +331,13 @@
     <div class="usa-accordion" data-object="help-accordion">
       <ul class="usa-unstyled-list">
         <li>
-          <button class="usa-accordion-button usajobs-uhp-accordion-trigger" aria-expanded="true" aria-controls="category-a" data-behavior="help-accordion.toggle">
-            1. 1.	If you’ve never served in the United States Armed Forces (Active Duty, Reserves or National Guard)
+          <button class="usa-accordion-button usajobs-uhp-accordion-trigger" aria-expanded="false" aria-controls="category-a" data-behavior="help-accordion.toggle">
+            1. If you’ve never served in the United States Armed Forces (Active Duty, Reserves or National Guard)
           </button>
           <div id="category-a" class="usa-accordion-content usajobs-uhp-accordion-content">
+            <p>
+              If you’ve never served in the United States Armed Forces (Active Duty, Reserves or National Guard), you must:
+            </p>
             <ul>
               <li>Be between the ages of 17 and 35.</li>
               <li>Be a U.S. citizen or permanent resident.</li>
@@ -347,7 +352,7 @@
           </button>
           <div id="category-b" class="usa-accordion-content usajobs-uhp-accordion-content">
             <p>
-              If you’re claiming Indian preference based on this category, you must:
+              If you’ve served in the military (Active Duty, Reserves or National Guard), you must:
             </p>
             <ul>
               <li>Qualify for non-regular retired pay by age 60.</li>
@@ -376,10 +381,27 @@
 
 <div class="usajobs-uhp-search-banner">
   <div role="search" class="usajobs-uhp-search-banner__container">
-    <form class="usa-search usa-search-big" action="https://test.usajobs.gov/Search/Results" id="uhp-search" method="get" novalidate="novalidate" role="search">
+    <form class="usa-search usa-search-big" action="/Search/Results" id="uhp-search" method="get" novalidate="novalidate" role="search">
       <h3 class="usajobs-uhp-search-banner__title">
         Search Jobs
       </h3>
+      <div class="usajobs-uhp-search-banner__filters-item" title="Jobs open to current National Guard members or transitioning military members.">
+        <input type="hidden" name="hp" id="hp" value="nguard" class="usajobs-uhp-search-banner__filters-checkbox">
+        <label for="hiring_path" class="usajobs-uhp-search-banner__filters-label">
+          
+          
+          <span class="usajobs-uhp-search-banner__filters-uhp-icon national-guard">
+            <i class="fa fa-flag"></i>
+          </span>
+          
+          <span>
+            National Guard
+          </span>
+        </label>
+        <p class="usajobs-uhp-search-banner__filters-desc">
+          Look for this option under the <strong>Hiring Path</strong> filter in search.
+        </p>
+      </div>
       <fieldset>
         <div class="usajobs-nav__search-keywords-container">
           <label for="k">
@@ -402,23 +424,6 @@
           <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
             Search
           </button>
-        </div>
-        <div class="usajobs-uhp-search-banner__filters-item" title="Jobs open to current National Guard members or transitioning military members.">
-          <input type="hidden" name="hp" id="hp" value="nguard" class="usajobs-uhp-search-banner__filters-checkbox">
-          <label for="hiring_path" class="usajobs-uhp-search-banner__filters-label">
-            
-            
-            <span class="usajobs-uhp-search-banner__filters-uhp-icon national-guard">
-              <i class="fa fa-flag"></i>
-            </span>
-            
-            <span>
-              National Guard
-            </span>
-          </label>
-          <p class="usajobs-uhp-search-banner__filters-desc">
-            Look for this option under the <strong>Hiring Path</strong> filter in search.
-          </p>
         </div>
       </fieldset>
     </form>
