@@ -381,10 +381,27 @@
 
 <div class="usajobs-uhp-search-banner">
   <div role="search" class="usajobs-uhp-search-banner__container">
-    <form class="usa-search usa-search-big" action="https://test.usajobs.gov/Search/Results" id="uhp-search" method="get" novalidate="novalidate" role="search">
+    <form class="usa-search usa-search-big" action="/Search/Results" id="uhp-search" method="get" novalidate="novalidate" role="search">
       <h3 class="usajobs-uhp-search-banner__title">
         Search Jobs
       </h3>
+      <div class="usajobs-uhp-search-banner__filters-item" title="Jobs open to current and former federal employees.">
+        <input type="hidden" name="hp" id="hp" value="fed" class="usajobs-uhp-search-banner__filters-checkbox">
+        <label for="hiring_path" class="usajobs-uhp-search-banner__filters-label">
+          
+          
+          <span class="usajobs-uhp-search-banner__filters-uhp-icon federal-employees">
+            <i class="fa fa-bank"></i>
+          </span>
+          
+          <span>
+            Federal Employees
+          </span>
+        </label>
+        <p class="usajobs-uhp-search-banner__filters-desc">
+          Look for this option under the <strong>Hiring Path</strong> filter in search.
+        </p>
+      </div>
       <fieldset>
         <div class="usajobs-nav__search-keywords-container">
           <label for="k">
@@ -407,23 +424,6 @@
           <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
             Search
           </button>
-        </div>
-        <div class="usajobs-uhp-search-banner__filters-item" title="Jobs open to current and former federal employees.">
-          <input type="hidden" name="hp" id="hp" value="fed" class="usajobs-uhp-search-banner__filters-checkbox">
-          <label for="hiring_path" class="usajobs-uhp-search-banner__filters-label">
-            
-            
-            <span class="usajobs-uhp-search-banner__filters-uhp-icon federal-employees">
-              <i class="fa fa-bank"></i>
-            </span>
-            
-            <span>
-              Federal Employees
-            </span>
-          </label>
-          <p class="usajobs-uhp-search-banner__filters-desc">
-            Look for this option under the <strong>Hiring Path</strong> filter in search.
-          </p>
         </div>
       </fieldset>
     </form>
