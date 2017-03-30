@@ -31,9 +31,17 @@
         <div class="usajobs-uhp-search-banner__filters-item" title="{{ section.search-filter-desc }}">
           <input type="hidden" name="hp" id="hp" value="{{ section.search-filter-value }}" class="usajobs-uhp-search-banner__filters-checkbox">
           <label for="hiring_path" class="usajobs-uhp-search-banner__filters-label">
+            {% if section.icons %}
+            <div class="usajobs-uhp-section-banner__filters-uhp-icon usajobs-uhp-search-banner__multiple-icons fa-stack">
+              <i class="fa fa-{{ section.icons.first }} fa-stack-1x is-first"></i>
+              <i class="fa fa-{{ section.icons.last }} fa-stack-1x is-second"></i>
+            </div>
+            {% endif %}
+            {% if section.icon %}
             <span class="usajobs-uhp-search-banner__filters-uhp-icon {{ include.page }}">
               <i class="fa fa-{{ section.icon }}"></i>
             </span>
+            {% endif %}
             <span>
               {{ section.title }}
             </span>
