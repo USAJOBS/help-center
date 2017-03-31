@@ -16,6 +16,8 @@ To search for a job by location:
 
 Your location(s) will display above your search results.  
 
+[Watch this short video on how to search by location](https://www.youtube.com/watch?v=0HeNwSCvlcM&feature=youtu.be){:target="_blank"}
+
 ## Add and remove locations
 You can search on multiple locations at the same time – just enter another location in the **Location** search box (you can only enter one at a time). You can search by city, county, state, zip code or country. 
 
