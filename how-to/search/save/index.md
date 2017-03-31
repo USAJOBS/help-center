@@ -51,3 +51,5 @@ If you delete a saved search, we'll remove it from your account and you’ll no 
 
 ### Archive your saved search
 Click **Archive** to move the saved search to your archived list. You may want to archive a saved search if you’re no longer interested in the search, but you don’t want to delete it.
+
+[Watch this short video on how to unarchive a saved search](https://www.youtube.com/watch?v=_MzVCmJ9J_0&feature=youtu.be){:target="_blank"}.
