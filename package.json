@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "scrollmagic": "^2.0.5",
-    "usajobs-design-system": "^1.2.14"
+    "usajobs-design-system": "^1.2.15"
   },
   "scripts": {
     "all": "npm run build && npm run deploy",

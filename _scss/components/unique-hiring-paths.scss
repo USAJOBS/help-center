@@ -73,26 +73,6 @@ $body-padding: $size-M;
   &__icon {
     @include UHPIcons(32px);
     font-size: $h4-font-size;
-
-    &.military-spouses {
-      // Trying to align these a bit better
-      .fa.is-first {
-        top: -4px;
-        left: -8px;
-      }
-
-      .fa.is-first {
-        text-indent: 0;
-        top: -2px;
-        left: -4px;
-        opacity: 0.8;
-      }
-
-      .fa.is-second {
-        text-indent: 0;
-        left: 3px;
-      }
-    }
   }
 
   &__link {
@@ -100,12 +80,10 @@ $body-padding: $size-M;
     padding: $size-default $size-S;
     color: $color-base;
     text-decoration: none;
+    min-height: rem(77px);
 
     @include media($ML) {
-      min-height: rem(215px);
-    }
-    @include media($L) {
-      min-height: rem(170px);
+      min-height: rem(95px);
     }
 
     &:visited {

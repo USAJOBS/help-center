@@ -419,7 +419,7 @@ body {
 
 .lt-ie9 * {
   -webkit-filter: none !important;
-  filter: none !important;
+          filter: none !important;
 }
 
 .usa-grid,
@@ -726,8 +726,8 @@ button,
   margin-right: 0.5em;
   margin-bottom: 0.5em;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: #0071bc;
   border: 0;
   border-radius: 0.3rem;
@@ -1193,8 +1193,8 @@ input,
 textarea,
 select {
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: 1px solid #5b616b;
   border-radius: 0;
   box-sizing: border-box;
@@ -2291,8 +2291,8 @@ dfn {
 
 .usa-banner-header-expanded {
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid #aeb0b5;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2575,8 +2575,8 @@ dfn {
 @media screen and (min-width: 600px) {
   .usa-footer-medium .usa-footer-nav ul {
     -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -2608,8 +2608,8 @@ dfn {
   }
   .usa-footer-slim .usa-footer-primary-section .usa-grid-full {
     -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -3130,8 +3130,8 @@ fieldset {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (min-width: 1201px) {
@@ -3150,15 +3150,15 @@ fieldset {
 
 .usa-layout-docs-sidenav {
   -webkit-order: 2;
-  -ms-flex-order: 2;
-  order: 2;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .usa-layout-docs-main_content {
   margin-bottom: 3rem;
   -webkit-order: 1;
-  -ms-flex-order: 1;
-  order: 1;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 @media screen and (min-width: 1201px) {
@@ -3497,8 +3497,8 @@ fieldset {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow-y: auto;
   padding: 2rem;
   z-index: 9000;
@@ -3562,8 +3562,8 @@ fieldset {
   list-style-type: none;
   padding-left: 0;
   -webkit-order: 2;
-  -ms-flex-order: 2;
-  order: 2;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .usa-nav-primary > li {
@@ -4105,8 +4105,8 @@ fieldset {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (min-width: 951px) {
@@ -5047,7 +5047,7 @@ img {
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
   -webkit-filter: none;
-  filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -8494,8 +8494,8 @@ button:disabled,
   margin-bottom: 0.5em;
   display: inline-block;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: #0071bc;
   border: 0;
   border-radius: 0.3rem;
@@ -9926,7 +9926,7 @@ html {
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
   -webkit-filter: none;
-  filter: none;
+          filter: none;
 }
 
 .fa-stack {

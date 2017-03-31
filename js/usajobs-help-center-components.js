@@ -240,7 +240,7 @@ $.widget("custom.catcomplete", $.ui.autocomplete, {
   }
 });
 
-var url = 'https://ac.test.usajobs.gov/locationAC',
+var url = 'https://ac.uat.usajobs.gov/locationAC',
   autocompleteRequest = function (request, response) {
     $.ajax({
       url: url,
