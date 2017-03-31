@@ -8,7 +8,7 @@ category: Search
 tags: [search, results, tips, support-search-results]
 ---
 
-The search results page displays all jobs that match the criteria you provide in a search. You can narrow your results using the filters on the right side of the page and save your results using the Save this search link at the top of the results page.
+The search results page displays all jobs that match the criteria you provide in a search. You can narrow your results using the filters on the right side of the page and save your results using the **Save this search** link at the top of the results page.
 
 ## View your search results and descriptions
 The search results will display the first 10 results. Additional search results will display on multiple pages. Use the numbers displayed below your search results to move from page to page.
@@ -27,8 +27,8 @@ Some jobs are available in multiple locations. You need to open the full job ann
 ### Open and close dates
 Every job has an open date and a close date.  You must apply during that time period.  The open period time varies from job to job.
 
-### Salary
-Each job result will show the starting salary or an hourly rate. The Federal Government offers many pay systems. The most common pay system is the General Schedule (GS. For the GS pay system, the starting salary is based on the lowest grade advertised. You can see the entire salary range in the full job announcement.  [Learn more about salaries](../filters/pay).
+### Salary and grade
+Each job result will show the starting salary or an hourly rate. The Federal Government offers many pay systems. The most common pay system is the General Schedule (GS). For the GS pay system, the starting salary is based on the lowest grade advertised. You can see the entire salary range in the full job announcement.  [Learn more about pay and grade](../filters/pay).
 
 ### Appointment type
 Federal jobs are classified into appointment types, such as permanent, temporary, term, detail, recent graduate and others. The appointment type often determines the length of employment, benefits and the ability to move to another federal job or re-enter the federal workforce. [Learn more about appointment types](../../../working-in-government/appointments/).
