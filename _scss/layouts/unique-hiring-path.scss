@@ -96,6 +96,7 @@
 
 .usajobs-uhp-section-required-documents {
   @include unstyledList();
+  @include clearfix();
 
   &__item {
     margin-bottom: $size-base;
@@ -139,6 +140,9 @@
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
+  }
+
+  &__more {
   }
 }
 
