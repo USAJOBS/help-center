@@ -4,7 +4,7 @@ layout: article
 section: how-to
 title: How to answer questions about federal employment
 breadcrumb: Federal Employment
-category: eligibility
+category: profile
 tags: [account, profile, eligibility, federal, employment]
 ---
 
@@ -61,4 +61,3 @@ If you’ve accepted a buyout from a federal agency and then accept a new paid p
 ## Additional resources
 
 * [Working in Government - Federal Employees](../../../../../working-in-government/unique-hiring-paths/federal-employees/)
-
