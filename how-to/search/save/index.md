@@ -24,6 +24,8 @@ You can save a search to help you look for jobs in your area of interest. When y
 6.	Choose how often you want to get notified. We recommend daily if you’re looking for very specific jobs since some jobs can open and close within a week. If you select daily, you’ll receive one email per day IF new jobs have been posted that match your criteria in the last 24 hours.
 7.	Click **Save**. 
 
+[Watch this short video on how to save a search](https://www.youtube.com/watch?v=pd-MuzSK3qw&feature=youtu.be){:target="_blank"}.
+
 ## Manage saved searches in your account
 You can manage your saved searches in the Saved Searches section of your account. You can have both active and archived saved searches.
 
