@@ -418,7 +418,8 @@ body {
 }
 
 .lt-ie9 * {
-  filter: none !important;
+  -webkit-filter: none !important;
+          filter: none !important;
 }
 
 .usa-grid,
@@ -724,7 +725,9 @@ button,
   margin-top: 0.5em;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: #0071bc;
   border: 0;
   border-radius: 0.3rem;
@@ -1189,7 +1192,9 @@ img {
 input,
 textarea,
 select {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: 1px solid #5b616b;
   border-radius: 0;
   box-sizing: border-box;
@@ -2285,8 +2290,12 @@ dfn {
 }
 
 .usa-banner-header-expanded {
-  align-items: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid #aeb0b5;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   font-size: 1.5rem;
   min-height: 5.6rem;
@@ -2565,7 +2574,9 @@ dfn {
 
 @media screen and (min-width: 600px) {
   .usa-footer-medium .usa-footer-nav ul {
-    align-items: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -2596,7 +2607,9 @@ dfn {
     padding-top: 1rem;
   }
   .usa-footer-slim .usa-footer-primary-section .usa-grid-full {
-    align-items: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -3113,8 +3126,12 @@ fieldset {
 }
 
 .usa-layout-docs {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (min-width: 1201px) {
@@ -3132,12 +3149,16 @@ fieldset {
 }
 
 .usa-layout-docs-sidenav {
-  order: 2;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .usa-layout-docs-main_content {
   margin-bottom: 3rem;
-  order: 1;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 @media screen and (min-width: 1201px) {
@@ -3467,15 +3488,17 @@ fieldset {
   height: 100%;
   width: 26rem;
   -webkit-transform: translateX(26rem);
-  -moz-transform: translateX(26rem);
   -ms-transform: translateX(26rem);
-  -o-transform: translateX(26rem);
   transform: translateX(26rem);
   background: #ffffff;
   border-left: 1px solid #aeb0b5;
   border-right: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow-y: auto;
   padding: 2rem;
   z-index: 9000;
@@ -3487,9 +3510,7 @@ fieldset {
     padding-right: 0;
     padding-bottom: 0;
     -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
     -ms-transform: translateX(0);
-    -o-transform: translateX(0);
     transform: translateX(0);
     border-left: none;
     display: block;
@@ -3502,12 +3523,8 @@ fieldset {
 
 .usa-nav.is-visible {
   -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
   -ms-transform: translateX(0);
-  -o-transform: translateX(0);
   transform: translateX(0);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -3544,7 +3561,9 @@ fieldset {
   margin-bottom: 0;
   list-style-type: none;
   padding-left: 0;
-  order: 2;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .usa-nav-primary > li {
@@ -4082,8 +4101,12 @@ fieldset {
 }
 
 .usa-header-basic-megamenu .usa-nav-inner {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (min-width: 951px) {
@@ -5023,7 +5046,8 @@ img {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -8469,7 +8493,9 @@ button:disabled,
   margin-right: 0.5em;
   margin-bottom: 0.5em;
   display: inline-block;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   background-color: #0071bc;
   border: 0;
   border-radius: 0.3rem;
@@ -9140,8 +9166,6 @@ html {
 }
 
 .usajobs-nav__menu-container[data-state="is-open"] {
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 
@@ -9160,8 +9184,6 @@ html {
   padding: 8.5px 1rem;
   line-height: 1;
   text-align: center;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;
   color: #0071bc;
 }
@@ -9903,7 +9925,8 @@ html {
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .fa-stack {
@@ -12679,11 +12702,8 @@ html {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
   -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -13139,7 +13159,4 @@ html {
   font-size: 1.6rem;
   font-size: 1.7rem;
 }
-
-/*# sourceMappingURL=usajobs-design-system-base--help-center.css.map */
-
 /*# sourceMappingURL=usajobs-design-system-base--help-center.css.map */
