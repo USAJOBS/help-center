@@ -111,6 +111,10 @@ $body-padding: $size-M;
     &:hover {
       text-decoration: none;
     }
+
+    &.military-spouses {
+      padding: $size-base 0;
+    }
   }
 
   &__link:hover &__item-title {

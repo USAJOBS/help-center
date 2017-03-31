@@ -1809,6 +1809,10 @@ html {
   text-decoration: none;
 }
 
+.usajobs-uhp-section-nav__link.military-spouses {
+  padding: 0.5rem 0;
+}
+
 .usajobs-uhp-section-nav__link:hover .usajobs-uhp-section-nav__item-title {
   text-decoration: underline;
 }
