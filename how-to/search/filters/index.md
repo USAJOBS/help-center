@@ -28,3 +28,5 @@ You can select one or many filters and your results will update automatically as
 * [Appointment type](appointment-type/) – permanent, temporary, internships and more.
 * [Security clearance](security-clearance/) – the different levels of security clearance required.
 * [Travel percentage](travel-percentage/) – how often you’ll need to travel.
+
+[Watch this short video on how to use the filters](https://www.youtube.com/watch?v=Ne_vH4YwdDw&feature=youtu.be){:target="_blank"}.
