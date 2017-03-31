@@ -1435,9 +1435,8 @@ html {
 
 .usajobs-unique-hiring-paths__list > .usajobs-unique-hiring-paths__item {
   position: relative;
-  border: 1px solid #d6d7d9;
-  border-radius: 0.3rem;
   margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .usajobs-unique-hiring-paths__im {
@@ -1447,9 +1446,9 @@ html {
 
 .usajobs-unique-hiring-paths__icon {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #e31c3d;
@@ -1459,14 +1458,14 @@ html {
   font-size: 1.7rem;
   text-align: center;
   margin-right: 0.5rem;
-  font-size: 34px;
+  font-size: 19px;
 }
 
 .usajobs-unique-hiring-paths__icon.public {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #02bfe7;
@@ -1475,9 +1474,9 @@ html {
 
 .usajobs-unique-hiring-paths__icon.federal-employees, .usajobs-unique-hiring-paths__icon.ses {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #112e51;
@@ -1491,9 +1490,9 @@ html {
 
 .usajobs-unique-hiring-paths__icon.veterans, .usajobs-unique-hiring-paths__icon.military-spouses {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #2e8540;
@@ -1514,9 +1513,9 @@ html {
 
 .usajobs-unique-hiring-paths__icon.students {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #fdb81e;
@@ -1525,9 +1524,9 @@ html {
 
 .usajobs-unique-hiring-paths__icon.individuals-with-disabilities {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #205493;
@@ -1536,9 +1535,9 @@ html {
 
 .usajobs-unique-hiring-paths__icon.peace-corps {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #4c2c92;
@@ -1547,9 +1546,9 @@ html {
 
 .usajobs-unique-hiring-paths__icon.former-overseas-employees {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #046b99;
@@ -1558,9 +1557,9 @@ html {
 
 .usajobs-unique-hiring-paths__icon.native-americans {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #5b616b;
@@ -1569,9 +1568,9 @@ html {
 
 .usajobs-unique-hiring-paths__icon.land-mgmt {
   display: inline-block;
-  width: 68px;
-  height: 68px;
-  line-height: 68px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
   border-radius: 50%;
   color: #ffffff;
   background-color: #494440;
@@ -1583,10 +1582,22 @@ html {
   left: -8px;
 }
 
+.usajobs-unique-hiring-paths__icon.military-spouses .fa.is-first {
+  text-indent: 0;
+  top: -2px;
+  left: -4px;
+  opacity: 0.8;
+}
+
+.usajobs-unique-hiring-paths__icon.military-spouses .fa.is-second {
+  text-indent: 0;
+  left: 3px;
+}
+
 .usajobs-unique-hiring-paths__link {
   width: 100%;
   padding: 1.5rem 1rem;
-  color: #0071bc;
+  color: #212121;
   text-decoration: none;
 }
 
@@ -1603,7 +1614,7 @@ html {
 }
 
 .usajobs-unique-hiring-paths__link:visited {
-  color: #0071bc;
+  color: #212121;
 }
 
 .usajobs-unique-hiring-paths__link:hover {
@@ -1620,6 +1631,7 @@ html {
 
 .usajobs-unique-hiring-paths__item-title {
   margin-top: 0;
+  font-weight: normal;
 }
 
 .usajobs-unique-hiring-paths__text {
@@ -1627,6 +1639,11 @@ html {
   width: 100%;
   margin: 0;
   color: #212121;
+}
+
+.usajobs-unique-hiring-paths__subtext {
+  display: block;
+  font-size: 1.4rem;
 }
 
 .no-flexbox .usajobs-unique-hiring-paths__link {

@@ -61,9 +61,8 @@ $body-padding: $size-M;
 
   &__list > &__item {
     position: relative;
-    border: 1px solid $color-gray-lighter;
-    border-radius: rem(3px);
     margin-bottom: $size-default;
+    @include boxShadow(1);
   }
 
   &__im {
@@ -72,8 +71,8 @@ $body-padding: $size-M;
   }
 
   &__icon {
-    @include UHPIcons(68px);
-    font-size: $h2-font-size;
+    @include UHPIcons(32px);
+    font-size: $h4-font-size;
 
     &.military-spouses {
       // Trying to align these a bit better
@@ -81,13 +80,25 @@ $body-padding: $size-M;
         top: -4px;
         left: -8px;
       }
+
+      .fa.is-first {
+        text-indent: 0;
+        top: -2px;
+        left: -4px;
+        opacity: 0.8;
+      }
+
+      .fa.is-second {
+        text-indent: 0;
+        left: 3px;
+      }
     }
   }
 
   &__link {
     width: 100%;
     padding: $size-default $size-S;
-    color: $color-primary;
+    color: $color-base;
     text-decoration: none;
 
     @include media($ML) {
@@ -98,7 +109,7 @@ $body-padding: $size-M;
     }
 
     &:visited {
-      color: $color-primary;
+      color: $color-base;
     }
 
     &:hover {
@@ -116,6 +127,7 @@ $body-padding: $size-M;
 
   &__item-title {
     margin-top: 0;
+    font-weight: normal;
   }
 
   &__text {
@@ -123,6 +135,11 @@ $body-padding: $size-M;
     width: 100%;
     margin: 0;
     color: $color-base;
+  }
+
+  &__subtext {
+    display: block;
+    font-size: $small-font-size;
   }
 }
 
