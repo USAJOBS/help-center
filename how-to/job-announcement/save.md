@@ -8,7 +8,7 @@ category: Job Announcement
 tags: [job announcement, support-saved-jobs]
 ---
 
-You need to have a USAJOBS account and be signed in to saave a job. You can save up to 25 job announcements in your account.
+You need to have a USAJOBS account and be signed in to save a job. You can save up to 25 job announcements in your account.
 
 To save a job:
 
@@ -18,7 +18,7 @@ To save a job:
 4.	Click **Save Job** or the star icon next to the job title for each job you want to save. The link will change to **Saved** and the star will be filled in. This means the job is saved.
 5.	Review your saved jobs in the **Saved Jobs** section of your account.
 
-You can also save a job when you're vieweing a job announcement -- look for the same yellow star and click **Save**.
+You can also save a job when you're viewing a job announcement -- look for the same yellow star and click **Save**.
 
 ## Manage your saved jobs in your account
 
