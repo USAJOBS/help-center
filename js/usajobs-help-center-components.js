@@ -221,6 +221,8 @@ $.widget("custom.catcomplete", $.ui.autocomplete, {
     var that = this,
       currentCategory = "";
 
+    ul.addClass("usajobs-search-location-autocomplete");
+
     $.each(items, function(index, item) {
       var li;
 
@@ -259,9 +261,6 @@ $location.catcomplete({
   appendTo: "#search-inner-autocomplete-container",
   source: autocompleteRequest,
   minLength: 2,
-  classes: {
-    "ui-autocomplete": "usajobs-search-location-autocomplete"
-  },
   open: function () {
     var data = $(this).data('custom-catcomplete');
 
