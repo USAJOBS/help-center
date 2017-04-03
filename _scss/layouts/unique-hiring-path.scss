@@ -107,6 +107,14 @@
     }
   }
 
+  &__single-item {
+    margin-bottom: $size-base;
+
+    @include media($M) {
+      margin-bottom: 0;
+    }
+  }
+
   &__link {
     width: 100%;
     padding: $size-default $size-S;

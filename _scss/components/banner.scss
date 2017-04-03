@@ -68,6 +68,12 @@ $icon-size: rem(164px);
   }
 }
 
+.ie .usajobs-help-center-search-banner,
+.ie .usajobs-help-center-search-banner--with-nav,
+.ie .usajobs-help-center-title-banner {
+  background-image: url('../img/help-center/helpcenter_star.png');
+}
+
 .usajobs-help-center-search-banner {
   padding-bottom: $size-M;
 

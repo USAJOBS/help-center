@@ -27,16 +27,14 @@ $body-padding: $size-M;
     @include clearfix();
     padding: $size-default;
     background-color: $color-white;
+
+    @include media($L) {
+      padding: $size-default $size-M $size-M;
+    }
   }
 
   &__title {
     text-align: center;
-    padding-top: $size-default;
-  }
-
-  &__description {
-    padding-left: $size-default;
-    padding-right: $size-default;
   }
 
   &__list {
@@ -77,13 +75,13 @@ $body-padding: $size-M;
 
   &__link {
     width: 100%;
-    padding: $size-default $size-S;
+    padding: $size-S;
     color: $color-base;
     text-decoration: none;
-    min-height: rem(77px);
+    min-height: rem(67px);
 
     @include media($ML) {
-      min-height: rem(95px);
+      min-height: rem(85px);
     }
 
     &:visited {
@@ -92,11 +90,8 @@ $body-padding: $size-M;
 
     &:hover {
       text-decoration: none;
+      box-shadow: $focus-shadow;
     }
-  }
-
-  &__link:hover &__item-title {
-    text-decoration: underline;
   }
 
   &__body {

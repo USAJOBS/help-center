@@ -48,7 +48,7 @@ disability:
 
 native-americans:
   title: Native Americans
-  text: "If you're an American Indian or an Alaskan Native who is a member of a federally recognized tribe, you may be eligible for Indian Preference."
+  text: "If you're an American Indian or an Alaskan Native who is a member of one of the federally recognized tribes, you may be eligible for Indian Preference."
   image-alt: "Flags of the Native American Nations."
   icon: sun-o
   link-path: native-americans

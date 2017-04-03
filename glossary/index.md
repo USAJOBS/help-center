@@ -131,7 +131,7 @@ tags: [glossary, terms, definitions]
 <h2 id="I">I</h2>
 <dl><dt>INDEFINITE APPOINTMENT</dt><dd>An appointment given to a non-permanent employee who is hired for an unlimited period of time.</dd></dl>
 <dl><dt>INJURY COMPENSATION</dt><dd>The compensation and medical care provided to civilian Federal employees for disability due to personal injuries sustained while in performance of duty and due to diseases relating to this employment.</dd></dl>
-<dl><dt>INTERMITTENT SERVICE OR INTERMITTENT EMPLOYMENT</dt><dd>Service when an employee works on less than a full-time basis with no prescheduled tour of duty. In the past, "WAE" – when actually employeed -- was used on personnel documents to identify intermittent service.</dd></dl>
+<dl><dt>INTERMITTENT SERVICE OR INTERMITTENT EMPLOYMENT</dt><dd>Service when an employee works on less than a full-time basis with no prescheduled tour of duty. In the past, "WAE" – when actually employed -- was used on personnel documents to identify intermittent service.</dd></dl>
 <dl><dt>INVOLUNTARY SEPARATION</dt><dd>A separation against the will of and without the consent of the employee, other than separation for cause on charges of misconduct or delinquency. Examples include separation based on reduction in force, abolishment of position, expiration of term of office, lack of funds, and unacceptable performance (unless due to the employee's misconduct).</dd></dl>
 
 <h2 id="L">L</h2>

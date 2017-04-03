@@ -7,7 +7,7 @@ var $help_accordion = $('[data-object="help-accordion"]'),
       drawer_state = $(drawer).attr('aria-expanded');
 
       if (drawer_state === 'false') {
-        $help_accordion.find('#' + $(drawer).attr('aria-controls')).hide();
+        $help_accordion.find('#' + $(drawer).attr('aria-controls')).attr('aria-hidden', 'true');
       }
     });
   };
@@ -37,7 +37,7 @@ $help_accordion.on('help-accordion.toggle', function(event, opts) {
     opts.target.slideDown(function () {
       // Clean up and remove any style elements from other drawers
       opts.object.find('.usa-accordion-content[aria-hidden=true]').slideUp();
-      
+
       $('html, body').animate({
         scrollTop: opts.object.offset().top
       });
