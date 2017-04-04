@@ -230,7 +230,7 @@ $.widget("custom.catcomplete", $.ui.autocomplete, {
       item.label = item.Name;
       item.category = item.Type;
 
-      if (item.Type != currentCategory) {
+      if (item.category != currentCategory) {
         ul.append('<li class="ui-autocomplete-category ' + item.category + '">' + item.category + '</li>');
         currentCategory = item.category;
       }
@@ -239,6 +239,13 @@ $.widget("custom.catcomplete", $.ui.autocomplete, {
         li.attr("aria-label", item.category + " : " + item.label);
       }
     });
+  },
+  _renderItem: function (ul, item) {
+     return $("<li>")
+     .addClass(item.type)
+     .attr("data-value", item.value)
+     .append($("<a>").html(item.label))
+     .appendTo(ul);
   }
 });
 
@@ -264,17 +271,20 @@ $location.catcomplete({
   open: function () {
     var data = $(this).data('custom-catcomplete');
 
+    $("ul.ui-menu").width($(this).innerWidth());
+
     $location.off('menufocus hover mouseover mouseenter');
 
     data
       .menu
       .element
-      .find('li')
+      .find('li a')
       .each(function () {
-        var me = $(this),
+        var $me = $(this),
           keywords = data.term.split(' ').join('|');
 
-        me.html(me.text().replace(new RegExp('(' + keywords + ')', 'gi'), '<strong>$1</strong>'));
+        $me.addClass("ui-corner-all");
+        $me.html($me.text().replace(new RegExp('(' + keywords + ')', 'gi'), '<strong>$1</strong>'));
       });
   },
   select: function (event, ui) {
