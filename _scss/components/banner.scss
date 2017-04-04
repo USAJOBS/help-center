@@ -405,6 +405,12 @@ $icon-size: rem(164px);
   &__filters-uhp-icon.land-management {
     @include makeCircle('29px', none, $color-gray-warm-dark);
   }
+
+  &__button-container {
+    @include media($L) {
+      text-align: left;
+    }
+  }
 }
 
 .usajobs-uhp-search-banner--students {

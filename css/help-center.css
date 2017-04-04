@@ -731,6 +731,12 @@ html {
   box-shadow: 0 0 0 2px none inset;
 }
 
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-search-banner__button-container {
+    text-align: left;
+  }
+}
+
 .usajobs-uhp-search-banner--students__button-container {
   text-align: center;
 }
@@ -1307,6 +1313,19 @@ html {
   }
 }
 
+.usajobs-search-keyword-autocomplete .ui-menu-item a,
+.usajobs-search-location-autocomplete .ui-menu-item a {
+  color: #212121;
+  text-decoration: none;
+}
+
+.usajobs-search-keyword-autocomplete .ui-menu-item a:visited, .usajobs-search-keyword-autocomplete .ui-menu-item a:active, .usajobs-search-keyword-autocomplete .ui-menu-item a:hover,
+.usajobs-search-location-autocomplete .ui-menu-item a:visited,
+.usajobs-search-location-autocomplete .ui-menu-item a:active,
+.usajobs-search-location-autocomplete .ui-menu-item a:hover {
+  color: #212121;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -1622,7 +1641,7 @@ html {
 }
 
 .no-flexbox .usajobs-unique-hiring-paths__body {
-  width: calc(100% -  11.3rem);
+  width: calc(100% -  8.9rem);
 }
 
 .lt-ie9 .no-flexbox .usajobs-unique-hiring-paths__body {

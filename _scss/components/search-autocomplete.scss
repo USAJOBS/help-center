@@ -65,4 +65,15 @@
       padding: $size-S $size-default;
     }
   }
+
+  .ui-menu-item a {
+    color: $color-base;
+    text-decoration: none;
+
+    &:visited,
+    &:active,
+    &:hover {
+      color: $color-base;
+    }
+  }
 }
