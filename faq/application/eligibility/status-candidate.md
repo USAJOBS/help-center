@@ -8,7 +8,10 @@ category: Eligibility
 tags: [eligibility]
 ---
 
-“Status candidates” refers to those individuals who are current or former federal civilian employees who hold or held non-temporary appointments in the competitive service, not the excepted service. When a vacancy announcement indicates that status candidates are eligible to apply, Federal Government employees who have served at least 90 days after competitive appointment may apply.
+"Status candidates" are current or former federal employees who have worked in the competitive service, in a permanent appointment for a total of three years of qualifying service. Sometimes this is also called having a 'career appointment'.
+
+If you're a status candidate, you are eligible for jobs that say "Status candidate" or "Career appointment" in the <strong>Who May Apply</strong> section of job announcements.
+
 
 ## Additional resources
 
