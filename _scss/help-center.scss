@@ -12,6 +12,16 @@
 @import 'components/unique-hiring-paths';
 @import 'components/uhp-section-nav';
 
+// Help Center layouts
+@import 'layouts/about';
+@import 'layouts/article';
+@import 'layouts/contact-us';
+@import 'layouts/errors';
+@import 'layouts/home';
+@import 'layouts/landing';
+@import 'layouts/timeline';
+@import 'layouts/unique-hiring-path';
+
 // Global
 .usajobs-help-center {
   &__lead {
@@ -59,16 +69,6 @@
     border: 1px solid $color-gray-light;
   }
 }
-
-
-// Help Center layouts
-@import 'layouts/about';
-@import 'layouts/article';
-@import 'layouts/contact-us';
-@import 'layouts/home';
-@import 'layouts/landing';
-@import 'layouts/timeline';
-@import 'layouts/unique-hiring-path';
 
 
 // Shared layout styles

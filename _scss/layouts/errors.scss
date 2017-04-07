@@ -1,0 +1,82 @@
+// HTTP Errors (400s, 500s)
+
+@import 'base-shared';
+
+.usajobs-error {
+  padding: $size-default;
+  background-color: $color-primary-alt-darkest;
+
+  @include media($M) {
+    min-height: 50vh;
+    padding: $size-XXL $size-default;
+  }
+
+  &__container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $text-max-width;
+  }
+
+  &__title,
+  &__text,
+  &__text a,
+  &__text a:visited,
+  &__item,
+  &__item a,
+  &__item a:visited {
+    color: $color-white;
+    text-align: center;
+  }
+
+  &__title {
+    @include h2();
+    color: $color-white;
+    font-weight: normal;
+    text-transform: uppercase;
+
+    @include media($M) {
+      @include h1();
+      color: $color-white;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+  }
+
+  &__list {
+    @include unstyledList();
+  }
+
+  &__list > &__item {
+    margin-bottom: $size-default;
+
+    @include media($ML) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__text,
+  &__item {
+    font-size: $h4-font-size;
+  }
+
+  &__img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: rem(143px);
+  }
+
+  &__img--404 {
+    background-image: url('../img/help-center/errors/404_puzzle.png');
+    background-image: url('../img/help-center/errors/404_puzzle.svg');
+  }
+
+  &__img--500 {
+    background-image: url('../img/help-center/errors/500_puzzle.png');
+    background-image: url('../img/help-center/errors/500_puzzle.svg');
+  }
+
+  &__img--session-expired {
+    background-image: url('../img/help-center/errors/session.png');
+    background-image: url('../img/help-center/errors/session.svg');
+  }
+}

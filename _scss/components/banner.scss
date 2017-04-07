@@ -68,10 +68,13 @@ $icon-size: rem(164px);
   }
 }
 
-.ie .usajobs-help-center-search-banner,
-.ie .usajobs-help-center-search-banner--with-nav,
-.ie .usajobs-help-center-title-banner {
-  background-image: url('../img/help-center/helpcenter_star.png');
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  // IE hack. SVGs cannot be positioned in IE
+  .usajobs-help-center-search-banner,
+  .usajobs-help-center-search-banner--with-nav,
+  .usajobs-help-center-title-banner {
+    background-image: url('../img/help-center/helpcenter_star.png');
+  }
 }
 
 .usajobs-help-center-search-banner {
