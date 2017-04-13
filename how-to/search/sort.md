@@ -17,7 +17,7 @@ By default, we display the most relevant jobs at the top.
 This is the last day you can apply to the job.  We’ll display jobs in ascending order, starting with the earliest close date at the top.
 
 ## Open date
-This is the first day you can apply to the job. We’ll display jobs in descending order, starting with the most recent open date at the top.
+This is the first day you can apply to the job. We'll display the most recently opened jobs at the top of your search results. For example, we'll display jobs that opened 1 day ago at the top, jobs that opened 3 days ago further down and so on. 
 
 ## Agency
 We’ll display jobs in alphabetical order based on the agency name.
