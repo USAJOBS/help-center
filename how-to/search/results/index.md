@@ -51,5 +51,7 @@ By default the most relevant search results are displayed at the top. You can ch
 * Job title
 * Salary
 
+[Learn more about sorting results](../sort/).
+
 ## Save your search
 You can save a search by clicking **Save this Search** at the top of the search results page. If you’re not signed in, you’ll be taken to the sign in screen first. When you save a search, you can sign up for email notifications and we’ll email you new jobs that match what you’re looking for.  You can manage your saved searches in your profile. [Learn how to save a search](../save/).
