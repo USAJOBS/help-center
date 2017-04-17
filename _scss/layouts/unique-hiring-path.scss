@@ -37,7 +37,26 @@
     }
 
     @include media($L) {
-      @include span-columns(7,12);
+      @include span-columns(8,12);
+    }
+  }
+
+  &__filters-uhp-icon {
+    @include UHPIcons();
+  }
+
+  &__filters-uhp-desc {
+    font-weight: bold;
+  }
+}
+
+.usajobs-uhp-section--services {
+  max-width: inherit;
+
+  &__container {
+    @include media($L) {
+      @include display(flex);
+      @include flex-wrap(wrap);
     }
   }
 }
@@ -165,9 +184,9 @@
     display: table-cell;
   }
 
-$icon-width: rem(68px);
-$icon-padding: $size-default;
-$body-padding: $size-M;
+  $icon-width: rem(68px);
+  $icon-padding: $size-default;
+  $body-padding: $size-M;
   &__body {
     @include calc(width, "100% - " (38px + 15px + 30px));
 
@@ -190,5 +209,152 @@ $body-padding: $size-M;
   &__body {
     @include flex(1);
     min-width: 0;
+  }
+}
+
+.usajobs-uhp-section-service {
+  margin-bottom: $size-M;
+  border: 1px solid $color-gray-light;
+  background-color: $color-secondary-lightest;
+
+  @include media($L) {
+    @include flex(1);
+    margin-bottom: $size-default;
+
+    &:nth-child(2n) {
+      margin-left: $size-default;
+    }
+  }
+
+  &__link {
+    display: block;
+    padding: $size-default;
+    font-size: $h3-font-size;
+    background-color: $color-gray-cool-light;
+  }
+
+  &__body {
+    padding: $size-default;
+    background-color: $color-white;
+
+    @include media($L) {
+      min-height: rem(239px);
+    }
+  }
+
+  &__appt-types {
+    margin-bottom: 0;
+    padding-left: 1.2em;
+  }
+
+  &__appt-types-header {
+    margin-top: 0;
+    color: $color-cool-blue-light;
+  }
+
+  &__appt-type-container {
+    @include media($SM) {
+      @include row();
+    }
+  }
+
+  &__appt-type-col {
+    @include media($SM) {
+      @include span-columns(1, 2);
+    }
+  }
+
+  &__appt-type-item {
+    font-size: $small-font-size;
+  }
+}
+
+.usajobs-uhp-section-service--eligible {
+  background-color: $color-green-lightest;
+}
+
+.usajobs-uhp-section-service--unsure {
+  @include display(flex);
+  @include align-items(center);
+  background-color: $color-white;
+
+  &__body {
+    padding: $size-default;
+  }
+
+  &__head {
+    color: $color-primary-darkest;
+  }
+
+  .fa {
+    font-size: $h1-font-size;
+    color: $color-secondary;
+  }
+
+  &__details {
+    font-size: $small-font-size;
+  }
+}
+
+.usajobs-uhp-section-service-merit {
+  padding: $size-default;
+  background-color: $color-secondary-lightest;
+
+  @include media($L) {
+    min-height: rem(184px);
+  }
+
+  &__head {
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+  }
+
+  &__text {
+    .fa {
+      color: $color-secondary;
+      font-size: $h4-font-size;
+    }
+  }
+}
+
+.usajobs-uhp-section-service-merit--eligible {
+  background-color: $color-green-lightest;
+
+  .usajobs-uhp-section-service-merit__text {
+    font-weight: bold;
+
+    .fa {
+      color: $color-green;
+    }
+  }
+}
+
+.usajobs-uhp-section-programs {
+  @include unstyledList();
+  @include clearfix();
+
+  &__item {
+    @include media($L) {
+      @include span-columns(6,12);
+    }
+
+    &:last-child {
+      @include media($L) {
+        @include omega();
+        padding-left: $size-default;
+      }
+    }
+  }
+
+  &__sub-head.former {
+    margin-top: $size-M;
+
+    @include media($L) {
+      margin-top: $size-L;
+    }
+  }
+
+  &__title {
+    color: $color-primary-darkest;
   }
 }

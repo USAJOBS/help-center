@@ -4135,10 +4135,168 @@ html {
     float: left;
     display: block;
     margin-right: 2.3576520234%;
-    width: 57.3509783236%;
+    width: 65.8807826589%;
   }
   .usajobs-uhp-section__col-right:last-child {
     margin-right: 0;
+  }
+}
+
+.usajobs-uhp-section__filters-uhp-icon {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #e31c3d;
+  box-shadow: 0 0 0 2px none inset;
+  display: inline-block;
+  padding-bottom: 1.5rem;
+  font-size: 1.7rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.public {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #02bfe7;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.federal-employees, .usajobs-uhp-section__filters-uhp-icon.ses {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #112e51;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.federal-employees .fa::before {
+  margin-top: -0.3rem;
+  margin-right: -0.2rem;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.veterans, .usajobs-uhp-section__filters-uhp-icon.military-spouses {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #2e8540;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.military-spouses .fa.is-first {
+  text-indent: 0;
+  top: -2px;
+  left: -4px;
+  opacity: 0.8;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.military-spouses .fa.is-second {
+  text-indent: 0;
+  left: 3px;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.students {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #fdb81e;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.disability, .usajobs-uhp-section__filters-uhp-icon.individuals-with-disabilities {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #205493;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.peace-corps {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #4c2c92;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.former-overseas-employees {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #046b99;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.native-americans {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #5b616b;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-uhp-section__filters-uhp-icon.land-mgmt, .usajobs-uhp-section__filters-uhp-icon.land-management {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #494440;
+  box-shadow: 0 0 0 2px none inset;
+}
+
+.usajobs-uhp-section__filters-uhp-desc {
+  font-weight: bold;
+}
+
+.usajobs-uhp-section--services {
+  max-width: inherit;
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-section--services__container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -4358,6 +4516,212 @@ html {
   -ms-flex: 1;
   flex: 1;
   min-width: 0;
+}
+
+.usajobs-uhp-section-service {
+  margin-bottom: 3rem;
+  border: 1px solid #aeb0b5;
+  background-color: #f9dede;
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-section-service {
+    box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-bottom: 1.5rem;
+  }
+  .usajobs-uhp-section-service:nth-child(2n) {
+    margin-left: 1.5rem;
+  }
+}
+
+.usajobs-uhp-section-service__link {
+  display: block;
+  padding: 1.5rem;
+  font-size: 24px;
+  background-color: #dce4ef;
+}
+
+.usajobs-uhp-section-service__body {
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-section-service__body {
+    min-height: 23.9rem;
+  }
+}
+
+.usajobs-uhp-section-service__appt-types {
+  margin-bottom: 0;
+  padding-left: 1.2em;
+}
+
+.usajobs-uhp-section-service__appt-types-header {
+  margin-top: 0;
+  color: #4773aa;
+}
+
+@media screen and (min-width: 30em) {
+  .usajobs-uhp-section-service__appt-type-container {
+    display: block;
+  }
+  .usajobs-uhp-section-service__appt-type-container::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+@media screen and (min-width: 30em) {
+  .usajobs-uhp-section-service__appt-type-col {
+    float: left;
+    display: block;
+    margin-right: 16.036314621%;
+    width: 41.9818426895%;
+  }
+  .usajobs-uhp-section-service__appt-type-col:last-child {
+    margin-right: 0;
+  }
+}
+
+.usajobs-uhp-section-service__appt-type-item {
+  font-size: 1.4rem;
+}
+
+.usajobs-uhp-section-service--eligible {
+  background-color: #e7f4e4;
+}
+
+.usajobs-uhp-section-service--unsure {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  background-color: #ffffff;
+}
+
+.usajobs-uhp-section-service--unsure__body {
+  padding: 1.5rem;
+}
+
+.usajobs-uhp-section-service--unsure__head {
+  color: #112e51;
+}
+
+.usajobs-uhp-section-service--unsure .fa {
+  font-size: 44px;
+  color: #e31c3d;
+}
+
+.usajobs-uhp-section-service--unsure__details {
+  font-size: 1.4rem;
+}
+
+.usajobs-uhp-section-service-merit {
+  padding: 1.5rem;
+  background-color: #f9dede;
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-section-service-merit {
+    min-height: 18.4rem;
+  }
+}
+
+.usajobs-uhp-section-service-merit__head {
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+.usajobs-uhp-section-service-merit__text .fa {
+  color: #e31c3d;
+  font-size: 19px;
+}
+
+.usajobs-uhp-section-service-merit--eligible {
+  background-color: #e7f4e4;
+}
+
+.usajobs-uhp-section-service-merit--eligible .usajobs-uhp-section-service-merit__text {
+  font-weight: bold;
+}
+
+.usajobs-uhp-section-service-merit--eligible .usajobs-uhp-section-service-merit__text .fa {
+  color: #2e8540;
+}
+
+.usajobs-uhp-section-programs {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.usajobs-uhp-section-programs > li {
+  display: list-item;
+  margin: 0;
+}
+
+.usajobs-uhp-section-programs > li:before {
+  display: none;
+}
+
+.usajobs-uhp-section-programs > li:after {
+  display: none;
+}
+
+.usajobs-uhp-section-programs::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-section-programs__item {
+    float: left;
+    display: block;
+    margin-right: 2.3576520234%;
+    width: 48.8211739883%;
+  }
+  .usajobs-uhp-section-programs__item:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-section-programs__item:last-child {
+    margin-right: 0;
+    padding-left: 1.5rem;
+  }
+}
+
+.usajobs-uhp-section-programs__sub-head.former {
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 62em) {
+  .usajobs-uhp-section-programs__sub-head.former {
+    margin-top: 4.5rem;
+  }
+}
+
+.usajobs-uhp-section-programs__title {
+  color: #112e51;
 }
 
 .usajobs-help-center__lead {
