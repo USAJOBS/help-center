@@ -132,6 +132,7 @@ $location.catcomplete({
       $hidden_countries.appendTo($search_form);
     }
 
+    logLocationAC(value);
     $location.val(value);
     closeLocationAutocomplete();
     // $search_form.submit();

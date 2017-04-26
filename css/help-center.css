@@ -4563,7 +4563,7 @@ html {
 
 .usajobs-uhp-section-service__appt-types-header {
   margin-top: 0;
-  color: #4773aa;
+  color: #112e51;
 }
 
 @media screen and (min-width: 30em) {
@@ -4637,15 +4637,14 @@ html {
   background-color: #f9dede;
 }
 
-@media screen and (min-width: 62em) {
-  .usajobs-uhp-section-service-merit {
-    min-height: 18.4rem;
-  }
-}
-
 .usajobs-uhp-section-service-merit__head {
+  margin-top: 0;
   font-size: 1.7rem;
   line-height: 1.5;
+}
+
+.usajobs-uhp-section-service-merit__text {
+  margin-bottom: 0;
 }
 
 .usajobs-uhp-section-service-merit__text .fa {

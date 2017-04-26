@@ -249,7 +249,7 @@
 
   &__appt-types-header {
     margin-top: 0;
-    color: $color-cool-blue-light;
+    color: $color-primary-darkest;
   }
 
   &__appt-type-container {
@@ -300,16 +300,15 @@
   padding: $size-default;
   background-color: $color-secondary-lightest;
 
-  @include media($L) {
-    min-height: rem(184px);
-  }
-
   &__head {
+    margin-top: 0;
     font-size: $base-font-size;
     line-height: $base-line-height;
   }
 
   &__text {
+    margin-bottom: 0;
+
     .fa {
       color: $color-secondary;
       font-size: $h4-font-size;
