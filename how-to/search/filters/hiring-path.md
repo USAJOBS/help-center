@@ -77,7 +77,7 @@ If you’re a military spouse, you may be eligible to apply to competitive servi
 ## National Guard
 Select this option if you want to see jobs open to current National Guard members or transitioning military service members.
 
-## Native Americans.
+## Native Americans
 Select this option if you want to see jobs open to people with a tribal affiliation.
 
 ## Peace Corps and Vista
