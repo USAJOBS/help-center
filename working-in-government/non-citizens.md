@@ -18,7 +18,7 @@ In rare cases, a federal agency may:
 ## How do I know if a job is open to a non-U.S. citizen?
 Each job announcement lists “who may apply” and “qualifications” to help you understand if you fit the job’s requirements. The **Who May Apply** section will tell you whether or not a non-U.S. citizen is eligible for the job.
 
-If you still have questions after reviewing the job announcement, contact the agency listed on the job announcement or read the full legal requirements for hiring U.S. citizens or non-U.S. citizens.
+If you still have questions after reviewing the job announcement, contact the agency listed on the job announcement or read the full [legal requirements for hiring U.S. citizens or non-U.S. citizens](#legal-requirements-for-hiring-or-not-hiring-a-non-us-citizen).
 
 ## Legal requirements for hiring or not hiring a non-U.S. citizen
 There are several legal orders that decide whether a federal agency may hire a non-U.S. citizen: 
