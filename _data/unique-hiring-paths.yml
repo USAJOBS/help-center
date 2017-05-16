@@ -28,13 +28,13 @@ veterans:
   search-filter-value: "vet"
 
 national-guard:
-  title: National Guard
+  title: National Guard & Reserves
   text: "If you’re a member of the National Guard, or are willing and able to join the National Guard, you may be eligible to apply for federal jobs located within a National Guard unit. "
   subtext: Current or prospective members
   image-alt: "National guradsman"
   icon: flag
   link-path: national-guard
-  search-filter-desc: "Jobs open to current National Guard members or transitioning military members."
+  search-filter-desc: "Jobs open to current National Guard members, reserves, or transitioning military members."
   search-filter-value: "nguard"
 
 disability:
