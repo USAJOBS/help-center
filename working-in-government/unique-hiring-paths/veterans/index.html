@@ -9,6 +9,8 @@ tags: [veterans, veteran, military, service]
 short-name: veterans
 ---
 
+{% assign hp = site.data.unique-hiring-paths[page.short-name] %}
+
 <div class="usajobs-uhp-resource-cta">
   <h2 class="usajobs-uhp-resource-cta__title">
     Dedicated veterans website
@@ -54,21 +56,68 @@ short-name: veterans
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
-    <h2 class="usajobs-uhp-section__title">Claiming veterans' preference</h2>
+    <h2 class="usajobs-uhp-section__title">
+      How do I know a job is open to Veterans?
+    </h2>
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
+      In the job announcement look for the <strong>This job is open to</strong> section. When a job is open to <strong>Veterans</strong> you’ll see this icon: <span class="usajobs-uhp-section__filters-uhp-icon {{ page.short-name }}"><i class="fa fa-{{ hp.icon }}"></i></span> There may be other groups listed that can also apply.
+    </p>
+    <p>
+      In search you can also select the <strong>Veterans</strong> filter. Your results will display all jobs open to Veterans.
+    </p>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title">Documents you may need</h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <h4>Claiming veterans' preference</h4>
+    <p>
       When claiming veterans’ preference, you must provide a copy of your DD-214, Certificate of Release or Discharge from Active Duty, or other acceptable documentation. Applicants claiming 10-point preference will need to submit Form SF-15.
     </p>
-    <h4>DD-214</h4>
-    <p>
-      The DD-214, "Certificate of Release or Discharge from Active Duty", is issued to military members upon separation from active service. It contains information about the veteran's dates of military service and separation. Most veterans and their next-of-kin can obtain free copies of their DD Form 214 Report of Separation and other military and medical records through the <a href="http://www.archives.gov/veterans/military-service-records/" target="_blank">National Archives Veterans’ Records Service</a>.
-    </p>
-    <h4>SF-15</h4>
-    <p>
-      The <a href="https://www.opm.gov/forms/pdf_fill/sf15.pdf" target="_blank">SF-15 "Application for 10-point Veterans' Preference"</a> is used by Federal agencies and OPM examining offices to adjudicate individuals' claims for veterans' preference.
-    </p>
-    <h5>Upload and submit through USAJOBS</h5>
+    <ul class="usajobs-uhp-section-required-documents">
+      <li class="usajobs-uhp-section-required-documents__single-item">
+        <a class="usajobs-uhp-section-required-documents__link" href="http://www.archives.gov/veterans/military-service-records/" target="_blank">
+          <div class="usajobs-uhp-section-required-documents__figure">
+            <span class="fa fa-file-pdf-o"></span>
+          </div>
+          <div class="usajobs-uhp-section-required-documents__body">
+            <div class="usajobs-uhp-section-required-documents__title">
+              DD-214
+            </div>
+            Certificate of Release or Discharge from Active Duty
+          </div>
+        </a>
+        <p>
+          The <strong>DD-214</strong> is issued to military members upon separation from active service. It contains information about the veteran's dates of military service and separation. Most veterans and their next-of-kin can obtain free copies of their DD Form 214 Report of Separation and other military and medical records through the <a href="http://www.archives.gov/veterans/military-service-records/" target="_blank">National Archives Veterans’ Records Service</a>.
+        </p>
+      </li>
+    </ul>
+
+    <ul class="usajobs-uhp-section-required-documents">
+      <li class="usajobs-uhp-section-required-documents__single-item">
+        <a class="usajobs-uhp-section-required-documents__link" href="https://www.opm.gov/forms/pdf_fill/sf15.pdf" target="_blank">
+          <div class="usajobs-uhp-section-required-documents__figure">
+            <span class="fa fa-file-pdf-o"></span>
+          </div>
+          <div class="usajobs-uhp-section-required-documents__body">
+            <div class="usajobs-uhp-section-required-documents__title">
+              SF-15
+            </div>
+            Application for 10-point Veterans' Preference
+          </div>
+        </a>
+        <p>
+          The <strong>SF-15</strong> is used by Federal agencies and OPM examining offices to adjudicate individuals' claims for veterans' preference.
+        </p>
+      </li>
+    </ul>
+
+    <h4>Upload and submit through USAJOBS</h4>
     <p>
       You can upload and save your DD-214, SF-15 or other documents to your USAJOBS account. Once uploaded, you can submit these forms with your job application as needed. <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home">Sign into your USAJOBS account</a> or <a href="../../../how-to/account/documents/upload/">learn how to upload documents</a>.
     </p>

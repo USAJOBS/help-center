@@ -134,9 +134,21 @@
     }
   }
 
-  &__link {
+  &__link,
+  &__doc {
     width: 100%;
     padding: $size-default $size-S;
+
+    .fa {
+      font-size: $h1-font-size;
+    }
+
+    .fa.fa-file-pdf-o {
+      color: $color-secondary-dark;
+    }
+  }
+
+  &__link {
     color: $color-primary;
     text-decoration: none;
 
@@ -153,11 +165,6 @@
     text-decoration: underline;
   }
 
-  &__link .fa {
-    font-size: $h1-font-size;
-    color: $color-secondary-dark;
-  }
-
   &__body {
     padding: 0 $size-default;
     font-style: italic;
@@ -168,13 +175,11 @@
     font-weight: bold;
     text-transform: uppercase;
   }
-
-  &__more {
-  }
 }
 
 .no-flexbox .usajobs-uhp-section-required-documents {
-  &__link {
+  &__link,
+  &__doc {
     @include clearfix();
     display: table;
   }
@@ -197,7 +202,8 @@
 }
 
 .flexbox .usajobs-uhp-section-required-documents {
-  &__link {
+  &__link,
+  &__doc {
     @include display(flex);
     @include align-items(center);
   }

@@ -9,6 +9,8 @@ tags: [federal employees, competitive, service, excepted, unique hiring paths]
 short-name: federal-employees
 ---
 
+{% assign hp = site.data.unique-hiring-paths[page.short-name] %}
+
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
     <h2 class="usajobs-uhp-section__title">
@@ -132,7 +134,7 @@ short-name: federal-employees
             Eligibile to apply for merit promotion jobs?
           </h5>
           <p class="usajobs-uhp-section-service-merit__text">
-            <span class="fa fa-times"></span> <strong>NO</strong>, but you can apply to jobs that are <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/public/">open to the public</a>.
+            <span class="fa fa-times"></span> <strong>NO</strong>, but you can apply to jobs that are <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/public/">open to the public</a> or open to <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/senior-executives/">senior executives</a>.
           </p>
         </div>
       </div>
@@ -162,68 +164,37 @@ short-name: federal-employees
   </div>
   <div class="usajobs-uhp-section__col-right">
     <div class="usa-accordion" data-object="help-accordion">
-      <h3>What is merit promotion?</h3>
       <p>
         Merit Promotion lets a current or former federal employee apply for a job without having to compete with general public or people with Veterans' Preference. Instead, you compete with other competitive service employees.
       </p>
-      <ul class="usa-unstyled-list">
-        <li>
-          <button class="usa-accordion-button usajobs-uhp-accordion-trigger" aria-expanded="false" aria-controls="merit-promotion-job" data-behavior="help-accordion.toggle">
-            How do I know if it's a merit promotion job?
-          </button>
-          <div id="merit-promotion-job" class="usa-accordion-content usajobs-uhp-accordion-content" aria-hidden="true">
-            <p>
-              On the search results page, select the <span class="usajobs-uhp-section__filters-uhp-icon federal-employees"><i class="fa fa-bank"></i></span><span class="usajobs-uhp-section__filters-uhp-desc">Federal Employee filter</span>. If a job is open to a Federal Employee, it is a merit promotion job.
-            </p>
-            <p>
-              You can also read the <strong>Who May Apply</strong> section of a job announcement. When it's a merit promotion job, the Who May Apply section of each job announcement will say "Status Candidates" or "Merit Promotion". There may be other groups listed that can also apply.
-            </p>
-          </div>
-        </li>
-        <li>
-          <button class="usa-accordion-button usajobs-uhp-accordion-trigger" aria-expanded="false" aria-controls="merit-promotion-vets" data-behavior="help-accordion.toggle">
-            Does Veterans' Preference apply to merit promotion jobs?
-          </button>
-          <div id="merit-promotion-vets" class="usa-accordion-content usajobs-uhp-accordion-content" aria-hidden="true">
-            <p>
-              No. Veterans' Preference does not apply to merit promotion jobs. <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/veterans/">If you're a veteran, learn more about your hiring options</a>.
-            </p>
-          </div>
-        </li>
-      </ul>
     </div>
   </div>
 </div>
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
-    <h2 class="usajobs-uhp-section__title" id="required-documents">
-      Required documents
+    <h2 class="usajobs-uhp-section__title">
+      How do I know if it's a merit promotion job?
     </h2>
   </div>
   <div class="usajobs-uhp-section__col-right">
-    <ul class="usajobs-uhp-section-required-documents">
-      <li class="usajobs-uhp-section-required-documents__single-item">
-        <a class="usajobs-uhp-section-required-documents__link" href="https://www.opm.gov/forms/pdfimage/sf50.pdf" target="_blank">
-          <div class="usajobs-uhp-section-required-documents__figure">
-            <span class="fa fa-file-pdf-o"></span>
-          </div>
-          <div class="usajobs-uhp-section-required-documents__body">
-            <div class="usajobs-uhp-section-required-documents__title">
-              SF-50
-            </div>
-            Notification of Personnel Action
-          </div>
-        </a>
-      </li>
-    </ul>
+    <p>
+      In the job announcement look for the <strong>This job is open to</strong> section. When it's a merit promotion job, you’ll see the federal employee icon <span class="usajobs-uhp-section__filters-uhp-icon {{ page.short-name }}"><i class="fa fa-{{ hp.icon }}"></i></span>. There may be other groups listed that can also apply.
+    </p>
+    <p>
+      In search you can also select the <strong>Federal Employee</strong> filter. Your results will display all jobs open to federal employees (also known as merit promotion jobs).
+    </p>
+    <h4>Does Veterans' Preference apply to merit promotion jobs?</h4>
+    <p>
+      No. Veterans' Preference does not apply to merit promotion jobs. <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/veterans/">If you're a veteran, learn more about your hiring options</a>.
+    </p>
   </div>
 </div>
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
     <h2 class="usajobs-uhp-section__title">
-      Programs
+      Other hiring options
     </h2>
   </div>
   <div class="usajobs-uhp-section__col-right">
@@ -260,6 +231,31 @@ short-name: federal-employees
         <p>
           If you were in the competitive service, you may be eligible to return to the Federal Government under the reinstatement program. <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/reinstatement/">Learn more</a>.
         </p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title" id="required-documents">
+      Documents you may need
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <ul class="usajobs-uhp-section-required-documents">
+      <li class="usajobs-uhp-section-required-documents__single-item">
+        <a class="usajobs-uhp-section-required-documents__link" href="https://www.opm.gov/forms/pdfimage/sf50.pdf" target="_blank">
+          <div class="usajobs-uhp-section-required-documents__figure">
+            <span class="fa fa-file-pdf-o"></span>
+          </div>
+          <div class="usajobs-uhp-section-required-documents__body">
+            <div class="usajobs-uhp-section-required-documents__title">
+              SF-50
+            </div>
+            Notification of Personnel Action
+          </div>
+        </a>
       </li>
     </ul>
   </div>

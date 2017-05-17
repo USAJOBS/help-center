@@ -9,6 +9,8 @@ tags: [student, recent graduates, support-students]
 short-name: students
 ---
 
+{% assign hp = site.data.unique-hiring-paths[page.short-name] %}
+
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
     <img src="{{ site.baseurl }}/img/help-center/unique-hiring-paths/pathways-logo.jpg" alt="Pathways logo">
@@ -84,6 +86,46 @@ short-name: students
         </li>
       </ul>
     </div>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title">
+      How do I know a job is open to Students & recent graduates?
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <p>
+      In the job announcement look for the <strong>This job is open to</strong> section. When a job is open to <strong>Students &amp; recent graduates</strong> you’ll see the Students icon: <span class="usajobs-uhp-section__filters-uhp-icon {{ page.short-name }}"><i class="fa fa-{{ hp.icon }}"></i></span>. There may be other groups listed that can also apply.
+    </p>
+    <p>
+      In search you can also select the <strong>Students &amp; recent graduates</strong> filter. Your results will display all jobs open to Veterans.
+    </p>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title" id="required-documents">
+      Documents you may need
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <ul class="usajobs-uhp-section-required-documents">
+      <li class="usajobs-uhp-section-required-documents__single-item">
+        <a class="usajobs-uhp-section-required-documents__link" href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/students/transcripts/">
+          <div class="usajobs-uhp-section-required-documents__figure">
+            <span class="fa fa-file-text-o"></span>
+          </div>
+          <div class="usajobs-uhp-section-required-documents__body">
+            <div class="usajobs-uhp-section-required-documents__title">
+              Transcripts
+            </div>
+          </div>
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
 

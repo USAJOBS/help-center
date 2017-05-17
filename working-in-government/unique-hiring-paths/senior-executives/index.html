@@ -9,6 +9,8 @@ tags: [ses, senior, executives]
 short-name: ses
 ---
 
+{% assign hp = site.data.unique-hiring-paths[page.short-name] %}
+
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
     <h2 class="usajobs-uhp-section__title">Senior executives</h2>
@@ -51,6 +53,22 @@ short-name: ses
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title">
+      How do I know a job is open to Senior Executives?
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <p>
+      In the job announcement look for the <strong>This job is open to</strong> section. When a job is open to <strong>Senior Executives</strong> you’ll see this icon: <span class="usajobs-uhp-section__filters-uhp-icon {{ page.short-name }}"><i class="fa fa-{{ hp.icon }}"></i></span> There may be other groups listed that can also apply.
+    </p>
+    <p>
+      In search you can also select the <strong>Senior Executives</strong> filter. Your results will display all jobs open to Senior Executives.
+    </p>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
     <h2 class="usajobs-uhp-section__title">Applying for Senior Executive Service positions</h2>
   </div>
   <div class="usajobs-uhp-section__col-right">
@@ -64,6 +82,30 @@ short-name: ses
     <p>
       An SESCDP identifies and prepares aspiring senior executive leaders.  If you graduate from this program and your ECQs are certified by an OPM-administered Qualifications Review Board (QRB) then you’re eligible for (but not guaranteed) career appointment to an SES position without further competition.
     </p>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title" id="required-documents">
+      Documents you may need
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <ul class="usajobs-uhp-section-required-documents">
+      <li class="usajobs-uhp-section-required-documents__single-item">
+        <span class="usajobs-uhp-section-required-documents__doc">
+          <div class="usajobs-uhp-section-required-documents__figure">
+            <span class="fa fa-file-text-o"></span>
+          </div>
+          <div class="usajobs-uhp-section-required-documents__body">
+            <div class="usajobs-uhp-section-required-documents__title">
+              OPM Qualifications Review Board certification
+            </div>
+          </div>
+        </span>
+      </li>
+    </ul>
   </div>
 </div>
 

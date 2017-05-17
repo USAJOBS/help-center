@@ -9,6 +9,8 @@ tags: [disabilities, disabled, disability]
 short-name: disability
 ---
 
+{% assign hp = site.data.unique-hiring-paths[page.short-name] %}
+
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
     <h2 class="usajobs-uhp-section__title">Eligibility</h2>
@@ -47,6 +49,22 @@ short-name: disability
       <a href="https://www.opm.gov/policy-data-oversight/disability-employment/getting-a-job/#url=Schedule-A-Hiring-Authority" class="usajobs-help-center__external-link" target="_blank">
         Learn more about eligibility for Schedule A <span class="fa fa-external-link"></span>
       </a>
+    </p>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title">
+      How do I know a job is open to individuals with a disability?
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <p>
+      In the job announcement look for the <strong>This job is open to</strong> section. When a job is open to <strong>Individuals with a disability</strong> you’ll see this icon: <span class="usajobs-uhp-section__filters-uhp-icon {{ page.short-name }}"><i class="fa fa-{{ hp.icon }}"></i></span>. There may be other groups listed that can also apply.
+    </p>
+    <p>
+      In search you can also select the <strong>Individuals with disabilities</strong> filter. Your results will display all jobs open to individuals with disabilities.
     </p>
   </div>
 </div>
@@ -105,6 +123,31 @@ short-name: disability
     <p>
       <a class="usajobs-help-center__external-link" href="https://www.opm.gov/policy-data-oversight/disability-employment/reasonable-accommodations/" target="_blank">Learn more about reasonable accommodation requests <span class="fa fa-external-link"></span></a>.
     </p>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title" id="required-documents">
+      Documents you may need
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <ul class="usajobs-uhp-section-required-documents">
+      <li class="usajobs-uhp-section-required-documents__single-item">
+        <a class="usajobs-uhp-section-required-documents__link" href="https://www.opm.gov/Forms/pdf_fill/sf256.pdf" target="_blank">
+          <div class="usajobs-uhp-section-required-documents__figure">
+            <span class="fa fa-file-pdf-o"></span>
+          </div>
+          <div class="usajobs-uhp-section-required-documents__body">
+            <div class="usajobs-uhp-section-required-documents__title">
+              SF-256
+            </div>
+            Self Identification of Disability form
+          </div>
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
 
