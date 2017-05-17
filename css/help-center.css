@@ -4429,9 +4429,20 @@ html {
   }
 }
 
-.usajobs-uhp-section-required-documents__link {
+.usajobs-uhp-section-required-documents__link, .usajobs-uhp-section-required-documents__doc {
   width: 100%;
   padding: 1.5rem 1rem;
+}
+
+.usajobs-uhp-section-required-documents__link .fa, .usajobs-uhp-section-required-documents__doc .fa {
+  font-size: 44px;
+}
+
+.usajobs-uhp-section-required-documents__link .fa.fa-file-pdf-o, .usajobs-uhp-section-required-documents__doc .fa.fa-file-pdf-o {
+  color: #cd2026;
+}
+
+.usajobs-uhp-section-required-documents__link {
   color: #0071bc;
   text-decoration: none;
 }
@@ -4448,11 +4459,6 @@ html {
   text-decoration: underline;
 }
 
-.usajobs-uhp-section-required-documents__link .fa {
-  font-size: 44px;
-  color: #cd2026;
-}
-
 .usajobs-uhp-section-required-documents__body {
   padding: 0 1.5rem;
   font-style: italic;
@@ -4464,11 +4470,11 @@ html {
   text-transform: uppercase;
 }
 
-.no-flexbox .usajobs-uhp-section-required-documents__link {
+.no-flexbox .usajobs-uhp-section-required-documents__link, .no-flexbox .usajobs-uhp-section-required-documents__doc {
   display: table;
 }
 
-.no-flexbox .usajobs-uhp-section-required-documents__link::after {
+.no-flexbox .usajobs-uhp-section-required-documents__link::after, .no-flexbox .usajobs-uhp-section-required-documents__doc::after {
   clear: both;
   content: "";
   display: block;
@@ -4486,7 +4492,7 @@ html {
   width: 75%;
 }
 
-.flexbox .usajobs-uhp-section-required-documents__link {
+.flexbox .usajobs-uhp-section-required-documents__link, .flexbox .usajobs-uhp-section-required-documents__doc {
   display: -webkit-box;
   display: -moz-box;
   display: box;
