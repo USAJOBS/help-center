@@ -87,12 +87,11 @@ ses:
 
 land-management:
   title: Land Management
-  text: "If you’re a current or former term or temporary employee of the Department of Agriculture or the Department of Interior, you may able to use the Land Management Workforce Flexibility Act to apply for permanent jobs that are open to federal employees."
-  subtext: Land Management Workforce Flexibility Act
+  text: "If you’re a current or former term or temporary employee of a Land Management agency, you may be eligible to apply for merit promotion jobs at any agency."
   image-alt: "Backpackers on a mountain looking at the sunset."
   icon: tree
   link-path: land-management
-  search-filter-desc: "Jobs open to current or former time-limited federal employees under the Land Management Workforce Flexibility Act."
+  search-filter-desc: "Jobs open to current or former time-limited federal employees of a Land Management agency."
   search-filter-value: "land"
 
 peace-corps:
