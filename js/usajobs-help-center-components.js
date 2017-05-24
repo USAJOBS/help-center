@@ -195,7 +195,23 @@ $article.on('help-article.contact-event', function(event, opts) {
 });
 
 // Search autocomplete locations
+function TermsHighlighter(s, t) {
+  var splitString = t.split(" ");
+  for (var i = 0; i < splitString.length; i++) {
+    if (splitString[i] !== "") {
+      var matcher = new RegExp("(" + $.ui.autocomplete.escapeRegex(splitString[i]) + ")", "ig");
+      s = s.replace(matcher, "<strong>$1</strong>");
+    }
+  }
+  return s;
+}
+
+var HelpURLHelper = { DataConfig: "https://data.usajobs.gov" };
+//{{ReplaceURLHelper}}
+
+// Search autocomplete
 var $location = $('#uhp-location'),
+  $keyword = $('#uhp-keyword'),
   $search_form = $('#uhp-search'),
   handleLocationReturn = function () {
     $location.keypress(function (event) {
@@ -215,9 +231,9 @@ handleLocationReturn();
 $.widget("custom.catcomplete", $.ui.autocomplete, {
   _create: function() {
     this._super();
-    this.widget().menu( "option", "items", "> :not(.ui-autocomplete-category)" );
+    this.widget().menu("option", "items", "> :not(.ui-autocomplete-category)");
   },
-  _renderMenu: function( ul, items ) {
+  _renderMenu: function(ul, items) {
     var that = this,
       currentCategory = "";
 
@@ -249,6 +265,39 @@ $.widget("custom.catcomplete", $.ui.autocomplete, {
   }
 });
 
+$.widget("custom.keywordcomplete", $.ui.autocomplete, {
+    _create: function () {
+        this._super();
+        this.widget().menu("option", "items", "> :not(.ui-autocomplete-category)");
+    },
+    _renderMenu: function (ul, items) {
+        ul.addClass("usajobs-search-keyword-autocomplete");
+        var that = this,
+            currentCategory = "",
+            header = '<li class="ui-autocomplete-close-header">Close &nbsp;&nbsp;&times;</li>',
+            $header = $(header);
+
+        $.each(items, function (index, item) {
+            var li;
+            if (item.type != currentCategory) {
+                ul.append('<li class="ui-autocomplete-category ' + item.type + ' ">' + item.type + '</li>');
+                currentCategory = item.type;
+            }
+            li = that._renderItemData(ul, item);
+            if (item.Type) {
+                li.attr("aria-label", item.type + " : " + item.value);
+            }
+        });
+    },
+    _renderItem: function (ul, item) {
+        return $("<li>")
+        .addClass(item.type)
+        .attr("data-value", item.value)
+        .append($("<a>").html(item.label))
+        .appendTo(ul);
+    }
+});
+
 var url = 'https://ac.usajobs.gov/locationAC',
   autocompleteRequest = function (request, response) {
     $.ajax({
@@ -263,6 +312,46 @@ var url = 'https://ac.usajobs.gov/locationAC',
       }
     });
   };
+
+var keywordautocompleterequest = function (request, response) {
+  $.ajax({
+    url: HelpURLHelper.DataConfig + "/api/Autocomplete/Keyword",
+    dataType: "json",
+    crossdomain: true,
+    cache: true,
+    data: { term: request.term },
+    success: function (data) {
+      var results = [];
+
+      for (var key in data) {
+        for (var i = 0; i < data[key].length; i++) {
+          var label = data[key][i].Name,
+            code = data[key][i].Code;
+
+          if (key == "series") {
+            label = code + " - " + data[key][i].Name;
+          } else if (key == "occupations") {
+            code = data[key][i].Name;
+          }
+
+          if (data[key][i].hasOwnProperty('Acronym')) {
+            label = label + " (" + data[key][i].Acronym.toUpperCase() + ")";
+          }
+
+          var autocompleteItem = {
+            value: code,
+            label: TermsHighlighter(label, request.term),
+            type: key
+          };
+
+          results.push(autocompleteItem);
+        }
+      }
+      response(results);
+    },
+    global: false
+  });
+};
 
 $location.catcomplete({
   appendTo: "#search-inner-autocomplete-container",
@@ -335,6 +424,41 @@ $location.catcomplete({
 
     return false;
   }
+});
+
+$keyword.keywordcomplete({
+	source: keywordautocompleterequest,
+	minLength: 2,
+	select: function (event, ui) {
+	  var selectedObj = ui.item,
+		  parameter = "";
+
+	  switch (selectedObj.type) {
+		  case "series":
+		    parameter = "j=" + selectedObj.value;
+		    break;
+		  case "agencies":
+		    parameter = "a=" + selectedObj.value;
+		    break;
+		  case "departments":
+		    parameter = "d=" + selectedObj.value;
+		    break;
+		  case "occupations":
+		    parameter = "soc=" + selectedObj.value;
+		    break;
+    }
+
+	  window.location.href = "/Search?" + parameter;
+
+	  return false;
+	},
+	open: function () {
+	  $(this).removeClass("ui-corner-all").addClass("ui-corner-top");
+	  $("ul.ui-menu").width($(this).innerWidth());
+	},
+	close: function () {
+	   $(this).removeClass("ui-corner-top").addClass("ui-corner-all");
+	}
 });
 
 $(function () { // wait for document ready
