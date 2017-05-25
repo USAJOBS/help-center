@@ -10,9 +10,9 @@ exclude_from_search: true
 tags: [contact, help, support]
 ---
 
-1. Go to our [Help Center](../help/) to find a topic and answer related to your question. Look in our [FAQs](../faq/), [How To’s](../how-to/) and [Working in Government](../working-in-government/) sections.
+1. Go to our Help Center to find a topic and answer related to your question. Look in our [FAQs](../faq/), [How To’s](../how-to/) and [Working in Government](../working-in-government/) sections.
 
-2. Go to the page that best matches your question. If the information doesn’t answer your question, click the **Contact Us** button located on the right hand side of that page or the **Still need help? Contact Us** button towards the bottom of that page. 
+2. Go to the page that best matches your question. If the information doesn’t answer your question, click the **Contact Us** button located on the right hand side of that page or the **Still need help? Contact Us** button towards the bottom of that page.
 
 3. Fill out the form and click **Send**.
 
