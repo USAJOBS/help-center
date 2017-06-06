@@ -448,6 +448,8 @@ $keyword.keywordcomplete({
 		    break;
     }
 
+	  logKeywordAC(selectedObj.value);
+		
 	  window.location.href = "/Search?" + parameter;
 
 	  return false;
