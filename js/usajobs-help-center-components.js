@@ -339,11 +339,11 @@ var keywordautocompleterequest = function (request, response) {
           }
 
           var autocompleteItem = {
-                        value: label,
-                        label: splitTermHighlighter(label, request.term),
-                        type: key,
-                        actualValue: code
+            value: code,
+            label: TermsHighlighter(label, request.term),
+            type: key
           };
+
           results.push(autocompleteItem);
         }
       }
@@ -433,23 +433,20 @@ $keyword.keywordcomplete({
 	  var selectedObj = ui.item,
 		  parameter = "";
 
-	   switch (selectedObj.type) {
-                case "series":
-                    parameter = "j=" + selectedObj.actualValue;
-                    break;
-                case "agencies":
-                    parameter = "a=" + selectedObj.actualValue;
-                    break;
-                case "departments":
-                    parameter = "d=" + selectedObj.actualValue;
-                    break;
-                case "occupations":
-                    parameter = "soc=" + selectedObj.actualValue;
-                    break;
-                case "job titles":
-                    parameter = "jt=" + selectedObj.actualValue;
-                    break;
-            }
+	  switch (selectedObj.type) {
+		  case "series":
+		    parameter = "j=" + selectedObj.value;
+		    break;
+		  case "agencies":
+		    parameter = "a=" + selectedObj.value;
+		    break;
+		  case "departments":
+		    parameter = "d=" + selectedObj.value;
+		    break;
+		  case "occupations":
+		    parameter = "soc=" + selectedObj.value;
+		    break;
+    }
 
 	  window.location.href = "/Search?" + parameter;
 
