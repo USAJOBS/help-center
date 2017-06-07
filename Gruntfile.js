@@ -85,7 +85,8 @@ module.exports = function(grunt) {
           'node_modules/usajobs-design-system/js/components/usds-components.js',
           'node_modules/usajobs-design-system/js/components/accordion.js',
           'node_modules/usajobs-design-system/js/components/footer.js',
-          'node_modules/usajobs-design-system/js/components/nav.js',
+          'node_modules/usajobs-design-system/js/components/modal.js',
+          'node_modules/usajobs-design-system/js/components/nav.js'
         ],
         dest: 'js/usajobs-help-center.js'
       },
