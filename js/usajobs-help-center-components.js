@@ -420,7 +420,6 @@ $location.catcomplete({
     logLocationAC(value);
     $location.val(value);
     closeLocationAutocomplete();
-    // $search_form.submit();
 
     return false;
   }
@@ -448,8 +447,8 @@ $keyword.keywordcomplete({
 		    break;
     }
 
+    logKeywordAC(selectedObj.value);
 	  window.location.href = "/Search?" + parameter;
-
 	  return false;
 	},
 	open: function () {
