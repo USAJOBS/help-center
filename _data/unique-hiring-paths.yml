@@ -18,6 +18,14 @@ federal-employees:
   search-filter-desc: "Jobs open to current and former federal employees."
   search-filter-value: "fed"
 
+internal:
+  title: Internal to an agency
+  icon: dot-circle-o
+
+interchange:
+  title: Interchange agreement
+  icon: exchange
+
 veterans:
   title: Veterans
   text: "If you’re a Veteran who served on active duty in the U.S. Armed Forces and were separated under honorable conditions, you may be eligible for veterans’ preference, as well as other veteran specific hiring options."
@@ -86,7 +94,7 @@ ses:
   search-filter-value: "ses"
 
 land-management:
-  title: Land Management
+  title: Land & Base Management
   text: "If you’re a current or former term or temporary employee of a Land Management agency, you may be eligible to apply for merit promotion jobs at any agency."
   image-alt: "Backpackers on a mountain looking at the sunset."
   icon: tree

@@ -207,19 +207,19 @@ function TermsHighlighter(s, t) {
 }
 
 function splitTermHighlighter(s, t) {
-    var splitString = t.split(" ").sort(function(a, b) { return b.length - a.length }),
-        matcherString = "";
+  var splitString = t.split(" ").sort(function(a, b) { return b.length - a.length; }),
+    matcherString = "";
 
-    for (var i = 0; i < splitString.length; i++) {
-        if (splitString[i] != "") {
-            matcherString = matcherString + "(" + $.ui.autocomplete.escapeRegex(splitString[i]) + ")|";
-        }
+  for (var i = 0; i < splitString.length; i++) {
+    if (splitString[i] !== "") {
+      matcherString = matcherString + "(" + $.ui.autocomplete.escapeRegex(splitString[i]) + ")|";
     }
+  }
 
-    var matcher = new RegExp(matcherString, "ig");
-    s = s.replace(matcher, "<strong>$&</strong>");
+  var matcher = new RegExp(matcherString, "ig");
+  s = s.replace(matcher, "<strong>$&</strong>");
 
-    return s;
+  return s;
 }
 
 var HelpURLHelper = { DataConfig: "https://data.usajobs.gov" };
@@ -343,7 +343,7 @@ var keywordautocompleterequest = function (request, response) {
         for (var i = 0; i < data[key].length; i++) {
           var label = data[key][i].Name,
             code = data[key][i].Code,
-	    parentName = "";
+            parentName = "";
 
           if (key == "series") {
             label = code + " - " + data[key][i].Name;
@@ -354,11 +354,11 @@ var keywordautocompleterequest = function (request, response) {
           if (data[key][i].hasOwnProperty('Acronym')) {
             label = label + " (" + data[key][i].Acronym.toUpperCase() + ")";
           }
-		
-	  if (data[key][i].hasOwnProperty('ParentName')) {
-	    label = label + " - " + data[key][i].ParentName;
-	    parentName = data[key][i].ParentName;
-	  }		
+
+          if (data[key][i].hasOwnProperty('ParentName')) {
+            label = label + " - " + data[key][i].ParentName;
+            parentName = data[key][i].ParentName;
+          }
 
           var autocompleteItem = {
             value: code,
@@ -450,42 +450,42 @@ $location.catcomplete({
 });
 
 $keyword.keywordcomplete({
-	source: keywordautocompleterequest,
-	minLength: 2,
-	select: function (event, ui) {
-	  var selectedObj = ui.item,
-		  parameter = "";
+  source: keywordautocompleterequest,
+  minLength: 2,
+  select: function (event, ui) {
+    var selectedObj = ui.item,
+      parameter = "";
 
-	  switch (selectedObj.type) {
-                case "series":
-                    parameter = selectedObj.parentName != "" ? "j=" + selectedObj.actualValue : "jf=" + selectedObj.actualValue;
-                    break;
-                case "agencies":
-                    parameter = "a=" + selectedObj.actualValue;
-                    break;
-                case "departments":
-                    parameter = "d=" + selectedObj.actualValue;
-                    break;
-                case "occupations":
-                    parameter = "soc=" + selectedObj.actualValue;
-                    break;
-                case "job titles":
-                    parameter = "jt=" + selectedObj.actualValue;
-                    break;
-          }
+    switch (selectedObj.type) {
+      case "series":
+        parameter = selectedObj.parentName !== "" ? "j=" + selectedObj.actualValue : "jf=" + selectedObj.actualValue;
+        break;
+      case "agencies":
+        parameter = "a=" + selectedObj.actualValue;
+        break;
+      case "departments":
+        parameter = "d=" + selectedObj.actualValue;
+        break;
+      case "occupations":
+        parameter = "soc=" + selectedObj.actualValue;
+        break;
+      case "job titles":
+        parameter = "jt=" + selectedObj.actualValue;
+        break;
+      }
 
-          logKeywordAC(selectedObj.value);
-		
-	  window.location.href = "/Search?" + parameter;
-	  return false;
-	},
-	open: function () {
-	  $(this).removeClass("ui-corner-all").addClass("ui-corner-top");
-	  $("ul.ui-menu").width($(this).innerWidth());
-	},
-	close: function () {
-	   $(this).removeClass("ui-corner-top").addClass("ui-corner-all");
-	}
+    logKeywordAC(selectedObj.value);
+
+    window.location.href = "/Search?" + parameter;
+    return false;
+  },
+  open: function () {
+    $(this).removeClass("ui-corner-all").addClass("ui-corner-top");
+    $("ul.ui-menu").width($(this).innerWidth());
+  },
+  close: function () {
+     $(this).removeClass("ui-corner-top").addClass("ui-corner-all");
+  }
 });
 
 $(function () { // wait for document ready

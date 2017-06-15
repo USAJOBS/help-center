@@ -10,6 +10,22 @@ function TermsHighlighter(s, t) {
   return s;
 }
 
+function splitTermHighlighter(s, t) {
+  var splitString = t.split(" ").sort(function(a, b) { return b.length - a.length; }),
+    matcherString = "";
+
+  for (var i = 0; i < splitString.length; i++) {
+    if (splitString[i] !== "") {
+      matcherString = matcherString + "(" + $.ui.autocomplete.escapeRegex(splitString[i]) + ")|";
+    }
+  }
+
+  var matcher = new RegExp(matcherString, "ig");
+  s = s.replace(matcher, "<strong>$&</strong>");
+
+  return s;
+}
+
 var HelpURLHelper = { DataConfig: "https://data.usajobs.gov" };
 //{{ReplaceURLHelper}}
 
@@ -130,7 +146,8 @@ var keywordautocompleterequest = function (request, response) {
       for (var key in data) {
         for (var i = 0; i < data[key].length; i++) {
           var label = data[key][i].Name,
-            code = data[key][i].Code;
+            code = data[key][i].Code,
+            parentName = "";
 
           if (key == "series") {
             label = code + " - " + data[key][i].Name;
@@ -142,10 +159,17 @@ var keywordautocompleterequest = function (request, response) {
             label = label + " (" + data[key][i].Acronym.toUpperCase() + ")";
           }
 
+          if (data[key][i].hasOwnProperty('ParentName')) {
+            label = label + " - " + data[key][i].ParentName;
+            parentName = data[key][i].ParentName;
+          }
+
           var autocompleteItem = {
             value: code,
-            label: TermsHighlighter(label, request.term),
-            type: key
+            label: splitTermHighlighter(label, request.term),
+            type: key,
+            actualValue: code,
+            parentName: parentName
           };
 
           results.push(autocompleteItem);
@@ -230,36 +254,40 @@ $location.catcomplete({
 });
 
 $keyword.keywordcomplete({
-	source: keywordautocompleterequest,
-	minLength: 2,
-	select: function (event, ui) {
-	  var selectedObj = ui.item,
-		  parameter = "";
+  source: keywordautocompleterequest,
+  minLength: 2,
+  select: function (event, ui) {
+    var selectedObj = ui.item,
+      parameter = "";
 
-	  switch (selectedObj.type) {
-		  case "series":
-		    parameter = "j=" + selectedObj.value;
-		    break;
-		  case "agencies":
-		    parameter = "a=" + selectedObj.value;
-		    break;
-		  case "departments":
-		    parameter = "d=" + selectedObj.value;
-		    break;
-		  case "occupations":
-		    parameter = "soc=" + selectedObj.value;
-		    break;
-    }
+    switch (selectedObj.type) {
+      case "series":
+        parameter = selectedObj.parentName !== "" ? "j=" + selectedObj.actualValue : "jf=" + selectedObj.actualValue;
+        break;
+      case "agencies":
+        parameter = "a=" + selectedObj.actualValue;
+        break;
+      case "departments":
+        parameter = "d=" + selectedObj.actualValue;
+        break;
+      case "occupations":
+        parameter = "soc=" + selectedObj.actualValue;
+        break;
+      case "job titles":
+        parameter = "jt=" + selectedObj.actualValue;
+        break;
+      }
 
     logKeywordAC(selectedObj.value);
-	  window.location.href = "/Search?" + parameter;
-	  return false;
-	},
-	open: function () {
-	  $(this).removeClass("ui-corner-all").addClass("ui-corner-top");
-	  $("ul.ui-menu").width($(this).innerWidth());
-	},
-	close: function () {
-	   $(this).removeClass("ui-corner-top").addClass("ui-corner-all");
-	}
+
+    window.location.href = "/Search?" + parameter;
+    return false;
+  },
+  open: function () {
+    $(this).removeClass("ui-corner-all").addClass("ui-corner-top");
+    $("ul.ui-menu").width($(this).innerWidth());
+  },
+  close: function () {
+     $(this).removeClass("ui-corner-top").addClass("ui-corner-all");
+  }
 });

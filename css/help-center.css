@@ -1358,12 +1358,13 @@ html {
 .usajobs-help-services--infographic {
   width: 100%;
   margin: 3rem 0;
-  color: #0071bc;
+  background-color: #112e51;
+  color: #02bfe7;
   text-decoration: none;
 }
 
-.usajobs-help-services--infographic:visited {
-  color: #0071bc;
+.usajobs-help-services--infographic:visited, .usajobs-help-services--infographic:active, .usajobs-help-services--infographic:hover {
+  color: #02bfe7;
 }
 
 .usajobs-help-services--infographic:hover {
@@ -1372,6 +1373,11 @@ html {
 
 .usajobs-help-services--infographic:hover__body {
   text-decoration: underline;
+}
+
+.usajobs-help-services--infographic__figure {
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
 }
 
 .usajobs-help-services--infographic__body {

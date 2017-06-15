@@ -6,11 +6,14 @@
 .usajobs-help-services--infographic {
   width: 100%;
   margin: $size-M 0;
-  color: $color-primary;
+  background-color: $color-primary-darkest;
+  color: $color-primary-alt;
   text-decoration: none;
 
-  &:visited {
-    color: $color-primary;
+  &:visited,
+  &:active,
+  &:hover {
+    color: $color-primary-alt;
   }
 
   &:hover {
@@ -19,6 +22,11 @@
     &__body {
       text-decoration: underline;
     }
+  }
+
+  &__figure {
+    padding-top: $size-base;
+    padding-left: $size-default;
   }
 
   &__body {
