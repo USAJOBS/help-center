@@ -165,7 +165,7 @@ var keywordautocompleterequest = function (request, response) {
           }
 
           var autocompleteItem = {
-            value: code,
+            value: label,
             label: splitTermHighlighter(label, request.term),
             type: key,
             actualValue: code,
