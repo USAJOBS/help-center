@@ -43,6 +43,13 @@ As a current of former federal employee, you can also apply to jobs that are ope
 
 [Learn more about the federal employee hiring path](../../../../working-in-government/unique-hiring-paths/federal-employees/).
 
+## Internal to an agency
+
+Select this option if you're interested in staying within your agency:
+
+* Jobs open within the [competitive service](../../../../working-in-government/service/) are open to current competitive service employees or those with a disability covered by schedule A.
+* Jobs open in the [excepted service](../../../../working-in-government/service/) are open to anyone within the agency. This also includes employees who can be [reinstated](../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
+
 ## Veterans
 Select this option if you're:
 
