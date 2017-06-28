@@ -771,7 +771,8 @@ html {
 }
 
 .usajobs-help-center-breadcrumb {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d6d7d9;
 }
 
 .usajobs-help-center-breadcrumb__list {
@@ -782,8 +783,7 @@ html {
   padding: 0 1.5rem;
   width: 100%;
   max-width: 160rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto;
 }
 
 .usajobs-help-center-breadcrumb__list > li {
@@ -899,34 +899,14 @@ html {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 160rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: #f1f1f1;
 }
 
 .usajobs-help-center-nav-secondary__body::after {
   clear: both;
   content: "";
   display: block;
-}
-
-@media screen and (min-width: 30em) {
-  .usajobs-help-center-nav-secondary__body {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 48em) {
-  .usajobs-help-center-nav-secondary__body {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-}
-
-@media screen and (min-width: 120em) {
-  .usajobs-help-center-nav-secondary__body {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
 .usajobs-help-center-nav-secondary__body a {
@@ -955,7 +935,7 @@ html {
 
 .usajobs-help-center-nav-secondary__container.is-active .usajobs-help-center-nav-secondary__item {
   font-weight: bold;
-  color: #ffffff;
+  color: #212121;
 }
 
 .usajobs-help-center-nav-secondary__container.faq.is-active {
@@ -978,7 +958,6 @@ html {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  color: #aeb0b5;
 }
 
 .usajobs-help-center-nav-secondary__item::after {
@@ -994,12 +973,11 @@ html {
 }
 
 .usajobs-help-center-nav-secondary__item:visited {
-  color: #aeb0b5;
+  color: #0071bc;
 }
 
-.usajobs-help-center-nav-secondary__item:hover {
-  color: #f1f1f1;
-  text-decoration: none;
+.usajobs-help-center-nav-secondary__item:visited:hover {
+  color: #205493;
 }
 
 .usajobs-help-center-nav-secondary__text {
@@ -1021,7 +999,6 @@ html {
     display: inline-block;
   }
   .usajobs-help-center-nav-secondary__text-long:hover {
-    color: #f1f1f1;
     text-decoration: none;
   }
 }
@@ -5024,10 +5001,7 @@ html {
   margin-top: 1.5rem;
   font-size: 19px;
   font-size: 1.9rem;
-}
-
-.usajobs-help-center-search__result:visited {
-  color: #0071bc;
+  text-decoration: none;
 }
 
 .usajobs-help-center-glossary dl {
