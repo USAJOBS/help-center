@@ -7,6 +7,7 @@
 {% for path in site.data.unique-hiring-paths %}
 {%   assign path_name = path[0] %}
 {%   assign section = site.data.unique-hiring-paths[path_name] %}
+    {% if section.text %}
     <li class="usajobs-unique-hiring-paths__item">
       <a class="usajobs-unique-hiring-paths__link" href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/{{ section.link-path }}/">
         <div class="usajobs-unique-hiring-paths__figure">
@@ -32,6 +33,7 @@
         </div>
       </a>
     </li>
+    {% endif %}
 {% endfor %}
   </ul>
 </div>

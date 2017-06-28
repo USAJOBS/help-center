@@ -7,15 +7,17 @@
   </head>
   <body>
     {% include components/nav-help.html %}
-      <div class="usajobs-help-center">
+    <div class="usajobs-help-center">
       {% include components/search-banner-with-nav.html %}
       {% include components/breadcrumbs.html %}
-      <section class="usajobs-shell">
+      <section class="usajobs-shell usajobs-shell--large" data-object="help-article">
         <section class="usajobs-canvas">
-          <div class="usajobs-help-center-glossary usajobs-content-gutter">
-            <main class="usajobs-content-well" id="main-content" role="main">
-              <h1>{{ page.title }}</h1>
-              {{ content }}
+          <div class="usajobs-help-center-article usajobs-help-center-glossary usajobs-content-gutter">
+            <main class="usajobs-content-well" id="main-content">
+              <div class="usajobs-help-center-article__container">
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+              </div>
             </main>
             <aside class="usajobs-rightrail">
               <h3 class="usajobs-help-center-article__related">
@@ -52,7 +54,6 @@
             </aside>
           </div>
         </section>
-        {% include components/article/submit.html %}
       </section>
     </div>
     {% include components/footer.html %}

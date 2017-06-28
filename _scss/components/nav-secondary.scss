@@ -7,22 +7,8 @@
 
   &__body {
     @include outer-container();
-    max-width: $site-max-width-L;
-
-    @include media($SM) {
-      padding-left: $size-default;
-      padding-right: $size-default;
-    }
-
-    @include media($ML) {
-      padding-left: $size-M;
-      padding-right: $size-M;
-    }
-
-    @include media($XXXXL) {
-      padding-left: 0;
-      padding-right: 0;
-    }
+    @include boxShadow(1);
+    background-color: $color-gray-lightest;
 
     a {
       // Another override of the base styles just to be certain we don't have
@@ -53,7 +39,7 @@
 
     &.is-active .usajobs-help-center-nav-secondary__item {
       font-weight: bold;
-      color: $color-white;
+      color: $color-base;
     }
 
     &.faq.is-active {
@@ -78,19 +64,17 @@
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    color: $color-gray-light;
 
     @include media($SM) {
       padding: $size-default $size-M;
     }
 
     &:visited {
-      color: $color-gray-light;
-    }
+      color: $color-primary;
 
-    &:hover {
-      color: $color-gray-lightest;
-      text-decoration: none;
+      &:hover {
+        color: $color-primary-darker;
+      }
     }
   }
 
@@ -109,7 +93,6 @@
       display: inline-block;
 
       &:hover {
-        color: $color-gray-lightest;
         text-decoration: none;
       }
     }

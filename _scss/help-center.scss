@@ -116,10 +116,7 @@
   &__result {
     display: block;
     @include h4();
-
-    &:visited {
-      color: $color-primary;
-    }
+    text-decoration: none;
   }
 }
 

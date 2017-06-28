@@ -86,48 +86,53 @@ breadcrumb: Working in Government
           </li>
         </ul>
 
-        <h3 class="section-header">Unique Hiring Paths</h3>
+        <h3 class="section-header">Fair &amp; Transparent</h3>
         <ul class="usajobs-help-center-landing__link-list">
           <li>
-            <a href="{{site.baseurl}}/working-in-government/unique-hiring-paths/federal-employees/">
-              Federal employees
+            <a href="{{ site.baseurl }}/working-in-government/fair-and-transparent/financial-suitability">
+              Financial suitability
             </a>
           </li>
           <li>
-            <a href="{{site.baseurl}}/working-in-government/unique-hiring-paths/former-overseas-employees/">
-              Former overseas employees
+            <a href="{{ site.baseurl }}/working-in-government/fair-and-transparent/privacy-act/">
+              Privacy Act
             </a>
           </li>
           <li>
-            <a href="{{site.baseurl}}/working-in-government/unique-hiring-paths/individuals-with-disabilities/">
-              Individuals with disabilities
+            <a href="{{ site.baseurl }}/working-in-government/fair-and-transparent/selective-service/">
+              Selective Service
             </a>
           </li>
           <li>
-            <a href="{{site.baseurl}}/working-in-government/unique-hiring-paths/military-spouses/">
-              Military spouses
+            <a href="{{ site.baseurl }}/working-in-government/fair-and-transparent/social-security-number/">
+              Social security number request
             </a>
           </li>
           <li>
-            <a href="{{site.baseurl}}/working-in-government/unique-hiring-paths/peace-corps/">
-              Peace Corps &amp; AmeriCorps VISTA alumni
+            <a href="{{ site.baseurl }}/working-in-government/fair-and-transparent/signature-false-statements/">
+              Signature &amp; False statements
             </a>
           </li>
           <li>
-            <a href="{{site.baseurl}}/working-in-government/unique-hiring-paths/senior-executives/">
-              Senior Executives
+            <a href="{{ site.baseurl }}/working-in-government/fair-and-transparent/probationary-period/">
+              New employee probationary period
             </a>
           </li>
+        </ul>
+
+        <h3 class="section-header">Hiring Paths</h3>
+        <ul class="usajobs-help-center-landing__link-list">
+        {% for path in site.data.unique-hiring-paths %}
+        {%   assign path_name = path[0] %}
+        {%   assign section = site.data.unique-hiring-paths[path_name] %}
+          {% if section.text %}
           <li>
-            <a href="{{site.baseurl}}/working-in-government/unique-hiring-paths/students">
-              Students &amp; recent graduates
+            <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/{{ section.link-path }}/">
+              {{ section.title }}
             </a>
           </li>
-          <li>
-            <a href="{{site.baseurl}}/working-in-government/unique-hiring-paths/veterans/">
-              Veterans
-            </a>
-          </li>
+          {% endif %}
+        {% endfor %}
         </ul>
       </div>
     </div>

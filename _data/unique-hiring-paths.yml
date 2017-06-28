@@ -22,10 +22,6 @@ internal:
   title: Internal to an agency
   icon: dot-circle-o
 
-interchange:
-  title: Interchange agreement
-  icon: exchange
-
 veterans:
   title: Veterans
   text: "If you’re a Veteran who served on active duty in the U.S. Armed Forces and were separated under honorable conditions, you may be eligible for veterans’ preference, as well as other veteran specific hiring options."
