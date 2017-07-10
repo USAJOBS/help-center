@@ -895,18 +895,15 @@ html {
   clip: rect(0 0 0 0) !important;
 }
 
-.usajobs-help-center-nav-secondary__body {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+.usajobs-help-center-nav-secondary {
   background-color: #f1f1f1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.usajobs-help-center-nav-secondary__body::after {
-  clear: both;
-  content: "";
-  display: block;
+.usajobs-help-center-nav-secondary__body {
+  max-width: 160rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .usajobs-help-center-nav-secondary__body a {
