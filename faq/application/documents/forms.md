@@ -26,7 +26,7 @@ Optional Forms, designated with the abbreviation OF, are used government-wide fo
 
 Standard Forms, designated with the abbreviation SF, are used government-wide for various employment and benefits program purposes. Common Standard Forms include:
 
-* [SF-50 – Notification of Personnel Action](https://www.opm.gov/FAQs/QA.aspx?fid=d5e0f29c-fcc1-4ee2-a9f1-67ef78c0dfe4&pid=2e8db6ae-3008-4fb5-8183-f7421e9b6fd2){:target="_blank"}
+* [SF-50 – Notification of Personnel Action](https://www.opm.gov/forms/standard-forms/){:target="_blank"}
 * [SF-15 – Application for 10-point Veterans Preference](https://www.opm.gov/forms/pdf_fill/SF15.pdf){:target="_blank"}
 
 ## [FAA Documents](http://www.faa.gov/forms/){:target="_blank"}
