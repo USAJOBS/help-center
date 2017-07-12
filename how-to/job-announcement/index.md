@@ -12,7 +12,7 @@ Agencies post job announcements on USAJOBS to advertise their current job openin
 
 ## Who may apply, closing date and locations
 
-The details at the top of the job announcement can tell you whether you’re eligible to apply, if the job is in a location you like and how long you have to apply. 
+The details at the top of the job announcement can tell you whether you’re eligible to apply, if the job is in a location you like and how long you have to apply.
 
 **Who May Apply** - This section tells you who is eligible to apply to the job.  Make sure you’re eligible before applying.
 
@@ -34,19 +34,18 @@ The **Duties** section describes the job’s daily activities and responsibiliti
 
 The **Qualifications** section describes the experience, skills and other job related criteria. To be considered for the job, you must meet these qualifications. It’s important that you read the entire section; some job announcements include multiple qualifications.
 
-## How to apply 
+## How to apply
 
-It’s very important you read the **How to Apply** instructions located in the drop down on the right side of the job announcement. The How to Apply instructions explain the application steps and alternate ways to apply for the job if you are not able to apply online. 
+It’s very important you read the **How to Apply** instructions located in the drop down on the right side of the job announcement. The How to Apply instructions explain the application steps and alternate ways to apply for the job if you are not able to apply online.
 
 ### How you will be evaluated
 The **How You Will Be Evaluated** section describes how the agency will evaluate your application. At the bottom of this section is a link to preview the assessment questions—read these questions before you apply to the job.
 
 ## Required documents
 
-It’s very important you read the **Required Documents** section, located in the drop down on the right side of the job announcement. This section lists all the documents you may need to include with your application to prove you’re eligible and qualified. Make sure you submit the required documentation; you may be disqualified if you’re missing information. 
+It’s very important you read the **Required Documents** section, located in the drop down on the right side of the job announcement. This section lists all the documents you may need to include with your application to prove you’re eligible and qualified. Make sure you submit the required documentation; you may be disqualified if you’re missing information.
 
 However, not all documents listed may be required—it depends on your eligibility and qualifications. If you’re not sure, contact the hiring agency. The hiring agency contact information is located at the bottom of the job announcement.
-
 
 ## Start your application
 
