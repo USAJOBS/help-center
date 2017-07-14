@@ -19,7 +19,7 @@ When you filter by salary, we convert the hourly wages to annual salaries and sh
 ## Pay Grade
 When you search by a GS grade or range of grades, we’ll show you jobs that match the grade(s) and any non-GS jobs that are equivalent in salary. For example, to search for jobs that fall within the GS 9 and GS 12 levels, click **GS 9** and then click **GS 12**. We’ll show you all jobs that are GS 9, GS 10, GS 11 or GS 12.
 
-[Learn more about pay & Leave](../../../../working-in-government/pay-and-leave/)
+[Learn more about pay & leave](../../../../working-in-government/pay-and-leave/)
 
 ## Additional resources
 
