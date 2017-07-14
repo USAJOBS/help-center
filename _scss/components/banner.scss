@@ -222,17 +222,6 @@ $icon-size: rem(164px);
   }
 }
 
-.usajobs-uhp-banner--land-management {
-  .usajobs-uhp-banner__body {
-    background-color: $color-gray-warm-dark;
-  }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-gray-warm-dark);
-    display: block;
-  }
-}
-
 .usajobs-uhp-banner--military-spouses {
   .usajobs-uhp-banner__multiple-icons {
     @include makeSemiCircle($icon-size, $color-green);
@@ -273,27 +262,35 @@ $icon-size: rem(164px);
   }
 }
 
+.usajobs-uhp-banner--land-management {
+  .usajobs-uhp-banner__body {
+    background-color: $color-gray-warm-dark;
+  }
+
+  .usajobs-uhp-banner__icon .fa {
+    @include makeSemiCircle($icon-size, $color-gray-warm-dark);
+    display: block;
+  }
+}
+
+.usajobs-uhp-banner--base-management {
+  .usajobs-uhp-banner__body {
+    background-color: $color-gray-dark;
+  }
+
+  .usajobs-uhp-banner__icon .fa {
+    @include makeSemiCircle($icon-size, $color-gray-dark);
+    display: block;
+  }
+}
+
 .usajobs-uhp-banner--public {
   .usajobs-uhp-banner__container {
-    max-width: inherit;
     background-color: $color-gray-lightest;
   }
 
   .usajobs-uhp-banner__body {
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: $site-max-width;
     background-color: $color-gray-lightest;
-
-    @include media($XXL) {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-
-  .usajobs-uhp-banner__text-container {
-    margin-top: $size-L;
   }
 
   .usajobs-uhp-banner__icon .fa {
@@ -305,6 +302,30 @@ $icon-size: rem(164px);
   .usajobs-uhp-banner__title,
   .usajobs-uhp-banner__text {
     color: $color-base;
+  }
+}
+
+.usajobs-uhp-banner--public,
+.usajobs-uhp-banner--land-management,
+.usajobs-uhp-banner--base-management {
+  .usajobs-uhp-banner__container {
+    max-width: inherit;
+  }
+
+  .usajobs-uhp-banner__body {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $site-max-width;
+
+    @include media($XXL) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .usajobs-uhp-banner__text-container {
+    margin-top: $size-L;
   }
 }
 

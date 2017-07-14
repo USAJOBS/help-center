@@ -345,21 +345,6 @@ html {
   display: block;
 }
 
-.usajobs-uhp-banner--land-management .usajobs-uhp-banner__body {
-  background-color: #494440;
-}
-
-.usajobs-uhp-banner--land-management .usajobs-uhp-banner__icon .fa {
-  display: inline-block;
-  width: 16.4rem;
-  height: 8.2rem;
-  line-height: 16.4rem;
-  border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
-  background-color: #494440;
-  display: block;
-}
-
 .usajobs-uhp-banner--military-spouses .usajobs-uhp-banner__multiple-icons {
   display: inline-block;
   width: 16.4rem;
@@ -416,28 +401,42 @@ html {
   display: block;
 }
 
+.usajobs-uhp-banner--land-management .usajobs-uhp-banner__body {
+  background-color: #494440;
+}
+
+.usajobs-uhp-banner--land-management .usajobs-uhp-banner__icon .fa {
+  display: inline-block;
+  width: 16.4rem;
+  height: 8.2rem;
+  line-height: 16.4rem;
+  border-radius: 16.4rem 16.4rem 0 0;
+  color: #ffffff;
+  background-color: #494440;
+  display: block;
+}
+
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__body {
+  background-color: #323a45;
+}
+
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__icon .fa {
+  display: inline-block;
+  width: 16.4rem;
+  height: 8.2rem;
+  line-height: 16.4rem;
+  border-radius: 16.4rem 16.4rem 0 0;
+  color: #ffffff;
+  background-color: #323a45;
+  display: block;
+}
+
 .usajobs-uhp-banner--public .usajobs-uhp-banner__container {
-  max-width: inherit;
   background-color: #f1f1f1;
 }
 
 .usajobs-uhp-banner--public .usajobs-uhp-banner__body {
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 120rem;
   background-color: #f1f1f1;
-}
-
-@media screen and (min-width: 85.375em) {
-  .usajobs-uhp-banner--public .usajobs-uhp-banner__body {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-.usajobs-uhp-banner--public .usajobs-uhp-banner__text-container {
-  margin-top: 4.5rem;
 }
 
 .usajobs-uhp-banner--public .usajobs-uhp-banner__icon .fa {
@@ -456,6 +455,36 @@ html {
 .usajobs-uhp-banner--public .usajobs-uhp-banner__title,
 .usajobs-uhp-banner--public .usajobs-uhp-banner__text {
   color: #212121;
+}
+
+.usajobs-uhp-banner--public .usajobs-uhp-banner__container,
+.usajobs-uhp-banner--land-management .usajobs-uhp-banner__container,
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__container {
+  max-width: inherit;
+}
+
+.usajobs-uhp-banner--public .usajobs-uhp-banner__body,
+.usajobs-uhp-banner--land-management .usajobs-uhp-banner__body,
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__body {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120rem;
+}
+
+@media screen and (min-width: 85.375em) {
+  .usajobs-uhp-banner--public .usajobs-uhp-banner__body,
+  .usajobs-uhp-banner--land-management .usajobs-uhp-banner__body,
+  .usajobs-uhp-banner--base-management .usajobs-uhp-banner__body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.usajobs-uhp-banner--public .usajobs-uhp-banner__text-container,
+.usajobs-uhp-banner--land-management .usajobs-uhp-banner__text-container,
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__text-container {
+  margin-top: 4.5rem;
 }
 
 .usajobs-uhp-banner--ses .usajobs-uhp-banner__body,

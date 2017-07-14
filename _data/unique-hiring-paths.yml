@@ -7,6 +7,7 @@ public:
   link-path: public
   search-filter-desc: "Jobs open to U.S. citizens, nationals or individuals who owe allegiance to the U.S."
   search-filter-value: "public"
+  include-in-index: true
 
 federal-employees:
   title: Federal Employees
@@ -17,10 +18,16 @@ federal-employees:
   link-path: federal-employees
   search-filter-desc: "Jobs open to current and former federal employees."
   search-filter-value: "fed"
+  include-in-index: true
 
 internal:
   title: Internal to an agency
+  text: "Some jobs are open only to current employees of an agency."
   icon: dot-circle-o
+  icon-no-image: true
+  link-path: federal-employees
+  search-filter-desc: "Jobs open to current and former federal employees of the agency posting the job."
+  search-filter-value: "internal"
 
 veterans:
   title: Veterans
@@ -30,6 +37,7 @@ veterans:
   link-path: veterans
   search-filter-desc: "Jobs open to individuals who are preference eligible or were honorably discharged after 3 or more years of continuous active service."
   search-filter-value: "vet"
+  include-in-index: true
 
 national-guard:
   title: National Guard & Reserves
@@ -40,6 +48,7 @@ national-guard:
   link-path: national-guard
   search-filter-desc: "Jobs open to current National Guard members, reserves, or transitioning military members."
   search-filter-value: "nguard"
+  include-in-index: true
 
 disability:
   title: Individuals with a disability
@@ -49,6 +58,7 @@ disability:
   link-path: individuals-with-disabilities
   search-filter-desc: "Jobs open to individuals with a disability."
   search-filter-value: "disability"
+  include-in-index: true
 
 native-americans:
   title: Native Americans
@@ -59,6 +69,7 @@ native-americans:
   link-path: native-americans
   search-filter-desc: "Jobs open to those with a tribal affiliation."
   search-filter-value: "native"
+  include-in-index: true
 
 military-spouses:
   title: Military Spouses
@@ -70,6 +81,7 @@ military-spouses:
   link-path: military-spouses
   search-filter-desc: "Jobs open to military spouses relocating under PCS orders, or whose spouse is 100% disabled or died while on active duty."
   search-filter-value: "mspouse"
+  include-in-index: true
 
 students:
   title: Students & Recent Graduates
@@ -79,6 +91,7 @@ students:
   link-path: students
   search-filter-desc: "Jobs open to students and recent graduates."
   search-filter-value: "student"
+  include-in-index: true
 
 ses:
   title: Senior Executives
@@ -88,15 +101,23 @@ ses:
   link-path: senior-executives
   search-filter-desc: "Jobs open to individuals who meet the five Executive Core Qualifications (ECQs)."
   search-filter-value: "ses"
+  include-in-index: true
+
+base-management:
+  title: Base Management
+  text: "If you’re a current or former term or temporary employee of a Base Management agency, you may be eligible to apply for merit promotion jobs at any federal agency."
+  icon-no-image: true
+  link-path: base-management
+  search-filter-desc: "Jobs open to current or former time-limited federal employees of a Base Management agency."
+  search-filter-value: "fed"
 
 land-management:
   title: Land Management
-  text: "If you’re a current or former term or temporary employee of a Land Management agency, you may be eligible to apply for merit promotion jobs at any agency."
-  image-alt: "Backpackers on a mountain looking at the sunset."
-  icon: tree
+  text: "If you’re a current or former term or temporary employee of a Land Management agency, you may be eligible to apply for merit promotion jobs at any federal agency."
+  icon-no-image: true
   link-path: land-management
   search-filter-desc: "Jobs open to current or former time-limited federal employees of a Land Management agency."
-  search-filter-value: "land"
+  search-filter-value: "fed"
 
 peace-corps:
   title: Peace Corps/VISTA Alumni
@@ -106,12 +127,15 @@ peace-corps:
   link-path: peace-corps
   search-filter-desc: "Jobs open to individuals who’ve served at least 2 years with the Peace Corps or 1 year with AmeriCorps VISTA."
   search-filter-value: "peace"
+  include-in-index: true
 
 former-overseas-employees:
   title: Former Overseas Employees
   text: "If you're a family member of a federal employee, or uniformed service member, who has completed 52 weeks of service in a federal position overseas, you may be eligible to apply for jobs open to merit promotion candidates or be hired for a competitive service job."
+  subtext: Family members
   image-alt: "Fighter jets"
   icon: plane
   link-path: former-overseas-employees
   search-filter-desc: "Jobs open to family members of federal employees who’ve worked overseas."
   search-filter-value: "overseas"
+  include-in-index: true
