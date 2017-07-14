@@ -50,6 +50,8 @@ Select this option if you're interested in staying within your agency:
 * Jobs open within the [competitive service](../../../../working-in-government/service/) are open to current competitive service employees or those with a disability covered by schedule A.
 * Jobs open in the [excepted service](../../../../working-in-government/service/) are open to anyone within the agency. This also includes employees who can be [reinstated](../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
 
+[Learn more about the internal to an agency hiring path](../../../../working-in-government/unique-hiring-paths/federal-employees/internal/).
+
 ## Veterans
 Select this option if you're:
 

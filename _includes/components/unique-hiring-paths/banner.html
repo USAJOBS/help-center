@@ -2,10 +2,12 @@
 <div class="usajobs-uhp-banner usajobs-uhp-banner--{{ include.page }}">
   <div class="usajobs-uhp-banner__container">
 {% if section.include-in-index %}
+  {% if include.page != 'public' %}
     <picture>
       <source srcset="{{ site.baseurl }}/img/help-center/unique-hiring-paths/{{ include.page }}-L.png" media="(min-width: 37.5em)">
       <img srcset="{{ site.baseurl }}/img/help-center/unique-hiring-paths/{{ include.page }}-S.png" alt="{{ section.image-alt }}">
     </picture>
+  {% endif %}
 {% endif %}
     <div class="usajobs-uhp-banner__body">
       <div class="usajobs-uhp-banner__title-container">

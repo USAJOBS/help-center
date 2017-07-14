@@ -25,7 +25,7 @@ internal:
   text: "Some jobs are open only to current employees of an agency."
   icon: dot-circle-o
   icon-no-image: true
-  link-path: federal-employees
+  link-path: internal
   search-filter-desc: "Jobs open to current and former federal employees of the agency posting the job."
   search-filter-value: "internal"
 
