@@ -8,7 +8,7 @@ category: Job Announcement
 tags: [job announcement, who may apply, this job is open to, eligibility, eligible, support-job-announcement]
 ---
 
-The This job is open to section tells you who is eligible to apply to the job. Make sure you’re eligible before applying.
+The **This job is open to** section tells you who is eligible to apply to the job. Make sure you’re eligible before applying.
  
 The job announcement may list the following:
  
