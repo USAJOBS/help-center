@@ -8,4 +8,11 @@ category: Job Announcement
 tags: [job announcement, how to apply, support-job-announcement]
 ---
 
-The How to Apply instructions explain the application steps and alternate ways to apply for the job if you are not able to apply online.
+The **How to Apply** section explains:
+
+* The application steps.
+* Other ways to apply for the job if you can't apply online.
+* What happens next, after you apply.
+
+[Learn more about the application process](../../../faq/application/process/).
+
