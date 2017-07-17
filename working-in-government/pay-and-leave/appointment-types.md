@@ -37,4 +37,4 @@ Temporary appointments have a set time-limit and include the following:
 
 ## Additional resources
 
-* [How to filter results by appointment type](../../how-to/search/filters/appointment-type/)
+* [How to filter results by appointment type](../../../how-to/search/filters/appointment-type/)

@@ -26,7 +26,6 @@ Candidates who fall under a specific hiring path and may qualify for a special n
 These targeted segments of the population include:
 
 * [Individuals with Disabilities](../../../working-in-government/unique-hiring-paths/individuals-with-disabilities/)
-* [Land Management](../../../working-in-government/unique-hiring-paths/land-management/)
 * [Military Spouses](../../../working-in-government/unique-hiring-paths/military-spouses/)
 * [National Guard](../../../working-in-government/unique-hiring-paths/national-guard/)
 * [Native American and Alaskan Natives](../../../working-in-government/unique-hiring-paths/native-americans/)

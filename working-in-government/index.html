@@ -139,7 +139,7 @@ breadcrumb: Working in Government
         {% for path in site.data.unique-hiring-paths %}
         {%   assign path_name = path[0] %}
         {%   assign section = site.data.unique-hiring-paths[path_name] %}
-          {% if section.text %}
+          {% if section.include-in-index %}
           <li>
             <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/{{ section.link-path }}/">
               {{ section.title }}
