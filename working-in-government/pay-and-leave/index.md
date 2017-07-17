@@ -4,7 +4,7 @@ layout: article
 section: working-in-government
 title: Pay & Leave
 breadcrumb: Pay & Leave
-category: working-in-government
+category: pay-and-leave
 tags: [pay, salary, leave, vacation]
 ---
 
@@ -14,8 +14,8 @@ The U.S. Office of Personnel Management (OPM) maintains pay tables for General S
 Typically there is a minimum and maximum salary for every job – federal agencies determine a salary based on their pay setting rules (the pay grade or other pay schedule) and your qualifications.
 
 ## Hourly wage
-Some federal jobs offer hourly wages. These jobs follow the Federal Wage System (FWS). 
- 
+Some federal jobs offer hourly wages. These jobs follow the Federal Wage System (FWS).
+
 ## Pay scale
 A General Schedule (GS) pay scale is one of many pay systems in the Federal Government. A GS pay grade is a rate of basic pay based on the specific level of work or range of difficulty, responsibility, and qualifications.
 
@@ -26,6 +26,6 @@ The GS pay schedule has 15 pay grades and 10 steps in each grade. A salary can v
 
 ## Additional resources
 
-* [Pay](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/ "opm.gov"){:target="_blank"} 
+* [Pay](https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/ "opm.gov"){:target="_blank"}
 * [Locality pay area definitions](https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/locality-pay-area-definitions/){:target="_blank"}
 * [Leave](https://www.opm.gov/policy-data-oversight/pay-leave/leave-administration/ "opm.gov"){:target="_blank"}
