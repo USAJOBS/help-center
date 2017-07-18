@@ -31,6 +31,10 @@
       @include bulletList();
     }
 
+    ol {
+      padding-left: $size-default;
+    }
+
     ul,
     ol {
       margin-left: .9em;
@@ -70,6 +74,10 @@
 
     > li > a {
       text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 

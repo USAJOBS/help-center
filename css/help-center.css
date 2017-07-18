@@ -862,7 +862,7 @@ html {
 }
 
 .usajobs-help-center-breadcrumb__link:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .usajobs-help-center-breadcrumb__link:visited {
@@ -2560,6 +2560,10 @@ html {
   margin-bottom: 0.5em;
 }
 
+.usajobs-help-center-article .usajobs-content-well ol {
+  padding-left: 1.5rem;
+}
+
 .usajobs-help-center-article .usajobs-content-well ul,
 .usajobs-help-center-article .usajobs-content-well ol {
   margin-left: .9em;
@@ -2617,6 +2621,10 @@ html {
 
 .usajobs-help-center-article .usajobs-help-center-article__related-list > li > a {
   text-decoration: none;
+}
+
+.usajobs-help-center-article .usajobs-help-center-article__related-list > li > a:hover {
+  text-decoration: underline;
 }
 
 .usajobs-help-center-article__additional-container {
@@ -4877,6 +4885,13 @@ html {
   text-decoration: none;
 }
 
+.usajobs-help-center-home__link-list a:hover,
+.usajobs-help-center-landing__link-list a:hover,
+.usajobs-help-center-sub-section__link-list a:hover,
+.usajobs-help-center-singleton__link-list a:hover {
+  text-decoration: underline;
+}
+
 .usajobs-help-center-home__link-list-small,
 .usajobs-help-center-landing__link-list-small,
 .usajobs-help-center-sub-section__link-list-small,
@@ -4920,6 +4935,13 @@ html {
   text-decoration: none;
 }
 
+.usajobs-help-center-home__link-list-small a:hover,
+.usajobs-help-center-landing__link-list-small a:hover,
+.usajobs-help-center-sub-section__link-list-small a:hover,
+.usajobs-help-center-singleton__link-list-small a:hover {
+  text-decoration: underline;
+}
+
 .usajobs-help-center-landing,
 .usajobs-help-center-sub-section,
 .usajobs-help-center-singleton {
@@ -4944,6 +4966,10 @@ html {
   font-size: 19px;
   font-size: 1.9rem;
   text-decoration: none;
+}
+
+.usajobs-help-center-search__result:hover {
+  text-decoration: underline;
 }
 
 .usajobs-help-center-glossary dl {

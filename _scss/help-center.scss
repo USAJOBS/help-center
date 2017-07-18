@@ -88,6 +88,10 @@
       padding: $size-S 0;
       font-size: $h4-font-size;
       text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -100,6 +104,10 @@
       padding: $size-base 0;
       font-size: $h5-font-size;
       text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -117,6 +125,10 @@
     display: block;
     @include h4();
     text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
