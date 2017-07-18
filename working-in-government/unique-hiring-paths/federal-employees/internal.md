@@ -17,11 +17,26 @@ short-name: internal
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
-      Jobs open within the <a href="{{ site.baseurl }}/working-in-government/service/">competitive service</a> are open to current competitive service employees or those with a <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/individuals-with-disabilities/">disability covered by schedule A</a>.
+      Your eligibility depends on whether the job you're applying to is in the the <a href="{{ site.baseurl }}/working-in-government/service/#competitive-service">competitive service</a> or <a href="{{ site.baseurl }}/working-in-government/service/#excepted-service">excepted service</a>.
     </p>
+
+    <h4>"Internal to the agency jobs" within the competitive service</h4>
     <p>
-      Jobs open within the <a href="{{ site.baseurl }}/working-in-government/service/">excepted service</a> are open to to anyone within the agency. This also includes employees who can be <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/reinstatement/">reinstated</a>.
+      If you're applying to a job in the competitive service, you must be one of the following:
     </p>
+    <ul>
+      <li>A current federal employee at the hiring agency and within the competitive service.</li>
+      <li>An individual with a disability covered by <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/individuals-with-disabilities/">schedule A</a>.</li>
+    </ul>
+
+    <h4>"Internal to the agency jobs" within the excepted service</h4>
+    <p>
+      If you're applying to a job in the excepted service, you must be one of the following:
+    </p>
+    <ul>
+      <li>A current federal employee at the hiring agency.</li>
+      <li>A former federal employee who is eligible for <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/reinstatement/">reinstatement</a> with the hiring agency.</li>
+    </ul>
   </div>
 </div>
 

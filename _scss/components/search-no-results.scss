@@ -1,0 +1,17 @@
+// No results
+
+@import 'base-shared';
+
+.usajobs-help-center-search-no-results {
+  &[aria-hidden=true] {
+    display: none;
+  }
+
+  &__list &__item {
+    margin-bottom: $size-default;
+  }
+}
+
+.usajobs-help-center-home__link-list.usajobs-help-center-search-no-results__list {
+  padding-bottom: 0;
+}
