@@ -37,6 +37,7 @@
     <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" required aria-required="true" autocomplete="email">
   </div>
 
+  {% unless page.former-email-field %}
   <div class="optional-input">
     <!-- OtherEmailAddress -->
     <label for="OtherEmailAddresses" id="OtherEmailAddressesLabel">
@@ -48,6 +49,19 @@
       Other email addresses you may have used in your account (separate multiple email addresses with a space)
     </p>
   </div>
+  {% else %}
+  <div class="required-input">
+    <!-- Email they think the account is under -->
+    <label for="OtherEmailAddresses" id="OtherEmailAddressesLabel">
+      Email address your account might be under
+    </label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="OtherEmailAddresses" data-valmsg-replace="true"></span>
+    <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="OtherEmailAddresses" maxlength="128" name="OtherEmailAddresses" type="text" value="" required aria-required="true" autocomplete="email">
+    <p class="usajobs-form__help-brief">
+      Please provide the email address your account might be under. We'll look for an account matching this email address and we'll write to you at the Primary email address.
+    </p>
+  </div>
+  {% endunless %}
 
   <!-- Phone number -->
   <div class="optional-input">
