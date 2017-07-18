@@ -584,14 +584,6 @@
       </a>
     </article>
   {{/entries}}
-  {{^entries}}
-  <p>Sorry, no help articles where found.</p>
-  <h4>Search Suggestions</h4>
-  <ul>
-    <li>Check your spelling.</li>
-    <li>Try using different, or more general, keywords.</li>
-  </ul>
-  {{/entries}}
 </script>
 
 
@@ -603,6 +595,26 @@
       entries : '.entries',         // selector for search entries containing element (contained within results above)
       template: '#search-results-template'  // selector for Mustache.js template
     });
+
+    setTimeout(function () {
+      // Have to wait for the results to load.
+      var $results = $('#search-results'),
+        $entries = $results.find('.entries');
+        result_count = $results.find('.usajobs-help-center-search__result').length,
+        $no_results_content = $results.find('.usajobs-help-center-search-no-results');
+
+      if (result_count === undefined || result_count.length === 0 || result_count === 0) {
+        // Swap in some no results help content
+        $no_results_content
+          .show()
+          .attr('aria-hidden', 'false');
+      } else {
+        $no_results_content
+          .hide()
+          .attr('aria-hidden', 'true');
+        $entries.prepend('<h4 class="usajobs-help-center-search__result-count">Viewing ' + result_count + ' results.</h4>');
+      }
+    }, 500);
   });
 </script>
 
