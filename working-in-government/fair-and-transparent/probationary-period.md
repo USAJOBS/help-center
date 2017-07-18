@@ -9,5 +9,5 @@ tags: [probationary period, conditions of employment]
 ---
 
 <h2 class="usajobs-help-center__lead">
-  If you are a new employee or supervisor in the Federal government, you will be required to complete a one-year probationary period.
+  If you're a new employee or supervisor in the Federal Government, you must complete a one-year probationary period.
 </h2>
