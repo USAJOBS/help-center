@@ -20,8 +20,8 @@
 <!-- Title and meta description
 ================================================== -->
 
-  <title>USAJOBS Help Center | How can I access my account when the email address on my account is no longer valid?</title>
-  <meta property="og:title" content="USAJOBS Help Center | How can I access my account when the email address on my account is no longer valid?" />
+  <title>USAJOBS Help Center | How to sign into your account if you can't access your primary email</title>
+  <meta property="og:title" content="USAJOBS Help Center | How to sign into your account if you can't access your primary email" />
 
 
 
@@ -292,7 +292,7 @@
           <div class="usajobs-help-center-article usajobs-content-gutter">
             <main class="usajobs-content-well usajobs-content-well--exposed-form" id="main-content" role="main">
               <div class="usajobs-help-center-article__container">
-                <h1>How can I access my account when the email address on my account is no longer valid?</h1>
+                <h1>How to sign into your account if you can't access your primary email</h1>
                 <ol>
   <li>Complete the <strong>Contact Us</strong> form at the bottom of the page.</li>
   <li>In the <strong>Question/Comment</strong> box, include the email address that is associated with your account (this is the email you can’t access) and provide a current email address that you can access. Include other information associated with your account including your username, mailing address, or phone number(s).</li>
@@ -391,17 +391,19 @@
     <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" required aria-required="true" autocomplete="email">
   </div>
 
-  <div class="optional-input">
-    <!-- OtherEmailAddress -->
+  
+  <div class="required-input">
+    <!-- Email they think the account is under -->
     <label for="OtherEmailAddresses" id="OtherEmailAddressesLabel">
-      Other email addresses <span class="usa-additional_text">Optional</span>
+      Email address your account might be under
     </label>
     <span class="field-validation-valid usa-input-error-message" data-valmsg-for="OtherEmailAddresses" data-valmsg-replace="true"></span>
-    <input class="form-control" id="OtherEmailAddresses" maxlength="200" name="OtherEmailAddresses" type="text" value="">
+    <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="OtherEmailAddresses" maxlength="128" name="OtherEmailAddresses" type="text" value="" required aria-required="true" autocomplete="email">
     <p class="usajobs-form__help-brief">
-      Other email addresses you may have used in your account (separate multiple email addresses with a space)
+      Please provide the email address your account might be under. We'll look for an account matching this email address and we'll write to you at the Primary email address.
     </p>
   </div>
+  
 
   <!-- Phone number -->
   <div class="optional-input">
