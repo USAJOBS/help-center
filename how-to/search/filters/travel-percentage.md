@@ -24,11 +24,11 @@ The job does not require any travel.
 ### Occasional travel
 The job may require travel from time- to-time, but not on a regular basis. The travel may be for training or other work-related duties.
 
-### 25% or greater
-The job requires at least 25% travel, but may require more.
+### 25% or less
+The job may require up to 25% travel. 
 
-### 50% or greater
-The job requires at least 50% travel, but may require more.
+### 50% or less
+The job may require up to 50% travel.
 
-### 75% or greater
-The job requires at least 75% travel, but may require more.
+### 75% or less
+The job may require up to 75% travel.
