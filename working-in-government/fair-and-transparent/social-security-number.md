@@ -9,7 +9,7 @@ tags: [privacy, social security, executive order 9397]
 ---
 
 <h2 class="usajobs-help-center__lead">
-  You Social Security Number will be requested during the application process. It is requested under the authority of Executive Order 9397 to uniquely identify your records from those of other applicants who may have the same name. As allowed by law or Presidential directive, your Social Security Number is used to seek information about you from employers, schools, banks, and others who may know you.
+  Your Social Security Number will be requested during the application process. It is requested under the authority of Executive Order 9397 to uniquely identify your records from those of other applicants who may have the same name. As allowed by law or Presidential directive, your Social Security Number is used to seek information about you from employers, schools, banks, and others who may know you.
 </h2>
 
-Note that USAJOBS does not ask for nor retain your Social Security Number. Only an agency's system will ask for your Social Security Number during the application process.
+USAJOBS does not ask for, or keep, your Social Security Number. Only the hiring agency will ask for your Social Security Number during the application process. 
