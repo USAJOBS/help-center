@@ -8,34 +8,36 @@ category: Documents
 tags: [documents, required, forms]
 ---
 
-Supplemental documents may be required when applying to certain positions. If any documents are required, they are listed under the Required Documents section of a job announcement. Forms are a type of document that agencies often request.
+Forms are a type of document that agencies often request and you may need to provide supplemental forms when applying to certain jobs. You can find a list of all required documents under the **Required Documents** section of the job announcement. 
 
-## [OPM Forms](https://www.opm.gov/forms/OPM-forms/){:target="_blank"}
+## OPM forms
 
-Browse and download your choice of documents issued by the Office of Personnel Management (OPM). Common OPM documents include:
+The Office of Personnel Management (OPM) manages forms you need during the application process, as well as forms you need as an employee.  When applying to a job, you may need these common OPM forms: 
 
-* [OPM 1203-FX – Occupational Questionnaire](https://www.opm.gov/forms/pdf_fill/OPM1203FX.pdf){:target="_blank"}
+* [OPM 1203-FX – Occupational Questionnaire](https://www.opm.gov/forms/pdf_fill/OPM1203FX.pdf){:target="_blank"}(PDF, 2.1 MB)
 
-## [Optional Forms](https://www.opm.gov/forms/Optional-forms/){:target="_blank"}
+[View all other OPM forms](https://www.opm.gov/forms/OPM-forms/){:target="_blank"}.
 
-Optional Forms, designated with the abbreviation OF, are used government-wide for various purposes not covered under other categories. Common optional forms include:
+## Optional forms
 
-* [OF-306 – Declaration for Federal Employment](https://www.opm.gov/forms/pdf_fill/OF0306.pdf){:target="_blank"}
+Agencies use optional forms for various purposes not covered under other categories. These forms have the abbreviation "OF" as part of the form name. Common optional forms include:
 
-## [Standard Forms](https://www.opm.gov/forms/standard-forms/){:target="_blank"}
+* [OF-306 – Declaration for Federal Employment](https://www.opm.gov/forms/pdf_fill/OF0306.pdf){:target="_blank"}(PDF, 97.75 KB)
 
-Standard Forms, designated with the abbreviation SF, are used government-wide for various employment and benefits program purposes. Common Standard Forms include:
+[View all other optional forms](https://www.opm.gov/forms/Optional-forms/){:target="_blank"}.
 
-* [SF-50 – Notification of Personnel Action](https://www.opm.gov/forms/standard-forms/){:target="_blank"}
-* [SF-15 – Application for 10-point Veterans Preference](https://www.opm.gov/forms/pdf_fill/SF15.pdf){:target="_blank"}
+## Standard forms
 
-## [FAA Documents](http://www.faa.gov/forms/){:target="_blank"}
+Agencies use standard forms for various employment and benefits program purposes. These forms have the abbrevation "SF" as part of the form name. Common standard forms include:
 
-Browse and download common Documents used by the Federal Aviation Administration (FAA).
+* [SF-50 – Notification of Personnel Action](https://www.opm.gov/forms/standard-forms/){:target="_blank"}(PDF, 335.25 KB)
+* [SF-15 – Application for 10-point Veterans Preference](https://www.opm.gov/forms/pdf_fill/SF15.pdf){:target="_blank"}(PDF, 1.22 MB)
 
-For agency-specific documents or forms that are not listed, please contact the hiring agency.
+[View all other standard forms](https://www.opm.gov/forms/standard-forms/){:target="_blank"}.
 
+## Federal Aviation Administration documents
 
-## Additional Resources
+The Federal Aviation Administration (FAA) uses additional documents. [View all FAA documents](http://www.faa.gov/forms/){:target="_blank"}.
 
-* [Standard Forms (OPM)](https://www.opm.gov/forms/standard-forms/){:target="_blank"}
+For other agency-specific documents or forms, please contact the hiring agency.
+
