@@ -18,4 +18,4 @@ tags: [signature, false statements, conditions of employment]
 
 All information in your resume, or any part of your application must be true and accurate. If it's not, we won't hire you and if you already started working, it may be grounds for firing you. 
 
-[Read more about federal hiring policies](https://hru.gov/Studio_Recruitment/tools/Mythbuster_on_Federal_Hiring_Policies.pdf).
+[Read more about federal hiring policies](https://hru.gov/Studio_Recruitment/tools/Mythbuster_on_Federal_Hiring_Policies.pdf){:target="_blank"}(PDF, 96 KB).
