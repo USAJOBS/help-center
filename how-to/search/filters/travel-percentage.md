@@ -32,3 +32,6 @@ The job may require up to 50% travel.
 
 ### 75% or less
 The job may require up to 75% travel.
+
+### 76% or greater
+The job may require 76% or more travel.
