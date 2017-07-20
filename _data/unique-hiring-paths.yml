@@ -27,7 +27,7 @@ internal:
   icon-no-image: true
   link-path: internal
   search-filter-desc: "Jobs open to current and former federal employees of the agency posting the job."
-  search-filter-value: "internal"
+  search-filter-value: "fed-internal-search"
 
 veterans:
   title: Veterans
