@@ -43,7 +43,7 @@ Select **Yes** if you’re a current federal employee hired under a VRA.
 
 ## Indicate the pay plan, series, grade level/pay band of the highest permanent graded position you ever held as a federal civilian employee.
 
-You must provide information about your pay, series and grade level if you’re a current or former federal employee. This information can be found on a recent [SF-50](https://www.opm.gov/forms/pdfimage/sf50.pdf){:target="_blank"} (Notification of Personnel Action).
+You must provide information about your pay, series and grade level if you’re a current or former federal employee. You can find this information on your [SF-50 - Notification of Personnel Action](https://www.opm.gov/forms/pdfimage/sf50.pdf){:target="_blank"} (PDF, 343 KB).
 
 [Learn more about pay systems and plans](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/){:target="_blank"}.  
 [Learn more about series and grade levels](../../../../../faq/pay/series-and-grade/).
