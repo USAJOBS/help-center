@@ -8,15 +8,14 @@ category: job-announcement
 tags: [bargaining unit, union, job announcement, conditions of employment]
 ---
 
-A bargaining unit position is a position that is represented by a labor union. More than half of the Federal government is covered by bargaining units, allowing unions to negotiate over various conditions of employment. They don’t generally negotiate compensation or other matters deemed to be in management’s sole prerogative.
 
-You must be in a recognized bargaining unit to join the union. However, you do not need to be a dues-paying union member if you are in a bargaining unit.
+Some job announcements may say "This is a bargaining unit position".  A bargaining unit position is a job that is represented by a labor union. Bargaining units cover more than half of the jobs in the Federal Government. Labor unions negotiate various conditions of employment for these jobs, however they don’t generally negotiate compensation or other matters that the management team deems to be their sole prerogative.
 
-A job announcement may indicate: "This is a bargaining unit position".
+If your job is in a bargaining unit, you don't have to join the union. However, if you want to join a union, your job must be in a recognized bargaining unit.
 
 ### Appeal rights
 
-A bargaining unit position may be required to use a negotiated grievance procedure.
+Typically, you need to be in a bargaining unit job if you want to file a complaint using the negotiated grievance procedure.
 
 ## Additional resources
 
