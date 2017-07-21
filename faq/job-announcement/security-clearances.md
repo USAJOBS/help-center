@@ -8,7 +8,7 @@ category: job-announcement
 tags: [background check, security, security clearance]
 ---
 
-If hired for a federal job, you must at least go through a basic background check to review your criminal and credit history. The Federal Government requires the background check to make sure you’re reliable, trustworthy, and suitable for the job. The background check and security clearance procedure start after you accept a job offer. 
+If hired for a federal job, you must at least go through a basic background check to review your criminal and credit history. The Federal Government requires a background check to make sure you’re reliable, trustworthy, and suitable for the job. The background check and security clearance procedure start after you accept a job offer. 
 
 Some jobs require a more extensive background check or a security clearance. It all depends on the type of access you’ll have to sensitive and national security information. A job that requires access to highly sensitive information will require a higher security clearance level and a more extensive background investigation. 
 
