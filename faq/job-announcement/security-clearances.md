@@ -8,18 +8,19 @@ category: job-announcement
 tags: [background check, security, security clearance]
 ---
 
-Every person hired for a federal job must at least go through a basic background check to review your criminal and credit history. The Federal Government requires the background check to make sure you’re reliable, trustworthy, and suitable for the job.
+If hired for a federal job, you must at least go through a basic background check to review your criminal and credit history. The Federal Government requires the background check to make sure you’re reliable, trustworthy, and suitable for the job. The background check and security clearance procedure start after you accept a job offer. 
 
-Some jobs require a more extensive background check or a security clearance. It all depends on the type of access you’ll have to sensitive and national security information. A job that requires access to highly sensitive information will require a higher security clearance level and a more extensive background investigation.
+Some jobs require a more extensive background check or a security clearance. It all depends on the type of access you’ll have to sensitive and national security information. A job that requires access to highly sensitive information will require a higher security clearance level and a more extensive background investigation. 
 
-Read the Background and security clearance section of the job announcement to see what security level is required.
+Regardless of the type of background check or clearance, you will at least need to provide references from people who know you and answer questions about where you've lived, worked and any military history or police records.  
+
+Read the **Background and security clearance** section of the job announcement to see what security level is required.
 
 ## Background Investigations
 A basic background investigation usually involves a finger printing process and a basic check of your criminal and credit history.
 
 ### Public Trust 
-Public Trust is a more extensive background investigation, but it is not a security clearance. Most federal jobs that involve policy-making, public safety and health, law enforcement duties, managing finances, dealing with compliance or managing major programs, require a “Public Trust” background investigation. The background investigation starts after you accept a job offer. You will need to provide
-references from people who know you and answer questions about where you've lived, worked and any military history or police records.
+Public Trust is a more extensive background investigation, but it is not a security clearance. Most federal jobs that involve policy-making, public safety and health, law enforcement duties, managing finances, dealing with compliance or managing major programs, require a “Public Trust” background investigation. 
 
 ## Security Clearances
 
