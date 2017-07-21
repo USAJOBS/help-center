@@ -931,6 +931,7 @@ html {
 
 .usajobs-help-center-nav-secondary.home {
   background-color: #ffffff;
+  box-shadow: none;
 }
 
 .usajobs-help-center-nav-secondary__body {
