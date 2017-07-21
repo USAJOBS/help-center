@@ -24,7 +24,6 @@
   @include fullBleed();
 
   &__body {
-    padding-top: $size-L;
     padding-bottom: $size-L;
 
     @include media($L) {

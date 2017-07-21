@@ -8,9 +8,10 @@
     {% include components/nav-help.html %}
     <div class="usajobs-help-center">
       <div class="usajobs-help-center__home-container">
-        {% include components/search-banner.html param="home" %}
+        {% include components/search-banner-with-nav.html param="home" %}
         <section class="usajobs-shell usajobs-shell--large">
           <section class="usajobs-canvas">
+            {% include components/glossary-panel.html %}
             <div class="usajobs-help-center-home usajobs-content-gutter">
               <main class="usajobs-content-well-full" id="main-content" role="main">
                 {{ content }}

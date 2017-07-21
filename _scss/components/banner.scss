@@ -14,13 +14,6 @@ $icon-size: rem(164px);
   background-position: right top;
   background-repeat: no-repeat;
 
-  &.home {
-    @include media($ML) {
-      padding-bottom: 6.5rem;
-      padding-top: $size-default;
-    }
-  }
-
   &__container {
     @include contentGutter();
     max-width: $site-max-width-L;

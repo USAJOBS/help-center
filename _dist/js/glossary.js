@@ -1,7 +1,8 @@
 // 18F glossary
-var Glossary = require('glossary-panel');
+var Glossary = require('glossary-panel'),
+  terms = require('./terms.json'),
+  $glossary = $('#glossary');
 
-// JSON file of terms and definitions
-var terms = require('./terms.json');
-
-new Glossary(terms);
+if ($glossary !== undefined && $glossary.length > 0) {
+  new Glossary(terms);
+}

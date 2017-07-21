@@ -48,15 +48,6 @@ html {
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 48em) {
-  .usajobs-help-center-search-banner.home,
-  .usajobs-help-center-search-banner--with-nav.home,
-  .usajobs-help-center-title-banner.home {
-    padding-bottom: 6.5rem;
-    padding-top: 1.5rem;
-  }
-}
-
 .usajobs-help-center-search-banner__container,
 .usajobs-help-center-search-banner--with-nav__container,
 .usajobs-help-center-title-banner__container {
@@ -958,6 +949,10 @@ html {
 .usajobs-help-center-nav-secondary {
   background-color: #f1f1f1;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.usajobs-help-center-nav-secondary.home {
+  background-color: #ffffff;
 }
 
 .usajobs-help-center-nav-secondary__body {
@@ -2262,7 +2257,6 @@ html {
 }
 
 .usajobs-help-center-about-what__body {
-  padding-top: 4.5rem;
   padding-bottom: 4.5rem;
 }
 

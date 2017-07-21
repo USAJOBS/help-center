@@ -1,4 +1,4 @@
-<nav class="usajobs-help-center-nav-secondary" role="navigation">
+<nav class="usajobs-help-center-nav-secondary {{ include.param }}" role="navigation">
   <div class="usajobs-help-center-nav-secondary__body">
     <ul class="usajobs-help-center-nav-secondary__menu">
       <li class="usajobs-help-center-nav-secondary__container faq {% if page.section == 'faq' %}is-active{% endif %}">
@@ -17,7 +17,7 @@
         </a>
       </li>
       <li class="usajobs-help-center-nav-secondary__container glossary">
-        <button class="js-glossary-toggle usajobs-help-center-nav-secondary__glossary-trigger">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-center-nav-secondary__glossary-trigger">
           Glossary
         </button>
        </li>

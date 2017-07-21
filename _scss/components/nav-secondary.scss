@@ -7,6 +7,10 @@
   background-color: $color-gray-lightest;
   @include boxShadow(1);
 
+  &.home {
+    background-color: $color-white;
+  }
+
   &__body {
     max-width: $site-max-width-L;
     margin-left: auto;
