@@ -18,7 +18,8 @@ Read the Background and security clearance section of the job announcement to se
 A basic background investigation usually involves a finger printing process and a basic check of your criminal and credit history.
 
 ### Public Trust 
-Public Trust is a more extensive background investigation, but it is not a security clearance. Most federal jobs that involve policy-making, public safety and health, law enforcement duties, managing finances, dealing with compliance or managing major programs, require a “Public Trust” background investigation. You must complete the Standard Form (SF) 85P questionnaire.
+Public Trust is a more extensive background investigation, but it is not a security clearance. Most federal jobs that involve policy-making, public safety and health, law enforcement duties, managing finances, dealing with compliance or managing major programs, require a “Public Trust” background investigation. The background investigation starts after you accept a job offer. You will need to provide
+references from people who know you and answer questions about where you've lived, worked and any military history or police records.
 
 ## Security Clearances
 
