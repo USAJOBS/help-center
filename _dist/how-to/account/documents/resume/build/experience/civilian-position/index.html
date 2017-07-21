@@ -198,6 +198,11 @@
           <span class="usajobs-help-center-nav-secondary__text-long">Working in</span> Government
         </a>
       </li>
+      <li class="usajobs-help-center-nav-secondary__container glossary">
+        <button class="js-glossary-toggle usajobs-help-center-nav-secondary__glossary-trigger">
+          Glossary
+        </button>
+       </li>
     </ul>
   </div>
 </nav>
@@ -373,6 +378,19 @@
 
       <section class="usajobs-shell usajobs-shell--large" data-object="help-article">
         <section class="usajobs-canvas">
+          
+ <div id="glossary" class="usajobs-help-center-glossary-panel" aria-describedby="glossary-title" aria-hidden="true">
+   <button title="Close glossary" class="js-glossary-close usajobs-help-center-glossary-panel__close-button usa-button usa-button-outline-inverse">
+     <span class="fa fa-times"></span> Close
+   </button>
+   <h2 id="glossary-title" class="usajobs-help-center-glossary-panel__title">
+     Glossary
+   </h2>
+   <label for="glossary-search" class="usajobs-help-center-glossary-panel__label">Filter glossary terms</label>
+   <input id="glossary-search" class="js-glossary-search usajobs-help-center-glossary-panel__search" type="search" placeholder="e.g. Excepted Service">
+   <ul class="js-glossary-list usajobs-help-center-glossary-panel__list"></ul>
+ </div>
+
           <div class="usajobs-help-center-article usajobs-content-gutter">
             <main class="usajobs-content-well" id="main-content">
               <div class="usajobs-help-center-article__container">

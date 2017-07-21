@@ -78,6 +78,12 @@ module.exports = function(grunt) {
         dest: 'css/usajobs-help-center.min.css'
       }
     },
+    browserify: {
+      dist: {
+        src: [ 'js/glossary.js'],
+        dest: 'js/components/glossary.js'
+      }
+    },
     concat: {
       base: {
         src: [
@@ -106,7 +112,8 @@ module.exports = function(grunt) {
         'Gruntfile.js',
         'js/components/*.js',
         '!js/vendor/*.js',
-        '!js/usajobs-help-center.js'
+        '!js/usajobs-help-center.js',
+        '!js/components/glossary*.js'
       ],
       components: [
         'js/components/*.js'
@@ -216,5 +223,5 @@ module.exports = function(grunt) {
   grunt.registerTask('build-flat', ['shell:jekyllBuildFlat']);
   grunt.registerTask('build-prod', ['shell:jekyllBuildProd']);
   grunt.registerTask('css', ['sass', 'autoprefixer', 'cssmin']);
-  grunt.registerTask('js', ['jshint:all', 'concat:base', 'concat:components']);
+  grunt.registerTask('js', ['jshint:all', 'concat:base', 'browserify', 'concat:components']);
 };

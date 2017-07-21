@@ -1,0 +1,129 @@
+// Glossary panel
+
+@import 'base-shared';
+
+// Global handling of any definition
+[data-term] {
+  background-image: url("data:image/svg+xml;charset=utf8, %3Csvg%20%20fill%3D%27%23212121%27%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M19.415%2016.18l-9.044%203.744a.934.934%200%200%201-.74%200L.584%2016.18A.938.938%200%200%201%200%2015.314V.937A.937.937%200%200%201%201.296.072l.002.002.008.003L10%203.673%2018.694.075l.01-.003A.938.938%200%200%201%2020%20.936v14.376c0%20.393-.242.73-.585.868zM9.063%2017.66V5.314L1.875%202.34v12.346l7.188%202.974zm9.062-15.32l-7.188%202.974V17.66l7.188-2.974V2.34z%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  transition: background-color,.2s,box-shadow,.2s,color,.2s;
+  background-size: .6em;
+  background-position: 100% 50%;
+  background-color: transparent;
+  box-shadow: 0 0 0 4px transparent;
+  border-bottom: none;
+  cursor: pointer;
+  margin-right: 2px;
+  padding-right: .9em;
+
+  &:hover {
+    box-shadow: 0 0 0 4px rgba(225, 243, 248, 0.7);
+    background-color: rgba(225, 243, 248, 0.7);
+  }
+}
+
+.usajobs-help-center-glossary-panel {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  width: 300px;
+  max-width: 30rem;
+  padding: 0 $size-default $size-default;
+  z-index: $layer-panel;
+  background-color: $color-gray-dark;
+  color: $color-white;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: -6px 0px 12px -3px rgba(0,0,0,0.16), -6px 0px 12px -3px rgba(0,0,0,0.23);
+
+  &[aria-hidden=true] {
+    display: block;
+    right: -100%;
+  }
+
+  &[aria-hidden=false] {
+    display: block;
+    right: 0px;
+    transition: right, $duration-fast;
+  }
+
+  &__close-button.usa-button.usa-button-outline-inverse {
+    float: right;
+    margin: 0 -#{$size-default} 0 0;
+    box-shadow: none;
+    font-size: $small-font-size;
+  }
+
+  &__title {
+    @include h3();
+    padding: $size-default $size-M;
+    margin-top: 0;
+    color: $color-white;
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg%20%20fill%3D%27%23212121%27%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M19.415%2016.18l-9.044%203.744a.934.934%200%200%201-.74%200L.584%2016.18A.938.938%200%200%201%200%2015.314V.937A.937.937%200%200%201%201.296.072l.002.002.008.003L10%203.673%2018.694.075l.01-.003A.938.938%200%200%201%2020%20.936v14.376c0%20.393-.242.73-.585.868zM9.063%2017.66V5.314L1.875%202.34v12.346l7.188%202.974zm9.062-15.32l-7.188%202.974V17.66l7.188-2.974V2.34z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 1em;
+    -webkit-filter: grayscale(100%) brightness(8);
+    filter: grayscale(100%) brightness(8);
+  }
+
+  &__label {
+    margin-top: $size-default;
+  }
+
+  &__search.js-glossary-search {
+    box-sizing: border-box;
+    margin-bottom: $size-M;
+  }
+
+  &__list {
+    @include unstyledList();
+  }
+
+  .glossary__item {
+    position: relative;
+    padding: $size-base 0;
+    border-bottom: 2px solid $color-gray;
+
+    &:first-child {
+      border-top: 2px solid $color-gray;
+    }
+  }
+
+  .data-glossary-term {
+    @include removeButton();
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: $size-S $size-default $size-S $size-S;
+    color: $color-white;
+    text-align: left;
+
+    &:active,
+    &:hover {
+      color: $color-white;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    &::after {
+      position: absolute;
+      right: $size-base;
+      top: 25%;
+    }
+
+    &[aria-expanded=false]::after {
+      content: "\002b";
+    }
+
+    &[aria-expanded=true]::after {
+      content: "\002D";
+    }
+  }
+
+  .glossary__definition {
+    padding: $size-S;
+  }
+}

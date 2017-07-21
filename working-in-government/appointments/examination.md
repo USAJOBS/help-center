@@ -14,8 +14,7 @@ The competitive examination, which is open to all applicants, may consist of a w
 
 ## Delegated examination
 
-A hiring authority OPM grants to agencies to fill competitive service positions with applicants without prior Federal service, Federal employees without competitive service status, or those with status. DE appointments are subject to civil service laws and regulations to ensure fair and open competition.
-
+A hiring authority OPM grants to agencies to fill <span data-term="Competitive Service">competitive service</span> positions with applicants without prior Federal service, Federal employees without <span data-term="competitive status">competitive service status</span>, or those with status. DE appointments are subject to civil service laws and regulations to ensure fair and open competition.
 
 
 ## Additional resources
