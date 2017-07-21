@@ -167,7 +167,7 @@
 
     <div class="usajobs-help-center">
       <div class="usajobs-help-center__home-container">
-        <div class="usajobs-help-center-search-banner home">
+        <div class="usajobs-help-center-search-banner--with-nav home">
   <div role="search" id="search" class="usajobs-help-center-search-banner__container">
     <form class="usa-search usa-search-big" action="/Help/search" method="get">
       <h1 class="usajobs-help-center-search-banner__title" id="title">
@@ -180,10 +180,50 @@
       </button>
     </form>
   </div>
+  <nav class="usajobs-help-center-nav-secondary home" role="navigation">
+  <div class="usajobs-help-center-nav-secondary__body">
+    <ul class="usajobs-help-center-nav-secondary__menu">
+      <li class="usajobs-help-center-nav-secondary__container faq ">
+        <a class="usajobs-help-center-nav-secondary__item" href="/Help/faq/">
+          FAQs
+        </a>
+      </li>
+      <li class="usajobs-help-center-nav-secondary__container how-to ">
+        <a class="usajobs-help-center-nav-secondary__item" href="/Help/how-to/">
+          How to&hellip;
+        </a>
+      </li>
+      <li class="usajobs-help-center-nav-secondary__container working-in-government ">
+        <a class="usajobs-help-center-nav-secondary__item" href="/Help/working-in-government/">
+          <span class="usajobs-help-center-nav-secondary__text-long">Working in</span> Government
+        </a>
+      </li>
+      <li class="usajobs-help-center-nav-secondary__container glossary">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-center-nav-secondary__glossary-trigger">
+          Glossary
+        </button>
+       </li>
+    </ul>
+  </div>
+</nav>
+
 </div>
 
         <section class="usajobs-shell usajobs-shell--large">
           <section class="usajobs-canvas">
+            
+ <div id="glossary" class="usajobs-help-center-glossary-panel" aria-describedby="glossary-title" aria-hidden="true">
+   <button title="Close glossary" class="js-glossary-close usajobs-help-center-glossary-panel__close-button usa-button usa-button-outline-inverse">
+     <span class="fa fa-times"></span> Close
+   </button>
+   <h2 id="glossary-title" class="usajobs-help-center-glossary-panel__title">
+     Glossary
+   </h2>
+   <label for="glossary-search" class="usajobs-help-center-glossary-panel__label">Filter glossary terms</label>
+   <input id="glossary-search" class="js-glossary-search usajobs-help-center-glossary-panel__search" type="search" placeholder="e.g. Excepted Service">
+   <ul class="js-glossary-list usajobs-help-center-glossary-panel__list"></ul>
+ </div>
+
             <div class="usajobs-help-center-home usajobs-content-gutter">
               <main class="usajobs-content-well-full" id="main-content" role="main">
                 <div class="usajobs-help-center-home__section-container">
