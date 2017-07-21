@@ -15,7 +15,11 @@ If your job is in a bargaining unit, you don't have to join the union. However, 
 
 ### Appeal rights
 
-Typically, you need to be in a bargaining unit job if you want to file a complaint using the negotiated grievance procedure.
+Typically, you need to be in a bargaining unit job if you want to file a complaint using the negotiated grievance procedure. 
+
+Each union has their own grievance procedures which you can find in your Union Handbook. All union members, whether you're a paying member or not, have access to appeal rights and grievance procedures, including the EEO complaint process. If you're a union member you also have the right to union representation in all grievance procedures.  
+
+For more information on your appeal rights please refer to a copy of your Union Handbook or ask your HR department if you don't have a copy. 
 
 ## Additional resources
 
