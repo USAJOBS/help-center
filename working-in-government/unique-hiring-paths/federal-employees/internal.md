@@ -17,7 +17,7 @@ short-name: internal
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
-      Your eligibility depends on whether the job you're applying to is in the the <a href="{{ site.baseurl }}/working-in-government/service/#competitive-service">competitive service</a> or <a href="{{ site.baseurl }}/working-in-government/service/#excepted-service">excepted service</a>.
+      Your eligibility depends on whether the job you're applying to is in the <a href="{{ site.baseurl }}/working-in-government/service/#competitive-service">competitive service</a> or <a href="{{ site.baseurl }}/working-in-government/service/#excepted-service">excepted service</a>.
     </p>
 
     <h4>"Internal to the agency jobs" within the competitive service</h4>
