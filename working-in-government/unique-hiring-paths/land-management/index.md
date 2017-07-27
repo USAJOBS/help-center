@@ -1,8 +1,8 @@
 ---
-permalink: /how-to/search/advanced/
+permalink: /working-in-government/unique-hiring-paths/land-management/
 layout: article-redirect
-section: how-to
-title: How to search (Advanced)
-redirect: /how-to/search/
+section: working-in-government
+title: Land Management
+redirect: /working-in-government/unique-hiring-paths/federal-employees/land-management/
 exclude_from_search: true
 ---
