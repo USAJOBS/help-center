@@ -19,11 +19,11 @@ This tells you the type of pay system. The Federal Government has different pay 
   
 **Appointment type**
 
-The appointment type tells you how long the job will last. Permanent jobs don’t have a time-limit. Temporary jobs do have a time-limit, which could be two years, four years or some other amount of time. [Learn more about appointment types](../../../working-in-government/appointments/
+The appointment type tells you how long the job will last. Permanent jobs don’t have a time-limit. Temporary jobs do have a time-limit, which could be two years, four years or some other amount of time. [Learn more about appointment types](../../../working-in-government/appointments/).
 
 **Service**
 
-There are three different services in the Federal Government; Competitive, Excepted and Senior Executive. Each service type has different rules for how they classify jobs and hire and pay employees. [Learn more about service types](../../../working-in-government/service/.
+There are three different services in the Federal Government; Competitive, Excepted and Senior Executive. Each service type has different rules for how they classify jobs and hire and pay employees. [Learn more about service types](../../../working-in-government/service/).
  
 **Salary**
 
