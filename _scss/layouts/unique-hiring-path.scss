@@ -226,17 +226,23 @@
   @include media($L) {
     @include flex(1);
     margin-bottom: $size-default;
+    margin-left: $size-default;
 
-    &:nth-child(2n) {
-      margin-left: $size-default;
+    &:first-child {
+      margin-left: 0;
     }
   }
 
   &__link {
     display: block;
     padding: $size-default;
-    font-size: $h3-font-size;
+    font-size: $h4-font-size;
+    font-weight: bold;
     background-color: $color-gray-cool-light;
+
+    @include media($L) {
+      min-height: rem(80px);
+    }
   }
 
   &__body {
@@ -283,6 +289,7 @@
   @include display(flex);
   @include align-items(center);
   background-color: $color-white;
+  margin-left: 0;
 
   &__body {
     padding: $size-default;
@@ -308,12 +315,11 @@
 
   &__head {
     margin-top: 0;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
   }
 
   &__text {
     margin-bottom: 0;
+    font-size: $small-font-size;
 
     .fa {
       color: $color-secondary;

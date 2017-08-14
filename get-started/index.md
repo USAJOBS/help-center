@@ -1,7 +1,7 @@
 ---
 permalink: get-started/
 layout: article-no-aside
-title: Get Started with USAJOBS
+title: Get started with USAJOBS
 lead: USAJOBS is the official job site of the U.S. Federal Government where you can search and apply for jobs.
 ---
 
