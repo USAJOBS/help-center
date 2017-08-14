@@ -205,7 +205,7 @@
   &__link,
   &__doc {
     @include display(flex);
-    @include align-items(center);
+    @include align-items(flex-start);
   }
 
   &__figure {

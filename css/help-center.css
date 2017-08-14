@@ -4769,13 +4769,13 @@ html {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  box-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -o-align-items: center;
-  align-items: center;
-  -ms-flex-align: center;
+  box-align: start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  -ms-align-items: flex-start;
+  -o-align-items: flex-start;
+  align-items: flex-start;
+  -ms-flex-align: start;
 }
 
 .flexbox .usajobs-uhp-section-required-documents__figure {
