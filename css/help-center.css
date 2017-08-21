@@ -2135,6 +2135,7 @@ html {
   padding: 1rem 1.5rem 1rem 1rem;
   color: #ffffff;
   text-align: left;
+  line-height: 1.2;
 }
 
 .usajobs-help-center-glossary-panel .data-glossary-term:hover {
