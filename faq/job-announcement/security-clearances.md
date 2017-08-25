@@ -8,39 +8,20 @@ category: job-announcement
 tags: [background check, security, security clearance]
 ---
 
-If hired for a federal job, you must at least go through a basic background check to review your criminal and credit history. The Federal Government requires a background check to make sure you’re reliable, trustworthy, and suitable for the job. The background check and security clearance procedure start after you accept a job offer. 
+If hired for a federal job, you must at least go through a basic background check to make sure you’re reliable, trustworthy, and suitable for the job. The background check process starts after you accept a job offer.
 
-Some jobs require a more extensive background check or a security clearance. It all depends on the type of access you’ll have to sensitive and national security information. A job that requires access to highly sensitive information will require a higher security clearance level and a more extensive background investigation. 
+The hiring agency will ask you for the necessary personal information to start the background investigation process.  The amount of information you’ll need to give depends on the job.  
 
-Regardless of the type of background check or clearance, you will at least need to provide references from people who know you and answer questions about where you've lived, worked and any military history or police records.  
+## What type of information will I need to provide?
+Regardless of the type of background check, you will at least need to answer questions about where you've lived, worked, went to school, and any military history or police records. You’ll also need to have your fingerprints taken if you’ve never worked for the Federal Government. 
 
-Read the **Background and security clearance** section of the job announcement to see what security level is required.
+## Public Trust
+Public Trust is a type of background investigation, but **it is not a security clearance**. Depending on the job, you must complete either the [Standard Form 85 (SF85)](https://www.opm.gov/forms/pdf_fill/sf85.pdf) or [85P (SF85P)](https://www.opm.gov/forms/pdf_fill/sf85p.pdf) questionnaire.
 
-## Background Investigations
-A basic background investigation usually involves a finger printing process and a basic check of your criminal and credit history.
+## Security Clearance
+Some jobs require a security clearance. The security clearance level depends on the type of access to classified information and secure facilities that you’ll need to perform your job.
 
-### Public Trust 
-Public Trust is a more extensive background investigation, but it is not a security clearance. Most federal jobs that involve policy-making, public safety and health, law enforcement duties, managing finances, dealing with compliance or managing major programs, require a “Public Trust” background investigation. 
+For jobs that require a security clearance, you’ll need to provide at least 10 years of personal information¬ and maybe more.  You’ll need to complete the [Standard Form 86 (SF86)](https://www.opm.gov/forms/pdf_fill/sf86-non508.pdf).
 
-## Security Clearances
+Read the **Background and security clearance** section of the job announcement to see what security level is required. If you have questions about the background investigation process, contact the hiring agency for the job.
 
-### Confidential
-Gives access to information or material that may cause damage to national security, if you reveal that information without authorization. A confidential security clearance is reinvestigated every 15 years. 
-
-### Secret 
-Gives access to information or material that may cause serious damage to national security if you reveal that information without authorization. A secret security clearance is reinvestigated every 10 years.
-
-### Top Secret
-Gives access to information or material that may cause exceptionally grave damage to national security, if you reveal that information without authorization. A top-secret security clearance is reinvestigated every five years.
-
-### Sensitive Compartmented Information (SCI)
-Gives access to all intelligence information and material that require special controls for restricted handling within compartmented channels.
-
-### Q Sensitive
-Gives access to Special Nuclear Material (SNM) category 1. A person with a Q sensitive clearance could have access to nuclear weapons information and revealing this information could cause exceptionally grave damage to the nation.
-
-### Q Non-sensitive 
-Gives access to Special Nuclear Material (SNM) category 2. The higher the SNM category, the more readily the material could be converted to a nuclear explosive device. 
-
-### L Clearance 
-Gives access to Secret National Security Information and to Special Nuclear Material (SNM) categories 3 and 4, but not to Secret Restricted Data or SNM categories 1 and 2.  A person with L clearance may have access only to Confidential Restricted Data, or may have access to both Confidential and Secret FRD and NSI. The background investigation for an L clearance is much less extensive than for a Q clearance. However, both Q and L clearances require the same standards of personal conduct. If a background investigation uncovered something that would deny a Q clearance, it would also deny an L clearance.
