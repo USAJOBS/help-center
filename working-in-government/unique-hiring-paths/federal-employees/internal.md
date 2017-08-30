@@ -22,7 +22,7 @@ short-name: internal
 
     <h4>"Internal to the agency jobs" within the competitive service</h4>
     <p>
-      If you're applying to a job in the competitive service, you must be one of the following:
+      If you're applying to a job in the competitive service, you must be <strong>one</strong> of the following:
     </p>
     <ul>
       <li>A current federal employee at the hiring agency and within the competitive service.</li>
@@ -31,7 +31,7 @@ short-name: internal
 
     <h4>"Internal to the agency jobs" within the excepted service</h4>
     <p>
-      If you're applying to a job in the excepted service, you must be one of the following:
+      If you're applying to a job in the excepted service, you must be <strong>one</strong> of the following:
     </p>
     <ul>
       <li>A current federal employee at the hiring agency.</li>
