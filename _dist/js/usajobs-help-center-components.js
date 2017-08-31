@@ -257,7 +257,7 @@ module.exports=[
   },
   {
     "term": "Veterans' Preference",
-    "definition": "A hiring preference given to honorably discharged veterans and military retirees who are a disabled veteran or retired below the rank of major or its equivalent "
+    "definition": "A hiring preference given to honorably discharged veterans and military retirees who are a disabled veteran or retired below the rank of major or its equivalent. Learn more about <a href=\"https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/veterans/\">Veterans' Preference</a>."
   },
   {
     "term": "Veterans' Recruitment Appointment (VRA)",
