@@ -88,52 +88,12 @@ if ($glossary !== undefined && $glossary.length > 0) {
 },{"./terms.json":2,"glossary-panel":6}],2:[function(require,module,exports){
 module.exports=[
   {
-    "term": "Active Duty/Active Military Duty",
-    "definition": "Serving on a full time basis in the Armed Forces."
-  },
-  {
-    "term": "Active Military Duty",
-    "definition": "Annual duty in the Reserves or National Guard or full time service due to mobilization"
-  },
-  {
-    "term": "Adjusted Basic Pay",
-    "definition": "The maximum pay after all pay caps have been taken into account"
-  },
-  {
-    "term": "Adverse Action",
-    "definition": "An official personnel action that negatively affects an employee. This may include a suspension for a defined period of time, a reduction in grade or status or even termination of employment."
-  },
-  {
-    "term": "Agency",
-    "definition": "A department or independent establishment of the executive branch of the United States Government. For example, the U.S. Postal Service."
-  },
-  {
-    "term": "Annuitant",
-    "definition": "A person who has retired from federal civilian service and now receives an annuity."
-  },
-  {
-    "term": "Applicant",
-    "definition": "A person who has applied for a job with an agency. This could be a current or former federal employee or someone who has never worked for the Federal Government."
-  },
-  {
-    "term": "Appointee",
-    "definition": "A person who has been hired by an agency to fill a job."
-  },
-  {
-    "term": "Appointing Officer",
-    "definition": "A person who has the authority to hire a new employee. Sometimes called the hiring manager"
-  },
-  {
     "term": "Appointment",
     "definition": "An administrative action that places a person on the staff of an agency.  You are 'hired' or 'appointed' to a job in the federal government and there are several types of appointment."
   },
   {
     "term": "Area of consideration",
-    "definition": "The group of people that an agency will accept applications from to fill a job. This may include a specific location or whether the applicant is a current federal employee, current federal employee working for a specific agency or the public."
-  },
-  {
-    "term": "Armed Forces",
-    "definition": "The Armed Forces is made up of the 5 military branches: Air Force, Army, Coast Guard, Marine Corps and Navy."
+    "definition": "The group of people that an agency will accept applications from to fill a job. This may include a specific location or whether the applicant is a current federal employee, current federal employee working for a specific agency or the public. "
   },
   {
     "term": "Availability Pay",
@@ -145,67 +105,31 @@ module.exports=[
   },
   {
     "term": "Career Appointment",
-    "definition": "The type of appointment an employee receives after working for the Federal Government for three years."
+    "definition": "The type of appointment an employee receives after working for the Federal Government for three years. "
   },
   {
-    "term": "Certificate of Eligibles (also called Referral List)",
-    "definition": "A list of eligible and qualified applicants created for the hiring manager"
-  },
-  {
-    "term": "Change to Lower Grade (also called \"demotion\" and \"reduction in grade\"",
-    "definition": "A personnel action that moves an employee to a job with a lower grade or pay."
-  },
-  {
-    "term": "Civil Service Retiree",
-    "definition": "A person retired under the Civil Service retirement System (CSRS)"
-  },
-  {
-    "term": "Civilian Position",
-    "definition": "A job that doesn’t require you to be a member of the Armed Forces. The job may be in the legislative, executive, or judicial branch of the Federal Government, or in the Government of the District of Columbia."
-  },
-  {
-    "term": "Civilian Retiree",
-    "definition": "A person retired under the Civil Service Retirement System (CSRS)"
-  },
-  {
-    "term": "Classify",
-    "definition": "To evaluate the duties and responsibilities of a job and assign a title, occupation series and grade."
+    "term": "Certificate of Eligibles",
+    "definition": "A list of eligible and qualified applicants created for the hiring manager. Also known as Referral List."
   },
   {
     "term": "Competitive Position",
-    "definition": "Positions subject to the civil service laws passed by Congress to ensure that applicants and employees receive fair and equal treatment in the hiring process. In the competitive service, individuals must go through a competitive hiring process (i.e., competitive examining) before being appointed which is open to all applicants. This process may consist of a written test, an evaluation of the individual’s education and experience, and/or an evaluation of other attributes necessary for successful performance in the position to be filled."
+    "definition": "Positions that follow the civil service laws passed by Congress to make sure that applicants and employees receive fair and equal treatment in the hiring process. In the competitive service, applicants must go through the Office of Personnel Management's thorough application and hiring process. This process may consist of a written test, an evaluation of the individual's education and experience, and/or an evaluation of other attributes necessary for successful performance in the position to be filled."
   },
   {
     "term": "Competitive Service",
-    "definition": "Positions subject to the civil service laws passed by Congress to ensure that applicants and employees receive fair and equal treatment in the hiring process."
+    "definition": "One of three services in the Federal Government. A job in the competitive service follows the civil service laws passed by Congress and the Office of Personnel Management's thorough application and hiring process."
   },
   {
     "term": "Competitive Status",
-    "definition": "A  persons basic eligibility for assignment to a position in the competitive service without having to compete with members of the general public in an open competitive examination.Once acquired, status belongs to the individual, not a to a position."
-  },
-  {
-    "term": "Continuance",
-    "definition": "To continue something. In the federal government this may be obtaining a waiver to continue federal service beyond mandatory retirement or the extension of a not-to-exceed date."
-  },
-  {
-    "term": "Creditable Military Service",
-    "definition": "The total number of years and months of military service an employee can use toward their total federal service when calculating their annual leave accrual"
+    "definition": "A persons basic eligibility for assignment to a position in the competitive service without having to compete with members of the general public in an open competitive examination.Once acquired, status belongs to the individual, not a to a position."
   },
   {
     "term": "Creditable Service",
-    "definition": "Employment that can be used to meet the requirements of a job or benefits like leave accrual or retention during a Reduction In Force (RIF). This can be federal employment or service in the United States Armed Forces."
+    "definition": "Employment that can be used to meet the requirements of a job or benefits like leave accrual or retention during a Reduction In Force (RIF). This can be federal employment or service in the United States Armed Forces. "
   },
   {
     "term": "Delegated Examining (DE)",
-    "definition": "A hiring authority an agency uses that allows them to fill jobs with applicants who have not worked for the Federal Government. These jobs are subject to civil service laws and regulations to ensure fair and open competition. These jobs are identified by  the \"Open to the Public\" icon."
-  },
-  {
-    "term": "Demotion",
-    "definition": "An administrative action that moves a person to a job with a lower grade or pay or hourly wage."
-  },
-  {
-    "term": "Denial of Within-Grade Increase",
-    "definition": "The decision to withhold (not grant) a within-grade increase to a General Schedule employee because of a determination that the employee's performance is not at an acceptable level"
+    "definition": "The competitive application and hiring process an agency uses to hire someone who has never worked for the Federal Government. A job that says it's <strong>Open to the public</strong> will use the delegated examining hiring process."
   },
   {
     "term": "Detail",
@@ -220,10 +144,6 @@ module.exports=[
     "definition": "A person who has an existing service-connected disability or is receiving compensation, disability retirement benefits, or pension because of a public statute administered by the Department of Veterans Affairs or a military department."
   },
   {
-    "term": "Displaced Employee",
-    "definition": "An employee who is in the competitive service and has an official notice from their  agency saying they will no longer have a job because of a reduction in force. This could be a specific reduction in force separation notice; or a notice of a proposed removal because their job is  being moved out of the local commuting area and the employee declined to move. "
-  },
-  {
     "term": "Dual Compensation",
     "definition": "Earning a salary for working more than 40 hours in a week from more than one government agency."
   },
@@ -232,72 +152,8 @@ module.exports=[
     "definition": "The city/town, county, and state where the employee works."
   },
   {
-    "term": "Effective Date",
-    "definition": "An administrative action that documents the date an employee begins working."
-  },
-  {
-    "term": "EOD (Entry on Duty)",
-    "definition": "The date a person physically starts working."
-  },
-  {
-    "term": "Excepted Position",
-    "definition": "A position within the Excepted Service."
-  },
-  {
     "term": "Excepted Service",
     "definition": "Federal or civil service jobs not in the competitive service or the Senior Executive Service. Excepted service jobs don't have to follow the same hiring process or requirements as the competitive service (by law, Executive Order, or OPM regulation). Excepted service agencies set their own qualification requirements and are not subject to the appointment, pay, and classification rules in title 5, United States Code."
-  },
-  {
-    "term": "Executive Order",
-    "definition": "A directive issued by the President"
-  },
-  {
-    "term": "Expert",
-    "definition": "A person with a great deal of knowledge, skills, training or experience, in a particular field. The expert usually acts as an adviser."
-  },
-  {
-    "term": "Expert Position",
-    "definition": "A job that requires a person to have a great deal of knowledge, skills, training or experience, in a particular field."
-  },
-  {
-    "term": "Extension",
-    "definition": "The continuation of a time-limited position (a position with a Not to Exceed (NTE) date) up to the maximum time allowed."
-  },
-  {
-    "term": "Federal Government Service",
-    "definition": "The total period of military and civilian federal service used to calculate retirement and leave accrual. Federal government service is also taken into consideration when an agency has a reduction in force."
-  },
-  {
-    "term": "Federal Merit System",
-    "definition": "A set of personnel policies, procedures and practices used for hiring and management of the federal workforce."
-  },
-  {
-    "term": "Federal Wage System",
-    "definition": "The hourly pay rate system the Federal Government uses for most trade craft and labor jobs. The Federal Wage system adjusts pay according to what the private industry pays for similar jobs in the same area, therefore, the pay may differ from place to place."
-  },
-  {
-    "term": "FERS Retiree",
-    "definition": "A person retired under the Federal Employees Retirement System"
-  },
-  {
-    "term": "Frozen Service",
-    "definition": "The total number of years and months of civilian and military service that is creditable for retirement."
-  },
-  {
-    "term": "Full-Time Work Schedule",
-    "definition": "A schedule that requires an employee to work 40 hours during a traditional work week or 80 hours in a pay period."
-  },
-  {
-    "term": "Furlough",
-    "definition": "When an employee is temporarily placed on leave without pay because of lack of work or funds, or for other non-disciplinary reasons."
-  },
-  {
-    "term": "General Discharge",
-    "definition": "A discharge granted from the Armed Forces which indicates that your performance was considered satisfactory. This is also known as a discharge of \"Under Honorable Conditions\""
-  },
-  {
-    "term": "General Experience",
-    "definition": "Work experience that is not directly related to the job but shows that you are capable of learning and performing the duties of the job."
   },
   {
     "term": "General Schedule",
@@ -305,147 +161,35 @@ module.exports=[
   },
   {
     "term": "Grade",
-    "definition": "Refers to the General Schedule (GS) pay scale – it’s the pay level for the job. The higher the grade level, the higher the pay."
-  },
-  {
-    "term": "Grade Restoration Action",
-    "definition": "The action taken to restore an employees grade they held during the retroactive period  of the Title VIII of the Civil Service Reform Act of 1978."
-  },
-  {
-    "term": "Grade Retention Action",
-    "definition": "An action to retain the grade held by an employee prior to a grade reduction that was effective during the retroactive period of title VIII of the Civil Service Reform Act of 1978"
-  },
-  {
-    "term": "Grade Retention Entitlement",
-    "definition": "An action to retain the grade held by an employee prior to a grade reduction that was effective during the retroactive period of title VIII of the Civil Service Reform Act of 1978"
+    "definition": "Refers to the General Schedule (GS) pay scale - it's the pay level for the job. The higher the grade level, the higher the pay."
   },
   {
     "term": "Indefinite Appointment",
-    "definition": "A temporary job without a specific time limitation.  This appointment does not count towards permanent tenure and can be terminated at any time."
-  },
-  {
-    "term": "Injury Compensation",
-    "definition": "Compensation and medical care given to a civilian federal employee for a work related disability or illness."
-  },
-  {
-    "term": "Intermittent Service or Intermittent Employment",
-    "definition": "Part-time work that occurs at irregular intervals; not continuous or steady."
-  },
-  {
-    "term": "Involuntary Separation",
-    "definition": "Loss of a job for reasons other than misconduct. This could be due to a reduction in force, elimination of a position, the end of a term (term appointment), lack of funds, or performance below an acceptable level (not misconduct)."
-  },
-  {
-    "term": "Lead Agency",
-    "definition": "An agency designated by OPM to plan and conduct wage surveys, analyze the survey data and determine the hourly pay rate for jobs in various geographical areas."
-  },
-  {
-    "term": "Leave With Pay (LWP)",
-    "definition": "Sick leave that the employee has requested after they have been approved for a disability retirement or after they have applied for optional retirement due to disability."
-  },
-  {
-    "term": "Leave Without Pay (LWOP)",
-    "definition": "A temporary leave of absence without pay requested by an employee when they perform military duties"
-  },
-  {
-    "term": "Leave, Annual",
-    "definition": "A paid leave of absence that an employee earns - commonly referred to as vacation."
-  },
-  {
-    "term": "Leave, Military",
-    "definition": "Paid leave for Reservists and members of the National Guard who are called to active duty. This does not include weekend drills and annual training."
-  },
-  {
-    "term": "Leave, Sick",
-    "definition": "A paid leave of absence for illness; appointments with doctors, dentists or optometrists, or to take care of a member of his or her immediate family who is afflicted with a contagious disease."
-  },
-  {
-    "term": "Legal Authority",
-    "definition": "The law, Executive Order, regulation, agency directive or instruction that gives an agency the authority to take some form of personnel action."
+    "definition": "A temporary job without a specific time limitation. This appointment does not count towards permanent tenure and can be terminated at any time."
   },
   {
     "term": "Locality Pay",
-    "definition": "Pay that is added to an employee's basic pay and is directly related to the location of the job"
+    "definition": "Pay that is added to an employee's basic pay and is directly related to the location of the job."
   },
   {
-    "term": "Mass Transfer",
-    "definition": "When an agency moves an employee with their position to a different agency due the function of that position moving. The employees grade, pay and job duties will remain the same."
-  },
-  {
-    "term": "Merit Promotion Program (Merit Staffing Program)",
-    "definition": "A system where current federal employees compete for an open job and are rated and ranked based on their experience, education, competencies and performance."
-  },
-  {
-    "term": "Merit System Principles",
-    "definition": "The nine basic standards that govern the management of the federal workforce."
+    "term": "Merit Promotion Program",
+    "definition": "A system where current federal employees compete for an open job and are rated and ranked based on their experience, education, competencies and performance.  Also known as Merit Staffing Program."
   },
   {
     "term": "Military Spouse Special Hiring Authority",
-    "definition": "Authority to appoint a military spouse without competition when filling competitive service positions on a temporary (not to exceed 1 year), term (more than 1 year but not more than 4 years), or permanent basis. The authority does not guarantee spouses placement in a position over any other applicant. Military spouses are eligible under this authority if the active duty military spouse: 1) receives a Permanent Change of Station (PCS) move; 2) has a 100% disability rating; or 3) died while on active duty. Each of these categories has different eligibility criteria that must be met.\""
-  },
-  {
-    "term": "MSPB",
-    "definition": "Merit Systems Protection Board"
-  },
-  {
-    "term": "Non-appropriated funds Instrumentality",
-    "definition": "An organization that is not funded by Congressional funds. Some examples are the Army and Air Force Exchange Service, Army and Air Force Motion Picture Service, Navy Ship's Stores Ashore, Navy exchanges, Marine Corps exchanges, Coast Guard exchanges, and other subsidiaries of the United States under the jurisdiction of the Armed Forces that operate for the comfort, pleasure, contentment, and mental and physical improvement of personnel of the Armed Forces."
-  },
-  {
-    "term": "Noncompetitive Action",
-    "definition": "A promotion, demotion, reassignment, transfer or a job given to a current federal employee based off of their performance or current position."
-  },
-  {
-    "term": "Occupational Code",
-    "definition": "The series is a numbered system for grouping similar occupations."
-  },
-  {
-    "term": "Official Personnel Folder (OPF) Standard form 66",
-    "definition": "A file containing records and documents pertaining to a federal employee's work history"
+    "definition": "Authority to appoint a military spouse without competition when filling competitive service positions on a temporary (not to exceed 1 year), term (more than 1 year but not more than 4 years), or permanent basis. The authority does not guarantee spouses placement in a position over any other applicant. Military spouses are eligible under this authority if the active duty military spouse: 1) receives a Permanent Change of Station (PCS) move; 2) has a 100% disability rating; or 3) died while on active duty. Each of these categories has different eligibility criteria that must be met."
   },
   {
     "term": "Pathways",
     "definition": "The Pathways program consists of three programs;  the Internship Program, the Recent Graduates Program and the Presidential Management Fellows (PMF) Program.  These programs help to recruit, hire, develop, and retain students and recent graduates."
   },
   {
-    "term": "Pay Adjustment",
-    "definition": "An increase or decrease in an employee's basic pay when there is no change in the duties or responsibilities of the employee's position."
-  },
-  {
-    "term": "Pay Plan",
-    "definition": "A pay system or pay schedule that determines the basic play of employees. General Schedule (GS, Executive Schedule (EX) and Leader under the Federal Wage System (WL) are examples of pay plans."
-  },
-  {
-    "term": "Pay Rate Determinant (PRD)",
-    "definition": "Any special factors that help determine how much an employee will get paid."
-  },
-  {
-    "term": "Pay Retention Entitlement",
-    "definition": "The right of an employee to keep their pay when it is higher than the maximum pay for the position they are currently in"
-  },
-  {
-    "term": "Pension",
-    "definition": "A fixed amount of money paid regularly during retirement or due to disability by the government, a former employer, or an insurance company."
-  },
-  {
     "term": "Permanent Appointment",
     "definition": "A job that does not have a pre-determined end date."
   },
   {
-    "term": "Personnel Action",
-    "definition": "An administrative process used to make a personnel change. This could be moving to another grade or step within a grade, moving into another job or losing a job."
-  },
-  {
-    "term": "Placement",
-    "definition": "Putting employees into jobs. Placement may be by hiring a new employee, by promotion, change to lower grade, reassignment, or transfer within an agency or from another agency of a current employee; or by reinstatement of a former employee."
-  },
-  {
-    "term": "Position Classification",
-    "definition": "A process that assigns federal jobs to a pay system, series, title, and grade or band."
-  },
-  {
     "term": "Preference (Veterans' Preference)",
-    "definition": "A hiring process that may help Veterans get a job with the Federal Government. Learn more about Veterans' Preference: https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/veterans/"
+    "definition": "A hiring process that may help Veterans get a job with the Federal Government. Learn more about <a href=\"https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/veterans/\">Veterans' Preference</a>."
   },
   {
     "term": "Preference Eligible",
@@ -456,132 +200,24 @@ module.exports=[
     "definition": "Additional pay for overtime, nights, weekends or holidays"
   },
   {
-    "term": "Presidential Management Fellows",
-    "definition": "An entry-level leadership development program for advanced degree applicants; visit www.pmf.gov"
-  },
-  {
     "term": "Probationary Period",
-    "definition": "A specified period of time in which an  agency validates the competencies of an employee and his/her fit for the position."
-  },
-  {
-    "term": "Promotion",
-    "definition": "A personnel action that moves an employee to a job with a higher grade or with a higher base pay."
-  },
-  {
-    "term": "Provisional Appointment",
-    "definition": "When an employee is placed in position a temporarily when the  agency intends to convert that employee to a permanent position in the future"
-  },
-  {
-    "term": "Qualification Standards",
-    "definition": "A description of the minimum requirements necessary to perform the work of a particular occupation. These minimum requirements may include specific job-related work experience, education, medical or physical standards, training, security, and/or licensure."
-  },
-  {
-    "term": "Quality (Step) Increase (QSI or QI)",
-    "definition": "The movement to a higher step within a grade based on the employee's high quality performance regardless of time spent at the previous step."
-  },
-  {
-    "term": "Rate of Basic Pay",
-    "definition": "The pay fixed by law for a position before deductions or additional pay like locality pay or premium pay."
-  },
-  {
-    "term": "Realignment",
-    "definition": "The movement of an employee and his or her position when (1) a transfer of function or an organization is involved in a reorganization and (2) the employee has REEMPLOYMENT RIGHTS, the entitlement to stay in the same agency, and (3) there is no change in the employee's position, grade or pay. (Note: For purposes of this definition, a change in the amount of any locality payment to which the employee is entitled is not a change in pay.)"
-  },
-  {
-    "term": "Reassignment",
-    "definition": "The movement of an employee, while serving continuously with the same agency, from one position to another without a change in grade or pay. Reassignment includes: (1) movement to a position in a new occupational series, or to another position in the same series; (2) assignment to a position that has been re-described due to the introduction of a new or revised classification or job grading standard; (3) assignment to a position that has been re-described as a result of position review; and (4) movement to a different position at the same grade but with a change in salary that is the result of different local prevailing wage rates or a different locality pay schedule.\""
+    "definition": "A specified period of time in which an  agency validates an employee's competencies and their fit for the position. "
   },
   {
     "term": "Recruitment Bonus",
-    "definition": "A payment made to a new employee who has been hired to fill a hard-to-fill position. A recruitment bonus may not exceed 25 percent of the employee's annual rate of basic pay in effect at the beginning of the service period multiplied by the number of years (including fractions of a year) in the service period (not to exceed 4 years). With OPM approval, this cap may be increased to 50 percent (based on a critical agency need), as long as the total incentive does not exceed 100 percent of the employee's annual rate of basic pay at the beginning of the service period. (See 5 CFR 575.109(c).) The incentive may be paid as an initial lump-sum payment at the beginning of the service period, in installments throughout the service period, as a final-lump sum payment upon completion of the service period, or in a combination of these methods. An incentive may be paid to an individual not yet employed who has received a written offer of employment and signed a written service agreement.\nhttps://www.opm.gov/policy-data-oversight/pay-leave/recruitment-relocation-retention-incentives/fact-sheets/recruitment-incentives/"
-  },
-  {
-    "term": "Reduction in Force (RIF)",
-    "definition": "Separation of an employee from their job   because of lack of work or funds, abolition of position or agency, or cuts in personnel authorizations"
-  },
-  {
-    "term": "Reduction in Grade or Pay",
-    "definition": "Situation in which an employee is demoted to a lower grade or lesser pay because of adverse action, reduction in force, or other reasons."
-  },
-  {
-    "term": "Reemployed Annuitant",
-    "definition": "A person retired from the federal government whose annuity continues after the Federal Government reemploys them"
-  },
-  {
-    "term": "Reemployment Priority List",
-    "definition": "A list of career and career conditional employees who had their employment terminated due to a reduction in force or due to an illness or disability where the recovery is expected to take more than a year from the time they start receiving compensation. Employees on this list should be considered for reemployment"
-  },
-  {
-    "term": "Register (also known as Civil Service Register)",
-    "definition": "A list of qualified applicants that can be contacted to fill vacant positions"
-  },
-  {
-    "term": "Reinstatement",
-    "definition": "Reinstatement allows you to reenter the Federal competitive service workforce without competing with the public. Reinstatement eligibility enables you to apply for Federal jobs open only to status candidates. https://www.opm.gov/policy-data-oversight/hiring-information/reinstatement/"
+    "definition": "A payment made to a new employee who has been hired to fill a hard-to-fill position. A recruitment bonus may not exceed 25 percent of the employee's annual rate of basic pay in effect at the beginning of the service period multiplied by the number of years (including fractions of a year) in the service period (not to exceed 4 years). With OPM approval, this cap may be increased to 50 percent (based on a critical agency need), as long as the total incentive does not exceed 100 percent of the employee's annual rate of basic pay at the beginning of the service period. (See 5 CFR 575.109(c).) The incentive may be paid as an initial lump-sum payment at the beginning of the service period, in installments throughout the service period, as a final-lump sum payment upon completion of the service period, or in a combination of these methods. An incentive may be paid to an individual not yet employed who has received a written offer of employment and signed a written service agreement. <a href=\"https://www.opm.gov/policy-data-oversight/pay-leave/recruitment-relocation-retention-incentives/fact-sheets/recruitment-incentives/\">Recruitment incentive fact sheet</a>"
   },
   {
     "term": "Relocation Bonus",
-    "definition": "A one-time payment to a current federal employee who relocates to accept a hard-fill position. A relocation incentive may not exceed 25 percent of the employee's annual rate of basic pay in effect at the beginning of the service period multiplied by the number of years (including fractions of a year) in the service period (not to exceed 4 years). With OPM approval, this cap may be raised to 50 percent (based on a critical agency need), as long as the total incentive does not exceed 100 percent of the employee's annual rate of basic pay at the beginning of the service period. (See 5 CFR 575.209(c).) The incentive may be paid as an initial lump-sum payment at the beginning of the service period, in installments throughout the service period, as a final lump-sum payment upon completion of the service period, or in a combination of these methods. The agency may not pay a relocation incentive until the employee establishes a residence in the new geographic area. https://www.opm.gov/policy-data-oversight/pay-leave/recruitment-relocation-retention-incentives/fact-sheets/relocation-incentives/"
-  },
-  {
-    "term": "Removal",
-    "definition": "When an employee is terminated from federal service for their agency, the Office of Personnel Management or the Merit Systems Protection Board"
-  },
-  {
-    "term": "Restoration Rights",
-    "definition": "An entitlement for an employee, who leaves their civilian job for military duty, to return to their position after their duty is complete. It is also an entitlement for an employee returning after a compensable injury."
-  },
-  {
-    "term": "Retained Rate",
-    "definition": "An amount of pay above the maximum pay of the employee's grade, which an employee is allowed to keep in special situations instead of having their rate of basic pay reduced."
-  },
-  {
-    "term": "Retention Allowance",
-    "definition": "An annual payment to an essential employee(s) with unusually high qualifications or special skills when the agency determines that the employee(s) would be likely to leave Federal employment if no allowance were paid.  An individual employee may receive a retention allowance of up to 25 percent of basic pay.  A group of employees may receive a retention allowance of up to 10 percent of each individual’s basic pay.  OPM may waive retention allowance limitations based on critical need (up to 50 percent of basic pay)."
-  },
-  {
-    "term": "Retention Preference",
-    "definition": "A preference given to certain groups; Veterans and those with seniority,  to be retained when similar positions are being eliminated and others are being terminated or furloughed"
-  },
-  {
-    "term": "Retention Register",
-    "definition": "A list of employees along with their current position arranged by the time they have worked in the federal government used in a reduction in force to determine who will keep their job, who will be let go and who will be moved to another position."
-  },
-  {
-    "term": "Retirement, Deferred",
-    "definition": "When an employee retires and doesn't start receiving payments until the Minimum Retirement Age (MRA)"
-  },
-  {
-    "term": "Retirement, Discontinued Service",
-    "definition": "Retirement based on involuntary separation against the will and without the consent of the employee, other than on charges of misconduct or delinquency. An employee who does not meet the age and service requirements for optional retirement at the time of separation may retire on discontinued service if he or she is age 50 with 20 years of creditable service or at any age with 25 years of creditable service including 5 years of civilian service. (The CSRS and FERS Handbook)\""
-  },
-  {
-    "term": "Retirement, Optional",
-    "definition": "Voluntary retirement"
-  },
-  {
-    "term": "Return to Duty",
-    "definition": "When an employee returns to work after an absence due to a  Furlough, Suspension or Leave Without Pay."
-  },
-  {
-    "term": "Sabbatical",
-    "definition": "An absence from duty, without charge to pay or leave, that an agency may grant to a Senior Executive Service (SES) career appointee to participate in study or uncompensated work experience"
+    "definition": " A one-time payment to a current federal employee who relocates to accept a hard-fill position. A relocation incentive may not exceed 25 percent of the employee's annual rate of basic pay in effect at the beginning of the service period multiplied by the number of years (including fractions of a year) in the service period (not to exceed 4 years). With OPM approval, this cap may be raised to 50 percent (based on a critical agency need), as long as the total incentive does not exceed 100 percent of the employee's annual rate of basic pay at the beginning of the service period. (See 5 CFR 575.209(c).) The incentive may be paid as an initial lump-sum payment at the beginning of the service period, in installments throughout the service period, as a final lump-sum payment upon completion of the service period, or in a combination of these methods. The agency may not pay a relocation incentive until the employee establishes a residence in the new geographic area. <a href=\"https://www.opm.gov/policy-data-oversight/pay-leave/recruitment-relocation-retention-incentives/fact-sheets/relocation-incentives/\">Relocation incentive fact sheet</a>"
   },
   {
     "term": "Schedule A",
-    "definition": "A hiring authority used to increase employment opportunities for people with disabilities. There are two authorities under Schedule A 1) Schedule A, 5 CFR 213.3102(u), for hiring people with severe physical disabilities, psychiatric disabilities, and intellectual disabilities. This excepted authority is used to appoint persons with severe physical disabilities, psychiatric disabilities, and intellectual disabilities. Such individuals may qualify for conversion to permanent status after two years of satisfactory service. Severe physical disabilities include but are not limited to blindness, deafness, paralysis, missing limbs, epilepsy, dwarfism, and more. 2) Schedule A, 5 CFR 213.3102(11) for hiring readers, interpreters, and personal assistants. This excepted authority is used to appoint readers, interpreters, and personal assistants for employees with severe disabilities as reasonable accommodations."
+    "definition": " A hiring authority used to increase employment opportunities for people with disabilities. There are two authorities under Schedule A: 1) Schedule A, 5 CFR 213.3102(u), for hiring people with severe physical disabilities, psychiatric disabilities, and intellectual disabilities. This excepted authority is used to appoint persons with severe physical disabilities, psychiatric disabilities, and intellectual disabilities. Such individuals may qualify for conversion to permanent status after two years of satisfactory service. Severe physical disabilities include but are not limited to blindness, deafness, paralysis, missing limbs, epilepsy, dwarfism, and more. 2) Schedule A, 5 CFR 213.3102(11) for hiring readers, interpreters, and personal assistants. This excepted authority is used to appoint readers, interpreters, and personal assistants for employees with severe disabilities as reasonable accommodations."
   },
   {
     "term": "Schedule B",
     "definition": "Applies to jobs and situations for which it is impractical to rate applicants using competitive procedures. However, under Schedule B, applicants must meet the qualification standards for the job. For example, Schedule B includes hiring for the Student Temporary Employment Program, the Student Career Experience Program, and the Federal Career Intern Program. Only students qualify for student programs; it is not practical to use competitive procedures for them."
-  },
-  {
-    "term": "Schedule C",
-    "definition": "OPM grants hiring authority under Schedule C on a case-by-case basis in situations for which political appointments are appropriate. Schedule C appointees keep a confidential or policy-determining relationship to their supervisor and agency head. Generally, the authority to fill a Schedule C job is revoked when the person holding the job  leaves and agencies need specific approval from OPM to establish or reestablish the position."
-  },
-  {
-    "term": "Scientific and Professional (ST) Series",
-    "definition": "A group of Federal jobs, which includes non-executive positions above the GS-15 level, and involves performance of high-level research and development in the physical, biological, medical, or engineering sciences, or a closely-related field."
   },
   {
     "term": "Seasonal Employee",
@@ -589,139 +225,43 @@ module.exports=[
   },
   {
     "term": "Senior Executive Service",
-    "definition": "https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/senior-executives/"
-  },
-  {
-    "term": "Service Computation Date (SCD)",
-    "definition": "the date that  determines an employee’s eligibility for a specific benefit or entitlement, which may include Annual Leave, Retirement, Thrift Savings Plan, and Reduction-In-Force (RIF).\""
-  },
-  {
-    "term": "Severance Pay",
-    "definition": "Pay that may be given to an employee when they are involuntarily separated. A reduction in force (RIF) is an example of this kind of separation."
-  },
-  {
-    "term": "Special Government Employee",
-    "definition": "Someone who is hired to work for 130 days or less during a period of 365 days."
-  },
-  {
-    "term": "Special Salary Rates",
-    "definition": "A salary that is  higher than the regular salary prescribed by law.  The President establishes these higher pay rates for occupations in which private companies are   paying substantially more than regular  government pay and this salary gap significantly handicaps the Government's recruitment or retention of well-qualified persons."
+    "definition": "The Senior Executive Service (SES) consists of executive positions, including managerial, supervisory, and policy positions classified above General Schedule (GS) grade 15 or equivalent positions in most Executive Branch agencies of the Federal Government. <a href=\"https://www.usajobs.gov/Help/working-in-government/unique-hiring-paths/senior-executives/\">Learn more about the Senior Executive Service</a>"
   },
   {
     "term": "Specialized Experience",
-    "definition": "work experience that is directly related to the work to be performed in a position"
+    "definition": "Work experience that is directly related to the work to be performed in a job."
   },
   {
-    "term": "Standard Form 50 (also called SF50)",
+    "term": "Standard Form 50 (SF50)",
     "definition": "A form created by an administrative office within your agency that documents changes to your personnel record such as grade, salary, series and place of duty. The name of the form is  \"Notification of Personnel Action\""
   },
   {
-    "term": "Standard Form 52 (Also called a SF52)",
-    "definition": "A form  used by operating officials or supervisors to request personnel actions and to secure internal agency clearance of requests for personnel action. Employees use the Standard Form 52 to request leave without pay or a name change and to notify the agency of their intent to resign or retire. The name of the form is \"Request for Personnel Action\""
-  },
-  {
-    "term": "Status Employee",
-    "definition": "Someone who has completed 3 years of employment in the competitive service. This time does not have to be consecutive."
-  },
-  {
-    "term": "Step",
-    "definition": "Within each grade there are 10 steps. With each step there is an increase in pay. There are required time limits within each grade before you are eligible to move to the next step. For example, you must be in step one for 52 weeks before you are eligible to move to a step 2 and you must be in step 5 for 104 weeks before you can move to step 6. https://www.opm.gov/policy-data-oversight/pay-leave/pay-administration/fact-sheets/within-grade-increases"
-  },
-  {
-    "term": "Step Adjustment",
-    "definition": "A change in the step of the grade an employee is working in without a change in their rate of basic pay"
-  },
-  {
-    "term": "Student Pathways Program",
-    "definition": "Three programs;  the Internship Program, the Recent Graduates Program and the Presidential Management Fellows (PMF) Program, used to recruit, hire, develop, and retain students and recent graduates."
-  },
-  {
-    "term": "Substantially  Continuous Service",
-    "definition": "TERM WAS REMOVED FROM THE GUIDE TO PROCESSING PERSONNEL ACTION ON MARCH 5, 2017 https://www.opm.gov/policy-data-oversight/data-analysis-documentation/personnel-documentation/processing-personnel-actions/update72.pdf"
-  },
-  {
-    "term": "Superior Qualifications Appointment",
-    "definition": "Placement of a person into a new position above the  Step 1 level of a grade based on the applicant's unique or unusually high qualifications, a special government need for the applicant’s services, and the applicant’s current salary or salary offerings being higher than a step 1 in the position being filled."
-  },
-  {
-    "term": "Supervisory Differential",
-    "definition": "The total annual payment given to an employee who is in a supervisory position when the supervisor's current pay is less than the employees they supervise."
-  },
-  {
     "term": "Surplus Employee",
-    "definition": "A career or career conditional employee in the competitive service who has received notification that their position has been eliminated from their agency.  A person hired under Schedule A or B in the excepted service are also considered surplus employees if they are in a permanent position and have received the appropriate notice. Selection priority for these employees is limited to other permanent Schedule A or B positions in the same agency and local commuting area"
-  },
-  {
-    "term": "Suspension",
-    "definition": "Placing an employee in an absence without pay status for disciplinary reasons or while an investigation is pending"
+    "definition": "A career or career-conditional employee in the competitive service who has received notice that their job has been eliminated from their agency.  A person hired under Schedule A or B in the excepted service are also considered surplus employees, if they are in a permanent position and have received the appropriate notice. Selection priority for these employees is limited to other permanent Schedule A or B positions in the same agency and local commuting area "
   },
   {
     "term": "Temporary Appointment",
-    "definition": "Temporary appointments have a set time-limit and include the following: Detail – A temporary assignment to another job. You must be a current federal employee to apply to detail jobs. Intermittent - Occurring at irregular intervals; not continuous or steady. Term – A job that may last one to four years. Term appointments may be used for project work, extraordinary workload, scheduled cancellation of a position, reorganization, uncertainty of future funding, or contracting out of the function. Temporary – A job that will last no longer than one year. Seasonal – An annually recurring job that may last six months or more in one year. Summer – A job available during the summer months and is usually for students."
-  },
-  {
-    "term": "Tenure",
-    "definition": "The period of time that an employee can reasonably expect to work in their current position."
-  },
-  {
-    "term": "Tenure Groups",
-    "definition": "When a job  and it's function moves from one agency to another, one geographical location to another or from one office to another within the same agency. https://www.opm.gov/policy-data-oversight/workforce-restructuring/reductions-in-force/#url=t1"
+    "definition": "Temporary appointments have a set time-limit and include the following:<br /><br />Detail - A temporary assignment to another job. You must be a current federal employee to apply to detail jobs.<br />Intermittent - Occurring at irregular intervals; not continuous or steady.<br />Term - A job that may last one to four years. Term appointments may be used for project work, extraordinary workload, scheduled cancellation of a position, reorganization, uncertainty of future funding, or contracting out of the function.<br />Temporary - A job that will last no longer than one year.<br />Seasonal - An annually recurring job that may last six months or more in one year.<br />Summer - A job available during the summer months and is usually for students."
   },
   {
     "term": "Term Appointment",
     "definition": "A job that may last one to four years. Term appointments may be used for project work, extraordinary workload, scheduled cancellation of a position, reorganization, uncertainty of future funding, or contracting out of the function."
   },
   {
-    "term": "Termination During Probationary Period",
-    "definition": "When employment is terminated during an employee's probationary or trial period"
-  },
-  {
     "term": "Tour of Duty",
-    "definition": "An employees work schedule which indicates the days and hours an employee is required to work."
-  },
-  {
-    "term": "Transfer",
-    "definition": "1) The administrative action that moves a federal employee from one agency to another.  2) Movement to another duty location within the same agency"
-  },
-  {
-    "term": "Transfer of Function",
-    "definition": "The movement of work of one or more employees from one geographical area to another, one agency to another or one office to another within the same agency."
-  },
-  {
-    "term": "Unemployment Compensation",
-    "definition": "Unemployment insurance for Federal employees"
-  },
-  {
-    "term": "Uniformed Services",
-    "definition": "The Armed Forces (Army, Navy, Air Force, Marine Corps, and Coast Guard) plus the commissioned officer corps of the Public Health Service and National Oceanic and Atmospheric Administration."
-  },
-  {
-    "term": "Veteran",
-    "definition": "Means a person who was separated with an honorable discharge or under honorable conditions from active duty in the Armed Forces and served during certain time periods https://www.usajobs.gov/Help/how-to/account/profile/eligibility/military-service/"
+    "definition": "An employees work schedule which indicates the days and hours an employee is required to work. "
   },
   {
     "term": "Veterans Employment Opportunity Act (VEOA)",
-    "definition": "A special hiring authority that allows veterans to apply for jobs that are only open to current federal employees in the competitive service."
+    "definition": "A special hiring authority that allows veterans to apply for jobs that are only open to current federal employees in the competitive service. "
   },
   {
     "term": "Veterans' Preference",
-    "definition": "A hiring preference given to honorably discharged veterans and military retirees who are a disabled veteran or retired below the rank of major or its equivalent"
+    "definition": "A hiring preference given to honorably discharged veterans and military retirees who are a disabled veteran or retired below the rank of major or its equivalent "
   },
   {
     "term": "Veterans' Recruitment Appointment (VRA)",
     "definition": "A hiring authority used in the  excepted service that allows agencies to appoint eligible veterans without competition if the veteran has received a campaign badge for service during a war or in a campaign or expedition; or is a disabled veteran; or has received an Armed Forces Service Medal for participation in a military operation; or has separated from the military within the last 3 years a and separated under honorable conditions. Appointments under this authority may be made at any grade level up to and including a GS-11 or equivalent. This is an excepted service appointment, which can be converted to competitive service after 2 years."
-  },
-  {
-    "term": "Wage Employees (often called Wage Grade)",
-    "definition": "An employee that is paid an hourly wage instead of a yearly salary. These positions are in the trades, crafts or labor occupations and the pay is based on the rate of pay in the local area."
-  },
-  {
-    "term": "Within-Grade Increase (WGI)",
-    "definition": "An advancement to the next step within a grade. There are 10 steps within each grade with specific time requirements before advancement is authorized."
-  },
-  {
-    "term": "Work Schedule (see Tour of Duty)",
-    "definition": "The hours of a day (daily tour of duty) and the days of an administrative workweek (weekly tour of duty) that are scheduled in advance and during which an employee is required to perform work on a regularly recurring basis. This may be a set number of days and hours."
   }
 ]
 
