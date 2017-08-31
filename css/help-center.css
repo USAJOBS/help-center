@@ -2023,7 +2023,7 @@ html {
   box-shadow: 0 0 0 4px transparent;
   border-bottom: none;
   cursor: pointer;
-  margin-right: 2px;
+  margin-right: 4px;
   padding-right: .9em;
 }
 
@@ -2167,6 +2167,10 @@ html {
 
 .usajobs-help-center-glossary-panel .glossary__definition {
   padding: 1rem;
+}
+
+.usajobs-help-center-glossary-panel .glossary__definition a:visited {
+  color: #ffffff;
 }
 
 html {

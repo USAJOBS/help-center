@@ -14,7 +14,7 @@ The Federal Government employs permanent and temporary employees.
 
 ### Career-conditional appointment
 
-Permanent employees are generally hired under a career-conditional appointment (Permanent - Career-conditional appointment). Normally this is the first career-type of appointment and the appointee must complete a 1-year probationary period and a total of 3 years continuous creditable service to attain a career appointment (Permanent - Career appointment).
+Permanent employees are generally hired under a career-conditional appointment (Permanent - Career-conditional appointment). Normally this is the first career-type of appointment and the appointee must complete a 1-year <span data-term="Probationary Period">probationary period</span> and a total of 3 years continuous creditable service to attain a career appointment (Permanent - Career appointment).
 
 ### Career appointment
 

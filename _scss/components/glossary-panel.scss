@@ -13,7 +13,7 @@
   box-shadow: 0 0 0 4px transparent;
   border-bottom: none;
   cursor: pointer;
-  margin-right: 2px;
+  margin-right: 4px;
   padding-right: .9em;
 
   &:hover {
@@ -126,5 +126,9 @@
 
   .glossary__definition {
     padding: $size-S;
+
+    a:visited {
+      color: $color-white;
+    }
   }
 }

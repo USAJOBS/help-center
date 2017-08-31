@@ -31,7 +31,7 @@ short-name: internal
 
     <h4>"Internal to the agency jobs" within the excepted service</h4>
     <p>
-      If you're applying to a job in the excepted service, you must be <strong>one</strong> of the following:
+      If you're applying to a job in the <span data-term="Excepted Service">excepted service</span>, you must be <strong>one</strong> of the following:
     </p>
     <ul>
       <li>A current federal employee at the hiring agency.</li>

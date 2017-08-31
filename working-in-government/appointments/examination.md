@@ -10,7 +10,7 @@ tags: [competitive, delegated, examination, examining, career, status, eligibili
 
 ## Competitive examination
 
-The competitive examination, which is open to all applicants, may consist of a written test, an evaluation of an applicant’s education and experience, and/or an evaluation of other attributes necessary for successful performance in the position to be filled. The process is used to fill civil service positions with candidates who apply from outside the Federal workforce. It is also used to enable current Federal employees without civil service status to compete for a permanent appointment and to enable employees with civil service status to compete for other Federal positions.
+The competitive examination, which is open to all applicants, may consist of a written test, an evaluation of an applicant’s education and experience, and/or an evaluation of other attributes necessary for successful performance in the position to be filled. The process is used to fill civil service positions with candidates who apply from outside the Federal workforce. It is also used to enable current Federal employees without civil service status to compete for a <span data-term="Permanent Appointment">permanent appointment</span> and to enable employees with civil service status to compete for other Federal positions.
 
 ## Delegated examination
 

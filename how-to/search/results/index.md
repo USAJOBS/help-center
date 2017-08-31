@@ -28,7 +28,7 @@ Some jobs are available in multiple locations. You need to open the full job ann
 Every job has an open date and a close date.  You must apply during that time period.  The open period time varies from job to job.
 
 ### Salary and grade
-Each job result will show the starting salary or an hourly rate. The Federal Government offers many pay systems. The most common pay system is the General Schedule (GS). For the GS pay system, the starting salary is based on the lowest grade advertised. You can see the entire salary range in the full job announcement.  [Learn more about pay and grade](../filters/pay).
+Each job result will show the starting salary or an hourly rate. The Federal Government offers many pay systems. The most common pay system is the General Schedule (GS). For the GS pay system, the starting salary is based on the lowest <span data-term="Grade">grade</span> advertised. You can see the entire salary range in the full job announcement.  [Learn more about pay and grade](../filters/pay).
 
 ### Appointment type
 Federal jobs are classified into appointment types, such as permanent, temporary, term, detail, recent graduate and others. The appointment type often determines the length of employment, benefits and the ability to move to another federal job or re-enter the federal workforce. [Learn more about appointment types](../../../working-in-government/appointments/).
