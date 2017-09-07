@@ -9,10 +9,10 @@ tags: [account, login.gov]
 ---
 
 ## What is login.gov?
-Login.gov is a service that offers secure and private online access to government programs, such as federal benefits, services and applications. With a login.gov account, you can sign into multiple government websites with the same username and password.
+login.gov is a service that offers secure and private online access to government programs, such as federal benefits, services and applications. With a login.gov account, you can sign into multiple government websites with the same username and password.
 
 ## Why is USAJOBS using login.gov?
-login.gov uses two-factor authentication, and stronger passwords, that meet new National Institute of Standards of Technology requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your USAJOBS account against password compromises.
+login.gov uses two-factor authentication, and stronger passwords, that meet new [National Institute of Standards of Technology](https://www.nist.gov/) requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your USAJOBS account against password compromises.
 
 ## What will happen to my USAJOBS account?
 Nothing will happen to the information stored in your USAJOBS account and profile.  You will keep all of your applications, saved searches and saved jobs.
@@ -22,7 +22,7 @@ Once you set up a login.gov account, we will link it back to your USAJOBS accoun
 ## What do I need to do?
 Once USAJOBS starts using login.gov, you will receive an email from us asking you to set up a login.gov account.  Follow the steps in the email, or we will prompt you the next time you sign into USAJOBS. 
 
-Login.gov will walk you through each step of account set-up, but here’s what you can expect:
+login.gov will walk you through each step of account set-up, but here’s what you can expect:
 
 1.	You’ll need to enter an email address¬–use the same email address you use for USAJOBS (either your primary or secondary email address). 
 2.	You’ll have to enter a phone number¬–it can be a mobile or landline number.
