@@ -20,8 +20,8 @@
 <!-- Title and meta description
 ================================================== -->
 
-  <title>USAJOBS Help Center | Benefits</title>
-  <meta property="og:title" content="USAJOBS Help Center | Benefits" />
+  <title>USAJOBS Help Center | Reading your SF-50 to determine your service and appointment type</title>
+  <meta property="og:title" content="USAJOBS Help Center | Reading your SF-50 to determine your service and appointment type" />
 
 
 
@@ -29,7 +29,7 @@
   <meta property="og:description" content="" />
 
 
-  <link rel="canonical" href="/working-in-government/benefits/" />
+  <link rel="canonical" href="/working-in-government/service/SF-50/" />
 
 <!-- Favicons
 ================================================== -->
@@ -261,10 +261,31 @@
       
 
       <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
-        
-        <span property="name" typeof="WebPage">Benefits</span>
-        
+        <a property="item" class="usajobs-help-center-breadcrumb__link" typeof="WebPage" href="/Help/working-in-government/service/">
+        <span property="name" typeof="WebPage">Service</span>
+        </a>
         <meta property="position" content="2" />
+      </li>
+    
+
+      <!-- Skip if root -->
+      
+
+      <!-- Skip if language directory -->
+      
+
+      <!-- Get breadcrumb title. -->
+      
+      <!-- span property="item" typeof="WebPage"></span -->
+
+      <!-- SEO data -->
+      
+
+      <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
+        
+        <span property="name" typeof="WebPage">SF-50</span>
+        
+        <meta property="position" content="3" />
       </li>
     
   </ul>
@@ -289,16 +310,44 @@
           <div class="usajobs-help-center-article usajobs-content-gutter">
             <main class="usajobs-content-well" id="main-content">
               <div class="usajobs-help-center-article__container">
-                <h1>Benefits</h1>
-                <p>A career with the U.S. Government provides employees with a comprehensive benefits package. As a federal employee, you and your family will have access to a range of benefits that are designed to make your federal career very rewarding.</p>
+                <h1>Reading your SF-50 to determine your service and appointment type</h1>
+                <p>If you don’t know which service you’re in or your appointment type you can refer to your SF-50 (Notification of Personnel Action).</p>
 
-<p>Eligibility for benefits depends on the type of position you hold and whether your position is full-time, part-time, or intermittent. Contact the hiring agency for more information on the specific benefits offered.</p>
+<h2 id="how-to-find-your-sf-50">How to find your SF-50</h2>
 
-<h2 id="additional-resources">Additional resources</h2>
+<p>Each agency has a unique URL for they system that manages their personnel documents. Many agencies use OPM’s eOPF tool. For example, OPM’s eOPF can be found at <a href="https://eopf.opm.gov/opm/">https://eopf.opm.gov/opm/</a> whereas the Social Security Administration’s eOPF can be found at <a href="https://eopf.opm.gov/ssa/">https://eopf.opm.gov/ssa/</a>.</p>
+
+<p>Other agencies and departments host their own version of the eOPF tool. Thus you’ll need to contact the Human Resources (HR) department at your agency to determine how to view your SF-50.</p>
+
+<p>Note that the eOPF tool is often hosted on an internal network and thus only accessible from your agency’s internal network.</p>
+
+<h2 id="how-to-read-your-sf-50">How to read your SF-50</h2>
+
+<h3 id="determining-service">Determining service</h3>
+
+<h4 id="tenure---block-24">Tenure - Block 24</h4>
+
+<p>On your SF-50 look for Block 24 named “Tenure”.</p>
 
 <ul>
-  <li><a href="https://www.usa.gov/benefits-for-federal-employees" title="usa.gov" target="_blank">Benefits for federal employees</a></li>
-  <li><a href="https://www.opm.gov/healthcare-insurance/" title="opm.gov" target="_blank">Healthcare insurance</a></li>
+  <li>A <strong>0</strong> indicates that you may be in the <a href="../../service#senior-executive-service">Senior Executive Service</a> or appointed by the President subject to Senate confirmation. You may also be in a group that is not defined in <a href="http://www.opm.gov/feddata/guidance.asp">The Guide to Data Standards</a>.</li>
+  <li>A <strong>1</strong> indicates that you are a <a href="../../appointments#career-appointment">permanent, career employee</a> and have completed three years of service.</li>
+  <li>A <strong>2</strong> indicates that you are a <a href="../../appointments#career-conditional-appointment">career-conditional employee</a>. You are serving in a permanent position but you have not yet completed three years of service and may be serving an initial probation period.</li>
+  <li>A <strong>3</strong> indicates that you are on a <a href="../../appointments#temporary-appointments">temporary, term, or time-limited appointment</a>.</li>
+  <li>An asterisk indicates that you were appointed via a specific hiring authority that deviates from the above.</li>
+</ul>
+
+<h4 id="position-occupied---block-34">Position occupied - Block 34</h4>
+
+<p>Now look in block 34 named “Position occupied”. The values here will be 1, 2, 3, 4 or asterisk.</p>
+
+<p>Based on these numbers in block 24 and 34 you can determine your service and appointment type as follows:</p>
+
+<ul>
+  <li>Tenure: 1 or 2 and Position occupied: 1-Competitive Service = <a href="../../service#competitive-service">Competitive service</a>.</li>
+  <li>Tenure: 1, 2, or 3 and Position occupied: 2-Excepted Service = <a href="../../service#excepted-service">Excepted service</a>.</li>
+  <li>Tenure: 0 and Position occupied: 1 = Current temporary employee.</li>
+  <li>Tenure: 0 = Most likely the <a href="../../service#senior-executive-service">Senior Executive Service</a></li>
 </ul>
 
               </div>
@@ -313,6 +362,11 @@
               <h3 class="usajobs-help-center-article__related">Related articles</h3>
               <ul class="usajobs-help-center-article__related-list">
                 <li>
+                  <a href="/Help/working-in-government/benefits/">
+                    Benefits
+                  </a>
+                </li>
+                <li>
                   <a href="/Help/working-in-government/us-citizens/">
                     Employment of U.S. Citizens
                   </a>
@@ -325,11 +379,6 @@
                 <li>
                   <a href="/Help/working-in-government/service/">
                     Entering Federal Service
-                  </a>
-                </li>
-                <li>
-                  <a href="/Help/working-in-government/service/SF-50/">
-                    Reading your SF-50 to determine your service and appointment type
                   </a>
                 </li>
                 <li>
@@ -363,7 +412,7 @@
         </p>
         <form name="example" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
           <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
-          <input type="hidden" id="SelectedContactReason" name="SelectedContactReason" value="/working-in-government/benefits/ - Benefits">
+          <input type="hidden" id="SelectedContactReason" name="SelectedContactReason" value="/working-in-government/service/SF-50/ - SF-50">
           
             <fieldset class="usajobs-help-center-contact-us">
   <!-- First name -->

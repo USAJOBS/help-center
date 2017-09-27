@@ -42,7 +42,7 @@ If you use a .gov, .edu, or .mil email as your primary email address, and then y
 ## What if I currently use a .gov, .mil, or .edu email address for my USAJOBS primary email?
 If you currently use a .gov, .mil, or .edu email for your USAJOBS primary email, and you don’t have a secondary email address, you should update your USAJOBS account (before you create a login.gov account) to use a non-government email address. Once you update your USAJOBS primary email address, you can create the login.gov account.
 
-## Can I use a different email address from my USAJOBS email adderss, when setting up my login.gov account?
+## Can I use a different email address from my USAJOBS email address, when setting up my login.gov account?
 
 You can change your email with login.gov AFTER you get through the account set-up process.
 
