@@ -8,7 +8,7 @@ category: Job Announcement
 tags: [job announcement, support-job-announcement, closing type, closing date, cut-off]
 ---
 
-When a job announcment closes, it means you can no longer apply to the job.
+When a job announcement closes, it means you can no longer apply to the job.
 
 Job announcements can close in one of three ways:
 
@@ -18,7 +18,7 @@ Most job announcements close on the closing date that's in the job announcement.
 
 ## Open continuous
 
-Some job announcements stay open indefinitely. You can submit your application at any time, but the job announcement will usually include a date (or several dates) when the hiring agency will select a group of applicants to review. 
+Some job announcements stay open indefinitely. You can submit your application at any time, but the job announcement will usually include a date (or several dates) when the hiring agency will select a group of applicants to review.
 
 For example, the job announcement may say it will review applications on July 30, August 30 and so on. If you submit an application on August 1, the hiring agency will review your application starting on August 30.
 

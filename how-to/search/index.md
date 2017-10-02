@@ -14,7 +14,7 @@ You can search for jobs by typing in a keyword or location into the search box l
 Search by job title, department, agency, job series or other keywords.  Learn more about [how to search by keyword](keyword/).
 
 ## Search by location
-Search for jobs by entering a country, state, city or zip code in the location search box. When you start typing, we’ll offer suggestions to help narrow your search.  If you search by a city, we’ll include all jobs within a 25-mile radius.  Learn more about [how to search by location](filters/location/).
+Search for jobs by entering a country, state, city or zip code in the location search box. When you start typing, we’ll offer suggestions to help narrow your search.  If you search by a city, we’ll include all jobs within a 25 mile radius.  Learn more about [how to search by location](filters/location/).
 
 ## Filter your search results
 On the search results page, you can filter your results using multiple criteria, including:
@@ -33,4 +33,3 @@ On the search results page, you can filter your results using multiple criteria,
 [Learn more about filters](filters/).
 
 [Understand your search results](results/).
-

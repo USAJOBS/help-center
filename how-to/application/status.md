@@ -94,7 +94,7 @@ Yes. If you [fax a resume or any other documents](../../account/documents/fax/),
 
 ## How long can you keep your applications?
 
-We will permanently remove all applications (active and archived) 36 months after the closing date, regardless of the application status. We recommend printing the announcements for which you have applied if you wish to keep a record of them beyond the 36-month period.
+We will permanently remove all applications (active and archived) 36 months after the closing date, regardless of the application status. We recommend printing the announcements for which you have applied if you wish to keep a record of them beyond the 36 month period.
 
 ## How to find and filter applications  
 

@@ -21,6 +21,9 @@ module.exports = function(grunt) {
       },
       jekyllBuildProd: {
         command: "bundle exec jekyll build --config _config-prod.yml"
+      },
+      spellCheck: {
+        command: "mdspell -r -n -a --en-us faq/**/*.md how-to/**/*.md working-in-government/**/*.md"
       }
     },
     sass: {
@@ -177,35 +180,6 @@ module.exports = function(grunt) {
       ],
       options: {
         logConcurrentOutput: true
-      }
-    },
-    linkChecker: {
-      // Use a large amount of concurrency to speed up check
-      options: {
-        maxConcurrency: 20,
-        noFragment: true
-      },
-      dev: {
-        site: 'localhost',
-        options: {
-          initialPort: 4001
-        }
-      },
-      staging: {
-        site: 'usajobs.github.io/Help'
-      }
-    },
-    mdspell: {
-      options: {
-        ignoreAcronyms: true,
-        ignoreNumbers: true
-      },
-      files: {
-        src: [
-        'faq/**/*.md',
-        'how-to/**/*.md',
-        'working-in-government/**/*.md'
-        ]
       }
     },
     htmllint: {

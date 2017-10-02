@@ -17,11 +17,11 @@ We don’t start off any email with a generic greeting such as “Dear User”, 
 
 ## Unknown attachments
 
-We never send any email attachments.  If the email contains an attachment, don’t open or download it. 
+We never send any email attachments.  If the email contains an attachment, don’t open or download it.
 
 ## Unknown links
 
-Many of our emails will contain links, either to a job announcement or to an account management feature.  However, before you click on any link, move your mouse over the link or button to see where it’s going.  If the link looks suspicious, don’t click on it.  Instead, you can type www.usajobs.gov into your web browser and sign into your USAJOBS profile to complete any task.  You can also copy and paste the url into a new web browser.
+Many of our emails will contain links, either to a job announcement or to an account management feature.  However, before you click on any link, move your mouse over the link or button to see where it’s going.  If the link looks suspicious, don’t click on it.  Instead, you can type www.usajobs.gov into your web browser and sign into your USAJOBS profile to complete any task.  You can also copy and paste the URL into a new web browser.
 
 ## Bad grammar and spelling errors
 
@@ -52,11 +52,10 @@ We’re in the process of moving our sign in process over to [login.gov](https:/
 
 ## What if I’m still not sure the email is from USAJOBS?
 
-If you ever receive a suspicious looking email saying it’s from USAJOBS or you’re just not sure, please contact us before following any instructions in the email. 
+If you ever receive a suspicious looking email saying it’s from USAJOBS or you’re just not sure, please contact us before following any instructions in the email.
 
 To contact us:
 
 1.	Click on the **Contact Us** button on the upper right side of the page or towards the bottom of the page.
 2.	Fill out the form and use the comments section to explain what you’re seeing in the email.
 3.	Click **Send**.
-

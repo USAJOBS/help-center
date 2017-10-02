@@ -4,10 +4,10 @@ dist: trusty
 language: node_js
 
 node_js:
-  - "5.3"
+  - "8.4.0"
 
 before_install:
-  - rvm install 2.2.3
+  - rvm install 2.4.1
 
 install:
   - npm install
