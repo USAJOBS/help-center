@@ -24,6 +24,9 @@ module.exports = function(grunt) {
       },
       spellCheck: {
         command: "mdspell -r -n -a --en-us faq/**/*.md how-to/**/*.md working-in-government/**/*.md"
+      },
+      linkChecker: {
+        command: "blc http://usajobs.github.io/Help/ -e -r"
       }
     },
     sass: {
@@ -199,4 +202,5 @@ module.exports = function(grunt) {
   grunt.registerTask('build-prod', ['shell:jekyllBuildProd']);
   grunt.registerTask('css', ['sass', 'autoprefixer', 'cssmin']);
   grunt.registerTask('js', ['jshint:all', 'concat:base', 'browserify', 'concat:components']);
+  grunt.registerTask('test', ['shell:spellCheck', 'htmllint', 'shell:linkChecker']);
 };
