@@ -22,7 +22,7 @@ federal-employees:
 
 internal:
   title: Internal to an agency
-  text: "Some jobs are open only to current employees of an agency."
+  text: "Some jobs are open to current employees of an agency."
   icon: dot-circle-o
   icon-no-image: true
   link-path: internal
@@ -130,12 +130,11 @@ peace-corps:
   include-in-index: true
 
 former-overseas-employees:
-  title: Former Overseas Employees
+  title: Family of Overseas Employee
   text: "If you're a family member of a federal employee, or uniformed service member, who has completed 52 weeks of service in a federal position overseas, you may be eligible to apply for jobs open to merit promotion candidates or be hired for a competitive service job."
-  subtext: Family members
   image-alt: "Fighter jets"
   icon: plane
   link-path: former-overseas-employees
-  search-filter-desc: "Jobs open to family members of federal employees who’ve worked overseas."
+  search-filter-desc: "Jobs open to family members of federal employees who have worked overseas or are currently overseas."
   search-filter-value: "overseas"
   include-in-index: true
