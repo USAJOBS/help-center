@@ -438,10 +438,55 @@ Your application is among the best qualified and is referred to the next step in
             </main>
             <aside class="usajobs-rightrail">
               <div class="usajobs-help-center-article__reveal-contact-us">
-                <a class="usa-button usa-button-big usa-button-primary" href="#contact-us-form" data-behavior="help-article.contact" aria-controls="contact-us-form">
-                  <i class="fa fa-envelope"></i> Contact us
-                </a>
-              </div>
+  <a class="usa-button usa-button-big usa-button-primary usajobs-help-center-article__contact-us-cta" href="#contact-us-form" data-behavior="help-article.contact" aria-controls="contact-us-form">
+    <i class="fa fa-envelope"></i> Contact us
+  </a>
+  <div class="usajobs-help-center-article__print-share-container">
+    <div class="usajobs-help-center-article__print usajobs-help-center-article-print">
+      <button class="usajobs-help-center-article-print__trigger" id="article-print" href="#print" data-behavior="help-article.print">
+        <i class="fa fa-print"></i> Print
+      </button>
+    </div>
+    <div class="usajobs-help-center-article__share usajobs-help-center-article-share">
+      <button class="usajobs-help-center-article-share__trigger" id="article-share" href="#share" data-behavior="help-article.toggle-share" aria-haspopup="true">
+        <i class="fa fa-share-alt"></i> Share
+      </button>
+      <ul class="usajobs-help-center-article-share__list" id="help-article-share-menu" aria-hidden="true" aria-labeledby="article-share">
+        <li class="usajobs-help-center-article-share__item">
+          <a href="mailto:?subject=USAJOBS Help Center article - How to see your application status&amp;body=Read more about How to see your application status at /how-to/application/status/" class="usajobs-help-center-article-share__link email" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-envelope-square"></i> <span class="sr-only">Email</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.usajobs.gov%2FHelp%2Fhow-to%2Fapplication%2Fstatus%2F%3Fshare%3Dfacebook&amp;t=USAJOBS%20Help%20Center%20Article" class="usajobs-help-center-article-share__link facebook" target="_blank" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-facebook-square"></i> <span class="sr-only">Facebook</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.usajobs.gov%2FHelp%2Fhow-to%2Fapplication%2Fstatus%2F" class="usajobs-help-center-article-share__link google" target="_blank" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-google-plus-square"></i> <span class="sr-only">Google+</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.usajobs.gov%2FHelp%2Fhow-to%2Fapplication%2Fstatus%2F%3Fshare%3Dlinkedin&amp;title=USAJOBS%20Help%20Center%20Article&amp;ro=false&amp;summary=&amp;source=" class="usajobs-help-center-article-share__link linkedin" target="_blank" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-linkedin-square"></i> <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="https://twitter.com/intent/tweet?text=USAJOBS%20Help%20Center%20https%3A%2F%2Fwww.usajobs.gov%2FHelp%2Fhow-to%2Fapplication%2Fstatus%2F%3Fshare%3Dtwitter&amp;source=webclient" class="usajobs-help-center-article-share__link twitter" target="_blank" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-twitter-square"></i> <span class="sr-only">Twitter</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="#help-article-share-menu" data-shorten-url="https://www.usajobs.gov/Help/how-to/application/status/" class="usajobs-help-center-article-share__link link" data-behavior="help-article.shorten-link" data-target="#help-article-share-menu">
+            <i class="fa fa-chain"></i> <span class="sr-only">Shorten link</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
               
               <h3 class="usajobs-help-center-article__related">Related articles</h3>
               <ul class="usajobs-help-center-article__related-list">
@@ -484,7 +529,7 @@ Your application is among the best qualified and is referred to the next step in
 <div class="usajobs-content-gutter usajobs-help-center-article-contact">
   <ul class="usa-accordion usajobs-help-center-article-contact__list">
     <li>
-      <button class="usa-accordion-button usajobs-help-center-article-contact__button" aria-expanded="false" aria-controls="contact-us-form" data-behavior="help-article.contact-event">
+      <button class="usa-accordion-button usa-button-unstyled usajobs-help-center-article-contact__button" aria-expanded="false" aria-controls="contact-us-form" data-behavior="help-article.contact-event">
         Still need help?
         <span class="usa-button usa-button-big usa-button-outline-inverse">
           <i class="fa fa-envelope"></i>
