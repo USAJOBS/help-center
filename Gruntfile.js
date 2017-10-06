@@ -191,7 +191,10 @@ module.exports = function(grunt) {
       all: {
         options: {
           errorlevels: ['error'],
-          ignore: 'Element “img” is missing required attribute “src”.'
+          ignore: [
+            'Element “img” is missing required attribute “src”.',
+            'Attribute “aria-labeledby” not allowed on element “ul” at this point.',
+          ]
         },
         src: [ '_dist/**/*.html' ]
       }
