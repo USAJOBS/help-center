@@ -21,11 +21,7 @@
               </div>
             </main>
             <aside class="usajobs-rightrail">
-              <div class="usajobs-help-center-article__reveal-contact-us">
-                <a class="usa-button usa-button-big usa-button-primary" href="#contact-us-form" data-behavior="help-article.contact" aria-controls="contact-us-form">
-                  <i class="fa fa-envelope"></i> Contact us
-                </a>
-              </div>
+              {% include components/article/contact-print-share.html %}
               {% strip %}
               {% assign sorted_pages = site.html_pages | sort:"title" %}
               <h3 class="usajobs-help-center-article__related">Related articles</h3>

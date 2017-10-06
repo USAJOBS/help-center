@@ -1,6 +1,7 @@
 // Article
 
 @import 'base-shared';
+@import 'component/actions';
 
 .usajobs-help-center-article {
   @include clearfix();
@@ -107,6 +108,42 @@
 
   &__reveal-contact-us {
     margin-top: $size-default;
+  }
+
+  &__contact-us-cta {
+    @include media($SM) {
+      width: $button-max-width;
+    }
+  }
+
+  &__print-share-container {
+    @include clearfix();
+    text-align: center;
+
+    @include media($SM) {
+      max-width: $button-max-width;
+    }
+  }
+
+  &__print,
+  &__share {
+    float: left;
+    width: 50%;
+  }
+}
+
+.usajobs-help-center-article-print {
+  &__trigger {
+    @include removeButton();
+  }
+}
+
+.usajobs-help-center-article-share {
+  @include actionShare();
+
+  &__trigger {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 

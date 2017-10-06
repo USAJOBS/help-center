@@ -87,7 +87,7 @@ module.exports = function(grunt) {
     browserify: {
       dist: {
         src: [ 'js/glossary.js'],
-        dest: 'js/components/glossary.js'
+        dest: 'js/vendor/glossary.js'
       }
     },
     concat: {
@@ -95,7 +95,6 @@ module.exports = function(grunt) {
         src: [
           'node_modules/usajobs-design-system/js/usajobs-design-system-base.js',
           'node_modules/usajobs-design-system/js/components/usds-components.js',
-          'node_modules/usajobs-design-system/js/components/accordion.js',
           'node_modules/usajobs-design-system/js/components/footer.js',
           'node_modules/usajobs-design-system/js/components/modal.js',
           'node_modules/usajobs-design-system/js/components/nav.js'
@@ -107,6 +106,7 @@ module.exports = function(grunt) {
           'node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js',
           'js/vendor/picturefill.min.js',
           'js/vendor/search.min.js',
+          'js/vendor/glossary.js',
           'js/components/*.js'
         ],
         dest: 'js/usajobs-help-center-components.js'
@@ -116,12 +116,14 @@ module.exports = function(grunt) {
       jshintrc: true,
       all: [
         'Gruntfile.js',
+        'js/glossary.js',
         'js/components/*.js',
         '!js/vendor/*.js',
         '!js/usajobs-help-center.js',
-        '!js/components/glossary*.js'
+        '!js/usajobs-help-center-components.js'
       ],
       components: [
+        'js/glossary.js',
         'js/components/*.js'
       ],
       gruntfile: 'Gruntfile.js'
