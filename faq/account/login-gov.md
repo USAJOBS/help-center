@@ -12,7 +12,7 @@ tags: [account, login.gov]
 login.gov is a service that offers secure and private online access to government programs, such as federal benefits, services and applications. With a login.gov account, you can sign into multiple government websites with the same username and password.
 
 ## Why is USAJOBS using login.gov?
-login.gov uses two-factor authentication, and stronger passwords, that meet new [National Institute of Standards of Technology](https://www.nist.gov/) requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of [security](https://login.gov/security/) to help protect your USAJOBS account against password compromises.
+login.gov uses two-factor authentication, and stronger passwords, that meet new [National Institute of Standards of Technology](https://www.nist.gov/) requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your USAJOBS account against password compromises.
 
 ## What will happen to my USAJOBS account?
 Nothing will happen to the information stored in your USAJOBS account and profile.  You will keep all of your applications, saved searches, and saved jobs.
@@ -45,5 +45,3 @@ If you currently use a .gov, .mil, or .edu email for your USAJOBS primary email,
 ## Can I use a different email address from my USAJOBS email address, when setting up my login.gov account?
 
 You can change your email with login.gov AFTER you get through the account set-up process.
-
-Learn more about [login.gov](https://login.gov/).
