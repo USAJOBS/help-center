@@ -135,6 +135,6 @@ former-overseas-employees:
   image-alt: "Fighter jets"
   icon: plane
   link-path: former-overseas-employees
-  search-filter-desc: "Jobs open to family members of federal employees who have worked overseas or are currently overseas."
+  search-filter-desc: "Family members of a federal employee or uniformed service member who is, or was, working overseas."
   search-filter-value: "overseas"
   include-in-index: true
