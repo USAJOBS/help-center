@@ -129,12 +129,12 @@ peace-corps:
   search-filter-value: "peace"
   include-in-index: true
 
-former-overseas-employees:
-  title: Family of Overseas Employee
-  text: "If you're a family member of a federal employee, or uniformed service member, who has completed 52 weeks of service in a federal position overseas, you may be eligible to apply for jobs open to merit promotion candidates or be hired for a competitive service job."
+family-of-overseas-employees:
+  title: Family of overseas employees
+  text: "The Federal Government offers several hiring programs for family members of federal employees, or uniformed service members, who are working or have worked overseas."
   image-alt: "Fighter jets"
   icon: plane
-  link-path: former-overseas-employees
+  link-path: family-of-overseas-employees
   search-filter-desc: "Family members of a federal employee or uniformed service member who is, or was, working overseas."
   search-filter-value: "overseas"
   include-in-index: true

@@ -321,11 +321,11 @@ html {
   display: block;
 }
 
-.usajobs-uhp-banner--former-overseas-employees .usajobs-uhp-banner__body {
+.usajobs-uhp-banner--family-of-overseas-employees .usajobs-uhp-banner__body {
   background-color: #046b99;
 }
 
-.usajobs-uhp-banner--former-overseas-employees .usajobs-uhp-banner__icon .fa {
+.usajobs-uhp-banner--family-of-overseas-employees .usajobs-uhp-banner__icon .fa {
   display: inline-block;
   width: 16.4rem;
   height: 8.2rem;
@@ -715,7 +715,7 @@ html {
   box-shadow: 0 0 0 2px none inset;
 }
 
-.usajobs-uhp-search-banner__filters-uhp-icon.former-overseas-employees {
+.usajobs-uhp-search-banner__filters-uhp-icon.former-overseas-employees, .usajobs-uhp-search-banner__filters-uhp-icon.family-of-overseas-employees {
   display: inline-block;
   width: 29px;
   height: 29px;
@@ -1627,7 +1627,7 @@ html {
   box-shadow: 0 0 0 2px none inset;
 }
 
-.usajobs-unique-hiring-paths__icon.former-overseas-employees {
+.usajobs-unique-hiring-paths__icon.former-overseas-employees, .usajobs-unique-hiring-paths__icon.family-of-overseas-employees {
   display: inline-block;
   width: 44px;
   height: 44px;
@@ -1873,7 +1873,7 @@ html {
   color: #4c2c92;
 }
 
-.usajobs-uhp-section-nav__icon.former-overseas-employees {
+.usajobs-uhp-section-nav__icon.family-of-overseas-employees {
   color: #046b99;
 }
 
@@ -7550,7 +7550,7 @@ html {
   box-shadow: 0 0 0 2px none inset;
 }
 
-.usajobs-uhp-section__filters-uhp-icon.former-overseas-employees {
+.usajobs-uhp-section__filters-uhp-icon.former-overseas-employees, .usajobs-uhp-section__filters-uhp-icon.family-of-overseas-employees {
   display: inline-block;
   width: 31px;
   height: 31px;
