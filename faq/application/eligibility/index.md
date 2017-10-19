@@ -10,7 +10,7 @@ tags: [eligibility]
 
 Understanding your eligibility will help you know which jobs you should apply to. There are several different eligibilities in the Federal Government; we call them ‘hiring paths’.
 
-You can apply to any job, but you may not be eligible for the job if you don’t fall into one of the required hiring paths. If you’re not eligible, the hiring agency won’t look at your application. 
+You can apply to any job, but you may not be eligible for the job if you don’t fall into one of the required hiring paths. If you’re not eligible, the hiring agency won’t look at your application.
 
 For example, if you’re a U.S. citizen, you’re eligible for jobs that are ‘Open to the public’. If you’re a current or former federal employee, you’re eligible for jobs that are ‘Open to the public’ and ‘Federal employees’.
 
@@ -20,7 +20,7 @@ The job announcement may list the following:
 
 * [Open to the public](../../../working-in-government/unique-hiring-paths/public/)
 * [Federal employees](../../../working-in-government/unique-hiring-paths/federal-employees/)
-* [Former overseas employees](../../../working-in-government/unique-hiring-paths/former-overseas-employees/)
+* [Family of overseas employees](../../../working-in-government/unique-hiring-paths/family-of-overseas-employees/)
 * [Individuals with a disability](../../../working-in-government/unique-hiring-paths/individuals-with-disabilities/)
 * [Military spouses](../../../working-in-government/unique-hiring-paths/military-spouses/)
 * [National Guard & Reserves](../../../working-in-government/unique-hiring-paths/national-guard/)

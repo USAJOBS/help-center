@@ -70,10 +70,11 @@ If you’re an individual with a disability you can apply and compete for any jo
 
 [Learn more about the individuals with a disability hiring path](../../../../working-in-government/unique-hiring-paths/individuals-with-disabilities/).
 
-## Former overseas employees
-If you're a family member of a federal employee, or uniformed service member, who has completed 52 weeks of service in a federal position overseas, you may be eligible to apply for competitive service positions or those open to merit promotion candidates. Select this option to see jobs open to former overseas employees.
+## Family of overseas employees
 
-[Learn more about former overseas employees hiring path](../../../../working-in-government/unique-hiring-paths/former-overseas-employees/).
+If you’re currently overseas with a family member, and moving back to the United States, you may be eligible for a competitive service job without having to compete with the public. If you’re moving overseas, because a family member has been assigned to an overseas duty of station, you may be eligible to apply for overseas jobs with the Federal Government.
+
+[Learn more about the family of overseas employees hiring path](../../../../working-in-government/unique-hiring-paths/family-of-overseas-employees/).
 
 ## Land management
 Select this option if you want to see jobs open to current or former time-limited federal employees under the Land Management Workforce Flexibility Act.

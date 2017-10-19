@@ -9,12 +9,12 @@ tags: [job announcement, who may apply, this job is open to, eligibility, eligib
 ---
 
 The **This job is open to** section tells you who is eligible to apply to the job. Make sure you’re eligible before applying.
- 
+
 The job announcement may list the following:
- 
+
 * [Open to the public](../../../working-in-government/unique-hiring-paths/public/)
 * [Federal employees](../../../working-in-government/unique-hiring-paths/federal-employees/)
-* [Former overseas employees](../../../working-in-government/unique-hiring-paths/former-overseas-employees/)
+* [Family of overseas employees](../../../working-in-government/unique-hiring-paths/family-of-overseas-employees/)
 * [Individuals with disabilities](../../../working-in-government/unique-hiring-paths/individuals-with-disabilities/)
 * [Military spouses](../../../working-in-government/unique-hiring-paths/military-spouses/)
 * [National Guard & Reserves](../../../working-in-government/unique-hiring-paths/national-guard/)
