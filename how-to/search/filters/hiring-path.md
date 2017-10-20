@@ -94,9 +94,9 @@ Select this option if you want to see jobs open to people with a tribal affiliat
 If you’ve served at least two years with Peace Corps or one year with AmeriCorps VISTA you may qualify for non-competitive eligibility.
 [Learn more about the Peace Corps and AmeriCorps VISTA hiring path](../../../../working-in-government/unique-hiring-paths/peace-corps/).
 
-## Senior Executives
+## Senior Executive Service
 The Senior Executive Service (SES) consists of executive positions classified above General Schedule (GS) grade 15 or equivalent positions in most Executive Branch agencies of the Federal Government. You must meet the five Executive Core Qualifications to be eligible for these jobs. Select this option if you want to see jobs open to the Senior Executive Service.
-[Learn more about the Senior Executive hiring path](../../../../working-in-government/unique-hiring-paths/senior-executives/).
+[Learn more about the Senior Executive hiring path](../../../../working-in-government/unique-hiring-paths/senior-executive-service/).
 
 Learn more about [which jobs you are eligible to apply for](../../../../faq/application/eligibility/).
 

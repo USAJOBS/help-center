@@ -20,6 +20,6 @@ The job announcement may list the following:
 * [National Guard & Reserves](../../../working-in-government/unique-hiring-paths/national-guard/)
 * [Native American and Alaskan Natives](../../../working-in-government/unique-hiring-paths/native-americans/)
 * [Peace Corps & VISTA alumni](../../../working-in-government/unique-hiring-paths/peace-corps/)
-* [Senior executives](../../../working-in-government/unique-hiring-paths/senior-executives/)
+* [Senior Executive Service](../../../working-in-government/unique-hiring-paths/senior-executive-service/)
 * [Students & recent graduates](../../../working-in-government/unique-hiring-paths/students/)
 * [Veterans](../../../working-in-government/unique-hiring-paths/veterans/)

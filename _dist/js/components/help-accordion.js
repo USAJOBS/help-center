@@ -36,16 +36,22 @@ $help_accordion.on('help-accordion.toggle', function(event, opts) {
   if (opts.state === 'true') {
     opts.target.slideDown(function () {
       // Clean up and remove any style elements from other drawers
-      opts.object.find('.usa-accordion-content[aria-hidden=true]').slideUp();
+      // opts.object.find('.usa-accordion-content[aria-hidden=true]').slideUp();
+      opts.el.attr('aria-expanded', 'true');
 
       $('html, body').animate({
         scrollTop: opts.object.offset().top
+      }, 300, function () {
+        opts.target.attr('aria-hidden', 'false');
       });
     });
   } else {
     opts.target.slideUp(function () {
+      opts.el.attr('aria-expanded', 'false');
       $('html, body').animate({
         scrollTop: opts.object.offset().top
+      }, 300, function () {
+        opts.target.attr('aria-hidden', 'true');
       });
     });
   }

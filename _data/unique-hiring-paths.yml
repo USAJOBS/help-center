@@ -94,11 +94,11 @@ students:
   include-in-index: true
 
 ses:
-  title: Senior Executives
+  title: Senior Executive Service
   text: "You may be eligible for a Senior Executive Service position if you meet the five Executive Core Qualifications (ECQs)."
   image-alt: "A pen resting on an open notebook."
   icon: briefcase
-  link-path: senior-executives
+  link-path: senior-executive-service
   search-filter-desc: "Jobs open to individuals who meet the five Executive Core Qualifications (ECQs)."
   search-filter-value: "ses"
   include-in-index: true

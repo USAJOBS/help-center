@@ -52,21 +52,21 @@ $article.on('help-article.contact', function(event, opts) {
 $article.on('help-article.contact-event', function(event, opts) {
   event.preventDefault();
   if (opts.el.attr('aria-expanded') === 'false') {
-    opts.target.slideUp(function () {
-      $('html, body').animate({
-        scrollTop: opts.object.offset().top
-      });
-    });
-
-    fireEvent('close', 'USAJOBS_' + window.location.pathname);
-  } else {
     opts.target.slideDown(function () {
+      opts.el.attr('aria-expanded', 'true');
       $('html, body').animate({
         scrollTop: opts.target.offset().top
       });
     });
-
     fireEvent('open', 'USAJOBS_' + window.location.pathname);
+  } else {
+    opts.target.slideUp(function () {
+      opts.el.attr('aria-expanded', 'false');
+      $('html, body').animate({
+        scrollTop: opts.object.offset().top
+      });
+    });
+    fireEvent('close', 'USAJOBS_' + window.location.pathname);
   }
 });
 
