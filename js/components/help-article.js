@@ -18,13 +18,15 @@ var $article = $('[data-object="help-article"]'),
       drawer_state = $(drawer).attr('aria-expanded');
 
       if (drawer_state === 'false') {
-        $article.find('#' + $(drawer).attr('aria-controls')).hide();
+        $article.find('#' + $(drawer).attr('aria-controls'))
+          .attr('aria-hidden', 'true')
+          .hide();
       }
     });
   };
 
 // Hide drawer contents that should be hidden by default
-// hideContentByDefault();
+hideContentByDefault();
 
 $article.on('click', '[data-behavior]', function (event) {
   var $el = $(this),
@@ -49,7 +51,6 @@ $article.on('help-article.contact', function(event, opts) {
   fireEvent('select', 'USAJOBS_' + window.location.pathname);
 });
 
-/*
 $article.on('help-article.contact-event', function(event, opts) {
   event.preventDefault();
   if (opts.el.attr('aria-expanded') === 'false') {
@@ -57,6 +58,8 @@ $article.on('help-article.contact-event', function(event, opts) {
       opts.el.attr('aria-expanded', 'true');
       $('html, body').animate({
         scrollTop: opts.target.offset().top
+      }, 300, function () {
+        opts.target.attr('aria-hidden', 'false');
       });
     });
     fireEvent('open', 'USAJOBS_' + window.location.pathname);
@@ -65,12 +68,13 @@ $article.on('help-article.contact-event', function(event, opts) {
       opts.el.attr('aria-expanded', 'false');
       $('html, body').animate({
         scrollTop: opts.object.offset().top
+      }, 300, function () {
+        opts.target.attr('aria-hidden', 'true');
       });
     });
     fireEvent('close', 'USAJOBS_' + window.location.pathname);
   }
 });
-*/
 
 $article.on('help-article.print', function(event, opts) {
   var article = document.getElementById('main-content').innerHTML,
