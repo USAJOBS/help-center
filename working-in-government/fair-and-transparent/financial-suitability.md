@@ -2,7 +2,7 @@
 permalink: working-in-government/fair-and-transparent/financial-suitability/
 layout: article
 section: working-in-government
-title: Financial Suitability
+title: Financial suitability
 breadcrumb: Financial Suitability
 category: fair-and-transparent
 tags: [financial, legal, suitability, unemployed, unemployment, qualifications]
