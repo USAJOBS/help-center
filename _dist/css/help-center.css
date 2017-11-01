@@ -5949,6 +5949,7 @@ html {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  background-color: #f1f1f1;
 }
 
 .usajobs-help-center-article-contact__list > li {

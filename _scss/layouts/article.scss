@@ -153,6 +153,7 @@
 
   &__list {
     @include unstyledList();
+    background-color: $color-gray-lightest;
   }
 
   &__form-container {

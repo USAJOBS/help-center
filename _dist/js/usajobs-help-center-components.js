@@ -3545,7 +3545,7 @@ var $article = $('[data-object="help-article"]'),
     }
   },
   hideContentByDefault = function () {
-    var $drawers = $article.find('[data-behavior="help-article.contact-event"]'),
+    var $drawers = $article.find('[data-behavior="help-article.contact-us-toggle"]'),
       drawer_state;
 
     $.each($drawers, function (idx, drawer) {
@@ -3585,7 +3585,7 @@ $article.on('help-article.contact', function(event, opts) {
   fireEvent('select', 'USAJOBS_' + window.location.pathname);
 });
 
-$article.on('help-article.contact-event', function(event, opts) {
+$article.on('help-article.contact-us-toggle', function(event, opts) {
   event.preventDefault();
   if (opts.el.attr('aria-expanded') === 'false') {
     opts.target.slideDown(function () {
