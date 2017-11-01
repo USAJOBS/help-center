@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+
+
+
+
+  <head>
+    <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Specific Metas
+================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Title and meta description
+================================================== -->
+
+  <title>USAJOBS Help Center | What is login.gov and why do I have to create an account?</title>
+  <meta property="og:title" content="USAJOBS Help Center | What is login.gov and why do I have to create an account?" />
+
+
+
+  <meta name="description" content="">
+  <meta property="og:description" content="" />
+
+
+  <link rel="canonical" href="/faq/account/login-gov/" />
+
+<!-- Favicons
+================================================== -->
+  <!-- 128x128 -->
+  <link rel="shortcut icon" type="image/ico" href="/Help/img/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="/Help/img/favicons/favicon.png" />
+
+  <!-- 192x192, as recommended for Android
+  http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
+  -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/favicons/favicon-192.png" />
+
+  <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+  <link rel="apple-touch-icon" href="/img/favicons/favicon-57.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/favicon-72.png">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/favicon-114.png">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/favicon-144.png">
+
+
+<!-- CSS
+================================================== -->
+  <link rel="stylesheet" href="/Help/css/vendor/font-awesome.min.css">
+  <link rel="stylesheet" href="/Help/css/usajobs-design-system-base--help-center.css">
+  <link rel="stylesheet" href="/Help/css/help-center.css">
+
+  </head>
+  <body>
+    <header class="usajobs-site-header" role="banner" aria-label="header">
+  <!-- Gov banner BEGIN -->
+  <div class="usa-banner">
+    <div class="usa-accordion">
+      <div class="usa-banner-header usajobs-nav--vTest__banner-header">
+        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-inner">
+          <img src="/Help/img/favicons/favicon-57.png" alt="U.S. flag">
+          <p>An official website of the United States government</p>
+          <button class="usa-button usa-banner-button"
+            aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner-button-text">Here's how you know</span>
+          </button>
+        </div>
+        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-warning">
+          <p><i class="fa fa-exclamation-circle"></i> This is a FAKE environment. The jobs and information on this system are not real.</p>
+        </div>
+      </div>
+      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+        <div class="usa-banner-guidance-gov usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="/Help/img/icon-dot-gov.svg" alt="Dot gov">
+          <div class="usa-media_block-body">
+            <p>
+              <strong>The .gov means it’s official.</strong>
+              <br>
+              Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner-guidance-ssl usa-width-one-half">
+          <img class="usa-banner-icon usa-media_block-img" src="/Help/img/icon-https.svg" alt="SSL">
+          <div class="usa-media_block-body">
+            <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Gov banner END -->
+  <nav class="usajobs-nav usajobs-nav--full_bleed usajobs-nav--vTest usajobs-nav--search" role="navigation" aria-label="main navigation" data-object="nav" data-behavior="">
+    <div class="usajobs-nav__body usajobs-nav--full_bleed__body">
+      <div class="usajobs-nav__header-container">
+        <div class="usajobs-nav__header usajobs-nav--full_bleed__header">
+          <div class="usajobs-nav__brand-container">
+            <a class="usajobs-nav__brand usajobs-nav--vTest__brand usajobs-nav--full_bleed__brand" href="/Help/">
+              <span class="logo" title="USAJOBS logo"></span>
+              <span class="test">FAKE <i class="fa fa-exclamation-circle"></i></span>
+            </a>
+          </div>
+          <div class="usajobs-nav__menu" id="usajobs-menu">
+            <ul>
+              <li class="usajobs-nav__menu-container usajobs-nav__account">
+                <a class="usajobs-nav__section-link menu-toggle user-logged-out" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home" title="Account-Logged Out">
+                  <span class="fa fa-user"></span>
+                  <span class="usajobs-nav__account_name">Sign In</span>
+                  <span class="usajobs-nav__first_name">Sign In</span>
+                </a>
+              </li>
+              <li class="usajobs-nav__menu-container usajobs-nav__help">
+                <a class="usajobs-nav__section-link is-active" href="/Help/" title="Help">
+                  <span class="fa fa-question-circle"></span>
+                  Help
+                </a>
+              </li>
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed">
+                <a id="nav-menu-search-toggle" data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v2-unauth" class="usajobs-nav__section-link usajobs-nav--search__section-link" href="/Help/" title="Job Search">
+                  <span class="fa fa-search"></span>
+                  Search
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="usajobs-search-form-v2-unauth" class="usajobs-nav__search" aria-expanded="false" role="menu">
+          <form action="/Search" method="get" novalidate="novalidate" role="search">
+            <fieldset class="usajobs-nav--full_bleed__search-body">
+              <div class="usajobs-nav__search-keywords-container">
+                <label for="search-keyword">
+                  <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
+                  Keywords
+                </label>
+                <input id="search-keyword" name="keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, dept., agency, series, or keyword" type="text" value="" autocomplete="off">
+                <input type="hidden" id="search-keyword-autocomplete" name="search-keyword-autocomplete">
+                <div id="search-keyword-autocomplete-container"></div>
+              </div>
+              <div class="usajobs-nav__search-location-container">
+                <label class="usajobs-nav__location-label" for="search-location-2">
+                  <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
+                  Location
+                </label>
+                <input id="search-location-2" name="location_name" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="" autocomplete="off">
+                <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+                <input type="hidden" id="AutoCompleteSelected" name="AutoCompleteSelected">
+              </div>
+              <div class="usajobs-nav__search-button-container usajobs-nav--full_bleed__search-button-container">
+                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button" data-behavior="nav.close_refiners">
+                  Search
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+    <div class="usajobs-help-center">
+      <div class="usajobs-help-center-search-banner--with-nav ">
+  <div role="search" id="search" class="usajobs-help-center-search-banner__container">
+    <form class="usa-search usa-search-big" action="/Help/search" method="get">
+      <h1 class="usajobs-help-center-search-banner__title" id="title">
+        <a href="/Help/" class="usajobs-help-center-search-banner__link">Help Center</a>
+      </h1>
+      <label class="usa-sr-only" for="search-query">Search</label>
+      <input type="search" id="search-query" name="q" placeholder="Search for help" autocomplete="off" >
+      <button type="submit" class="usajobs-help-center-search-banner__submit">
+        <span class="usa-search-submit-text">Search</span>
+      </button>
+    </form>
+  </div>
+  <nav class="usajobs-help-center-nav-secondary " role="navigation">
+  <div class="usajobs-help-center-nav-secondary__body">
+    <ul class="usajobs-help-center-nav-secondary__menu">
+      <li class="usajobs-help-center-nav-secondary__container faq is-active">
+        <a class="usajobs-help-center-nav-secondary__item" href="/Help/faq/">
+          FAQs
+        </a>
+      </li>
+      <li class="usajobs-help-center-nav-secondary__container how-to ">
+        <a class="usajobs-help-center-nav-secondary__item" href="/Help/how-to/">
+          How to&hellip;
+        </a>
+      </li>
+      <li class="usajobs-help-center-nav-secondary__container working-in-government ">
+        <a class="usajobs-help-center-nav-secondary__item" href="/Help/working-in-government/">
+          <span class="usajobs-help-center-nav-secondary__text-long">Working in</span> Government
+        </a>
+      </li>
+      <li class="usajobs-help-center-nav-secondary__container glossary">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-center-nav-secondary__glossary-trigger">
+          Glossary
+        </button>
+       </li>
+    </ul>
+  </div>
+</nav>
+
+</div>
+
+      
+
+<div class="usajobs-help-center-breadcrumb usajobs-help-center-breadcrumb--">
+  <ul vocab="http://schema.org" typeof="BreadcrumbList" class="usajobs-help-center-breadcrumb__list">
+    <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
+      <a class="usajobs-help-center-breadcrumb__link" property="item" typeof="WebPage" href=/Help/>
+        Help
+      </a>
+    </li>
+    <!-- Iteration breadcrumb item -->
+    
+    
+
+      <!-- Skip if root -->
+      
+        
+
+      <!-- Skip if root -->
+      
+
+      <!-- Skip if language directory -->
+      
+
+      <!-- Get breadcrumb title. -->
+      
+      <!-- span property="item" typeof="WebPage"></span -->
+
+      <!-- SEO data -->
+      
+
+      <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
+        <a property="item" class="usajobs-help-center-breadcrumb__link" typeof="WebPage" href="/Help/faq/">
+        <span property="name" typeof="WebPage">FAQs</span>
+        </a>
+        <meta property="position" content="1" />
+      </li>
+    
+
+      <!-- Skip if root -->
+      
+
+      <!-- Skip if language directory -->
+      
+
+      <!-- Get breadcrumb title. -->
+      
+      <!-- span property="item" typeof="WebPage"></span -->
+
+      <!-- SEO data -->
+      
+
+      <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
+        <a property="item" class="usajobs-help-center-breadcrumb__link" typeof="WebPage" href="/Help/faq/account/">
+        <span property="name" typeof="WebPage">Account</span>
+        </a>
+        <meta property="position" content="2" />
+      </li>
+    
+
+      <!-- Skip if root -->
+      
+
+      <!-- Skip if language directory -->
+      
+
+      <!-- Get breadcrumb title. -->
+      
+      <!-- span property="item" typeof="WebPage"></span -->
+
+      <!-- SEO data -->
+      
+
+      <li class="usajobs-help-center-breadcrumb__item" property="itemListElement" typeof="ListItem">
+        
+        <span property="name" typeof="WebPage">Login-gov</span>
+        
+        <meta property="position" content="3" />
+      </li>
+    
+  </ul>
+</div>
+
+
+      <section class="usajobs-shell usajobs-shell--large" data-object="help-article">
+        <section class="usajobs-canvas">
+          
+ <div id="glossary" class="usajobs-help-center-glossary-panel" aria-describedby="glossary-title" aria-hidden="true">
+   <button title="Close glossary" class="js-glossary-close usajobs-help-center-glossary-panel__close-button usa-button usa-button-outline-inverse">
+     <span class="fa fa-times"></span> Close
+   </button>
+   <h2 id="glossary-title" class="usajobs-help-center-glossary-panel__title">
+     Glossary
+   </h2>
+   <label for="glossary-search" class="usajobs-help-center-glossary-panel__label">Filter glossary terms</label>
+   <input id="glossary-search" class="js-glossary-search usajobs-help-center-glossary-panel__search" type="search" placeholder="e.g. Excepted Service">
+   <ul class="js-glossary-list usajobs-help-center-glossary-panel__list"></ul>
+ </div>
+
+          <div class="usajobs-help-center-article usajobs-content-gutter">
+            <main class="usajobs-content-well" id="main-content">
+              <div class="usajobs-help-center-article__container">
+                <h1>What is login.gov and why do I have to create an account?</h1>
+                <h2 id="what-is-logingov">What is login.gov?</h2>
+<p>login.gov is a service that offers secure and private online access to government programs, such as federal benefits, services and applications. With a login.gov account, you can sign into multiple government websites with the same username and password.</p>
+
+<h2 id="why-is-usajobs-using-logingov">Why is USAJOBS using login.gov?</h2>
+<p>login.gov uses two-factor authentication, and stronger passwords, that meet new <a href="https://www.nist.gov/">National Institute of Standards of Technology</a> requirements for secure validation and verification. By using login.gov, you’ll get an extra layer of security to help protect your USAJOBS account against password compromises.</p>
+
+<h2 id="what-will-happen-to-my-usajobs-account">What will happen to my USAJOBS account?</h2>
+<p>Nothing will happen to the information stored in your USAJOBS account and profile.  You will keep all of your applications, saved searches, and saved jobs.</p>
+
+<p>Once you set up a login.gov account, we will link it back to your USAJOBS account. The only difference is you’ll use your login.gov username and password to sign into USAJOBS.</p>
+
+<h2 id="what-do-i-need-to-do">What do I need to do?</h2>
+<p>Once USAJOBS starts using login.gov, you will receive an email from us asking you to set up a login.gov account.  Follow the steps in the email, or we will prompt you the next time you sign into USAJOBS.</p>
+
+<p>login.gov will walk you through each step of account set-up, but here’s what you can expect:</p>
+
+<ol>
+  <li>You’ll need to enter an email address¬–use the same email address you use for USAJOBS (either your primary or secondary email address).</li>
+  <li>You’ll have to enter a phone number¬–it can be a mobile or landline number, but we recommend using a mobile phone number.</li>
+  <li>You’ll get a security code either through text or phone call–this is the ‘two-factor authentication’ piece.</li>
+  <li>You’ll create a personal key–this is your backup if you forget your password or lose your phone.</li>
+</ol>
+
+<p>Once you’ve finished setting up your login.gov account, you’ll go back to USAJOBS to finish the process.  Double check your USAJOBS Profile to make sure all of your information is accurate.</p>
+
+<h2 id="what-email-address-do-i-use-to-create-a-logingov-account">What email address do I use to create a login.gov account?</h2>
+<p>To keep your USAJOBS profile information, you need to use your primary or secondary USAJOBS email when you create your login.gov account. When you use the same email that you use for USAJOBS, we’ll automatically link your USAJOBS account to the login.gov account. If you use a different email address, we’ll allow you to recover your profile using your USAJOBS primary or secondary email address.</p>
+
+<h3 id="why-shouldnt-i-use-a-gov-edu-or-mil-email-address">Why shouldn’t I use a .gov, .edu, or .mil email address?</h3>
+<p>We recommend you don’t use a .gov, .mil, or .edu email address. Instead, you should use a non-government email address when you create your login.gov account.</p>
+
+<p>If you use a .gov, .edu, or .mil email as your primary email address, and then you leave your government, military position, or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password. You also you won’t get emails about jobs and other important USAJOBS information.</p>
+
+<h2 id="what-if-i-currently-use-a-gov-mil-or-edu-email-address-for-my-usajobs-primary-email">What if I currently use a .gov, .mil, or .edu email address for my USAJOBS primary email?</h2>
+<p>If you currently use a .gov, .mil, or .edu email for your USAJOBS primary email, and you don’t have a secondary email address, you should update your USAJOBS account (before you create a login.gov account) to use a non-government email address. Once you update your USAJOBS primary email address, you can create the login.gov account.</p>
+
+<h2 id="can-i-use-a-different-email-address-from-my-usajobs-email-address-when-setting-up-my-logingov-account">Can I use a different email address from my USAJOBS email address, when setting up my login.gov account?</h2>
+
+<p>You can change your email with login.gov AFTER you get through the account set-up process.</p>
+
+              </div>
+            </main>
+            <aside class="usajobs-rightrail">
+              <div class="usajobs-help-center-article__reveal-contact-us">
+  <a class="usa-button usa-button-big usa-button-primary usajobs-help-center-article__contact-us-cta" href="#usajobs-contact-form" data-behavior="help-article.contact" aria-controls="usajobs-contact-form">
+    <i class="fa fa-envelope"></i> Contact us
+  </a>
+  <div class="usajobs-help-center-article__print-share-container">
+    <div class="usajobs-help-center-article__print usajobs-help-center-article-print">
+      <button class="usajobs-help-center-article-print__trigger" id="article-print" data-behavior="help-article.print">
+        <i class="fa fa-print"></i> Print
+      </button>
+    </div>
+    <div class="usajobs-help-center-article__share usajobs-help-center-article-share">
+      <button class="usajobs-help-center-article-share__trigger" id="article-share" data-behavior="help-article.toggle-share" aria-haspopup="true">
+        <i class="fa fa-share-alt"></i> Share
+      </button>
+      <ul class="usajobs-help-center-article-share__list" id="help-article-share-menu" aria-hidden="true" aria-labeledby="article-share">
+        <li class="usajobs-help-center-article-share__item">
+          <a href="mailto:?subject=USAJOBS%20Help%20Center%20article%20-%20What%20is%20login.gov%20and%20why%20do%20I%20have%20to%20create%20an%20account?&amp;body=Read%20more%20about%20What%20is%20login.gov%20and%20why%20do%20I%20have%20to%20create%20an%20account?%20at%20%2Ffaq%2Faccount%2Flogin-gov%2F" class="usajobs-help-center-article-share__link email" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-envelope-square"></i> <span class="sr-only">Email</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.usajobs.gov%2FHelp%2Ffaq%2Faccount%2Flogin-gov%2F%3Fshare%3Dfacebook&amp;t=USAJOBS%20Help%20Center%20Article" class="usajobs-help-center-article-share__link facebook" target="_blank" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-facebook-square"></i> <span class="sr-only">Facebook</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.usajobs.gov%2FHelp%2Ffaq%2Faccount%2Flogin-gov%2F" class="usajobs-help-center-article-share__link google" target="_blank" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-google-plus-square"></i> <span class="sr-only">Google+</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.usajobs.gov%2FHelp%2Ffaq%2Faccount%2Flogin-gov%2F%3Fshare%3Dlinkedin&amp;title=USAJOBS%20Help%20Center%20Article&amp;ro=false&amp;summary=&amp;source=" class="usajobs-help-center-article-share__link linkedin" target="_blank" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-linkedin-square"></i> <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="https://twitter.com/intent/tweet?text=USAJOBS%20Help%20Center%20https%3A%2F%2Fwww.usajobs.gov%2FHelp%2Ffaq%2Faccount%2Flogin-gov%2F%3Fshare%3Dtwitter&amp;source=webclient" class="usajobs-help-center-article-share__link twitter" target="_blank" data-behavior="help-article.close-share" data-target="#help-article-share-menu">
+            <i class="fa fa-twitter-square"></i> <span class="sr-only">Twitter</span>
+          </a>
+        </li>
+        <li class="usajobs-help-center-article-share__item">
+          <a href="#help-article-share-menu" data-shorten-url="https://www.usajobs.gov/Help/faq/account/login-gov/" class="usajobs-help-center-article-share__link link" data-behavior="help-article.shorten-link" data-target="#help-article-share-menu">
+            <i class="fa fa-chain"></i> <span class="sr-only">Shorten link</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+              
+              <h3 class="usajobs-help-center-article__related">Related articles</h3>
+              <ul class="usajobs-help-center-article__related-list">
+              
+              </ul>
+            </aside>
+          </div>
+        </section>
+        
+<div class="usajobs-content-gutter usajobs-help-center-article-contact">
+  <ul class="usajobs-drawer usajobs-help-center-article-contact__list">
+    <li>
+      <button class="usajobs-drawer-button usa-button-unstyled usajobs-help-center-article-contact__button" aria-expanded="false" aria-controls="usajobs-contact-form" data-behavior="help-article.contact-us-toggle">
+        Still need help?
+        <span class="usa-button usa-button-big usa-button-outline-inverse">
+          <i class="fa fa-envelope"></i>
+          Contact us
+        </span>
+      </button>
+      <div id="usajobs-contact-form" class="usajobs-help-center-article-contact__form-container">
+        <h2>Contact us</h2>
+        <h2 class="usajobs-help-center__lead">
+          Please use the form below to contact us. We will get back to you within one business day. Your interest and patience are appreciated.
+        </h2>
+        <p>
+          The USAJOBS Support Desk is available Monday through Friday, 7am – 8pm EST; Saturday and Sunday, 8am – 4pm EST (excluding federal holidays). USAJOBS does not provide direct phone support. The form below will allow you to send an email to the Help Desk where you can request assistance by phone or email.
+        </p>
+        <form name="example" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
+          <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
+          <input type="hidden" id="SelectedContactReason" name="SelectedContactReason" value="/faq/account/login-gov/ - Login-gov">
+          
+            <fieldset class="usajobs-help-center-contact-us">
+  <!-- First name -->
+  <div class="required-input">
+    <label for="FirstName" class="usajobs-help-center-contact-us__label-first">First name</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+    <input data-val="true" data-val-length="First name must be less than 20 characters." data-val-length-max="20" data-val-regex="First Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="First Name is required." id="FirstName" maxlength="20" name="FirstName" type="text" value="" aria-required="true" required>
+  </div>
+
+  <!-- Last name -->
+  <div class="required-input">
+    <label for="LastName">Last name</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+    <input data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="" aria-required="true" required>
+  </div>
+
+  <!-- Email address -->
+  <div class="required-input">
+    <label for="EmailAddress">Primary email address</label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+    <input class="form-control" data-val="true" data-val-email="The email address you entered does not represent a valid email address." data-val-length="Email address must be less than 128 characters." data-val-length-max="128" data-val-required="A valid email address is required." id="EmailAddress" maxlength="128" name="EmailAddress" type="text" value="" aria-required="true" required>
+  </div>
+
+  <!-- Phone number -->
+  <div class="optional-input">
+    <label for="PhoneNumber">
+      Telephone number <span class="usa-additional_text">Optional</span>
+    </label>
+    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+    <input class="form-control" data-val="true" data-val-length="A phone number must be 25 characters or less." data-val-length-max="25" data-val-regex="A phone number may contain only numbers and any of the following characters (.),(+),(\),(/),(-), space, and left and right parentheses." data-val-regex-pattern="^[0-9.\-+\\/() ]+$" id="PhoneNumber" maxlength="25" name="PhoneNumber" type="text" value="">
+    <p class="usajobs-form__help-brief">
+      Please provide your phone number in case your issue cannot be resolved via email.
+    </p>
+  </div>
+
+  <div class="required-input">
+    <label class="labeltext" for="Comment">Question / Comment</label>
+    <span class="usa-input-error-message field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true"></span>
+    <textarea class="form-control usajobs-help-center-contact-us__question" cols="40" data-val="true" data-val-length="Comment must be less than 2000 characters." data-val-length-max="2000" data-val-regex="Invalid characters (<) or (>)." data-val-regex-pattern="[^><]+" data-val-required="Question / Comment is required." id="Comment" maxlength="2000" name="Comment" rows="5" aria-required="true" required></textarea>
+    <p class="usajobs-form__help-brief">
+      Please do not include your Social Security Number.
+    </p>
+    <p class="usajobs-form__help-brief usajobs-help-center-contact-us__comment-count" id="CommentCount">(2000 characters remaining)</p>
+  </div>
+</fieldset>
+
+          
+          <div class="usajobs-button_bar-container">
+            <div class="usajobs-button_bar--slim">
+              <div class="usajobs-button_bar__body">
+                <input type="submit" class="usa-button-big usa-button-primary usajobs-button_bar__save" value="Send" id="btn-send" name="SendButton">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+      </section>
+    </div>
+    <footer class="usa-footer usa-footer-big usajobs-footer--v2" role="contentinfo" aria-label="footer" data-object="footer">
+  <div class="usa-grid usa-footer-return-to-top">
+    <a href="#title" id="footer-back-to-top">Return to top</a>
+  </div>
+  <div class="usa-footer-primary-section">
+    <div class="usa-grid-full">
+      <nav class="usa-footer-nav usa-width-one-whole">
+        <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v2__job_applications">
+          <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".home-menu">
+              Job Applications
+          </li>
+          <li class="usajobs-footer--v2__menu-item home-menu is-hidden">
+            <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home">All</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item home-menu is-hidden">
+            <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home/Advancing">Advancing</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item home-menu is-hidden">
+            <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home/Paused">Paused</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item home-menu is-hidden">
+            <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home/Stopped">Stopped</a>
+          </li>
+        </ul>
+        <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v2__account">
+          <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".account-menu">Account</li>
+          <li class="usajobs-footer--v2__menu-item account-menu is-hidden">
+            <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home">Home</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item account-menu is-hidden">
+            <a href="https://login.test.usajobs.gov/Account/Contact">Profile</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item account-menu is-hidden">
+            <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Resumes/">Documents</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item account-menu is-hidden">
+            <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home?c=saved-job">Saved Jobs</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item account-menu is-hidden">
+            <a href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home?c=saved-search-active">Saved Searches</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item account-menu is-hidden">
+            <a href="https://login.test.usajobs.gov/Account/Username">Username &amp; Password</a>
+          </li>
+        </ul>
+        <ul class="usa-unstyled-list usa-footer-primary-content usajobs-footer--v2__help">
+          <li class="usa-footer-primary-link" data-behavior="footer.toggle" data-state="is-closed" data-target=".help-menu">Help</li>
+          <li class="usajobs-footer--v2__menu-item help-menu is-hidden">
+            <a href="/Help/">Help Center</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item help-menu is-hidden">
+            <a href="/Help/about/">About USAJOBS</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item help-menu is-hidden">
+            <a href="/Help/contact/">Contact Us</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item help-menu is-hidden">
+            <a href="/Help/faq/">FAQs</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item help-menu is-hidden">
+            <a href="/Help/get-started/">Get Started</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item help-menu is-hidden">
+            <a href="/Help/how-to/">How to…</a>
+          </li>
+          <li class="usajobs-footer--v2__menu-item help-menu is-hidden">
+            <a href="/Help/working-in-government/">Working in Government</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="usa-footer-secondary_section usa-footer-big-secondary-section">
+    <div class="usa-grid">
+      <div class="usa-footer-logo usa-width-one-half">
+        <span class="logo"></span>
+        <p class="usajobs-footer--v1__note">
+          USAJOBS is a <a href="https://www.opm.gov">United States Office of Personnel Management</a> website.
+        </p>
+      </div>
+
+      <div class="usa-footer-contact-links usa-width-one-half">
+        <div class="usa-social-links">
+          <a href="https://plus.google.com/+usajobs" class="usajobs-social-link" aria-label="Google Plus" title="Google Plus">
+            <span class="fa fa-google-plus"></span>
+          </a>
+          <a href="https://www.facebook.com/USAJOBS" class="usajobs-social-link" aria-label="Facebook" title="Facebook">
+            <span class="fa fa-facebook"></span>
+          </a>
+          <a href="https://www.linkedin.com/company/usajobs" class="usajobs-social-link" aria-label="LinkedIn" title="LinkedIn">
+            <span class="fa fa-linkedin"></span>
+          </a>
+          <a href="https://twitter.com/USAJOBS" class="usajobs-social-link" aria-label="Twitter" title="Twitter">
+            <span class="fa fa-twitter"></span>
+          </a>
+          <a href="https://www.youtube.com/user/usajobsapp" class="usajobs-social-link" aria-label="You Tube" title="You Tube">
+            <span class="fa fa-youtube"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="usa-grid">
+      <div class="usa-footer-logo usa-width-one-whole">
+        <ul class="usa-unstyled-list usajobs-footer--v1__subsection-horizontal">
+          <li><a href="https://www.opm.gov/about-us/budget-performance/">Budget and Performance</a></li>
+          <li><a href="http://www.opm.gov/efoia/">FOIA</a></li>
+          <li><a href="https://www.opm.gov/our-inspector-general/">Inspector General</a></li>
+          <li><a href="https://www.opm.gov/information-management/no-fear-act/">No Fear Act Data</a></li>
+          <li><a href="/Help/privacy/">Privacy Policy</a></li>
+          <li><a href="http://www.usa.gov/">USA.gov</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+      <!--[if lt IE 9]>
+    <script src="/Help/js/vendor/selectivizr-min.js"></script>
+    <script src="/Help/js/vendor/respond.min.js"></script>
+    <script src="/Help/js/vendor/rem.min.js"></script>
+  <![endif]-->
+  <script src="/Help/js/usajobs-help-center.js"></script>
+  <script src="/Help/js/usajobs-help-center-components.js"></script>
+
+
+
+
+
+
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <a class="usajobs-help-center-search__result" href="/Help{{ url }}">
+        {{title}}
+      </a>
+    </article>
+  {{/entries}}
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/Help/js/index.json',   // Url for the .json file containing search index data
+      results : '#search-results',  // selector for containing search results element
+      entries : '.entries',         // selector for search entries containing element (contained within results above)
+      template: '#search-results-template'  // selector for Mustache.js template
+    });
+
+    setTimeout(function () {
+      // Have to wait for the results to load.
+      var $results = $('#search-results'),
+        $entries = $results.find('.entries');
+        result_count = $results.find('.usajobs-help-center-search__result').length,
+        $no_results_content = $results.find('.usajobs-help-center-search-no-results');
+
+      if (result_count === undefined || result_count.length === 0 || result_count === 0) {
+        // Swap in some no results help content
+        $no_results_content
+          .show()
+          .attr('aria-hidden', 'false');
+      } else {
+        $no_results_content
+          .hide()
+          .attr('aria-hidden', 'true');
+        $entries.prepend('<h4 class="usajobs-help-center-search__result-count">Viewing ' + result_count + ' results.</h4>');
+      }
+    }, 500);
+  });
+</script>
+
+  </body>
+</html>
