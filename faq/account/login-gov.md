@@ -4,8 +4,8 @@ layout: article
 section: faq
 title: What is login.gov and why do I have to create an account?
 breadcrumb: Login-gov
-category: Account
-tags: [account, login.gov]
+category: account
+tags: [account, password, login.gov]
 ---
 
 ## What is login.gov?

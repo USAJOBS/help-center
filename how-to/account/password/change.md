@@ -9,20 +9,6 @@ category: account
 tags: [password, change, support-password]
 ---
 
-1. Sign into your account by clicking the **Sign In** icon at the top right of any page.
-2. Click **Username & Password** at the bottom of the column on the left.
-3. Enter your current password followed by your new password.
-4. Verify your new password.
-5. Click the **Save** button at the bottom of the page.
+The password you use to sign into USAJOBS is your login.gov password. To change your password, go to login.gov and read their help page:
 
-## Password criteria
-
-Your new USAJOBS password must:
-
-* Be at least eight characters (20 maximum).
-* Contain at least one number (0-9).
-* Contain at least one uppercase letter (A-Z).
-* Contain at least one lowercase letter (a-z).
-* Contain at least one special character ! @ # $ % ^ & * ( ).
-
-In addition, if someone can access your email, they may be able to gain access to your USAJOBS account. Make sure that the password to your email is different from your USAJOBS account.
+[How do I change my login.gov password?](https://login.gov/help/changing-settings/how-do-i-change-my-password/)

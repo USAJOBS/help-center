@@ -1,6 +1,6 @@
 ---
 permalink: /how-to/account/password/reset/security-questions/
-layout: article-exposed-form
+layout: article
 section: how-to
 title: How to reset your password when you have forgotten your security questions
 breadcrumb: Forgotten security questions
@@ -9,10 +9,6 @@ category: account
 tags: [password, reset, tips, security, questions, support-password]
 ---
 
-If you’ve forgotten your security questions, please contact the USAJOBS Support Desk:
+Good news-you no longer need to answer security questions. The password you use to sign into USAJOBS is your login.gov password. To reset your password, go to login.gov and read their help page:
 
-1. Fill out the **Contact Us** form at the bottom of the page.
-2. Provide a current email address that you can access in the **Question/Comment** box. Include other information associated with your account including your username, mailing address, or phone number(s).
-3. Click **Send**.
-
-We'll get back to you within one business day, once you submit the form. If you don’t hear back from us after one business day, check your email SPAM or junk folder.
+[What do I do if my password doesn’t work or I forget it?](https://login.gov/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/)

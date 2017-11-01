@@ -1,6 +1,6 @@
 ---
 permalink: /how-to/account/access/
-layout: article-exposed-form
+layout: article
 section: how-to
 title: How to sign into your account if you can't access your primary email
 breadcrumb: Regain access
@@ -10,10 +10,6 @@ category: account
 tags: [password, regain, email, access, support-password]
 ---
 
-1. Complete the **Contact Us** form at the bottom of the page.
-2. In the **Question/Comment** box, include the email address that is associated with your account (this is the email you can’t access) and provide a current email address that you can access. Include other information associated with your account including your username, mailing address, or phone number(s).
-3.	Click **Send**.
+The email you use to sign into USAJOBS is the same email you use for your login.gov account. If you need help with signing in, go to login.gov and read their help page:
 
-The USAJOBS Help Desk will send you an email, to the email address you can access, asking for the answers to your security questions. You must reply to the help desk with your answers to regain access to your account.
-
-After you reply to the help desk, they will update the email address in your account and send you another email to your new email address with directions to reset your password.
+[I forgot which email address I used to create an account](https://login.gov/help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/).
