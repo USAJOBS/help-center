@@ -10,9 +10,9 @@ tags: [federal, hiring, process]
 
 This is a quick summary of how the federal application process works when you use USAJOBS to apply for positions.
 
-## 1. Create a USAJOBS account
+## 1. Create a USAJOBS profile
 
-First, you need to create an account and complete your profile to apply to any job on USAJOBS.  With a USAJOBS account and profile you can:
+First, you need to create and complete your profile to apply to any job on USAJOBS.  With a USAJOBS profile you can:
 
 * Save jobs you’re interested in.
 * Save and automate job searches.
@@ -23,9 +23,9 @@ First, you need to create an account and complete your profile to apply to any j
 
 ## 2. Search for jobs
 
-Once you create your account, you can search for jobs.
+Once you create your profile, you can search for jobs.
 
-It’s best to sign into your account before doing a search. Why?  Because, we can use your profile information to improve your job search results.
+It’s best to sign into your profile before doing a search. Why?  Because, we can use your profile information to improve your job search results.
 
 Start your job search by typing in a keyword or location. You can narrow your results by salary, work schedule, agency and more.   [Learn how to search for jobs](../../../how-to/search/).
 
