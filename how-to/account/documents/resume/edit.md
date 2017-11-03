@@ -10,9 +10,9 @@ tags: [documents, resume, edit, support-resume]
 
 ## Built resumes
 
-To edit a resume that you built using the USAJOBS Resume Builder tool:
+To edit a resume that you created using the USAJOBS Resume Builder tool:
 
-1.  Sign into your USAJOBS account.
+1.  Sign into your USAJOBS profile.
 2.  Go to  **Documents** - your resumes appear in your documents.
 3.  Click the **Edit** link for the USAJOBS builder resume you would like to change.
 4.  Make your edits and click **Save**.
