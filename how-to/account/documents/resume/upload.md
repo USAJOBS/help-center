@@ -9,10 +9,10 @@ tags: [account, documents, resume, upload, support-resume]
 ---
 You can upload or build up to five resumes.
 
-1. Sign into your USAJOBS account.
+1. Sign into your USAJOBS profile.
 2. Click **Documents**—it will default to display resumes. 
 3. Click **Upload or build resume**. 
-4. Choose **Upload  resume**.
+4. Choose **Upload resume**.
 5. Browse the documents stored on your computer, select the resume you would like to upload, and select **Open**.
 6. Name your resume—the default name will match the file title from your computer. You have the option to edit the name of the resume.
 7. Click **Complete Upload**.
