@@ -16,7 +16,7 @@ You can save a search to help you look for jobs in your area of interest. When y
 
 ## To save a job search and sign up for email notifications:
 
-1.	Sign into your USAJOBS account. If you don’t have an account, you need to create one. Only signed in users can save their search.
+1.	Sign into your USAJOBS profile. If you don’t have a profile, you need to create one. Only signed in users can save their search.
 2.	Start a job search by entering a keyword or location in the search box and click **Search**. 
 3.	Narrow your results using filters.
 4.	Click **Save this search** on the search results page located above the search results.
@@ -26,10 +26,10 @@ You can save a search to help you look for jobs in your area of interest. When y
 
 [Watch this short video on how to save a search](https://www.youtube.com/watch?v=pd-MuzSK3qw&feature=youtu.be){:target="_blank"}.
 
-## Manage saved searches in your account
-You can manage your saved searches in the Saved Searches section of your account. You can have both active and archived saved searches.
+## Manage saved searches in your profile
+You can manage your saved searches in the **Saved Searches** section of your profile. You can have both active and archived saved searches.
 
-1.	Sign into your USAJOBS account and go to **Saved Searches**.
+1.	Sign into your USAJOBS profile and go to **Saved Searches**.
 2.	Click the **+** next to a saved search to see more details. From here you can:
 
 ### Run your saved search
@@ -47,7 +47,7 @@ You can update how often you want to receive emails with your saved search resul
 ### Delete your saved search
 You can only delete saved searches from your archived list. Go to your archived saved searches and click the **+** next to the saved search you want to delete. Click **Delete** located under the **Unarchive Search** button.
 
-If you delete a saved search, we'll remove it from your account and you’ll no longer receive email notifications with those search results.
+If you delete a saved search, we'll remove it from your profile and you’ll no longer receive email notifications with those search results.
 
 ### Archive your saved search
 Click **Archive** to move the saved search to your archived list. You may want to archive a saved search if you’re no longer interested in the search, but you don’t want to delete it.
