@@ -10,7 +10,7 @@ tags: [search, job, job announcement, save, unsubscribe]
 
 To stop receiving saved search email notifications:
 
-1.	Sign into your USAJOBS account.
+1.	Sign into your USAJOBS profile.
 2.	Go to your **Saved Searches**.
 3.	Click the **+** next to a saved search to see more details.
 4.	Click **Edit notification settings**. 
