@@ -8,7 +8,7 @@ section: how-to
 tags: [application, status, tips, support-application-status]
 ---
 
-1.	Sign into your USAJOBS account.
+1.	Sign into your USAJOBS profile.
 2.	Go to your **Applications**, located on your **Home** page — your active applications display automatically.
 3.	Review your list of applications. Your applications are listed by the date they were last updated.
 4.	The application status is highlighted next to each job application.
