@@ -14,14 +14,14 @@ Your archive contains job applications that you want to save, but may not want t
 
 ## To archive a job application
 
-1.	Sign into your USAJOBS account.
+1.	Sign into your USAJOBS profile.
 2.	Go into your **Active** application listing.
 3.	Find the application you want to archive and click the **+** to expand the content.
 4.	Select the **Archive** icon at the bottom of the application listing. This will move the application from your active list to your archive list.
 
 ## To unarchive a job application
 
-1.	Sign into your USAJOBS account.
+1.	Sign into your USAJOBS profile.
 2.	Go into your **Archive** application listing.
 3.	Find the application you want to unarchive and click the **+** to expand the content.
 4.	Select the **Unarchive** button. This will move the application from your archive list to your active list.
