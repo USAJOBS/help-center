@@ -2,25 +2,28 @@
 permalink: /how-to/account/delete/
 layout: article
 section: how-to
-title: How to delete an account
-breadcrumb: Delete an account
+title: How to delete a profile
+breadcrumb: Delete a profile
 category: account
 tags: [account, delete, support-delete-account]
 ---
 
-To delete a USAJOBS account:
+To delete a USAJOBS profile:
 
-1. Sign into your USAJOBS account.
-2. Click **Username & Password** at the bottom of the left hand column. 
-3. Scroll to the bottom of the page and click the **Delete Account** button. 
-4. Read the message and click the **Delete Account** button in the pop-up box.
-5. You will receive an email stating when your account will be deleted.
+1.	Sign into your USAJOBS profile.
+2.	Click Username & Password at the bottom of the left hand column.
+3.	Scroll to the bottom of the page and click **Delete Account**.
+4.	Read the message and click **Delete Account** in the pop-up box.
 
-## Additional information
+You'll receive an email telling you when we'll delete your profile.
 
-If you delete your account:
+## What happens if I delete my profile?
 
-* You will lose all documents in your account, including application history, resumes, saved documents, saved searches, and all other documents.
-* Your account will be deleted 168 hours (7 days) after the Confirm Deletion button is clicked.
-* You will not be able to create a new account with the same  email address until 7 calendar days have elapsed. This is  a security precaution.
-* To cancel the deletion of your account, sign into your account before the end of the 7-day period and click the **Cancel** button.
+If you delete your profile:
+* You will lose all documents in your profile, including your application history, resumes, saved documents, saved searches, and all other documents.
+* We will delete your profile 168 hours (7 days) after you click **Confirm Deletion**. 
+* For security reasons, you must wait seven calendar days after we delete your profile, to create a new one with the same email address. 
+
+## Can I cancel my request to delete my profile?
+Yes. To cancel your request, sign into your USAJOBS profile before the end of the seven day period and click **Cancel**.
+
