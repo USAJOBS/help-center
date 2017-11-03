@@ -8,15 +8,15 @@ category: Documents
 tags: [documents, support-documents]
 ---
 
-If you have a USAJOBS account, you can upload and manage your resume, required forms, and other documents.
+If you have a USAJOBS profile, you can upload and manage your resume, required forms, and other documents.
 
-1. Sign into your USAJOBS account.
+1. Sign into your USAJOBS profile.
 2. Click the **Documents** link located in the left-hand navigation.
 3. Select **Resumes** or **Other Documents** located at the top of the page.
 
 ## Manage your resumes
 
-You can upload and store up to five resumes in your account. Here is what you can do:
+You can upload and store up to five resumes in your profile. Here is what you can do:
 
 ### Edit your resume
 
@@ -27,7 +27,7 @@ There are two ways you can edit your resume(s).
 
 ### Delete a resume
 
-You may need to delete a resume if you want to upload a new resume, but already have five in your account.  When you delete a resume, it will be completely removed from your account.
+You may need to delete a resume if you want to upload a new resume, but already have five in your profile.  When you delete a resume, it will be completely removed from your profile.
 
 ### Make a resume searchable
 
@@ -65,7 +65,7 @@ All documents must be less than 3MB in size and in one of the following document
 * TXT
 * Word (.doc or .docx)
 
-If you make changes to a document, the updated version of the file will need to be uploaded to your account.  However, some forms can’t be edited, except for the file name or document type.
+If you make changes to a document, you'll need to upload the updated version of the file to your profile.  However, some forms can’t be edited, except for the file name or document type.
 
 [How do I upload a document that's larger than 3MB](upload/#how-do-I-upload-a-document-that's-larger-than-3MB)?
 
