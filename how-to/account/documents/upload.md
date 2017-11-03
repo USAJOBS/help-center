@@ -12,8 +12,8 @@ Some job announcements require certain documents or forms, such as transcripts, 
 
 ## To upload a document
 
-1.  Sign into your USAJOBS account.
-2.	Go to the **Documents** section of your account.
+1.  Sign into your USAJOBS profile.
+2.	Go to your **Documents** section.
 3.	Click **Other Documents**.
 4.	Click the **Upload Documents** icon.
 5.	Browse the documents stored on your computer, select the document you would like to upload, and click **Open**.
@@ -53,5 +53,5 @@ Not all agencies accept uploaded documents from USAJOBS.  If the agency does not
 
 ## Additional information
 
-* Documents uploaded during the Select Documents step of the USAJOBS application process will automatically be added to the **Other Documents** section of your account.
+* Documents uploaded during the Select Documents step of the USAJOBS application process will automatically be added to the **Other Documents** section of your profile.
 * Only attach the documents specifically requested by the job announcement to which you are applying.
