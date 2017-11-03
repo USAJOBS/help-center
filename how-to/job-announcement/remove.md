@@ -10,7 +10,7 @@ tags: [job announcement, support-saved-jobs]
 
 To remove a saved job:
 
-1.	Sign into your USAJOBS account.
+1.	Sign into your USAJOBS profile.
 2.	Go to your **Saved Jobs**.
 3.	Click the job title or **+** to expand the job details.
 4.	Click **Saved**—the link will change to **Save** and the yellow star will no longer be filled in. This means the job is no longer “saved”, however the job will not disappear from your list until you complete the next step.
