@@ -2,13 +2,18 @@
 permalink: /how-to/account/password/change/
 layout: article
 section: how-to
-title: How to change your password
-breadcrumb: Change your password
+title: How to change or reset your password
+breadcrumb: Change or reset your password
 long-form: true
 category: account
 tags: [password, change, support-password]
 ---
 
-The password you use to sign into USAJOBS is your login.gov password. To change your password, go to login.gov and read their help page:
+The password you use to sign into USAJOBS is your login.gov password. To change or reset your password, go to login.gov and read their help pages:
 
-[How do I change my login.gov password?](https://login.gov/help/changing-settings/how-do-i-change-my-password/)
+* [How do I change my login.gov password?](https://login.gov/help/changing-settings/how-do-i-change-my-password/)
+* [What do I do if my password doesn’t work or I forget it?](https://login.gov/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/)
+
+## What about security questions?
+Good news—you no longer need to answer security questions. If you forget your password, go to login.gov and read their help page: [What do I do if my password doesn’t work or I forget it?](https://login.gov/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/)
+
