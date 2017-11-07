@@ -37,7 +37,7 @@ If you use a different email address when signing up for login.gov, we won't be 
 
 We recommend you don’t use a .gov, .mil or .edu email address. Instead, you should use a non-government email address when you create your login.gov account.
 
-[You also can’t use an email address you share with someone else](#can-i-share-a-login.gov-account-with-another-person).
+[You also can’t use an email address you share with someone else](#can-i-share-a-logingov-account-with-another-person).
 
 ### Why shouldn’t I use a .gov, .edu, or .mil email address?
 If you use a .gov, .edu, or .mil email as your primary email address, and then you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password. You also won’t get emails about jobs and other important USAJOBS information.
