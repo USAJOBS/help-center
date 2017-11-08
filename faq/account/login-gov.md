@@ -26,8 +26,9 @@ Once USAJOBS starts using login.gov, you will receive an email from us asking yo
 login.gov will walk you through each step of account set-up, but here’s a few things to know:
 
 1.	You’ll need to enter an email address to start the account set up¬–use the same email address you use for USAJOBS (either your primary or secondary email address). 
-2.	You’ll only need to create the login.gov account once.
-3.	You’ll use your login.gov username (your email address) and password whenever you want to sign into USAJOBS.
+2.  You'll need a working phone number (mobile or landline).
+3.	You’ll only need to create the login.gov account once.
+4.	You’ll use your login.gov email address and password whenever you want to sign into USAJOBS.
 
 Once you’ve finished setting up your login.gov account, you’ll go back to USAJOBS to finish the process.  Double check your USAJOBS Profile to make sure all of your information is accurate.
 
