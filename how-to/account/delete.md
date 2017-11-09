@@ -12,8 +12,8 @@ To delete a USAJOBS profile:
 
 1.	Sign into your USAJOBS profile.
 2.	Click Username & Password at the bottom of the left hand column.
-3.	Scroll to the bottom of the page and click **Delete Account**.
-4.	Read the message and click **Delete Account** in the pop-up box.
+3.	Scroll to the bottom of the page and click **Delete Profile**.
+4.	Read the message and click **Delete Profile** in the pop-up box.
 
 You'll receive an email telling you when we'll delete your profile.
 
@@ -26,4 +26,8 @@ If you delete your profile:
 
 ## Can I cancel my request to delete my profile?
 Yes. To cancel your request, sign into your USAJOBS profile before the end of the seven day period and click **Cancel**.
+
+## If I delete my profile, will I also delete my login.gov account?
+No.  You will not delete your login.gov account, if you delete your USAJOBS profile.
+ 
 
