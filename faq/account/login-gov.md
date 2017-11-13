@@ -38,7 +38,7 @@ Once you’ve finished setting up your login.gov account, you’ll go back to US
 
 ### What if I already have a login.gov account?
 
-If you already have a login.gov account, you don't need to create a second one. Use your existing login.gov email address and username to sign into USAJOBS.  
+If you already have a login.gov account, you don't need to create a second one. Use your existing login.gov email address and password to sign into USAJOBS.  
 
 ## What email address do I use to create a login.gov account?
 
