@@ -46,6 +46,10 @@
       text-decoration: underline;
     }
 
+    a.usa-button {
+      text-decoration: none;
+    }
+
     &.has-exposed-form {
       margin-bottom: $size-default;
 
