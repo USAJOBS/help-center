@@ -18,4 +18,4 @@ tags: [contact, help, support]
 
 Once you submit the form, we will get back to you within one business day.
 
-The USAJOBS Help Desk is available Monday through Friday, 7am – 8pm EST; Saturday and Sunday, 8am – 4pm EST (excluding federal holidays). USAJOBS does not provide direct phone support. The contact us form will send an email to the Help Desk where you can ask for assistance by phone or email.
+USAJOBS does not provide direct phone support. The contact us form will send an email to the Help Desk where you can ask for assistance by phone or email.
