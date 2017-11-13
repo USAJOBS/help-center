@@ -36,6 +36,10 @@ login.gov will walk you through each step of account set-up, but here’s a few 
 
 Once you’ve finished setting up your login.gov account, you’ll go back to USAJOBS to finish the process.  Double check your USAJOBS Profile to make sure all of your information is accurate.
 
+### What if I already have a login.gov account?
+
+If you already have a login.gov account, you don't need to create a second one. Use your existing login.gov email address and username to sign into USAJOBS.  
+
 ## What email address do I use to create a login.gov account?
 
 To keep your USAJOBS profile information, you need to use your primary or secondary USAJOBS email when you create your login.gov account. When you use the same email that you use for USAJOBS, we'll automatically link your USAJOBS profile to the login.gov account.
