@@ -25,7 +25,7 @@ The job announcement may list the following:
 * [Military spouses](../../../working-in-government/unique-hiring-paths/military-spouses/)
 * [National Guard & Reserves](../../../working-in-government/unique-hiring-paths/national-guard/)
 * [Native American and Alaskan Natives](../../../working-in-government/unique-hiring-paths/native-americans/)
-* [Peace Corps & VISTA alumni](../../../working-in-government/unique-hiring-paths/peace-corps/)
+* [Peace Corps & AmeriCorps VISTA](../../../working-in-government/unique-hiring-paths/peace-corps/)
 * [Senior Executives](../../../working-in-government/unique-hiring-paths/senior-executives/)
 * [Students & recent graduates](../../../working-in-government/unique-hiring-paths/students/)
 * [Veterans](../../../working-in-government/unique-hiring-paths/veterans/)
