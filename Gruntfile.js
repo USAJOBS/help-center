@@ -94,7 +94,6 @@ module.exports = function(grunt) {
       base: {
         src: [
           'node_modules/usajobs-design-system/js/usajobs-design-system-base.js',
-          'node_modules/usajobs-design-system/js/components/usds-components.js',
           'node_modules/usajobs-design-system/js/components/footer.js',
           'node_modules/usajobs-design-system/js/components/modal.js',
           'node_modules/usajobs-design-system/js/components/nav.js'
