@@ -2,7 +2,7 @@
 permalink: /how-to/account/
 layout: article
 section: how-to
-title: How to create an account
+title: How to create a login.gov account
 breadcrumb: Account
 category: account
 tags: [account, support-create-account]
