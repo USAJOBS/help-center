@@ -14,6 +14,12 @@
     padding: 0;
   }
 
+  // Picking up a change in the Standards that we're not quite caught up on
+  .usa-input-optional:after {
+    color: $color-gray;
+    content: ' (optional)';
+  }
+
   &__legend {
     @include h2();
     width: 100%;

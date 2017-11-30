@@ -1,6 +1,7 @@
 ---
 permalink: /how-to/account/notifications/
 layout: sub-section
+suppress-form: true
 section: how-to
 title: Questions related to notifications
 breadcrumb: Notifications

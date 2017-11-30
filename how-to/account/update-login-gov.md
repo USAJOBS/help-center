@@ -8,4 +8,4 @@ category: account
 tags: [account, update, support-update-account]
 ---
 
-You can make changes to your account at login.gov. [Read more about how to manage your login.gov account](https://login.gov/help/).
+You can make changes to your account at login.gov. [Read more about how to manage your login.gov account](https://login.gov/help/){:target="_blank"}.

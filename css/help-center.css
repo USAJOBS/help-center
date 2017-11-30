@@ -6049,6 +6049,11 @@ html {
   }
 }
 
+.usajobs-help-center-contact-us .usa-input-optional:after {
+  color: #5b616b;
+  content: ' (optional)';
+}
+
 .usajobs-help-center-contact-us__legend {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: 700;

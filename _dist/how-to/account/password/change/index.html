@@ -315,17 +315,17 @@
 
 <ul>
   <li>
-    <p><a href="https://login.gov/help/changing-settings/how-do-i-change-my-password/">How do I change my login.gov password?</a></p>
+    <p><a href="https://login.gov/help/changing-settings/how-do-i-change-my-password/" target="_blank">How do I change my login.gov password?</a></p>
   </li>
   <li>
-    <p><a href="https://login.gov/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/">What do I do if my password doesn’t work or I forget it?</a></p>
+    <p><a href="https://login.gov/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/" target="_blank">What do I do if my password doesn’t work or I forget it?</a></p>
   </li>
 </ul>
 
 <h2 id="what-about-security-questions">What about security questions?</h2>
 
 <p>Good news—you no longer need to answer security questions. If you forget your password, go to login.gov and read their help page:
-<a href="https://login.gov/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/">What do I do if my password doesn’t work or I forget it?</a></p>
+<a href="https://login.gov/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/" target="_blank">What do I do if my password doesn’t work or I forget it?</a></p>
 
               </div>
             </main>
@@ -466,13 +466,6 @@
     <input data-val="true" data-val-length="Last name must be less than 30 characters." data-val-length-max="30" data-val-regex="Last Name must not contain special characters except apostrophe(') and dash(-)." data-val-regex-pattern="^([a-zA-Z '-]+)$" data-val-required="Last Name is required." id="LastName" maxlength="30" name="LastName" type="text" value="" aria-required="true" required>
   </div>
 
-  <!-- Username -->
-  <div class="required-input">
-    <label for="Username" id="UsernameLabel">Username</label>
-    <span class="field-validation-valid usa-input-error-message" data-valmsg-for="Username" data-valmsg-replace="true"></span>
-    <input data-val="true" data-val-length="Username must be between 8 and 20 characters" data-val-length-max="20" data-val-length-min="8" data-val-regex="Username must contain at least one letter (i.e. can’t be all numbers), and may only contain the following special characters: underscore(_), ampersand(&amp;), and period(.)." data-val-regex-pattern="^[a-zA-Z0-9\x5F\x2E\x26]*[a-zA-Z]+[a-zA-Z0-9\x5F\x2E\x26]*" data-val-required="Username is required." id="Username" name="Username" type="text" maxlength="20" value="" required aria-required="true" autocomplete="username">
-  </div>
-
   <!-- Address -->
   <div class="required-input">
     <label for="Address" id="AddressLabel">Address</label>
@@ -493,8 +486,8 @@
   
   <div class="optional-input">
     <!-- OtherEmailAddress -->
-    <label for="OtherEmailAddresses" id="OtherEmailAddressesLabel">
-      Other email addresses <span class="usa-additional_text">Optional</span>
+    <label for="OtherEmailAddresses" id="OtherEmailAddressesLabel" class="usa-input-optional">
+      Other email addresses
     </label>
     <span class="field-validation-valid usa-input-error-message" data-valmsg-for="OtherEmailAddresses" data-valmsg-replace="true"></span>
     <input class="form-control" id="OtherEmailAddresses" maxlength="200" name="OtherEmailAddresses" type="text" value="">
@@ -506,8 +499,8 @@
 
   <!-- Phone number -->
   <div class="optional-input">
-    <label for="PhoneNumber">
-      Telephone number <span class="usa-additional_text">Optional</span>
+    <label for="PhoneNumber" class="usa-input-optional">
+      Telephone number
     </label>
     <span class="field-validation-valid usa-input-error-message" data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
     <input class="form-control" data-val="true" data-val-length="A phone number must be 25 characters or less." data-val-length-max="25" data-val-regex="A phone number may contain only numbers and any of the following characters (.),(+),(\),(/),(-), space, and left and right parentheses." data-val-regex-pattern="^[0-9.\-+\\/() ]+$" id="PhoneNumber" maxlength="25" name="PhoneNumber" type="text" value="">
@@ -518,8 +511,8 @@
 
   <!-- OtherPhoneNumbers -->
   <div class="optional-input">
-    <label class="labeltext" for="OtherPhoneNumbers">
-      Other phone numbers <span class="usa-additional_text">Optional</span>
+    <label for="OtherPhoneNumbers" class="usa-input-optional">
+      Other phone numbers
     </label>
     <span class="field-validation-valid usa-input-error-message" data-valmsg-for="OtherPhoneNumbers" data-valmsg-replace="true"></span>
     <input class="form-control" id="OtherPhoneNumbers" maxlength="100" name="OtherPhoneNumbers" type="text" value="">
