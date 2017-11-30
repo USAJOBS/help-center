@@ -8,11 +8,9 @@ category: profile
 tags: [account, profile, create, support-profile]
 ---
 
-You need to create and complete a profile to apply to jobs, save searches and save jobs.
+You need to create and complete a profile to apply to jobs, save searches and save jobs. But first, you need to create a login.gov account.
 
 To create and complete a profile:
-
-Before you can create a profile, you need to create a login.gov account.
 
 1. Follow the steps to [create a login.gov account](https://login.usajobs.gov/Access/Transition) and click **Continue to USAJOBS** at the end.
 2. Click **Create Profile** (if you don't already have one) when you're back at USAJOBS.
