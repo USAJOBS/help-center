@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
 html {
   box-sizing: border-box;
 }
@@ -3797,13 +3798,16 @@ input.usa-input-medium {
   src: url("../fonts/merriweather-regular-webfont.woff2") format("woff2"), url("../fonts/merriweather-regular-webfont.woff") format("woff"), url("../fonts/merriweather-regular-webfont.ttf") format("truetype");
 }
 
+/*
 @font-face {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-regular-webfont.woff") format("woff"), url("../fonts/sourcesanspro-regular-webfont.ttf") format("truetype");
+  src: url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+       url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+       url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype');
 }
-
+*/
 .usajobs-assistive-text {
   position: absolute !important;
   margin: -1px !important;
