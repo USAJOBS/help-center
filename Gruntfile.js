@@ -79,6 +79,7 @@ module.exports = function(grunt) {
     cssmin: {
       minify: {
         src: [
+          'css/usajobs-design-system-base--help-center.css',
           'css/help-center.css'
         ],
         dest: 'css/usajobs-help-center.min.css'
@@ -98,7 +99,7 @@ module.exports = function(grunt) {
           'node_modules/usajobs-design-system/js/components/modal.js',
           'node_modules/usajobs-design-system/js/components/nav.js'
         ],
-        dest: 'js/usajobs-help-center.js'
+        dest: 'js/usajobs-help-center-base.js'
       },
       components: {
         src: [
@@ -109,6 +110,23 @@ module.exports = function(grunt) {
           'js/components/*.js'
         ],
         dest: 'js/usajobs-help-center-components.js'
+      },
+      prod: {
+        src: [
+          'js/usajobs-help-center-base.js',
+          'js/usajobs-help-center-components.js'
+        ],
+        dest: 'js/usajobs-help-center.js'
+      }
+    },
+    uglify: {
+      options: {
+        mangle: false
+      },
+      prod: {
+        files: {
+          'js/usajobs-help-center.min.js': ['js/usajobs-help-center.js']
+        }
       }
     },
     jshint: {
@@ -205,6 +223,6 @@ module.exports = function(grunt) {
   grunt.registerTask('build-flat', ['shell:jekyllBuildFlat']);
   grunt.registerTask('build-prod', ['shell:jekyllBuildProd']);
   grunt.registerTask('css', ['sass', 'autoprefixer', 'cssmin']);
-  grunt.registerTask('js', ['jshint:all', 'concat:base', 'browserify', 'concat:components']);
+  grunt.registerTask('js', ['jshint:all', 'concat:base', 'browserify', 'concat:components', 'concat:prod', 'uglify:prod']);
   grunt.registerTask('test', ['shell:spellCheck', 'htmllint', 'shell:linkChecker']);
 };

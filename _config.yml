@@ -14,8 +14,7 @@ exclude:
 - ".ruby-version"
 - npm-debug.log
 - node_modules
-- library
-- prod-*.zip
+- js/vendor/future
 keep_files: ['css', 'js']
 
 # Setting a unique port number
