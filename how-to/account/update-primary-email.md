@@ -8,13 +8,6 @@ category: account
 tags: [account, email]
 ---
 
-To update your USAJOBS primary email address:
+The email address listed in your USAJOBS profile is the same email address you use for login.gov. To change your email address, go to login.gov and read their help page [How do I change my email address](https://login.gov/help/changing-settings/how-do-i-change-my-email-address/)?
 
-1. Sign into your USAJOBS account.
-2. Click **Username & Password** at the bottom of the left hand column.
-3. Click the **Edit** button below your email address.
-4. This will take you to login.gov where you can click **Edit** next to your email address.
-5. Change your email.
-6. You'll receive an email at the new email address—click the link in that email to confirm your email address.
 
-Once you've confirmed your new email address, we'll update your account.
