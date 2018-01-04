@@ -61,42 +61,43 @@
   <body>
     <header class="usajobs-site-header" role="banner" aria-label="header">
   <!-- Gov banner BEGIN -->
-  <div class="usa-banner">
-    <div class="usa-accordion">
-      <div class="usa-banner-header usajobs-nav--vTest__banner-header">
-        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-inner">
-          <img src="/Help/img/favicons/favicon-57.png" alt="U.S. flag">
-          <p>An official website of the United States government</p>
-          <button class="usa-button usa-banner-button"
-            aria-expanded="false" aria-controls="gov-banner">
-            <span class="usa-banner-button-text">Here's how you know</span>
-          </button>
-        </div>
-        <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-warning">
-          <p><i class="fa fa-exclamation-circle"></i> This is a FAKE environment. The jobs and information on this system are not real.</p>
+<div class="usa-banner">
+  <div class="usa-accordion">
+    <div class="usa-banner-header usajobs-nav--vTest__banner-header">
+      <div class="usa-grid usa-banner-inner usajobs-nav--full_bleed__banner-inner usajobs-nav--vTest__banner-inner">
+        <img src="/Help/img/favicons/favicon-57.png" alt="U.S. flag">
+        <p>An official website of the United States government</p>
+        <button class="usa-button usa-banner-button"
+          aria-expanded="false" aria-controls="gov-banner">
+          <span class="usa-banner-button-text">Here's how you know</span>
+        </button>
+      </div>
+      <div class="usa-grid usa-banner-inner usajobs-nav__banner-inner usajobs-nav--vTest__banner-warning">
+        <p><i class="fa fa-exclamation-circle"></i> This is a FAKE environment. The jobs and information on this system are not real.</p>
+      </div>
+    </div>
+    <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+      <div class="usa-banner-guidance-gov usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/Help/img/icon-dot-gov.svg" alt="Dot gov">
+        <div class="usa-media_block-body">
+          <p>
+            <strong>The .gov means it’s official.</strong>
+            <br>
+            Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
+          </p>
         </div>
       </div>
-      <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
-        <div class="usa-banner-guidance-gov usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="/Help/img/icon-dot-gov.svg" alt="Dot gov">
-          <div class="usa-media_block-body">
-            <p>
-              <strong>The .gov means it’s official.</strong>
-              <br>
-              Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
-            </p>
-          </div>
-        </div>
-        <div class="usa-banner-guidance-ssl usa-width-one-half">
-          <img class="usa-banner-icon usa-media_block-img" src="/Help/img/icon-https.svg" alt="SSL">
-          <div class="usa-media_block-body">
-            <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
-          </div>
+      <div class="usa-banner-guidance-ssl usa-width-one-half">
+        <img class="usa-banner-icon usa-media_block-img" src="/Help/img/icon-https.svg" alt="SSL">
+        <div class="usa-media_block-body">
+          <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
         </div>
       </div>
     </div>
   </div>
-  <!-- Gov banner END -->
+</div>
+<!-- Gov banner END -->
+
   <nav class="usajobs-nav usajobs-nav--full_bleed usajobs-nav--vTest usajobs-nav--search" role="navigation" aria-label="main navigation" data-object="nav" data-behavior="">
     <div class="usajobs-nav__body usajobs-nav--full_bleed__body">
       <div class="usajobs-nav__header-container">
@@ -111,20 +112,22 @@
             <ul>
               <li class="usajobs-nav__menu-container usajobs-nav__account">
                 <a class="usajobs-nav__section-link menu-toggle user-logged-out" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home" title="Account-Logged Out">
-                  <span class="fa fa-user"></span>
+                  <div class="usajobs-icon--center">
+                    <span class="fas fa-user"></span>
+                  </div>
                   <span class="usajobs-nav__account_name">Sign In</span>
                   <span class="usajobs-nav__first_name">Sign In</span>
                 </a>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__help">
                 <a class="usajobs-nav__section-link is-active" href="/Help/" title="Help">
-                  <span class="fa fa-question-circle"></span>
+                  <span class="fas fa-question-circle fa-fw"></span>
                   Help
                 </a>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed">
                 <a id="nav-menu-search-toggle" data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v2-unauth" class="usajobs-nav__section-link usajobs-nav--search__section-link" href="/Help/" title="Job Search">
-                  <span class="fa fa-search"></span>
+                  <span class="fas fa-search fa-fw" data-fa-transform="right-8"></span>
                   Search
                 </a>
               </li>
@@ -230,7 +233,9 @@
   <div class="usajobs-help-center-home__section how-to">
     <div class="usajobs-help-center-home__section-header">
       <a class="usajobs-help-center-home__section-title how-to" href="/Help/how-to/">
-        <div class="fa fa-book"></div>
+        <div class="usajobs-help-center-home__circle">
+          <span class="fas fa-book"></span>
+        </div>
         <h3>How to&hellip;</h3>
       </a>
     </div>
@@ -260,7 +265,9 @@
   <div class="usajobs-help-center-home__section faq">
     <a class="usajobs-help-center-home__section-title faq" href="/Help/faq/">
       <h3>
-        <span class="fa fa-question"></span>
+        <div class="usajobs-help-center-home__circle">
+          <span class="fas fa-question"></span>
+        </div>
         <span class="usajobs-help-center-home__section-title-text">FAQs</span>
       </h3>
     </a>
@@ -308,7 +315,9 @@
   <div class="usajobs-help-center-home__section working-in-government">
     <a class="usajobs-help-center-home__section-title working-in-government" href="/Help/working-in-government/">
       <h3>
-        <span class="fa fa-university"></span>
+        <div class="usajobs-help-center-home__circle">
+          <span class="fas fa-university"></span>
+        </div>
         <span class="usajobs-help-center-home__section-title-text">Working in Government</span>
       </h3>
     </a>
