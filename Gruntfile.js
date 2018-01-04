@@ -42,6 +42,10 @@ module.exports = function(grunt) {
             'node_modules/bourbon-neat/app/assets/stylesheets/',
             'node_modules/uswds/src/stylesheets/',
             'node_modules/uswds/src/stylesheets/lib/',
+            'node_modules/usajobs-design-system/node_modules/bourbon/app/assets/stylesheets/',
+            'node_modules/usajobs-design-system/node_modules/bourbon-neat/app/assets/stylesheets/',
+            'node_modules/usajobs-design-system/node_modules/uswds/src/stylesheets/',
+            'node_modules/usajobs-design-system/node_modules/uswds/src/stylesheets/lib/',
             'node_modules/usajobs-design-system/_scss/',
             '_scss/'
           ],

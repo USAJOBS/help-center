@@ -10,7 +10,7 @@
     @include unstyledList();
     @include contentGutter();
     width: 100%;
-    max-width: $site-max-width-L;
+    max-width: $site-max-width;
     margin: $size-S auto;
 
     @include media($XXXXL) {

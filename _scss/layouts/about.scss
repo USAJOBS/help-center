@@ -8,7 +8,7 @@
 
   &__body {
     @include clearfix();
-    max-width: $site-max-width-L;
+    max-width: $site-max-width;
     margin-left: auto;
     margin-right: auto;
     padding: 0 $size-default;
@@ -182,58 +182,55 @@
       margin-right: 0;
     }
 
-    .fa {
-      font-size: $h3-font-size;
-      text-align: center;
+    svg {
+      height: 3rem;
+      width: 3rem;
+      vertical-align: middle;
     }
+  }
 
-    .fa-google-plus,
-    .fa-youtube {
-      @include makeCircle(48px, none, $color-secondary);
-    }
+  &__circle.google-plus,
+  &__circle.youtube {
+    @include makeCircle(48px, none, $color-secondary);
+  }
 
-    .fa-facebook {
-      @include makeCircle(48px, none, $color-primary);
-    }
+  &__circle.facebook {
+    @include makeCircle(48px, none, $color-primary);
+  }
 
-    .fa-linkedin {
-      @include makeCircle(48px, none, $color-primary-darkest);
-    }
+  &__circle.linkedin {
+    @include makeCircle(48px, none, $color-primary-darkest);
+  }
 
-    .fa-twitter {
-      @include makeCircle(48px, none, $color-primary-alt);
-    }
+  &__circle.twitter {
+    @include makeCircle(48px, none, $color-primary-alt);
   }
 
   &__help-sections {
     width: 100%;
     text-align: center;
+  }
 
-    .fa {
-      text-align: center;
-      font-size: $h3-font-size;
-    }
+  &__circle {
+    text-align: center;
+    font-size: $h3-font-size;
+  }
 
-    .faq.fa {
-      @include makeCircle(48px, $color-primary-alt, none, $color-primary-alt);
-      box-shadow: inset 0 0 0 3px $color-primary-alt;
-    }
+  &__circle.faq {
+    @include makeCircle(48px, $color-primary-alt, none, $color-primary-alt);
+    box-shadow: inset 0 0 0 3px $color-primary-alt;
+  }
 
-    .how-to.fa {
-      @include makeCircle(48px, $color-green, none, $color-green);
-      box-shadow: inset 0 0 0 3px $color-green;
-      margin-left: $size-XL;
-    }
+  &__circle.how-to {
+    @include makeCircle(48px, $color-green, none, $color-green);
+    box-shadow: inset 0 0 0 3px $color-green;
+    margin-left: $size-XL;
+  }
 
-    .working-in-government.fa {
-      @include makeCircle(48px, $color-gold, none, $color-gold);
-      box-shadow: inset 0 0 0 3px $color-gold;
-      margin-left: $size-XL;
-    }
-
-    .working-in-government.fa::before {
-      margin-right: -3px;
-    }
+  &__circle.working-in-government {
+    @include makeCircle(48px, $color-gold, none, $color-gold);
+    box-shadow: inset 0 0 0 3px $color-gold;
+    margin-left: $size-XL;
   }
 }
 
@@ -244,7 +241,7 @@
 
   &__body {
     @include outer-container();
-    max-width: $site-max-width-L;
+    max-width: $site-max-width;
     padding: $size-M $size-default;
     background-image: url('../img/help-center/timeline/background.svg');
     background-repeat: no-repeat;
@@ -261,7 +258,7 @@
     }
 
     .usajobs-grid {
-      max-width: $site-max-width-L;
+      max-width: $site-max-width;
     }
   }
 

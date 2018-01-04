@@ -8,7 +8,7 @@ $body-padding: $size-M;
 
 .usajobs-unique-hiring-paths-container {
   @include outer-container();
-  max-width: $site-max-width-L;
+  max-width: $site-max-width;
   background-color: $color-gray-lightest;
 
   @include media($M) {

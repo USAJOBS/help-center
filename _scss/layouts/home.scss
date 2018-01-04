@@ -4,7 +4,7 @@
 
 // This first rule should move into the design system
 .usajobs-shell--large {
-  max-width: $site-max-width-L;
+  max-width: $site-max-width;
 
   .usajobs-content-gutter {
     @include media($XXXXL) {
@@ -14,7 +14,7 @@
   }
 
   .usajobs-grid-full {
-    max-width: $site-max-width-L;
+    max-width: $site-max-width;
   }
 }
 
@@ -155,17 +155,17 @@
     }
   }
 
-  &__section-title .fa {
+  &__section-title &__circle {
     text-align: center;
   }
 
-  &__section-title.how-to .fa {
+  &__section-title.how-to &__circle {
     @include makeCircle(118px, $color-green, none, $color-green);
     box-shadow: inset 0 0 0 3px $color-green;
     font-size: rem(59px);
   }
 
-  &__section-title.faq .fa {
+  &__section-title.faq &__circle {
     @include makeCircle(118px, $color-primary-alt, none, $color-primary-alt);
     box-shadow: inset 0 0 0 3px $color-primary-alt;
     font-size: rem(59px);
@@ -176,7 +176,7 @@
     }
   }
 
-  &__section-title.working-in-government .fa {
+  &__section-title.working-in-government &__circle {
     @include makeCircle(118px, $color-gold, none, $color-gold);
     box-shadow: inset 0 0 0 3px $color-gold;
     font-size: rem(59px);
