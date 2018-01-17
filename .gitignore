@@ -7,4 +7,4 @@
 *.sublime-*
 npm-debug.log
 node_modules
-_dist-flat
+_dist/package-lock.json
