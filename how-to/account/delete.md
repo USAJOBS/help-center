@@ -10,8 +10,8 @@ tags: [account, delete, profile, support-delete-account]
 
 To delete a USAJOBS profile:
 
-1.	Sign into your USAJOBS profile.
-2.	Click Username & Password at the bottom of the left hand column.
+1.	Sign into USAJOBS.
+2.	Click **Username & Password** at the bottom of the left hand column.
 3.	Scroll to the bottom of the page and click **Delete Profile**.
 4.	Read the message and click **Delete Profile** in the pop-up box.
 

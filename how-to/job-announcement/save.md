@@ -12,7 +12,7 @@ You need to have a USAJOBS profile and be signed in to save a job. You can save 
 
 To save a job:
 
-1.	Sign into your USAJOBS profile.
+1.	Sign into USAJOBS.
 2.	Search for a job by typing a keyword or location into the search box or run a saved search if you have one.
 3.	Review the job search results.
 4.	Click **Save Job** or the star icon next to the job title for each job you want to save. The link will change to **Saved** and the star will be filled in. This means the job is saved.

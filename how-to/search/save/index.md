@@ -16,20 +16,20 @@ You can save a search to help you look for jobs in your area of interest. When y
 
 ## To save a job search and sign up for email notifications:
 
-1.	Sign into your USAJOBS profile. If you don’t have a profile, you need to create one. Only signed in users can save their search.
-2.	Start a job search by entering a keyword or location in the search box and click **Search**. 
+1.	Sign into USAJOBS. If you don’t have a profile, you need to create one. Only signed in users can save their search.
+2.	Start a job search by entering a keyword or location in the search box and click **Search**.
 3.	Narrow your results using filters.
 4.	Click **Save this search** on the search results page located above the search results.
 5.	Name your search—this will help you manage your saved searches.
 6.	Choose how often you want to get notified. We recommend daily if you’re looking for very specific jobs since some jobs can open and close within a week. If you select daily, you’ll receive one email per day IF new jobs have been posted that match your criteria in the last 24 hours.
-7.	Click **Save**. 
+7.	Click **Save**.
 
 [Watch this short video on how to save a search](https://www.youtube.com/watch?v=pd-MuzSK3qw&feature=youtu.be){:target="_blank"}.
 
 ## Manage saved searches in your profile
 You can manage your saved searches in the **Saved Searches** section of your profile. You can have both active and archived saved searches.
 
-1.	Sign into your USAJOBS profile and go to **Saved Searches**.
+1.	Sign into USAJOBS and go to **Saved Searches**, located on your **Home** page.
 2.	Click the **+** next to a saved search to see more details. From here you can:
 
 ### Run your saved search

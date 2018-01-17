@@ -8,7 +8,7 @@ category: resume
 tags: [account, documents, resume, mining, searchable, support-resume]
 ---
 
-Making your resume searchable adds it to the USAJOBS Resume Mining collection. Resume Mining helps HR specialists and hiring managers from federal agencies look for applicants (with a USAJOBS profile) for their job announcements. 
+Making your resume searchable adds it to the USAJOBS Resume Mining collection. Resume Mining helps HR specialists and hiring managers from federal agencies look for applicants (with a USAJOBS profile) for their job announcements.
 
 * Only one of your resumes can be made searchable at a time.
 * Only certain formats are searchable including Word, text based pdfs, text files and resumes created using our Resume Builder tool.
@@ -16,7 +16,7 @@ Making your resume searchable adds it to the USAJOBS Resume Mining collection. R
 
 To make your resume searchable:
 
-1. Sign into your USAJOBS profile.
+1. Sign into USAJOBS.
 2. Go to **Documents**--your resumes will appear in your Documents.
 2. Click the **Searchable** checkbox on the resume you want to make searchable.
 

@@ -12,7 +12,7 @@ Some job announcements require certain documents or forms, such as transcripts, 
 
 ## To upload a document
 
-1.  Sign into your USAJOBS profile.
+1.  Sign into USAJOBS.
 2.	Go to your **Documents** section.
 3.	Click **Other Documents**.
 4.	Click the **Upload Documents** icon.

@@ -8,8 +8,8 @@ category: Application
 tags: [application, update, apply, support-application-update]
 ---
 
-1.  Sign into your USAJOBS account.
-2.  Go to your **Applications**.
+1.  Sign into USAJOBS.
+2.	Go to your **Applications**, located on your **Home** page — your active applications display automatically.
 3.  Find the application you would like to update.
 4.  Click the **+** icon to see all of the application details.
 5.  Review the **Closing date**-you can no longer update the application if the job has closed.

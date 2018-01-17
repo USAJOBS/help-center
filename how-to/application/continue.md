@@ -8,8 +8,8 @@ category: Application
 tags: [application, continue, apply ]
 ---
 
-1. Sign into your USAJOBS profile.
-2. Go to **Applications**.
+1. Sign into USAJOBS.
+2.	Go to your **Applications**, located on your **Home** page.
 3. Find the application that you would like to continue. It should be labeled with a status of “In Progress.”  
 4. Review the closing date to make sure the job has not closed.  
 5. Click the **+** to expand the application details.
