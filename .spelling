@@ -30,6 +30,8 @@ eligibilities
 eligibles
 eOPF
 Epi
+exclude_from_search
+exclude_from_search: true
 fedshirevets
 FedsHireVets
 Fi
@@ -59,6 +61,7 @@ OF-306
 opm.gov
 pdf
 pdfs
+permalink
 PMFs
 pre-accreditation
 Psychod
