@@ -12,7 +12,7 @@ On April 8, 2017 we changed our search filters – we added new filters and remo
 
 To find your old saved searches:
 
-1. Sign into your USAJOBS profile.
+1. Sign into USAJOBS.
 2. Go to your **Saved Searches**.
 3. Click **Archived** – you’ll find your old saved searches listed here.
 
