@@ -84,10 +84,12 @@
 
     &:visited {
       color: $color-base;
+      background-color: $color-white;
     }
 
     &:hover {
       color: $color-primary-darker;
+      background-color: $color-white; // IE is being dense here
     }
   }
 

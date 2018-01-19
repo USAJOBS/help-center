@@ -1037,10 +1037,12 @@ html {
 
 .usajobs-help-center-nav-secondary__glossary-trigger:visited {
   color: #212121;
+  background-color: #ffffff;
 }
 
 .usajobs-help-center-nav-secondary__glossary-trigger:hover {
   color: #205493;
+  background-color: #ffffff;
 }
 
 .usajobs-help-center-nav-secondary__item {
