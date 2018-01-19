@@ -956,6 +956,12 @@ html {
   box-shadow: none;
 }
 
+.usajobs-help-center-nav-secondary.home .usajobs-help-center-nav-secondary__glossary-trigger,
+.usajobs-help-center-nav-secondary.home .usajobs-help-center-nav-secondary__glossary-trigger:visited,
+.usajobs-help-center-nav-secondary.home .usajobs-help-center-nav-secondary__glossary-trigger:hover {
+  background-color: #ffffff;
+}
+
 .usajobs-help-center-nav-secondary__body {
   max-width: 160rem;
   margin-left: auto;
@@ -1022,7 +1028,7 @@ html {
   font-weight: normal;
   color: #212121;
   padding: 1.5rem 3rem;
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   background-image: url("data:image/svg+xml;charset=utf8, %3Csvg%20%20fill%3D%27%23212121%27%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M19.415%2016.18l-9.044%203.744a.934.934%200%200%201-.74%200L.584%2016.18A.938.938%200%200%201%200%2015.314V.937A.937.937%200%200%201%201.296.072l.002.002.008.003L10%203.673%2018.694.075l.01-.003A.938.938%200%200%201%2020%20.936v14.376c0%20.393-.242.73-.585.868zM9.063%2017.66V5.314L1.875%202.34v12.346l7.188%202.974zm9.062-15.32l-7.188%202.974V17.66l7.188-2.974V2.34z%22%2F%3E%3C%2Fsvg%3E");
   background-repeat: no-repeat;
   background-position: 0 50%;
@@ -1037,12 +1043,12 @@ html {
 
 .usajobs-help-center-nav-secondary__glossary-trigger:visited {
   color: #212121;
-  background-color: #ffffff;
+  background-color: #f1f1f1;
 }
 
 .usajobs-help-center-nav-secondary__glossary-trigger:hover {
   color: #205493;
-  background-color: #ffffff;
+  background-color: #f1f1f1;
 }
 
 .usajobs-help-center-nav-secondary__item {
@@ -5862,11 +5868,16 @@ html {
   border-radius: inherit;
   color: #212121;
   font-weight: normal;
+  background-color: #ffffff;
 }
 
 .usajobs-help-center-article-print__trigger:hover {
   color: #212121;
   background-color: inherit;
+}
+
+.usajobs-help-center-article-print__trigger:hover {
+  background-color: #ffffff;
 }
 
 .usajobs-help-center-article-share {
@@ -6012,6 +6023,11 @@ html {
 .usajobs-help-center-article-share__trigger {
   padding-left: 2rem;
   padding-right: 2rem;
+  background-color: #ffffff;
+}
+
+.usajobs-help-center-article-share__trigger:hover {
+  background-color: #ffffff;
 }
 
 .usajobs-help-center-article-contact {

@@ -139,6 +139,11 @@
 .usajobs-help-center-article-print {
   &__trigger {
     @include removeButton();
+    background-color: $color-white;
+  }
+
+  &__trigger:hover {
+    background-color: $color-white;
   }
 }
 
@@ -148,6 +153,11 @@
   &__trigger {
     padding-left: 2rem;
     padding-right: 2rem;
+    background-color: $color-white;
+  }
+
+  &__trigger:hover {
+    background-color: $color-white;
   }
 }
 
