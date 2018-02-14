@@ -35,12 +35,13 @@ After you’ve entered your search criteria, let us do the searching for you. Wh
 
 ## 3. Review job announcement
 
-Once you find a job you’re interested in, review the announcement to find out if you’re eligible and meet the qualifications. Read the entire job announcement before starting your application—for each job there are specific qualifications you must meet and include in your application.
+Once you find a job you’re interested in, review the announcement to see if you’re eligible and meet the qualifications. Read the entire job announcement before starting your application—for each job there are specific qualifications you must meet and include in your application.
 
-* Read the **Who May Apply** section to see if you’re eligible to apply for the position.  
-* Read the **Qualifications** section to see if you meet the qualifications of the position. [Understand the job announcement](../../../how-to/job-announcement/).
+* Read the **This job is open to** section to see if you’re eligible to apply. 
+* Read the **Clarification from the agency**, or the **Who may apply** sections for further eligibility details (not all job announcements will include this information). 
+* Read the **Qualifications** section to see if you meet the job's qualifications. [Understand the job announcement](../../../how-to/job-announcement/).
 
-If you have questions about the job, contact the agency representative listed at the bottom of the announcement.
+Contact the agency representative, listed below the **How to apply** section of the job announcement, if you have questions.
 
 ## 4. Prepare your application in USAJOBS
 
