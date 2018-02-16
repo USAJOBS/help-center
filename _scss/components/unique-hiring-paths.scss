@@ -69,7 +69,6 @@ $body-padding: $size-M;
   }
 
   &__icon {
-    @include UHPIcons(44px);
     font-size: $h3-font-size;
   }
 

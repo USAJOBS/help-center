@@ -33,69 +33,7 @@ $body-padding: $size-M;
 
   &__icon {
     display: inline-block;
-    width: rem(30px);
-    color: $color-secondary;
     text-align: center;
-
-    &.public {
-      color: $color-primary-alt;
-    }
-
-    &.federal-employees,
-    &.ses {
-      color: $color-primary-darkest;
-    }
-
-    &.federal-employees .fa::before,
-    &.individuals-with-disabilities .fa::before {
-      margin-right: rem(-4px);
-    }
-
-    &.federal-employees .fa::before {
-      margin-top: rem(-3px);
-    }
-
-    &.veterans,
-    &.military-spouses {
-      color: $color-green;
-    }
-
-    &.military-spouses {
-      .fa.is-first {
-        text-indent: 0;
-        top: -2px;
-        left: -4px;
-        opacity: 0.8;
-      }
-      .fa.is-second {
-        text-indent: 0;
-        left: 3px;
-      }
-    }
-
-    &.students {
-      color: $color-gold;
-    }
-
-    &.individuals-with-disabilities {
-      color: $color-primary-darker;
-    }
-
-    &.peace-corps {
-      color: $color-visited;
-    }
-
-    &.family-of-overseas-employees {
-      color: $color-primary-alt-darkest;
-    }
-
-    &.native-americans {
-      color: $color-gray;
-    }
-
-    &.land-mgmt {
-      color: $color-gray-warm-dark;
-    }
   }
 
   &__link {
@@ -140,6 +78,11 @@ $body-padding: $size-M;
     margin: 0;
     color: $color-base;
   }
+}
+
+svg.usajobs-uhp-section-nav__icon {
+  width: 3rem;
+  height: 3rem;
 }
 
 

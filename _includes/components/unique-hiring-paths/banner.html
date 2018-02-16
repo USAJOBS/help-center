@@ -11,17 +11,11 @@
 {% endif %}
     <div class="usajobs-uhp-banner__body">
       <div class="usajobs-uhp-banner__title-container">
-        {% if section.icons %}
-        <div class="usajobs-uhp-banner__multiple-icons fa-stack">
-          <i class="fa fa-{{ section.icons.first }} fa-stack-1x is-first"></i>
-          <i class="fa fa-{{ section.icons.last }} fa-stack-1x is-second"></i>
-        </div>
-        {% endif %}
-        {% if section.icon %}
         <div class="usajobs-uhp-banner__icon {% if section.icon-no-image %}usajobs-uhp-banner__icon-no-image{% endif %}">
-          <span class="fa fa-{{ section.icon }}"></span>
+          <svg class="usajobs-icon--hiring-path">
+            <use xlink:href="#{{ section.icon }}"></use>
+          </svg>
         </div>
-        {% endif %}
         <h1 class="usajobs-uhp-banner__title">
           {{ section.title }}
         </h1>

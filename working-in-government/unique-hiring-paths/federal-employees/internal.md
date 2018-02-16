@@ -17,26 +17,8 @@ short-name: internal
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
-      Your eligibility depends on whether the job you're applying to is in the <a href="{{ site.baseurl }}/working-in-government/service/#competitive-service">competitive service</a> or <a href="{{ site.baseurl }}/working-in-government/service/#excepted-service">excepted service</a>.
+      You're eligible if you’re a current federal employee at the hiring agency.
     </p>
-
-    <h4>"Internal to the agency jobs" within the competitive service</h4>
-    <p>
-      If you're applying to a job in the competitive service, you must be <strong>one</strong> of the following:
-    </p>
-    <ul>
-      <li>A current federal employee at the hiring agency and within the competitive service.</li>
-      <li>An individual with a disability covered by <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/individuals-with-disabilities/">schedule A</a>. Note: The Department of Defense has specific exceptions for this eligibility. Be sure to contact the hiring agency for clarification.</li>
-    </ul>
-
-    <h4>"Internal to the agency jobs" within the excepted service</h4>
-    <p>
-      If you're applying to a job in the excepted service, you must be <strong>one</strong> of the following:
-    </p>
-    <ul>
-      <li>A current federal employee at the hiring agency.</li>
-      <li>A former federal employee who is eligible for <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/reinstatement/">reinstatement</a> with the hiring agency.</li>
-    </ul>
   </div>
 </div>
 
@@ -48,7 +30,7 @@ short-name: internal
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
-      In the job announcement look for the <strong>This job is open to</strong> section. When the job is open to current employees of the agency, you’ll see the internal icon <span class="usajobs-uhp-section__filters-uhp-icon internal"><i class="fa fa-{{ hp_internal.icon }}"></i></span>.
+      In the job announcement look for the <strong>This job is open to</strong> section. When the job is open to current employees of the agency, you’ll see the internal icon <svg class="usajobs-icon--hiring-path usajobs-uhp-section__filters-uhp-icon {{ page.short-name }}"><use xlink:href="#{{ hp_internal.icon }}"></use></svg>. 
     </p>
     <p>
       There may be other groups listed that can also apply. Jobs are sometimes open internally only and sometimes internally as well as being open to other hiring paths. This is up to the agency's discretion.

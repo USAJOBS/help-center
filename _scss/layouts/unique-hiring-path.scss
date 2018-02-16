@@ -41,14 +41,17 @@
     }
   }
 
-  &__filters-uhp-icon {
-    @include UHPIcons();
-  }
-
   &__filters-uhp-desc {
     font-weight: bold;
   }
 }
+
+svg.usajobs-uhp-section__filters-uhp-icon {
+  height: 3rem;
+  width: 3rem;
+  vertical-align: middle;
+}
+
 
 .usajobs-uhp-section--services {
   max-width: inherit;
@@ -143,7 +146,7 @@
       font-size: $h1-font-size;
     }
 
-    .fa.fa-file-pdf-o {
+    .fa-file-pdf {
       color: $color-secondary-dark;
     }
   }
@@ -210,6 +213,11 @@
 
   &__figure {
     @include flex-shrink(0);
+
+    svg {
+      width: 3.7rem;
+      height: auto;
+    }
   }
 
   &__body {

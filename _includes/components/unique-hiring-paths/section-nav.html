@@ -1,160 +1,25 @@
 <div class="usajobs-uhp-section-nav">
   <h2 class="usajobs-uhp-section__title">Hiring paths</h2>
   <ul class="usajobs-uhp-section-nav__list">
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'public' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/public/">
+{% for path in site.data.unique-hiring-paths %}
+{%   assign path_name = path[0] %}
+{%   assign section = site.data.unique-hiring-paths[path_name] %}
+    {% if section.include-in-index %}
+    <li class="usajobs-uhp-section-nav__item {% if include.page == section.link-path %}is-active{% endif %}">
+      <a class="usajobs-uhp-section-nav__link" href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/{{ section.link-path }}/">
         <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon public">
-            <i class="fa fa-group"></i>
-          </div>
+          <svg class="usajobs-uhp-section-nav__icon">
+            <use xlink:href="#{{ section.icon }}"></use>
+          </svg>
         </div>
         <div class="usajobs-uhp-section-nav__body">
           <h3 class="usajobs-uhp-section-nav__item-title">
-            Open to the public
+            {{ section.title }}
           </h3>
         </div>
       </a>
     </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'federal-employees' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/federal-employees/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon federal-employees">
-            <i class="fa fa-institution"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            Federal employees
-          </h3>
-        </div>
-      </a>
-    </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'veterans' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/veterans/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon veterans">
-            <i class="fa fa-shield"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            Veterans
-          </h3>
-        </div>
-      </a>
-    </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'students' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/students/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon students">
-            <i class="fa fa-graduation-cap"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            Students &amp; recent graduates
-          </h3>
-        </div>
-      </a>
-    </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'disability' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/individuals-with-disabilities/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon individuals-with-disabilities">
-            <i class="fa fa-wheelchair-alt"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            Individuals with a disability
-          </h3>
-        </div>
-      </a>
-    </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'family-of-overseas-employees' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/family-of-overseas-employees/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon family-of-overseas-employees">
-            <i class="fa fa-plane"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            Family of overseas employees
-          </h3>
-        </div>
-      </a>
-    </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'military-spouses' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link military-spouses" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/military-spouses/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon military-spouses fa-stack">
-            <i class="fa fa-circle-o fa-stack-1x is-first"></i>
-            <i class="fa fa-circle-o fa-stack-1x is-second"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            Military spouses
-          </h3>
-        </div>
-      </a>
-    </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'national-guard' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/national-guard/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon national-guard">
-            <i class="fa fa-flag"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            National Guard
-          </h3>
-        </div>
-      </a>
-    </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'native-americans' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/native-americans/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon native-americans">
-            <i class="fa fa-sun-o"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            Native Americans
-          </h3>
-        </div>
-      </a>
-    </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'peace-corps' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/peace-corps/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon peace-corps">
-            <i class="fa fa-globe"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            Peace Corps &amp; AmeriCorps VISTA
-          </h3>
-        </div>
-      </a>
-    </li>
-    <li class="usajobs-uhp-section-nav__item {% if include.page == 'ses' %}is-active{% endif %}">
-      <a class="usajobs-uhp-section-nav__link" href="{{site.baseurl}}/working-in-government/unique-hiring-paths/senior-executive-service/">
-        <div class="usajobs-uhp-section-nav__figure">
-          <div class="usajobs-uhp-section-nav__icon ses">
-            <i class="fa fa-briefcase"></i>
-          </div>
-        </div>
-        <div class="usajobs-uhp-section-nav__body">
-          <h3 class="usajobs-uhp-section-nav__item-title">
-            Senior Executive Service
-          </h3>
-        </div>
-      </a>
-    </li>
+    {% endif %}
+{% endfor %}
   </ul>
 </div>

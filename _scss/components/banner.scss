@@ -132,36 +132,25 @@ $icon-size: rem(164px);
     }
   }
 
-  &__multiple-icons,
-  &__icon .fa {
+  &__icon {
+    text-align: center;
+  }
+
+  &__icon svg {
+    width: 16.4rem;
+    height: auto;
     margin-top: rem(-100px);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
 
-  &__icon-no-image .fa {
+  &__icon-no-image svg {
     margin-top: 0;
   }
 
-  &__multiple-icons {
-    font-size: rem(62px);
-
-    .fa.is-first {
-      text-indent: 0;
-      top: -6px;
-      left: -14px;
-      opacity: 0.8;
-    }
-
-    .fa.is-second {
-      text-indent: 0;
-      left: 12px;
-    }
-  }
-
   &__icon .fa {
-    font-size: rem(82px);
+    // font-size: rem(82px);
   }
 
   &__text-container {
@@ -171,7 +160,7 @@ $icon-size: rem(164px);
   }
 
   &__title {
-    margin-top: $size-XL;
+    margin-top: 0;
     text-align: center;
 
     @include media($ML) {
@@ -322,16 +311,16 @@ $icon-size: rem(164px);
   }
 }
 
-.usajobs-uhp-banner--ses,
 .usajobs-uhp-banner--federal-employees,
 .usajobs-uhp-banner--internal {
   .usajobs-uhp-banner__body {
     background-color: $color-primary-darkest;
   }
+}
 
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-primary-darkest);
-    display: block;
+.usajobs-uhp-banner--ses {
+  .usajobs-uhp-banner__body {
+    background-color: $color-primary;
   }
 }
 
@@ -351,24 +340,12 @@ $icon-size: rem(164px);
   .usajobs-uhp-banner__text {
     color: $color-base;
   }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-gold, $color-base);
-    display: block;
-  }
 }
 
 .usajobs-uhp-banner--veterans,
 .usajobs-uhp-banner--military-spouses {
   .usajobs-uhp-banner__body {
     background-color: $color-green;
-  }
-}
-
-.usajobs-uhp-banner--veterans {
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-green);
-    display: block;
   }
 }
 
@@ -410,6 +387,12 @@ $icon-size: rem(164px);
   &__filters-label {
     margin-top: 0;
     max-width: inherit;
+
+    .usajobs-icon--hiring-path {
+      width: 3rem;
+      height: 3rem;
+      vertical-align: middle;
+    }
   }
 
   &__filters-desc {

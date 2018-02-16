@@ -1,7 +1,7 @@
 public:
   title: Open to the Public
   text: "If you’re a U.S. citizen or national you can apply to jobs that are open to the public."
-  icon: group
+  icon: public
   subtext: "Never worked for the Federal Government, U.S. citizens or nationals"
   icon-no-image: true
   link-path: public
@@ -9,34 +9,35 @@ public:
   search-filter-value: "public"
   include-in-index: true
 
-federal-employees:
+federal-employees-competitive:
   title: Federal Employees
   text: "If you are a current or former federal employee you may qualify to apply for a position under merit promotion consideration."
   subtext: Current or former
   image-alt: "A women typing on a laptop."
-  icon: bank
+  icon: federal-employees-competitive
   link-path: federal-employees
   search-filter-desc: "Jobs open to current and former federal employees."
   search-filter-value: "fed"
   include-in-index: true
 
-internal:
-  title: Internal to an agency
-  text: "Some jobs are open to current employees of an agency."
-  icon: dot-circle-o
-  icon-no-image: true
-  link-path: internal
-  search-filter-desc: "Jobs open to current and former federal employees of the agency posting the job."
-  search-filter-value: "fed-internal-search"
-
 veterans:
   title: Veterans
   text: "If you’re a Veteran who served on active duty in the U.S. Armed Forces and were separated under honorable conditions, you may be eligible for veterans’ preference, as well as other veteran specific hiring options."
   image-alt: "Soldier saluting the American flag."
-  icon: shield
+  icon: veterans
   link-path: veterans
   search-filter-desc: "Jobs open to individuals who are preference eligible or were honorably discharged after 3 or more years of continuous active service."
   search-filter-value: "vet"
+  include-in-index: true
+
+military-spouses:
+  title: Military Spouses
+  text: "If you're a military spouse, you may be eligible to apply using a non-competitive process designed to help you get a job in the federal government."
+  image-alt: "Military service member hugging his spouse."
+  link-path: military-spouses
+  icon: military-spouses
+  search-filter-desc: "Jobs open to military spouses relocating under PCS orders, or whose spouse is 100% disabled or died while on active duty."
+  search-filter-value: "mspouse"
   include-in-index: true
 
 national-guard:
@@ -44,50 +45,17 @@ national-guard:
   text: "If you’re a member of the National Guard, or are willing and able to join the National Guard, you may be eligible to apply for federal jobs located within a National Guard unit. "
   subtext: Current or prospective members
   image-alt: "National guradsman"
-  icon: flag
+  icon: national-guard
   link-path: national-guard
   search-filter-desc: "Jobs open to current National Guard members, reserves, or transitioning military members."
   search-filter-value: "nguard"
   include-in-index: true
 
-disability:
-  title: Individuals with a disability
-  text: "If you're an individual with a disability, you can apply and compete for any job for which you are eligible and meet the qualifications, but you also may be eligible for a special hiring authority."
-  image-alt: "Male writing with mechanical pencil on paper document."
-  icon: wheelchair-alt
-  link-path: individuals-with-disabilities
-  search-filter-desc: "Jobs open to individuals with a disability."
-  search-filter-value: "disability"
-  include-in-index: true
-
-native-americans:
-  title: Native Americans
-  text: "If you're an American Indian or an Alaskan Native who is a member of one of the federally recognized tribes, you may be eligible for Indian Preference."
-  subtext: American Indian or Alaskan Native
-  image-alt: "Flags of the Native American Nations."
-  icon: sun-o
-  link-path: native-americans
-  search-filter-desc: "Jobs open to those with a tribal affiliation."
-  search-filter-value: "native"
-  include-in-index: true
-
-military-spouses:
-  title: Military Spouses
-  text: "If you're a military spouse, you may be eligible to apply using a non-competitive process designed to help you get a job in the federal government."
-  image-alt: "Military service member hugging his spouse."
-  icons:
-    - circle-o
-    - circle-o
-  link-path: military-spouses
-  search-filter-desc: "Jobs open to military spouses relocating under PCS orders, or whose spouse is 100% disabled or died while on active duty."
-  search-filter-value: "mspouse"
-  include-in-index: true
-
 students:
-  title: Students & Recent Graduates
+  title: Students & recent graduates
   text: "If you’re a current student or recent graduate, you may be eligible for federal internships and job opportunities through the Pathways and other student programs."
   image-alt: "Students at a picnic table reading."
-  icon: graduation-cap
+  icon: graduates
   link-path: students
   search-filter-desc: "Jobs open to students and recent graduates."
   search-filter-value: "student"
@@ -97,16 +65,60 @@ ses:
   title: Senior Executive Service
   text: "You may be eligible for a Senior Executive Service position if you meet the five Executive Core Qualifications (ECQs)."
   image-alt: "A pen resting on an open notebook."
-  icon: briefcase
+  icon: ses
   link-path: senior-executive-service
   search-filter-desc: "Jobs open to individuals who meet the five Executive Core Qualifications (ECQs)."
-  search-filter-value: "ses"
+  search-filter-value:
+    - "ses"
+    - "se-other"
+  include-in-index: true
+
+individuals-with-disabilities:
+  title: Individuals with a disability
+  text: "If you're an individual with a disability, you can apply and compete for any job for which you are eligible and meet the qualifications, but you also may be eligible for a special hiring authority."
+  image-alt: "Male writing with mechanical pencil on paper document."
+  link-path: individuals-with-disabilities
+  icon: individuals-with-disabilities
+  search-filter-desc: "Jobs open to individuals with a disability."
+  search-filter-value: "disability"
+  include-in-index: true
+
+family-of-overseas-employees:
+  title: Family of overseas employees
+  text: "The Federal Government offers several hiring programs for family members of federal employees, or uniformed service members, who are working or have worked overseas."
+  image-alt: "Fighter jets"
+  icon: family-of-overseas-employees
+  link-path: family-of-overseas-employees
+  search-filter-desc: "Family members of a federal employee or uniformed service member who is, or was, working overseas."
+  search-filter-value: "overseas"
+  include-in-index: true
+
+native-americans:
+  title: Native Americans
+  text: "If you're an American Indian or an Alaskan Native who is a member of one of the federally recognized tribes, you may be eligible for Indian Preference."
+  subtext: American Indian or Alaskan Native
+  image-alt: "Flags of the Native American Nations."
+  icon: native-americans
+  link-path: native-americans
+  search-filter-desc: "Jobs open to those with a tribal affiliation."
+  search-filter-value: "native"
+  include-in-index: true
+
+peace-corps:
+  title: "Peace Corps & AmeriCorps VISTA"
+  text: "If you served with the Peace Corps or AmeriCorps VISTA, you may qualify for non-competitive eligibility. This means that a federal agency can hire you outside of the formal competitive job announcement process."
+  image-alt: "One individual helps another up a mountain."
+  icon: peace-corps
+  link-path: peace-corps
+  search-filter-desc: "Jobs open to individuals who’ve served at least 2 years with the Peace Corps or 1 year with AmeriCorps VISTA."
+  search-filter-value: "peace"
   include-in-index: true
 
 base-management:
   title: Base Management
   text: "If you’re a current or former term or temporary employee of a Base Management agency, you may be eligible to apply for merit promotion jobs at any federal agency."
   icon-no-image: true
+  icon: land-mgmt
   link-path: base-management
   search-filter-desc: "Jobs open to current or former time-limited federal employees of a Base Management agency."
   search-filter-value: "fed"
@@ -115,26 +127,16 @@ land-management:
   title: Land Management
   text: "If you’re a current or former term or temporary employee of a Land Management agency, you may be eligible to apply for merit promotion jobs at any federal agency."
   icon-no-image: true
+  icon: land-mgmt
   link-path: land-management
   search-filter-desc: "Jobs open to current or former time-limited federal employees of a Land Management agency."
   search-filter-value: "fed"
 
-peace-corps:
-  title: Peace Corps/AmeriCorps VISTA
-  text: "If you served with the Peace Corps or AmeriCorps VISTA, you may qualify for non-competitive eligibility. This means that a federal agency can hire you outside of the formal competitive job announcement process."
-  image-alt: "One individual helps another up a mountain."
-  icon: globe
-  link-path: peace-corps
-  search-filter-desc: "Jobs open to individuals who’ve served at least 2 years with the Peace Corps or 1 year with AmeriCorps VISTA."
-  search-filter-value: "peace"
-  include-in-index: true
-
-family-of-overseas-employees:
-  title: Family of overseas employees
-  text: "The Federal Government offers several hiring programs for family members of federal employees, or uniformed service members, who are working or have worked overseas."
-  image-alt: "Fighter jets"
-  icon: plane
-  link-path: family-of-overseas-employees
-  search-filter-desc: "Family members of a federal employee or uniformed service member who is, or was, working overseas."
-  search-filter-value: "overseas"
-  include-in-index: true
+internal:
+  title: Internal to an agency
+  text: "Some jobs are open to current employees of an agency."
+  icon: internal-to-an-agency
+  icon-no-image: true
+  link-path: internal
+  search-filter-desc: "Jobs open to current and former federal employees of the agency posting the job."
+  search-filter-value: "fed-internal-search"
