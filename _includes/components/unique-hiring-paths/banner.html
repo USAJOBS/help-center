@@ -11,9 +11,13 @@
 {% endif %}
     <div class="usajobs-uhp-banner__body">
       <div class="usajobs-uhp-banner__title-container">
-        <div class="usajobs-uhp-banner__icon {% if section.icon-no-image %}usajobs-uhp-banner__icon-no-image{% endif %}">
+        <div class="usajobs-uhp-banner__icon {% if section.icon-no-image %}usajobs-uhp-banner__icon-no-image{% endif %} {{section.icon }}">
           <svg class="usajobs-icon--hiring-path">
+            {% if section.banner-icon %}
+            <use xlink:href="#{{ section.banner-icon }}"></use>
+            {% else %}
             <use xlink:href="#{{ section.icon }}"></use>
+            {% endif %}
           </svg>
         </div>
         <h1 class="usajobs-uhp-banner__title">

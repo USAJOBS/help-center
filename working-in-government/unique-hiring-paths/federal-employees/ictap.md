@@ -8,6 +8,13 @@ category: federal-employees
 tags: [ictap, merit-promotion, status, eligibility, federal employees]
 ---
 
-The Interagency Career Transition Assistance Plan (ICTAP) is a program designed to afford selection priority to  eligible, well-qualified Federal employees who meet the definition of a "<span data-term="Surplus Employee">surplus</span>" or “displaced” employee. These eligibles receive selection priority over almost any other applicant from outside the agency. Under ICTAP, employees must apply for positions in the local commuting area and include proof that they were displaced.
+The Interagency Career Transition Assistance Plan(ICTAP) is an interagency program that helps "surplus" or "displaced" federal employees improve their chances of finding a new job at another agency (not their current or former agency), by giving them selection priority over other applicants from outside the agency.
 
-For example, a Department of Defense employee with a Reduction in Force (RIF) separation notice could apply for a competitive service vacancy in the local commuting area at the Department of Education. In most cases, the Department of Education must select this well-qualified person for the position before choosing another applicant from outside the agency.
+You’re eligible for ICTAP if:
+
+1. You're a current federal employee who meets the definition of a "surplus" or "displaced employee—you've received official notice that your job is no longer needed or that you will lose your job by Reduction-in-Force (RIF).
+2. The agency you're applying to is accepting applications from outside of their workforce.
+3. The job you're applying to is in the local commuting area.
+4. You meet the qualifications and other requirements of the job you're applying for.
+
+For example, if you work for the Department of Defense and receive a Reduction in Force (RIF) separation notice, you can apply for a competitive service job in the local commuting area at the Department of Education.

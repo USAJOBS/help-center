@@ -9,15 +9,17 @@ public:
   search-filter-value: "public"
   include-in-index: true
 
-federal-employees-competitive:
+federal-employees:
   title: Federal Employees
-  text: "If you are a current or former federal employee you may qualify to apply for a position under merit promotion consideration."
+  text: "If you are a current or former federal employee, there are different hiring options available to you, depending on your eligibility."
   subtext: Current or former
   image-alt: "A women typing on a laptop."
   icon: federal-employees-competitive
   link-path: federal-employees
   search-filter-desc: "Jobs open to current and former federal employees."
-  search-filter-value: "fed"
+  search-filter-value:
+    - "fed-competitive"
+    - "fed-excepted"
   include-in-index: true
 
 veterans:
@@ -56,6 +58,7 @@ students:
   text: "If you’re a current student or recent graduate, you may be eligible for federal internships and job opportunities through the Pathways and other student programs."
   image-alt: "Students at a picnic table reading."
   icon: graduates
+  banner-icon: graduates2
   link-path: students
   search-filter-desc: "Jobs open to students and recent graduates."
   search-filter-value: "student"

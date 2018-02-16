@@ -64,7 +64,7 @@
   }
 
   .usajobs-help-center-breadcrumb__list {
-    max-width: $site-max-width;
+    max-width: $site-max-width-S;
 
     @include media($ML) {
       padding-top: $size-M;

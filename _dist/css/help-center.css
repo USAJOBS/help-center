@@ -171,7 +171,7 @@ html {
 }
 
 .usajobs-uhp-banner__container {
-  max-width: 160rem;
+  max-width: 120rem;
 }
 
 @media screen and (min-width: 48em) {
@@ -243,6 +243,10 @@ html {
   margin-top: 0;
 }
 
+.usajobs-uhp-banner__icon.graduates {
+  color: #212121;
+}
+
 @media screen and (min-width: 62em) {
   .usajobs-uhp-banner__text-container {
     float: left;
@@ -269,7 +273,7 @@ html {
     margin-top: 1.5rem;
     font-size: 3.4rem;
     color: #112e51;
-    margin-top: 6rem;
+    margin-top: 0;
   }
 }
 
@@ -862,7 +866,7 @@ html {
 }
 
 .usajobs-help-center-breadcrumb--uhp .usajobs-help-center-breadcrumb__list {
-  max-width: 160rem;
+  max-width: 120rem;
 }
 
 @media screen and (min-width: 48em) {
@@ -4380,6 +4384,10 @@ html {
   clip: rect(0 0 0 0) !important;
 }
 
+.usajobs-uhp {
+  max-width: 120rem;
+}
+
 @media screen and (min-width: 85.375em) {
   .usajobs-help-center-unique-hiring-path.usajobs-content-gutter {
     padding-left: 0;
@@ -4461,6 +4469,10 @@ html {
 
 .usajobs-uhp-section__filters-uhp-desc {
   font-weight: bold;
+}
+
+.usajobs-uhp-section__pathways-logo {
+  margin-top: 0.5rem;
 }
 
 svg.usajobs-uhp-section__filters-uhp-icon {
@@ -4868,9 +4880,8 @@ svg.usajobs-uhp-section__filters-uhp-icon {
   font-size: 1.4rem;
 }
 
-.usajobs-uhp-section-service-merit__text .fa {
+.usajobs-uhp-section-service-merit__text svg {
   color: #e31c3d;
-  font-size: 1.9rem;
 }
 
 .usajobs-uhp-section-service-merit--eligible {
@@ -4881,7 +4892,7 @@ svg.usajobs-uhp-section__filters-uhp-icon {
   font-weight: bold;
 }
 
-.usajobs-uhp-section-service-merit--eligible .usajobs-uhp-section-service-merit__text .fa {
+.usajobs-uhp-section-service-merit--eligible .usajobs-uhp-section-service-merit__text svg {
   color: #2e8540;
 }
 

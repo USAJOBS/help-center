@@ -102,7 +102,7 @@ $icon-size: rem(164px);
 
 .usajobs-uhp-banner {
   &__container {
-    max-width: $site-max-width;
+    max-width: $site-max-width-S;
 
     @include media($ML) {
       margin-left: auto;
@@ -149,8 +149,8 @@ $icon-size: rem(164px);
     margin-top: 0;
   }
 
-  &__icon .fa {
-    // font-size: rem(82px);
+  &__icon.graduates {
+    color: $color-base;
   }
 
   &__text-container {
@@ -165,7 +165,7 @@ $icon-size: rem(164px);
 
     @include media($ML) {
       @include h2();
-      margin-top: $size-XL;
+      margin-top: 0;
     }
   }
 

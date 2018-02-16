@@ -2,6 +2,11 @@
 
 @import 'base-shared';
 
+
+.usajobs-uhp {
+  max-width: $site-max-width-S;
+}
+
 .usajobs-help-center-unique-hiring-path.usajobs-content-gutter {
   @include media($XXL) {
     padding-left: 0;
@@ -43,6 +48,10 @@
 
   &__filters-uhp-desc {
     font-weight: bold;
+  }
+
+  &__pathways-logo {
+    margin-top: $size-base;
   }
 }
 
@@ -329,9 +338,8 @@ svg.usajobs-uhp-section__filters-uhp-icon {
     margin-bottom: 0;
     font-size: $small-font-size;
 
-    .fa {
+    svg {
       color: $color-secondary;
-      font-size: $h4-font-size;
     }
   }
 }
@@ -342,7 +350,7 @@ svg.usajobs-uhp-section__filters-uhp-icon {
   .usajobs-uhp-section-service-merit__text {
     font-weight: bold;
 
-    .fa {
+    svg {
       color: $color-green;
     }
   }
