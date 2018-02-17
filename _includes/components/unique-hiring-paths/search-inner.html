@@ -7,7 +7,7 @@
       </h3>
       <div class="usajobs-uhp-search-banner__filters-item" title="{{ section.search-filter-desc }}">
         {% for search-filter-value in section.search-filter-value %}
-        <input type="hidden" name="hp" id="hp" value="{{ search-filter-value }}" class="usajobs-uhp-search-banner__filters-checkbox">
+        <input type="hidden" name="hp" id="hp-{{ forloop.index }}" value="{{ search-filter-value }}" class="usajobs-uhp-search-banner__filters-checkbox">
         {% endfor %}
         <div class="usajobs-uhp-search-banner__filters-label">
           <svg class="usajobs-icon--hiring-path">

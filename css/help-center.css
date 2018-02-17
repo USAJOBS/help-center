@@ -297,86 +297,20 @@ html {
   background-color: #205493;
 }
 
-.usajobs-uhp-banner--disability .usajobs-uhp-banner__icon .fa {
-  display: inline-block;
-  width: 16.4rem;
-  height: 8.2rem;
-  line-height: 16.4rem;
-  border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
-  background-color: #205493;
-  display: block;
-}
-
 .usajobs-uhp-banner--family-of-overseas-employees .usajobs-uhp-banner__body {
   background-color: #046b99;
-}
-
-.usajobs-uhp-banner--family-of-overseas-employees .usajobs-uhp-banner__icon .fa {
-  display: inline-block;
-  width: 16.4rem;
-  height: 8.2rem;
-  line-height: 16.4rem;
-  border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
-  background-color: #046b99;
-  display: block;
-}
-
-.usajobs-uhp-banner--military-spouses .usajobs-uhp-banner__multiple-icons {
-  display: inline-block;
-  width: 16.4rem;
-  height: 8.2rem;
-  line-height: 16.4rem;
-  border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
-  background-color: #2e8540;
-  display: block;
 }
 
 .usajobs-uhp-banner--national-guard .usajobs-uhp-banner__body {
   background-color: #e31c3d;
 }
 
-.usajobs-uhp-banner--national-guard .usajobs-uhp-banner__icon .fa {
-  display: inline-block;
-  width: 16.4rem;
-  height: 8.2rem;
-  line-height: 16.4rem;
-  border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
-  background-color: #e31c3d;
-  display: block;
-}
-
 .usajobs-uhp-banner--native-americans .usajobs-uhp-banner__body {
   background-color: #5b616b;
 }
 
-.usajobs-uhp-banner--native-americans .usajobs-uhp-banner__icon .fa {
-  display: inline-block;
-  width: 16.4rem;
-  height: 8.2rem;
-  line-height: 16.4rem;
-  border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
-  background-color: #5b616b;
-  display: block;
-}
-
 .usajobs-uhp-banner--peace-corps .usajobs-uhp-banner__body {
   background-color: #4c2c92;
-}
-
-.usajobs-uhp-banner--peace-corps .usajobs-uhp-banner__icon .fa {
-  display: inline-block;
-  width: 16.4rem;
-  height: 8.2rem;
-  line-height: 16.4rem;
-  border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
-  background-color: #4c2c92;
-  display: block;
 }
 
 .usajobs-uhp-banner--land-management .usajobs-uhp-banner__container,
@@ -384,49 +318,14 @@ html {
   background-color: #494440;
 }
 
-.usajobs-uhp-banner--land-management .usajobs-uhp-banner__icon .fa {
-  display: inline-block;
-  width: 16.4rem;
-  height: 8.2rem;
-  line-height: 16.4rem;
-  border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
-  background-color: #494440;
-  display: block;
-}
-
 .usajobs-uhp-banner--base-management .usajobs-uhp-banner__container,
 .usajobs-uhp-banner--base-management .usajobs-uhp-banner__body {
   background-color: #323a45;
 }
 
-.usajobs-uhp-banner--base-management .usajobs-uhp-banner__icon .fa {
-  display: inline-block;
-  width: 16.4rem;
-  height: 8.2rem;
-  line-height: 16.4rem;
-  border-radius: 16.4rem 16.4rem 0 0;
-  color: #ffffff;
-  background-color: #323a45;
-  display: block;
-}
-
 .usajobs-uhp-banner--public .usajobs-uhp-banner__container,
 .usajobs-uhp-banner--public .usajobs-uhp-banner__body {
-  background-color: #f1f1f1;
-}
-
-.usajobs-uhp-banner--public .usajobs-uhp-banner__icon .fa {
-  display: inline-block;
-  width: 16.4rem;
-  height: 16.4rem;
-  line-height: 16.4rem;
-  border-radius: 50%;
-  color: #ffffff;
-  background-color: inherit;
-  box-shadow: 0 0 0 2px #02bfe7 inset;
-  background-color: #02bfe7;
-  display: block;
+  background-color: #e1f3f8;
 }
 
 .usajobs-uhp-banner--public .usajobs-uhp-banner__title,
@@ -434,28 +333,41 @@ html {
   color: #212121;
 }
 
+.usajobs-uhp-banner--special-authorities .usajobs-uhp-banner__container,
+.usajobs-uhp-banner--special-authorities .usajobs-uhp-banner__body {
+  background-color: #f1f1f1;
+}
+
+.usajobs-uhp-banner--special-authorities .usajobs-uhp-banner__title,
+.usajobs-uhp-banner--special-authorities .usajobs-uhp-banner__text {
+  color: #212121;
+}
+
 .usajobs-uhp-banner--public .usajobs-uhp-banner__container,
 .usajobs-uhp-banner--internal .usajobs-uhp-banner__container,
 .usajobs-uhp-banner--land-management .usajobs-uhp-banner__container,
-.usajobs-uhp-banner--base-management .usajobs-uhp-banner__container {
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__container,
+.usajobs-uhp-banner--special-authorities .usajobs-uhp-banner__container {
   max-width: inherit;
 }
 
 .usajobs-uhp-banner--public .usajobs-uhp-banner__body,
 .usajobs-uhp-banner--internal .usajobs-uhp-banner__body,
 .usajobs-uhp-banner--land-management .usajobs-uhp-banner__body,
-.usajobs-uhp-banner--base-management .usajobs-uhp-banner__body {
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__body,
+.usajobs-uhp-banner--special-authorities .usajobs-uhp-banner__body {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  max-width: 160rem;
+  max-width: 120rem;
 }
 
 @media screen and (min-width: 85.375em) {
   .usajobs-uhp-banner--public .usajobs-uhp-banner__body,
   .usajobs-uhp-banner--internal .usajobs-uhp-banner__body,
   .usajobs-uhp-banner--land-management .usajobs-uhp-banner__body,
-  .usajobs-uhp-banner--base-management .usajobs-uhp-banner__body {
+  .usajobs-uhp-banner--base-management .usajobs-uhp-banner__body,
+  .usajobs-uhp-banner--special-authorities .usajobs-uhp-banner__body {
     padding-left: 0;
     padding-right: 0;
   }
@@ -464,7 +376,8 @@ html {
 .usajobs-uhp-banner--public .usajobs-uhp-banner__text-container,
 .usajobs-uhp-banner--internal .usajobs-uhp-banner__text-container,
 .usajobs-uhp-banner--land-management .usajobs-uhp-banner__text-container,
-.usajobs-uhp-banner--base-management .usajobs-uhp-banner__text-container {
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__text-container,
+.usajobs-uhp-banner--special-authorities .usajobs-uhp-banner__text-container {
   margin-top: 4.5rem;
 }
 
@@ -3375,19 +3288,14 @@ html {
   text-decoration: none;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 62em) {
   .usajobs-help-center-home__section-title.faq, .usajobs-help-center-home__section-title.working-in-government {
     text-align: left;
   }
 }
 
-.usajobs-help-center-home__section-title-text {
-  display: block;
-  margin-top: 1.5rem;
-}
-
-@media screen and (min-width: 48em) {
-  .usajobs-help-center-home__section-title-text {
+@media screen and (min-width: 62em) {
+  .usajobs-help-center-home__section-title.faq h3, .usajobs-help-center-home__section-title.working-in-government h3 {
     display: inline-block;
     margin-top: 0;
     padding-left: 1rem;

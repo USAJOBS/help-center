@@ -117,6 +117,16 @@ peace-corps:
   search-filter-value: "peace"
   include-in-index: true
 
+special-authorities:
+  title: "Special authorities"
+  text: "The Federal Government offers other special hiring paths (also known as a hiring authority) to help hire individuals that represent our diverse society."
+  icon-no-image: true
+  icon: special-authorities
+  link-path: special-authorities
+  search-filter-desc: "Jobs open to those eligible under a special authority not listed above, but defined in the federal hiring regulations."
+  search-filter-value: special-authorities
+  include-in-index: true
+
 base-management:
   title: Base Management
   text: "If you’re a current or former term or temporary employee of a Base Management agency, you may be eligible to apply for merit promotion jobs at any federal agency."
@@ -124,7 +134,7 @@ base-management:
   icon: land-mgmt
   link-path: base-management
   search-filter-desc: "Jobs open to current or former time-limited federal employees of a Base Management agency."
-  search-filter-value: "fed"
+  search-filter-value: "land"
 
 land-management:
   title: Land Management
@@ -133,7 +143,7 @@ land-management:
   icon: land-mgmt
   link-path: land-management
   search-filter-desc: "Jobs open to current or former time-limited federal employees of a Land Management agency."
-  search-filter-value: "fed"
+  search-filter-value: "land"
 
 internal:
   title: Internal to an agency

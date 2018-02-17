@@ -113,19 +113,16 @@
 
   &__section-title.faq,
   &__section-title.working-in-government {
-    @include media($ML) {
+    @include media($L) {
       text-align: left;
     }
-  }
 
-  &__section-title-text {
-    display: block;
-    margin-top: $size-default;
-
-    @include media($ML) {
-      display: inline-block;
-      margin-top: 0;
-      padding-left: $size-S;
+    h3 {
+      @include media($L) {
+        display: inline-block;
+        margin-top: 0;
+        padding-left: $size-S;
+      }
     }
   }
 

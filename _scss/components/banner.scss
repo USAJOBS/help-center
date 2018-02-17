@@ -186,28 +186,11 @@ $icon-size: rem(164px);
   .usajobs-uhp-banner__body {
     background-color: $color-primary-darker;
   }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-primary-darker);
-    display: block;
-  }
 }
 
 .usajobs-uhp-banner--family-of-overseas-employees {
   .usajobs-uhp-banner__body {
     background-color: $color-primary-alt-darkest;
-  }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-primary-alt-darkest);
-    display: block;
-  }
-}
-
-.usajobs-uhp-banner--military-spouses {
-  .usajobs-uhp-banner__multiple-icons {
-    @include makeSemiCircle($icon-size, $color-green);
-    display: block;
   }
 }
 
@@ -215,32 +198,17 @@ $icon-size: rem(164px);
   .usajobs-uhp-banner__body {
     background-color: $color-secondary;
   }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-secondary);
-    display: block;
-  }
 }
 
 .usajobs-uhp-banner--native-americans {
   .usajobs-uhp-banner__body {
     background-color: $color-gray;
   }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-gray);
-    display: block;
-  }
 }
 
 .usajobs-uhp-banner--peace-corps {
   .usajobs-uhp-banner__body {
     background-color: $color-visited;
-  }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-visited);
-    display: block;
   }
 }
 
@@ -249,11 +217,6 @@ $icon-size: rem(164px);
   .usajobs-uhp-banner__body {
     background-color: $color-gray-warm-dark;
   }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-gray-warm-dark);
-    display: block;
-  }
 }
 
 .usajobs-uhp-banner--base-management {
@@ -261,23 +224,12 @@ $icon-size: rem(164px);
   .usajobs-uhp-banner__body {
     background-color: $color-gray-dark;
   }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeSemiCircle($icon-size, $color-gray-dark);
-    display: block;
-  }
 }
 
 .usajobs-uhp-banner--public {
   .usajobs-uhp-banner__container,
   .usajobs-uhp-banner__body {
-    background-color: $color-gray-lightest;
-  }
-
-  .usajobs-uhp-banner__icon .fa {
-    @include makeCircle($icon-size, $color-primary-alt);
-    background-color: $color-primary-alt;
-    display: block;
+    background-color: $color-primary-alt-lightest;
   }
 
   .usajobs-uhp-banner__title,
@@ -286,10 +238,24 @@ $icon-size: rem(164px);
   }
 }
 
+.usajobs-uhp-banner--special-authorities {
+  .usajobs-uhp-banner__container,
+  .usajobs-uhp-banner__body {
+    background-color: $color-gray-lightest;
+  }
+
+  .usajobs-uhp-banner__title,
+  .usajobs-uhp-banner__text {
+    color: $color-base;
+  }
+}
+
+
 .usajobs-uhp-banner--public,
 .usajobs-uhp-banner--internal,
 .usajobs-uhp-banner--land-management,
-.usajobs-uhp-banner--base-management {
+.usajobs-uhp-banner--base-management,
+.usajobs-uhp-banner--special-authorities {
   .usajobs-uhp-banner__container {
     max-width: inherit;
   }
@@ -298,7 +264,7 @@ $icon-size: rem(164px);
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    max-width: $site-max-width;
+    max-width: $site-max-width-S;
 
     @include media($XXL) {
       padding-left: 0;
