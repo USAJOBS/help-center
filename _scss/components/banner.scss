@@ -182,7 +182,7 @@ $icon-size: rem(164px);
   }
 }
 
-.usajobs-uhp-banner--disability {
+.usajobs-uhp-banner--individuals-with-disabilities {
   .usajobs-uhp-banner__body {
     background-color: $color-primary-darker;
   }
@@ -357,6 +357,7 @@ $icon-size: rem(164px);
 
   &__filters-label {
     margin-top: 0;
+    margin-bottom: $size-base;
     max-width: inherit;
 
     .usajobs-icon--hiring-path {
@@ -373,15 +374,6 @@ $icon-size: rem(164px);
 
   &__filters-uhp-icon {
     @include UHPIcons(29px);
-  }
-
-  // patching design system
-  &__filters-uhp-icon.disability {
-    @include makeCircle('29px', none, $color-primary-darker);
-  }
-
-  &__filters-uhp-icon.land-management {
-    @include makeCircle('29px', none, $color-gray-warm-dark);
   }
 
   &__button-container {

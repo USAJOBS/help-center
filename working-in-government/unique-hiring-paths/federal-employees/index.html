@@ -80,7 +80,7 @@ short-name: federal-employees
         </div>
       </div>
       <div class="usajobs-uhp-section-service">
-        <a class="usajobs-uhp-section-service__link" href="{{ site.baseurl }}/working-in-government/service#senior-executive-service">
+        <a class="usajobs-uhp-section-service__link" href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/senior-executive-service/">
           Senior Executive Service
         </a>
         <div class="usajobs-uhp-section-service__body">
@@ -209,7 +209,6 @@ short-name: federal-employees
   </div>
 </div>
 
-{% include components/unique-hiring-paths/search-inner.html page=page.short-name %}
 
 <div id="excepted-service" class="usajobs-uhp-section--service-divider usajobs-uhp-section-service-divider--excepted">
   <svg class="usajobs-icon--hiring-path usajobs-uhp-section-service-divider__icon">
@@ -229,7 +228,7 @@ short-name: federal-employees
       In the job announcement look for the <strong>This job is open to</strong> section. When it's a merit promotion job, you’ll see the Federal employee - Excepted service icon <svg class="usajobs-icon--hiring-path usajobs-uhp-section__filters-uhp-icon"><use xlink:href="#federal-employees-excepted"></use></svg> There may be other groups listed that can also apply.
     </p>
     <p>
-      You can also select the <strong>Federal employees - Excepted service</strong> filter in search. Your results will display all jobs open to federal employees in the excepted service. Note that jobs open to the excepted service are often also <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/public/">open to the public</a>.
+      You can also select the <strong>Federal employees - Excepted service</strong> filter in search. Your results will display all jobs open to federal employees in the excepted service.
     </p>
   </div>
 </div>
@@ -247,8 +246,7 @@ short-name: federal-employees
   </div>
 </div>
 
-{% include components/unique-hiring-paths/search-inner.html page='federal-employees-excepted' %}
-
+{% include components/unique-hiring-paths/search-federal-employees.html page=page.short-name %}
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">

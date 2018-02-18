@@ -293,7 +293,7 @@ html {
   color: #ffffff;
 }
 
-.usajobs-uhp-banner--disability .usajobs-uhp-banner__body {
+.usajobs-uhp-banner--individuals-with-disabilities .usajobs-uhp-banner__body {
   background-color: #205493;
 }
 
@@ -473,6 +473,7 @@ html {
 
 .usajobs-uhp-search-banner__filters-label {
   margin-top: 0;
+  margin-bottom: 0.5rem;
   max-width: inherit;
 }
 
@@ -621,28 +622,6 @@ html {
   width: 29px;
   height: 29px;
   line-height: 29px;
-  border-radius: 50%;
-  color: #ffffff;
-  background-color: #494440;
-  box-shadow: 0 0 0 2px none inset;
-}
-
-.usajobs-uhp-search-banner__filters-uhp-icon.disability {
-  display: inline-block;
-  width: "29px";
-  height: "29px";
-  line-height: "29px";
-  border-radius: 50%;
-  color: #ffffff;
-  background-color: #205493;
-  box-shadow: 0 0 0 2px none inset;
-}
-
-.usajobs-uhp-search-banner__filters-uhp-icon.land-management {
-  display: inline-block;
-  width: "29px";
-  height: "29px";
-  line-height: "29px";
   border-radius: 50%;
   color: #ffffff;
   background-color: #494440;

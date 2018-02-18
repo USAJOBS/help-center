@@ -9,14 +9,6 @@ public:
   search-filter-value: "public"
   include-in-index: true
 
-federal-employees-excepted:
-  title: Federal Employees - Excepted service
-  subtext: Current excepted service employees
-  icon: federal-employees-excepted
-  link-path: federal-employees
-  search-filter-desc: "Jobs open to current excepted service federal employees."
-  search-filter-value: "fed-excepted"
-
 federal-employees:
   title: Federal Employees
   text: "If you are a current or former federal employee, there are different hiring options available to you, depending on your eligibility."
@@ -25,9 +17,10 @@ federal-employees:
   icon: federal-employees-competitive
   link-path: federal-employees
   search-filter-desc: "Jobs open to current and former federal employees."
-  search-filter-value: "fed-competitive"
+  search-filter-value:
+    - fed-competitive
+    - fed-excepted
   include-in-index: true
-
 
 veterans:
   title: Veterans
@@ -84,7 +77,7 @@ ses:
   include-in-index: true
 
 individuals-with-disabilities:
-  title: Individuals with a disability
+  title: Individuals with disabilities
   text: "If you're an individual with a disability, you can apply and compete for any job for which you are eligible and meet the qualifications, but you also may be eligible for a special hiring authority."
   image-alt: "Male writing with mechanical pencil on paper document."
   link-path: individuals-with-disabilities
