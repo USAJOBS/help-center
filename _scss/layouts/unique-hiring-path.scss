@@ -55,12 +55,42 @@
   }
 }
 
-svg.usajobs-uhp-section__filters-uhp-icon {
+.usajobs-uhp-section--excepted-service {
+  &__title {
+    color: $color-primary-alt-dark;
+  }
+}
+
+svg.usajobs-uhp-section__filters-uhp-icon,
+svg.usajobs-uhp-section-service-divider__icon {
   height: 3rem;
   width: 3rem;
   vertical-align: middle;
 }
 
+.usajobs-uhp-section-service-divider {
+  &__title {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-left: $size-base;
+  }
+
+  &__icon {
+    margin-bottom: $size-base;
+  }
+}
+
+.usajobs-uhp-section-service-divider--competitive {
+  border-bottom: 1px solid $color-primary-darkest;
+}
+
+.usajobs-uhp-section-service-divider--excepted {
+  border-bottom: 1px solid $color-primary-alt;
+
+  &__title {
+    color: $color-primary-alt-dark;
+  }
+}
 
 .usajobs-uhp-section--services {
   max-width: inherit;

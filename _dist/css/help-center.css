@@ -320,7 +320,12 @@ html {
 
 .usajobs-uhp-banner--base-management .usajobs-uhp-banner__container,
 .usajobs-uhp-banner--base-management .usajobs-uhp-banner__body {
-  background-color: #323a45;
+  background-color: #e4e2e0;
+}
+
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__title,
+.usajobs-uhp-banner--base-management .usajobs-uhp-banner__text {
+  color: #212121;
 }
 
 .usajobs-uhp-banner--public .usajobs-uhp-banner__container,
@@ -4367,10 +4372,37 @@ html {
   margin-top: 0.5rem;
 }
 
-svg.usajobs-uhp-section__filters-uhp-icon {
+.usajobs-uhp-section--excepted-service__title {
+  color: #00a6d2;
+}
+
+svg.usajobs-uhp-section__filters-uhp-icon,
+svg.usajobs-uhp-section-service-divider__icon {
   height: 3rem;
   width: 3rem;
   vertical-align: middle;
+}
+
+.usajobs-uhp-section-service-divider__title {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-left: 0.5rem;
+}
+
+.usajobs-uhp-section-service-divider__icon {
+  margin-bottom: 0.5rem;
+}
+
+.usajobs-uhp-section-service-divider--competitive {
+  border-bottom: 1px solid #112e51;
+}
+
+.usajobs-uhp-section-service-divider--excepted {
+  border-bottom: 1px solid #02bfe7;
+}
+
+.usajobs-uhp-section-service-divider--excepted__title {
+  color: #00a6d2;
 }
 
 .usajobs-uhp-section--services {

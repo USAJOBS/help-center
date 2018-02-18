@@ -222,7 +222,12 @@ $icon-size: rem(164px);
 .usajobs-uhp-banner--base-management {
   .usajobs-uhp-banner__container,
   .usajobs-uhp-banner__body {
-    background-color: $color-gray-dark;
+    background-color: $color-gray-warm-light;
+  }
+
+  .usajobs-uhp-banner__title,
+  .usajobs-uhp-banner__text {
+    color: $color-base;
   }
 }
 

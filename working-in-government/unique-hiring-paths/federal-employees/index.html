@@ -48,7 +48,7 @@ short-name: federal-employees
     </p>
     <div class="usajobs-uhp-section--services__container">
       <div class="usajobs-uhp-section-service usajobs-uhp-section-service--eligible">
-        <a class="usajobs-uhp-section-service__link" href="{{ site.baseurl }}/working-in-government/service#competitive-service">
+        <a class="usajobs-uhp-section-service__link" href="#competitive-service">
           Competitive Service
         </a>
         <div class="usajobs-uhp-section-service__body">
@@ -64,7 +64,7 @@ short-name: federal-employees
         </div>
       </div>
       <div class="usajobs-uhp-section-service">
-        <a class="usajobs-uhp-section-service__link" href="{{ site.baseurl }}/working-in-government/service#excepted-service">
+        <a class="usajobs-uhp-section-service__link" href="#excepted-service">
           Excepted Service
         </a>
         <div class="usajobs-uhp-section-service__body">
@@ -110,6 +110,13 @@ short-name: federal-employees
     </div>
     {% include components/services-infographic.html %}
   </div>
+</div>
+
+<div id="competitive-service" class="usajobs-uhp-section-service-divider usajobs-uhp-section-service-divider--competitive">
+  <svg class="usajobs-icon--hiring-path usajobs-uhp-section-service-divider__icon {{ page.short-name }}">
+    <use xlink:href="#{{ hp.icon }}"></use>
+  </svg>
+  <h2 class="usajobs-uhp-section-service-divider__title">Competitive service</h2>
 </div>
 
 <div class="usajobs-uhp-section">
@@ -168,37 +175,28 @@ short-name: federal-employees
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
-    <h2 class="usajobs-uhp-section__title">
-      Other hiring options
-    </h2>
+    <h2 class="usajobs-uhp-section__title">Transfer</h2>
   </div>
   <div class="usajobs-uhp-section__col-right">
-    <h4 class="usajobs-uhp-section-programs__sub-head">
-      Current Federal employees may be eligible for:
-    </h4>
-    <ul class="usajobs-uhp-section-programs">
-      <li class="usajobs-uhp-section-programs__item">
-        <h3 class="usajobs-uhp-section-programs__title">Transfer</h3>
-        <p>
-          If you're in the competitive service, then you can move to another position in the competitive service. <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/transfer/">Learn more</a>.
-        </p>
-      </li>
-      <li class="usajobs-uhp-section-programs__item">
-        <h3 class="usajobs-uhp-section-programs__title">Interchange Agreement</h3>
-        <p>
-          If you're in the <span data-term="Excepted Service">excepted service</span> and your agency has an Interchange Agreement, you may be eligible to move to another job in the competitive service. <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/interchange-agreements/">Learn more</a>.
-        </p>
-      </li>
-    </ul>
+    <p>
+      If you're in the competitive service, then you can move to another position in the competitive service. <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/transfer/">Learn more</a>.
+    </p>
+  </div>
+</div>
 
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title">Former employees</h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
     <h4 class="usajobs-uhp-section-programs__sub-head former">
-      Former Federal employees may be eligible for:
+      Former Federal employees previously in the competitive service may be eligible for:
     </h4>
     <ul class="usajobs-uhp-section-programs">
       <li class="usajobs-uhp-section-programs__item">
-        <h3 class="usajobs-uhp-section-programs__title">CTAP/ICTAP</h3>
+        <h3 class="usajobs-uhp-section-programs__title">Career Transition (CTAP, ICTAP, RPL)</h3>
         <p>
-          If your position, agency, or department was eliminated, you can receive selection priority over other applicants. <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/ctap/">Learn more</a>.
+          If your position, agency, or department was eliminated, you can receive selection priority over other applicants. <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/career-transition/">Learn more</a>.
         </p>
       </li>
       <li class="usajobs-uhp-section-programs__item">
@@ -210,6 +208,47 @@ short-name: federal-employees
     </ul>
   </div>
 </div>
+
+{% include components/unique-hiring-paths/search-inner.html page=page.short-name %}
+
+<div id="excepted-service" class="usajobs-uhp-section--service-divider usajobs-uhp-section-service-divider--excepted">
+  <svg class="usajobs-icon--hiring-path usajobs-uhp-section-service-divider__icon">
+    <use xlink:href="#federal-employees-excepted"></use>
+  </svg>
+  <h2 class="usajobs-uhp-section-service-divider__title usajobs-uhp-section-service-divider--excepted__title">Excepted service</h2>
+</div>
+
+<div class="usajobs-uhp-section usajobs-uhp-section--excepted-service">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title usajobs-uhp-section--excepted-service__title">
+      How do I know a job is open to excepted service employees?
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <p>
+      In the job announcement look for the <strong>This job is open to</strong> section. When it's a merit promotion job, you’ll see the Federal employee - Excepted service icon <svg class="usajobs-icon--hiring-path usajobs-uhp-section__filters-uhp-icon"><use xlink:href="#federal-employees-excepted"></use></svg> There may be other groups listed that can also apply.
+    </p>
+    <p>
+      You can also select the <strong>Federal employees - Excepted service</strong> filter in search. Your results will display all jobs open to federal employees in the excepted service. Note that jobs open to the excepted service are often also <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/public/">open to the public</a>.
+    </p>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section usajobs-uhp-section--excepted-service">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title usajobs-uhp-section--excepted-service__title">
+      Interchange Agreement
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <p>
+      If you're in the excepted service and your agency has an Interchange Agreement, you may be eligible to move to another job in the competitive service. <a href="{{ site.baseurl }}/working-in-government/unique-hiring-paths/federal-employees/interchange-agreements/">Learn more</a>.
+    </p>
+  </div>
+</div>
+
+{% include components/unique-hiring-paths/search-inner.html page='federal-employees-excepted' %}
+
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
@@ -255,8 +294,6 @@ short-name: federal-employees
     {% include components/unique-hiring-paths/required-docs-upload.html %}
   </div>
 </div>
-
-{% include components/unique-hiring-paths/search-inner.html page=page.short-name %}
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
