@@ -329,7 +329,7 @@
     </p>
     <div class="usajobs-uhp-section--services__container">
       <div class="usajobs-uhp-section-service usajobs-uhp-section-service--eligible">
-        <a class="usajobs-uhp-section-service__link" href="/Help/working-in-government/service#competitive-service">
+        <a class="usajobs-uhp-section-service__link" href="#competitive-service">
           Competitive Service
         </a>
         <div class="usajobs-uhp-section-service__body">
@@ -345,7 +345,7 @@
         </div>
       </div>
       <div class="usajobs-uhp-section-service">
-        <a class="usajobs-uhp-section-service__link" href="/Help/working-in-government/service#excepted-service">
+        <a class="usajobs-uhp-section-service__link" href="#excepted-service">
           Excepted Service
         </a>
         <div class="usajobs-uhp-section-service__body">
@@ -423,6 +423,13 @@
   </div>
 </div>
 
+<div id="competitive-service" class="usajobs-uhp-section-service-divider usajobs-uhp-section-service-divider--competitive">
+  <svg class="usajobs-icon--hiring-path usajobs-uhp-section-service-divider__icon federal-employees">
+    <use xlink:href="#federal-employees-competitive"></use>
+  </svg>
+  <h2 class="usajobs-uhp-section-service-divider__title">Competitive service</h2>
+</div>
+
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
     <h2 class="usajobs-uhp-section__title">
@@ -479,37 +486,28 @@
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
-    <h2 class="usajobs-uhp-section__title">
-      Other hiring options
-    </h2>
+    <h2 class="usajobs-uhp-section__title">Transfer</h2>
   </div>
   <div class="usajobs-uhp-section__col-right">
-    <h4 class="usajobs-uhp-section-programs__sub-head">
-      Current Federal employees may be eligible for:
-    </h4>
-    <ul class="usajobs-uhp-section-programs">
-      <li class="usajobs-uhp-section-programs__item">
-        <h3 class="usajobs-uhp-section-programs__title">Transfer</h3>
-        <p>
-          If you're in the competitive service, then you can move to another position in the competitive service. <a href="/Help/working-in-government/unique-hiring-paths/federal-employees/transfer/">Learn more</a>.
-        </p>
-      </li>
-      <li class="usajobs-uhp-section-programs__item">
-        <h3 class="usajobs-uhp-section-programs__title">Interchange Agreement</h3>
-        <p>
-          If you're in the <span data-term="Excepted Service">excepted service</span> and your agency has an Interchange Agreement, you may be eligible to move to another job in the competitive service. <a href="/Help/working-in-government/unique-hiring-paths/federal-employees/interchange-agreements/">Learn more</a>.
-        </p>
-      </li>
-    </ul>
+    <p>
+      If you're in the competitive service, then you can move to another position in the competitive service. <a href="/Help/working-in-government/unique-hiring-paths/federal-employees/transfer/">Learn more</a>.
+    </p>
+  </div>
+</div>
 
+<div class="usajobs-uhp-section">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title">Former employees</h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
     <h4 class="usajobs-uhp-section-programs__sub-head former">
-      Former Federal employees may be eligible for:
+      Former Federal employees previously in the competitive service may be eligible for:
     </h4>
     <ul class="usajobs-uhp-section-programs">
       <li class="usajobs-uhp-section-programs__item">
-        <h3 class="usajobs-uhp-section-programs__title">CTAP/ICTAP</h3>
+        <h3 class="usajobs-uhp-section-programs__title">Career Transition (CTAP, ICTAP, RPL)</h3>
         <p>
-          If your position, agency, or department was eliminated, you can receive selection priority over other applicants. <a href="/Help/working-in-government/unique-hiring-paths/federal-employees/ctap/">Learn more</a>.
+          If your position, agency, or department was eliminated, you can receive selection priority over other applicants. <a href="/Help/working-in-government/unique-hiring-paths/federal-employees/career-transition/">Learn more</a>.
         </p>
       </li>
       <li class="usajobs-uhp-section-programs__item">
@@ -521,6 +519,147 @@
     </ul>
   </div>
 </div>
+
+
+<div class="usajobs-uhp-search-banner">
+  <div role="search" class="usajobs-uhp-search-banner__container">
+    <form class="usa-search usa-search-big" action="https://www.usajobs.gov/Search/Results" id="uhp-search" method="get" novalidate="novalidate" role="search">
+      <h3 class="usajobs-uhp-search-banner__title">
+        Search Jobs
+      </h3>
+      <div class="usajobs-uhp-search-banner__filters-item" title="Jobs open to current and former federal employees.">
+        
+        <input type="hidden" name="hp" id="hp-1" value="fed-competitive" class="usajobs-uhp-search-banner__filters-checkbox">
+        
+        <div class="usajobs-uhp-search-banner__filters-label">
+          <svg class="usajobs-icon--hiring-path">
+            <use xlink:href="#federal-employees-competitive"></use>
+          </svg>
+          <span>
+            Federal Employees
+          </span>
+        </div>
+        <p class="usajobs-uhp-search-banner__filters-desc">
+          Look for this option under the <strong>Hiring Path</strong> filter when searching.
+        </p>
+      </div>
+      <fieldset>
+        <div class="usajobs-nav__search-keywords-container">
+          <label for="uhp-keyword">
+            <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
+            Keywords
+          </label>
+          <input id="uhp-keyword" name="k" class="usajobs-nav__search-keywords-input ui-autocomplete-input" placeholder="Job title, dept., agency, series, or occupation" type="text" value="" autocomplete="off">
+        </div>
+        <div class="usajobs-nav__search-location-container">
+          <label for="uhp-location">
+            <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
+            Location
+          </label>
+          <input id="uhp-location" name="l" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="" autocomplete="off">
+          <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+          <input type="hidden" id="inner-AutoCompleteSelected" name="innerAutoCompleteSelected">
+          <div id="search-inner-autocomplete-container"></div>
+        </div>
+        <div class="usajobs-nav__search-button-container usajobs-uhp-search-banner__button-container">
+          <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+            Search
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+
+
+<div id="excepted-service" class="usajobs-uhp-section--service-divider usajobs-uhp-section-service-divider--excepted">
+  <svg class="usajobs-icon--hiring-path usajobs-uhp-section-service-divider__icon">
+    <use xlink:href="#federal-employees-excepted"></use>
+  </svg>
+  <h2 class="usajobs-uhp-section-service-divider__title usajobs-uhp-section-service-divider--excepted__title">Excepted service</h2>
+</div>
+
+<div class="usajobs-uhp-section usajobs-uhp-section--excepted-service">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title usajobs-uhp-section--excepted-service__title">
+      How do I know a job is open to excepted service employees?
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <p>
+      In the job announcement look for the <strong>This job is open to</strong> section. When it's a merit promotion job, you’ll see the Federal employee - Excepted service icon <svg class="usajobs-icon--hiring-path usajobs-uhp-section__filters-uhp-icon"><use xlink:href="#federal-employees-excepted"></use></svg> There may be other groups listed that can also apply.
+    </p>
+    <p>
+      You can also select the <strong>Federal employees - Excepted service</strong> filter in search. Your results will display all jobs open to federal employees in the excepted service. Note that jobs open to the excepted service are often also <a href="/Help/working-in-government/unique-hiring-paths/public/">open to the public</a>.
+    </p>
+  </div>
+</div>
+
+<div class="usajobs-uhp-section usajobs-uhp-section--excepted-service">
+  <div class="usajobs-uhp-section__col-left">
+    <h2 class="usajobs-uhp-section__title usajobs-uhp-section--excepted-service__title">
+      Interchange Agreement
+    </h2>
+  </div>
+  <div class="usajobs-uhp-section__col-right">
+    <p>
+      If you're in the excepted service and your agency has an Interchange Agreement, you may be eligible to move to another job in the competitive service. <a href="/Help/working-in-government/unique-hiring-paths/federal-employees/interchange-agreements/">Learn more</a>.
+    </p>
+  </div>
+</div>
+
+
+<div class="usajobs-uhp-search-banner">
+  <div role="search" class="usajobs-uhp-search-banner__container">
+    <form class="usa-search usa-search-big" action="https://www.usajobs.gov/Search/Results" id="uhp-search" method="get" novalidate="novalidate" role="search">
+      <h3 class="usajobs-uhp-search-banner__title">
+        Search Jobs
+      </h3>
+      <div class="usajobs-uhp-search-banner__filters-item" title="Jobs open to current excepted service federal employees.">
+        
+        <input type="hidden" name="hp" id="hp-1" value="fed-excepted" class="usajobs-uhp-search-banner__filters-checkbox">
+        
+        <div class="usajobs-uhp-search-banner__filters-label">
+          <svg class="usajobs-icon--hiring-path">
+            <use xlink:href="#federal-employees-excepted"></use>
+          </svg>
+          <span>
+            Federal Employees - Excepted service
+          </span>
+        </div>
+        <p class="usajobs-uhp-search-banner__filters-desc">
+          Look for this option under the <strong>Hiring Path</strong> filter when searching.
+        </p>
+      </div>
+      <fieldset>
+        <div class="usajobs-nav__search-keywords-container">
+          <label for="uhp-keyword">
+            <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
+            Keywords
+          </label>
+          <input id="uhp-keyword" name="k" class="usajobs-nav__search-keywords-input ui-autocomplete-input" placeholder="Job title, dept., agency, series, or occupation" type="text" value="" autocomplete="off">
+        </div>
+        <div class="usajobs-nav__search-location-container">
+          <label for="uhp-location">
+            <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
+            Location
+          </label>
+          <input id="uhp-location" name="l" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="" autocomplete="off">
+          <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+          <input type="hidden" id="inner-AutoCompleteSelected" name="innerAutoCompleteSelected">
+          <div id="search-inner-autocomplete-container"></div>
+        </div>
+        <div class="usajobs-nav__search-button-container usajobs-uhp-search-banner__button-container">
+          <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+            Search
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+
+
 
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
@@ -571,60 +710,6 @@
   </div>
 </div>
 
-
-<div class="usajobs-uhp-search-banner">
-  <div role="search" class="usajobs-uhp-search-banner__container">
-    <form class="usa-search usa-search-big" action="https://www.usajobs.gov/Search/Results" id="uhp-search" method="get" novalidate="novalidate" role="search">
-      <h3 class="usajobs-uhp-search-banner__title">
-        Search Jobs
-      </h3>
-      <div class="usajobs-uhp-search-banner__filters-item" title="Jobs open to current and former federal employees.">
-        
-        <input type="hidden" name="hp" id="hp-1" value="fed-competitive" class="usajobs-uhp-search-banner__filters-checkbox">
-        
-        <input type="hidden" name="hp" id="hp-2" value="fed-excepted" class="usajobs-uhp-search-banner__filters-checkbox">
-        
-        <div class="usajobs-uhp-search-banner__filters-label">
-          <svg class="usajobs-icon--hiring-path">
-            <use xlink:href="#federal-employees-competitive"></use>
-          </svg>
-          <span>
-            Federal Employees
-          </span>
-        </div>
-        <p class="usajobs-uhp-search-banner__filters-desc">
-          Look for this option under the <strong>Hiring Path</strong> filter when searching.
-        </p>
-      </div>
-      <fieldset>
-        <div class="usajobs-nav__search-keywords-container">
-          <label for="uhp-keyword">
-            <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
-            Keywords
-          </label>
-          <input id="uhp-keyword" name="k" class="usajobs-nav__search-keywords-input ui-autocomplete-input" placeholder="Job title, dept., agency, series, or occupation" type="text" value="" autocomplete="off">
-        </div>
-        <div class="usajobs-nav__search-location-container">
-          <label for="uhp-location">
-            <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
-            Location
-          </label>
-          <input id="uhp-location" name="l" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="" autocomplete="off">
-          <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
-          <input type="hidden" id="inner-AutoCompleteSelected" name="innerAutoCompleteSelected">
-          <div id="search-inner-autocomplete-container"></div>
-        </div>
-        <div class="usajobs-nav__search-button-container usajobs-uhp-search-banner__button-container">
-          <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
-            Search
-          </button>
-        </div>
-      </fieldset>
-    </form>
-  </div>
-</div>
-
-
 <div class="usajobs-uhp-section">
   <div class="usajobs-uhp-section__col-left">
     <h2 class="usajobs-uhp-section__title">
@@ -670,6 +755,10 @@
         </div>
       </a>
     </li>
+    
+
+
+
     
 
 
@@ -779,7 +868,7 @@
         </div>
         <div class="usajobs-uhp-section-nav__body">
           <h3 class="usajobs-uhp-section-nav__item-title">
-            Senior Executive Service
+            Senior Executives
           </h3>
         </div>
       </a>
