@@ -1,7 +1,7 @@
 # Markdown config
 highlighter: rouge
 name: USAJOBS Help Center
-subtitle: A project to improve the help content of USAJOBS.
+description: Help with using USAJOBS, the one-stop shop for federal jobs.
 exclude:
 - Gemfile
 - Gemfile.lock
@@ -27,7 +27,7 @@ permalink: pretty
 
 author:
   name: USAJOBS
-  url: https://usajobs.github.io/
+  url: https://help.usajobs.com/
 
 repository:
   name: Help Center
@@ -38,6 +38,8 @@ produrl: 'https://www.usajobs.gov'
 google_analytics_ua: UA-33523145-1
 
 # plugins: ['jekyll-lunr-js-search', 'jekyll-sitemap', 'jekyll-redirect-from']
+plugins:
+  - jekyll-sitemap
 
 lunr_search:
  min_length: 3

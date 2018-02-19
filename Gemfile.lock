@@ -256,7 +256,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 172)
   html-proofer
+  jekyll-feed
   jekyll-lunr-js-search
+  jekyll-sitemap
   rouge
 
 BUNDLED WITH
