@@ -37,9 +37,7 @@ produrl: 'https://www.usajobs.gov'
 
 google_analytics_ua: UA-33523145-1
 
-# plugins: ['jekyll-lunr-js-search', 'jekyll-sitemap', 'jekyll-redirect-from']
-plugins:
-  - jekyll-sitemap
+plugins: ['jekyll-lunr-js-search', 'jekyll-sitemap']
 
 lunr_search:
  min_length: 3
