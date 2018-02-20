@@ -19,9 +19,6 @@ module.exports = function(grunt) {
       jekyllServe: {
         command: "bundle exec jekyll serve --baseurl ''"
       },
-      jekyllBuildProd: {
-        command: "bundle exec jekyll build --config _config-prod.yml"
-      },
       spellCheck: {
         command: "mdspell -r -n -a --en-us faq/**/*.md how-to/**/*.md working-in-government/**/*.md"
       },
