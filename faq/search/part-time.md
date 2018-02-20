@@ -15,8 +15,8 @@ On the search results page:
 2.	Go to **Work schedule**.
 3.	Select **Part-time**.  
 
-Your search results will update to include only part-time jobs. 
+Your search results will update to include only part-time jobs.
 
 ## Additional resources
 
-* [Types of work](../../../working-in-government/pay-and-leave/types-of-work/)
+* [Appointment types](../../../working-in-government/pay-and-leave/appointment-types/)

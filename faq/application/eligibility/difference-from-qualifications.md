@@ -50,4 +50,4 @@ You must read the **Qualifications** section of the job announcement. Your appli
 
 If you're eligible for the job, the agency will review your qualifications and rank you based on how well you meet the qualifications. The agency may rank you as "minimally qualified", "highest qualified", or somewhere in between. Based on how well you meet the qualifications, your application may, or may not, continue through the application process.
 
-[Learn more about the federal application process](../process/).
+[Learn more about the federal application process](../../process/).
