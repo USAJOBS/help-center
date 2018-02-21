@@ -10,7 +10,8 @@
         <input type="hidden" name="hp" id="hp-{{ forloop.index }}" value="{{ search-filter-value }}" class="usajobs-uhp-search-banner__filters-checkbox">
         {% endfor %}
         <div class="usajobs-uhp-search-banner__filters-label">
-          <svg class="usajobs-icon--hiring-path" title="{{ section.title }}">
+          <svg class="usajobs-icon--hiring-path"> 
+            <title>{{ section.title }}"</title>
             <use xlink:href="#{{ section.icon }}"></use>
           </svg>
           <span>{{ section.title }}</span>
