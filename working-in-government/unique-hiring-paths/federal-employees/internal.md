@@ -30,7 +30,7 @@ short-name: internal
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
-      In the job announcement look for the <strong>This job is open to</strong> section. When the job is open to current employees of the agency, you’ll see the internal icon <svg class="usajobs-icon--hiring-path usajobs-uhp-section__filters-uhp-icon {{ page.short-name }}" title="Internal to an agency"><use xlink:href="#{{ hp_internal.icon }}"></use></svg>. 
+      In the job announcement look for the <strong>This job is open to</strong> section. When the job is open to current employees of the agency, you’ll see the internal icon <svg class="usajobs-icon--hiring-path usajobs-uhp-section__filters-uhp-icon {{ page.short-name }}" role="img"><title>Internal to an agency</title><use xlink:href="#{{ hp_internal.icon }}"></use></svg>. 
     </p>
     <p>
       There may be other groups listed that can also apply. Jobs are sometimes open internally only and sometimes internally as well as being open to other hiring paths. This is up to the agency's discretion.
