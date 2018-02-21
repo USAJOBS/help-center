@@ -8,7 +8,7 @@ category: federal-employees
 tags: [reinstatement, merit-promotion, status, eligibility, federal employees]
 ---
 
-Individuals, who previously held a career or career-conditional appointment with the federal government, may be eligible for reinstatement, which allows re-entry to the Federal competitive service workforce without competing with the public. Reinstatement eligibles can also apply for Federal jobs open only to status or merit promotion candidates.
+If you’re a former federal employee who worked in the competitive service for three years, you may be eligible to return to the Federal Government through reinstatement.  With reinstatement, you are eligible to apply to competitive service jobs that are open to federal employees.   
 
 ## Additional Resources
 
