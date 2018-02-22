@@ -2,20 +2,27 @@
 permalink: /how-to/account/password/change/
 layout: article
 section: how-to
-title: How to change or reset your password
-breadcrumb: Change or reset your password
+title: How to change your password
+breadcrumb: Change your password
 long-form: true
 category: account
 tags: [password, change, support-password]
 ---
 
-The password you use to sign into USAJOBS is your login.gov password. To change or reset your password, go to login.gov and read their help pages:
+1. Sign into your account by clicking the **Sign In** icon at the top right of any page.
+2. Click **Username & Password** at the bottom of the column on the left.
+3. Enter your current password followed by your new password.
+4. Verify your new password.
+5. Click the **Save** button at the bottom of the page.
 
-* [How do I change my login.gov password?](https://login.gov/help/changing-settings/how-do-i-change-my-password/){:target="_blank"}
+## Password criteria
 
-* [What do I do if my password doesn’t work or I forget it?](https://login.gov/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/){:target="_blank"}
+Your new USAJOBS password must:
 
-## What about security questions?
+* Be at least eight characters (20 maximum).
+* Contain at least one number (0-9).
+* Contain at least one uppercase letter (A-Z).
+* Contain at least one lowercase letter (a-z).
+* Contain at least one special character ! @ # $ % ^ & * ( ).
 
-Good news—you no longer need to answer security questions. If you forget your password, go to login.gov and read their help page:
-[What do I do if my password doesn’t work or I forget it?](https://login.gov/help/signing-in/what-do-i-do-if-my-password-doesnt-work-or-i-forget-it/){:target="_blank"}
+In addition, if someone can access your email, they may be able to gain access to your USAJOBS account. Make sure that the password to your email is different from your USAJOBS account.

@@ -26,6 +26,3 @@ If you delete your profile:
 
 ## Can I cancel my request to delete my profile?
 Yes. To cancel your request, sign into your USAJOBS profile before the end of the seven day period and click **Cancel**.
-
-## If I delete my profile, will I also delete my login.gov account?
-No.  You will not delete your login.gov account, if you delete your USAJOBS profile.

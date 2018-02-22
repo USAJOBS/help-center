@@ -8,19 +8,13 @@ category: profile
 tags: [account, profile, create, support-profile]
 ---
 
-You need to create and complete a profile to apply to jobs, save searches and save jobs. But first, you need to create a login.gov account.
-
-To create and complete a profile:
-
-1. Follow the steps to [create a login.gov account](https://login.usajobs.gov/Access/Transition) and click **Continue to USAJOBS** at the end.
-2. Click **Create Profile** (if you don't already have one) when you're back at USAJOBS.
-3. Complete all the required fields in the **Contact** and **Eligibility** sections.
-
-We recommend you also fill out the other sections of your profile, because we can use this information to improve your job search results.
-
-## Applying to a job and see this message?
+You must complete your profile to apply to jobs on USAJOBS. If you are receiving a message that states:
 
 > You must complete the required sections of your profile before you can submit this application.
 
-This means your profile isn't complete. Click **Continue to Profile** and complete all the required fields in **Contact** and **Eligibility**.
+click the **Continue to Profile** button. Complete all the required fields within the four sections of your Profile, including:
 
+1. Contact
+2. Eligibility
+3. Demographics
+4. Preferences
