@@ -50,7 +50,7 @@ Your voluntary responses are treated in a highly confidential manner. Your respo
 
 ### Public Reporting Burden
 
-We estimate the average time to complete this information collection varies from 20 minutes to 45 minutes including time for reviewing instructions, gathering the data needed, and completing and reviewing entries. The average time is 30 minutes. Send comments regarding the burden estimate or any other aspect of this collection of information, including suggestions for reducing this burden to: U.S. Office of Personnel Management, USAJOBS Program Office, 3206-0219, 1900 E Street, NW, Suite 6500, Washington, DC 20415-0001. The OMB Number, 3206-0219, is valid until 03/31/2017. OPM may not collect this information, and you are not required to respond, unless this number is displayed.
+We estimate the average time to complete this information collection varies from 20 minutes to 45 minutes including time for reviewing instructions, gathering the data needed, and completing and reviewing entries. The average time is 30 minutes. Send comments regarding the burden estimate or any other aspect of this collection of information, including suggestions for reducing this burden to: U.S. Office of Personnel Management, USAJOBS Program Office, 3206-0219, 1900 E Street, NW, Suite 2469, Washington, DC 20415-0001. The OMB Number, 3206-0219, is valid until 02/28/2021. OPM may not collect this information, and you are not required to respond, unless this number is displayed.
 
 ### If You Send Us An Email Or A Forms Request
 
