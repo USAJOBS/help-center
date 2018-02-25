@@ -29,6 +29,7 @@
   "devDependencies": {
     "babelify": "^8.0.0",
     "broken-link-checker": "^0.7.7",
+    "browserify": "^16.1.0",
     "clean-css": "^4.1.9",
     "glossary-panel": "^1.0.0",
     "grunt": "^1.0.2",

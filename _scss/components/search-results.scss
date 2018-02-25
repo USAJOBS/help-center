@@ -1,0 +1,24 @@
+// Search results
+
+@import 'base-shared';
+
+.usajobs-help-center-search-results {
+  ol {
+    padding-left: 0;
+
+    li {
+      display: block;
+      list-style-type: none;
+      @include h4();
+      font-weight: normal;
+
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -13,7 +13,13 @@
           {% include components/glossary-panel.html %}
           <div class="usajobs-help-center-search usajobs-content-gutter">
             <main class="usajobs-content-well-full" id="main-content" role="main">
-              {{ content }}
+              <div class="usajobs-grid-full">
+                <h2>Search results</h2>
+                <div class="usajobs-help-center-search-results">
+                  {% jekyll_pages_api_search_results %}
+                </div>
+                {% include components/search/no-results.html %}
+              </div>
             </main>
           </div>
         </section>

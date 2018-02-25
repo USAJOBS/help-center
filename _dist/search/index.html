@@ -19,8 +19,8 @@
 <!-- Title and meta description
 ================================================== -->
 
-  <title>USAJOBS Help Center | Search Help</title>
-  <meta property="og:title" content="USAJOBS Help Center | Search Help" />
+  <title>USAJOBS Help Center | Search results</title>
+  <meta property="og:title" content="USAJOBS Help Center | Search results" />
 
 
 
@@ -178,7 +178,7 @@
         <a href="/Help/" class="usajobs-help-center-search-banner__link">Help Center</a>
       </h1>
       <label class="usa-sr-only" for="search-query">Search</label>
-      <input type="search" id="search-query" name="q" placeholder="Search for help" autocomplete="off" >
+      <input type="search" id="search-input" name="q" placeholder="Search for help" autocomplete="off" >
       <button type="submit" class="usajobs-help-center-search-banner__submit">
         <span class="usa-search-submit-text">Search</span>
       </button>
@@ -204,11 +204,11 @@
           <div class="usajobs-help-center-search usajobs-content-gutter">
             <main class="usajobs-content-well-full" id="main-content" role="main">
               <div class="usajobs-grid-full">
-  <h2>Search results</h2>
-  <section id="search-results" style="display: none;">
-    <div class="entries">
-    </div>
-    <div class="usajobs-help-center-search-no-results" aria-hidden="true">
+                <h2>Search results</h2>
+                <div class="usajobs-help-center-search-results">
+                  <ol id='search-results'></ol>
+                </div>
+                <div class="usajobs-help-center-search-no-results" aria-hidden="true">
   <div class="usajobs-help-center-search-no-results__body">
     <h3>Search Suggestions</h3>
     <ul class="usajobs-help-center-search-no-results__list">
@@ -253,9 +253,7 @@
   </div>
 </div>
 
-  </section>
-</div>
-
+              </div>
             </main>
           </div>
         </section>
@@ -392,47 +390,26 @@
 
 
 
-
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
-    <article>
-      <a class="usajobs-help-center-search__result" href="/Help{{ url }}">
-        {{title}}
-      </a>
-    </article>
-  {{/entries}}
-</script>
-
-
 <script type="text/javascript">
-  $(function() {
-    $('#search-query').lunrSearch({
-      indexUrl: '/Help/js/index.json',   // Url for the .json file containing search index data
-      results : '#search-results',  // selector for containing search results element
-      entries : '.entries',         // selector for search entries containing element (contained within results above)
-      template: '#search-results-template'  // selector for Mustache.js template
-    });
+  setTimeout(function () {
+    // Have to wait for the results to load.
+    var $results = $('#search-results'),
+      $entries = $results.find('.entries');
+      result_count = $results.find('li').length,
+      $no_results_content = $(document).find('.usajobs-help-center-search-no-results');
 
-    setTimeout(function () {
-      // Have to wait for the results to load.
-      var $results = $('#search-results'),
-        $entries = $results.find('.entries');
-        result_count = $results.find('.usajobs-help-center-search__result').length,
-        $no_results_content = $results.find('.usajobs-help-center-search-no-results');
-
-      if (result_count === undefined || result_count.length === 0 || result_count === 0) {
-        // Swap in some no results help content
-        $no_results_content
-          .show()
-          .attr('aria-hidden', 'false');
-      } else {
-        $no_results_content
-          .hide()
-          .attr('aria-hidden', 'true');
-        $entries.prepend('<h4 class="usajobs-help-center-search__result-count">Viewing ' + result_count + ' results.</h4>');
-      }
-    }, 500);
-  });
+    if (result_count === undefined || result_count.length === 0 || result_count === 0) {
+      // Swap in some no results help content
+      $no_results_content
+        .show()
+        .attr('aria-hidden', 'false');
+    } else {
+      $no_results_content
+        .hide()
+        .attr('aria-hidden', 'true');
+      $('.usajobs-help-center-search-results').prepend('<h4 class="usajobs-help-center-search__result-count">Viewing ' + result_count + ' results.</h4>');
+    }
+  }, 500);
 </script>
 
   </body>

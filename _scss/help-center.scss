@@ -7,6 +7,7 @@
 @import 'components/breadcrumb';
 @import 'components/nav-secondary';
 @import 'components/home-ctas';
+@import 'components/search-results';
 @import 'components/search-autocomplete';
 @import 'components/search-no-results';
 @import 'components/services-infographic';
@@ -118,19 +119,6 @@
 .usajobs-help-center-singleton {
   @include clearfix();
   margin-bottom: $size-XXL;
-}
-
-// Search
-.usajobs-help-center-search {
-  &__result {
-    display: block;
-    @include h4();
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }
 
 // Glossary

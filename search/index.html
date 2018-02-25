@@ -7,7 +7,8 @@ exclude_from_search: true
 
 <div class="usajobs-grid-full">
   <h2>Search results</h2>
-  <section id="search-results" style="display: none;">
+  {% jekyll_pages_api_search_results %}
+  <section id="search-results">
     <div class="entries">
     </div>
     {% include components/search/no-results.html %}
