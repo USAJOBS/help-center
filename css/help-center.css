@@ -136,6 +136,62 @@ html {
   }
 }
 
+@media screen and (min-width: 48em) {
+  .usajobs-help-center-search-banner .search-interface,
+  .usajobs-help-center-search-banner--with-nav .search-interface {
+    width: 30%;
+    float: right;
+  }
+}
+
+.usajobs-help-center-search-banner .search-interface input,
+.usajobs-help-center-search-banner--with-nav .search-interface input {
+  display: block;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  padding: 6px 4px;
+  padding-left: 2em;
+  font: inherit;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: url(../svg/search.svg) 6px 45% no-repeat;
+  background-size: 16px;
+}
+
+.usajobs-help-center-search-banner .search-interface button,
+.usajobs-help-center-search-banner--with-nav .search-interface button {
+  position: absolute;
+  left: -9999em;
+  bottom: 3px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background: #f8f8f8;
+  font: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  color: #555;
+  padding: 4px 12px;
+}
+
+.usajobs-help-center-search-banner .search-interface button:hover,
+.usajobs-help-center-search-banner--with-nav .search-interface button:hover {
+  background-color: #eee;
+  color: #111;
+  border-color: #bbb;
+}
+
+.usajobs-help-center-search-banner .sr-only,
+.usajobs-help-center-search-banner .search-interface span.label-text,
+.usajobs-help-center-search-banner--with-nav .sr-only,
+.usajobs-help-center-search-banner--with-nav .search-interface span.label-text {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+}
+
 .usajobs-help-center-search-banner {
   padding-bottom: 3rem;
 }
@@ -1001,6 +1057,49 @@ html {
 
 .usajobs-help-center-home-about-usajobs__title {
   color: #fdb81e;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+.usajobs-assistive-text {
+  position: absolute !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+}
+
+.usajobs-help-center-search-results ol {
+  padding-left: 0;
+}
+
+.usajobs-help-center-search-results ol li {
+  display: block;
+  list-style-type: none;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.9rem;
+  font-weight: normal;
+}
+
+.usajobs-help-center-search-results ol li a {
+  text-decoration: none;
+}
+
+.usajobs-help-center-search-results ol li a:hover {
+  text-decoration: underline;
 }
 
 html {
@@ -4921,21 +5020,6 @@ svg.usajobs-uhp-section-service-divider__icon {
   clear: both;
   content: "";
   display: block;
-}
-
-.usajobs-help-center-search__result {
-  display: block;
-  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 0.5rem;
-  margin-top: 1.5rem;
-  font-size: 1.9rem;
-  text-decoration: none;
-}
-
-.usajobs-help-center-search__result:hover {
-  text-decoration: underline;
 }
 
 .usajobs-help-center-glossary dl {
