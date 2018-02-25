@@ -177,7 +177,7 @@
       <h1 class="usajobs-help-center-search-banner__title" id="title">
         <a href="/Help/" class="usajobs-help-center-search-banner__link">Help Center</a>
       </h1>
-      <label class="usa-sr-only" for="search-query">Search</label>
+      <label class="usa-sr-only" for="search-input">Search</label>
       <input type="search" id="search-input" name="q" placeholder="Search for help" autocomplete="off" >
       <button type="submit" class="usajobs-help-center-search-banner__submit">
         <span class="usa-search-submit-text">Search</span>
@@ -390,6 +390,8 @@
 
 
 
+<script src="/Help/assets/js/search-constants.js"></script>
+<script async src="/Help/assets/js/search-bundle.js"></script>
 <script type="text/javascript">
   setTimeout(function () {
     // Have to wait for the results to load.
@@ -409,7 +411,7 @@
         .attr('aria-hidden', 'true');
       $('.usajobs-help-center-search-results').prepend('<h4 class="usajobs-help-center-search__result-count">Viewing ' + result_count + ' results.</h4>');
     }
-  }, 500);
+  }, 600);
 </script>
 
   </body>
