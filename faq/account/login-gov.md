@@ -25,16 +25,17 @@ Once you set up a login.gov account, we’ll link it back to your USAJOBS profil
 
 ## What do I need to do?
 
-Once USAJOBS starts using login.gov, you will receive an email from us asking you to set up a login.gov account, if you don't already have one.  Follow the steps in the email, or we'll prompt you the next time you sign into USAJOBS.
+You need to create a login.gov account, if you don't already have one. Your old USAJOBS username and password won't work anymore. You'll need to:
 
-login.gov will walk you through each step of account set-up, but here’s a few things to know:
-
-1. You’ll only need to create the login.gov account once.
-2. You’ll need to enter an email address to start the account set up¬–use the same email address you use for USAJOBS (either your primary or secondary email address).
-3. You'll need a working phone number (mobile or landline), because login.gov will send you a security code.
-4. You’ll use your login.gov email address, password and security code whenever you want to sign into USAJOBS.
+1. [Create a login.gov account](https://login.usajobs.gov/Access/Transition) - you only need to do this once.
+2. Enter an email address during the account set up - use the same email address you use for USAJOBS (your primary or secondary email address).
+3. Create a new password.
+3. Have a working phone number (mobile or landline) near you - login.gov will send you a security code.
+4. Finish setting up your login.gov account.
 
 Once you’ve finished setting up your login.gov account, you’ll go back to USAJOBS to finish the process.  Double check your USAJOBS Profile to make sure all of your information is accurate.
+
+You need to use your login.gov email address, password and security code every time you want to sign into USAJOBS.
 
 ### What if I already have a login.gov account?
 
@@ -59,7 +60,7 @@ Using a personal email address that you control (such as a Gmail account), is th
 
 ## What if I currently use a .gov, .mil, or .edu email address for my USAJOBS primary email?
 
-If you currently use a .gov, .mil, or .edu email for your USAJOBS primary email, and you don’t have a secondary email address, you should update your USAJOBS account (before you create a login.gov account) to use a personal (non-government) email address. Once you update your USAJOBS primary email address, you can create the login.gov account.
+If you currently use a .gov, .mil or .edu email address for USAJOBS, you may want to change it AFTER you get through the login.gov account set-up process.
 
 ## Can I use a different email address from my USAJOBS email address, when setting up my login.gov account?
 
