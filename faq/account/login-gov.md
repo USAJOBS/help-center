@@ -64,7 +64,7 @@ If you currently use a .gov, .mil or .edu email address for USAJOBS, you may wan
 
 ## Can I use a different email address from my USAJOBS email address, when setting up my login.gov account?
 
-You can change your email with login.gov AFTER you get through the account set-up process.
+When you first create your login.gov account, you need to use the same email address you currently use for USAJOBS.  This will let us link your USAJOBS profile information to your new account. If you want to change your email address, we recommend you do it AFTER you've successfully linked your profile and login.gov account.
 
 ## Can I share a login.gov account with another person?
 
