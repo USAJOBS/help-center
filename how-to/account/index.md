@@ -8,6 +8,20 @@ category: account
 tags: [account, support-create-account]
 ---
 
-You need to [create a login.gov account](https://www.usajobs.gov/Access/Transition) to sign into USAJOBS and access your profile information. Once you create a login.gov account, you can come back to USAJOBS and [create your profile](profile/).
+You need to [create a login.gov account](https://www.usajobs.gov/Access/Transition) to sign into USAJOBS and access your profile information. <strong>Your old USAJOBS username and password won't work anymore.
+</strong>
+
+You'll need to:
+
+*	Create a login.gov account—you only need to do this once.
+*	Enter an email address - use the same email address you use for USAJOBS (your primary or secondary email address), if you have an existing profile with us.
+*	Create a new password.
+*	Have a working phone number (mobile or landline) — login.gov will send you a security code.
+
+Once you create a login.gov account, you'll come back to USAJOBS to link to your existing profile or create a new profile, if you don't have one.
+
+[Create your account](https://login.usajobs.gov/Access/Transition/){:target="_blank"}.
+
+### Additional information
 
 [What is login.gov and why do I have to create an account](../../faq/account/login-gov)?
