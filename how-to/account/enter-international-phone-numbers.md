@@ -12,7 +12,7 @@ When you create a login.gov account, you’ll be asked to enter a phone number w
 
 To enter an international phone number:
 
-1. Select the country where your phone number is located - this will pre-populate the country code into the phone number field.
+1. Select the country where your phone number is located - this will prepopulate the country code into the phone number field.
 2. Check the phone number field to make sure the correct country code is showing.
 3. Enter the remaining phone number digits into the phone number field - **DO NOT** enter the country code again and **DO NOT** enter the international prefix/dial out code (i.e. 00, 010, 011).
 4. Click **Send security code** and follow the remaining steps.
