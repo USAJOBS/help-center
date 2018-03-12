@@ -10,7 +10,7 @@ exclude_from_search: true
 <ul>
 {% for page in sorted_pages %}
   <li>
-    <a href="{{ page.url }}">{{ page.title }}</a>
+    <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
     <p style="font-size: 14px;">
       Location: {{ page.permalink }}, Section: {{page.section}}, Category: {{ page.category }}
     </p>
