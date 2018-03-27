@@ -17,7 +17,7 @@ An official transcript is a copy of your permanent academic record and includes:
 *	Any honors you received.
 *	The date your degree was awarded.
 
-## Can I submit a copy of my transcript?
+## Can I submit an unofficial copy of my transcript?
 
 The job announcement will tell you if you can submit a 'copy' or 'unofficial copy' of your transcript or if it needs to be a 'certified copy'. Most of the time it's okay to submit an unofficial copy of your transcript when you first apply to the job.  If you get further along in the application process, you may need to submit an 'certified official' and unopened copy from your academic institute.  
 
