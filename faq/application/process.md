@@ -12,11 +12,11 @@ This is a quick summary of how the federal application process works when you us
 
 ## 1. Create an account with login.gov
 
-First, you need to create an account with login.gov.  
+First, you need to [create an account with login.gov](https://login.usajobs.gov/Access/Transition).  
 
 ## 2. Create a USAJOBS profile
 
-Once you have a login.gov account, you need to create a profile on USAJOBS to apply to any job.
+Once you have a login.gov account, you need to [create a profile on USAJOBS](../../../how-to/account/profile/) to apply to any job.
 
 With a USAJOBS profile you can:
 
@@ -40,7 +40,7 @@ You can save a search, which will save you time the next time you visit USAJOBS.
 
 ## 4. Review job announcement
 
-If you find a job you’re interested in, read the entire announcement to make sure you’re eligible and you meet the qualifications. For each job there are specific qualifications –your application must show how you meet the required qualifications.
+If you find a job you’re interested in, read the entire announcement to make sure you’re [eligible and you meet the qualifications](/eligibility/difference-from-qualifications/). For each job there are specific qualifications –your application must show how you meet the required qualifications.
 
 * Read the **This job is open to** section to see if you’re eligible to apply. 
 * Read the **Clarification from the agency**, or the **Who may apply** sections for further eligibility details (not all job announcements will include this information). 
@@ -50,7 +50,7 @@ Contact the agency representative if you have questions. The contact information
 
 ## 4. Prepare your application in USAJOBS
 
-Read the **How to Apply** section of the job announcement before starting your application. Click **Apply** to start your application—we’ll walk you through a five-step process where you’ll attach a resume and any required documents.  
+Read the **How to Apply** section of the job announcement before starting your application. Click **Apply** to [start your application](../../../how-to/application/)—we’ll walk you through a five-step process where you’ll attach a resume and any required documents.  
 
 During the application process you can review, edit, delete and update your information. We’ll automatically save your progress as you go, so you won’t lose any changes. [Learn how to create an application](../../../how-to/application/).
 
@@ -67,7 +67,7 @@ It may take you longer to apply to some jobs than others, because some agencies 
 
 After you submit your application, go back to the **Application** section of your USAJOBS account and make sure the hiring agency received your application. Your application status will say **Received** if the application went through.
 
-You can always check the status of your application in your USAJOBS profile. 
+You can always [check the status of your application](../../../how-to/application/status/) in your USAJOBS profile. 
 
 ### How long will it take to receive an updated status?
 It may take a few hours, after you submit your application, for the agency to update your application status. You may also receive an email confirmation from the agency application system, but not all agencies send email confirmations.
