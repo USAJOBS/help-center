@@ -8,36 +8,38 @@ category: pay-and-leave
 tags: [work, schedule, full time, part time]
 ---
 
-The hours of a day (daily tour of duty) and the days of an administrative workweek (weekly tour of duty) that are scheduled in advance and during which an employee is required to perform work on a regularly recurring basis. This may be a set number of days and hours.
+A work schedule includes the hours of a day and the days of a work week that an employee is required to work. In the Federal Government, the work schedule is sometimes called a “daily tour of duty” and “weekly tour of duty”. 
 
-For example, a schedule could be Monday - Friday, from 9 am or 5 pm or Wednesday - Sunday, from 4 pm to Midnight. Other work schedules are flexible and may vary from week to week or day to day. Both the hours worked each day and the days worked each week can vary.
+Some work schedules are consistent, having the same hours every day and the same days every week. Others may be flexible and change from week to week or day to day. For example, a work schedule could be Monday - Friday, from 9 am - 5 pm or Wednesday - Sunday, from 4 pm to midnight. 
+
+The number of hours you work each day and the days of the week may vary depending on the job and the agency.
+
+Here’s a list of the different types of work schedule in the Federal Government.
 
 
-Several work schedules exist – alternative, flexible, fixed and compressed.
+## Full-time
 
-## Full time
+A full-time job requires most employees to work 40 hours per work week, or 80 hours in a pay period. There may be slight variations in this schedule.
 
-A work schedule that requires most employees to work 40 hours during the traditional work week, or 80 hours in a pay period.
+## Part-time
 
-## Part time
-
-A work schedule that requires most employees to work less than 40 hours during the traditional work week, or less than 80 hours in a pay period.
+A part-time job requires most employees to work less than 40 hours per work week, or less than 80 hours in a pay period. The number of hours may vary depending on the job.
 
 ## Shift work
 
-Occurs in a work schedule that utilizes 24 hours a day and occasionally, 7 days a week, to keep an organization operating. Shift work occurs whenever 24 hour coverage is necessary or when a 24 hour day optimizes work output and productivity.
+Shift-work requires coverage 24 hours per day, and sometimes 7 days per week. A shift-work job means you’ll work during a set period of time within that 24 hour period. You may work a night shift, morning shift or you may rotate shifts with other workers. The exact schedule may vary depending on the job.
 
 ## Intermittent
 
-Service performed without a regularly scheduled tour of duty.
+An intermittent job requires you to work from time to time – there is no set schedule. This is not the same as a part-time job.
 
 ## Job share
 
-Alternative work schedule in which two employees voluntarily share the responsibilities of one full time job, and receive salary and benefits on pro-rata basis. Job sharing creates regular part time (half days, alternative days, alternative weeks, etc.) where there was one full time position, and thus avoids a total loss of employment in a layoff.
+A job share job requires you to share a full-time job with another employee. You and the other employee share the full-time job responsibilities and receive salary and benefits on a pro-rated basis. Each job sharer can work up to 32 hours per week and your schedule could include half days, alternative days, alternative weeks or other arrangements. The exact schedule will depend on the job.
 
 ## Multiple schedules
 
-Two or more schedules presented alternatively. Open Continuous/Standing Register Jobs - Extended or open continuous announcements are used to accept applications in anticipation of vacancies.
+A job with “multiple” work schedules usually means there is more than one job being filled and the work schedule may vary for each job. You may see this type of work schedule with an open continuous job announcement.
 
 ## Additional resources
 
