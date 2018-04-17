@@ -40,7 +40,7 @@ You can save a search, which will save you time the next time you visit USAJOBS.
 
 ## 4. Review job announcement
 
-If you find a job you’re interested in, read the entire announcement to make sure you’re [eligible and you meet the qualifications](/eligibility/difference-from-qualifications/). For each job there are specific qualifications –your application must show how you meet the required qualifications.
+If you find a job you’re interested in, read the entire announcement to make sure you’re [eligible and you meet the qualifications](../eligibility/difference-from-qualifications/). For each job there are specific qualifications –your application must show how you meet the required qualifications.
 
 * Read the **This job is open to** section to see if you’re eligible to apply. 
 * Read the **Clarification from the agency**, or the **Who may apply** sections for further eligibility details (not all job announcements will include this information). 
