@@ -3535,7 +3535,7 @@ module.exports=[
     "definition": "Work experience that is directly related to the work to be performed in a job."
   },
   {
-    "term": "Standard Form 50 (SF50)",
+    "term": "Standard Form 50 (SF-50)",
     "definition": "A form created by an administrative office within your agency that documents changes to your personnel record such as grade, salary, series and place of duty. The name of the form is  \"Notification of Personnel Action\""
   },
   {

@@ -8,14 +8,11 @@ category: pay-and-leave
 tags: [work, schedule, full time, part time]
 ---
 
-A work schedule includes the hours of a day and the days of a work week that an employee is required to work. In the Federal Government, the work schedule is sometimes called a “daily tour of duty” and “weekly tour of duty”. 
+A work schedule includes the hours of a day and the days of a work week that an employee is required to work. In the Federal Government, the work schedule is sometimes called a "daily tour of duty" and "weekly tour of duty".
 
-Some work schedules are consistent, having the same hours every day and the same days every week. Others may be flexible and change from week to week or day to day. For example, a work schedule could be Monday - Friday, from 9 am - 5 pm or Wednesday - Sunday, from 4 pm to midnight. 
+Some work schedules have the same hours every day and the same days every week. Others may be flexible and change from week to week or day to day. For example, a work schedule could be Monday - Friday, from 9 am - 5 pm or Wednesday - Sunday, from 4 pm to midnight.
 
-The number of hours you work each day and the days of the week may vary depending on the job and the agency.
-
-Here’s a list of the different types of work schedule in the Federal Government.
-
+The number of hours you work each day and the days of the week you work may vary depending on the job and the agency.
 
 ## Full-time
 
@@ -39,8 +36,8 @@ A job share job requires you to share a full-time job with another employee. You
 
 ## Multiple schedules
 
-A job with “multiple” work schedules usually means there is more than one job being filled and the work schedule may vary for each job. You may see this type of work schedule with an open continuous job announcement.
+A job with “multiple” work schedules usually means there is more than one position that can be filled and the work schedules may vary for each job.
 
 ## Additional resources
 
-* [Work schedules (OPM)](https://www.opm.gov/policy-data-oversight/pay-leave/work-schedules/){:target="_blank"}
+[Work schedules (OPM)](https://www.opm.gov/policy-data-oversight/pay-leave/work-schedules/){:target="_blank"}
