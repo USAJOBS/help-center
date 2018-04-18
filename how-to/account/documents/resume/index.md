@@ -8,8 +8,9 @@ category: resume
 tags: [documents, resume, create, support-resume]
 ---
 
-Creating a resume can be done in several ways:
+You can create a resume in two ways:
 
 1. [Build a resume](build/) using our Resume Builder.
 2. [Upload a resume](upload/) that you already have.
-3. Write a new resume from scratch. For tips on tailoring a resume for the federal government read [what should I include on my federal resume](../../../../faq/application/documents/resume/what-to-include/).
+
+When applying to a federal job, you need to include specific information in your resume. [Read our tips on what you should include in your federal resume](../../../../faq/application/documents/resume/what-to-include/).
