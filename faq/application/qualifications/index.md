@@ -1,12 +1,11 @@
 ---
 permalink: /faq/application/qualifications/
-layout: article
+layout: sub-section
+suppress-form: true
 section: faq
-title: Questions related to Qualifications
+title: Questions related to qualifications
 breadcrumb: Qualifications
-category: Application
-tags: [application, qualifications]
+category: Qualifications
+exclude_from_search: true
+exclude_from_category: true
 ---
-
-* [How many years of experience do I need to qualify for a job?](experience/)
-* [What is rating and ranking?](rating-and-ranking/)
