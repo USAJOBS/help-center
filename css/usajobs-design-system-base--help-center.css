@@ -5912,7 +5912,8 @@ h6 {
   text-decoration: none;
 }
 
-.usajobs-button-secondary {
+.usajobs-button-secondary,
+.usajobs-button-destructive-action {
   display: inline-block;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -5933,38 +5934,51 @@ h6 {
   text-decoration: none;
   width: 100%;
   -webkit-font-smoothing: antialiased;
-  padding: 1.5rem 3rem;
-  border-radius: 8px;
-  font-size: 2.4rem;
+  padding: 1rem 2rem;
+  border-radius: 0.3rem;
 }
 
-.main-content .usajobs-button-secondary {
+.main-content .usajobs-button-secondary, .main-content
+.usajobs-button-destructive-action {
   text-decoration: none;
 }
 
 @media screen and (min-width: 30em) {
-  .usajobs-button-secondary {
+  .usajobs-button-secondary,
+  .usajobs-button-destructive-action {
     width: auto;
   }
 }
 
-.usajobs-button-secondary:visited {
+.usajobs-button-secondary:visited,
+.usajobs-button-destructive-action:visited {
   color: #ffffff;
 }
 
-.usajobs-button-secondary:hover, .usajobs-button-secondary.usa-button-hover {
+.usajobs-button-secondary:hover, .usajobs-button-secondary.usa-button-hover,
+.usajobs-button-destructive-action:hover,
+.usajobs-button-destructive-action.usa-button-hover {
   background-color: #cd2026;
   color: #ffffff;
   border-bottom: 0;
   text-decoration: none;
 }
 
-.usajobs-button-secondary:active, .usajobs-button-secondary.usa-button-active {
+.usajobs-button-secondary:active, .usajobs-button-secondary.usa-button-active,
+.usajobs-button-destructive-action:active,
+.usajobs-button-destructive-action.usa-button-active {
   background-color: #7b0608;
 }
 
-.usajobs-button-secondary:focus {
+.usajobs-button-secondary:focus,
+.usajobs-button-destructive-action:focus {
   box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
+}
+
+.usa-button-big.usajobs-button-secondary {
+  border-radius: 8px;
+  font-size: 2.4rem;
+  padding: 1.5rem 3rem;
 }
 
 .usajobs-button-secondary-alert {
@@ -6980,7 +6994,7 @@ html {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1061;
+  z-index: 9061;
   width: auto;
   min-height: 200px;
   -webkit-overflow-scrolling: touch;
@@ -7005,7 +7019,7 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
-  z-index: 1060;
+  z-index: 9060;
   background-color: rgba(0, 0, 0, 0.38);
   transition: opacity 0.8s linear;
 }
@@ -8167,6 +8181,7 @@ html {
 
 .usajobs-nav--openopps__brand svg {
   width: 17.0rem;
+  height: auto;
 }
 
 @media screen and (min-width: 48em) {
