@@ -1,21 +1,17 @@
 sudo: required
 dist: trusty
-
 language: node_js
-
 node_js:
-  - "8.4.0"
-
+- 8.4.0
 before_install:
-  - rvm install 2.4.1
-
+- rvm install 2.4.1
 install:
-  - npm install
-
+- npm install
 script:
-  - npm test
-
+- npm test
 notifications:
   email:
-    - matthew.dingee@opm.gov
-    - deborah.lenard@opm.gov
+  - matthew.dingee@opm.gov
+  - deborah.lenard@opm.gov
+  slack:
+    secure: pOexVyhLyJVvnZw6jvszHp2uOxtrQ95yStlpi6P/1u0ebv9S9WosZto9rrpUYz5FfP0gYxmRzJd9vg7/JqGatABTo4olZXcZOidTnfDIB8dgictBCUutQoKI/J8MGQFJnI/JRXMSq/wFh9/KkcCxr0wmSiw8K4h/GNzBCx9bINEGURxrA26ivHqFN27p+08Wt9JTkfgBtYWe9XBA9bD3rBz8+nHARZ9jL/cz6mCqdu/czdzbET3AEd5Z/JrOBYbmIw7TPAD9av9261UnO4A1wLjD6ATP+qR6VTeq9vtXDnFnC5Guae5kDH4vG6UgfU+uLHPJQsbOAXCJrrxSS9ZF+DiarsouhHjmJnPi95/uol6TOMtjGJal25NGS5qcK8c6RRV5jypzPQIo4MWO1Jtdw27QiIrO9Ms+4BbzYeL54WwuXIGGdm29iiC1ql7o6r1QOxzyYktIW6Ku1lLFhpH3+BCFwfUCThcK7vjoGTcD9tCKVmh2rF6OXMq+tBojzXFhSH7gV2HOVTduVj0tPB4NeFJruM6P3m0UWFPEABeXh17A9dB/xywobWtwyWW7YTf3YWT3dseEnmP7EVY7h/ffsqS452/5+PHSOXLQdUy6eWrLsHJbanjqHzndjfZ2cD07BCyL4yr7O+6gYT6OsaGEJsfhlRK1nfX2AzU2LbYEoxs=
