@@ -21,4 +21,4 @@ Washington, DC 20503.
 To learn more, please consult the following resources:
 
 * [Information Collection / Paperwork Reduction Act (OPM)](https://www.opm.gov/about-us/open-government/digital-government-strategy/fitara/paperwork-reduction-act-guide.pdf)
-* [Federal Collection of Information (OMB)](https://www.whitehouse.gov/omb/inforeg_infocoll)
+* [Federal Collection of Information (OMB)](https://www.whitehouse.gov/omb/information-regulatory-affairs/federal-collection-information/)
