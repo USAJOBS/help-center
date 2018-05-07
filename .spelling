@@ -32,8 +32,6 @@ eligibilities
 eligibles
 eOPF
 Epi
-exclude_from_search
-exclude_from_search: true
 fedshirevets
 FedsHireVets
 Fi
@@ -78,6 +76,8 @@ Psychod
 Rangeland
 reposted
 searchable
+skip_index
+skip_index: true
 SF-15
 SF-50
 SecureAuth

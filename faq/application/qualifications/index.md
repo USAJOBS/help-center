@@ -6,6 +6,6 @@ section: faq
 title: Questions related to qualifications
 breadcrumb: Qualifications
 category: Qualifications
-exclude_from_search: true
+skip_index: true
 exclude_from_category: true
 ---

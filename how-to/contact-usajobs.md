@@ -6,7 +6,6 @@ title: How to contact USAJOBS
 breadcrumb: Contact USAJOBS
 category: how-to
 suppress-form: true
-exclude_from_search: true
 tags: [contact, help, support]
 ---
 

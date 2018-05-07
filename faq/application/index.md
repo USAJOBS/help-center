@@ -6,6 +6,6 @@ section: faq
 title: Questions related to the application process
 breadcrumb: Application
 category: application
-exclude_from_search: true
+skip_index: true
 exclude_from_category: true
 ---

@@ -6,6 +6,6 @@ section: faq
 title: Questions related to pay
 breadcrumb: Pay
 category: pay
-exclude_from_search: true
+skip_index: true
 exclude_from_category: true
 ---

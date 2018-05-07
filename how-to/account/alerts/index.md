@@ -6,6 +6,6 @@ section: how-to
 title: Questions related to alerts
 breadcrumb: Alerts
 category: alert
-exclude_from_search: true
+skip_index: true
 exclude_from_category: true
 ---

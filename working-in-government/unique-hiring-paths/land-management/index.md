@@ -4,5 +4,5 @@ layout: article-redirect
 section: working-in-government
 title: Land Management
 redirect: /working-in-government/unique-hiring-paths/federal-employees/land-management/
-exclude_from_search: true
+skip_index: true
 ---

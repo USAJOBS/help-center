@@ -6,6 +6,6 @@ section: faq
 title: Questions related to your login.gov account
 breadcrumb: Account
 category: account
-exclude_from_search: true
+skip_index: true
 exclude_from_category: true
 ---

@@ -6,7 +6,7 @@ title: How to archive a job application
 breadcrumb: Archive
 category: Application
 tags: [application, update, archive]
-exclude_from_search: true
+skip_index: true
 exclude_from_category: true
 ---
 
