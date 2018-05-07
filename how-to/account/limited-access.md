@@ -35,5 +35,3 @@ This option is always available with no additional software. After creating your
 1.	Sign in at login.gov with your email address and password.
 2.	On the "Enter your security code" page, select "Use a personal key instead."
 3.	Follow the instructions to enter your personal security code.
-
-If you're unable to use either an authentication app or your login.gov personal key, please contact the USAJOBS help desk for further assistance.
