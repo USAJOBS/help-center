@@ -2,10 +2,10 @@ public:
   title: Open to the Public
   text: "If you’re a U.S. citizen or national you can apply to jobs that are open to the public."
   icon: public
-  subtext: "Never worked for the Federal Government, U.S. citizens or nationals"
+  subtext: "U.S. citizens, nationals, or those who owe allegiance to the U.S."
   icon-no-image: true
   link-path: public
-  search-filter-desc: "Jobs open to U.S. citizens, nationals or individuals who owe allegiance to the U.S."
+  search-filter-desc: "Jobs open to U.S. citizens, nationals, or individuals who owe allegiance to the U.S."
   search-filter-value: "public"
   include-in-index: true
 
