@@ -97,72 +97,67 @@
 </div>
 <!-- Gov banner END -->
 
-  <nav class="usajobs-nav usajobs-nav--full_bleed usajobs-nav--vTest usajobs-nav--search" role="navigation" aria-label="main navigation" data-object="nav" data-behavior="">
-    <div class="usajobs-nav__body usajobs-nav--full_bleed__body">
+  <nav class="usajobs-nav usajobs-nav--core-v2" role="navigation" aria-label="main navigation" data-object="nav" data-behavior="">
+    <div class="usajobs-nav__body usajobs-nav--core-v2__body">
       <div class="usajobs-nav__header-container">
-        <div class="usajobs-nav__header usajobs-nav--full_bleed__header">
-          <div class="usajobs-nav__brand-container">
-            <a class="usajobs-nav__brand usajobs-nav--vTest__brand usajobs-nav--full_bleed__brand" href="/Help/">
-              <span class="logo" title="USAJOBS logo"></span>
+        <div class="usajobs-nav__header usajobs-nav--core-v2__header">
+          <div class="usajobs-nav__brand-container usajobs-nav--core-v2__brand-container">
+            <a class="usajobs-nav__brand usajobs-nav--core-v2__brand usajobs-nav--vTest__brand" href="/Help/">
+              <span class="logo usajobs-nav--core-v2__logo" title="USAJOBS logo"></span>
               <span class="test">FAKE <i class="fa fa-exclamation-circle"></i></span>
             </a>
           </div>
           <div class="usajobs-nav__menu" id="usajobs-menu">
             <ul>
-              <li class="usajobs-nav__menu-container usajobs-nav__account">
-                <a class="usajobs-nav__section-link menu-toggle user-logged-out" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home" title="Account-Logged Out">
-                  <div class="usajobs-icon--center">
-                    <span class="fas fa-user"></span>
-                  </div>
+              <li class="usajobs-nav__menu-container usajobs-nav__account usajobs-nav--core-v2 usajobs-nav--core-v2__menu-container">
+                <a class="usajobs-nav__section-link usajobs-nav--core-v2__section-link menu-toggle" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home" title="Account-Logged Out">
+                  <span class="fas fa-sign-in-alt fa-fw" data-fa-transform="right-6"></span>
                   <span class="usajobs-nav__account_name">Sign In</span>
-                  <span class="usajobs-nav__first_name">Sign In</span>
+                  <span class="usajobs-nav__first_name usajobs-nav--core-v2__first_name">Sign In</span>
                 </a>
               </li>
-              <li class="usajobs-nav__menu-container usajobs-nav__help">
-                <a class="usajobs-nav__section-link is-active" href="/Help/" title="Help">
-                  <span class="fas fa-question-circle fa-fw"></span>
-                  Help
+              <li class="usajobs-nav__menu-container usajobs-nav__help usajobs-nav--core-v2__menu-container usajobs-nav--core-v2__help">
+                <a class="usajobs-nav__section-link usajobs-nav--core-v2__section-link" href="/Help/" title="Help">
+                  <span class="fas fa-question-circle fa-fw"></span>Help
                 </a>
               </li>
-              <li class="usajobs-nav__menu-container usajobs-nav__menu-search" data-state="is-closed">
-                <a id="nav-menu-search-toggle" data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form-v2-unauth" class="usajobs-nav__section-link usajobs-nav--search__section-link" href="/Help/" title="Job Search">
-                  <span class="fas fa-search fa-fw" data-fa-transform="right-8"></span>
-                  Search
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search usajobs-nav--core-v2__menu-container" data-state="is-closed">
+                <a data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form--core-v2-unauth" class="usajobs-nav__section-link usajobs-nav--core-v2__section-link" href="/Help/" title="Job Search">
+                  <span class="fas fa-search fa-fw"></span> Search
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div id="usajobs-search-form-v2-unauth" class="usajobs-nav__search" aria-expanded="false" role="menu">
-          <form action="/Search" method="get" novalidate="novalidate" role="search">
-            <fieldset class="usajobs-nav--full_bleed__search-body">
-              <div class="usajobs-nav__search-keywords-container">
-                <label for="search-keyword">
-                  <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
-                  Keywords
-                </label>
-                <input id="search-keyword" name="keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, dept., agency, series, or keyword" type="text" value="" autocomplete="off">
-                <input type="hidden" id="search-keyword-autocomplete" name="search-keyword-autocomplete">
-                <div id="search-keyword-autocomplete-container"></div>
-              </div>
-              <div class="usajobs-nav__search-location-container">
-                <label class="usajobs-nav__location-label" for="search-location-2">
-                  <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
-                  Location
-                </label>
-                <input id="search-location-2" name="location_name" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" value="" autocomplete="off">
-                <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
-                <input type="hidden" id="AutoCompleteSelected" name="AutoCompleteSelected">
-              </div>
-              <div class="usajobs-nav__search-button-container usajobs-nav--full_bleed__search-button-container">
-                <button class="usa-button usa-button-primary-alt usajobs-nav__search-button" data-behavior="nav.close_refiners">
-                  Search
-                </button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
       </div>
+    </div>
+    <div id="usajobs-search-form--core-v2-unauth" class="usajobs-nav__search" aria-expanded="false" role="menu">
+      <form action="https://www.usajobs.gov/Search" method="get" novalidate="novalidate" role="search">
+  <fieldset class="usajobs-nav--full_bleed__search-body">
+    <div class="usajobs-nav__search-keywords-container">
+      <label for="search-keyword">
+        <i class="usajobs-nav__search-keywords-icon fa fa-search"></i>
+        Keywords
+      </label>
+      <input id="search-keyword" name="search-keyword" class="usajobs-nav__search-keywords-input" placeholder="Job title, department &amp; agency, series" type="text" value="" autocomplete="off">
+    </div>
+    <div class="usajobs-nav__search-location-container">
+      <label for="search-location">
+        <i class="usajobs-nav__search-location-icon fa fa-map-marker"></i>
+        Location
+      </label>
+      <input id="search-location" name="search-location" type="text" class="usajobs-nav__search-location-input" placeholder="City, state, zip, or country" autocomplete="off">
+      <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+      <input type="hidden" id="AutoCompleteSelected" name="AutoCompleteSelected">
+    </div>
+    <div class="usajobs-nav__search-button-container usajobs-nav--full_bleed__search-button-container">
+      <button class="usa-button usa-button-primary-alt usajobs-nav__search-button">
+        Search
+      </button>
+    </div>
+  </fieldset>
+</form>
+
     </div>
   </nav>
 </header>

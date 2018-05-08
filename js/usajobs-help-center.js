@@ -1682,7 +1682,9 @@ window.Modernizr = (function( window, document, undefined ) {
       }
       option_el = document.createElement("li");
       option_el.className = classes.join(" ");
-      option_el.style.cssText = option.style;
+      if (option.style) {
+        option_el.style.cssText = option.style;
+      }
       option_el.setAttribute("data-option-array-index", option.array_index);
       option_el.innerHTML = option.highlighted_html || option.html;
       if (option.title) {
@@ -1756,7 +1758,7 @@ window.Modernizr = (function( window, document, undefined ) {
       }
     };
 
-    AbstractChosen.prototype.winnow_results = function() {
+    AbstractChosen.prototype.winnow_results = function(options) {
       var escapedQuery, fix, i, len, option, prefix, query, ref, regex, results, results_group, search_match, startpos, suffix, text;
       this.no_results_clear();
       results = 0;
@@ -1812,7 +1814,9 @@ window.Modernizr = (function( window, document, undefined ) {
         return this.no_results(query);
       } else {
         this.update_results_content(this.results_option_build());
-        return this.winnow_results_set_highlight();
+        if (!(options != null ? options.skip_highlight : void 0)) {
+          return this.winnow_results_set_highlight();
+        }
       }
     };
 
@@ -1999,7 +2003,7 @@ window.Modernizr = (function( window, document, undefined ) {
     };
 
     AbstractChosen.prototype.get_single_html = function() {
-      return "<a class=\"chosen-single chosen-default\">\n  <input class=\"chosen-search-input\" type=\"text\" autocomplete=\"off\" />\n  <span>" + this.default_text + "</span>\n  <div><b></b></div>\n</a>\n<div class=\"chosen-drop\">\n  <div class=\"chosen-search\">\n  </div>\n  <ul class=\"chosen-results\"></ul>\n</div>";
+      return "<a class=\"chosen-single chosen-default\">\n  <input class=\"chosen-focus-input\" type=\"text\" autocomplete=\"off\" />\n  <span>" + this.default_text + "</span>\n  <div><b></b></div>\n</a>\n<div class=\"chosen-drop\">\n  <div class=\"chosen-search\">\n    <input class=\"chosen-search-input\" type=\"text\" autocomplete=\"off\" />\n  </div>\n  <ul class=\"chosen-results\"></ul>\n</div>";
     };
 
     AbstractChosen.prototype.get_multi_html = function() {
@@ -2092,7 +2096,8 @@ window.Modernizr = (function( window, document, undefined ) {
       }
       this.form_field_jq.hide().after(this.container);
       this.dropdown = this.container.find('div.chosen-drop').first();
-      this.search_field = this.container.find('input').first();
+      this.search_field = this.container.find('input.chosen-search-input');
+      this.focus_field = this.container.find('input.chosen-focus-input');
       this.search_results = this.container.find('ul.chosen-results').first();
       this.search_field_scale();
       this.search_no_results = this.container.find('li.no-results').first();
@@ -2115,6 +2120,7 @@ window.Modernizr = (function( window, document, undefined ) {
     };
 
     Chosen.prototype.register_observers = function() {
+      var transfer_value;
       this.container.on('touchstart.chosen', (function(_this) {
         return function(evt) {
           _this.container_mousedown(evt);
@@ -2237,9 +2243,49 @@ window.Modernizr = (function( window, document, undefined ) {
           };
         })(this));
       } else {
-        return this.container.on('click.chosen', function(evt) {
+        this.container.on('click.chosen', function(evt) {
           evt.preventDefault();
         });
+        this.focus_field.on('blur.chosen', (function(_this) {
+          return function(evt) {
+            _this.input_blur(evt);
+          };
+        })(this));
+        this.focus_field.on('focus.chosen', (function(_this) {
+          return function(evt) {
+            _this.input_focus(evt);
+          };
+        })(this));
+        transfer_value = (function(_this) {
+          return function() {
+            _this.search_field.val(_this.focus_field.val());
+            return _this.focus_field.val('');
+          };
+        })(this);
+        this.focus_field.on('keyup.chosen', (function(_this) {
+          return function(evt) {
+            transfer_value();
+            _this.keyup_checker(evt);
+          };
+        })(this));
+        this.focus_field.on('keydown.chosen', (function(_this) {
+          return function(evt) {
+            transfer_value();
+            _this.keydown_checker(evt);
+          };
+        })(this));
+        this.focus_field.on('cut.chosen', (function(_this) {
+          return function(evt) {
+            setTimeout(transfer_value, 0);
+            _this.clipboard_event_checker(evt);
+          };
+        })(this));
+        return this.focus_field.on('paste.chosen', (function(_this) {
+          return function(evt) {
+            setTimeout(transfer_value, 0);
+            _this.clipboard_event_checker(evt);
+          };
+        })(this));
       }
     };
 
@@ -2336,7 +2382,6 @@ window.Modernizr = (function( window, document, undefined ) {
       }
       this.container.addClass("chosen-container-active");
       this.active_field = true;
-      this.search_field.val(this.search_field.val());
       return this.search_field.focus();
     };
 
@@ -2356,13 +2401,15 @@ window.Modernizr = (function( window, document, undefined ) {
       this.results_data = SelectParser.select_to_array(this.form_field);
       if (this.is_multiple) {
         this.search_choices.find("li.search-choice").remove();
-      } else if (!this.is_multiple) {
+      } else {
         this.single_set_selected_text();
         if (this.disable_search || this.form_field.options.length <= this.disable_search_threshold) {
           this.search_field[0].readOnly = true;
+          this.focus_field[0].readOnly = true;
           this.container.addClass("chosen-container-single-nosearch");
         } else {
           this.search_field[0].readOnly = false;
+          this.focus_field[0].readOnly = false;
           this.container.removeClass("chosen-container-single-nosearch");
         }
       }
@@ -2408,9 +2455,6 @@ window.Modernizr = (function( window, document, undefined ) {
         });
         return false;
       }
-      if (!this.is_multiple) {
-        this.search_container.append(this.search_field);
-      }
       this.container.addClass("chosen-with-drop");
       this.results_showing = true;
       this.search_field.focus();
@@ -2428,10 +2472,11 @@ window.Modernizr = (function( window, document, undefined ) {
     Chosen.prototype.results_hide = function() {
       if (this.results_showing) {
         this.result_clear_highlight();
-        if (!this.is_multiple) {
-          this.selected_item.prepend(this.search_field);
-          this.search_field.focus();
-        }
+        setTimeout(((function(_this) {
+          return function() {
+            return _this.focus_field.focus();
+          };
+        })(this)), 0);
         this.container.removeClass("chosen-with-drop");
         this.form_field_jq.trigger("chosen:hiding_dropdown", {
           chosen: this
@@ -2441,11 +2486,12 @@ window.Modernizr = (function( window, document, undefined ) {
     };
 
     Chosen.prototype.set_tab_index = function(el) {
-      var ti;
+      var ref, ti;
       if (this.form_field.tabIndex) {
         ti = this.form_field.tabIndex;
         this.form_field.tabIndex = -1;
-        return this.search_field[0].tabIndex = ti;
+        this.search_field[0].tabIndex = ti;
+        return (ref = this.focus_field[0]) != null ? ref.tabIndex = ti : void 0;
       }
     };
 
@@ -2576,14 +2622,20 @@ window.Modernizr = (function( window, document, undefined ) {
         item.selected = true;
         this.form_field.options[item.options_index].selected = true;
         this.selected_option_count = null;
-        this.search_field.val("");
         if (this.is_multiple) {
           this.choice_build(item);
         } else {
           this.single_set_selected_text(this.choice_label(item));
         }
         if (this.is_multiple && (!this.hide_results_on_select || (evt.metaKey || evt.ctrlKey))) {
-          this.winnow_results();
+          if (evt.metaKey || evt.ctrlKey) {
+            this.winnow_results({
+              skip_highlight: true
+            });
+          } else {
+            this.search_field.val("");
+            this.winnow_results();
+          }
         } else {
           this.results_hide();
           this.show_search_field_default();
@@ -3248,7 +3300,8 @@ $nav.on('click', '[data-behavior]', function (event) {
     $object = $el.closest('[data-object="nav"]'),
     behavior = $el.attr('data-behavior'),
     $target = $(window.document).find('#' + $el.attr('aria-controls')),
-    state = $target.attr('aria-expanded');
+    state = $target.attr('aria-expanded'),
+    $sibling = $target.siblings('[role="menu"]');
 
   event.preventDefault();
   $el.blur(); // Removes focus
@@ -3256,7 +3309,7 @@ $nav.on('click', '[data-behavior]', function (event) {
   // Each behavior attached to the element should be triggered
   $.each(behavior.split(' '), function (idx, action) {
     if (action.match(/^nav/)) {
-      $el.trigger(action, { el: $el, object: $object, state: state, target: $target });
+      $el.trigger(action, { el: $el, object: $object, state: state, target: $target, sibling: $sibling });
     }
   });
 });
@@ -3319,14 +3372,32 @@ $nav.on('nav.menu.slide-close', function(event, opts) {
 });
 
 $nav.on('nav.menu.search-toggle', function(event, opts) {
-  var $parent = opts.el.parent();
+  var $parent = opts.el.parent(),
+    $sibling_trigger;
 
   event.preventDefault();
 
   if (opts.state === 'false') {
+    if (opts.sibling !== undefined && opts.sibling.length > 0) {
+      opts.sibling
+        .hide()
+        .attr('aria-expanded', 'false');
+
+      // Find active menu siblings
+      opts.el.parent().siblings().find('.is-active').removeClass('is-active');
+    }
     $nav.trigger('nav.menu.slide-open', { parent: $parent, menu: opts.target });
   } else if (opts.state === 'true') {
     $nav.trigger('nav.menu.slide-close', { parent: $parent, menu: opts.target });
+
+    if (opts.sibling !== undefined && opts.sibling.length > 0) {
+      opts.sibling
+        .show()
+        .attr('aria-expanded', 'true');
+
+      $sibling_trigger = opts.el.parent().siblings().find('[aria-controls="' + opts.sibling.attr('id') + '"]');
+      $sibling_trigger.addClass('is-active');
+    }
   }
 });
 

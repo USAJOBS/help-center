@@ -6,7 +6,7 @@ layout: nil
   <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
   <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
   <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <updated>{{ page.last_modified_at | date_to_xmlschema }}</updated>
   <id>{{ '/' | absolute_url | xml_escape }}</id>
 
   {% if site.title %}
@@ -37,8 +37,8 @@ layout: nil
   <entry{% if page.lang %}{{" "}}xml:lang="{{ page.lang }}"{% endif %}>
     <title type="html">{{ page.title | smartify | strip_html | normalize_whitespace | xml_escape }}</title>
     <link href="{{ page.url | absolute_url }}" rel="alternate" type="text/html" title="{{ page.title | xml_escape }}" />
-    <published>{{ site.time | date_to_xmlschema }}</published>
-    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <published>{{ page.last_modified_at | date_to_xmlschema }}</published>
+    <updated>{{ page.last_modified_at | date_to_xmlschema }}</updated>
     <id>{{ site.baseurl | xml_escape }}{{ page.url | xml_escape }}</id>
     <content type="html" xml:base="{{ page.url | absolute_url | xml_escape }}">{{ page.content | strip | xml_escape }}</content>
 
