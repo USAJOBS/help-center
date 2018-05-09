@@ -114,14 +114,14 @@
           <div class="usajobs-nav__menu" id="usajobs-menu">
             <ul>
               <li class="usajobs-nav__menu-container usajobs-nav__account usajobs-nav--core-v2__menu-container">
-                <a class="usajobs-nav__section-link usajobs-nav--core-v2__section-link menu-toggle is-active" href="https://www.usajobs.gov/Applicant/MyAccount/Home/" data-behavior="nav.menu.toggle" title="Account">
+                <a class="usajobs-nav__section-link usajobs-nav--core-v2__section-link menu-toggle" href="https://www.usajobs.gov/Applicant/MyAccount/Home/" data-behavior="nav.menu.toggle" title="Account">
                   <span class="fas fa-user fa-fw"></span>
                   <span class="usajobs-nav__account_name">QQ</span>
                   <span class="usajobs-nav__first_name usajobs-nav--core-v2__first-name">Quadrina</span>
                 </a>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__help usajobs-nav--core-v2__menu-container usajobs-nav--core-v2__help">
-                <a class="usajobs-nav__section-link usajobs-nav--core-v2__section-link" href="/Help" title="Help">
+                <a class="usajobs-nav__section-link usajobs-nav--core-v2__section-link is-active" href="/Help/" title="Help">
                   <span class="fas fa-question-circle fa-fw"></span> Help
                 </a>
               </li>
@@ -135,6 +135,34 @@
         </div>
       </div>
     </div>
+    <nav id="usajobs-help-secondary-nav" class="usajobs-help-secondary-nav is-fixed-nav " aria-expanded="true" role="menu"> 
+  <div class="usajobs-help-secondary-nav__body">
+    <ul class="usajobs-help-secondary-nav__menu">
+      <li class="usajobs-help-secondary-nav__item">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/faq/">
+          FAQs
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item">
+        <a class="usajobs-help-secondary-nav__link is-active" href="/Help/how-to/">
+          How to&hellip;
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/working-in-government/">
+          <span class="usajobs-help-secondary-nav__short-name">Government</span>
+          <span class="usajobs-help-secondary-nav__long-name">Working in Government</span>
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item glossary">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-secondary-nav__glossary-trigger">
+          Glossary
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
     <div id="usajobs-search-form--core-v2-auth" class="usajobs-nav__search" aria-expanded="false" role="menu">
       <form action="https://www.usajobs.gov/Search" method="get" novalidate="novalidate" role="search">
   <fieldset class="usajobs-nav--full_bleed__search-body">
@@ -180,33 +208,6 @@
       </button>
     </form>
   </div>
-  <nav class="usajobs-help-center-nav-secondary " role="navigation">
-  <div class="usajobs-help-center-nav-secondary__body">
-    <ul class="usajobs-help-center-nav-secondary__menu">
-      <li class="usajobs-help-center-nav-secondary__container faq ">
-        <a class="usajobs-help-center-nav-secondary__item" href="/Help/faq/">
-          FAQs
-        </a>
-      </li>
-      <li class="usajobs-help-center-nav-secondary__container how-to is-active">
-        <a class="usajobs-help-center-nav-secondary__item" href="/Help/how-to/">
-          How to&hellip;
-        </a>
-      </li>
-      <li class="usajobs-help-center-nav-secondary__container working-in-government ">
-        <a class="usajobs-help-center-nav-secondary__item" href="/Help/working-in-government/">
-          <span class="usajobs-help-center-nav-secondary__text-long">Working in</span> Government
-        </a>
-      </li>
-      <li class="usajobs-help-center-nav-secondary__container glossary">
-        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-center-nav-secondary__glossary-trigger">
-          Glossary
-        </button>
-       </li>
-    </ul>
-  </div>
-</nav>
-
 </div>
 
       

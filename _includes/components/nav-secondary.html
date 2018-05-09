@@ -1,26 +1,27 @@
-<nav class="usajobs-help-center-nav-secondary {{ include.param }}" role="navigation">
-  <div class="usajobs-help-center-nav-secondary__body">
-    <ul class="usajobs-help-center-nav-secondary__menu">
-      <li class="usajobs-help-center-nav-secondary__container faq {% if page.section == 'faq' %}is-active{% endif %}">
-        <a class="usajobs-help-center-nav-secondary__item" href="{{ site.baseurl }}/faq/">
+<nav id="usajobs-help-secondary-nav" class="usajobs-help-secondary-nav is-fixed-nav {{ include.param }}" aria-expanded="true" role="menu"> 
+  <div class="usajobs-help-secondary-nav__body">
+    <ul class="usajobs-help-secondary-nav__menu">
+      <li class="usajobs-help-secondary-nav__item">
+        <a class="usajobs-help-secondary-nav__link {% if page.section == 'faq' %}is-active{% endif %}" href="{{ site.baseurl }}/faq/">
           FAQs
         </a>
       </li>
-      <li class="usajobs-help-center-nav-secondary__container how-to {% if page.section == 'how-to' %}is-active{% endif %}">
-        <a class="usajobs-help-center-nav-secondary__item" href="{{ site.baseurl }}/how-to/">
+      <li class="usajobs-help-secondary-nav__item">
+        <a class="usajobs-help-secondary-nav__link {% if page.section == 'how-to' %}is-active{% endif %}" href="{{ site.baseurl }}/how-to/">
           How to&hellip;
         </a>
       </li>
-      <li class="usajobs-help-center-nav-secondary__container working-in-government {% if page.section == 'working-in-government' %}is-active{% endif %}">
-        <a class="usajobs-help-center-nav-secondary__item" href="{{ site.baseurl }}/working-in-government/">
-          <span class="usajobs-help-center-nav-secondary__text-long">Working in</span> Government
+      <li class="usajobs-help-secondary-nav__item">
+        <a class="usajobs-help-secondary-nav__link {% if page.section == 'working-in-government' %}is-active{% endif %}" href="{{ site.baseurl }}/working-in-government/">
+          <span class="usajobs-help-secondary-nav__short-name">Government</span>
+          <span class="usajobs-help-secondary-nav__long-name">Working in Government</span>
         </a>
       </li>
-      <li class="usajobs-help-center-nav-secondary__container glossary">
-        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-center-nav-secondary__glossary-trigger">
+      <li class="usajobs-help-secondary-nav__item glossary">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-secondary-nav__glossary-trigger">
           Glossary
         </button>
-       </li>
+      </li>
     </ul>
   </div>
 </nav>
