@@ -98,7 +98,8 @@ module.exports = function(grunt) {
           'node_modules/usajobs-design-system/js/usajobs-design-system-base.js',
           'node_modules/usajobs-design-system/js/components/footer.js',
           'node_modules/usajobs-design-system/js/components/modal.js',
-          'node_modules/usajobs-design-system/js/components/nav.js'
+          'node_modules/usajobs-design-system/js/components/nav.js',
+          'node_modules/usajobs-design-system/js/components/nav-secondary.js'
         ],
         dest: 'js/usajobs-help-center-base.js'
       },

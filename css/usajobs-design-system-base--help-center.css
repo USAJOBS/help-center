@@ -8764,12 +8764,6 @@ html {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.usajobs-nav-secondary[data-behavior=is-fixed-nav] {
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 900;
-}
-
 .usajobs-nav-secondary__body {
   max-width: 1200px;
   margin-left: auto;
@@ -8899,10 +8893,12 @@ html {
   }
 }
 
-.usajobs-profile-secondary-nav.is-fixed-nav,
-.usajobs-help-secondary-nav.is-fixed-nav {
-  position: -webkit-sticky;
-  position: sticky;
+.usajobs-profile-secondary-nav.is-fixed,
+.usajobs-help-secondary-nav.is-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 900;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
