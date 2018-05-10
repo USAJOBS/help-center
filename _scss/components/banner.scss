@@ -8,7 +8,8 @@ $icon-size: rem(164px);
 .usajobs-help-center-search-banner--with-nav,
 .usajobs-help-center-title-banner {
   padding-top: $size-default;
-  background: $color-primary-darkest;
+  background: $color-gray-cool-light;
+  // @include linear-gradient(to bottom, $color-gray-cool-light 0%, $color-gray-cool-light 50%, $color-gray-cool-light 60%, $color-gray-lightest 100%);
   background-image: url('../img/help-center/helpcenter_star.png');
   background-image: url('../img/help-center/helpcenter_star.svg');
   background-position: right top;
@@ -30,17 +31,17 @@ $icon-size: rem(164px);
   }
 
   &__title {
-    color: $color-white;
+    margin-top: 0;
     margin-bottom: $size-default;
   }
 
   &__link {
-    color: $color-white;
+    color: $color-primary-darkest;
     text-decoration: none;
 
     &:visited,
     &:hover {
-      color: $color-white;
+      color: $color-primary-darkest;
       text-decoration: none;
     }
   }
@@ -134,10 +135,6 @@ $icon-size: rem(164px);
 .usajobs-help-center-search-banner--with-nav {
   .usa-search {
     padding-bottom: $size-M;
-
-    @include media($M) {
-      padding-bottom: $size-L;
-    }
   }
 }
 

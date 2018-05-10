@@ -106,8 +106,6 @@ module.exports = function(grunt) {
         src: [
           'node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js',
           'js/vendor/picturefill.min.js',
-//          'js/vendor/jekyll_pages_api_search-constants.js',
-//          'js/vendor/jekyll_pages_api_search-bundle.js',
           'js/vendor/glossary.js',
           'js/components/*.js'
         ],
