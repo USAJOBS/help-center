@@ -41,7 +41,7 @@ html {
 .usajobs-help-center-search-banner--with-nav,
 .usajobs-help-center-title-banner {
   padding-top: 1.5rem;
-  background: #112e51;
+  background: #dce4ef;
   background-image: url("../img/help-center/helpcenter_star.png");
   background-image: url("../img/help-center/helpcenter_star.svg");
   background-position: right top;
@@ -85,14 +85,14 @@ html {
 .usajobs-help-center-search-banner__title,
 .usajobs-help-center-search-banner--with-nav__title,
 .usajobs-help-center-title-banner__title {
-  color: #ffffff;
+  margin-top: 0;
   margin-bottom: 1.5rem;
 }
 
 .usajobs-help-center-search-banner__link,
 .usajobs-help-center-search-banner--with-nav__link,
 .usajobs-help-center-title-banner__link {
-  color: #ffffff;
+  color: #112e51;
   text-decoration: none;
 }
 
@@ -101,7 +101,7 @@ html {
 .usajobs-help-center-search-banner--with-nav__link:hover,
 .usajobs-help-center-title-banner__link:visited,
 .usajobs-help-center-title-banner__link:hover {
-  color: #ffffff;
+  color: #112e51;
   text-decoration: none;
 }
 
@@ -204,12 +204,6 @@ html {
 
 .usajobs-help-center-search-banner--with-nav .usa-search {
   padding-bottom: 3rem;
-}
-
-@media screen and (min-width: 37.5em) {
-  .usajobs-help-center-search-banner--with-nav .usa-search {
-    padding-bottom: 4.5rem;
-  }
 }
 
 .usajobs-help-center-title-banner {
@@ -994,6 +988,10 @@ html {
   .usajobs-help-center-nav-secondary__text-long:hover {
     text-decoration: none;
   }
+}
+
+.usajobs-help-secondary-nav.is-fixed-nav {
+  top: 0;
 }
 
 html {
