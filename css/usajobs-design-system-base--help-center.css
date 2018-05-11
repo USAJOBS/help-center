@@ -7642,8 +7642,9 @@ html {
 @media screen and (min-width: 30em) {
   .usajobs-nav__first_name {
     display: inline-block;
-    max-width: 14rem;
+    max-width: 13rem;
     text-overflow: ellipsis;
+    overflow: hidden;
   }
 }
 
@@ -8119,7 +8120,9 @@ html {
 
 .usajobs-nav--core-v2__section-link {
   font-size: 1.4rem;
-  padding: 1.3rem 1rem 1rem;
+  padding: 1rem 1rem 0.5375rem;
+  line-height: 1.25;
+  border-bottom: .7125rem solid transparent;
 }
 
 @media screen and (min-width: 30em) {
@@ -8371,16 +8374,6 @@ html {
   .usajobs-nav--openopps__people .usajobs-nav--openopps__section-link.is-active .usajobs-nav--openopps__section-active {
     padding-right: 1rem;
   }
-}
-
-.usajobs-nav--openopps__first-name {
-  /* this continues to screw up the line logo_height
-       I suggest we truncate the first name to 12 characters on the way out of the DB
-    display: inherit;
-    max-width: 5.4rem;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    */
 }
 
 @media screen and (min-width: 30em) {
