@@ -29,7 +29,9 @@ If there are other additional documents that you wish to pass to hiring authorit
 
 ### Executive Core Qualifications (ECQs)
 
-Applicants to SES positions must demonstrate they possess [Executive Core Qualifications (ECQs)](https://www.opm.gov/policy-data-oversight/senior-executive-service/executive-core-qualifications/){:target="_blank"} when applying. The ECQs define the competencies needed to build a federal corporate culture that drives for results, serves customers, and builds successful teams and coalitions within and outside the organization. The ECQs are required for entry to the SES and are used by many departments and agencies in selection, performance management, and leadership development for executive positions.
+If you're applying to a Senior Executive job within the Senior Executive Service (SES) you must demonstrate you possess the [Executive Core Qualifications (ECQs)](https://www.opm.gov/policy-data-oversight/senior-executive-service/executive-core-qualifications/){:target="_blank"}. The ECQs define the competencies needed to build a federal corporate culture that drives for results, serves customers, and builds successful teams and coalitions within and outside the organization. The ECQs are required for entry to the SES and are used by many departments and agencies in selection, performance management, and leadership development for executive positions.
+
+The ECQ requirement only applies to jobs within the SES.  There may be other senior executive level jobs outside of the SES that require different qualifications.
 
 ## Federal employees
 
