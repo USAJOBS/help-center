@@ -103,6 +103,20 @@
 
   <nav class="usajobs-nav usajobs-nav--core-v2 has-secondary-nav" role="navigation" aria-label="main navigation" data-object="nav" data-behavior="">
     <div class="usajobs-nav__body usajobs-nav--core-v2__body">
+      <div class="usajobs-nav-login-gov-banner" id="usajobs-nav-login-gov-banner" data-object="alert">
+  <div class="usajobs-nav-login-gov-banner__body">
+    <p class="usajobs-nav-login-gov-banner__text">
+      <strong>A new way to sign in.</strong> Create a <a class="usajobs-nav-login-gov-banner__link" href="https://www.usajobs.gov/Access/Transition">login.gov account</a> to sign into USAJOBS. <a class="usajobs-nav-login-gov-banner__link" href="http://usajobs.github.io/Help/faq/account/login-gov/">Learn more</a>
+    </p>
+    <div class="usajobs-nav-login-gov-banner__indicator"></div>
+    <!-- The JS is not hooked up currently to close this banner -->
+    <button class="usajobs-nav-login-gov-banner__dismiss" data-behavior="alert.close" >
+      <span class="fa fa-times"></span>
+      <span class="usajobs-assistive-text">Close</span>
+    </button>
+  </div>
+</div>
+
       <div class="usajobs-nav__header-container">
         <div class="usajobs-nav__header usajobs-nav--core-v2__header">
           <div class="usajobs-nav__brand-container usajobs-nav--core-v2__brand-container">
@@ -113,21 +127,21 @@
           </div>
           <div class="usajobs-nav__menu" id="usajobs-menu">
             <ul role="menubar">
-              <li class="usajobs-nav__menu-container usajobs-nav__account usajobs-nav--core-v2__menu-container" role="presentation">
-                <a class="usajobs-nav__section-link usajobs-nav--core-v2__section-link menu-toggle" href="https://www.usajobs.gov/Applicant/MyAccount/Home/" data-behavior="nav.menu.toggle" title="Account" role="menuitem">
-                  <span class="fas fa-user fa-fw"></span>
-                  <span class="usajobs-nav__account_name">QQ</span>
-                  <span class="usajobs-nav__first_name usajobs-nav--core-v2__first-name">Quadrina</span>
+              <li class="usajobs-nav__menu-container usajobs-nav__account usajobs-nav--core-v2 usajobs-nav--core-v2__menu-container" role="presentation">
+                <a id="top-nav-account" class="usajobs-nav__section-link usajobs-nav--core-v2__section-link" href="https://www.usajobs.gov/Applicant/ProfileDashboard/Home" aria-controls="usajobs-profile-secondary-nav" title="Account-Logged Out" role="menuitem">
+                  <span class="fas fa-sign-in-alt fa-fw" data-fa-transform="right-6"></span>
+                  <span class="usajobs-nav__account_name">Sign In</span>
+                  <span class="usajobs-nav__first_name usajobs-nav--core-v2__first_name">Sign In</span>
                 </a>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__help usajobs-nav--core-v2__menu-container usajobs-nav--core-v2__help" role="presentation">
-                <a class="usajobs-nav__section-link usajobs-nav--core-v2__section-link is-active" href="/Help/" title="Help" role="menuitem">
-                  <span class="fas fa-question-circle fa-fw"></span> Help
+                <a id="top-nav-help" class="usajobs-nav__section-link usajobs-nav--core-v2__section-link is-active" aria-controls="usajobs-help-secondary-nav" href="/Help/" title="Help" role="menuitem">
+                  <span class="fas fa-question-circle fa-fw"></span>Help
                 </a>
               </li>
               <li class="usajobs-nav__menu-container usajobs-nav__menu-search usajobs-nav--core-v2__menu-container" data-state="is-closed" role="presentation">
                 <a data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form--core-v2-auth" aria-haspopup="true" id="usajobs-search-form--core-v2-auth-trigger" class="usajobs-nav__section-link usajobs-nav--core-v2__section-link" href="/Help" title="Job Search" role="menuitem">
-                  <span class="fas fa-search fa-fw" data-fa-transform="right-8"></span> Search
+                  <span class="fas fa-search fa-fw"></span> Search
                 </a>
               </li>
             </ul>
@@ -135,35 +149,7 @@
         </div>
       </div>
     </div>
-    <nav id="usajobs-help-secondary-nav" class="usajobs-help-secondary-nav is-fixed-nav " aria-expanded="true" role="navigation"> 
-  <div class="usajobs-help-secondary-nav__body">
-    <ul class="usajobs-help-secondary-nav__menu">
-      <li class="usajobs-help-secondary-nav__item">
-        <a class="usajobs-help-secondary-nav__link is-active" href="/Help/faq/">
-          FAQs
-        </a>
-      </li>
-      <li class="usajobs-help-secondary-nav__item">
-        <a class="usajobs-help-secondary-nav__link " href="/Help/how-to/">
-          How to&hellip;
-        </a>
-      </li>
-      <li class="usajobs-help-secondary-nav__item">
-        <a class="usajobs-help-secondary-nav__link " href="/Help/working-in-government/">
-          <span class="usajobs-help-secondary-nav__short-name">Government</span>
-          <span class="usajobs-help-secondary-nav__long-name">Working in Government</span>
-        </a>
-      </li>
-      <li class="usajobs-help-secondary-nav__item glossary">
-        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-secondary-nav__glossary-trigger">
-          Glossary
-        </button>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-    <div id="usajobs-search-form--core-v2-auth" class="usajobs-nav__search" aria-expanded="false" aria-labelledby="usajobs-search-form--core-v2-auth-trigger" role="menubar">
+    <div id="usajobs-search-form--core-v2-auth" class="usajobs-nav__search" aria-expanded="false" aria-labelledby="usajobs-search-form--core-v2-auth-trigger" role="menubar" aria-label="Search bar">
       <form action="https://www.usajobs.gov/Search" method="get" novalidate="novalidate" role="search">
   <fieldset class="usajobs-nav--full_bleed__search-body">
     <div class="usajobs-nav__search-keywords-container">
@@ -195,6 +181,34 @@
 </header>
 
     <div class="usajobs-help-center">
+      <nav id="usajobs-help-secondary-nav" class="usajobs-help-secondary-nav is-fixed-nav " aria-expanded="true" role="navigation" aria-label="Help Center menu">
+  <div class="usajobs-help-secondary-nav__body">
+    <ul class="usajobs-help-secondary-nav__menu" role="menubar">
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link is-active" href="/Help/faq/" role="menuitem">
+          FAQs
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/how-to/" role="menuitem">
+          How to&hellip;
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/working-in-government/" role="menuitem">
+          <span class="usajobs-help-secondary-nav__short-name">Government</span>
+          <span class="usajobs-help-secondary-nav__long-name">Working in Government</span>
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item glossary" role="presentation">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-secondary-nav__glossary-trigger" role="menuitem" aria-controls="glossary">
+          Glossary
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
       <div class="usajobs-help-center-search-banner--with-nav ">
   <div role="search" id="search" class="usajobs-help-center-search-banner__container">
     <form class="usa-search usa-search-big" action="/Help/search" method="get">
@@ -295,8 +309,7 @@
 
       <section class="usajobs-shell usajobs-shell--large" data-object="help-article">
         <section class="usajobs-canvas">
-          
- <div id="glossary" class="usajobs-help-center-glossary-panel" aria-describedby="glossary-title" aria-hidden="true">
+           <div id="glossary" class="usajobs-help-center-glossary-panel" aria-describedby="glossary-title" aria-hidden="true">
    <button title="Close glossary" class="js-glossary-close usajobs-help-center-glossary-panel__close-button usa-button usa-button-outline-inverse">
      <span class="fa fa-times"></span> Close
    </button>
@@ -309,7 +322,7 @@
  </div>
 
           <div class="usajobs-help-center-article usajobs-content-gutter">
-            <main class="usajobs-content-well" id="main-content">
+            <main class="usajobs-content-well" id="main-content" role="main">
               <div class="usajobs-help-center-article__container">
                 <h1>What is a series or grade?</h1>
                 <p>Series and grade is the Federal Government’s system for categorizing and defining jobs. The series  is a numbered system for grouping similar occupations.  For example, a Nurse is part of the 0610 series.  A ‘grade’ refers to the <a href="https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/" target="_blank">General Schedule (GS) pay scale</a> – it’s the pay level for the job.  The higher the grade level, the higher the pay. The GS pay schedule is the most common pay schedule, but there are others, including the <a href="https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/federal-wage-system/" target="_blank">wage scale</a> and <a href="https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/special-rates-requests/" target="_blank">special rates</a>.</p>
@@ -347,7 +360,7 @@
 
               </div>
             </main>
-            <aside class="usajobs-rightrail">
+            <aside class="usajobs-rightrail" role="complementary">
               <div class="usajobs-help-center-article__reveal-contact-us">
   <a class="usa-button usa-button-primary usajobs-help-center-article__contact-us-cta" href="#usajobs-contact-form" data-behavior="help-article.contact" aria-controls="usajobs-contact-form">
     <i class="fa fa-envelope"></i> Contact us
@@ -430,7 +443,7 @@
         <p>
           USAJOBS does not provide direct phone support. The form below will allow you to send an email to the Help Desk where you can request assistance by phone or email.
         </p>
-        <form name="example" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
+        <form name="example" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate" role="form">
           <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
           <input type="hidden" id="SelectedContactReason" name="SelectedContactReason" value="/faq/pay/series-and-grade/ - Series or grade">
           
