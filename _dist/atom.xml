@@ -2065,12 +2065,12 @@ You can also use the keyword search box to search by department.</content>
   <entry>
     <title type="html">How to filter results by hiring path</title>
     <link href="/Help/how-to/search/filters/hiring-path/" rel="alternate" type="text/html" title="How to filter results by hiring path" />
-    <published>2017-10-20T10:03:52-04:00</published>
-    <updated>2017-10-20T10:03:52-04:00</updated>
+    <published>2018-05-23T09:23:06-04:00</published>
+    <updated>2018-05-23T09:23:06-04:00</updated>
     <id>/Help/how-to/search/filters/hiring-path/</id>
     <content type="html" xml:base="/Help/how-to/search/filters/hiring-path/">Some federal jobs are open to the general public — meaning any U.S. citizen can apply. But, some federal jobs are only open to eligible current or former federal civilian employees or people who may be eligible under a unique hiring path. You can filter your job search results to only show you jobs that meet your specific eligibility criteria. You can filter by one or more hiring paths.
 
-If you fall under one of the groups listed below, you may or may not be eligible for each job listed in your search results. You must read the **Who May Apply** section of the job announcement to determine if you’re eligible to apply.
+If you fall under one of the groups listed below, you may or may not be eligible for each job listed in your search results. You must read the **This job is open to** section of the job announcement to determine if you’re eligible to apply.  You can also read the **Who May Apply** section, but not all job announcements have that information.
 
 ## Open to the public
 
@@ -2155,9 +2155,14 @@ Select this option if you want to see jobs open to people with a tribal affiliat
 If you’ve served at least two years with Peace Corps or one year with AmeriCorps VISTA you may qualify for non-competitive eligibility.
 [Learn more about the Peace Corps and AmeriCorps VISTA hiring path](../../../../working-in-government/unique-hiring-paths/peace-corps/).
 
-## Senior Executive Service
-The Senior Executive Service (SES) consists of executive positions classified above General Schedule (GS) grade 15 or equivalent positions in most Executive Branch agencies of the Federal Government. You must meet the five Executive Core Qualifications to be eligible for these jobs. Select this option if you want to see jobs open to the Senior Executive Service.
-[Learn more about the Senior Executive hiring path](../../../../working-in-government/unique-hiring-paths/senior-executive-service/).
+## Senior Executives
+There are a couple of different options, if you’re looking for a senior executive level job in the Federal Government.
+1. The Senior Executive Service (SES)
+2. Senior executive level jobs outside of the SES
+
+Jobs in the SES are executive level positions classified above General Schedule (GS) grade 15 or equivalent positions in most Executive Branch agencies of the Federal Government. To qualify for these jobs you must meet the five Executive Core Qualifications.
+
+Not all senior executive level jobs are in the SES.  Agencies in the competitive or excepted service may have executive level jobs, where you may not have to meet the same qualification requirements as in the SES. [Learn more about Senior Executive jobs](../../../../working-in-government/unique-hiring-paths/senior-executive-service/).
 
 Learn more about [which jobs you are eligible to apply for](../../../../faq/application/eligibility/).
 
@@ -4164,8 +4169,8 @@ At the bottom of this section is a link to preview the job assessment questions�
   <entry>
     <title type="html">How to understand who the job is open to</title>
     <link href="/Help/how-to/job-announcement/this-job-is-open-to/" rel="alternate" type="text/html" title="How to understand who the job is open to" />
-    <published>2018-02-15T13:55:45-05:00</published>
-    <updated>2018-02-15T13:55:45-05:00</updated>
+    <published>2018-05-17T13:05:15-04:00</published>
+    <updated>2018-05-17T13:05:15-04:00</updated>
     <id>/Help/how-to/job-announcement/this-job-is-open-to/</id>
     <content type="html" xml:base="/Help/how-to/job-announcement/this-job-is-open-to/">Read the **This job is open to** section—it tells you who is eligible to apply to the job. Make sure you’re eligible before applying.
 
@@ -4182,8 +4187,7 @@ The job announcement may list the following:
 * [National Guard &amp; Reserves](../../../working-in-government/unique-hiring-paths/national-guard/)
 * [Native Americans](../../../working-in-government/unique-hiring-paths/native-americans/)
 * [Peace Corps &amp; AmeriCorps VISTA](../../../working-in-government/unique-hiring-paths/peace-corps/)
-* [Senior Executives - SES only](../../../working-in-government/unique-hiring-paths/senior-executive-service/)
-* [Senior Executives - Other](../../../working-in-government/unique-hiring-paths/senior-executive-service/)
+* [Senior Executives](../../../working-in-government/unique-hiring-paths/senior-executive-service/)
 * [Students](../../../working-in-government/unique-hiring-paths/students/)
 * [Recent graduates](../../../working-in-government/unique-hiring-paths/students/)
 * [Veterans](../../../working-in-government/unique-hiring-paths/veterans/)</content>
@@ -6103,8 +6107,8 @@ Typically, an agency would advise applicants of this potential on the job announ
   <entry>
     <title type="html">What types of documents might I need to provide?</title>
     <link href="/Help/faq/application/documents/" rel="alternate" type="text/html" title="What types of documents might I need to provide?" />
-    <published>2017-03-13T16:51:56-04:00</published>
-    <updated>2017-03-13T16:51:56-04:00</updated>
+    <published>2018-05-17T13:14:03-04:00</published>
+    <updated>2018-05-17T13:14:03-04:00</updated>
     <id>/Help/faq/application/documents/</id>
     <content type="html" xml:base="/Help/faq/application/documents/">Job announcements will indicate the need to supply one or more of these types of documents in the **How to Apply** section.
 
@@ -6127,7 +6131,9 @@ If there are other additional documents that you wish to pass to hiring authorit
 
 ### Executive Core Qualifications (ECQs)
 
-Applicants to SES positions must demonstrate they possess [Executive Core Qualifications (ECQs)](https://www.opm.gov/policy-data-oversight/senior-executive-service/executive-core-qualifications/){:target=&quot;_blank&quot;} when applying. The ECQs define the competencies needed to build a federal corporate culture that drives for results, serves customers, and builds successful teams and coalitions within and outside the organization. The ECQs are required for entry to the SES and are used by many departments and agencies in selection, performance management, and leadership development for executive positions.
+If you're applying to a Senior Executive job within the Senior Executive Service (SES) you must demonstrate you possess the [Executive Core Qualifications (ECQs)](https://www.opm.gov/policy-data-oversight/senior-executive-service/executive-core-qualifications/){:target=&quot;_blank&quot;}. The ECQs define the competencies needed to build a federal corporate culture that drives for results, serves customers, and builds successful teams and coalitions within and outside the organization. The ECQs are required for entry to the SES and are used by many departments and agencies in selection, performance management, and leadership development for executive positions.
+
+The ECQ requirement only applies to jobs within the SES.  There may be other senior executive level jobs outside of the SES that require different qualifications.
 
 ## Federal employees
 
@@ -6346,8 +6352,8 @@ Your search results will update to include only part-time jobs.
   <entry>
     <title type="html">Which jobs am I eligible to apply for?</title>
     <link href="/Help/faq/application/eligibility/" rel="alternate" type="text/html" title="Which jobs am I eligible to apply for?" />
-    <published>2018-02-15T13:57:01-05:00</published>
-    <updated>2018-02-15T13:57:01-05:00</updated>
+    <published>2018-05-17T13:06:43-04:00</published>
+    <updated>2018-05-17T13:06:43-04:00</updated>
     <id>/Help/faq/application/eligibility/</id>
     <content type="html" xml:base="/Help/faq/application/eligibility/">Understanding your eligibility will help you know which jobs you should apply to. There are several different eligibilities in the Federal Government; we call them ‘hiring paths’.
 
@@ -6370,8 +6376,7 @@ The job announcement may list the following:
 * [National Guard &amp; Reserves](../../../working-in-government/unique-hiring-paths/national-guard/)
 * [Native American and Alaskan Natives](../../../working-in-government/unique-hiring-paths/native-americans/)
 * [Peace Corps &amp; AmeriCorps VISTA](../../../working-in-government/unique-hiring-paths/peace-corps/)
-* [Senior Executives - SES only](../../../working-in-government/unique-hiring-paths/senior-executives/)
-* [Senior Executives - Other](../../../working-in-government/unique-hiring-paths/senior-executives/)
+* [Senior Executives](../../../working-in-government/unique-hiring-paths/senior-executives/)
 * Special Authorities
 * [Students](../../../working-in-government/unique-hiring-paths/students/)
 * [Recent graduates](../../../working-in-government/unique-hiring-paths/students/)
