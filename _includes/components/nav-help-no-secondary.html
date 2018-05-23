@@ -1,0 +1,42 @@
+<header class="usajobs-site-header" role="banner" aria-label="header">
+  {% include components/nav/_gov-banner.html %}
+  <nav class="usajobs-nav usajobs-nav--core-v2 has-secondary-nav" role="navigation" aria-label="main navigation" data-object="nav" data-behavior="">
+    <div class="usajobs-nav__body usajobs-nav--core-v2__body">
+      {% include components/nav/_login-gov-banner-post-release.html %}
+      <div class="usajobs-nav__header-container">
+        <div class="usajobs-nav__header usajobs-nav--core-v2__header">
+          <div class="usajobs-nav__brand-container usajobs-nav--core-v2__brand-container">
+            <a class="usajobs-nav__brand usajobs-nav--core-v2__brand usajobs-nav--vTest__brand" href="{{ site.baseurl }}/">
+              <span class="logo usajobs-nav--core-v2__logo" title="USAJOBS logo"></span>
+              <span class="test">FAKE <i class="fa fa-exclamation-circle"></i></span>
+            </a>
+          </div>
+          <div class="usajobs-nav__menu" id="usajobs-menu">
+            <ul role="menubar">
+              <li class="usajobs-nav__menu-container usajobs-nav__account usajobs-nav--core-v2 usajobs-nav--core-v2__menu-container" role="presentation">
+                <a id="top-nav-account" class="usajobs-nav__section-link usajobs-nav--core-v2__section-link" href="{{ site.produrl }}/Applicant/ProfileDashboard/Home" title="Account-Logged Out" role="menuitem">
+                  <span class="fas fa-sign-in-alt fa-fw" data-fa-transform="right-6"></span>
+                  <span class="usajobs-nav__account_name">Sign In</span>
+                  <span class="usajobs-nav__first_name usajobs-nav--core-v2__first_name">Sign In</span>
+                </a>
+              </li>
+              <li class="usajobs-nav__menu-container usajobs-nav__help usajobs-nav--core-v2__menu-container usajobs-nav--core-v2__help" role="presentation">
+                <a id="top-nav-help" class="usajobs-nav__section-link usajobs-nav--core-v2__section-link is-active" href="{{ site.baseurl }}/" title="Help" role="menuitem">
+                  <span class="fas fa-question-circle fa-fw"></span>Help
+                </a>
+              </li>
+              <li class="usajobs-nav__menu-container usajobs-nav__menu-search usajobs-nav--core-v2__menu-container" data-state="is-closed" role="presentation">
+                <a data-behavior="nav.menu.search-toggle" aria-controls="usajobs-search-form--core-v2-auth" aria-haspopup="true" id="usajobs-search-form--core-v2-auth-trigger" class="usajobs-nav__section-link usajobs-nav--core-v2__section-link" href="{{ site.baseurl }}" title="Job Search" role="menuitem">
+                  <span class="fas fa-search fa-fw"></span> Search
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="usajobs-search-form--core-v2-auth" class="usajobs-nav__search" aria-expanded="false" aria-labelledby="usajobs-search-form--core-v2-auth-trigger" role="menubar" aria-label="Search bar">
+      {% include components/nav/_search-form.html %}
+    </div>
+  </nav>
+</header>

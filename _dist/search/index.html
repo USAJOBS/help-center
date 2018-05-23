@@ -180,7 +180,35 @@
 </header>
 
     <div class="usajobs-help-center">
-      <div class="usajobs-help-center-search-banner ">
+      <nav id="usajobs-help-secondary-nav" class="usajobs-help-secondary-nav is-fixed-nav " aria-expanded="true" role="navigation" aria-label="Help Center menu">
+  <div class="usajobs-help-secondary-nav__body">
+    <ul class="usajobs-help-secondary-nav__menu" role="menubar">
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/faq/" role="menuitem">
+          FAQs
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/how-to/" role="menuitem">
+          How to&hellip;
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/working-in-government/" role="menuitem">
+          <span class="usajobs-help-secondary-nav__short-name">Government</span>
+          <span class="usajobs-help-secondary-nav__long-name">Working in Government</span>
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item glossary" role="presentation">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-secondary-nav__glossary-trigger" role="menuitem" aria-controls="glossary">
+          Glossary
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="usajobs-help-center-search-banner--with-nav ">
   <div role="search" id="search" class="usajobs-help-center-search-banner__container">
     <form class="usa-search usa-search-big" action="/Help/search" method="get">
       <h1 class="usajobs-help-center-search-banner__title" id="title">
