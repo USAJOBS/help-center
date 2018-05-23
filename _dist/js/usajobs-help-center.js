@@ -3278,6 +3278,50 @@ $modal.on('modal.close', function(event, opts) {
   opts.object.data('previous_focus').focus();
 });
 
+// Alerts
+var $alert = $('[data-object="alert"]');
+
+$alert.on('click', '[data-behavior]', function (event) {
+  var $el = $(this),
+    $object = $el.closest('[data-object="alert"]'),
+    $target = $object.find('#' + $el.attr('aria-controls')),
+    state = $target.attr('aria-hidden'),
+    behavior = $el.attr('data-behavior');
+
+  event.preventDefault();
+  $el.blur(); // Removes focus
+
+  // Each behavior attached to the element should be triggered
+  $.each(behavior.split(' '), function (idx, action) {
+    if (action.match(/^alert/)) {
+      $el.trigger(action, { el: $el, object: $object, target: $target, state: state });
+    }
+  });
+});
+
+$alert.on('alert.close', function(event, opts) {
+  opts.object.attr('data-state', 'is-closed');
+  opts.object.attr('aria-hidden', 'true');
+});
+
+$alert.on('alert.skip', function(event, opts) {
+  var $next_tip = opts.object.find('#' + opts.el.attr('data-target-next'));
+
+  opts.target.fadeOut('fast', function () {
+    opts.target.attr('aria-hidden', 'true');
+    $next_tip.attr('aria-hidden', 'false');
+  });
+});
+
+$alert.on('alert.back', function(event, opts) {
+  var $prev_tip = opts.object.find('#' + opts.el.attr('data-target-previous'));
+
+  $prev_tip.fadeIn('fast', function () {
+    opts.target.attr('aria-hidden', 'true');
+    $prev_tip.attr('aria-hidden', 'false');
+  });
+});
+
 // Navigation (top-level-nav)
 
 var $nav = $('[data-object="nav"]'),
@@ -3300,8 +3344,7 @@ $nav.on('click', '[data-behavior]', function (event) {
     $object = $el.closest('[data-object="nav"]'),
     behavior = $el.attr('data-behavior'),
     $target = $(window.document).find('#' + $el.attr('aria-controls')),
-    state = $target.attr('aria-expanded'),
-    $sibling = $target.siblings('[role="menu"]');
+    state = $target.attr('aria-expanded');
 
   event.preventDefault();
   $el.blur(); // Removes focus
@@ -3309,7 +3352,7 @@ $nav.on('click', '[data-behavior]', function (event) {
   // Each behavior attached to the element should be triggered
   $.each(behavior.split(' '), function (idx, action) {
     if (action.match(/^nav/)) {
-      $el.trigger(action, { el: $el, object: $object, state: state, target: $target, sibling: $sibling });
+      $el.trigger(action, { el: $el, object: $object, state: state, target: $target });
     }
   });
 });
@@ -3364,34 +3407,49 @@ $nav.on('nav.menu.slide-close', function(event, opts) {
   opts.parent.attr('data-state', 'is-closed');
   opts.menu.slideUp(300, function () {
     opts.menu.attr('aria-expanded', 'false');
+    if (opts.callback !== undefined) {
+      opts.callback(opts);
+    }
   });
 });
 
 $nav.on('nav.menu.search-toggle', function(event, opts) {
   var $parent = opts.el.parent(),
-    $sibling_trigger;
+    $triggering_menu,
+    $secondary_nav,
+    reinstateActiveMenu = function (menuOpts) {
+      var $sibling_trigger,
+        $sibling_secondary_nav;
+
+      $sibling_trigger = menuOpts.object.find('#' + menuOpts.el.attr('data-state-triggering-menu'));
+      $sibling_secondary_nav = $(window.document).find('#' + $sibling_trigger.attr('aria-controls'));
+
+      if ($sibling_secondary_nav !== undefined && $sibling_secondary_nav.length > 0) {
+        $sibling_secondary_nav.slideDown(300, function () {
+          $sibling_secondary_nav.attr('aria-expanded', 'true');
+        });
+
+        $sibling_trigger.addClass('is-active');
+      }
+    };
 
   if (opts.state === 'false') {
-    if (opts.sibling !== undefined && opts.sibling.length > 0) {
-      opts.sibling
-        .hide()
-        .attr('aria-expanded', 'false');
+      // Find active menu siblings, find their secondary nav,
+      // retain them for making them active again on next toggle
+      $triggering_menu = opts.el.parent().siblings().find('.is-active');
+      $secondary_nav = $(window.document).find('#' + $triggering_menu.attr('aria-controls'));
 
-      // Find active menu siblings
-      opts.el.parent().siblings().find('.is-active').removeClass('is-active');
+    if ($secondary_nav !== undefined && $secondary_nav.length > 0) {
+      $secondary_nav.slideUp(300, function () {
+        $secondary_nav.attr('aria-expanded', 'false');
+      });
+
+      $triggering_menu.removeClass('is-active');
+      opts.el.attr('data-state-triggering-menu', $triggering_menu.attr('id'));
     }
     $nav.trigger('nav.menu.slide-open', { parent: $parent, menu: opts.target });
   } else if (opts.state === 'true') {
-    $nav.trigger('nav.menu.slide-close', { parent: $parent, menu: opts.target });
-
-    if (opts.sibling !== undefined && opts.sibling.length > 0) {
-      opts.sibling
-        .show()
-        .attr('aria-expanded', 'true');
-
-      $sibling_trigger = opts.el.parent().siblings().find('[aria-controls="' + opts.sibling.attr('id') + '"]');
-      $sibling_trigger.addClass('is-active');
-    }
+    $nav.trigger('nav.menu.slide-close', { parent: $parent, menu: opts.target, el: opts.el, sibling: opts.sibling, object: opts.object, callback: reinstateActiveMenu });
   }
 });
 

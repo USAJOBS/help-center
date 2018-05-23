@@ -17,7 +17,7 @@
         <p>
           USAJOBS does not provide direct phone support. The form below will allow you to send an email to the Help Desk where you can request assistance by phone or email.
         </p>
-        <form name="example" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate">
+        <form name="example" class="usa-form-large usajobs-form usajobs-form--narrow" action="/Help/Support/" method="post" novalidate="novalidate" role="form">
           <span class="usajobs-form__legend">All fields are required unless otherwise noted</span>
           <input type="hidden" id="SelectedContactReason" name="SelectedContactReason" value="{{ page.permalink }} - {{ page.breadcrumb }}">
           {% unless page.long-form %}

@@ -6,21 +6,22 @@
     {% include prod-head.html %}
   </head>
   <body>
-    {% include components/nav-authenticated.html %}
+    {% include components/nav-help.html %}
     <div class="usajobs-help-center">
+      {% include components/nav-secondary.html %}
       {% include components/search-banner-with-nav.html %}
       {% include components/breadcrumbs.html %}
       <section class="usajobs-shell usajobs-shell--large" data-object="help-article">
         <section class="usajobs-canvas">
           {% include components/glossary-panel.html %}
           <div class="usajobs-help-center-article usajobs-content-gutter">
-            <main class="usajobs-content-well" id="main-content">
+            <main class="usajobs-content-well" id="main-content" role="main">
               <div class="usajobs-help-center-article__container">
                 <h1>{{ page.title }}</h1>
                 {{ content }}
               </div>
             </main>
-            <aside class="usajobs-rightrail">
+            <aside class="usajobs-rightrail" role="complementary">
               {% include components/article/contact-print-share.html %}
               {% strip %}
               {% assign sorted_pages = site.html_pages | sort:"title" %}
