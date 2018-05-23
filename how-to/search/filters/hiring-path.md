@@ -9,7 +9,7 @@ tags: [search, filters, who may apply, hiring path]
 
 Some federal jobs are open to the general public — meaning any U.S. citizen can apply. But, some federal jobs are only open to eligible current or former federal civilian employees or people who may be eligible under a unique hiring path. You can filter your job search results to only show you jobs that meet your specific eligibility criteria. You can filter by one or more hiring paths.
 
-If you fall under one of the groups listed below, you may or may not be eligible for each job listed in your search results. You must read the **Who May Apply** section of the job announcement to determine if you’re eligible to apply.
+If you fall under one of the groups listed below, you may or may not be eligible for each job listed in your search results. You must read the **This job is open to** section of the job announcement to determine if you’re eligible to apply.  You can also read the **Who May Apply** section, but not all job announcements have that information.
 
 ## Open to the public
 
@@ -94,9 +94,14 @@ Select this option if you want to see jobs open to people with a tribal affiliat
 If you’ve served at least two years with Peace Corps or one year with AmeriCorps VISTA you may qualify for non-competitive eligibility.
 [Learn more about the Peace Corps and AmeriCorps VISTA hiring path](../../../../working-in-government/unique-hiring-paths/peace-corps/).
 
-## Senior Executive Service
-The Senior Executive Service (SES) consists of executive positions classified above General Schedule (GS) grade 15 or equivalent positions in most Executive Branch agencies of the Federal Government. You must meet the five Executive Core Qualifications to be eligible for these jobs. Select this option if you want to see jobs open to the Senior Executive Service.
-[Learn more about the Senior Executive hiring path](../../../../working-in-government/unique-hiring-paths/senior-executive-service/).
+## Senior Executives
+There are a couple of different options, if you’re looking for a senior executive level job in the Federal Government.
+1. The Senior Executive Service (SES)
+2. Senior executive level jobs outside of the SES
+
+Jobs in the SES are executive level positions classified above General Schedule (GS) grade 15 or equivalent positions in most Executive Branch agencies of the Federal Government. To qualify for these jobs you must meet the five Executive Core Qualifications.
+
+Not all senior executive level jobs are in the SES.  Agencies in the competitive or excepted service may have executive level jobs, where you may not have to meet the same qualification requirements as in the SES. [Learn more about Senior Executive jobs](../../../../working-in-government/unique-hiring-paths/senior-executive-service/).
 
 Learn more about [which jobs you are eligible to apply for](../../../../faq/application/eligibility/).
 
