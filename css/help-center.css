@@ -4855,6 +4855,10 @@ svg.usajobs-uhp-section-service-divider__icon {
   color: #112e51;
 }
 
+#usajobs-profile-secondary-nav {
+  display: none;
+}
+
 .usajobs-help-center__lead {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-weight: 700;

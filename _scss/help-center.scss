@@ -25,6 +25,11 @@
 @import 'layouts/timeline';
 @import 'layouts/unique-hiring-path';
 
+// Hack for 7.1
+#usajobs-profile-secondary-nav {
+  display: none;
+}
+
 // Global
 .usajobs-help-center {
   &__lead {
