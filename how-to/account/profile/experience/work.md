@@ -61,7 +61,7 @@ Always include your current position, however only list past work experiences th
 
 Did you ever have to list your accomplishments for performance reviews? If so, you can use those documents as a guide. If not, try listing your accomplishments from the last five years. Focus on challenges you met, problems you solved, results achieved, and any awards, promotions, and special benefits you received. It’s better to describe your accomplishments, than list your responsibilities. 
 
-### Writing Tips
+### Follow these writing tips
 
 Keep your description concise, clear and organized. Use simple sentences that cite specific examples. Name any tool, software, or equipment you used, and any specialized knowledge you acquired. 
 
