@@ -76,7 +76,7 @@ Select **Yes** if you:
 
 [Learn more about Veterans Recruitment Appointment (VRA)](https://www.fedshirevets.gov/job-seekers/special-hiring-authorities/#vra){:target="_blank"}
 
-## Are you a 30% or more disabled Veteran?
+## Are you a 30% or more disabled veteran?
 
 Select **Yes** if you:
 
@@ -85,7 +85,7 @@ Select **Yes** if you:
 
 [Learn more about 30% disabled or more](https://www.fedshirevets.gov/job-seekers/special-hiring-authorities/#30){:target="_blank"}.
 
-## Are you a disabled Veteran who has completed a VA training program?
+## Are you a disabled veteran who has completed a VA training program?
 
 Select **Yes** if you completed training under the VA vocational rehabilitation program. [Learn more about the VA training program](https://www.fedshirevets.gov/job-seekers/special-hiring-authorities/#training){:target="_blank"}.
 
