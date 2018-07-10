@@ -2,51 +2,89 @@
 permalink: /how-to/account/profile/experience/work/
 layout: article
 section: how-to
-title: How to supply work experience
+title: How to fill out your work experience
 breadcrumb: Work Experience
 category: profile
 tags: [profile, experience, work, history]
 ---
 
-In this section you'll enter your relevant work experiences. If your resume is confidential, any work experience with an end date of 'present' will not be visible to Federal recruiters performing resume searches. To complete this section, enter information and click add work experience.
+List your relevant work, including any federal work experience. 
 
-See below for additional information on selected fields:
+You can add and store up to 50 separate work experience entries. If you want to add more, you’ll have to delete an existing entry.
 
-## Employee Information
+## Your work experience
 
-Please enter the company or agency name; your formal job title (e.g., Database Administrator); start and end date; and ending salary.
+For each work experience, include:
 
-## Is this a Federal Civilian position?
+* Employer’s name
+* Employer’s address
+* Your job title 
+* Start and end date
+* Your duties, skills and accomplishments
 
-Federal experience includes positions you have held as a civilian employee paid by an agency of the Federal government. The pay plan, series, and grade fields refer to Executive Branch <span data-term="Competitive Position">competitive positions</span> and are not mandatory fields. If your experience does not fit, simply leave those fields blank.
+You can also include (but aren’t required to include):
+* Salary
+* Currency of your salary
+* Salary rate (is it bi-weekly, monthly, yearly, etc?)
+* Average hours per week you worked
+* Whether or not we can contact your supervisor
 
-Active duty military members or experience working for a private contractor of the U.S. government do not qualify as Federal positions for this purpose.
+## What if I don’t want my current federal employer to see my resume?
 
-## Duties, Accomplishments and Related Skills
+If you make your resume searchable, federal HR specialists and hiring managers can search and see your resume and profile.  However, any work experience with an end date of “Present” will not be searchable or visible to these recruiters.
 
-Describing your duties, accomplishments and related skills can be challenging. To help you do this more effectively, take a minute to review the suggestions included below.
+## How do I answer “Is this a Federal Civilian position”?
 
-## Focus On Your Goals
+Federal experience includes positions you’ve held as a civilian employee paid by a federal agency.
 
-Your resume should showcase the skills you possess, and how they relate to the field you want to enter and the job(s) you are seeking. Think about your career goals. Then narrow your scope to the positions that will further those goals. Once your career goals are clear, it will be easier to describe your skills in a meaningful way.
+Federal experience does NOT include any position as an active duty military member or a private contractor of the U.S. government. 
 
-## Review Job Announcements
+If you answer ‘yes’, you’ll see additional fields for the department and agency, series, pay scale, grade and appointment type.
 
-Before you describe your own duties, accomplishments, and skills, try reviewing relevant job descriptions. Once you have an understanding of the competencies required for the jobs you are interested in, you can relate those requirements to your own experience. After reviewing the descriptions, list your matching skills, experience, training, and education. Use words and phrases used in the announcements. Incorporate other commonly used technical terms.
+## What do I include in the duties, accomplishments and skills section?
 
-## Describe Your Experience
+Describing your duties, accomplishments and skills can be challenging. Here are a few tips:
 
-When listing your past jobs, concentrate on experiences that are relevant to your career goals and the position you are applying to. For instance, if you had a summer clerical job and you are looking to apply for a professional position, you do not need to list that job. With the exception of your current position, omit any job that does not show how your skills and experiences relate to the type of position you are seeking. Think about the projects you worked on; what your specific duties were; what you needed to know to do the job; the tools, software, or equipment you used; what you accomplished.
+### Focus on your goals
 
-## Include Achievements and Contributions
+Highlight the skills you possess, and how they relate to the field you want to enter and the job(s) you’re seeking. Think about your career goals. Then narrow your scope to the positions that will further those goals. Once your career goals are clear, it’ll be easier to describe your skills in a meaningful way.
 
-Did your supervisor require that you list your accomplishments for performance reviews? If so, you can use those documents as a guide. If not, try listing your accomplishments from the last five years. Focus on challenges you met, problems you solved, results achieved, and any awards, promotions, and special benefits you received. It's better to describe your accomplishments, than list your responsibilities. Writing Tips
+### Review job announcements
 
-When writing about a work experience, keep your description concise, clear and organized. Use simple sentences that cite specific examples. Name any tool, software, or equipment you used, and any specialized knowledge you acquired. Instead of saying, 'Performed the full range of project management duties for a new information system,' use concrete examples: 'Used Microsoft Project to develop timelines. Prepared budget requests; hired staff; selected vendors; negotiated contracts; designed and implemented a new UNIX client-server information system.' Use action word phrases (e.g., designed and implemented new organizational structure plan; negotiated contracts up to 90K; delivered report on waste management).
+Review relevant job descriptions to get an understanding of the requirements for the jobs you’re interested in. Then, relate those requirements to your own experience—list your matching skills, experience, training, and education. Use words and phrases from the job announcement(s) and include other commonly used technical terms.
 
-When you're finished, ask yourself the following questions:
+### Describe your experience
 
-* Would someone who is not familiar with my occupational background understand the kind of work I do?
+Always include your current position, however only list past work experiences that show how your skills and duties relate to the type of job you’re seeking. Think about the projects you’ve worked on; what your specific duties were; what you needed to know to do the job; the tools, software, or equipment you used and what you accomplished.
+
+### Include achievements and contributions
+
+Did you ever have to list your accomplishments for performance reviews? If so, you can use those documents as a guide. If not, try listing your accomplishments from the last five years. Focus on challenges you met, problems you solved, results achieved, and any awards, promotions, and special benefits you received. It’s better to describe your accomplishments, than list your responsibilities. 
+
+### Writing Tips
+
+Keep your description concise, clear and organized. Use simple sentences that cite specific examples. Name any tool, software, or equipment you used, and any specialized knowledge you acquired. 
+
+*Example*
+
+**Don’t say**
+
+‘Performed the full range of project management duties for a new information system,’ 
+
+**Do say (using concrete examples)** 
+
+‘Used Microsoft Project to develop timelines. Prepared budget requests; hired staff; selected vendors; negotiated contracts; designed and implemented a new UNIX client-server information system.’ 
+
+Use action word phrases, such as:
+
+* Designed and implemented new organizational structure plan.
+* Negotiated contracts up to 90K.
+* Delivered report on waste management.
+
+When you’re finished, ask yourself the following questions:
+
+* Would someone who's not familiar with my occupational background understand the kind of work I do?
 * Is there nonessential information (nice to have, but not helpful in meeting mandatory qualification requirements) in what I have written?
 * Have I omitted any relevant experience or skills I possess that might distinguish me from other candidates if my resume reaches the desk of a selecting official?
 * Have I adequately described major characteristics of my occupation or background and skills that are most common to my occupation?
+
