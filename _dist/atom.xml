@@ -1088,8 +1088,8 @@ Contact the employing agency for information on how pay is set for an employee w
   <entry>
     <title type="html">How is working for the government different than the private sector?</title>
     <link href="/Help/working-in-government/appointments/difference-from-private-sector/" rel="alternate" type="text/html" title="How is working for the government different than the private sector?" />
-    <published>2018-07-10T07:59:11-04:00</published>
-    <updated>2018-07-10T07:59:11-04:00</updated>
+    <published>2018-07-10T08:00:31-04:00</published>
+    <updated>2018-07-10T08:00:31-04:00</updated>
     <id>/Help/working-in-government/appointments/difference-from-private-sector/</id>
     <content type="html" xml:base="/Help/working-in-government/appointments/difference-from-private-sector/">Placeholder.</content>
 
@@ -1125,8 +1125,8 @@ Contact the employing agency for information on how pay is set for an employee w
   <entry>
     <title type="html">How long does it take to get a federal job?</title>
     <link href="/Help/faq/application/how-long/" rel="alternate" type="text/html" title="How long does it take to get a federal job?" />
-    <published>2018-07-05T16:35:22-04:00</published>
-    <updated>2018-07-05T16:35:22-04:00</updated>
+    <published>2018-07-10T08:00:31-04:00</published>
+    <updated>2018-07-10T08:00:31-04:00</updated>
     <id>/Help/faq/application/how-long/</id>
     <content type="html" xml:base="/Help/faq/application/how-long/">Placeholder</content>
 
@@ -1211,16 +1211,12 @@ Trade, Craft, and Labor jobs, sometimes referred to as &quot;blue collar&quot; j
   <entry>
     <title type="html">How to answer questions about federal service</title>
     <link href="/Help/how-to/account/profile/experience/federal/" rel="alternate" type="text/html" title="How to answer questions about federal service" />
-    <published>2018-07-05T16:21:11-04:00</published>
-    <updated>2018-07-05T16:21:11-04:00</updated>
+    <published>2018-07-10T11:38:53-04:00</published>
+    <updated>2018-07-10T11:38:53-04:00</updated>
     <id>/Help/how-to/account/profile/experience/federal/</id>
-    <content type="html" xml:base="/Help/how-to/account/profile/experience/federal/">In the **Experience** section of your profile, you must provide information about your current or former federal employment.
+    <content type="html" xml:base="/Help/how-to/account/profile/experience/federal/">In your profile, you must provide information about your current or former federal employment.
 
 ## Please select the statement below which best reflects your federal employment status (if applicable).
-
-_I am not and have never been a federal civilian employee._
-
-Select this option if you’ve never worked for the federal government.  Working for a federal contractor does not qualify as working for the federal government.
 
 _I am currently a federal civilian employee._
 
@@ -1235,33 +1231,50 @@ Select this option if you’re a former federal employee who held a career or ca
 
 _I am a former federal civilian employee but do not have reinstatement eligibility._
 
-Select this option if you're a **former** federal civilian employee without reinstatement eligibility.
+Select this option if you're a former federal civilian employee without reinstatement eligibility.
 
 ### What is reinstatement?
 
 You may be eligible for reinstatement if you held a career or career-conditional appointment in the federal government. Reinstatement allows former federal employees to re-enter the federal competitive service workforce without competing with the public. [Learn more about reinstatement](../../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
 
-## Are you a current federal civilian employee serving under a Veterans' Recruitment Appointment (VRA)?
+## Not a federal employee
 
-The Veterans’ Recruitment Appointment (VRA) is a hiring authority that federal agencies can use to hire eligible veterans without competing with the public. [Learn more about VRA](https://fedshirevets.gov/job/shav/index.aspx){:target=&quot;_blank&quot;}.
+_I am not and have never been a federal civilian employee._
 
-Select **Yes** if you’re a current federal employee hired under a VRA.
+Select this option if you’ve never worked for the federal government. Working for a federal contractor does not qualify as working for the federal government.
 
-## Indicate the pay plan, series, grade level/pay band of the highest permanent graded position you ever held as a federal civilian employee.
+If you select “Yes” to any of the federal employee options, you will get additional questions to answer about your federal service. These questions are optional.
 
-You must provide information about your pay, series and grade level if you’re a current or former federal employee. You can find this information on your [SF-50 - Notification of Personnel Action](https://www.opm.gov/forms/pdfimage/sf50.pdf){:target=&quot;_blank&quot;} (PDF, 343 KB).
+## Current federal service
 
-[Learn more about pay systems and plans](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/){:target=&quot;_blank&quot;}.  
-[Learn more about series and grade levels](../../../../../faq/pay/series-and-grade/).
+### Is your position in the competitive, excepted, or senior executive service?
 
+You’ll only see this question, if you selected you’re a current federal employee. Choose one of the following:
 
-## Are you a retiree receiving a federal annuity?
-Select **Yes** if you’re a federal retiree receiving annuity benefits. If you’re receiving a federal annuity and then accept a new position, it may affect your annuity payments. [Learn more about federal annuity](https://www.opm.gov/retirement-services/my-annuity-and-benefits/){:target=&quot;_blank&quot;}.
+* Competitive
+* Excepted
+* Senior Executive
 
-## Have you accepted a buyout from a federal agency within the past 5 years?
-Some federal agencies may offer a buyout, also called a Voluntary Separation Incentive Payment (VSIP), to employees if the agency needs to downsize or restructure.
+Learn [how to determine which service you belong to](../../../../../working-in-government/service/SF-50/).
 
-If you’ve accepted a buyout from a federal agency and then accept a new paid position with a federal agency within 5 years of the buyout, you’ll be required to pay the entire amount back to the agency that gave you the buyout (before you start the new job). [Learn more about buyouts](https://www.opm.gov/policy-data-oversight/workforce-restructuring/voluntary-separation-incentive-payments/){:target=&quot;_blank&quot;}.
+### Have you been displaced from a position in a federal agency?
+
+You will see this question if you selected “Yes” to current or former federal employee. Select one of these options:
+
+* Yes, I am eligible for the Career Transition Assistance Plan (CTAP)
+* Yes, I am eligible for the Interagency Career Transition Assistance Plan (ICTAP)
+* No
+
+[Learn more about career transition programs](../../../../../working-in-government/unique-hiring-paths/federal-employees/career-transition/).
+
+### Are you a retiree receiving a federal annuity?
+
+You'll see this question if you selected “Yes” to current or former federal employee. Select Yes if you’re a federal retiree receiving annuity benefits. If you’re receiving a federal annuity and then accept a new position, it may affect your annuity payments. [Learn more about federal annuity](https://www.opm.gov/retirement-services/my-annuity-and-benefits/).
+
+### Have you accepted a buyout from a federal agency within the past 5 years?
+
+You will see this question if you selected “Yes” to current or former federal employee. Some federal agencies may offer a buyout, also called a Voluntary Separation Incentive Payment (VSIP), to employees if the agency needs to downsize or restructure.
+If you’ve accepted a buyout from a federal agency and then accept a new paid position with a federal agency within 5 years of the buyout, you’ll be required to pay the entire amount back to the agency that gave you the buyout (before you start the new job). [Learn more about buyouts](https://www.opm.gov/policy-data-oversight/workforce-restructuring/voluntary-separation-incentive-payments/).
 
 
 ## Additional resources
@@ -1290,8 +1303,8 @@ If you’ve accepted a buyout from a federal agency and then accept a new paid p
   <entry>
     <title type="html">How to answer questions about military service</title>
     <link href="/Help/how-to/account/profile/experience/military/" rel="alternate" type="text/html" title="How to answer questions about military service" />
-    <published>2018-07-05T16:21:03-04:00</published>
-    <updated>2018-07-05T16:21:03-04:00</updated>
+    <published>2018-07-10T08:00:31-04:00</published>
+    <updated>2018-07-10T08:00:31-04:00</updated>
     <id>/Help/how-to/account/profile/experience/military/</id>
     <content type="html" xml:base="/Help/how-to/account/profile/experience/military/">In the **Experience** section of your profile, you must provide information about current or past military service.
 
@@ -1992,6 +2005,189 @@ If you have any questions related to a particular job announcement, please [cont
       <category term="forms" />
     
       <category term="support-documents" />
+    
+  </entry>
+    
+  
+      
+  <entry>
+    <title type="html">How to fill out your education</title>
+    <link href="/Help/how-to/account/profile/education/" rel="alternate" type="text/html" title="How to fill out your education" />
+    <published>2018-07-10T10:52:20-04:00</published>
+    <updated>2018-07-10T10:52:20-04:00</updated>
+    <id>/Help/how-to/account/profile/education/</id>
+    <content type="html" xml:base="/Help/how-to/account/profile/education/">Some federal jobs require that you have a college degree or specific coursework. You can find these requirements in the **Qualifications** section of the job announcement.
+
+If you’re applying to a job with education requirements, you must include the required education and coursework information in your resume.  As you fill out your education information, you need to include: 
+
+* Your degree (s)—it must be from an accredited academic institution. 
+* The highest academic level you completed—include post-secondary courses, even if you don’t have a degree.
+* A transcript if you’re using education to qualify for a job—the hiring agency may ask you for an unofficial transcript during the application process and an official transcript later.
+
+You can add up to 50 entries for your education in your profile, or in our resume builder. If you want to add more, you’ll need to delete an existing entry.
+
+## Education from an accredited academic institution
+
+You must provide documentation or proof that your degree(s) is from a school accredited by an accrediting institution recognized by the Secretary, U.S. Department of Education, or that your education meets the other provisions outlined in the OPM Operating Manual.
+If you completed your education outside of the U.S., you must provide proof its equivalent to accredited U.S. education programs.
+
+[Learn more about education and training requirements](https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-policies/#url=e4){:target=&quot;_blank&quot;}.
+
+## Your highest academic level 
+
+Include the highest academic level you’ve completed in your resume. Choose from the following academic levels:
+
+### High school or equivalent
+
+You’ve earned a high school diploma or General Equivalency Diploma (GED).
+
+### Technical or occupational certificate
+
+You’ve received training in a special skill to be used in a trade (i.e., mechanical, electrical, carpentry, etc.), or completed an organized program of study given by a recognized body or authority in a given subject area (i.e., MCSE, Java, CFA, Series 7, etc.)
+
+### Associate degree
+
+You’ve completed undergraduate studies and earned a 2-year degree at an accredited institution.
+
+### Some college coursework completed
+
+You’ve attended college but haven’t earned a degree, (include your total credits earned and  if those credits are semester or quarter hours.)
+
+### Bachelor's degree
+
+You’ve earned a 4-year degree (i.e., BA, BS, etc.) from an accredited academic institution.
+
+### Master's degree
+
+You’ve earned a master’s level degree (i.e., MBA, etc.) from an accredited academic institution.
+
+### Doctorate
+
+You’ve earned a degree (i.e., PhD), title or rank of doctor from an accredited academic institution.
+
+### Professional
+
+You’ve earned a professional degree (i.e., law, medical, dental, etc.) from an accredited academic institution.
+
+### What if I’m currently completing my degree?
+
+If you’re currently completing your degree, select the degree and enter in the expected degree completion date.
+
+### Other coursework, licensures and certifications
+
+While not required, it’s beneficial to list relevant coursework, licensures and certifications. Include this information to show your knowledge or skill level in a certain field of study, especially if it’s relevant to the job you’re applying to.</content>
+
+    
+      <category term="profile" />
+    
+
+    
+      <category term="profile" />
+    
+      <category term="education" />
+    
+  </entry>
+    
+  
+      
+  <entry>
+    <title type="html">How to fill out your work experience</title>
+    <link href="/Help/how-to/account/profile/experience/work/" rel="alternate" type="text/html" title="How to fill out your work experience" />
+    <published>2018-07-10T11:13:38-04:00</published>
+    <updated>2018-07-10T11:13:38-04:00</updated>
+    <id>/Help/how-to/account/profile/experience/work/</id>
+    <content type="html" xml:base="/Help/how-to/account/profile/experience/work/">List your relevant work, including any federal work experience. 
+
+You can add and store up to 50 separate work experience entries. If you want to add more, you’ll have to delete an existing entry.
+
+## Your work experience
+
+For each work experience, include:
+
+* Employer’s name
+* Employer’s address
+* Your job title 
+* Start and end date
+* Your duties, skills and accomplishments
+
+You can also include (but aren’t required to include):
+* Salary
+* Currency of your salary
+* Salary rate (is it bi-weekly, monthly, yearly, etc?)
+* Average hours per week you worked
+* Whether or not we can contact your supervisor
+
+## What if I don’t want my current federal employer to see my resume?
+
+If you make your resume searchable, federal HR specialists and hiring managers can search and see your resume and profile.  However, any work experience with an end date of “Present” will not be searchable or visible to these recruiters.
+
+## How do I answer “Is this a Federal Civilian position”?
+
+Federal experience includes positions you’ve held as a civilian employee paid by a federal agency.
+
+Federal experience does NOT include any position as an active duty military member or a private contractor of the U.S. government. 
+
+If you answer ‘yes’, you’ll see additional fields for the department and agency, series, pay scale, grade and appointment type.
+
+## What do I include in the duties, accomplishments and skills section?
+
+Describing your duties, accomplishments and skills can be challenging. Here are a few tips:
+
+### Focus on your goals
+
+Highlight the skills you possess, and how they relate to the field you want to enter and the job(s) you’re seeking. Think about your career goals. Then narrow your scope to the positions that will further those goals. Once your career goals are clear, it’ll be easier to describe your skills in a meaningful way.
+
+### Review job announcements
+
+Review relevant job descriptions to get an understanding of the requirements for the jobs you’re interested in. Then, relate those requirements to your own experience—list your matching skills, experience, training, and education. Use words and phrases from the job announcement(s) and include other commonly used technical terms.
+
+### Describe your experience
+
+Always include your current position, however only list past work experiences that show how your skills and duties relate to the type of job you’re seeking. Think about the projects you’ve worked on; what your specific duties were; what you needed to know to do the job; the tools, software, or equipment you used and what you accomplished.
+
+### Include achievements and contributions
+
+Did you ever have to list your accomplishments for performance reviews? If so, you can use those documents as a guide. If not, try listing your accomplishments from the last five years. Focus on challenges you met, problems you solved, results achieved, and any awards, promotions, and special benefits you received. It’s better to describe your accomplishments, than list your responsibilities. 
+
+### Follow these writing tips
+
+Keep your description concise, clear and organized. Use simple sentences that cite specific examples. Name any tool, software, or equipment you used, and any specialized knowledge you acquired. 
+
+*Example*
+
+**Don’t say**
+
+‘Performed the full range of project management duties for a new information system,’ 
+
+**Do say (using concrete examples)** 
+
+‘Used Microsoft Project to develop timelines. Prepared budget requests; hired staff; selected vendors; negotiated contracts; designed and implemented a new UNIX client-server information system.’ 
+
+Use action word phrases, such as:
+
+* Designed and implemented new organizational structure plan.
+* Negotiated contracts up to 90K.
+* Delivered report on waste management.
+
+When you’re finished, ask yourself the following questions:
+
+* Would someone who's not familiar with my occupational background understand the kind of work I do?
+* Is there nonessential information (nice to have, but not helpful in meeting mandatory qualification requirements) in what I have written?
+* Have I omitted any relevant experience or skills I possess that might distinguish me from other candidates if my resume reaches the desk of a selecting official?
+* Have I adequately described major characteristics of my occupation or background and skills that are most common to my occupation?</content>
+
+    
+      <category term="profile" />
+    
+
+    
+      <category term="profile" />
+    
+      <category term="experience" />
+    
+      <category term="work" />
+    
+      <category term="history" />
     
   </entry>
     
@@ -3582,75 +3778,6 @@ If you’re currently completing your degree, select the degree and enter in the
   
       
   <entry>
-    <title type="html">How to supply education</title>
-    <link href="/Help/how-to/account/profile/education/" rel="alternate" type="text/html" title="How to supply education" />
-    <published>2018-05-11T16:10:29-04:00</published>
-    <updated>2018-05-11T16:10:29-04:00</updated>
-    <id>/Help/how-to/account/profile/education/</id>
-    <content type="html" xml:base="/Help/how-to/account/profile/education/">Some Federal positions have education requirements, such as a specific degree or coursework. You can find these requirements in the Qualifications section of the job announcement.
-
-If you’re applying to a job with education requirements, you must include the required education and coursework information in your resume. Your degree must be from an accredited academic institution. When education is used to qualify for a position, a Federal agency will ask you to provide a transcript when you apply to a job or upon tentative selection. If you have no degree, but have completed post-secondary courses, you should still provide that information.
-
-## Academic Level and School Information
-
-You must provide documentation or proof that your degree(s) is from a school accredited by an accrediting institution recognized by the Secretary, U.S. Department of Education, or that your education meets the other provisions outlined in the OPM Operating Manual.
-
-Education completed outside of the U.S. must be equivalent to accredited U.S. education programs.
-
-[Learn more about education and training requirements](https://www.opm.gov/policy-data-oversight/classification-qualifications/general-schedule-qualification-policies/#url=e4){:target=&quot;_blank&quot;}.
-
-## Academic Level and Degree Definitions
-
-### High School or Equivalent
-
-Earned a high school diploma or GED (General Equivalency Diploma).
-
-### Technical or Occupational Certificate
-
-Received training in a special skill to be pursued in a trade (i.e., mechanical, electrical, carpentry, etc.) or completed an organized program of study given by a recognized body or authority in a given subject area (i.e., MCSE, Java, CFA, Series 7, etc.)
-
-### Associate Degree
-
-Completed undergraduate studies and earned a 2-year degree at an accredited institution.
-
-### Some College Coursework Completed
-
-Attended college but has not graduated. (If no degree, show total credits earned and indicate whether semester or quarter hours.)
-
-### Bachelor's Degree
-
-Completed undergraduate studies and earned a 4-year degree (i.e., BA, BS, etc.) at an accredited institution.
-
-### Master's Degree
-
-Completed post-college graduate studies and earned a master's level degree (i.e., MBA, etc.) at an accredited institution.
-
-### Doctorate
-
-Earned degree (i.e., PhD), title or rank of doctor from an accredited institution.
-
-### Professional
-
-Earned a professional degree (i.e., law, medical, dental, etc.) at an accredited institution.
-
-### What if I’m currently completing my degree?
-
-If you’re currently completing your degree, select the degree and enter in the expected degree completion date.</content>
-
-    
-      <category term="profile" />
-    
-
-    
-      <category term="profile" />
-    
-      <category term="education" />
-    
-  </entry>
-    
-  
-      
-  <entry>
     <title type="html">How to supply hiring paths</title>
     <link href="/Help/how-to/account/profile/hiring-paths/" rel="alternate" type="text/html" title="How to supply hiring paths" />
     <published>2018-05-11T16:10:29-04:00</published>
@@ -3666,72 +3793,6 @@ If you’re currently completing your degree, select the degree and enter in the
       <category term="profile" />
     
       <category term="hiring paths" />
-    
-  </entry>
-    
-  
-      
-  <entry>
-    <title type="html">How to supply work experience</title>
-    <link href="/Help/how-to/account/profile/experience/work/" rel="alternate" type="text/html" title="How to supply work experience" />
-    <published>2018-07-05T16:15:36-04:00</published>
-    <updated>2018-07-05T16:15:36-04:00</updated>
-    <id>/Help/how-to/account/profile/experience/work/</id>
-    <content type="html" xml:base="/Help/how-to/account/profile/experience/work/">In this section you'll enter your relevant work experiences. If your resume is confidential, any work experience with an end date of 'present' will not be visible to Federal recruiters performing resume searches. To complete this section, enter information and click add work experience.
-
-See below for additional information on selected fields:
-
-## Employee Information
-
-Please enter the company or agency name; your formal job title (e.g., Database Administrator); start and end date; and ending salary.
-
-## Is this a Federal Civilian position?
-
-Federal experience includes positions you have held as a civilian employee paid by an agency of the Federal government. The pay plan, series, and grade fields refer to Executive Branch &lt;span data-term=&quot;Competitive Position&quot;&gt;competitive positions&lt;/span&gt; and are not mandatory fields. If your experience does not fit, simply leave those fields blank.
-
-Active duty military members or experience working for a private contractor of the U.S. government do not qualify as Federal positions for this purpose.
-
-## Duties, Accomplishments and Related Skills
-
-Describing your duties, accomplishments and related skills can be challenging. To help you do this more effectively, take a minute to review the suggestions included below.
-
-## Focus On Your Goals
-
-Your resume should showcase the skills you possess, and how they relate to the field you want to enter and the job(s) you are seeking. Think about your career goals. Then narrow your scope to the positions that will further those goals. Once your career goals are clear, it will be easier to describe your skills in a meaningful way.
-
-## Review Job Announcements
-
-Before you describe your own duties, accomplishments, and skills, try reviewing relevant job descriptions. Once you have an understanding of the competencies required for the jobs you are interested in, you can relate those requirements to your own experience. After reviewing the descriptions, list your matching skills, experience, training, and education. Use words and phrases used in the announcements. Incorporate other commonly used technical terms.
-
-## Describe Your Experience
-
-When listing your past jobs, concentrate on experiences that are relevant to your career goals and the position you are applying to. For instance, if you had a summer clerical job and you are looking to apply for a professional position, you do not need to list that job. With the exception of your current position, omit any job that does not show how your skills and experiences relate to the type of position you are seeking. Think about the projects you worked on; what your specific duties were; what you needed to know to do the job; the tools, software, or equipment you used; what you accomplished.
-
-## Include Achievements and Contributions
-
-Did your supervisor require that you list your accomplishments for performance reviews? If so, you can use those documents as a guide. If not, try listing your accomplishments from the last five years. Focus on challenges you met, problems you solved, results achieved, and any awards, promotions, and special benefits you received. It's better to describe your accomplishments, than list your responsibilities. Writing Tips
-
-When writing about a work experience, keep your description concise, clear and organized. Use simple sentences that cite specific examples. Name any tool, software, or equipment you used, and any specialized knowledge you acquired. Instead of saying, 'Performed the full range of project management duties for a new information system,' use concrete examples: 'Used Microsoft Project to develop timelines. Prepared budget requests; hired staff; selected vendors; negotiated contracts; designed and implemented a new UNIX client-server information system.' Use action word phrases (e.g., designed and implemented new organizational structure plan; negotiated contracts up to 90K; delivered report on waste management).
-
-When you're finished, ask yourself the following questions:
-
-* Would someone who is not familiar with my occupational background understand the kind of work I do?
-* Is there nonessential information (nice to have, but not helpful in meeting mandatory qualification requirements) in what I have written?
-* Have I omitted any relevant experience or skills I possess that might distinguish me from other candidates if my resume reaches the desk of a selecting official?
-* Have I adequately described major characteristics of my occupation or background and skills that are most common to my occupation?</content>
-
-    
-      <category term="profile" />
-    
-
-    
-      <category term="profile" />
-    
-      <category term="experience" />
-    
-      <category term="work" />
-    
-      <category term="history" />
     
   </entry>
     
