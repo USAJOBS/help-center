@@ -95,4 +95,5 @@ Enter the start and end dates of your service. Click **Add Service Dates** if yo
 
 ## Additional resources
 
+* [Feds Hire Vets](https://www.fedshirevets.gov/){:target="_blank"}
 * [Types of Preference (OPM)](https://www.opm.gov/policy-data-oversight/veterans-employment-initiative/vet-guide/#2Types){:target="_blank"}
