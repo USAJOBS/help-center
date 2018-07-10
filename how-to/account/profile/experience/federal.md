@@ -8,13 +8,9 @@ category: profile
 tags: [profile, experience, federal, service, employment]
 ---
 
-In the **Experience** section of your profile, you must provide information about your current or former federal employment.
+In your profile, you must provide information about your current or former federal employment.
 
 ## Please select the statement below which best reflects your federal employment status (if applicable).
-
-_I am not and have never been a federal civilian employee._
-
-Select this option if you’ve never worked for the federal government.  Working for a federal contractor does not qualify as working for the federal government.
 
 _I am currently a federal civilian employee._
 
@@ -29,33 +25,50 @@ Select this option if you’re a former federal employee who held a career or ca
 
 _I am a former federal civilian employee but do not have reinstatement eligibility._
 
-Select this option if you're a **former** federal civilian employee without reinstatement eligibility.
+Select this option if you're a former federal civilian employee without reinstatement eligibility.
 
 ### What is reinstatement?
 
 You may be eligible for reinstatement if you held a career or career-conditional appointment in the federal government. Reinstatement allows former federal employees to re-enter the federal competitive service workforce without competing with the public. [Learn more about reinstatement](../../../../../working-in-government/unique-hiring-paths/federal-employees/reinstatement/).
 
-## Are you a current federal civilian employee serving under a Veterans' Recruitment Appointment (VRA)?
+## Not a federal employee
 
-The Veterans’ Recruitment Appointment (VRA) is a hiring authority that federal agencies can use to hire eligible veterans without competing with the public. [Learn more about VRA](https://fedshirevets.gov/job/shav/index.aspx){:target="_blank"}.
+_I am not and have never been a federal civilian employee._
 
-Select **Yes** if you’re a current federal employee hired under a VRA.
+Select this option if you’ve never worked for the federal government. Working for a federal contractor does not qualify as working for the federal government.
 
-## Indicate the pay plan, series, grade level/pay band of the highest permanent graded position you ever held as a federal civilian employee.
+If you select “Yes” to any of the federal employee options, you will get additional questions to answer about your federal service. These questions are optional.
 
-You must provide information about your pay, series and grade level if you’re a current or former federal employee. You can find this information on your [SF-50 - Notification of Personnel Action](https://www.opm.gov/forms/pdfimage/sf50.pdf){:target="_blank"} (PDF, 343 KB).
+## Current federal service
 
-[Learn more about pay systems and plans](https://www.opm.gov/policy-data-oversight/pay-leave/pay-systems/){:target="_blank"}.  
-[Learn more about series and grade levels](../../../../../faq/pay/series-and-grade/).
+### Is your position in the competitive, excepted, or senior executive service?
 
+You’ll only see this question, if you selected you’re a current federal employee. Choose one of the following:
 
-## Are you a retiree receiving a federal annuity?
-Select **Yes** if you’re a federal retiree receiving annuity benefits. If you’re receiving a federal annuity and then accept a new position, it may affect your annuity payments. [Learn more about federal annuity](https://www.opm.gov/retirement-services/my-annuity-and-benefits/){:target="_blank"}.
+* Competitive
+* Excepted
+* Senior Executive
 
-## Have you accepted a buyout from a federal agency within the past 5 years?
-Some federal agencies may offer a buyout, also called a Voluntary Separation Incentive Payment (VSIP), to employees if the agency needs to downsize or restructure.
+Learn [how to determine which service you belong to](../../../../../working-in-government/service/SF-50/).
 
-If you’ve accepted a buyout from a federal agency and then accept a new paid position with a federal agency within 5 years of the buyout, you’ll be required to pay the entire amount back to the agency that gave you the buyout (before you start the new job). [Learn more about buyouts](https://www.opm.gov/policy-data-oversight/workforce-restructuring/voluntary-separation-incentive-payments/){:target="_blank"}.
+### Have you been displaced from a position in a federal agency?
+
+You will see this question if you selected “Yes” to current or former federal employee. Select one of these options:
+
+* Yes, I am eligible for the Career Transition Assistance Plan (CTAP)
+* Yes, I am eligible for the Interagency Career Transition Assistance Plan (ICTAP)
+* No
+
+[Learn more about career transition programs](../../../../../working-in-government/unique-hiring-paths/federal-employees/career-transition/).
+
+### Are you a retiree receiving a federal annuity?
+
+You'll see this question if you selected “Yes” to current or former federal employee. Select Yes if you’re a federal retiree receiving annuity benefits. If you’re receiving a federal annuity and then accept a new position, it may affect your annuity payments. [Learn more about federal annuity](https://www.opm.gov/retirement-services/my-annuity-and-benefits/).
+
+### Have you accepted a buyout from a federal agency within the past 5 years?
+
+You will see this question if you selected “Yes” to current or former federal employee. Some federal agencies may offer a buyout, also called a Voluntary Separation Incentive Payment (VSIP), to employees if the agency needs to downsize or restructure.
+If you’ve accepted a buyout from a federal agency and then accept a new paid position with a federal agency within 5 years of the buyout, you’ll be required to pay the entire amount back to the agency that gave you the buyout (before you start the new job). [Learn more about buyouts](https://www.opm.gov/policy-data-oversight/workforce-restructuring/voluntary-separation-incentive-payments/).
 
 
 ## Additional resources
