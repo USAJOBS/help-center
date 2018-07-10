@@ -1,5 +1,5 @@
 ---
-permalink: /how-to/account/profile/eligibility/military-service/
+permalink: /how-to/account/profile/experience/military/
 layout: article
 section: how-to
 title: How to answer questions about military service
@@ -8,7 +8,7 @@ category: profile
 tags: [account, profile, eligibility, military service]
 ---
 
-In the Eligibility section of your profile, you must provide information about current or past military service.
+In the **Experience** section of your profile, you must provide information about current or past military service.
 
 ## Have you served in the U.S. Armed Forces or are you a family member eligible for derived preference?
 

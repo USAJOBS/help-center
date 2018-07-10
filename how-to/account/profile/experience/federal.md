@@ -1,14 +1,14 @@
 ---
-permalink: /how-to/account/profile/eligibility/federal-employment/
+permalink: /how-to/account/profile/experience/federal/
 layout: article
 section: how-to
-title: How to answer questions about federal employment
-breadcrumb: Federal Employment
+title: How to answer questions about federal service
+breadcrumb: Federal service
 category: profile
-tags: [account, profile, eligibility, federal, employment]
+tags: [profile, experience, federal, service, employment]
 ---
 
-In the **Eligibility** section of your profile, you must provide information about your current or former federal employment.
+In the **Experience** section of your profile, you must provide information about your current or former federal employment.
 
 ## Please select the statement below which best reflects your federal employment status (if applicable).
 
