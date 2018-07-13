@@ -50,7 +50,7 @@ Permanent appointments have no specified end date. With a permanent appointment 
 
 A temporary appointment has a specific end date—these appointments have a ‘not to exceed date’ from one year or less to four years. 
 
-[Learn more about appointment types](/appointments/).
+[Learn more about appointment types](../).
 
 ## Service types
 The Federal Government has three services:
@@ -61,5 +61,5 @@ The Federal Government has three services:
 
 The hiring process and rules for each service is different.  And, once you’re a federal employee, [your service type affects your eligibility to apply to another job in another service](../../unique-hiring-paths/federal-employees/). You can move from service to service, but there are different rules and requirements you must follow.
 
-[Learn more about service types](/service/).
+[Learn more about service types](/../../service/).
 
