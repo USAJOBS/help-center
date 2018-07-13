@@ -5,3 +5,4 @@ section: how-to
 title: How to make a resume searchable
 redirect: /how-to/account/profile/searchable/
 skip_index: true
+---
