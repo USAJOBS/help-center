@@ -12,7 +12,7 @@ To create an application on USAJOBS:
 
 <ol>
   <li>Sign into USAJOBS.</li>
-  <li>Make sure all four sections of your profile (Contact, Eligibility, Demographics and Preferences) are up-to-date. During the application process some of this information is sent to the hiring agency.</li>
+  <li>Make sure the required sections of your profile are complete and all other profile information is up-to-date. During the application process some of this information is sent to the hiring agency.</li>
   <li>Find the job announcement you want to apply to – you can search for jobs by keyword or location, or use your <strong>Saved Searches</strong>.</li>
   <li>Thoroughly review the job announcement, including the <strong>How to Apply</strong> and <strong>Required Documents</strong> sections.</li>
   <li>Click <strong>Apply</strong>. The USAJOBS application process will guide you through five steps:
