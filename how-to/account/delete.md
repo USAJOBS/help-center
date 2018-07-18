@@ -11,9 +11,11 @@ tags: [account, delete, profile, support-delete-account]
 To delete a USAJOBS profile:
 
 1.	Sign into USAJOBS.
-2.	Click **Username & Password** at the bottom of the left hand column.
-3.	Scroll to the bottom of the page and click **Delete Profile**.
-4.	Read the message and click **Delete Profile** in the pop-up box.
+2.	Go to your **Profile** section.
+3.	Click **Edit** in the section with your contact information.
+4.	Scroll to the bottom of the page to **Delete Profile** and click the **+**.
+5.	Read the message and click **Delete Profile**—you get a confirmation pop up box.
+6.	Confirm you want to delete your profile and click **Delete Profile** again.
 
 You'll receive an email telling you when we'll delete your profile.
 
@@ -21,7 +23,7 @@ You'll receive an email telling you when we'll delete your profile.
 
 If you delete your profile:
 * You will lose all documents in your profile, including your application history, resumes, saved documents, saved searches, and all other documents.
-* We will delete your profile 168 hours (7 days) after you click **Confirm Deletion**.
+* We will delete your profile 168 hours (7 days) after you click the **Delete Profile** in the confirmation box.
 * For security reasons, you must wait seven calendar days after we delete your profile, to create a new one with the same email address.
 
 ## Can I cancel my request to delete my profile?
