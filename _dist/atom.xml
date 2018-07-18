@@ -1654,6 +1654,59 @@ Good news—you no longer need to answer security questions. If you forget your 
     
   
       
+  <entry>
+    <title type="html">How to choose hiring paths in your profile</title>
+    <link href="/Help/how-to/account/profile/hiring-paths/" rel="alternate" type="text/html" title="How to choose hiring paths in your profile" />
+    <published>2018-07-16T11:37:16-04:00</published>
+    <updated>2018-07-16T11:37:16-04:00</updated>
+    <id>/Help/how-to/account/profile/hiring-paths/</id>
+    <content type="html" xml:base="/Help/how-to/account/profile/hiring-paths/">The Federal Government offers [hiring paths](../../../../working-in-government/unique-hiring-paths/) to help hire individuals that represent our diverse society. Agencies use these paths to tell us who they’re looking for when they’re hiring—whether it’s a current federal employee, a veteran, or a recent graduate.  There are many different hiring paths including:
+
+* [Open to the public](../../../../working-in-government/unique-hiring-paths/public/)
+* [Federal employees - Competitive service](../../../../working-in-government/unique-hiring-paths/federal-employees/)
+* [Federal employees - Excepted service](../../../../working-in-government/unique-hiring-paths/federal-employees/)
+* [Internal to an agency](../../../../working-in-government/unique-hiring-paths/federal-employees/internal)
+* [Career transition (CTAP, ICTAP, RPL)](../../../../working-in-government/unique-hiring-paths/federal-employees/ctap)
+* [Family of overseas employees](../../../../working-in-government/unique-hiring-paths/family-of-overseas-employees/)
+* [Individuals with a disability](../../../../working-in-government/unique-hiring-paths/individuals-with-disabilities/)
+* [Military spouses](../../../../working-in-government/unique-hiring-paths/military-spouses/)
+* [National Guard &amp; Reserves](../../../../working-in-government/unique-hiring-paths/national-guard/)
+* [Native American and Alaskan Natives](../../../../working-in-government/unique-hiring-paths/native-americans/)
+* [Peace Corps &amp; AmeriCorps VISTA](../../../../working-in-government/unique-hiring-paths/peace-corps/)
+* [Senior Executives](../../../../working-in-government/unique-hiring-paths/senior-executives/)
+* Special Authorities
+* [Students](../../../../working-in-government/unique-hiring-paths/students/)
+* [Recent graduates](../../../../working-in-government/unique-hiring-paths/students/)
+* [Veterans](../../../../working-in-government/unique-hiring-paths/veterans/)
+
+## How do I choose a hiring path?
+When you fill out your USAJOBS profile information, we’ll automatically select one or more hiring paths based on the information you give us. These are listed under the **You belong to the following groups** section. 
+
+## What if I fall under more hiring paths?
+You can click on each hiring path to select or unselect it, if you think you fall or don’t fall under a particular path.
+
+## Why do I need to choose a hiring path?
+Choosing the hiring path(s) that best fit you will save you time, because we'll only ask questions relevant to you.
+
+Plus, we'll use this information along with your job search preferences to help you find jobs you're eligible for. You can apply to any job, but you may not be eligible for the job if you don’t fall into one of the required hiring paths listed on the job announcement. If you’re not eligible, the hiring agency will reject your application.
+
+For example, some jobs are open to the public—this means if you’re a U.S. citizen or national, you’re eligible (sometimes [non-U.S. citizens](../../../../working-in-government/non-citizens/) are eligible too). Other jobs may be open to a current student or recent graduate—if you’re not a current student or recent graduate, you’re not eligible.
+
+Learn more about [eligibility](../../../../faq/application/eligibility/difference-from-qualifications/) and [hiring paths](../../../../working-in-government/unique-hiring-paths/).</content>
+
+    
+      <category term="profile" />
+    
+
+    
+      <category term="profile" />
+    
+      <category term="hiring paths" />
+    
+  </entry>
+    
+  
+      
   
       
   <entry>
@@ -1781,8 +1834,8 @@ Once you create a login.gov account, you'll come back to USAJOBS to link to your
   <entry>
     <title type="html">How to create a profile</title>
     <link href="/Help/how-to/account/profile/" rel="alternate" type="text/html" title="How to create a profile" />
-    <published>2017-11-30T14:29:40-05:00</published>
-    <updated>2017-11-30T14:29:40-05:00</updated>
+    <published>2018-07-17T16:15:02-04:00</published>
+    <updated>2018-07-17T16:15:02-04:00</updated>
     <id>/Help/how-to/account/profile/</id>
     <content type="html" xml:base="/Help/how-to/account/profile/">You need to create and complete a profile to apply to jobs, save searches and save jobs. But first, you need to create a login.gov account.
 
@@ -1790,15 +1843,15 @@ To create and complete a profile:
 
 1. Follow the steps to [create a login.gov account](https://login.usajobs.gov/Access/Transition) and click **Continue to USAJOBS** at the end.
 2. Click **Create Profile** (if you don't already have one) when you're back at USAJOBS.
-3. Complete all the required fields in the **Contact** and **Eligibility** sections.
+3. Complete all of the required fields in the **Profile** section.
 
-We recommend you also fill out the other sections of your profile, because we can use this information to improve your job search results.
+We recommend you also fill out the other sections of your profile and your **Preferences**, because we can use this information to improve your job search results.
 
 ## Applying to a job and see this message?
 
 &gt; You must complete the required sections of your profile before you can submit this application.
 
-This means your profile isn't complete. Click **Continue to Profile** and complete all the required fields in **Contact** and **Eligibility**.</content>
+This means your profile isn't complete. Click **Continue to Profile** and complete all of the required fields.</content>
 
     
       <category term="profile" />
@@ -1850,14 +1903,14 @@ When applying to a federal job, you need to include specific information in your
   <entry>
     <title type="html">How to create an application</title>
     <link href="/Help/how-to/application/" rel="alternate" type="text/html" title="How to create an application" />
-    <published>2018-02-16T18:49:27-05:00</published>
-    <updated>2018-02-16T18:49:27-05:00</updated>
+    <published>2018-07-17T16:10:53-04:00</published>
+    <updated>2018-07-17T16:10:53-04:00</updated>
     <id>/Help/how-to/application/</id>
     <content type="html" xml:base="/Help/how-to/application/">To create an application on USAJOBS:
 
 &lt;ol&gt;
   &lt;li&gt;Sign into USAJOBS.&lt;/li&gt;
-  &lt;li&gt;Make sure all four sections of your profile (Contact, Eligibility, Demographics and Preferences) are up-to-date. During the application process some of this information is sent to the hiring agency.&lt;/li&gt;
+  &lt;li&gt;Make sure the required sections of your profile are complete and all other profile information is up-to-date. During the application process some of this information is sent to the hiring agency.&lt;/li&gt;
   &lt;li&gt;Find the job announcement you want to apply to – you can search for jobs by keyword or location, or use your &lt;strong&gt;Saved Searches&lt;/strong&gt;.&lt;/li&gt;
   &lt;li&gt;Thoroughly review the job announcement, including the &lt;strong&gt;How to Apply&lt;/strong&gt; and &lt;strong&gt;Required Documents&lt;/strong&gt; sections.&lt;/li&gt;
   &lt;li&gt;Click &lt;strong&gt;Apply&lt;/strong&gt;. The USAJOBS application process will guide you through five steps:
@@ -3887,27 +3940,6 @@ If you’re currently completing your degree, select the degree and enter in the
       <category term="build" />
     
       <category term="education" />
-    
-  </entry>
-    
-  
-      
-  <entry>
-    <title type="html">How to supply hiring paths</title>
-    <link href="/Help/how-to/account/profile/hiring-paths/" rel="alternate" type="text/html" title="How to supply hiring paths" />
-    <published>2018-05-11T16:10:29-04:00</published>
-    <updated>2018-05-11T16:10:29-04:00</updated>
-    <id>/Help/how-to/account/profile/hiring-paths/</id>
-    <content type="html" xml:base="/Help/how-to/account/profile/hiring-paths/">Placeholder for hiring path help content.</content>
-
-    
-      <category term="profile" />
-    
-
-    
-      <category term="profile" />
-    
-      <category term="hiring paths" />
     
   </entry>
     
