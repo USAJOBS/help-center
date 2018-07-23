@@ -17,4 +17,4 @@ On the **Secure Account** screen, select the **Text Message/SMS** option and fol
 3. Enter the remaining phone number digits into the phone number field - **DO NOT** enter the country code again and **DO NOT** enter the international prefix/dial out code (i.e. 00, 010, 011).
 4. Click **Send security code** and follow the remaining steps.
 
-If you have issues using an international phone number, because of limited access or cell service, you can [use an authentication application](../limited-access.md#use-an-authentication-application-to-generate-a-logingov-security-code/) or [set up a free text messaging app](../limited-access.md#use-a-free-text-messaging-application/).
+If you have issues using an international phone number, because of limited access or cell service, you can [use an authentication application](../limited-access#use-an-authentication-application-to-generate-a-logingov-security-code/) or [set up a free text messaging app](../limited-access#use-a-free-text-messaging-application/).
