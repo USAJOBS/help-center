@@ -1797,8 +1797,8 @@ Learn [how to update an application](../update/), if your application has an “
   <entry>
     <title type="html">How to create a login.gov account</title>
     <link href="/Help/how-to/account/" rel="alternate" type="text/html" title="How to create a login.gov account" />
-    <published>2018-07-23T10:56:48-04:00</published>
-    <updated>2018-07-23T10:56:48-04:00</updated>
+    <published>2018-07-23T11:05:41-04:00</published>
+    <updated>2018-07-23T11:05:41-04:00</updated>
     <id>/Help/how-to/account/</id>
     <content type="html" xml:base="/Help/how-to/account/">You need to [create a login.gov account](https://www.usajobs.gov/Access/Transition) to sign into USAJOBS and access your profile information. &lt;strong&gt;Your old USAJOBS username and password won't work anymore.
 &lt;/strong&gt;
@@ -1812,7 +1812,7 @@ You'll need to:
 
 Once you create a login.gov account, you'll come back to USAJOBS to link to your existing profile, or create a new profile if you don't have one.
 
-If you have limited access to a phone or cell service, you can [set up an authentication app or use a free text messaging app](/limited-access/).
+If you have limited access to a phone or cell service, you can [set up an authentication app or use a free text messaging app](../limited-access/).
 
 [Create your account](https://login.usajobs.gov/Access/Transition/){:target=&quot;_blank&quot;}.
 
