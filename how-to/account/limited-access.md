@@ -19,7 +19,7 @@ An authentication application can generate security codes for signing in to site
 You can set up an authentication application with your login.gov account to generate the one-time security codes.
 
 1. Choose a device, such as a computer, or mobile device (phone or tablet), on which you can install apps.
-2. Download and install one of the following authentication apps to the device:
+2. Download and install an authentication app to the device.  Research the best option for you, but here are a few examples:
   *	Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/)
   * iOS options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/)
   * Windows apps: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/p/otp-manager/9nblggh6hngn), [OneLogin OTP](https://onelogin.service-now.com/support?id=csm_index)
