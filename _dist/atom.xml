@@ -1797,8 +1797,8 @@ Learn [how to update an application](../update/), if your application has an “
   <entry>
     <title type="html">How to create a login.gov account</title>
     <link href="/Help/how-to/account/" rel="alternate" type="text/html" title="How to create a login.gov account" />
-    <published>2018-07-19T10:48:01-04:00</published>
-    <updated>2018-07-19T10:48:01-04:00</updated>
+    <published>2018-07-23T10:56:48-04:00</published>
+    <updated>2018-07-23T10:56:48-04:00</updated>
     <id>/Help/how-to/account/</id>
     <content type="html" xml:base="/Help/how-to/account/">You need to [create a login.gov account](https://www.usajobs.gov/Access/Transition) to sign into USAJOBS and access your profile information. &lt;strong&gt;Your old USAJOBS username and password won't work anymore.
 &lt;/strong&gt;
@@ -1811,6 +1811,8 @@ You'll need to:
 *	Have a working phone number (mobile or landline) or an authentication application installed on a device—login.gov will send you a one-time security code..
 
 Once you create a login.gov account, you'll come back to USAJOBS to link to your existing profile, or create a new profile if you don't have one.
+
+If you have limited access to a phone or cell service, you can [set up an authentication app or use a free text messaging app](/limited-access/).
 
 [Create your account](https://login.usajobs.gov/Access/Transition/){:target=&quot;_blank&quot;}.
 
@@ -2099,8 +2101,8 @@ To edit an uploaded resume, you must [upload](../upload/) the updated file to yo
   <entry>
     <title type="html">How to enter an international phone number when creating a login.gov account</title>
     <link href="/Help/how-to/account/enter-international-phone-numbers/" rel="alternate" type="text/html" title="How to enter an international phone number when creating a login.gov account" />
-    <published>2018-07-19T11:17:35-04:00</published>
-    <updated>2018-07-19T11:17:35-04:00</updated>
+    <published>2018-07-23T10:21:59-04:00</published>
+    <updated>2018-07-23T10:21:59-04:00</updated>
     <id>/Help/how-to/account/enter-international-phone-numbers/</id>
     <content type="html" xml:base="/Help/how-to/account/enter-international-phone-numbers/">When you create a login.gov account, you’ll be asked to enter a phone number where you can receive a one-time security code. For international phone numbers, login.gov can only send the security code by SMS (text message). If you want to use an international number, it needs to be a mobile number.
 
@@ -2111,7 +2113,7 @@ On the **Secure Account** screen, select the **Text Message/SMS** option and fol
 3. Enter the remaining phone number digits into the phone number field - **DO NOT** enter the country code again and **DO NOT** enter the international prefix/dial out code (i.e. 00, 010, 011).
 4. Click **Send security code** and follow the remaining steps.
 
-If you have issues using an international phone number, because of limited access or cell service, you can [use an authentication application](../limited-access/) instead.</content>
+If you have issues using an international phone number, because of limited access or cell service, you can [use an authentication application](../limited-access#use-an-authentication-application-to-generate-a-logingov-security-code/) or [set up a free text messaging app](../limited-access#use-a-free-text-messaging-application/).</content>
 
     
       <category term="account" />
@@ -4791,8 +4793,8 @@ Not all agencies accept uploaded documents from USAJOBS.  If the agency does not
   <entry>
     <title type="html">How to use login.gov if you have limited access to a phone or cell service</title>
     <link href="/Help/how-to/account/limited-access/" rel="alternate" type="text/html" title="How to use login.gov if you have limited access to a phone or cell service" />
-    <published>2018-07-19T11:39:53-04:00</published>
-    <updated>2018-07-19T11:39:53-04:00</updated>
+    <published>2018-07-23T10:30:09-04:00</published>
+    <updated>2018-07-23T10:30:09-04:00</updated>
     <id>/Help/how-to/account/limited-access/</id>
     <content type="html" xml:base="/Help/how-to/account/limited-access/">You can create a login.gov account and sign in using a mobile or landline phone, or an authentication application.
 
@@ -4805,14 +4807,20 @@ An authentication application can generate security codes for signing in to site
 You can set up an authentication application with your login.gov account to generate the one-time security codes.
 
 1. Choose a device, such as a computer, or mobile device (phone or tablet), on which you can install apps.
-2. Download and install one of the following authentication apps to the device:
+2. Download and install an authentication app to the device.  Research the best option for you, but here are a few examples:
   *	Android options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/)
   * iOS options: [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;hl=en), [Authy](https://authy.com/), [LastPass](https://lastpass.com/), [1Password](https://1password.com/)
   * Windows apps: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/p/otp-manager/9nblggh6hngn), [OneLogin OTP](https://onelogin.service-now.com/support?id=csm_index)
   * Mac apps: [1Password](https://1password.com/), [OTP Manager](https://www.microsoft.com/en-us/p/otp-manager/9nblggh6hngn)
   * Chrome extensions: [SecureAuth OTP](https://chrome.google.com/webstore/detail/secureauth-otp/cjpfiickajaodicfcmkfgdicnlhaompc?hl=en-US), [Authenticator](https://chrome.google.com/webstore/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai?hl=en)
-3. Sign into your login.gov account at &lt;a href=&quot;https://secure.login.gov/&quot;&gt;https://secure.login.gov/&lt;/a&gt;
-4. Select the **Authentication application** option and follow the steps to finish setting up the app.
+3. Follow these steps if you already have a login.gov account:
+ - Sign into your login.gov account at &lt;a href=&quot;https://secure.login.gov/&quot;&gt;https://secure.login.gov/&lt;/a&gt;
+ - Stay on the login.gov site and go to **Manage Account**.
+ - Look for **Authentication Application** and click **Enable**.
+ - Follow the steps to set up an authentication application.
+4. Follow these steps if you don’t have a login.gov account:
+ - Create an account on login.gov at https://secure.login.gov.
+ - Select the **Authentication application** option and follow the steps to finish setting up the app.
 
 You can use the one-time security codes generated by the application each time you sign in, instead of receiving an SMS (text messages) or phone call.
 
@@ -6111,8 +6119,8 @@ A “step” is a raise in salary. In the GS pay scale, each grade has 10 steps.
   <entry>
     <title type="html">What is login.gov and why do I have to create an account?</title>
     <link href="/Help/faq/account/login-gov/" rel="alternate" type="text/html" title="What is login.gov and why do I have to create an account?" />
-    <published>2018-07-19T11:05:49-04:00</published>
-    <updated>2018-07-19T11:05:49-04:00</updated>
+    <published>2018-07-23T10:45:21-04:00</published>
+    <updated>2018-07-23T10:45:21-04:00</updated>
     <id>/Help/faq/account/login-gov/</id>
     <content type="html" xml:base="/Help/faq/account/login-gov/">## What is login.gov?
 
@@ -6135,7 +6143,7 @@ You need to create a login.gov account, if you don't already have one. Your old 
 1. [Create a login.gov account](https://login.usajobs.gov/Access/Transition) - you only need to do this once.
 2. Enter an email address during the account set up - use the same email address you use for USAJOBS (your primary or secondary email address).
 3. Create a new password.
-4. Have a working phone number (mobile or landline) or an authentication application installed on a device—login.gov will send you a one-time security code.
+4. Have a working phone number (mobile or landline), an authentication application or free text messaging app installed on a device—login.gov will send you a one-time security code.
 4. Finish setting up your login.gov account.
 
 Once you’ve finished setting up your login.gov account, you’ll go back to USAJOBS to finish the process.  Double check your USAJOBS Profile to make sure all of your information is accurate.
@@ -6150,19 +6158,19 @@ If you already have a login.gov account, you don't need to create a second one. 
 
 Use your primary or secondary USAJOBS email address, so we can automatically link your USAJOBS profile to your login.gov account. If you use a different email address, we won’t be able to automatically link your profile.
 
-We recommend you don’t use a .gov, .mil or .edu email address. Instead, you should use a non-government email address. If you currently use a .gov, .mil or .edu email address for USAJOBS, you may want to change it AFTER you get through the account set-up process.
+We recommend you don’t use a .gov, .mil, .edu or any other 'work' email address. Instead, you should use a non-government and non-work email address. If you currently use one of these email types for USAJOBS, you may want to change it AFTER you get through the account set-up process.
 
 [You also can’t use an email address you share with someone else](#can-i-share-a-logingov-account-with-another-person).
 
-### Why shouldn’t I use a .gov, .edu, or .mil email address?
+### Why shouldn’t I use a .gov, .edu, .mil or other work-related email address?
 
-If you use a .gov, .edu, or .mil email as your primary email address, and then you leave your government or military position or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password. You also won’t get emails about jobs and other important USAJOBS information.
+If you use a .gov, .edu, .mil or work-related email as your primary email address, and then you leave your government job, military position, private sector job or school, you won’t have access to that email address anymore. Without access to that email address, it will be much harder to verify who you are, if you need to reset your password. You also won’t get emails about jobs and other important USAJOBS information.
 
 Using a personal email address that you control (such as a Gmail account), is the best way to make sure you can always get to important USAJOBS messaging and profile information.
 
-## What if I currently use a .gov, .mil, or .edu email address for my USAJOBS primary email?
+## What if I currently use a .gov, .mil, .edu or work-related email address for my USAJOBS primary email?
 
-If you currently use a .gov, .mil or .edu email address for USAJOBS, you may want to change it AFTER you get through the login.gov account set-up process.
+If you currently use one of these email types for USAJOBS, you may want to change it AFTER you get through the login.gov account set-up process.
 
 ## Can I use a different email address from my USAJOBS email address, when setting up my login.gov account?
 
