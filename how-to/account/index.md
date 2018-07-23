@@ -20,7 +20,7 @@ You'll need to:
 
 Once you create a login.gov account, you'll come back to USAJOBS to link to your existing profile, or create a new profile if you don't have one.
 
-If you have limited access to a phone or cell service, you can [set up an authentication app or use a free text messaging app](/limited-access/).
+If you have limited access to a phone or cell service, you can [set up an authentication app or use a free text messaging app](../limited-access/).
 
 [Create your account](https://login.usajobs.gov/Access/Transition/){:target="_blank"}.
 
