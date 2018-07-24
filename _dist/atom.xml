@@ -1374,6 +1374,8 @@ If you’ve accepted a buyout from a federal agency and then accept a new paid p
     
   
       
+  
+      
   <entry>
     <title type="html">How to answer questions about military service</title>
     <link href="/Help/how-to/account/profile/experience/military/" rel="alternate" type="text/html" title="How to answer questions about military service" />
@@ -1485,8 +1487,6 @@ Enter the start and end dates of your service. Click **Add Service Dates** if yo
     
   </entry>
     
-  
-      
   
       
   <entry>
@@ -3142,6 +3142,27 @@ To do this, go to the **Save As** option in Word and then choose to save the doc
       <category term="Word" />
     
       <category term="support-resume" />
+    
+  </entry>
+    
+  
+      
+  <entry>
+    <title type="html">How to list your languages</title>
+    <link href="/Help/how-to/account/profile/languages/" rel="alternate" type="text/html" title="How to list your languages" />
+    <published>2018-07-24T13:51:26-04:00</published>
+    <updated>2018-07-24T13:51:26-04:00</updated>
+    <id>/Help/how-to/account/profile/languages/</id>
+    <content type="html" xml:base="/Help/how-to/account/profile/languages/">[Placeholder]</content>
+
+    
+      <category term="profile" />
+    
+
+    
+      <category term="profile" />
+    
+      <category term="languages" />
     
   </entry>
     
