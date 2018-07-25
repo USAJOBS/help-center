@@ -20,7 +20,7 @@ We can use your preferences to:
 *	Improve your job search results. When you’re signed in, and start a job search, we’ll look for jobs that match your preferences, such as your desired work location, schedule, travel, and more.
 *	Help agencies match your work preferences with the job opportunities they’re looking to fill – we only use this if you’ve made your resume searchable.
 
-To use your preferences during a job search
+## To use your preferences during a job search
 
 1. Sign into your USAJOBS profile and add preferences.
 2. Start a job search-we'll automatically use your preferences and other information from your profile to filter your results.
