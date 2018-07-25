@@ -3650,6 +3650,44 @@ You can use quotations to help you search for an exact match. For example, if yo
   
       
   <entry>
+    <title type="html">How to search by your preferences</title>
+    <link href="/Help/how-to/search/preferences/" rel="alternate" type="text/html" title="How to search by your preferences" />
+    <published>2018-07-25T12:25:13-04:00</published>
+    <updated>2018-07-25T12:25:13-04:00</updated>
+    <id>/Help/how-to/search/preferences/</id>
+    <content type="html" xml:base="/Help/how-to/search/preferences/">If you have a USAJOBS profile, you can add work preferences such as:
+
+*	Desired work location (where you’d like to work)
+*	Appointment type (permanent, temporary, etc.)
+*	Schedule (full-time, part-time, etc.)
+*	Travel (the amount of time you’re willing to travel)
+
+We can use your preferences to:
+
+*	Improve your job search results. When you’re signed in, and start a job search, we’ll look for jobs that match your preferences, such as your desired work location, schedule, travel, and more.
+*	Help agencies match your work preferences with the job opportunities they’re looking to fill – we only use this if you’ve made your resume searchable.
+
+To use your preferences during a job search
+
+1. Sign into your USAJOBS profile and add preferences.
+2. Start a job search-we'll automatically use your preferences and other information from your profile to filter your results.
+3. Double check the profile toggle is turned on—this is located above the search filters.
+Your preferences and other profile filters will appear as tags above your search results. You can turn off the profile toggle to search without using your preferences. You can also update your profile and preferences at any time.</content>
+
+    
+      <category term="Search" />
+    
+
+    
+      <category term="search" />
+    
+      <category term="preferences" />
+    
+  </entry>
+    
+  
+      
+  <entry>
     <title type="html">How to search using filters</title>
     <link href="/Help/how-to/search/filters/" rel="alternate" type="text/html" title="How to search using filters" />
     <published>2017-03-31T17:05:21-04:00</published>
