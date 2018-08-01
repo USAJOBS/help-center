@@ -1405,8 +1405,6 @@ If you’ve accepted a buyout from a federal agency and then accept a new paid p
     
   
       
-  
-      
   <entry>
     <title type="html">How to answer questions about military service</title>
     <link href="/Help/how-to/account/profile/experience/military/" rel="alternate" type="text/html" title="How to answer questions about military service" />
@@ -1518,6 +1516,8 @@ Enter the start and end dates of your service. Click **Add Service Dates** if yo
     
   </entry>
     
+  
+      
   
       
   <entry>
@@ -1680,6 +1680,49 @@ Good news—you no longer need to answer security questions. If you forget your 
       <category term="change" />
     
       <category term="support-password" />
+    
+  </entry>
+    
+  
+      
+  <entry>
+    <title type="html">How to change the phone number you use to sign in</title>
+    <link href="/Help/how-to/account/change-phone-number/" rel="alternate" type="text/html" title="How to change the phone number you use to sign in" />
+    <published>2018-08-01T16:35:19-04:00</published>
+    <updated>2018-08-01T16:35:19-04:00</updated>
+    <id>/Help/how-to/account/change-phone-number/</id>
+    <content type="html" xml:base="/Help/how-to/account/change-phone-number/">To change the phone number where you get your security code, you need to update it in your login.gov account. Go to login.gov and read their help page:
+
+[How do I change the phone number I use to sign in?](https://login.gov/help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/)
+
+### Will updating my phone number in my login.gov account also update the phone number in my USAJOBS profile?
+
+No. The phone number you have in your USAJOBS profile is separate from the phone number you have in your login.gov account. If you want to change the phone number in your USAJOBS profile, you need to go to your profile and edit your contact information.</content>
+
+    
+      <category term="account" />
+    
+
+    
+      <category term="account" />
+    
+      <category term="login.gov" />
+    
+      <category term="sign in" />
+    
+      <category term="phone" />
+    
+      <category term="cell" />
+    
+      <category term="mobile" />
+    
+      <category term="service" />
+    
+      <category term="change" />
+    
+      <category term="number" />
+    
+      <category term="support-update-account" />
     
   </entry>
     
@@ -3652,8 +3695,8 @@ You can use quotations to help you search for an exact match. For example, if yo
   <entry>
     <title type="html">How to search by your preferences</title>
     <link href="/Help/how-to/search/preferences/" rel="alternate" type="text/html" title="How to search by your preferences" />
-    <published>2018-07-25T12:25:13-04:00</published>
-    <updated>2018-07-25T12:25:13-04:00</updated>
+    <published>2018-07-25T13:26:20-04:00</published>
+    <updated>2018-07-25T13:26:20-04:00</updated>
     <id>/Help/how-to/search/preferences/</id>
     <content type="html" xml:base="/Help/how-to/search/preferences/">If you have a USAJOBS profile, you can add work preferences such as:
 
@@ -5850,7 +5893,7 @@ In addition, some Federal agencies, such as the National Park Service and the Fo
 The hiring agency will ask you for the necessary personal information to start the background investigation process.  The amount of information you’ll need to give depends on the job.  
 
 ## What type of information will I need to provide?
-Regardless of the type of background check, you will at least need to answer questions about where you've lived, worked, went to school, and any military history or police records. You’ll also need to have your fingerprints taken if you’ve never worked for the Federal Government. 
+Regardless of the type of background check, you will at least need to answer questions about where you've lived, worked, went to school, and any military history or police records. You’ll also need to have your fingerprints taken if you’ve never worked for the Federal Government.
 
 ## Public Trust
 Public Trust is a type of background investigation, but **it is not a security clearance**. Depending on the job, you must complete either the [Standard Form 85 (SF85)](https://www.opm.gov/forms/pdf_fill/sf85.pdf){:target=&quot;_blank&quot;} or [85P (SF85P)](https://www.opm.gov/forms/pdf_fill/sf85p.pdf){:target=&quot;_blank&quot;} questionnaire.
@@ -5858,7 +5901,7 @@ Public Trust is a type of background investigation, but **it is not a security c
 ## Security Clearance
 Some jobs require a security clearance. The security clearance level depends on the type of access to classified information and secure facilities that you’ll need to perform your job.
 
-For jobs that require a security clearance, you’ll need to provide at least 10 years of personal information¬ and maybe more.  You’ll need to complete the [Standard Form 86 (SF86)](https://www.opm.gov/forms/pdf_fill/sf86-non508.pdf){:target=&quot;_blank&quot;}.
+For jobs that require a security clearance, you’ll need to provide at least 10 years of personal information and maybe more.  You’ll need to complete the [Standard Form 86 (SF86)](https://www.opm.gov/forms/pdf_fill/sf86-non508.pdf){:target=&quot;_blank&quot;}.
 
 Read the **Background and security clearance** section of the job announcement to see what security level is required. If you have questions about the background investigation process, contact the hiring agency for the job.</content>
 
