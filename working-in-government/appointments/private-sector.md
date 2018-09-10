@@ -2,7 +2,7 @@
 permalink: /working-in-government/appointments/difference-from-private-sector/
 layout: article
 section: working-in-government
-title: How is working for the government different than the private sector?
+title: How is find a job in the government different than the private sector?
 breadcrumb: Differences from private sector
 category: appointments
 tags: [competitive, delegated, examination, examining, career, status, eligibility, appointments, private, sector]
@@ -10,14 +10,14 @@ tags: [competitive, delegated, examination, examining, career, status, eligibili
 
 ## Eligibility
 
-Eligibility, in the federal hiring process, refers to being part of a particular group of people that an agency wants to hire – whether it’s a current federal employee, a veteran, a recent graduate or someone from the general public. There are several different eligibilities in the Federal Government; we call them “hiring paths”. 
+Eligibility, in the federal hiring process, refers to being part of a particular group of people that an agency wants to hire – whether it’s a current federal employee, a veteran, a recent graduate or someone from the general public. There are several different eligibilities in the Federal Government; we call them “hiring paths”.
 
 Your eligibility has nothing to do with your work experience, skills, and other qualifications. You can apply to any federal job, but you **may not be eligible** for the job if you don’t fall into one of the required hiring paths listed on the job announcement.  If you’re not eligible, the hiring agency will reject your application.
 
 [Understand how eligibility is different from qualifications](../../../faq/application/eligibility/difference-from-qualifications/).
 
 ## Application process
-The federal application process is very structured—the hiring agency must follow a specific review process and vetting system.  This process helps agencies hire the best qualified people, while being fair to all applicants. 
+The federal application process is very structured—the hiring agency must follow a specific review process and vetting system.  This process helps agencies hire the best qualified people, while being fair to all applicants.
 
 ### Your resume and qualifications
 Each job announcement lists the required qualifications for the job. Your resume must specifically describe how your knowledge, skills and experience meet these qualifications. Your resume is the only information the hiring agency will use to determine if you qualify for the job and the hiring agency will not make assumptions about what’s in your resume. Make sure you use similar words and phrases from the job announcement(s).  
@@ -26,7 +26,7 @@ The resume you use to apply to a federal job will likely require more informatio
 
 [Learn more about what to include in your resume](../../../faq/application/documents/resume/what-to-include/).
 
-### The review process 
+### The review process
 Once you apply to a job, your application will go through a series of reviews.  Here’s a summary:
 
 1. **Review for eligible and minimally qualified candidates** – the hiring agency will review all applications to see who is eligible AND minimally qualified and will pass those along to a second review.
@@ -48,7 +48,7 @@ An “appointment” is how the federal government fills their jobs. There are t
 
 Permanent appointments have no specified end date. With a permanent appointment you can stay in the job until you decide to leave, retire, or are fired.
 
-A temporary appointment has a specific end date—these appointments have a ‘not to exceed date’ from one year or less to four years. 
+A temporary appointment has a specific end date—these appointments have a ‘not to exceed date’ from one year or less to four years.
 
 [Learn more about appointment types](../).
 
@@ -62,4 +62,3 @@ The Federal Government has three services:
 The hiring process and rules for each service is different.  And, once you’re a federal employee, [your service type affects your eligibility to apply to another job in another service](../../unique-hiring-paths/federal-employees/). You can move from service to service, but there are different rules and requirements you must follow.
 
 [Learn more about service types](../../service/).
-
