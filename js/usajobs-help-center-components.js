@@ -3701,7 +3701,7 @@ function splitTermHighlighter(s, t) {
   return s;
 }
 
-var HelpURLHelper = { DataConfig: "https://data.usajobs.gov" };
+var usajobsConfig = { DataHome: "https://data.usajobs.gov" };
 //{{ReplaceURLHelper}}
 
 // Search autocomplete
@@ -3729,27 +3729,23 @@ $.widget("custom.catcomplete", $.ui.autocomplete, {
     this.widget().menu("option", "items", "> :not(.ui-autocomplete-category)");
   },
   _renderMenu: function(ul, items) {
-    var that = this,
-      currentCategory = "";
-
     ul.addClass("usajobs-search-location-autocomplete");
+        var that = this,
+            currentCategory = "",
+            header = '<li class="ui-autocomplete-close-header">Close &nbsp;&nbsp;&times;</li>',
+            $header = $(header);
 
-    $.each(items, function(index, item) {
-      var li;
-
-      item.value = item.Name;
-      item.label = item.Name;
-      item.category = item.Type;
-
-      if (item.category != currentCategory) {
-        ul.append('<li class="ui-autocomplete-category ' + item.category + '">' + item.category + '</li>');
-        currentCategory = item.category;
-      }
-      li = that._renderItemData( ul, item );
-      if (item.category) {
-        li.attr("aria-label", item.category + " : " + item.label);
-      }
-    });
+        $.each(items, function (index, item) {
+            var li;
+            if (item.type != currentCategory) {
+                ul.append('<li class="ui-autocomplete-category ' + item.type + ' ">' + item.type + '</li>');
+                currentCategory = item.type;
+            }
+            li = that._renderItemData(ul, item);
+            if (item.Type) {
+                li.attr("aria-label", item.type + " : " + item.value);
+            }
+        });
   },
   _renderItem: function (ul, item) {
      return $("<li>")
@@ -3793,19 +3789,38 @@ $.widget("custom.keywordcomplete", $.ui.autocomplete, {
     }
 });
 
-var url = 'https://ac.usajobs.gov/locationAC',
-  autocompleteRequest = function (request, response) {
+var autocompleteRequest = function (request, response) {
     $.ajax({
-      url: url,
-      dataType: 'jsonp',
-      crossdomain: true,
-      cache: true,
-      jsonpCallback: 'usaj151067976',
-      data: { t: request.term },
-      success: function (data) {
-        response(data);
-      }
-    });
+	  url: usajobsConfig.DataHome + "/api/Autocomplete/Location",
+	  dataType: 'json',
+	  crossdomain: true,
+	  cache: true,
+	  data: { term: request.term },
+	  success: function (data) {
+		var results = [];
+
+		for (var key in data) {
+            for (var i = 0; i < data[key].length; i++) {
+                var label = data[key][i].Name;
+                var code = data[key][i].Code;
+                var parentName = "";
+
+                var autocompleteItem = {
+                    value: label,
+                    label: splitTermHighlighter(label, request.term),
+                    type: key,
+                    actualValue: code,
+                    parentName: parentName
+                };
+
+                results.push(autocompleteItem);
+            }
+		}
+
+		response(results);
+	  },
+	  global: false
+	});
   };
 
 var keywordautocompleterequest = function (request, response) {
@@ -3857,75 +3872,20 @@ var keywordautocompleterequest = function (request, response) {
 };
 
 $location.catcomplete({
-  appendTo: "#search-inner-autocomplete-container",
-  source: autocompleteRequest,
-  minLength: 2,
-  open: function () {
-    var data = $(this).data('custom-catcomplete');
-
-    $("ul.ui-menu").width($(this).innerWidth());
-
-    $location.off('menufocus hover mouseover mouseenter');
-
-    data
-      .menu
-      .element
-      .find('li a')
-      .each(function () {
-        var $me = $(this),
-          keywords = data.term.split(' ').join('|');
-
-        $me.addClass("ui-corner-all");
-        $me.html($me.text().replace(new RegExp('(' + keywords + ')', 'gi'), '<strong>$1</strong>'));
-      });
-  },
-  select: function (event, ui) {
-    var selected = ui.item,
-      field_name,
-      pill_name,
-      $hidden_cities = $('<input type="hidden" name="locations[]"></input>'),
-      $hidden_states = $('<input type="hidden" name="states[]"></input>'),
-      $hidden_countries = $('<input type="hidden" name="countries[]"></input>'),
-      value = selected.label.split(' (')[0]; // Removes the acronym
-
-    if (selected.Type === 'Cities') {
-      field_name = 'locations';
-      pill_name = field_name + '-' + Date.now(); // This is a hacky way to get a unique ID
-
-      // Add hidden field so entry sticks around
-      $hidden_cities
-        .attr('id', pill_name)
-        .attr('value', value);
-
-      $hidden_cities.appendTo($search_form);
-    } else if (selected.Type === 'States') {
-      field_name = 'states';
-      pill_name = field_name + '-' + Date.now(); // This is a hacky way to get a unique ID
-
-      // Add hidden field so entry sticks around
-      $hidden_states
-        .attr('id', pill_name)
-        .attr('value', value);
-
-      $hidden_states.appendTo($search_form);
-    } else if (selected.Type === 'Countries') {
-      field_name = 'countries';
-      pill_name = field_name + '-' + Date.now(); // This is a hacky way to get a unique ID
-
-      // Add hidden field so entry sticks around
-      $hidden_countries
-        .attr('id', pill_name)
-        .attr('value', value);
-
-      $hidden_countries.appendTo($search_form);
+    appendTo: "#search-inner-autocomplete-container",
+    source: autocompleteRequest,
+    minLength: 2,
+    open: function() {
+		$(this).removeClass("ui-corner-all").addClass("ui-corner-top");
+		$("ul.ui-menu").width($(this).innerWidth());
+    },
+    select: function(event, ui) {
+        var selectedObj = ui.item;
+        var whichTextBox = $(this).attr('id');
+        $("#uhp-location").val(selectedObj.value);
+        logLocationAC(selectedObj.value);
+        return false;
     }
-
-    logLocationAC(value);
-    $location.val(value);
-    closeLocationAutocomplete();
-
-    return false;
-  }
 });
 
 $keyword.keywordcomplete({
