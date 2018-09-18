@@ -108,7 +108,6 @@ Check your resume for spelling and grammatical errors and have someone else, wit
 ## Additional resources
 
 * [Watch our resume writing video](https://www.youtube.com/watch?v=8YX7o1PBoFk){:target="_blank"}
-* [Applicant Tools and Resources (HR University)](https://hru.gov/Studio_Recruitment/Job_Seekers_Resource_Center.aspx){:target="_blank"}
 * [Create your federal resume (Go Government)](http://gogovernment.org/how_to_apply/write_your_federal_resume/create_your_resume.php){:target="_blank"}
 * [How to build a resume](../../../../../how-to/account/documents/resume/build/)
 * [How to create a resume](../../../../../how-to/account/documents/resume/)
