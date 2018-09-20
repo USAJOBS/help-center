@@ -3719,6 +3719,7 @@ var HelpURLHelper = { DataConfig: "https://data.usajobs.gov" };
 // Search autocomplete
 var $location = $('#uhp-location'),
   $keyword = $('#uhp-keyword'),
+  $keyword_param = $('#uhp-keyword-param'),
   $search_form = $('#uhp-search'),
   handleLocationReturn = function () {
     $location.keypress(function (event) {
@@ -3728,6 +3729,10 @@ var $location = $('#uhp-location'),
       }
     });
   },
+  closeKeywordAutocomplete = function () {
+    $keyword.keywordcomplete('close');
+    $keyword.blur(); // unfocus the input so the keyboard will close
+  };
   closeLocationAutocomplete = function () {
     $location.catcomplete('close');
     $location.blur(); // unfocus the input so the keyboard will close
@@ -3949,25 +3954,30 @@ $keyword.keywordcomplete({
 
     switch (selectedObj.type) {
       case "series":
-        parameter = selectedObj.parentName !== "" ? "j=" + selectedObj.actualValue : "jf=" + selectedObj.actualValue;
+        parameter = selectedObj.parentName !== "" ? "j" : "jf";
         break;
       case "agencies":
-        parameter = "a=" + selectedObj.actualValue;
+        parameter = "a";
         break;
       case "departments":
-        parameter = "d=" + selectedObj.actualValue;
+        parameter = "d";
         break;
       case "occupations":
-        parameter = "soc=" + selectedObj.actualValue;
+        parameter = "soc";
+        break;
+      case "series":
+        parameter = "j";
         break;
       case "job titles":
-        parameter = "jt=" + selectedObj.actualValue;
+        parameter = "jt";
         break;
       }
 
     logKeywordAC(selectedObj.value);
+    $keyword.val(selectedObj.value);
+    $keyword_param.attr('name', parameter).val(selectedObj.actualValue);
+    closeKeywordAutocomplete();
 
-    window.location.href = "/Search?" + parameter;
     return false;
   },
   open: function () {
