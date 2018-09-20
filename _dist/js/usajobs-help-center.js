@@ -3703,6 +3703,10 @@ module.exports=[
     "definition": "Employment that can be used to meet the requirements of a job or benefits like leave accrual or retention during a Reduction In Force (RIF). This can be federal employment or service in the United States Armed Forces. "
   },
   {
+    "term": "DD Form 214 (DD-214)",
+    "definition": "The DD Form 214, Certificate of Release or Discharge from Active Duty, generally referred to as a \"DD 214\", is a document of the United States Department of Defense, issued upon a military service member's retirement, separation, or discharge from active duty in the Armed Forces of the United States, e.g., U.S. Air Force, U.S. Army, U.S. Coast Guard, U.S. Marine Corps, or U.S. Navy."
+  },
+  {
     "term": "Delegated Examining (DE)",
     "definition": "The competitive application and hiring process an agency uses to hire someone who has never worked for the Federal Government. A job that says it's <strong>Open to the public</strong> will use the delegated examining hiring process."
   },
@@ -3755,6 +3759,10 @@ module.exports=[
     "definition": "Authority to appoint a military spouse without competition when filling competitive service positions on a temporary (not to exceed 1 year), term (more than 1 year but not more than 4 years), or permanent basis. The authority does not guarantee spouses placement in a position over any other applicant. Military spouses are eligible under this authority if the active duty military spouse: 1) receives a Permanent Change of Station (PCS) move; 2) has a 100% disability rating; or 3) died while on active duty. Each of these categories has different eligibility criteria that must be met."
   },
   {
+    "term": "Optional Form 306 (OF-306)",
+    "definition": "The <a href=\" https://www.opm.gov/forms/pdf_fill/of0306.pdf\">information collected on this form</a> is used to determine your acceptability for Federal and Federal contract employment and your enrollment status in the Government's Life Insurance program. You may be asked to complete this form at any time during the hiring process. Follow instructions that the agency provides. You may view a copy of the form"
+  },
+  {
     "term": "Pathways",
     "definition": "The Pathways program consists of three programs;  the Internship Program, the Recent Graduates Program and the Presidential Management Fellows (PMF) Program.  These programs help to recruit, hire, develop, and retain students and recent graduates."
   },
@@ -3805,6 +3813,10 @@ module.exports=[
   {
     "term": "Specialized Experience",
     "definition": "Work experience that is directly related to the work to be performed in a job."
+  },
+  {
+    "term": "Standard Form 15 (SF-15)",
+    "definition": "The <a href=\"https://www.opm.gov/Forms/pdf_fill/SF15.pdf\">SF-15</a> is used by Federal agencies and OPM examining offices to adjudicate an individual's claims for Veterans' preference. Veterans and certain family members who claim 10-point preference must fill out and submit the SF-15, to include supporting documentation when applying for Federal positions."
   },
   {
     "term": "Standard Form 50 (SF-50)",
