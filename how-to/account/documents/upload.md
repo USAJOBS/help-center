@@ -25,7 +25,7 @@ The uploaded document will appear in your account in the **Other Documents** sec
 
 ## Document Size and Format
 
-All documents must be less than 3MB in size and in one of the following document formats:
+All documents must be less than 3MB in size, cannot be encrypted and must be in one of the following formats:
 
 * GIF
 * JPG
@@ -46,7 +46,12 @@ If your document is larger than 3 MB, here are some suggestions:
 * Take your document to an office supply store (i.e. Staples, FedEx Office/Kinkos) and ask them to shrink the document size for you and save it to a disk or flash drive. Make sure you tell the office tech the document can’t exceed 3MB (3,072 KB).
 
 **Transcripts**
-Sometimes transcripts from an educational institution will have a security block that is flagged as a virus and makes the file very large—this prevents the file from being uploaded. If that happens, you need to print your transcript and scan it in to upload.
+
+Sometimes transcripts from an educational institution will have a security block that is flagged as a virus and makes the file very large—this prevents the file from being uploaded. If that happens, you need to print your transcript and scan it in to upload. [Learn more about transcripts](../../../../working-in-government/unique-hiring-paths/students/transcripts/).
+
+### Can I upload an encrypted file?
+No, you can't upload an encrypted file.
+
 
 ## Do all agencies accept uploaded documents?
 Not all agencies accept uploaded documents from USAJOBS.  If the agency does not accept uploaded documents, you will skip this step during the USAJOBS application process.  You may be asked to upload a document when you enter the agency application system.
