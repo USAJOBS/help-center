@@ -8,7 +8,7 @@ category: account
 tags: [account, login.gov, username, password, support-update-account]
 ---
 
-You can't sign into login.gov using your old USAJOBS username and password. If you haven't already done so, you must [create a new account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/https://login.usajobs.gov/Access/Transition){:target="_blank"} with login.gov.
+You can't sign into login.gov using your old USAJOBS username and password. If you haven't already done so, you must [create a new account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/){:target="_blank"} with login.gov.
 
 You only need to create a login.gov account once. Login.gov will walk you through each step to create your account, but you need to:
 
