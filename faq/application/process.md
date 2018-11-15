@@ -12,7 +12,7 @@ This is a quick summary of how the federal application process works when you us
 
 ## 1. Create an account with login.gov
 
-First, you need to [create an account with login.gov](https://login.usajobs.gov/Access/Transition).  
+First, you need to [create an account with login.gov](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/).  
 
 ## 2. Create a USAJOBS profile
 
