@@ -15,4 +15,4 @@ You only need to create a login.gov account once. Login.gov will walk you throug
 *	Use your existing USAJOBS email address when login.gov asks you to enter an email address—this will help us link your USAJOBS profile to your new login.gov account.
 *	Create a new password—don’t use your old USAJOBS password.
 
-[Learn more about login.gov](login-gov/) and [create your account.](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/){:target="_blank"}.
+[Learn more about login.gov](../login-gov/) and [create your account.](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/){:target="_blank"}.
