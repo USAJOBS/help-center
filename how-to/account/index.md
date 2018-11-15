@@ -8,7 +8,7 @@ category: account
 tags: [account, support-create-account]
 ---
 
-You need to [create a login.gov account](https://www.usajobs.gov/Access/Transition) to sign into USAJOBS and access your profile information. <strong>Your old USAJOBS username and password won't work anymore.
+You need to [create a login.gov account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/) to sign into USAJOBS and access your profile information. <strong>Your old USAJOBS username and password won't work anymore.
 </strong>
 
 You'll need to:
@@ -22,7 +22,7 @@ Once you create a login.gov account, you'll come back to USAJOBS to link to your
 
 If you have limited access to a phone or cell service, you can [set up an authentication app or use a free text messaging app](limited-access/).
 
-[Create your account](https://login.usajobs.gov/Access/Transition/){:target="_blank"}.
+[Create your account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/){:target="_blank"}.
 
 ### Additional information
 
