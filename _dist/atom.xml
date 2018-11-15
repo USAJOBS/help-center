@@ -306,17 +306,17 @@ When you create a login.gov account, you must use your own personal email addres
   <entry>
     <title type="html">Can I use my old USAJOBS username and password to sign into login.gov?</title>
     <link href="/Help/faq/account/use-old-username/" rel="alternate" type="text/html" title="Can I use my old USAJOBS username and password to sign into login.gov?" />
-    <published>2018-03-02T17:12:53-05:00</published>
-    <updated>2018-03-02T17:12:53-05:00</updated>
+    <published>2018-11-15T16:00:25-05:00</published>
+    <updated>2018-11-15T16:00:25-05:00</updated>
     <id>/Help/faq/account/use-old-username/</id>
-    <content type="html" xml:base="/Help/faq/account/use-old-username/">You can't sign into login.gov using your old USAJOBS username and password. If you haven't already done so, you must [create a new account](https://login.usajobs.gov/Access/Transition){:target=&quot;_blank&quot;} with login.gov.
+    <content type="html" xml:base="/Help/faq/account/use-old-username/">You can't sign into login.gov using your old USAJOBS username and password. If you haven't already done so, you must [create a new account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/){:target=&quot;_blank&quot;} with login.gov.
 
 You only need to create a login.gov account once. Login.gov will walk you through each step to create your account, but you need to:
 
 *	Use your existing USAJOBS email address when login.gov asks you to enter an email address—this will help us link your USAJOBS profile to your new login.gov account.
 *	Create a new password—don’t use your old USAJOBS password.
 
-[Learn more about login.gov and create your account.](https://login.usajobs.gov/Access/Transition/){:target=&quot;_blank&quot;}.</content>
+[Learn more about login.gov](../login-gov/) and [create your account.](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/){:target=&quot;_blank&quot;}.</content>
 
     
       <category term="account" />
@@ -933,14 +933,14 @@ We use your demographics information to find out if our recruitment efforts are 
   <entry>
     <title type="html">How does the application process work?</title>
     <link href="/Help/faq/application/process/" rel="alternate" type="text/html" title="How does the application process work?" />
-    <published>2018-04-17T12:14:04-04:00</published>
-    <updated>2018-04-17T12:14:04-04:00</updated>
+    <published>2018-11-15T10:51:58-05:00</published>
+    <updated>2018-11-15T10:51:58-05:00</updated>
     <id>/Help/faq/application/process/</id>
     <content type="html" xml:base="/Help/faq/application/process/">This is a quick summary of how the federal application process works when you use USAJOBS to apply for positions.
 
 ## 1. Create an account with login.gov
 
-First, you need to [create an account with login.gov](https://login.usajobs.gov/Access/Transition).  
+First, you need to [create an account with login.gov](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/).  
 
 ## 2. Create a USAJOBS profile
 
@@ -1055,10 +1055,10 @@ The job offer is final when the agency successfully completes the background inv
   
       
   <entry>
-    <title type="html">How is find a job in the government different than the private sector?</title>
-    <link href="/Help/working-in-government/appointments/difference-from-private-sector/" rel="alternate" type="text/html" title="How is find a job in the government different than the private sector?" />
-    <published>2018-09-10T14:34:18-04:00</published>
-    <updated>2018-09-10T14:34:18-04:00</updated>
+    <title type="html">How is finding a job in the government different than the private sector?</title>
+    <link href="/Help/working-in-government/appointments/difference-from-private-sector/" rel="alternate" type="text/html" title="How is finding a job in the government different than the private sector?" />
+    <published>2018-11-15T09:38:57-05:00</published>
+    <updated>2018-11-15T09:38:57-05:00</updated>
     <id>/Help/working-in-government/appointments/difference-from-private-sector/</id>
     <content type="html" xml:base="/Help/working-in-government/appointments/difference-from-private-sector/">## Eligibility
 
@@ -1871,10 +1871,10 @@ Learn [how to update an application](../update/), if your application has an “
   <entry>
     <title type="html">How to create a login.gov account</title>
     <link href="/Help/how-to/account/" rel="alternate" type="text/html" title="How to create a login.gov account" />
-    <published>2018-07-23T11:14:51-04:00</published>
-    <updated>2018-07-23T11:14:51-04:00</updated>
+    <published>2018-11-15T10:15:01-05:00</published>
+    <updated>2018-11-15T10:15:01-05:00</updated>
     <id>/Help/how-to/account/</id>
-    <content type="html" xml:base="/Help/how-to/account/">You need to [create a login.gov account](https://www.usajobs.gov/Access/Transition) to sign into USAJOBS and access your profile information. &lt;strong&gt;Your old USAJOBS username and password won't work anymore.
+    <content type="html" xml:base="/Help/how-to/account/">You need to [create a login.gov account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/) to sign into USAJOBS and access your profile information. &lt;strong&gt;Your old USAJOBS username and password won't work anymore.
 &lt;/strong&gt;
 
 You'll need to:
@@ -1888,7 +1888,7 @@ Once you create a login.gov account, you'll come back to USAJOBS to link to your
 
 If you have limited access to a phone or cell service, you can [set up an authentication app or use a free text messaging app](limited-access/).
 
-[Create your account](https://login.usajobs.gov/Access/Transition/){:target=&quot;_blank&quot;}.
+[Create your account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/){:target=&quot;_blank&quot;}.
 
 ### Additional information
 
@@ -1910,14 +1910,14 @@ If you have limited access to a phone or cell service, you can [set up an authen
   <entry>
     <title type="html">How to create a profile</title>
     <link href="/Help/how-to/account/profile/" rel="alternate" type="text/html" title="How to create a profile" />
-    <published>2018-09-19T12:57:57-04:00</published>
-    <updated>2018-09-19T12:57:57-04:00</updated>
+    <published>2018-11-15T10:41:36-05:00</published>
+    <updated>2018-11-15T10:41:36-05:00</updated>
     <id>/Help/how-to/account/profile/</id>
     <content type="html" xml:base="/Help/how-to/account/profile/">You need to create and complete a profile to apply to jobs, save searches and save jobs. But first, you need to create a login.gov account.
 
 To create and complete a profile:
 
-1. [Create a login.gov account](https://login.usajobs.gov/Access/Transition) and click **Continue to USAJOBS** at the end. You’ll go back to USAJOBS.
+1. [Create a login.gov account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/) and click **Continue to USAJOBS** at the end. You’ll go back to USAJOBS.
 2. Click **Create Profile**.
 3. Follow the steps to complete your Contact, Citizenship and Experience information—you must complete all of the required fields.
 4. Add your **Preferences** and fill out as many optional fields as you can—we can use this information to improve your job search results.
@@ -4858,8 +4858,8 @@ No, not all agencies accept uploaded resumes or documents from USAJOBS.  If the 
   <entry>
     <title type="html">How to upload documents</title>
     <link href="/Help/how-to/account/documents/upload/" rel="alternate" type="text/html" title="How to upload documents" />
-    <published>2018-02-16T18:49:27-05:00</published>
-    <updated>2018-02-16T18:49:27-05:00</updated>
+    <published>2018-10-18T11:22:25-04:00</published>
+    <updated>2018-10-18T11:22:25-04:00</updated>
     <id>/Help/how-to/account/documents/upload/</id>
     <content type="html" xml:base="/Help/how-to/account/documents/upload/">Some job announcements require certain documents or forms, such as transcripts, a DD-214, SF-15, SF-50, OF-306, or other types of documents. Read the **How to Apply** section in the job announcement to know which documents you need to provide.  
 
@@ -4878,7 +4878,7 @@ The uploaded document will appear in your account in the **Other Documents** sec
 
 ## Document Size and Format
 
-All documents must be less than 3MB in size and in one of the following document formats:
+All documents must be less than 3MB in size, cannot be encrypted and must be in one of the following formats:
 
 * GIF
 * JPG
@@ -4899,7 +4899,12 @@ If your document is larger than 3 MB, here are some suggestions:
 * Take your document to an office supply store (i.e. Staples, FedEx Office/Kinkos) and ask them to shrink the document size for you and save it to a disk or flash drive. Make sure you tell the office tech the document can’t exceed 3MB (3,072 KB).
 
 **Transcripts**
-Sometimes transcripts from an educational institution will have a security block that is flagged as a virus and makes the file very large—this prevents the file from being uploaded. If that happens, you need to print your transcript and scan it in to upload.
+
+Sometimes transcripts from an educational institution will have a security block that is flagged as a virus and makes the file very large—this prevents the file from being uploaded. If that happens, you need to print your transcript and scan it in to upload. [Learn more about transcripts](../../../../working-in-government/unique-hiring-paths/students/transcripts/).
+
+### Can I upload an encrypted file?
+No, you can't upload an encrypted file.
+
 
 ## Do all agencies accept uploaded documents?
 Not all agencies accept uploaded documents from USAJOBS.  If the agency does not accept uploaded documents, you will skip this step during the USAJOBS application process.  You may be asked to upload a document when you enter the agency application system.
@@ -5208,8 +5213,8 @@ You're eligible to apply to a merit promotion job in the competitive service, if
   <entry>
     <title type="html">Obtaining your transcripts</title>
     <link href="/Help/working-in-government/unique-hiring-paths/students/transcripts/" rel="alternate" type="text/html" title="Obtaining your transcripts" />
-    <published>2018-03-27T13:07:33-04:00</published>
-    <updated>2018-03-27T13:07:33-04:00</updated>
+    <published>2018-10-18T13:22:02-04:00</published>
+    <updated>2018-10-18T13:22:02-04:00</updated>
     <id>/Help/working-in-government/unique-hiring-paths/students/transcripts/</id>
     <content type="html" xml:base="/Help/working-in-government/unique-hiring-paths/students/transcripts/">An official transcript is a copy of your permanent academic record and includes:
 
@@ -5222,7 +5227,7 @@ You're eligible to apply to a merit promotion job in the competitive service, if
 
 ## Can I submit an unofficial copy of my transcript?
 
-The job announcement will tell you if you can submit a 'copy' or 'unofficial copy' of your transcript or if it needs to be a 'certified copy'. Most of the time it's okay to submit an unofficial copy of your transcript when you first apply to the job.  If you get further along in the application process, you may need to submit a 'certified official' and unopened copy from your academic institution.  
+The job announcement will tell you if you can submit a 'copy' or 'unofficial copy' of your transcript or if it needs to be a 'certified copy'. Most of the time it's okay to submit an unofficial copy of your transcript when you first apply to the job.  If you get further along in the application process, you may need to submit a 'certified official' and unopened copy from your academic institution. [How do I upload a transcript and other documents](../../../../how-to/account/documents/upload/)?
 
 ## How do I request a transcript?
 To request a transcript, first visit your school's website. You may be able to complete your request online. If your college doesn’t offer this service, contact the  Registrar’s Office. The Registrar’s Office may require specific personal information before sending you the transcript. You may need to provide:
@@ -5337,14 +5342,14 @@ Read more about  [the Privacy Act of 1974](https://www.justice.gov/opcl/privacy-
   <entry>
     <title type="html">Probationary period</title>
     <link href="/Help/working-in-government/fair-and-transparent/probationary-period/" rel="alternate" type="text/html" title="Probationary period" />
-    <published>2017-08-14T10:24:40-04:00</published>
-    <updated>2017-08-14T10:24:40-04:00</updated>
+    <published>2018-09-25T10:54:10-04:00</published>
+    <updated>2018-09-25T10:54:10-04:00</updated>
     <id>/Help/working-in-government/fair-and-transparent/probationary-period/</id>
     <content type="html" xml:base="/Help/working-in-government/fair-and-transparent/probationary-period/">&lt;h2 class=&quot;usajobs-help-center__lead&quot;&gt;
-  If you're a new employee or supervisor in the Federal Government, you must complete at least a one-year probationary period. Some agencies may require a longer probationary period.
+  If you're a new employee or supervisor in the Federal Government, you may have to complete a one-year probationary period. Some agencies may require a longer probationary period and other agencies may not require it at all.
 &lt;/h2&gt;
 
-During your &quot;probationary period&quot; your employer will decide if you're the right person for the job. If you're not the right person for the job, the employer can fire you at any point during the probationary period.</content>
+During the &quot;probationary period&quot; your employer will decide if you're the right person for the job. If you're not the right person for the job, the employer can fire you at any point during the probationary period.</content>
 
     
       <category term="fair-and-transparent" />
@@ -6253,8 +6258,8 @@ A “step” is a raise in salary. In the GS pay scale, each grade has 10 steps.
   <entry>
     <title type="html">What is login.gov and why do I have to create an account?</title>
     <link href="/Help/faq/account/login-gov/" rel="alternate" type="text/html" title="What is login.gov and why do I have to create an account?" />
-    <published>2018-07-23T10:45:21-04:00</published>
-    <updated>2018-07-23T10:45:21-04:00</updated>
+    <published>2018-11-15T10:48:09-05:00</published>
+    <updated>2018-11-15T10:48:09-05:00</updated>
     <id>/Help/faq/account/login-gov/</id>
     <content type="html" xml:base="/Help/faq/account/login-gov/">## What is login.gov?
 
@@ -6274,7 +6279,7 @@ Once you set up a login.gov account, we’ll link it back to your USAJOBS profil
 
 You need to create a login.gov account, if you don't already have one. Your old USAJOBS username and password won't work anymore. You'll need to:
 
-1. [Create a login.gov account](https://login.usajobs.gov/Access/Transition) - you only need to do this once.
+1. [Create a login.gov account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/) - you only need to do this once.
 2. Enter an email address during the account set up - use the same email address you use for USAJOBS (your primary or secondary email address).
 3. Create a new password.
 4. Have a working phone number (mobile or landline), an authentication application or free text messaging app installed on a device—login.gov will send you a one-time security code.
