@@ -7609,13 +7609,16 @@ $keyword.keywordcomplete({
       case "occupations":
         parameter = "soc";
         break;
+      case "series":
+        parameter = "j";
+        break;
       case "job titles":
         parameter = "jt";
         break;
       }
 
     logKeywordAC(selectedObj.value);
-    $keyword.val(selectedObj.actualValue);
+    $keyword.val(selectedObj.value);
     $keyword_param.attr('name', parameter).val(selectedObj.actualValue);
     closeKeywordAutocomplete();
 
