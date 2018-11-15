@@ -12,7 +12,7 @@ You need to create and complete a profile to apply to jobs, save searches and sa
 
 To create and complete a profile:
 
-1. [Create a login.gov account](https://login.usajobs.gov/Access/Transition) and click **Continue to USAJOBS** at the end. You’ll go back to USAJOBS.
+1. [Create a login.gov account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/) and click **Continue to USAJOBS** at the end. You’ll go back to USAJOBS.
 2. Click **Create Profile**.
 3. Follow the steps to complete your Contact, Citizenship and Experience information—you must complete all of the required fields.
 4. Add your **Preferences** and fill out as many optional fields as you can—we can use this information to improve your job search results.
