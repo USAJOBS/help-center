@@ -1,4 +1,4 @@
-/*jshint node:true*/
+/*jshint node:true, esversion: 6 */
 
 'use strict';
 
@@ -8,6 +8,8 @@ module.exports = function(grunt) {
 
   // Load grunt tasks listed in package.json automatically
   require('load-grunt-tasks')(grunt);
+
+  const sass = require('node-sass');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -29,6 +31,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
+          implementation: sass,
           sourceMap: true,
           relativeAssets: false,
           outputStyle: 'expanded',
