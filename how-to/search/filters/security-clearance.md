@@ -18,14 +18,13 @@ Your search results will update automatically as you select each filter.
 
 ## Types of security clearance
 Not all federal jobs require a security clearance, but there is a range based on the type of access to sensitive and National Security information.  A higher security clearance level will require a more extensive background investigation.  Read the job announcement carefully to determine the level of clearance required.  During the application process you will receive instructions on how to provide security clearance information.
-* Not applicable
-* Public trust – Background investigation
+
+* Not required
 * Confidential
 * Secret 
 * Top secret 
-* Top secret/SCI
-* Q-Sensitive 
-* Q-Nonsensitive 
-* L-Atomic Energy  
+* Sensitive Compartmented Information
+* Q Access Authorization 
+* L Access Authorization 
 * Other
 
