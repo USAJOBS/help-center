@@ -1,7 +1,7 @@
 // Article
 
-@import 'base-shared';
-@import 'component/actions';
+@import "base-shared";
+@import "component/actions";
 
 .usajobs-help-center-article {
   @include clearfix();
@@ -38,7 +38,7 @@
 
     ul,
     ol {
-      margin-left: .9em;
+      margin-left: 0.9em;
       margin-bottom: $size-S;
     }
 
@@ -74,7 +74,7 @@
     margin-bottom: $size-L;
 
     > li {
-      margin-bottom: .75em;
+      margin-bottom: 0.75em;
     }
 
     > li > a {
@@ -164,17 +164,23 @@
 .usajobs-help-center-article-contact {
   @include clearfix();
   margin-bottom: $size-XXL;
+  width: 100%;
 
   &__list {
     @include unstyledList();
+    margin: 0 -#{$size-default};
     background-color: $color-gray-lightest;
+
+    @include media($ML) {
+      margin: 0;
+    }
   }
 
   &__form-container {
     max-width: $article-max-width;
     padding: $size-default;
 
-    &[aria-hidden=true] {
+    &[aria-hidden="true"] {
       display: none;
     }
 
@@ -190,8 +196,9 @@
     color: $color-white;
     font-size: $h3-font-size;
     text-align: center;
+    width: 100%;
 
-    &[aria-expanded=false] {
+    &[aria-expanded="false"] {
       background-image: inherit;
     }
 

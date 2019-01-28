@@ -57,9 +57,9 @@
     "time-grunt": "^2.0.0"
   },
   "dependencies": {
-    "npm": "^6.4.1",
+    "npm": "^6.7.0",
     "scrollmagic": "^2.0.6",
-    "usajobs-design-system": "^1.9.18"
+    "usajobs-design-system": "^1.10.3"
   },
   "scripts": {
     "all": "npm run build && npm run deploy",

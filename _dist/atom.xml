@@ -2799,8 +2799,8 @@ When you search by a GS &lt;span data-term=&quot;Grade&quot;&gt;grade&lt;/span&g
   <entry>
     <title type="html">How to filter results by security clearance</title>
     <link href="/Help/how-to/search/filters/security-clearance/" rel="alternate" type="text/html" title="How to filter results by security clearance" />
-    <published>2017-02-27T14:24:03-05:00</published>
-    <updated>2017-02-27T14:24:03-05:00</updated>
+    <published>2019-01-23T13:51:09-05:00</published>
+    <updated>2019-01-23T13:51:09-05:00</updated>
     <id>/Help/how-to/search/filters/security-clearance/</id>
     <content type="html" xml:base="/Help/how-to/search/filters/security-clearance/">You can filter your search results by the type of security clearance the job requires.  Read the Security Clearance section in each job announcement to find out the required security clearance to understand what's required.
 
@@ -2812,15 +2812,14 @@ Your search results will update automatically as you select each filter.
 
 ## Types of security clearance
 Not all federal jobs require a security clearance, but there is a range based on the type of access to sensitive and National Security information.  A higher security clearance level will require a more extensive background investigation.  Read the job announcement carefully to determine the level of clearance required.  During the application process you will receive instructions on how to provide security clearance information.
-* Not applicable
-* Public trust – Background investigation
+
+* Not required
 * Confidential
 * Secret 
 * Top secret 
-* Top secret/SCI
-* Q-Sensitive 
-* Q-Nonsensitive 
-* L-Atomic Energy  
+* Sensitive Compartmented Information
+* Q Access Authorization 
+* L Access Authorization 
 * Other</content>
 
     
@@ -4240,8 +4239,8 @@ When you're finished, ask yourself the following questions:
   <entry>
     <title type="html">How to understand job announcement closing types</title>
     <link href="/Help/how-to/job-announcement/closing-types/" rel="alternate" type="text/html" title="How to understand job announcement closing types" />
-    <published>2017-10-02T11:22:00-04:00</published>
-    <updated>2017-10-02T11:22:00-04:00</updated>
+    <published>2019-01-23T13:36:43-05:00</published>
+    <updated>2019-01-23T13:36:43-05:00</updated>
     <id>/Help/how-to/job-announcement/closing-types/</id>
     <content type="html" xml:base="/Help/how-to/job-announcement/closing-types/">When a job announcement closes, it means you can no longer apply to the job.
 
@@ -4261,7 +4260,7 @@ For example, the job announcement may say it will review applications on July 30
 
 Some job announcements close when the hiring agency receives a certain number of applications. If the 'cut-off' number is reached during the day, the job announcement will usually close that night at midnight.
 
-For example, a job announcement may say it will close after the hiring agency receives 200 applications. If they receive 200 applications by 1:30pm EDT, the job will close that same day at 12am EDT.</content>
+For example, a job announcement may say it will close after the hiring agency receives 200 applications. If they receive 200 applications by 1:30pm EDT, the job will close that same day at 11:59pm EDT.</content>
 
     
       <category term="Job Announcement" />
