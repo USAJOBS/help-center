@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>profile</title>
+    <defs>
+        <polygon id="path-1" points="0.000212578616 0.0812295597 51.0188679 0.0812295597 51.0188679 16.0246258 0.000212578616 16.0246258"></polygon>
+        <polygon id="path-3" points="0 0 31.8867925 0 31.8867925 31.8867925 0 31.8867925"></polygon>
+    </defs>
+    <g id="Phase-1---Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="&quot;What's-Next&quot;-post-onboarding---Selection---Short" transform="translate(-162.000000, -596.000000)">
+            <g id="Group-Copy-13" transform="translate(162.000000, 596.000000)">
+                <g id="profile">
+                    <g id="Group-3" transform="translate(0.000000, 34.993711)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M39.8587031,0.0812295597 L37.0133384,0.0812295597 C29.9376591,4.33811635 21.0784453,4.33599057 14.0059547,0.0812295597 L11.1605899,0.0812295597 C4.99687296,0.0812295597 0.000212578616,5.07788994 0.000212578616,11.2416069 L0.000212578616,13.6331164 C0.000212578616,14.9542925 1.07054591,16.0246258 2.39172201,16.0246258 L48.6275711,16.0246258 C49.9487472,16.0246258 51.0190805,14.9542925 51.0190805,13.6331164 L51.0190805,11.2416069 C51.0190805,5.07788994 46.0224201,0.0812295597 39.8587031,0.0812295597" id="Fill-1" fill="#0071BC" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-6" transform="translate(9.566038, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <path d="M0,15.9433962 C0,7.13838994 7.13732704,0 15.9433962,0 C24.7484025,0 31.8867925,7.13838994 31.8867925,15.9433962 C31.8867925,24.7494654 24.7484025,31.8867925 15.9433962,31.8867925 C7.13732704,31.8867925 0,24.7494654 0,15.9433962" id="Fill-4" fill="#0071BC" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,29 +1,29 @@
 // Help Center
 
-@import 'base-shared';
+@import "base-shared";
 
 // Help Center components
-@import 'components/banner';
-@import 'components/breadcrumb';
-@import 'components/nav-secondary';
-@import 'components/home-ctas';
-@import 'components/search-results';
-@import 'components/search-autocomplete';
-@import 'components/search-no-results';
-@import 'components/services-infographic';
-@import 'components/unique-hiring-paths';
-@import 'components/uhp-section-nav';
-@import 'components/glossary-panel';
+@import "components/banner";
+@import "components/breadcrumb";
+@import "components/nav-secondary";
+@import "components/home-ctas";
+@import "components/search-results";
+@import "components/search-autocomplete";
+@import "components/search-no-results";
+@import "components/services-infographic";
+@import "components/unique-hiring-paths";
+@import "components/uhp-section-nav";
+@import "components/glossary-panel";
 
 // Help Center layouts
-@import 'layouts/about';
-@import 'layouts/article';
-@import 'layouts/contact-us';
-@import 'layouts/errors';
-@import 'layouts/home';
-@import 'layouts/landing';
-@import 'layouts/timeline';
-@import 'layouts/unique-hiring-path';
+@import "layouts/about";
+@import "layouts/article";
+@import "layouts/contact-us";
+@import "layouts/errors";
+@import "layouts/home";
+@import "layouts/landing";
+@import "layouts/timeline";
+@import "layouts/unique-hiring-path";
 
 // Hack for 7.1
 #usajobs-profile-secondary-nav {
@@ -55,8 +55,9 @@
     }
   }
 
-  &__external-link .fa {
-    padding-left: $size-base;
+  &__external-link .fa-external-link-alt {
+    width: 1em;
+    margin-left: $size-base;
   }
 }
 
@@ -78,13 +79,11 @@
   }
 }
 
-
 // Shared layout styles
 .usajobs-help-center-home,
 .usajobs-help-center-landing,
 .usajobs-help-center-sub-section,
 .usajobs-help-center-singleton {
-
   &__link-list {
     @include unstyledList();
     margin-bottom: 0;

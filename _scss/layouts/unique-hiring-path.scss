@@ -1,7 +1,6 @@
 // Unique Hiring Path -- Page Layout
 
-@import 'base-shared';
-
+@import "base-shared";
 
 .usajobs-uhp {
   max-width: $site-max-width-S;
@@ -26,23 +25,23 @@
 
   &__col-left {
     @include media($ML) {
-      @include span-columns(2,6);
+      @include span-columns(2, 6);
     }
     @include media($L) {
-      @include span-columns(4,12);
+      @include span-columns(4, 12);
       @include pad(0 default 0 0);
     }
   }
 
   &__col-right {
     @include media($ML) {
-      @include span-columns(4,6);
+      @include span-columns(4, 6);
       @include omega();
       max-width: $article-max-width;
     }
 
     @include media($L) {
-      @include span-columns(8,12);
+      @include span-columns(8, 12);
     }
   }
 
@@ -66,6 +65,7 @@ svg.usajobs-uhp-section-service-divider__icon {
   height: 3rem;
   width: 3rem;
   vertical-align: middle;
+  margin: 0 $size-base;
 }
 
 .usajobs-uhp-section-service-divider {
@@ -144,14 +144,6 @@ svg.usajobs-uhp-section-service-divider__icon {
 
   &__emphasis {
     text-decoration: underline;
-  }
-}
-
-.usajobs-uhp-accordion-trigger {
-  line-height: 1.5;
-
-  &__sub-title {
-    font-weight: normal;
   }
 }
 
@@ -392,7 +384,7 @@ svg.usajobs-uhp-section-service-divider__icon {
 
   &__item {
     @include media($L) {
-      @include span-columns(6,12);
+      @include span-columns(6, 12);
     }
 
     &:last-child {

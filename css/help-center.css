@@ -4387,6 +4387,7 @@ svg.usajobs-uhp-section-service-divider__icon {
   height: 3rem;
   width: 3rem;
   vertical-align: middle;
+  margin: 0 0.5rem;
 }
 
 .usajobs-uhp-section-service-divider__title {
@@ -4497,14 +4498,6 @@ svg.usajobs-uhp-section-service-divider__icon {
 
 .usajobs-uhp-resource-cta__emphasis {
   text-decoration: underline;
-}
-
-.usajobs-uhp-accordion-trigger {
-  line-height: 1.5;
-}
-
-.usajobs-uhp-accordion-trigger__sub-title {
-  font-weight: normal;
 }
 
 .usajobs-uhp-section-required-documents {
@@ -4897,8 +4890,9 @@ svg.usajobs-uhp-section-service-divider__icon {
   right: 1rem;
 }
 
-.usajobs-help-center__external-link .fa {
-  padding-left: 0.5rem;
+.usajobs-help-center__external-link .fa-external-link-alt {
+  width: 1em;
+  margin-left: 0.5rem;
 }
 
 .usajobs-video-container {
