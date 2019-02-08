@@ -1653,8 +1653,8 @@ Enter the start and end dates of your service. Click **Add Service Dates** if yo
   <entry>
     <title type="html">How to build a resume</title>
     <link href="/Help/how-to/account/documents/resume/build/" rel="alternate" type="text/html" title="How to build a resume" />
-    <published>2018-02-16T18:49:27-05:00</published>
-    <updated>2018-02-16T18:49:27-05:00</updated>
+    <published>2019-02-08T16:27:39-05:00</published>
+    <updated>2019-02-08T16:27:39-05:00</updated>
     <id>/Help/how-to/account/documents/resume/build/</id>
     <content type="html" xml:base="/Help/how-to/account/documents/resume/build/">To build a resume in USAJOBS:
 
@@ -6003,8 +6003,8 @@ In addition, some Federal agencies, such as the National Park Service and the Fo
   <entry>
     <title type="html">What are background checks and security clearances?</title>
     <link href="/Help/faq/job-announcement/security-clearances/" rel="alternate" type="text/html" title="What are background checks and security clearances?" />
-    <published>2018-08-01T18:05:05-04:00</published>
-    <updated>2018-08-01T18:05:05-04:00</updated>
+    <published>2019-02-08T16:16:41-05:00</published>
+    <updated>2019-02-08T16:16:41-05:00</updated>
     <id>/Help/faq/job-announcement/security-clearances/</id>
     <content type="html" xml:base="/Help/faq/job-announcement/security-clearances/">If hired for a federal job, you must at least go through a basic background check to make sure you’re reliable, trustworthy, and suitable for the job. The background check process starts after you accept a job offer.
 
@@ -6020,6 +6020,30 @@ Public Trust is a type of background investigation, but **it is not a security c
 Some jobs require a security clearance. The security clearance level depends on the type of access to classified information and secure facilities that you’ll need to perform your job.
 
 For jobs that require a security clearance, you’ll need to provide at least 10 years of personal information and maybe more.  You’ll need to complete the [Standard Form 86 (SF86)](https://www.opm.gov/forms/pdf_fill/sf86-non508.pdf){:target=&quot;_blank&quot;}.
+
+## Position sensitivity and risk
+Some federal jobs also have a sensitivity and risk level, based on the whether their responsibilities and duties have the potential to adversely impact the national security.
+
+A **non-sensitive position** has the potential to cause significant or serious damage to the national security.
+
+A **critical sensitive position** has the potential to cause exceptionally grave damage to the national security.
+
+A **special sensitive position** security has the potential to cause inestimable damage to the national security.
+
+## Trust determination process
+If you’re hired for the job, this is the type of investigation you’ll undergo (in addition to a background check). The type depends on the sensitivity and risk level of the job.  The higher the sensitivity and risk, the higher the investigation level.  
+
+**Credentialing**
+
+This process determines if you can obtain a  secure and reliable form of identification issued by the Federal Government.
+
+**Suitability/fitness** 
+
+A determination to see if you have the required level of character and conduct necessary to work for the Federal Government.
+
+**National security** 
+
+A determination to see if employment would constitute a risk to national security. 
 
 Read the **Background and security clearance** section of the job announcement to see what security level is required. If you have questions about the background investigation process, contact the hiring agency for the job.</content>
 
