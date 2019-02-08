@@ -31,6 +31,7 @@
     "broken-link-checker": "^0.7.8",
     "browserify": "^16.2.3",
     "clean-css": "^4.2.1",
+    "extend": ">=3.0.2",
     "glossary-panel": "^1.0.0",
     "grunt": "^1.0.3",
     "grunt-autoprefixer": "^3.0.4",
@@ -57,9 +58,10 @@
     "time-grunt": "^2.0.0"
   },
   "dependencies": {
+    "lodash": ">=4.17.11",
     "npm": "^6.7.0",
     "scrollmagic": "^2.0.6",
-    "usajobs-design-system": "^1.10.3"
+    "usajobs-design-system": "^1.10.4"
   },
   "scripts": {
     "all": "npm run build && npm run deploy",
