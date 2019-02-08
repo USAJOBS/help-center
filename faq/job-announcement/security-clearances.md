@@ -23,4 +23,28 @@ Some jobs require a security clearance. The security clearance level depends on 
 
 For jobs that require a security clearance, you’ll need to provide at least 10 years of personal information and maybe more.  You’ll need to complete the [Standard Form 86 (SF86)](https://www.opm.gov/forms/pdf_fill/sf86-non508.pdf){:target="_blank"}.
 
+## Position sensitivity and risk
+Some federal jobs also have a sensitivity and risk level, based on the whether their responsibilities and duties have the potential to adversely impact the national security.
+
+A **non-sensitive position** has the potential to cause significant or serious damage to the national security.
+
+A **critical sensitive position** has the potential to cause exceptionally grave damage to the national security.
+
+A **special sensitive position** security has the potential to cause inestimable damage to the national security.
+
+## Trust determination process
+If you’re hired for the job, this is the type of investigation you’ll undergo (in addition to a background check). The type depends on the sensitivity and risk level of the job.  The higher the sensitivity and risk, the higher the investigation level.  
+
+**Credentialing**
+
+This process determines if you can obtain a  secure and reliable form of identification issued by the Federal Government.
+
+**Suitability/fitness** 
+
+A determination to see if you have the required level of character and conduct necessary to work for the Federal Government.
+
+**National security** 
+
+A determination to see if employment would constitute a risk to national security. 
+
 Read the **Background and security clearance** section of the job announcement to see what security level is required. If you have questions about the background investigation process, contact the hiring agency for the job.
