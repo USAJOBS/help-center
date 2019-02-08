@@ -10,21 +10,25 @@ tags: [account, documents, resume, build, support-resume]
 
 To build a resume in USAJOBS:
 
-1. Sign into USAJOBS.
-2. Go to your **Documents**.
-3. Make sure you're in the **Resumes** section and select the **Upload or build resume** button.
-4. Click **Build resume**.
-4. Name your new resume and click **Next**.
-5. Click **Add Work Experience**, enter the required information and click **Save Work Experience**. To add additional work experience repeat this step or click **Next** to continue with your education information.
-6. Click **Add Education**, enter the required information and click **Save Education**. Repeat this step to add additional education or click **Next** to continue with your references. You may also click **Finish** if you don't want to add more information.
-7. Click **Add Reference**, enter the required information and click **Save Reference**. You may add up to five references on your resume. Repeat this step to add an additional reference or click **Next** to continue to the next step.  
-8. You can enter additional information on your resume such as job related training, language skills, organizations/affiliations, professional publications, and other information. Click the corresponding button under each section to add your information, enter your information and click **Add** or **Save** for each section once completed.
-9. Click **Finish** to save your resume. Your new resume will appear in your **Documents** list.
-10. Click **View** on the resume icon to preview your resume. To edit your resume click **Edit** on the resume icon and it will bring you to the first page of your resume in the resume builder tool.
+1.  Sign into USAJOBS.
+2.  Go to your **Documents**.
+3.  Make sure you're in the **Resumes** section and select the **Upload or build resume** button.
+4.  Click **Build resume**.
+5.  Name your new resume and click **Next**.
+6.  Click **Add Work Experience**, enter the required information and click **Save Work Experience**. To add additional work experience repeat this step or click **Next** to continue with your education information.
+7.  Click **Add Education**, enter the required information and click **Save Education**. Repeat this step to add additional education or click **Next** to continue with your references. You may also click **Finish** if you don't want to add more information.
+8.  Click **Add Reference**, enter the required information and click **Save Reference**. You may add up to five references on your resume. Repeat this step to add an additional reference or click **Next** to continue to the next step.  
+9.  You can enter additional information on your resume such as job related training, language skills, organizations/affiliations, professional publications, and other information. Click the corresponding button under each section to add your information, enter your information and click **Add** or **Save** for each section once completed.
+10. Click **Finish** to save your resume. Your new resume will appear in your **Documents** list.
+11. Click **View** on the resume icon to preview your resume. To edit your resume click **Edit** on the resume icon and it will bring you to the first page of your resume in the resume builder tool.
 
 ### Save your work periodically
 
 For security reasons, your session will time out after a period of inactivity. We recommend you **Save** periodically so that you do not lose any work.
+
+### Updating your resume
+
+In order to capture changes that you have made to your profile you will need to build a new resume. USAJOBS does not automatically update existing resumes. This allows you to easily keep a set of resumes to apply to different jobs and only apply changes when you desire.
 
 ## Tips for formatting resumes in USAJOBS resume builder
 
@@ -32,18 +36,18 @@ You can copy and paste text from Word documents into the resume builder. However
 
 To copy and paste from Word:
 
-1. Open up your Word document or other word processing tool.
-2. Select the **File** tab at the top.
-2. Go to the **Save As** option.
-3. Choose to save it as a **Plain Text (.txt)** file.
-4. Open the new file and ensure the text appears in an acceptable format.
-5. Copy and paste your resume text into the resume builder.
+1.  Open up your Word document or other word processing tool.
+2.  Select the **File** tab at the top.
+3.  Go to the **Save As** option.
+4.  Choose to save it as a **Plain Text (.txt)** file.
+5.  Open the new file and ensure the text appears in an acceptable format.
+6.  Copy and paste your resume text into the resume builder.
 
 To edit your USAJOBS resume-builder resume:
 
-1. Click on your username at the top of the page and select **Documents** from the menu.
-2. Find the resume you want to edit and click "Edit" (located below the resume).
-3. This will bring you to the first page of your resume.
+1.  Click on your username at the top of the page and select **Documents** from the menu.
+2.  Find the resume you want to edit and click "Edit" (located below the resume).
+3.  This will bring you to the first page of your resume.
 
 ## Tips for submitting resumes to agencies
 
