@@ -48,7 +48,7 @@ If you find a job you’re interested in, read the entire announcement to make s
 
 Contact the agency representative if you have questions. The contact information is listed below the **How to apply** section of the job announcement.
 
-## 4. Prepare your application in USAJOBS
+## 5. Prepare your application in USAJOBS
 
 Read the **How to Apply** section of the job announcement before starting your application. Click **Apply** to [start your application](../../../how-to/application/)—we’ll walk you through a five-step process where you’ll attach a resume and any required documents.  
 
