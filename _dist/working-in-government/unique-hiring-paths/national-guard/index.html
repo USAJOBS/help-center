@@ -171,39 +171,68 @@
   </nav>
 </header>
   <div class="usajobs-help-center">
+    <nav id="usajobs-help-secondary-nav" class="usajobs-help-secondary-nav is-fixed-nav " aria-expanded="true" role="navigation" aria-label="Help Center menu">
+  <div class="usajobs-help-secondary-nav__body">
+    <ul class="usajobs-help-secondary-nav__menu" role="menubar">
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/faq/" role="menuitem">
+          FAQs
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/how-to/" role="menuitem">
+          How to&hellip;
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link is-active" href="/Help/working-in-government/" role="menuitem">
+          <span class="usajobs-help-secondary-nav__short-name">Government</span>
+          <span class="usajobs-help-secondary-nav__long-name">Working in Government</span>
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item glossary" role="presentation">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-secondary-nav__glossary-trigger" role="menuitem" aria-controls="glossary">
+          Glossary
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
     
 <div class="usajobs-uhp-banner usajobs-uhp-banner--national-guard">
   <div class="usajobs-uhp-banner__container">
-
-  
+    
+    
     <picture>
       <source srcset="/Help/img/help-center/unique-hiring-paths/national-guard-L.png" media="(min-width: 37.5em)">
       <img srcset="/Help/img/help-center/unique-hiring-paths/national-guard-S.png" alt="National guradsman">
     </picture>
-  
-
+    
+    
     <div class="usajobs-uhp-banner__body">
-      <div class="usajobs-uhp-banner__title-container">
-        <div class="usajobs-uhp-banner__icon  national-guard">
-          <svg class="usajobs-icon--hiring-path">
-            
-            <use xlink:href="#national-guard"></use>
-            
-          </svg>
+      <div class="usajobs-uhp-banner__body-container">
+        <div class="usajobs-uhp-banner__title-container">
+          <div class="usajobs-uhp-banner__icon  national-guard">
+            <svg class="usajobs-icon--hiring-path">
+              
+              <use xlink:href="#national-guard"></use>
+              
+            </svg>
+          </div>
+          <h1 class="usajobs-uhp-banner__title">
+            National Guard & Reserves
+          </h1>
         </div>
-        <h1 class="usajobs-uhp-banner__title">
-          National Guard & Reserves
-        </h1>
-      </div>
-      <div class="usajobs-uhp-banner__text-container">
-        <p class="usajobs-uhp-banner__text">
-          If you’re a member of the National Guard, or are willing and able to join the National Guard, you may be eligible to apply for federal jobs located within a National Guard unit. 
-        </p>
+        <div class="usajobs-uhp-banner__text-container">
+          <p class="usajobs-uhp-banner__text">
+            If you’re a member of the National Guard, or are willing and able to join the National Guard, you may be eligible to apply for federal jobs located within a National Guard unit. 
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
     
 
 <div class="usajobs-help-center-breadcrumb usajobs-help-center-breadcrumb--uhp">
@@ -289,6 +318,18 @@
 
     <section class="usajobs-shell usajobs-uhp">
       <section class="usajobs-canvas">
+         <div id="glossary" class="usajobs-help-center-glossary-panel" aria-describedby="glossary-title" aria-hidden="true">
+   <button title="Close glossary" class="js-glossary-close usajobs-help-center-glossary-panel__close-button usa-button usa-button-outline-inverse">
+     <span class="fa fa-times"></span> Close
+   </button>
+   <h2 id="glossary-title" class="usajobs-help-center-glossary-panel__title">
+     Glossary
+   </h2>
+   <label for="glossary-search" class="usajobs-help-center-glossary-panel__label">Filter glossary terms</label>
+   <input id="glossary-search" class="js-glossary-search usajobs-help-center-glossary-panel__search" type="search" placeholder="e.g. Excepted Service">
+   <ul class="js-glossary-list usajobs-help-center-glossary-panel__list"></ul>
+ </div>
+
         <div class="usajobs-help-center-unique-hiring-path usajobs-content-gutter">
           <main class="usajobs-content" id="main-content" role="main">
             
@@ -299,7 +340,8 @@
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
-      Jobs within a National Guard unit are in the <a href="/Help/working-in-government/service/">excepted service</a>, so it’s important to read the <strong>Who May Apply</strong> section of the job announcement to understand if you’re eligible or what you need to do to be eligible. Some jobs:
+      Jobs within a National Guard unit are in the <a href="/Help/working-in-government/service/">excepted service</a>, so it’s important to read the <strong>Who May Apply</strong> section of the job announcement to understand if you’re
+      eligible or what you need to do to be eligible. Some jobs:
     </p>
     <ul>
       <li>Require you to already be a National Guard member in a specific state.</li>
@@ -314,7 +356,8 @@
       <li>Restricted to CURRENT members of the Army National Guard, Air National Guard, Reserves or Active Duty Military – Only a current member of one of these groups is eligible for this job.</li>
       <li>United States Citizens – Anyone is eligible, but you have to join the National Guard to accept the job.</li>
       <li>AREA 1 – Open to current, permanent technicians of the Michigan National Guard. (Does not include temporary technicians).</li>
-      <li>AREA 2 – Open to current military members of the Michigan National Guard – You must already be a member of the Michigan National Guard to be eligible. Preference is given to current technicians, because the job is specific to that skill set.</li>
+      <li>AREA 2 – Open to current military members of the Michigan National Guard – You must already be a member of the Michigan National Guard to be eligible. Preference is given to current technicians, because the job is specific to that skill
+        set.</li>
       <li>Current Warrant officer (CW3 & below) or Enlisted (E6 or above) members of the ND Army or Air National Guard – You must have a specific rank within the North Dakota National Guard to be eligible for this job.</li>
       <li>US Citizens and Federal Employees with status – Anyone or federal employees with status are eligible, but you have to join the National Guard.</li>
     </ul>
@@ -329,7 +372,11 @@
   </div>
   <div class="usajobs-uhp-section__col-right">
     <p>
-      In the job announcement look for the <strong>This job is open to</strong> section. When a job is open to <strong>National Guard &amp; Reserves</strong>, or those willing to join, you’ll see this icon: <svg class="usajobs-icon--hiring-path usajobs-uhp-section__filters-uhp-icon national-guard" role="img"><title>National guard and reserves</title><use xlink:href="#national-guard"></use></svg> There may be other groups listed that can also apply.
+      In the job announcement look for the <strong>This job is open to</strong> section. When a job is open to <strong>National Guard &amp; Reserves</strong>, or those willing to join, you’ll see this icon: <svg class="usajobs-icon--hiring-path usajobs-uhp-section__filters-uhp-icon national-guard"
+        role="img">
+        <title>National guard and reserves</title>
+        <use xlink:href="#national-guard"></use>
+      </svg> There may be other groups listed that can also apply.
     </p>
     <p>
       In search you can also select the <strong>National Guard</strong> filter. Your results will display all jobs open to the National Guard, reserves, and those willing to join.
@@ -393,12 +440,12 @@
     <p>
       First, make sure you’re qualified to join the National Guard. Whether you’ve served in the military before, or you’ve never served, you must meet the mandatory requirements to join the National Guard.
     </p>
-    <ul class="usajobs-drawer" data-object="help-accordion">
+    <ul class="usa-accordion" data-object="help-accordion">
       <li>
-        <button class="usajobs-drawer-button usajobs-uhp-accordion-trigger" aria-expanded="false" aria-controls="category-a" data-behavior="help-accordion.toggle">
+        <button class="usa-accordion-button" aria-expanded="false" aria-controls="category-a" data-behavior="help-accordion.toggle">
           1. If you’ve never served in the United States Armed Forces (Active Duty, Reserves or National Guard)
         </button>
-        <div id="category-a" class="usajobs-drawer-content usajobs-uhp-accordion-content">
+        <div id="category-a" class="usa-accordion-content">
           <p>
             If you’ve never served in the United States Armed Forces (Active Duty, Reserves or National Guard), you must:
           </p>
@@ -411,10 +458,10 @@
         </div>
       </li>
       <li>
-        <button class="usajobs-drawer-button usajobs-uhp-accordion-trigger" aria-expanded="false" aria-controls="category-b" data-behavior="help-accordion.toggle">
-          2.	If you’ve served in the military (Active Duty, Reserves or National Guard)
+        <button class="usa-accordion-button" aria-expanded="false" aria-controls="category-b" data-behavior="help-accordion.toggle">
+          2. If you’ve served in the military (Active Duty, Reserves or National Guard)
         </button>
-        <div id="category-b" class="usajobs-drawer-content usajobs-uhp-accordion-content">
+        <div id="category-b" class="usa-accordion-content">
           <p>
             If you’ve served in the military (Active Duty, Reserves or National Guard), you must:
           </p>
@@ -432,7 +479,8 @@
       In addition to the above mandatory requirements, you must also:
     </p>
     <ul>
-      <li>Attend basic training – If you served in the United States Navy, United States Air Force, United States Coast Guard and have not completed Army or Marine Corps Basic Training you must attend Basic Combat Training (BCT). There are some exceptions to this requirement.</li>
+      <li>Attend basic training – If you served in the United States Navy, United States Air Force, United States Coast Guard and have not completed Army or Marine Corps Basic Training you must attend Basic Combat Training (BCT). There are some
+        exceptions to this requirement.</li>
       <li>Take the Armed Services Vocational Aptitude Battery (ASVAB) – If you have a break in service of over 10 years, you must re-take the ASVAB to establish current scores.</li>
     </ul>
     <p>
@@ -508,7 +556,6 @@
     </ul>
   </div>
 </div>
-
           </main>
           <aside class="usajobs-hiring-paths-nav">
             <div class="usajobs-uhp-section-nav">

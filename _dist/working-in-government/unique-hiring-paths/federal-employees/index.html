@@ -171,39 +171,68 @@
   </nav>
 </header>
   <div class="usajobs-help-center">
+    <nav id="usajobs-help-secondary-nav" class="usajobs-help-secondary-nav is-fixed-nav " aria-expanded="true" role="navigation" aria-label="Help Center menu">
+  <div class="usajobs-help-secondary-nav__body">
+    <ul class="usajobs-help-secondary-nav__menu" role="menubar">
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/faq/" role="menuitem">
+          FAQs
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/how-to/" role="menuitem">
+          How to&hellip;
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link is-active" href="/Help/working-in-government/" role="menuitem">
+          <span class="usajobs-help-secondary-nav__short-name">Government</span>
+          <span class="usajobs-help-secondary-nav__long-name">Working in Government</span>
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item glossary" role="presentation">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-secondary-nav__glossary-trigger" role="menuitem" aria-controls="glossary">
+          Glossary
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
     
 <div class="usajobs-uhp-banner usajobs-uhp-banner--federal-employees">
   <div class="usajobs-uhp-banner__container">
-
-  
+    
+    
     <picture>
       <source srcset="/Help/img/help-center/unique-hiring-paths/federal-employees-L.png" media="(min-width: 37.5em)">
       <img srcset="/Help/img/help-center/unique-hiring-paths/federal-employees-S.png" alt="A women typing on a laptop.">
     </picture>
-  
-
+    
+    
     <div class="usajobs-uhp-banner__body">
-      <div class="usajobs-uhp-banner__title-container">
-        <div class="usajobs-uhp-banner__icon  federal-employees-competitive">
-          <svg class="usajobs-icon--hiring-path">
-            
-            <use xlink:href="#federal-employees-competitive"></use>
-            
-          </svg>
+      <div class="usajobs-uhp-banner__body-container">
+        <div class="usajobs-uhp-banner__title-container">
+          <div class="usajobs-uhp-banner__icon  federal-employees-competitive">
+            <svg class="usajobs-icon--hiring-path">
+              
+              <use xlink:href="#federal-employees-competitive"></use>
+              
+            </svg>
+          </div>
+          <h1 class="usajobs-uhp-banner__title">
+            Federal employees
+          </h1>
         </div>
-        <h1 class="usajobs-uhp-banner__title">
-          Federal employees
-        </h1>
-      </div>
-      <div class="usajobs-uhp-banner__text-container">
-        <p class="usajobs-uhp-banner__text">
-          If you are a current or former federal employee, there are different hiring options available to you, depending on your eligibility.
-        </p>
+        <div class="usajobs-uhp-banner__text-container">
+          <p class="usajobs-uhp-banner__text">
+            If you are a current or former federal employee, there are different hiring options available to you, depending on your eligibility.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
     
 
 <div class="usajobs-help-center-breadcrumb usajobs-help-center-breadcrumb--uhp">
@@ -289,6 +318,18 @@
 
     <section class="usajobs-shell usajobs-uhp">
       <section class="usajobs-canvas">
+         <div id="glossary" class="usajobs-help-center-glossary-panel" aria-describedby="glossary-title" aria-hidden="true">
+   <button title="Close glossary" class="js-glossary-close usajobs-help-center-glossary-panel__close-button usa-button usa-button-outline-inverse">
+     <span class="fa fa-times"></span> Close
+   </button>
+   <h2 id="glossary-title" class="usajobs-help-center-glossary-panel__title">
+     Glossary
+   </h2>
+   <label for="glossary-search" class="usajobs-help-center-glossary-panel__label">Filter glossary terms</label>
+   <input id="glossary-search" class="js-glossary-search usajobs-help-center-glossary-panel__search" type="search" placeholder="e.g. Excepted Service">
+   <ul class="js-glossary-list usajobs-help-center-glossary-panel__list"></ul>
+ </div>
+
         <div class="usajobs-help-center-unique-hiring-path usajobs-content-gutter">
           <main class="usajobs-content" id="main-content" role="main">
             

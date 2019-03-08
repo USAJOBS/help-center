@@ -220,12 +220,13 @@ html {
   background-image: none;
 }
 
-.usajobs-uhp-banner__container {
-  max-width: 120rem;
+.usajobs-uhp-banner__container img {
+  width: 120rem;
 }
 
 @media screen and (min-width: 48em) {
-  .usajobs-uhp-banner__container {
+  .usajobs-uhp-banner__container img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -252,6 +253,17 @@ html {
   }
 }
 
+.usajobs-uhp-banner__body-container {
+  max-width: 160rem;
+}
+
+@media screen and (min-width: 48em) {
+  .usajobs-uhp-banner__body-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media screen and (min-width: 48em) {
   .usajobs-uhp-banner__title-container, .usajobs-uhp-banner__text-container {
     float: left;
@@ -274,6 +286,10 @@ html {
   .usajobs-uhp-banner__title-container:last-child {
     margin-right: 0;
   }
+}
+
+.usajobs-uhp-banner__text-container {
+  max-width: 85rem;
 }
 
 .usajobs-uhp-banner__icon {

@@ -12,10 +12,12 @@
 <body>
   {% include components/nav-help.html %}
   <div class="usajobs-help-center">
+    {% include components/nav-secondary.html %}
     {% include components/unique-hiring-paths/banner.html page=page.short-name %}
     {% include components/breadcrumbs.html variation="uhp" %}
     <section class="usajobs-shell usajobs-uhp">
       <section class="usajobs-canvas">
+        {% include components/glossary-panel.html %}
         <div class="usajobs-help-center-unique-hiring-path usajobs-content-gutter">
           <main class="usajobs-content" id="main-content" role="main">
             {{ content }}

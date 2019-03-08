@@ -1,6 +1,6 @@
 // Banner
 
-@import 'base-shared';
+@import "base-shared";
 
 $icon-size: rem(164px);
 
@@ -10,8 +10,8 @@ $icon-size: rem(164px);
   padding-top: $size-default;
   background: $color-gray-cool-light;
   // @include linear-gradient(to bottom, $color-gray-cool-light 0%, $color-gray-cool-light 50%, $color-gray-cool-light 60%, $color-gray-lightest 100%);
-  background-image: url('../img/help-center/helpcenter_star.png');
-  background-image: url('../img/help-center/helpcenter_star.svg');
+  background-image: url("../img/help-center/helpcenter_star.png");
+  background-image: url("../img/help-center/helpcenter_star.svg");
   background-position: right top;
   background-repeat: no-repeat;
 
@@ -52,8 +52,8 @@ $icon-size: rem(164px);
     max-width: $site-max-width;
 
     [type="submit"] {
-      background-image: url('../img/help-center/search.png');
-      background-image: url('../img/help-center/search.svg');
+      background-image: url("../img/help-center/search.png");
+      background-image: url("../img/help-center/search.svg");
 
       @include media($SM) {
         background-image: inherit;
@@ -67,16 +67,16 @@ $icon-size: rem(164px);
   .usajobs-help-center-search-banner,
   .usajobs-help-center-search-banner--with-nav,
   .usajobs-help-center-title-banner {
-    background-image: url('../img/help-center/helpcenter_star.png');
+    background-image: url("../img/help-center/helpcenter_star.png");
   }
 }
 
 .usajobs-help-center-search-banner,
 .usajobs-help-center-search-banner--with-nav {
   @include media($ML) {
-    .search-interface{
-        width: 30%;
-        float: right;
+    .search-interface {
+      width: 30%;
+      float: right;
     }
   }
 
@@ -117,10 +117,10 @@ $icon-size: rem(164px);
   .search-interface span.label-text {
     position: absolute;
     overflow: hidden;
-    width:1px;
-    height:1px;
+    width: 1px;
+    height: 1px;
     margin: -1px;
-    padding:0;
+    padding: 0;
   }
 }
 
@@ -151,10 +151,11 @@ $icon-size: rem(164px);
 }
 
 .usajobs-uhp-banner {
-  &__container {
-    max-width: $site-max-width-S;
+  &__container img {
+    width: $site-max-width-S;
 
     @include media($ML) {
+      display: block;
       margin-left: auto;
       margin-right: auto;
     }
@@ -169,6 +170,15 @@ $icon-size: rem(164px);
     padding-bottom: $size-L;
   }
 
+  &__body-container {
+    max-width: $site-max-width;
+
+    @include media($ML) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   &__title-container,
   &__text-container {
     @include media($ML) {
@@ -180,6 +190,10 @@ $icon-size: rem(164px);
     @include media($L) {
       @include span-columns(4, 12);
     }
+  }
+
+  &__text-container {
+    max-width: 85rem;
   }
 
   &__icon {
@@ -304,7 +318,6 @@ $icon-size: rem(164px);
     color: $color-base;
   }
 }
-
 
 .usajobs-uhp-banner--public,
 .usajobs-uhp-banner--internal,

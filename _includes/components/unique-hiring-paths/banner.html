@@ -1,33 +1,35 @@
 {% assign section = site.data.unique-hiring-paths[include.page] %}
 <div class="usajobs-uhp-banner usajobs-uhp-banner--{{ include.page }}">
   <div class="usajobs-uhp-banner__container">
-{% if section.include-in-index %}
-  {% if include.page != 'public' and include.page != 'special-authorities' %}
+    {% if section.include-in-index %}
+    {% if include.page != 'public' and include.page != 'special-authorities' %}
     <picture>
       <source srcset="{{ site.baseurl }}/img/help-center/unique-hiring-paths/{{ include.page }}-L.png" media="(min-width: 37.5em)">
       <img srcset="{{ site.baseurl }}/img/help-center/unique-hiring-paths/{{ include.page }}-S.png" alt="{{ section.image-alt }}">
     </picture>
-  {% endif %}
-{% endif %}
+    {% endif %}
+    {% endif %}
     <div class="usajobs-uhp-banner__body">
-      <div class="usajobs-uhp-banner__title-container">
-        <div class="usajobs-uhp-banner__icon {% if section.icon-no-image %}usajobs-uhp-banner__icon-no-image{% endif %} {{section.icon }}">
-          <svg class="usajobs-icon--hiring-path">
-            {% if section.banner-icon %}
-            <use xlink:href="#{{ section.banner-icon }}"></use>
-            {% else %}
-            <use xlink:href="#{{ section.icon }}"></use>
-            {% endif %}
-          </svg>
+      <div class="usajobs-uhp-banner__body-container">
+        <div class="usajobs-uhp-banner__title-container">
+          <div class="usajobs-uhp-banner__icon {% if section.icon-no-image %}usajobs-uhp-banner__icon-no-image{% endif %} {{section.icon }}">
+            <svg class="usajobs-icon--hiring-path">
+              {% if section.banner-icon %}
+              <use xlink:href="#{{ section.banner-icon }}"></use>
+              {% else %}
+              <use xlink:href="#{{ section.icon }}"></use>
+              {% endif %}
+            </svg>
+          </div>
+          <h1 class="usajobs-uhp-banner__title">
+            {{ section.title }}
+          </h1>
         </div>
-        <h1 class="usajobs-uhp-banner__title">
-          {{ section.title }}
-        </h1>
-      </div>
-      <div class="usajobs-uhp-banner__text-container">
-        <p class="usajobs-uhp-banner__text">
-          {{ section.text }}
-        </p>
+        <div class="usajobs-uhp-banner__text-container">
+          <p class="usajobs-uhp-banner__text">
+            {{ section.text }}
+          </p>
+        </div>
       </div>
     </div>
   </div>
