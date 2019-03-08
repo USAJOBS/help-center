@@ -171,39 +171,68 @@
   </nav>
 </header>
   <div class="usajobs-help-center">
+    <nav id="usajobs-help-secondary-nav" class="usajobs-help-secondary-nav is-fixed-nav " aria-expanded="true" role="navigation" aria-label="Help Center menu">
+  <div class="usajobs-help-secondary-nav__body">
+    <ul class="usajobs-help-secondary-nav__menu" role="menubar">
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/faq/" role="menuitem">
+          FAQs
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link " href="/Help/how-to/" role="menuitem">
+          How to&hellip;
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item" role="presentation">
+        <a class="usajobs-help-secondary-nav__link is-active" href="/Help/working-in-government/" role="menuitem">
+          <span class="usajobs-help-secondary-nav__short-name">Government</span>
+          <span class="usajobs-help-secondary-nav__long-name">Working in Government</span>
+        </a>
+      </li>
+      <li class="usajobs-help-secondary-nav__item glossary" role="presentation">
+        <button id="glossary-trigger" class="js-glossary-toggle usajobs-help-secondary-nav__glossary-trigger" role="menuitem" aria-controls="glossary">
+          Glossary
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
     
 <div class="usajobs-uhp-banner usajobs-uhp-banner--individuals-with-disabilities">
   <div class="usajobs-uhp-banner__container">
-
-  
+    
+    
     <picture>
       <source srcset="/Help/img/help-center/unique-hiring-paths/individuals-with-disabilities-L.png" media="(min-width: 37.5em)">
       <img srcset="/Help/img/help-center/unique-hiring-paths/individuals-with-disabilities-S.png" alt="Male writing with mechanical pencil on paper document.">
     </picture>
-  
-
+    
+    
     <div class="usajobs-uhp-banner__body">
-      <div class="usajobs-uhp-banner__title-container">
-        <div class="usajobs-uhp-banner__icon  individuals-with-disabilities">
-          <svg class="usajobs-icon--hiring-path">
-            
-            <use xlink:href="#individuals-with-disabilities"></use>
-            
-          </svg>
+      <div class="usajobs-uhp-banner__body-container">
+        <div class="usajobs-uhp-banner__title-container">
+          <div class="usajobs-uhp-banner__icon  individuals-with-disabilities">
+            <svg class="usajobs-icon--hiring-path">
+              
+              <use xlink:href="#individuals-with-disabilities"></use>
+              
+            </svg>
+          </div>
+          <h1 class="usajobs-uhp-banner__title">
+            Individuals with disabilities
+          </h1>
         </div>
-        <h1 class="usajobs-uhp-banner__title">
-          Individuals with disabilities
-        </h1>
-      </div>
-      <div class="usajobs-uhp-banner__text-container">
-        <p class="usajobs-uhp-banner__text">
-          If you're an individual with a disability, you can apply and compete for any job for which you are eligible and meet the qualifications, but you also may be eligible for a special hiring authority.
-        </p>
+        <div class="usajobs-uhp-banner__text-container">
+          <p class="usajobs-uhp-banner__text">
+            If you're an individual with a disability, you can apply and compete for any job for which you are eligible and meet the qualifications, but you also may be eligible for a special hiring authority.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
     
 
 <div class="usajobs-help-center-breadcrumb usajobs-help-center-breadcrumb--uhp">
@@ -289,6 +318,18 @@
 
     <section class="usajobs-shell usajobs-uhp">
       <section class="usajobs-canvas">
+         <div id="glossary" class="usajobs-help-center-glossary-panel" aria-describedby="glossary-title" aria-hidden="true">
+   <button title="Close glossary" class="js-glossary-close usajobs-help-center-glossary-panel__close-button usa-button usa-button-outline-inverse">
+     <span class="fa fa-times"></span> Close
+   </button>
+   <h2 id="glossary-title" class="usajobs-help-center-glossary-panel__title">
+     Glossary
+   </h2>
+   <label for="glossary-search" class="usajobs-help-center-glossary-panel__label">Filter glossary terms</label>
+   <input id="glossary-search" class="js-glossary-search usajobs-help-center-glossary-panel__search" type="search" placeholder="e.g. Excepted Service">
+   <ul class="js-glossary-list usajobs-help-center-glossary-panel__list"></ul>
+ </div>
+
         <div class="usajobs-help-center-unique-hiring-path usajobs-content-gutter">
           <main class="usajobs-content" id="main-content" role="main">
             
@@ -323,8 +364,7 @@
         <div id="tips-schedule-a" class="usa-accordion-content">
           <ul class="usajobs-list-bullets">
             <li>Mention your eligibility and that you want to be considered for "Schedule A" on your resume (and in your cover letter, if you use one).</li>
-            <li>If you're eligible for Schedule A, go to your profile and select the <strong>Individuals with disabilities</strong> hiring path and make your resume searchable. If your resume is searchable, agencies who are looking for people
-              eligible under Schedule A, may be able to find you.</li>
+            <li>If you're eligible for Schedule A, go to your profile and select the <strong>Individuals with disabilities</strong> hiring path and make your resume searchable. If your resume is searchable, agencies who are looking for people eligible under Schedule A, may be able to find you.</li>
           </ul>
         </div>
       </li>
@@ -546,6 +586,7 @@
     </ul>
   </div>
 </div>
+
           </main>
           <aside class="usajobs-hiring-paths-nav">
             <div class="usajobs-uhp-section-nav">
