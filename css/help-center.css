@@ -4378,6 +4378,18 @@ html {
   margin-top: 0.5rem;
 }
 
+.usajobs-uhp-section .usa-accordion .usa-accordion-button {
+  background-image: url("../img/icons/accordion/minus.png");
+  background-image: url("../img/icons/accordion/minus.svg");
+}
+
+.usajobs-uhp-section
+.usa-accordion
+.usa-accordion-button[aria-expanded="false"] {
+  background-image: url("../img/icons/accordion/plus.png");
+  background-image: url("../img/icons/accordion/plus.svg");
+}
+
 .usajobs-uhp-section--excepted-service__title {
   color: #00a6d2;
 }

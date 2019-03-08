@@ -144,6 +144,8 @@ module.exports = function(grunt) {
         "js/components/*.js",
         "!js/vendor/*.js",
         "!js/usajobs-help-center.js",
+        "!js/usajobs-help-center.min.js",
+        "!js/usajobs-help-center-base.js",
         "!js/usajobs-help-center-components.js"
       ],
       components: ["js/glossary.js", "js/components/*.js"],
@@ -174,6 +176,8 @@ module.exports = function(grunt) {
           "js/terms.json",
           "!js/vendor/*.js",
           "!js/usajobs-help-center.js",
+          "!js/usajobs-help-center.min.js",
+          "!js/usajobs-help-center-base.js",
           "!js/usajobs-design-system-base.js",
           "!js/usajobs-design-system-components.js",
           "!js/usajobs-design-system-documentation.js"
