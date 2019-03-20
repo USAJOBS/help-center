@@ -244,7 +244,7 @@ $keyword.keywordcomplete({
             parameter = "j";
             break;
         case "job titles":
-            parameter = "jt"
+            parameter = "jt";
     }
     logKeywordAC(selectedObj.value);
     location.href = '/search?' + parameter + '=' + selectedObj.actualValue + '&hp=' + hiringPath;
