@@ -225,32 +225,30 @@ $keyword.keywordcomplete({
   minLength: 2,
   select: function (event, ui) {
     var selectedObj = ui.item,
-      parameter = "";
-
+        parameter = "",
+        hiringPath = $('input[name=hp]').val();
     switch (selectedObj.type) {
-      case "series":
-        parameter = selectedObj.parentName !== "" ? "j" : "jf";
-        break;
-      case "agencies":
-        parameter = "a";
-        break;
-      case "departments":
-        parameter = "d";
-        break;
-      case "occupations":
-        parameter = "soc";
-        break;
-      case "series":
-        parameter = "j";
-        break;
-      case "job titles":
-        parameter = "jt";
-        break;
-      }
-
+        case "series":
+            parameter = "" !== selectedObj.parentName ? "j" : "jf";
+            break;
+        case "agencies":
+            parameter = "a";
+            break;
+        case "departments":
+            parameter = "d";
+            break;
+        case "occupations":
+            parameter = "soc";
+            break;
+        case "series":
+            parameter = "j";
+            break;
+        case "job titles":
+            parameter = "jt"
+    }
     logKeywordAC(selectedObj.value);
-    $keyword.val(selectedObj.value);
-    $keyword_param.attr('name', parameter).val(selectedObj.actualValue);
+    location.href = '/search?' + parameter + '=' + selectedObj.actualValue + '&hp=' + hiringPath;
+
     closeKeywordAutocomplete();
 
     return false;
