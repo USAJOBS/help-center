@@ -3955,11 +3955,10 @@ $keyword.keywordcomplete({
       case "job titles":
         parameter = "jt";
         break;
-      }
-
+    }
+	  
     logKeywordAC(selectedObj.value);
-    $keyword.val(selectedObj.value);
-    $keyword_param.attr('name', parameter).val(selectedObj.actualValue);
+    location.href = '/search?' + parameter + '=' + selectedObj.actualValue;
     closeKeywordAutocomplete();
 
     return false;
