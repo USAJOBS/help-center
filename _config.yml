@@ -41,7 +41,6 @@ produrl: 'https://www.usajobs.gov'
 google_analytics_ua: UA-33523145-1
 
 plugins:
-  - jekyll-sitemap
   - jekyll-last-modified-at
 
  # Configuration for jekyll_pages_api_search plugin gem.
