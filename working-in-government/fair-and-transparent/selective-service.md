@@ -16,4 +16,4 @@ The Selective Service System is an independent agency within the Executive Branc
 
 You can update your Selective Service status in [your USAJOBS profile](../../../how-to/account/profile/).
 
-If you're hired, you will need to provide your selective service registration information during your on-boarding process. You can find this information by calling the Selective Service registration information line at 1-847-688-6888 or at [https://www.sss.gov/Registration/Check-a-Registration/Verification-Form](https://www.sss.gov/Registration/Check-a-Registration/Verification-Form).
+If you're hired, you will need to provide your selective service registration information during your on-boarding process. You can find this information by calling the Selective Service registration information line at 1-847-688-6888 or at <a href="https://www.sss.gov/Registration/Check-a-Registration/Verification-Form">https://www.sss.gov/Registration/Check-a-Registration/Verification-Form</a>.

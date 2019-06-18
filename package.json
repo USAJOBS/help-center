@@ -31,6 +31,7 @@
     "broken-link-checker": "^0.7.8",
     "browserify": "^16.2.3",
     "clean-css": "^4.2.1",
+    "diff": ">=3.5.0",
     "extend": ">=3.0.2",
     "fstream": ">=1.0.12",
     "glossary-panel": "^1.0.0",
