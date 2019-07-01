@@ -41,7 +41,7 @@ The OF-306, [Declaration for Federal Employment](https://www.opm.gov/forms/Optio
 
 ### SF-50
 
-The [SF-50](https://www.opm.gov/forms/standard-forms/){:target="_blank"} is a notification of a Personnel Action. It contains your series, grade, and other information useful to you or required if applying for reinstatement. Used by current and former federal employees. [Learn how to obtain a copy of your SF-50](http://www.archives.gov/st-louis/civilian-personnel/index.html){:target="_blank"}.
+The [SF-50](https://www.opm.gov/forms/standard-forms/){:target="_blank"} is a permanent record in your Official Personnel Folder that documents and reports all personnell actions (except mass transfer and mass change actions). It’s the required form of notification for accessions, conversions, and separations, and for corrections and cancellations of those actions.  It also details your series, grade, and proves that you worked where you said you worked, as well as when and how much you were paid. All current and former federal employees have an SF-50.  [Learn how to obtain a copy of your SF-50](http://www.archives.gov/st-louis/civilian-personnel/index.html){:target="_blank"}.
 
 ## Veterans
 
