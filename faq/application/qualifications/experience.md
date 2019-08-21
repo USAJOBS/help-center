@@ -25,7 +25,7 @@ To qualify for jobs at the GS-9 grade (or equivalent) level you need a master’
 
 Many times you can substitute specialized experience, or experience related to the work to be performed in the job, for education or to qualify for a higher grade. 
 
-[Learn more about education requirements](qualifying-education/).
+[Learn more about education requirements](../qualifying-education/).
 
 ## How do I qualify for Trade, Craft, and Labor jobs?
 Trade, Craft, and Labor jobs, sometimes known as “blue collar” jobs, have a separate qualification system from professional jobs. If you apply for an apprenticeship program for the various trades, you must demonstrate the potential to succeed in the job and be able to complete classroom and on-the-job training. For journeyman or senior level jobs, (for example, electronic equipment maintenance, electricians, plumbers, and carpenters) you’re rated against the competencies, knowledge, skills, and abilities (known as job elements) required for successful performance. Each trade has one or more critical job elements that you must meet to be rated basically qualified for the job. You must demonstrate mastery of the specified job elements through work experience, training, or tests.
