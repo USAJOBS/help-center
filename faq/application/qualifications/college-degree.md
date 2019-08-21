@@ -3,9 +3,9 @@ permalink: /faq/application/qualifications/college-degree/
 layout: article
 section: faq
 title: Do I need a college degree to qualify for a job?
-breadcrumb: College-degree
+breadcrumb: College degree
 category: Qualifications
-tags: [application, education]
+tags: [application, qualifications]
 ---
 
 It depends. Some federal jobs require a college degree with a certain major field of study or specific academic courses at the baccalaureate or graduate level, while others will accept a degree in any field or don’t require a college degree at all. 
