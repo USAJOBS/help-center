@@ -2,19 +2,32 @@
 permalink: /faq/application/eligibility/ex-offender/
 layout: article
 section: faq
-title: Can I work for the government if I am an ex-offender?
+title: Can I work for the government if I have a criminal record?
 breadcrumb: Ex-offender
 category: Eligibility
 tags: [eligibility]
 ---
 
-Yes, you can work for the government if you are an ex-offender. Being an ex-offender does not prevent you from obtaining Federal Employment.
+Yes, you can work for the Federal Government if you have a criminal record and were formerly incarcerated. 
 
-OPM or the hiring agency considers your criminal conduct in determining your suitability but there are no general prohibitions against hiring you. We consider a number of relevant factors such as the duties of the positions you have applied for, the nature and recency of the misconduct, and any evidence of rehabilitation.
+People with criminal records are eligible for most federal jobs, however there are some exceptions. You may not be eligible for certain federal jobs because specific statutes or laws prohibit employment depending on the crime committed.    
 
-Although there are no general prohibitions against employing you in the Federal Government, there are some regulations which will prohibit you from working in certain positions if you have a specific conviction. The most common situation involves being convicted of misdemeanor domestic violence crimes under Federal or State law. These persons are “prohibited from employment in any position requiring the individual: to ship, transport, possess, or receive firearms or ammunition” (Public Law 1-4-208 Omnibus Consolidated Appropriations Act of 1997.)
+For example:
 
-Other statutory or regulatory debarments exist, but are rarely applicable. They cover debarment from Federal employment from such offenses as treason, inciting rebellion against the U.S., willful and unlawful destruction of public records, or knowingly and willfully advocating the overthrow of the U.S. Government.
+* Certain federal laws, like those prohibiting treason, carry with them a lifelong ban on federal employment.
+* Other federal laws prohibit federal employment for a certain number of years.
+* The Bond Amendment imposes restrictions related to national security positions.
+* People convicted of misdemeanor domestic violence crimes under Federal or State law are “prohibited from employment in any position requiring the individual: to ship, transport, possess, or receive firearms or ammunition” (Public Law 1-4-208 Omnibus Consolidated Appropriations Act of 1997.)
 
-It is important for you to provide all the required information about your criminal record when you apply for Federal employment. Then, either OPM or the employing agency can determine early if a specific prohibition exists.
+For most federal jobs, questions about your criminal history don’t appear on the initial job application. However, if you receive a conditional offer of employment, you’ll need to complete a Declaration for Federal Employment (OF 306) and undergo a background investigation to establish your suitability or fitness for employment. When deciding your suitability, federal agencies will consider the following:
+
+* Your character traits and conduct.
+* Potential conflicts between your criminal conduct and the core job duties.
+* Potential conflicts between your employment and interests of national security.
+* The nature, seriousness, and circumstance of your criminal activity.
+* How long it’s been since your criminal activity.
+* Rehabilitation or efforts toward rehabilitation.
+
+It’s important that you provide all the required information about your criminal record when you apply to a federal job so the hiring agency can determine early if a specific prohibition exists.
+
 
