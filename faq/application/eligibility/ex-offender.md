@@ -10,7 +10,7 @@ tags: [eligibility]
 
 Yes, you can work for the Federal Government if you have a criminal record and were formerly incarcerated. 
 
-People with criminal records are eligible for most federal jobs, however there are some exceptions. You may not be eligible for certain federal jobs because specific statutes or laws prohibit employment depending on the crime committed.    
+People with criminal records are eligible to apply to most federal jobs, however there are some exceptions. You may not be eligible for certain federal jobs because specific statutes or laws prohibit employment depending on the crime committed.    
 
 For example:
 
