@@ -16,11 +16,16 @@ You'll need to:
 *	Create a login.gov account—you only need to do this once.
 *	Enter an email address - use the same email address you use for USAJOBS (your primary or secondary email address), if you have an existing profile with us.
 *	Create a new password.
-*	Have a working phone number (mobile or landline) or an authentication application installed on a device—login.gov will send you a one-time security code..
+*	Select your first method of authentication—having another way to sign in keeps your account more secure than using only a password. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV or CAC cards.
+* Select a backup method of authentication—you need to select a backup method, in case you don’t have access to your first choice (for example you don’t have access to your phone).
 
-Once you create a login.gov account, you'll come back to USAJOBS to link to your existing profile, or create a new profile if you don't have one.
+Once you create a login.gov account, you'll come back to USAJOBS to link to your existing profile, or create a new profile if you don't have one. <b>You only need to create your account and link it once</b>.  [Get step by step instructions on creating an account](https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/) at login.gov.
 
 If you have limited access to a phone or cell service, you can [set up an authentication app or use a free text messaging app](limited-access/).
+
+## Do I have to create a login.gov account every time I want to sign into USAJOBS?
+No. You only need to create a login.gov account and link it to your USAJOBS profile once.  Once that’s done, you use the same login.gov email address and password, plus one of the two-factor authentication methods you set up, every time you sign into USAJOBS.
+
 
 [Create your account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/){:target="_blank"}.
 
