@@ -26,19 +26,19 @@ Once you set up a login.gov account, we’ll link it back to your USAJOBS profil
 
 You need to create a login.gov account, if you don't already have one. Your old USAJOBS username and password won't work anymore. You'll need to:
 
-1. [Create a login.gov account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/) - you only need to do this once.
-2. Enter an email address during the account set up - use the same email address you use for USAJOBS (your primary or secondary email address).
+1. [Create a login.gov account](https://www.usajobs.gov/Applicant/ProfileDashboard/Home/) - you only need to do this once. 
+2. Enter an email address—use the same email address you use for USAJOBS (your primary or secondary email address), if you have an existing profile with us.
 3. Create a new password.
-4. Have a working phone number (mobile or landline), an authentication application or free text messaging app installed on a device—login.gov will send you a one-time security code.
-4. Finish setting up your login.gov account.
+4. Select your first method of authentication—having another way to sign in keeps your account more secure than using only a password. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV card or CAC. 
+5. Select a backup method of authentication—you need to select a backup method, in case you don’t have access to your first choice (for example you don’t have access to your phone). 
 
 Once you’ve finished setting up your login.gov account, you’ll go back to USAJOBS to finish the process.  Double check your USAJOBS Profile to make sure all of your information is accurate.
 
-You need to use your login.gov email address, password and the one-time security code every time you want to sign into USAJOBS.
+You need to use your login.gov email address, password and one of the two-factor authentication methods you set up, every time you want to sign into USAJOBS.
 
 ### What if I already have a login.gov account?
 
-If you already have a login.gov account, you don't need to create a second one. Use your existing login.gov email address and password, plus the one-time security code to sign into USAJOBS.  
+If you already have a login.gov account, you don't need to create a second one. Use your existing login.gov email address, password, plus one of the two-factor authentication methods you set up, to sign into USAJOBS.  
 
 ## What email address do I use to create a login.gov account?
 
