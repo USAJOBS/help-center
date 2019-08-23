@@ -78,7 +78,7 @@ Follow these steps if you don’t have a login.gov account:
 3.	Download, print, or write down your backup codes and save them in a secure place. 
 4.	Click **Continue**.
 
-## Use a government or military employee PIV/CAC card
+## Use a government or military employee PIV card or CAC
 
 If you’re a government or military employee and your government email address is linked to your login.gov account, you may be able to use your PIV card or CAC as an authentication method. This applies to all .mil and some .gov email addresses.
 
