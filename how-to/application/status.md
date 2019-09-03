@@ -16,7 +16,7 @@ tags: [application, status, tips, support-application-status]
 
 You can also [find and filter your applications](#how-to-find-and-filter-applications).
 
-## What does each status mean?
+## What does each application status mean?
 
 Each status tells you where your application is within the application process—whether it’s been received, reviewed, selected, not-selected and more.
 
