@@ -10,7 +10,7 @@ tags: [account, login.gov, sign in, phone, cell, mobile, service, change, number
 
 To change the phone number where you get your security code, you need to update it in your login.gov account. Go to login.gov and read their help page:
 
-[How do I change the phone number I use to sign in?](https://login.gov/help/changing-settings/how-do-i-change-the-phone-number-i-use-to-sign-in/)
+[How do I change the phone number I use to sign in](https://login.gov/help/changing-settings/change-my-phone-number/){:target="_blank"}?
 
 ### Will updating my phone number in my login.gov account also update the phone number in my USAJOBS profile?
 
