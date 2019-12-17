@@ -19,7 +19,7 @@ You need to:
 4. Select your first method of authentication—having another way to sign in keeps your account more secure than using only a password. You can choose between text messages, phone calls, an authentication application, a security key, or backup codes. Government employees can also use their PIV card or CAC.
 5. Select a backup method of authentication—you need to select a backup method, in case you don’t have access to your first choice (for example you don’t have access to your phone).
 
-Once you create a login.gov account, you'll come back to USAJOBS to link to your existing profile, or create a new profile if you don't have one. <b>You only need to create your account and link it once</b>.  [Get step by step instructions on creating an account](https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-logingov/) at login.gov.
+Once you create a login.gov account, you'll come back to USAJOBS to link to your existing profile, or create a new profile if you don't have one. <b>You only need to create your account and link it once</b>.  [Get step by step instructions on creating an account](https://login.gov/help/creating-an-account/how-to-create-an-account/){:target="_blank"} at login.gov.
 
 If you have limited access to a phone or cell service, you can [set up an authentication app or use a free text messaging app](limited-access/).
 
