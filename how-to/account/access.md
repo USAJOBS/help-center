@@ -12,4 +12,4 @@ tags: [password, regain, email, access, support-password]
 
 The email you use to sign into USAJOBS is the same email you use for your login.gov account. If you need help with signing in, go to login.gov and read their help page:
 
-[I forgot which email address I used to create an account](https://login.gov/help/signing-in/i-forgot-which-email-address-i-used-to-create-an-account/){:target="_blank"}.
+[I forgot which email address I used to create an account](https://login.gov/help/signing-in/forgot-my-email-address/){:target="_blank"}.
