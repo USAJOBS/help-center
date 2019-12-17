@@ -57,7 +57,7 @@ Follow these steps if you don’t have a login.gov account:
 2.	Select the **Security key** option and follow the steps to set up the security key.
 
 To learn more, go to login.gov and read their help page: 
-[What is a security key](https://login.gov/help/security-keys/what-is-a-security-key/)?
+[What is a security key](https://login.gov/help/creating-an-account/security-key/){:target="_blank"}?
 
 ## Use backup codes 
 
@@ -98,7 +98,7 @@ Follow these steps if you don’t have a login.gov account:
 
 A dialog box may pop up and ask you to select a certificate. Choose the certificate connected to your PIV/CAC card. You might also be asked to enter the code associated with your PIV/CAC card. This is something login.gov does not have control over. 
 
-[Learn more about using backup codes](https://login.gov/help/creating-an-account/how-do-i-create-an-account-with-only-one-two-factor-authenticator/).
+[Learn more about using different authentication methods](https://login.gov/help/creating-an-account/no-phone-or-other-authentication-method/){:target="_blank"}.
 
 ## What happened to the personal key?
 
