@@ -26,4 +26,4 @@ For example, the job announcement may say it will review applications on July 30
 
 Some job announcements close when the hiring agency receives a certain number of applications. If the 'cut-off' number is reached during the day, the job announcement will usually close that night at midnight.
 
-For example, a job announcement may say it will close after the hiring agency receives 200 applications. If they receive 200 applications by 1:30pm EDT, the job will close that same day at 11:59pm EDT.
+For example, a job announcement may say it will close after the hiring agency receives 200 applications. If they receive 200 applications by 1:30 p.m. ET, the job will close that same day at 11:59 p.m. ET.
