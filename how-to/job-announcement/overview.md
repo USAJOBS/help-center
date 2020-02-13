@@ -11,7 +11,7 @@ The details at the top of the job announcement tell you how long you have to app
  
 **Open and closing date**
 
-The open date is the first day you can submit an application to the job. The closing date is the last day you can submit an application for the job—you can’t submit an application after 11:59pm EST (Eastern Standard Time) on that date.
+The open date is the first day you can submit an application to the job. The closing date is the last day you can submit an application for the job—you can’t submit an application after 11:59 p.m. ET (Eastern Time) on that date.
  
 **Pay scale and grade**
 
