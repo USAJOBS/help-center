@@ -10,7 +10,7 @@ tags: [work, schedule, full time, part time]
 
 A work schedule includes the hours of a day and the days of a work week that an employee is required to work. In the Federal Government, the work schedule is sometimes called a "daily tour of duty" and "weekly tour of duty".
 
-Some work schedules have the same hours every day and the same days every week. Others may be flexible and change from week to week or day to day. For example, a work schedule could be Monday - Friday, from 9 am - 5 pm or Wednesday - Sunday, from 4 pm to midnight.
+Some work schedules have the same hours every day and the same days every week. Others may be flexible and change from week to week or day to day. For example, a work schedule could be Monday - Friday, from 9 a.m. - 5 pm or Wednesday - Sunday, from 4 p.m. to midnight.
 
 The number of hours you work each day and the days of the week you work may vary depending on the job and the agency.
 
