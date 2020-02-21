@@ -35,3 +35,29 @@ The Help Center is deployed to [github](http://usajobs.github.io/Help/). Differe
 ### Staging environments
 
 The Help Center is consumed by a script that pulls the content within the ```.usajobs-help-center``` div of each page and puts that content into our database. Those pages are then recreated on the fly with the addition of the header and footer. This is done so that the header can reflect to the user whether or not they are authenticated. We continue to evaluate other options as the performance of static pages would be faster than pulling the content from the database (although the database does perform well today).
+
+
+## Local Server
+
+### Development environments
+
+The help center uses [Jekyll](https://jekyllrb.com/docs/).
+
+1. Clone this repo:
+
+    ```
+    git clone https://github.com/USAJOBS/Help.git
+    ```
+
+1. Fetch and update your bundled gems by running:
+
+    ```
+    bundle
+    ```
+
+1. Run locally:
+
+    ```
+    bundle exec jekyll serve
+    ```
+
