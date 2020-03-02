@@ -1,5 +1,4 @@
 source "http://rubygems.org"
-gem 'bundler', '2.0.2'
 gem 'ffi', '~> 1.9.24'
 gem 'github-pages', '>= 193'
 gem 'nokogiri', '>= 1.8.2'
