@@ -10,7 +10,7 @@ tags: [policy, accessibility]
 
 At USAJOBS, we’re committed to making our website accessible and usable to all individuals, including those with a disability. 
 
-All of our designs are compliant with the requirements of [Section 508 of the Rehabilitation Act](http://www.section508.gov/){:target="_blank"} and meet the [Web Content Accessibility Guidelines 2.0 AA](http://www.w3.org/TR/WCAG20/) (WCAG 2.0){:target="_blank"}, as well as the [accessibility standards issued by the Architectural and Transportation Barriers Compliance Board](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule){:target="_blank"}. 
+All of our designs are compliant with the requirements of [Section 508 of the Rehabilitation Act](http://www.section508.gov/){:target="_blank"} and meet the [Web Content Accessibility Guidelines 2.0 AA](http://www.w3.org/TR/WCAG20/){:target="_blank"} (WCAG 2.0), as well as the [accessibility standards issued by the Architectural and Transportation Barriers Compliance Board](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule){:target="_blank"}. 
 
 Section 508 requires that an individual with a disability has the same access to and use of information on our site, as an individual who doesn’t have a disability.
 
