@@ -1532,8 +1532,6 @@ If you’ve accepted a buyout from a federal agency and then accept a new paid p
     
   
       
-  
-      
   <entry>
     <title type="html">How to answer questions about military service</title>
     <link href="/Help/how-to/account/profile/experience/military/" rel="alternate" type="text/html" title="How to answer questions about military service" />
@@ -1645,6 +1643,8 @@ Enter the start and end dates of your service. Click **Add Service Dates** if yo
     
   </entry>
     
+  
+      
   
       
   <entry>
@@ -4376,8 +4376,8 @@ When you're finished, ask yourself the following questions:
   <entry>
     <title type="html">How to understand job announcement closing types</title>
     <link href="/Help/how-to/job-announcement/closing-types/" rel="alternate" type="text/html" title="How to understand job announcement closing types" />
-    <published>2019-08-22T11:26:51-04:00</published>
-    <updated>2019-08-22T11:26:51-04:00</updated>
+    <published>2020-03-06T10:09:22-05:00</published>
+    <updated>2020-03-06T10:09:22-05:00</updated>
     <id>/Help/how-to/job-announcement/closing-types/</id>
     <content type="html" xml:base="/Help/how-to/job-announcement/closing-types/">When a job announcement closes, it means you can no longer apply to the job.
 
@@ -4397,7 +4397,7 @@ For example, the job announcement may say it will review applications on July 30
 
 Some job announcements close when the hiring agency receives a certain number of applications. If the 'cut-off' number is reached during the day, the job announcement will usually close that night at midnight.
 
-For example, a job announcement may say it will close after the hiring agency receives 200 applications. If they receive 200 applications by 1:30pm EDT, the job will close that same day at 11:59pm EDT.</content>
+For example, a job announcement may say it will close after the hiring agency receives 200 applications. If they receive 200 applications by 1:30 p.m. ET, the job will close that same day at 11:59 p.m. ET.</content>
 
     
       <category term="Job Announcement" />
@@ -4561,14 +4561,14 @@ Once you read the entire announcement and are ready to apply, select the **Apply
   <entry>
     <title type="html">How to understand the job announcement overview</title>
     <link href="/Help/how-to/job-announcement/overview/" rel="alternate" type="text/html" title="How to understand the job announcement overview" />
-    <published>2019-08-22T11:26:51-04:00</published>
-    <updated>2019-08-22T11:26:51-04:00</updated>
+    <published>2020-03-06T10:09:22-05:00</published>
+    <updated>2020-03-06T10:09:22-05:00</updated>
     <id>/Help/how-to/job-announcement/overview/</id>
     <content type="html" xml:base="/Help/how-to/job-announcement/overview/">The details at the top of the job announcement tell you how long you have to apply, the salary, work schedule and the type of appointment and service.
  
 **Open and closing date**
 
-The open date is the first day you can submit an application to the job. The closing date is the last day you can submit an application for the job—you can’t submit an application after 11:59pm EST (Eastern Standard Time) on that date.
+The open date is the first day you can submit an application to the job. The closing date is the last day you can submit an application for the job—you can’t submit an application after 11:59 p.m. ET (Eastern Time) on that date.
  
 **Pay scale and grade**
 
@@ -6576,6 +6576,34 @@ No. Each person needs their own login.gov account.  If you’ve shared your USAJ
   
       
   <entry>
+    <title type="html">What is the accessibility policy?</title>
+    <link href="/Help/faq/policy/accessibility-policy/" rel="alternate" type="text/html" title="What is the accessibility policy?" />
+    <published>2020-03-06T10:09:22-05:00</published>
+    <updated>2020-03-06T10:09:22-05:00</updated>
+    <id>/Help/faq/policy/accessibility-policy/</id>
+    <content type="html" xml:base="/Help/faq/policy/accessibility-policy/">&lt;p&gt;At USAJOBS, we’re committed to making our website accessible and usable to all individuals, including those with a disability.&lt;/p&gt;
+
+&lt;p&gt;All of our designs are compliant with the requirements of &lt;a href=&quot;http://www.section508.gov/&quot; target=&quot;_blank&quot;&gt;Section 508 of the Rehabilitation Act&lt;/a&gt; and meet the &lt;a href=&quot;http://www.w3.org/TR/WCAG20/&quot; target=&quot;_blank&quot;&gt;Web Content Accessibility Guidelines 2.0 AA&lt;/a&gt; (WCAG 2.0), as well as the &lt;a href=&quot;https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule&quot; target=&quot;_blank&quot;&gt;accessibility standards issued by the Architectural and Transportation Barriers Compliance Board&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Section 508 requires that an individual with a disability has the same access to and use of information on our site, as an individual who doesn’t have a disability.&lt;/p&gt;
+
+&lt;h2 id=&quot;feedback&quot;&gt;Feedback&lt;/h2&gt;
+&lt;p&gt;If you have a problem using our site, please fill out our contact us form below. Describe the problem you experienced, include your contact information and we’ll get back to you as soon as possible.&lt;/p&gt;</content>
+
+    
+      <category term="policy" />
+    
+
+    
+      <category term="policy" />
+    
+      <category term="accessibility" />
+    
+  </entry>
+    
+  
+      
+  <entry>
     <title type="html">What is the difference between eligibility and qualifications?</title>
     <link href="/Help/faq/application/eligibility/difference-from-qualifications/" rel="alternate" type="text/html" title="What is the difference between eligibility and qualifications?" />
     <published>2019-08-22T11:26:50-04:00</published>
@@ -6816,10 +6844,10 @@ Check your resume for spelling and grammatical errors and have someone else, wit
   <entry>
     <title type="html">What time, including time zone, do jobs expire?</title>
     <link href="/Help/faq/job-announcement/expiration/" rel="alternate" type="text/html" title="What time, including time zone, do jobs expire?" />
-    <published>2019-08-22T11:26:50-04:00</published>
-    <updated>2019-08-22T11:26:50-04:00</updated>
+    <published>2020-03-06T10:09:22-05:00</published>
+    <updated>2020-03-06T10:09:22-05:00</updated>
     <id>/Help/faq/job-announcement/expiration/</id>
-    <content type="html" xml:base="/Help/faq/job-announcement/expiration/">USAJOBS expires all jobs at 11:59 PM Eastern Time (ET) on the published closing date. However, agencies can close, remove, or cancel announcements from USAJOBS at their convenience.
+    <content type="html" xml:base="/Help/faq/job-announcement/expiration/">USAJOBS expires all jobs at 11:59 p.m. Eastern Time (ET) on the published closing date. However, agencies can close, remove, or cancel announcements from USAJOBS at their convenience.
 
 Typically, an agency would advise applicants of this potential on the job announcement under **How to Apply**.</content>
 
@@ -7124,6 +7152,58 @@ The job announcement may list the following:
       
   <entry>
     <title type="html">Which web browsers work best with USAJOBS?</title>
+    <link href="/Help/faq/policy/" rel="alternate" type="text/html" title="Which web browsers work best with USAJOBS?" />
+    <published>2020-03-06T10:09:22-05:00</published>
+    <updated>2020-03-06T10:09:22-05:00</updated>
+    <id>/Help/faq/policy/</id>
+    <content type="html" xml:base="/Help/faq/policy/">&lt;h2 class=&quot;usajobs-help-center__lead&quot;&gt;
+  USAJOBS is designed to support the latest web browsers.
+&lt;/h2&gt;
+
+We support the current and prior major releases of:
+
+* [Chrome](https://www.google.com/chrome/){:target=&quot;_blank&quot;}
+* [Firefox](http://www.mozilla.org/firefox/){:target=&quot;_blank&quot;}
+* [Safari](http://www.apple.com/safari/){:target=&quot;_blank&quot;}
+* Microsoft [Internet Explorer 11](https://www.microsoft.com/en-us/windowsforbusiness/end-of-ie-support/){:target=&quot;_blank&quot;} and [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge){:target=&quot;_blank&quot;}
+
+All of the designs meet the [WCAG 2.0 AA accessibility guidelines](http://www.w3.org/TR/WCAG20/){:target=&quot;_blank&quot;} and are compliant with [Section 508 of the Rehabilitation Act](http://www.section508.gov/){:target=&quot;_blank&quot;}.
+
+## Should I upgrade my browser?
+
+If you can upgrade your browser, you should do so. Older browsers can be:
+
+* Slower.
+* More likely to crash.
+* Unable to display current web technologies.
+* More vulnerable to viruses, spyware, malware, and other security issues.
+
+New browsers are more likely to be:
+
+* More secure.
+* Faster at loading pages.
+* Less likely to crash.
+* Able to automatically update to the latest version or notify you that an update is available.</content>
+
+    
+      <category term="Troubleshoot" />
+    
+
+    
+      <category term="troubleshoot" />
+    
+      <category term="browsers" />
+    
+      <category term="browser" />
+    
+      <category term="compatibility" />
+    
+  </entry>
+    
+  
+      
+  <entry>
+    <title type="html">Which web browsers work best with USAJOBS?</title>
     <link href="/Help/faq/troubleshoot/" rel="alternate" type="text/html" title="Which web browsers work best with USAJOBS?" />
     <published>2019-08-22T11:26:50-04:00</published>
     <updated>2019-08-22T11:26:50-04:00</updated>
@@ -7206,12 +7286,12 @@ An application status is only available if you submit your resume through USAJOB
   <entry>
     <title type="html">Work schedules</title>
     <link href="/Help/working-in-government/pay-and-leave/work-schedules/" rel="alternate" type="text/html" title="Work schedules" />
-    <published>2019-08-22T11:26:51-04:00</published>
-    <updated>2019-08-22T11:26:51-04:00</updated>
+    <published>2020-03-06T10:09:22-05:00</published>
+    <updated>2020-03-06T10:09:22-05:00</updated>
     <id>/Help/working-in-government/pay-and-leave/work-schedules/</id>
     <content type="html" xml:base="/Help/working-in-government/pay-and-leave/work-schedules/">A work schedule includes the hours of a day and the days of a work week that an employee is required to work. In the Federal Government, the work schedule is sometimes called a &quot;daily tour of duty&quot; and &quot;weekly tour of duty&quot;.
 
-Some work schedules have the same hours every day and the same days every week. Others may be flexible and change from week to week or day to day. For example, a work schedule could be Monday - Friday, from 9 am - 5 pm or Wednesday - Sunday, from 4 pm to midnight.
+Some work schedules have the same hours every day and the same days every week. Others may be flexible and change from week to week or day to day. For example, a work schedule could be Monday - Friday, from 9 a.m. - 5 p.m. or Wednesday - Sunday, from 4 p.m. to midnight.
 
 The number of hours you work each day and the days of the week you work may vary depending on the job and the agency.
 
