@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+{% include base.html %}
+  <head>
+    {% include prod-head.html %}
+  </head>
+  <body>
+    {% include components/nav-help.html %}
+    <div class="usajobs-help-center">
+      {% include components/search-banner-with-nav.html %}
+      {% include components/breadcrumbs.html %}
+      <section class="usajobs-shell usajobs-shell--large">
+        <section class="usajobs-canvas">
+          {% include components/glossary-panel.html %}
+          <div class="usajobs-help-center-article usajobs-content-gutter">
+            <main class="usajobs-content-well" id="main-content" role="main">
+              <h1>{{ page.title }}</h1>
+              <div class="usajobs-grid usajobs-grid-full">
+                <div class="usa-width-one-sixth">
+                  <img src="{{ page.imageurl }}" alt="{{ page.imageurl }} testimonial image" />
+                </div>
+                <div class="usa-width-five-sixth">
+                  {{ content }}
+                </div>
+              </div>
+            </main>
+          </div>
+        </section>
+      </section>
+    </div>
+    {% include components/footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
