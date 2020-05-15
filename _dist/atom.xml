@@ -434,6 +434,8 @@ For example, if you work for the Department of Defense and receive a Reduction i
     
   
       
+  
+      
   <entry>
     <title type="html">Do I need a college degree to qualify for a job?</title>
     <link href="/Help/faq/application/qualifications/college-degree/" rel="alternate" type="text/html" title="Do I need a college degree to qualify for a job?" />
@@ -706,6 +708,8 @@ Veterans, individuals with disabilities, many current and former federal employe
       
   
       
+  
+      
   <entry>
     <title type="html">Fair and transparent</title>
     <link href="/Help/working-in-government/fair-and-transparent/" rel="alternate" type="text/html" title="Fair and transparent" />
@@ -762,6 +766,8 @@ The Federal hiring process is setup to be fair and transparent. Please read the 
     
   </entry>
     
+  
+      
   
       
   
@@ -2883,6 +2889,37 @@ Some jobs offer relocation assistance. Go to **More Filters** and select the **O
       <category term="radius" />
     
       <category term="relocation" />
+    
+  </entry>
+    
+  
+      
+  <entry>
+    <title type="html">How to filter results by mission critical career fields</title>
+    <link href="/Help/how-to/search/filters/mission-critical-career/" rel="alternate" type="text/html" title="How to filter results by mission critical career fields" />
+    <published>2020-04-09T15:53:55-04:00</published>
+    <updated>2020-04-09T15:53:55-04:00</updated>
+    <id>/Help/how-to/search/filters/mission-critical-career/</id>
+    <content type="html" xml:base="/Help/how-to/search/filters/mission-critical-career/">You can search for jobs within a mission critical career field.  A job or career field is mission critical because they are in high demand across the Federal Government. There are a wide range of career fields that fall into this category, such as Acquisitions, Mathematics, Science, Cybersecurity and others.  [See all mission critical career fields](https://www.usajobs.gov/?c=opportunities).
+
+To filter your job search results to show only mission critical jobs:
+
+1.	Go to **More Filters**.
+2.	Scroll down to **Mission critical career field**.
+3.	Select the career field(s) you’re interested in – you can select more than one.
+
+Your search results will update automatically as you select each filter.</content>
+
+    
+      <category term="Filters" />
+    
+
+    
+      <category term="search" />
+    
+      <category term="filters" />
+    
+      <category term="mission critical" />
     
   </entry>
     
@@ -5860,6 +5897,8 @@ USAJOBS does not ask for, or keep, your Social Security Number. Only the hiring 
       
   
       
+  
+      
   <entry>
     <title type="html">The job announcement looks like it has been written with someone in mind</title>
     <link href="/Help/working-in-government/myths/job-announcement-written-for-someone/" rel="alternate" type="text/html" title="The job announcement looks like it has been written with someone in mind" />
@@ -5881,6 +5920,8 @@ USAJOBS does not ask for, or keep, your Social Security Number. Only the hiring 
     
   </entry>
     
+  
+      
   
       
   <entry>
@@ -5959,6 +6000,8 @@ A hiring authority OPM grants to agencies to fill &lt;span data-term=&quot;Compe
     
   </entry>
     
+  
+      
   
       
   
