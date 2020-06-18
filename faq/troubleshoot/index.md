@@ -14,10 +14,10 @@ tags: [troubleshoot, browsers, browser, compatibility]
 
 We support the current and prior major releases of:
 
-* [Chrome](https://www.google.com/chrome/){:target="_blank"}
-* [Firefox](http://www.mozilla.org/firefox/){:target="_blank"}
-* [Safari](http://www.apple.com/safari/){:target="_blank"}
-* Microsoft [Internet Explorer 11](https://www.microsoft.com/en-us/windowsforbusiness/end-of-ie-support/){:target="_blank"} and [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge){:target="_blank"}
+* [Google Chrome](https://www.google.com/chrome/){:target="_blank"}
+* [Mozilla Firefox](http://www.mozilla.org/firefox/){:target="_blank"}
+* [Apple Safari](http://www.apple.com/safari/){:target="_blank"}
+* [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge){:target="_blank"}
 
 All of the designs meet the [WCAG 2.0 AA accessibility guidelines](http://www.w3.org/TR/WCAG20/){:target="_blank"} and are compliant with [Section 508 of the Rehabilitation Act](http://www.section508.gov/){:target="_blank"}.
 
