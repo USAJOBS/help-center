@@ -35,7 +35,7 @@ You can make your resume searchable, so your profile and resume will be visible 
 
 ### Upload a resume or create a resume
 
-You can [upload a resume](resume/upload/) or [use our Resume Builder to build one](resume/build/). Resumes must be less than 3MB in size. You can upload in the following formats:
+You can [upload a resume](resume/upload/) or [use our Resume Builder to build one](resume/build/). Resumes can be no larger than 5MB in size. You can upload in the following formats:
 
 * GIF
 * JPG
@@ -67,4 +67,4 @@ All documents must be less than 3MB in size and in one of the following document
 
 If you make changes to a document, you'll need to upload the updated version of the file to your profile.  However, some forms can’t be edited, except for the file name or document type.
 
-[How do I upload a document that's larger than 3MB](upload/#how-do-I-upload-a-document-that's-larger-than-3MB)?
+[How do I upload a document that's larger than 5MB](upload/#how-do-I-upload-a-document-that's-larger-than-3MB)?
