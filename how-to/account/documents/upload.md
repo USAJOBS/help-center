@@ -25,7 +25,7 @@ The uploaded document will appear in your account in the **Other Documents** sec
 
 ## Document Size and Format
 
-All documents must be less than 3MB in size, cannot be encrypted and must be in one of the following formats:
+All documents must be less than 5MB in size, cannot be encrypted and must be in one of the following formats:
 
 * GIF
 * JPG
@@ -36,9 +36,9 @@ All documents must be less than 3MB in size, cannot be encrypted and must be in 
 * TXT
 * Word (.doc or .docx)
 
-### How do I upload a document that's larger than 3MB?
+### How do I upload a document that's larger than 5MB?
 
-If your document is larger than 3 MB, here are some suggestions:
+If your document is larger than 5MB, here are some suggestions:
 
 * Read Adobe’s tutorial on [how to reduce PDF file size](https://acrobatusers.com/tutorials/reducing-file-size){:target="_blank"}.
 * Print your document, scan it (if you have a personal scanner) and save it at a smaller size.
