@@ -54,7 +54,7 @@ Learn [what to include](../../../faq/application/documents/resume/what-to-includ
 
 You may need to upload forms or other documents, such as a [DD-214](../../../faq/application/documents/#dd-214), [SF-15](../../../faq/application/documents/#sf-15), [cover letters](../../../faq/application/documents/#cover-letter) or [transcripts](../../../faq/application/documents/#transcripts), as part of the application process. You can edit, delete, and upload documents.
 
-All documents must be less than 3MB in size and in one of the following document formats:
+All documents must be less than 5MB in size and in one of the following document formats:
 
 * GIF
 * JPG
