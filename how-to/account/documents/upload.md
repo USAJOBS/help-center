@@ -43,7 +43,7 @@ If your document is larger than 5MB, here are some suggestions:
 * Read Adobe’s tutorial on [how to reduce PDF file size](https://acrobatusers.com/tutorials/reducing-file-size){:target="_blank"}.
 * Print your document, scan it (if you have a personal scanner) and save it at a smaller size.
 * Use a smaller image format. Different image formats have varying sizes – JPEG files typically are the largest and PNG files are the smallest.
-* Take your document to an office supply store (i.e. Staples, FedEx Office/Kinkos) and ask them to shrink the document size for you and save it to a disk or flash drive. Make sure you tell the office tech the document can’t exceed 3MB (3,072 KB).
+* Take your document to an office supply store (i.e. Staples, FedEx Office/Kinkos) and ask them to shrink the document size for you and save it to a disk or flash drive. Make sure you tell the office tech the document can’t exceed 5MB.
 
 **Transcripts**
 
