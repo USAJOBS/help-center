@@ -39,7 +39,6 @@ We’ll never ask for personal information in the email, including your social s
 Most of our email communications include:
 
 -   Job search results
--   Application status information
 -   Saved job information
 -   Updates to usajobs.gov
 
