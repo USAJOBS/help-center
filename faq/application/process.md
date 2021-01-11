@@ -63,29 +63,29 @@ When your application is ready in USAJOBS, we’ll send you to the agency applic
 * Answering eligibility questions.
 * Completing an occupational questionnaire – look for a preview of the questions under the **Required documents** section.
 
-It may take you longer to apply to some jobs than others, because some agencies and jobs require more information than others.
+It may take you longer to apply to some jobs than others because some agencies and jobs require more information than others.
 
-After you submit your application, go back to the **Application** section of your USAJOBS account and make sure the hiring agency received your application. Your application status will say **Received** if the application went through.
+After you submit your application, go back to the **Application** section of your USAJOBS account and make sure the hiring agency received your application. Your application status will say you applied on a specific date if the application went through.
 
-You can always [check the status of your application](../../../how-to/application/status/) in your USAJOBS profile. 
+You can always [check the job status in the hiring process](../../../how-to/application/status/) in your USAJOBS profile. 
 
 ### How long will it take to receive an updated status?
 It may take a few hours, after you submit your application, for the agency to update your application status. You may also receive an email confirmation from the agency application system, but not all agencies send email confirmations.
 
 ## 7. Agency reviews application
 
-The hiring agency will start reviewing applications once the job announcement closes. The hiring agency will review your application to make sure you’re eligible and meet the job qualifications, and will place applicants into quality categories:
+The hiring agency will start reviewing applications once the job announcement closes. The hiring agency will review your application to make sure you’re eligible and meet the job qualifications, and will place qualified applicants into these categories:
 
 * Minimally qualified
 * Highest qualified
 
 The hiring agency may update your application status to **Reviewed**, but not all agencies provide this status.
 
-After the hiring agency reviews all applications, they will send the highest qualified applicants to the hiring official—these applicants will see a **Referred** status in their application status. All other applicants (not being considered) will see a **Not Referred** status.
+After the hiring agency reviews all applications, they will send the highest qualified applicants to the hiring official. The hiring agency will notify you if you are referred for an interview. 
 
 ## 8. Interview
 
-The hiring official will review the "highest qualified" applications and select applicants to interview based on agency policy. The hiring agency will contact applicants directly to schedule interviews.
+The hiring official will review the highest qualified applications and select applicants to interview based on agency policy. The hiring agency will contact applicants directly to schedule interviews.
 
 Hiring officials can interview applicants using:
 
@@ -102,7 +102,7 @@ It may take some time to schedule interviews, depending on the number of people 
 ## 9. Agency selects candidate
 
 After the agency completes all of the interviews, they will select a candidate(s) and contact them to start the job offer process.
-For those not selected, the hiring agency will update their application status to **Not Selected**.
+For those not selected, the hiring agency will update their application status to **Hiring complete**. If the hiring agency does not fill the position, the job status will update to **Job canceled**.
 
 ## 10. Job offer
 
