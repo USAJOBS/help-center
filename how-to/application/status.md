@@ -28,7 +28,7 @@ This job announcement is open and accepting applications. You can apply now.
 
 The job announcement is closed, and the hiring agency is reviewing applications.
 
-**Hiring Complete**}
+**Hiring Complete**
 
 Hiring is completed and the position is filled.
 
@@ -53,7 +53,7 @@ You can find and filter your active and archived job applications by status—th
 1.	Choose either your **Active** or **Archived** application list.
 2.	Click **Find &amp; filter applications**.
 3.	Select at least one of the status checkboxes. You can select more than one status at a time.
-4.	Review your applications list – the applications will automatically filter based on your selection.
+4.	Review your applications list—the applications will automatically filter based on your selection.
 
 * The number next to each status tells you how many of your applications have that status.
 * A brief description of each status appears if you place your cursor on top of the status (For example, place your cursor on top of Received to reveal the description).
