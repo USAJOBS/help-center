@@ -52,7 +52,7 @@ Contact the agency representative if you have questions. The contact information
 
 Read the **How to Apply** section of the job announcement before starting your application. Click **Apply** to [start your application](../../../how-to/application/)—we’ll walk you through a five-step process where you’ll attach a resume and any required documents.  
 
-During the application process you can review, edit, delete and update your information. We’ll automatically save your progress as you go, so you won’t lose any changes. [Learn how to create an application](../../../how-to/application/).
+During the application process you can review, edit, and delete your information. We’ll automatically save your progress as you go, so you won’t lose any changes. [Learn how to create an application](../../../how-to/application/).
 
 ## 6. Submit application to agency
 
@@ -61,16 +61,16 @@ When your application is ready in USAJOBS, we’ll send you to the agency applic
 * Providing more personal information.
 * Providing more documentation.
 * Answering eligibility questions.
-* Completing an occupational questionnaire – look for a preview of the questions under the **Required documents** section.
+* Completing an occupational questionnaire—look for a preview of the questions under the **Required documents** section.
 
 It may take you longer to apply to some jobs than others, because some agencies and jobs require more information than others.
 
-After you submit your application, go back to the **Application** section of your USAJOBS account and make sure the hiring agency received your application. Your application status will say **Received** if the application went through.
+After you submit your application, go back to the **Application** section of your USAJOBS account and make sure the hiring agency received your application. Your application status will say you applied with the date you submitted your application if it went through.
 
-You can always [check the status of your application](../../../how-to/application/status/) in your USAJOBS profile. 
+You can always [check the status of your application](../../../how-to/application/status/) in your USAJOBS profile with the **Track This Application** link. 
 
 ### How long will it take to receive an updated status?
-It may take a few hours, after you submit your application, for the agency to update your application status. You may also receive an email confirmation from the agency application system, but not all agencies send email confirmations.
+It may take a few hours, after you submit your application, for the agency to update your status. You may also receive an email confirmation from the agency application system, but not all agencies send email confirmations.
 
 ## 7. Agency reviews application
 
@@ -81,7 +81,7 @@ The hiring agency will start reviewing applications once the job announcement cl
 
 The hiring agency may update your application status to **Reviewed**, but not all agencies provide this status.
 
-After the hiring agency reviews all applications, they will send the highest qualified applicants to the hiring official—these applicants will see a **Referred** status in their application status. All other applicants (not being considered) will see a **Not Referred** status.
+After the hiring agency reviews all applications, they will send the highest qualified applicants to the hiring official.
 
 ## 8. Interview
 

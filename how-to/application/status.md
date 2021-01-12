@@ -9,7 +9,7 @@ tags: [application, status, tips, support-application-status]
 ---
 
 1.	Sign into USAJOBS.
-2.	Go to your **Applications**, located on your **Home** page — your active applications display automatically.
+2.	Go to your **Applications**, located on your **Home** page—your active applications display automatically.
 3.	Review your list of applications. Your applications are listed by the date they were last updated.
 4.	The job status is highlighted on each job application.
 5.	Click the **+** to see more application details.
@@ -46,7 +46,7 @@ Yes. If you [fax a resume or any other documents](../../account/documents/fax/),
 
 ## How long can you keep your applications?
 
-We will permanently remove all applications (active and archived) 36 months after the closing date, regardless of the application status. You can print the announcements or export application information to excel if you wish to keep a record of them beyond the 36-month period.
+We will permanently remove all applications (active and archived) 36 months after the closing date. You can print the announcements or export application information to excel if you wish to keep a record of them beyond the 36-month period.
 
 ## How to find and filter applications  
 
@@ -58,9 +58,6 @@ You can find and filter your active and archived job applications by status—th
 2.	Click **Find &amp; filter applications**.
 3.	Select at least one of the status checkboxes. You can select more than one status at a time.
 4.	Review your applications list—the applications will automatically filter based on your selection.
-
-* The number next to each status tells you how many of your applications have that status.
-* A brief description of each status appears if you place your cursor on top of the status (For example, place your cursor on top of Received to reveal the description).
 
 ### Finding
 
