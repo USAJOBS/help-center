@@ -49,17 +49,17 @@ Click the **+** to see more details about the job application. Each application 
 
 ### View the job or application status
 
-Each job is labeled with a status to indicate its progress through the federal application process. These statuses will tell you if the job announcement is accepting applications, reviewing applications, canceled, or if hiring is complete. [Understand the different application statuses](../status/).
+Each job is labeled with a status to indicate its progress through the federal application process. These statuses will tell you if the job announcement is accepting applications, reviewing applications, canceled, or if hiring is complete. [Understand the different job statuses](../status/).
 
 You will also see the dates you have applied or updated your application for each job announcement.
 
-### Finish or Update your application
+### Finish or edit your application
 
 Depending on the status of your job application, and if the job is still accepting applications, you may see a button to **Finish My Application** or **Edit My Application**.
 
-You may need to [continue an application](../continue/), if it’s still in progress and you haven’t submitted it yet.
+You may need to [finish an application](../continue/), if it’s still in progress and you haven’t submitted it yet.
 
-You may need to [update an application](../update/) if it was rejected as incomplete or if the job is still open and you want to add more information.
+You may need to [edit an application](../update/) if it was rejected as incomplete or if the job is still open and you want to add more information.
 
 ### Archive
 
