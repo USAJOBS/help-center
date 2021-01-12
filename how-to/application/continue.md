@@ -1,5 +1,5 @@
 ---
-permalink: /how-to/application/finish/
+permalink: /how-to/application/continue/
 layout: article
 section: how-to
 title: How to continue an application
