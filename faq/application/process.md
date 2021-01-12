@@ -40,7 +40,7 @@ You can save a search, which will save you time the next time you visit USAJOBS.
 
 ## 4. Review job announcement
 
-If you find a job you’re interested in, read the entire announcement to make sure you’re [eligible and you meet the qualifications](../eligibility/difference-from-qualifications/). For each job there are specific qualifications –your application must show how you meet the required qualifications.
+If you find a job you’re interested in, read the entire announcement to make sure you’re [eligible and you meet the qualifications](../eligibility/difference-from-qualifications/). For each job there are specific qualifications—your application must show how you meet the required qualifications.
 
 * Read the **This job is open to** section to see if you’re eligible to apply. 
 * Read the **Clarification from the agency**, or the **Who may apply** sections for further eligibility details (not all job announcements will include this information). 
@@ -79,13 +79,11 @@ The hiring agency will start reviewing applications once the job announcement cl
 * Minimally qualified
 * Highest qualified
 
-The hiring agency may update your application status to **Reviewed**, but not all agencies provide this status.
-
 After the hiring agency reviews all applications, they will send the highest qualified applicants to the hiring official.
 
 ## 8. Interview
 
-The hiring official will review the "highest qualified" applications and select applicants to interview based on agency policy. The hiring agency will contact applicants directly to schedule interviews.
+The hiring official will review the highest qualified applications and select applicants to interview based on agency policy. The hiring agency will contact applicants directly to schedule interviews.
 
 Hiring officials can interview applicants using:
 
