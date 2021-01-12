@@ -2,7 +2,7 @@
 permalink: /how-to/application/continue/
 layout: article
 section: how-to
-title: How to finish an application
+title: How to continue an application
 breadcrumb: Continue an application
 category: Application
 tags: [application, continue, apply ]
