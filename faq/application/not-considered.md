@@ -8,7 +8,7 @@ category: application
 tags: [qualifications]
 ---
 
-The hiring agency determines whether or not a job seeker meets the minimum qualifications for a job. USAJOBS displays the information and application status we receive from the hiring agency. Please contact the hiring agency that posted the job announcement if you have questions about your application status or why you were not qualified.
+The hiring agency determines whether or not a job seeker meets the minimum qualifications for a job. USAJOBS displays the information and job status we receive from the hiring agency. Please contact the hiring agency that posted the job announcement if you have questions about your application status or why you were not qualified.
 
 You can find the agency contact information at the bottom of the job announcement.
 
