@@ -36,6 +36,10 @@ Hiring is completed and the position is filled.
 
 The job announcement has been withdrawn without anyone being hired. A job announcement can be canceled any time after the job is posted.
 
+## How do you track your application?
+
+An application status is only available if you submit your resume through USAJOBS using the Apply button. We can’t track your application if you posted it directly to an agency’s website or through any other job application method outside of your USAJOBS profile (i.e. fax, email, mail, etc). You can access updates from the agency by using the **Track Your Application** link in your USAJOBS profile or [contact the staffing point of contact on the job announcement](../agency/contact/).
+
 ## Are there status delays for faxed documents?
 
 Yes. If you [fax a resume or any other documents](../../account/documents/fax/), there may be a delay between when the documents are faxed and when they appear as received on an application. If you have questions about the status of your faxed documents, [contact the hiring agency](../agency/contact/).
