@@ -74,7 +74,7 @@ It may take a few hours, after you submit your application, for the agency to up
 
 ## 7. Agency reviews application
 
-The hiring agency will start reviewing applications once the job announcement closes. The hiring agency will review your application to make sure you’re eligible and meet the job qualifications, and will place applicants into quality categories:
+The hiring agency will start reviewing applications once the job announcement closes. The hiring agency will review your application to make sure you’re eligible and meet the job qualifications, and will place qualified applicants into these categories:
 
 * Minimally qualified
 * Highest qualified
@@ -101,8 +101,7 @@ It may take some time to schedule interviews, depending on the number of people 
 
 ## 9. Agency selects candidate
 
-After the agency completes all of the interviews, they will select a candidate(s) and contact them to start the job offer process.
-For those not selected, the hiring agency will update their application status to **Not Selected**.
+After the agency completes all interviews, they will select a candidate(s) and contact them to start the job offer process. For those not selected, the hiring agency will update the job status to **Hiring complete**. If the hiring agency does not fill the position, the job status will update to **Job canceled**.
 
 ## 10. Job offer
 
