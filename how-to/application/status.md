@@ -16,7 +16,7 @@ tags: [application, status, tips, support-application-status]
 
 You can also [find and filter your applications](#how-to-find-and-filter-applications).
 
-## What does each application status mean?
+## What does each job status mean?
 
 Each status tells you where the job is in the hiring process—whether a hiring agency is accepting applications, referring applications, hiring complete, or canceled.
 
