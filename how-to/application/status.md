@@ -8,37 +8,51 @@ section: how-to
 tags: [application, status, tips, support-application-status]
 ---
 
-1.	Sign into USAJOBS.
-2.	Go to your **Applications**, located on your **Home** page—your active applications display automatically.
-3.	Review your list of applications. Your applications are listed by the date they were last updated.
-4.	The job status is highlighted on each job application.
+## Why do I see a job status instead of an application status? 
+We are now displaying a [job status](#what-is-a-job-status) on your application dashboard instead of the individual application status. This change provides the most accurate information about a job for which you applied or started an application.
+
+After you apply for a job, the hiring agency is responsible for providing the status of your application (for example, “application received” or “referred”). You can check your application status by clicking the Track my application link for each application. The hiring agency will also continue to send you emails with updates on your application. 
+
+## How do I see my application status? 
+
+1.	Sign into your USAJOBS profile.
+2.	Go to your **Applications** located on your **Home** page—your active applications display automatically by the date they were last updated.
+3.	Review your list of applications.  The job status is highlighted for each application. 
+4.	Click **Track this application** to view your application status. The link will take you to the hiring agency application system, which has the most up-to-date status of your application. 
 5.	Click the **+** to see more application details.
 
 You can also [find and filter your applications](#how-to-find-and-filter-applications).
 
-## What does each job status mean?
+## What if I don’t see the link to track the application?
+If you don't see the **Track this application** link, [contact the agency point of contact on the job announcement](../agency/contact/).
 
-Each status tells you where the job is in the hiring process—whether a hiring agency is accepting applications, referring applications, hiring complete, or canceled.
+An "application status" is only available if you submit your resume through USAJOBS using the **Apply** button. We can't track your application if you submitted it to an agency website or any other method such as fax, email, or mail.
 
-**Accepting Applications**
+## What is a job status?
+
+A job status tells you where the job is in the hiring process—whether a hiring agency is accepting applications, reviewing applications, has completed the hiring process, or canceled the job.
+
+**Accepting applications**
 
 This job announcement is open and accepting applications. You can apply now.
 
-**Reviewing Applications**
+**Reviewing applications**
 
-The job announcement is closed, and the hiring agency is reviewing applications.
+The job announcement is closed, and the hiring agency is reviewing applications. This status will display until the hiring process is complete. If you want to see more details about your application status, click **Track this application**.
 
-**Hiring Complete**
+**Hiring complete**
 
 Hiring is completed and the position is filled.
 
-**Job Canceled**
+NOTE: Currently, you will see **Reviewing applications** even if the hiring is complete. The hiring agencies are responsible for marking a position as "Hiring complete" in their application systems for this status to appear on USAJOBS. The hiring agencies are updating their application systems to show the "Hiring complete" status in mid-2021. 
 
-The job announcement has been withdrawn without anyone being hired. A job announcement can be canceled any time after the job is posted.
+**Job canceled**
+
+The agency withdrew the job announcement and did not hire anyone. An agency can cancel a job announcement any time after they post a job.
 
 ## How do you track your application?
 
-An application status is only available if you submit your resume through USAJOBS using the Apply button. We can’t track your application if you posted it directly to an agency’s website or through any other job application method outside of your USAJOBS profile (i.e. fax, email, mail, etc). You can access updates from the agency by using the **Track Your Application** link in your USAJOBS profile or [contact the staffing point of contact on the job announcement](../agency/contact/).
+An application status is only available if you submit your resume through USAJOBS using the Apply button. We can’t track your application if you posted it directly to an agency’s website or through any other job application method outside of your USAJOBS profile (i.e. fax, email, mail, etc). You can access updates from the agency by using the **Track Your application** link in your USAJOBS profile or [contact the staffing point of contact on the job announcement](../agency/contact/).
 
 ## Are there status delays for faxed documents?
 
@@ -68,4 +82,4 @@ You can find and filter your active and archived job applications by status—th
 
 ## Have questions about the job status?
 
-The hiring agency sends the status to USAJOBS. USAJOBS does not have any control over the status or lack of a status. You can access updates from the agency by using the **Track Your Application** link in your USAJOBS profile or [contact the staffing point of contact on the job announcement](../agency/contact/).
+The hiring agency sends the status to USAJOBS. USAJOBS does not have any control over the status or lack of a status. You can access updates from the agency by using the **Track Your application** link in your USAJOBS profile or [contact the agency point of contact on the job announcement](../agency/contact/).
