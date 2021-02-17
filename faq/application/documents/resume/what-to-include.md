@@ -107,7 +107,6 @@ Check your resume for spelling and grammatical errors and have someone else, wit
 
 ## Additional resources
 
-* [What should I include in my federal resume?](../../../../../faq/application/documents/resume/what-to-include/)
-* [What should I leave out of my resume?)](../../../../../faq/application/documents/resume/what-to-leave-out/)
+* [What should I leave out of my resume?](../../../../../faq/application/documents/resume/what-to-leave-out/)
 * [How to build a resume](../../../../../how-to/account/documents/resume/build/)
 * [How to create a resume](../../../../../how-to/account/documents/resume/)
