@@ -11,7 +11,7 @@ tags: [application, status, tips, support-application-status]
 ## Why do I see a job status instead of an application status? 
 We are now displaying a [job status](#what-is-a-job-status) on your application dashboard instead of the individual application status. This change provides you with the most accurate information about your job applications.
 
-After you apply for a job, the hiring agency is responsible for providing the status of your application (for example, application received or referred). You can check your application status by clicking the **Track this application** link for each application. Some hiring agencies will also continue to send you emails with updates on your application. 
+After you apply for a job, the hiring agency is responsible for providing the status of your application (for example, application received or referred). You can check your application status by clicking the **Track this application** link for each application. The hiring agency may also send you emails with updates on your application. 
 
 ## How do I see my application status? 
 
