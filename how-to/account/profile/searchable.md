@@ -10,15 +10,15 @@ tags: [account, documents, resume, profile, mining, searchable, support-resume]
 To make your resume searchable:
 
 1. Sign into USAJOBS and go to your **Profile**.
-2. Go to **Documents**–your resumes will appear in your **Documents**.
+2. Go to **Documents**—your resumes will appear in your **Documents**.
 3. Click the **Searchable** checkbox on the resume you want to make searchable—if your profile is complete, it will become searchable too.
 
-If you want to remove your resume from the Resume Mining collection, deselect the **Searchable** checkbox.
+If you want to remove your resume from the resume bank, deselect the **Searchable** checkbox.
 
 Keep in mind:
 
 * You can only make one resume searchable at a time.
-* Only certain formats are searchable including Word, text based pdfs, text files and resumes created using our Resume Builder tool.
+* Only certain formats are searchable including Word, text-based PDF, text files and resumes created using our Resume Builder tool.
 * Your resume will only remain searchable for 18 months unless it is renewed.
 * Your profile will be searchable too, if it’s complete.
 
