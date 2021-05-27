@@ -23,7 +23,7 @@ Keep in mind:
 * Your profile will be searchable too, if it’s complete.
 
 ## Why make my resume and profile searchable?
-Making your resume searchable adds it to the USAJOBS Resume Mining collection. HR specialists and hiring managers from federal agencies use resume mining to look for people (with a searchable resume in their USAJOBS profile) to fill their job vacancies. 
+Making your resume searchable adds it to the USAJOBS resume bank. HR specialists and hiring managers from federal agencies use the resume bank to look for people (with a searchable resume in their USAJOBS profile) to fill their job vacancies. 
 
 Plus, when your resume is searchable and you have completed your profile, your profile is searchable too.
 
